@@ -1031,7 +1031,7 @@ Unless otherwise stated, original software, source code, scripts, computational 
 
 See:
 
-`LICENSES/Apache-2.0.txt`
+`Apache-2.0.txt`
 
 SPDX identifier:
 
@@ -1047,7 +1047,7 @@ Unless otherwise stated, original non-software scientific texts, research docume
 
 See:
 
-`LICENSES/CC-BY-4.0.txt`
+`CC-BY-4.0.txt`
 
 and:
 
