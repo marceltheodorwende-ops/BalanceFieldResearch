@@ -1,0 +1,38 @@
+Creative Commons Attribution 4.0 International — CC BY 4.0
+
+Copyright © 2026 Marcel Theodor Wende
+
+Unless otherwise stated, original non-software research materials authored by Marcel Theodor Wende in the Balance Field Research repository are licensed under the Creative Commons Attribution 4.0 International License.
+
+This includes, where applicable:
+
+* scientific manuscripts
+* theoretical documentation
+* methodological documentation
+* research notes
+* original diagrams
+* original figures
+* original tables
+* Balance–Field Framework (BFG) research documentation
+
+License:
+
+https://creativecommons.org/licenses/by/4.0/
+
+Legal Code:
+
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+SPDX-License-Identifier: CC-BY-4.0
+
+Required attribution should identify:
+
+Marcel Theodor Wende
+Balance Field Research
+Balance–Field Framework (BFG)
+
+Where licensed material is modified, the changes must be indicated in accordance with CC BY 4.0.
+
+Third-party materials, collaborator materials, externally authored content, datasets, quotations, and other material for which Marcel Theodor Wende does not hold the necessary licensing rights are not automatically covered by this license and remain subject to their original terms.
+
+File-specific licensing notices take precedence where explicitly stated.
