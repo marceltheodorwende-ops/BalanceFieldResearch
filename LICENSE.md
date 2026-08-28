@@ -26,7 +26,7 @@ This includes, where applicable:
 
 The full Apache License 2.0 text is provided at:
 
-`LICENSES/Apache-2.0.txt`
+`Apache-2.0.txt`
 
 SPDX-License-Identifier:
 
@@ -59,7 +59,7 @@ This includes, where applicable:
 
 Licensing information is provided at:
 
-`LICENSES/CC-BY-4.0.txt`
+`CC-BY-4.0.txt`
 
 SPDX-License-Identifier:
 
