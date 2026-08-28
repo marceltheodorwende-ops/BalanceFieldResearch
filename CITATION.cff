@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+
+message: >-
+  If you use the Balance–Field Framework (BFG) or material from
+  Balance Field Research, please cite this repository and the
+  relevant individual BFG publication where applicable.
+
+title: "Balance Field Research"
+
+authors:
+  - family-names: "Wende"
+    given-names: "Marcel Theodor"
+    orcid: "https://orcid.org/0009-0007-4028-2208"
+
+abstract: >-
+  Balance Field Research is the research repository for the
+  Balance–Field Framework (BFG), including its formal development,
+  recursive closure architecture, order parameter, simulations,
+  methodological audit, falsification framework, and empirical
+  research program.
+
+keywords:
+  - "Balance–Field Framework"
+  - "BFG"
+  - "recursive closure"
+  - "neutral mediation"
+  - "order parameter"
+  - "falsifiability"
+  - "no-retuning"
+  - "cross-domain research"
+
+repository-code: "https://github.com/marceltheodorwende-ops/BalanceFieldResearch"
+
+preferred-citation:
+  type: generic
+  authors:
+    - family-names: "Wende"
+      given-names: "Marcel Theodor"
+      orcid: "https://orcid.org/0009-0007-4028-2208"
+
+  title: "Balance–Field Framework (BFG): Balance Field Research"
+  year: 2026
+  url: "https://github.com/marceltheodorwende-ops/BalanceFieldResearch"
