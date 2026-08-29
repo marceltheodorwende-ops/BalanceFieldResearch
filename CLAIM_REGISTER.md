@@ -761,6 +761,412 @@ The carrier-level claim is weakened if matched alternatives such as 1:2, 3:4, ot
 
 ---
 
+## BFG-CR-026 — Trinity–Order Compatibility Bridge
+
+Claim
+
+A role-preserving trinitarian BFG closure may be coupled to the domain Order Parameter Φ through a frozen readout map ΩΦ such that admissible scale transport preserves the preregistered order regime within declared tolerance, while disruption of the neutral mediator N produces a measurable loss in Trinity–Order admissibility.
+
+Status
+
+Ansatz-Level Construction + Conditional Theorem-Level Candidate + Empirical Hypothesis
+
+Current Decision
+
+Open
+
+Source Basis
+
+This claim connects previously registered BFG structures:
+
+- BFG-CR-004 — Neutral Mediation
+- BFG-CR-008 — Recursive Boundedness
+- BFG-CR-010 — BFG Order Parameter Φ
+- BFG-CR-011 — Domain Order Parameter
+- BFG-CR-015 — Differentiation / Non-Collapse
+- BFG-CR-017 — Cross-Domain Invariant Candidate
+- BFG-CR-019 — Distinguishability-Preserving Transport
+- BFG-CR-020 — No-Retuning Transfer
+
+The explicit Trinity–Order bridge is developed in:
+
+Trinitarian Order Invariance in the Balance–Field Framework (BFG):
+Coupling Neutral-Mediated Recursive Closure to the Dimensionless Order Parameter Φ Across Scale and Domain
+
+Whitepaper v1.0, 2026.
+
+The bridge construction is new and has not yet received external empirical confirmation.
+
+BFG Roles
+
+P1 = first distinguishable complementary pole role
+
+P2 = second distinguishable complementary pole role
+
+N = neutral load-bearing mediator
+
+K = stable mediated configuration
+
+C = recursive closure
+
+A = attractor persistence
+
+Eout / Γ = regulated export
+
+SA = closure-positive selection where explicitly used
+
+TA = admissible transport
+
+F = falsification gate
+
+Core Order Parameter
+
+Φ = (Eexp · I) ÷ (Ebind · I0)
+
+Domain form:
+
+Φd = (Eexp,d · Id) ÷ (Ebind,d · I0,d)
+
+where:
+
+- Eexp = expansive, differentiating, dispersive, or destabilizing contribution,
+- Ebind = binding, stabilizing, constraining, or structure-preserving contribution,
+- I = structured information participating in closure,
+- I0 = reference information scale.
+
+Dimensional Status
+
+[Φ] = 1
+
+and, for every domain-specific implementation:
+
+[Eexp] = [Ebind]
+
+[I] = [I0]
+
+with all quantities required to remain operationally well-defined and positive where required by the Order Parameter.
+
+Trinitarian State
+
+Define the domain- and scale-indexed trinitarian state:
+
+T(d,λ) = (P1,d,λ, P2,d,λ, Nd,λ, Kd,λ, Cd,λ, Ad,λ, Eout,d,λ)
+
+Status of this expression:
+
+Ansatz-Level Construction.
+
+Trinity–Order Readout
+
+Define:
+
+ΩΦ[T(d,λ)] = Φd,λ
+
+with:
+
+Φd,λ = (Eexp,d,λ · Id,λ) ÷ (Ebind,d,λ · I0,d,λ)
+
+ΩΦ does not define a new Order Parameter.
+
+It is a readout map from the trinitarian closure state into the existing BFG Order Parameter.
+
+Status:
+
+Ansatz-Level Construction.
+
+Scale Transport
+
+Let:
+
+Gλ1→λ2 : T(d,λ1) → T(d,λ2)
+
+represent an admissible transport of the trinitarian closure state between scales.
+
+Let:
+
+Rλ1→λ2 : Φd,λ1 → Φd,λ2
+
+represent the declared BFG Order Parameter scale map.
+
+The Trinity–Order compatibility condition is:
+
+ΩΦ ∘ Gλ1→λ2 ≈ Rλ1→λ2 ∘ ΩΦ
+
+Status:
+
+Ansatz-Level Compatibility Condition.
+
+Commutation Defect
+
+Define:
+
+εcomm(d;λ1,λ2)
+=
+|ln ΩΦ(Gλ1→λ2[T]) − ln Rλ1→λ2(ΩΦ[T])|
+
+with:
+
+εcomm ≥ 0.
+
+Because Φ is dimensionless and positive, εcomm is dimensionless.
+
+Exact compatibility corresponds to:
+
+εcomm = 0
+
+Empirical approximate compatibility requires a preregistered tolerance:
+
+εcomm ≤ εG
+
+where εG must be frozen before target evaluation.
+
+Status:
+
+Mathematical Definition.
+
+Order-Regime Preservation
+
+Weak scale-regime compatibility requires:
+
+sgn(Φd,λ1 − 1)
+=
+sgn(Φd,λ2 − 1)
+
+under the declared admissible scale transformation.
+
+A stronger sufficient form is:
+
+Φd,λ2 = fλ(Φd,λ1)
+
+with:
+
+fλ strictly increasing
+
+and:
+
+fλ(1) = 1.
+
+Exact equality of Φ across scales is not required.
+
+The invariant target is regime structure, not identical numerical value.
+
+Conditional Theorem-Level Candidate
+
+If:
+
+1. the trinitarian role structure remains operationally distinguishable under G,
+2. N remains load-bearing,
+3. ΩΦ is defined before target inspection,
+4. Φ remains positive and dimensionless,
+5. the scale map R is monotone and preserves the fixed point Φ = 1,
+6. the Trinity–Order diagram commutes exactly or within a preregistered tolerance,
+7. recursive boundedness and non-collapse remain satisfied,
+8. relevant distinctions survive admissible transport,
+9. and no definitions, thresholds, operators, or decision rules are retuned after target inspection,
+
+then the tested trinitarian BFG closure is classified as Trinity–Order scale-compatible on the declared scale family.
+
+This is a conditional theorem-level candidate inside the declared assumptions.
+
+It is not an empirical proof that all natural systems satisfy those assumptions.
+
+Robust Approximate Regime Condition
+
+Let:
+
+χR = ln Rλ1→λ2(ΩΦ[T])
+
+and:
+
+χG = ln ΩΦ(Gλ1→λ2[T]).
+
+If:
+
+εcomm = |χG − χR| < |χR|
+
+then:
+
+sgn(χG) = sgn(χR).
+
+This provides a sufficient margin condition preventing approximate Trinity–Order mismatch from reversing the predicted Order Parameter regime.
+
+Status:
+
+Conditional Mathematical Lemma.
+
+Mediator–Order Load Witness
+
+For a balanced-mode carrier define:
+
+DΦ = |ln Φ|.
+
+Then define:
+
+WNΦ = DΦ(N → 0) − DΦ(Nfull)
+
+or the corresponding preregistered mode-specific corridor-distance difference.
+
+A positive mediator-support condition requires:
+
+WNΦ > δN
+
+where δN is fixed before target inspection.
+
+This witness is not sufficient by itself.
+
+Mediator support should also produce a preregistered loss in at least one independent closure, persistence, recursive, differentiation, or transport readout.
+
+Status:
+
+Ansatz-Level Empirical Readout.
+
+Positive Support Conditions
+
+BFG-CR-026 receives candidate-positive empirical support for a declared carrier only if the frozen protocol shows all required conditions, including:
+
+- the full Trinity–Order model satisfies the preregistered primary endpoint,
+- Φ or Φd remains inside the declared carrier-appropriate regime or corridor,
+- εcomm remains within the preregistered compatibility tolerance,
+- the full mediated model exceeds the strongest matched null by the preregistered margin,
+- mediator removal, shuffle, or replacement produces the preregistered loss,
+- recursive boundedness is not achieved through collapse,
+- relevant differentiation remains preserved,
+- held-out evaluation succeeds,
+- and the result is obtained without post-hoc retuning.
+
+A positive result under these conditions supports:
+
+Trinity–Order compatibility for the tested carrier and scale family.
+
+It does not establish universal empirical confirmation.
+
+Null Models
+
+Required null families should include, where applicable:
+
+- direct dyadic P1–P2 model,
+- aggregate model,
+- mediator-shuffled model,
+- mediator-replacement model,
+- no-mediator model,
+- redescription-only model,
+- simpler recursive controller,
+- domain-standard baseline,
+- scale-shuffled control,
+- and retuning-detection control.
+
+A null model should be capacity-matched where practical.
+
+Primary Ablations
+
+N → 0
+
+N → shuffle(N)
+
+N → matched replacement
+
+Eout → 0
+
+recursive-closure ablation where applicable
+
+differentiation / non-collapse ablation where applicable
+
+Primary Falsification / Downgrade Conditions
+
+The claim is weakened or restricted for a tested carrier if:
+
+- N removal produces no meaningful preregistered loss,
+- N shuffling preserves the relevant performance,
+- a capacity-matched dyadic model performs equally well or better,
+- Φ or Φd does not distinguish the declared persistent regime from matched controls,
+- Trinity transport and Order Parameter transport exceed the preregistered εcomm tolerance,
+- the predicted Order Parameter regime changes under a scale transformation for which preservation was preregistered,
+- recursive boundedness is achieved only through collapse or loss of differentiation,
+- relevant distinctions are not preserved under transport,
+- or post-hoc retuning is required to recover compatibility.
+
+Cross-Domain Failure Boundary
+
+The stronger cross-domain interpretation is weakened if the bridge succeeds only after redefining:
+
+- P1,
+- P2,
+- N,
+- ΩΦ,
+- Eexp,
+- Ebind,
+- I,
+- I0,
+- scale-map family,
+- thresholds,
+- primary endpoint,
+- or decision rules
+
+after inspection of each target domain.
+
+No-Retuning Requirement
+
+The carrier may change.
+
+The scale may change.
+
+Domain-specific physical observables may change only according to a mapping rule declared before target evaluation.
+
+The abstract role grammar, Order Parameter definition, bridge logic, primary decision structure, and declared transfer rule must remain frozen.
+
+Interpretation Boundary
+
+BFG-CR-026 does not claim:
+
+- that every natural system realizes a trinitarian BFG closure,
+- that Φ must have the same numerical value at every scale,
+- that the same physical mediator exists in every domain,
+- that N is automatically identical to I0,
+- that formal compatibility proves empirical universality,
+- or that one successful carrier confirms BFG as a universal natural law.
+
+The operational hypothesis must be tested before stronger carrier or ontological interpretation.
+
+Current Empirical Status
+
+Open.
+
+The formal bridge is defined.
+
+Synthetic demonstrations have been produced.
+
+External measured-data validation of the joint Trinity–Order bridge has not yet been completed.
+
+Required Next Test
+
+A preregistered external measured-data carrier test including:
+
+- frozen Trinity role mapping,
+- frozen Φ operationalization,
+- positive and negative carrier states where available,
+- matched null models,
+- mediator ablation or natural mediator disruption,
+- scale transfer,
+- held-out evaluation,
+- no-retuning,
+- and explicit positive as well as negative decision criteria.
+
+Failure-Ledger Link
+
+None.
+
+No empirical failure of BFG-CR-026 has yet been registered.
+
+Version
+
+1.0
+
+Date
+
+2026-08-29
+
+* * *
+
 # 11. Claim Decision States
 
 Each registered claim may receive one of the following decision states:
