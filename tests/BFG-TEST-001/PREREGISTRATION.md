@@ -1966,7 +1966,405 @@ This record will later become part of the BFG-TEST-001 Data Manifest.
 
 **No confirmatory target evaluation has yet occurred.**
 
-**Version:** 0.6-draft
+---
+
+## Data Acquisition, Integrity & Manifest Freeze
+
+### Purpose
+
+This section freezes the acquisition, integrity-verification, raw-data preservation, and provenance rules for BFG-TEST-001 before numerical BFG analysis begins.
+
+Data acquisition itself does not constitute target-result inspection.
+
+Downloaded challenge archives must remain outcome-blind until the confirmatory protocol authorizes their evaluation.
+
+---
+
+## Primary External Dataset
+
+Dataset:
+
+**Aventa AV-7 ETH Zurich Research Wind Turbine SCADA and high frequency Structural Health Monitoring (SHM) data**
+
+Version:
+
+**v6**
+
+DOI:
+
+**10.5281/zenodo.8229750**
+
+The following four upstream archives are the authoritative primary carrier files.
+
+### Normal Operation
+
+Filename:
+
+`aventa_normal_operation_for_system_identification.zip`
+
+Published size:
+
+**6.8 GB**
+
+Published MD5:
+
+`407114000b3c39a92e3a0cd8d73cc5af`
+
+Role:
+
+**Normal Operation source / future Calibration A, Calibration B, and Positive Holdout**
+
+---
+
+### Collective Pitch-System Mechanical Failure
+
+Filename:
+
+`aventa_failure_flexible_coupling_of_collective_pitch_drive.zip`
+
+Published size:
+
+**17.6 GB**
+
+Published MD5:
+
+`87a74879cbefabbc649ebca0c4003113`
+
+Role:
+
+**Locked Challenge Arm 1**
+
+---
+
+### Aerodynamic Imbalance
+
+Filename:
+
+`aventa_blade_aerodynamic_imbalance.zip`
+
+Published size:
+
+**17.1 GB**
+
+Published MD5:
+
+`1a1fa895fbf3536a0dad4ff1e818390c`
+
+Role:
+
+**Locked Challenge Arm 2**
+
+---
+
+### Rotor Icing
+
+Filename:
+
+`aventa_rotor_icing.zip`
+
+Published size:
+
+**7.7 GB**
+
+Published MD5:
+
+`87e8a2654cf524b72f5859f5c6c53089`
+
+Role:
+
+**Locked Challenge Arm 3**
+
+---
+
+## Supplementary SCADA Dataset
+
+Dataset:
+
+**Aventa AV-7 (6kW) IET-OST Research Wind Turbine SCADA**
+
+Version:
+
+**v2**
+
+DOI:
+
+**10.5281/zenodo.15700928**
+
+Primary time-series file:
+
+`Aventa_AV7_IET_OST_SCADA.csv`
+
+Published size:
+
+**3.1 GB**
+
+Published MD5:
+
+`0434ccfb5a05f91225796063942538f5`
+
+Associated metadata files:
+
+`Aventa_AV_7_IET_OST_WT_metadata.json`
+
+Published MD5:
+
+`53869da8ceea9e4fe7fa8441637f91a1`
+
+`SCADA_Channels_Metadata.csv`
+
+Published MD5:
+
+`470954defe72e3df328c4ce06190e3eb`
+
+`turbine_status_mapping.json`
+
+Published MD5:
+
+`79847877526bb28018f072a0ba39b1ec`
+
+The supplementary source remains subject to the previously frozen merge gate.
+
+Acquisition does not authorize cross-dataset merging.
+
+---
+
+## Raw-Data Immutability Rule
+
+Every upstream file must be preserved byte-for-byte after download.
+
+The original files must not be:
+
+- renamed without provenance recording,
+- recompressed,
+- edited,
+- converted,
+- normalized,
+- truncated,
+- repaired,
+- or overwritten.
+
+All transformed data must be written to a separate processed-data location.
+
+The raw source is immutable.
+
+---
+
+## Integrity Verification
+
+Two integrity layers are required.
+
+### Layer 1 — Upstream MD5
+
+The locally downloaded file must reproduce the MD5 published by Zenodo.
+
+A mismatch means:
+
+**ACQUISITION INTEGRITY FAILURE**
+
+The affected file must not be used.
+
+The file must be downloaded again from the authoritative record.
+
+### Layer 2 — Local SHA-256
+
+After a successful MD5 check, a SHA-256 hash will be computed locally for every acquired source file.
+
+The SHA-256 becomes the BFG-TEST-001 local provenance fingerprint.
+
+Both values must be retained:
+
+- upstream MD5,
+- local SHA-256.
+
+---
+
+## Raw Challenge Seal
+
+The three Challenge Arm archives may be:
+
+- downloaded,
+- byte-counted,
+- checksummed,
+- and inventoried.
+
+They must not yet be used for:
+
+- plotting,
+- descriptive outcome statistics,
+- BFG estimator construction,
+- feature selection,
+- threshold selection,
+- spectral-band selection,
+- Φ construction,
+- mediator optimization,
+- or model tuning.
+
+Reading archive filenames and metadata structures remains permitted.
+
+Signal-value evaluation remains locked.
+
+---
+
+## Normal-Operation Access Boundary
+
+The Normal Operation archive may initially be inspected only for:
+
+- archive structure,
+- metadata,
+- acquisition-unit identifiers,
+- timestamps,
+- duration,
+- sampling metadata,
+- and information required to execute the already frozen temporal partition.
+
+Signal-value analysis begins only after partition membership has been assigned.
+
+After partitioning:
+
+- Calibration A may be opened under its declared permissions,
+- Calibration B remains restricted to its declared calibration function,
+- Positive Holdout remains locked.
+
+---
+
+## Supplementary SCADA Access Boundary
+
+The supplementary metadata files may be inspected immediately.
+
+The large supplementary SCADA time series may initially be inspected only for:
+
+- timestamp coverage,
+- timestamp format,
+- channel presence,
+- physical units,
+- missing timestamp structure,
+- and exact carrier-alignment verification.
+
+Target-dependent BFG interpretation is prohibited.
+
+The PitchDeg signal must not be evaluated against fault labels before the merge and operationalization gates are frozen.
+
+---
+
+## Data Manifest Requirement
+
+Every acquired file must receive a Data Manifest entry containing at minimum:
+
+`dataset_id`
+
+`dataset_version`
+
+`doi`
+
+`source_role`
+
+`original_filename`
+
+`published_size`
+
+`upstream_md5`
+
+`local_md5`
+
+`local_sha256`
+
+`integrity_status`
+
+`download_date`
+
+`raw_path`
+
+`processing_status`
+
+`partition_status`
+
+`access_class`
+
+`notes`
+
+No file lacking a successful integrity record may enter confirmatory processing.
+
+---
+
+## Processing Separation
+
+The local data workspace must contain logically distinct locations for:
+
+`raw`
+
+`metadata`
+
+`processed`
+
+`manifests`
+
+`logs`
+
+Raw files are never modified in place.
+
+Processed outputs must be reproducible from:
+
+**raw input + frozen configuration + versioned code**
+
+---
+
+## Data Redistribution Boundary
+
+The authoritative public scientific repositories remain the external source of the raw carrier data.
+
+BFG-TEST-001 does not require the large upstream carrier files to be committed to the BalanceFieldResearch Git repository.
+
+The Git repository should contain:
+
+- provenance records,
+- checksums,
+- manifests,
+- frozen configurations,
+- analysis code,
+- null-model code,
+- result summaries,
+- and reproducibility documentation.
+
+Raw upstream data remain externally sourced unless redistribution rights and repository policy are separately verified.
+
+---
+
+## Acquisition Failure Gate
+
+Data acquisition is classified as failed or incomplete if:
+
+- an upstream MD5 cannot be reproduced,
+- an archive is corrupted,
+- an authoritative source file cannot be identified,
+- dataset version cannot be verified,
+- essential metadata are missing,
+- or provenance cannot be reconstructed.
+
+Such a failure is a data-layer failure.
+
+It is not a positive or negative empirical BFG result.
+
+---
+
+## Current Data Decision
+
+**Authoritative upstream datasets identified.**
+
+**Dataset versions frozen.**
+
+**Authoritative filenames frozen.**
+
+**Published MD5 fingerprints frozen.**
+
+**Raw-data immutability rule frozen.**
+
+**Local SHA-256 requirement frozen.**
+
+**Challenge signal-value inspection remains locked.**
+
+**No BFG outcome has yet been evaluated.**
+
+**Version:** 0.7-draft
 
 **Date:** 2026-08-29
 
