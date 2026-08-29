@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# BFG empirical carrier data — local only
+tests/BFG-TEST-001/data/raw/
+tests/BFG-TEST-001/data/processed/
+
+# Large external carrier formats
+*.h5
+*.hdf5
