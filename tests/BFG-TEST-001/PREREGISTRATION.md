@@ -865,7 +865,548 @@ It does not mean that the BFG mediator hypothesis has been confirmed.
 
 **No positive or negative BFG result evaluated.**
 
-**Version:** 0.4-draft
+---
+
+## Candidate Role Mapping v0.1 — Functional Freeze
+
+### Purpose
+
+This section freezes the primary functional BFG role mapping for the Aventa AV-7 carrier before target-result inspection.
+
+The mapping is based on:
+
+- externally documented turbine architecture,
+- physical signal function,
+- sensor metadata,
+- dimensional role,
+- and the declared BFG grammar.
+
+It is not based on:
+
+- fault-versus-normal separation,
+- classification accuracy,
+- anomaly magnitude,
+- feature importance,
+- observed Φ values,
+- or preferred BFG outcomes.
+
+---
+
+### Functional Carrier Path
+
+The primary physical carrier path is defined as:
+
+**External aerodynamic forcing
+→ collective pitch-mediated aerodynamic coupling
+→ rotor/drivetrain dynamical response
+→ electrical power export**
+
+This physical sequence is used only to define candidate BFG roles.
+
+It is not itself evidence that BFG is correct.
+
+---
+
+## Primary BFG Role Mapping
+
+### P1 — External Aerodynamic Forcing State
+
+**Functional definition**
+
+P1 represents the externally imposed aerodynamic forcing acting on the turbine.
+
+Primary raw measurement family:
+
+**WindSpeed**
+
+Secondary contextual measurement:
+
+**offsetWindDirection / nacelle-relative wind orientation**
+
+where available and temporally compatible.
+
+Primary P1 identity:
+
+**external wind forcing**
+
+P1 is not defined by fault labels.
+
+P1 is not selected according to classification performance.
+
+---
+
+### P2 — Rotor / Drivetrain Dynamical Response State
+
+**Functional definition**
+
+P2 represents the internal rotor/drivetrain response generated under aerodynamic forcing and turbine regulation.
+
+Primary raw measurement:
+
+**RotorSpeed**
+
+Primary P2 identity:
+
+**rotational response of the turbine rotor/drivetrain**
+
+RotorSpeed is selected from the physical carrier architecture before target inspection.
+
+PowerOutput is not used as the primary P2 variable.
+
+GeneratorSpeed is not used as the primary P2 variable.
+
+---
+
+### P1–P2 Complementarity Boundary
+
+The functional polarity is therefore:
+
+**P1 = external aerodynamic forcing**
+
+versus
+
+**P2 = internal rotational response**
+
+The polarity is not interpreted as antagonism in a semantic sense.
+
+It is a physically distinguishable input–response relation whose admissibility may be mediated by the turbine control architecture.
+
+The BFG claim requires that the relation remain non-collapsed and non-fragmented under the declared operational definitions.
+
+---
+
+### N — Collective Pitch Mediation State
+
+The primary mediator candidate is:
+
+**collective pitch regulation**
+
+Direct measured control-state candidate:
+
+**PitchDeg**
+
+However:
+
+**N is not defined as identical to PitchDeg.**
+
+PitchDeg is a directly measured physical component of the candidate mediator state.
+
+The BFG mediator role refers to the functional regulation of the relation between external aerodynamic forcing and rotor/drivetrain response.
+
+The later operational N estimator must therefore test whether pitch-mediated information adds functional explanatory or stabilizing value beyond direct P1–P2 coupling.
+
+---
+
+### Mediator Functional Requirement
+
+The primary mediator hypothesis is:
+
+**Collective pitch regulation contributes load-bearing information or regulation to the relation between P1 and P2.**
+
+This hypothesis receives support only if the frozen full model outperforms:
+
+- a direct P1–P2 model,
+- a no-N model,
+- an N-shuffled model,
+- and a matched N-replacement model
+
+according to the later preregistered primary endpoint.
+
+The presence of PitchDeg alone is not evidence for mediation.
+
+---
+
+### Direct-Mediator Alignment Failure Rule
+
+Use of PitchDeg as the primary direct mediator measurement requires verified temporal and carrier compatibility between the supplementary SCADA source and the primary fault dataset.
+
+If that compatibility cannot be established:
+
+**the direct-N confirmatory component of BFG-TEST-001 is classified as Operationalization Failed / Suspended.**
+
+A different N variable must not be substituted after outcome inspection.
+
+A latent or reconstructed mediator would require a separately declared preregistration or explicitly exploratory analysis.
+
+---
+
+### K — Stable Operating Configuration
+
+K represents the joint carrier configuration formed by the declared roles.
+
+At the functional level:
+
+**K = configuration(P1, N, P2, Eout)**
+
+The numerical state representation of K is not yet frozen.
+
+No outcome-derived weights or features are authorized at this stage.
+
+---
+
+### C — Recursive Closure
+
+C represents temporal recursive persistence of K.
+
+The primary functional requirement is:
+
+**the operating configuration must exhibit measurable return, retention, or bounded recursive continuation across time.**
+
+The specific RC estimator is not yet frozen.
+
+Recursive closure must later be compared with:
+
+- no-memory,
+- feed-forward,
+- autoregressive,
+- and simpler recurrence controls
+
+where applicable.
+
+---
+
+### A — Operating Attractor
+
+A represents a persistent operating regime associated with stable turbine operation.
+
+The primary attractor reference may be estimated only from a predeclared Normal Operation calibration subset.
+
+Challenge-arm data must not be used to construct the attractor.
+
+The attractor estimator is not yet frozen.
+
+---
+
+### Eout / Γ — Regulated Export
+
+The primary export candidate is:
+
+**PowerOutput**
+
+representing externally exported converter active power.
+
+PowerOutput is reserved as the primary Eout measurement family.
+
+It is not used as the primary P2 variable.
+
+Its later uncertainty treatment must reflect the measurement limitations documented in the external metadata.
+
+---
+
+### SA — Selection Operator
+
+A separate empirical SA claim is:
+
+**NOT PART OF THE PRIMARY BFG-TEST-001 CONFIRMATORY CLAIM**
+
+BFG-TEST-001 therefore does not claim to establish the full BFG selection architecture.
+
+Any later SA interpretation requires a separate operational definition and test.
+
+---
+
+### TA — Admissible Transport
+
+For BFG-TEST-001, TA is restricted to:
+
+**within-carrier transport across preregistered temporal or scale representations.**
+
+Cross-domain transport is not part of the primary BFG-TEST-001 confirmatory claim.
+
+The exact scale representations and transport tolerance remain unfrozen.
+
+---
+
+### F — Falsification Gate
+
+F will contain the later frozen decision criteria including:
+
+- positive-support gate,
+- negative gate,
+- null-equivalence gate,
+- mediator failure gate,
+- Order Parameter failure gate,
+- recursive-closure failure gate,
+- non-collapse failure gate,
+- scale-compatibility failure gate,
+- and no-retuning violation.
+
+The numerical thresholds are not yet frozen.
+
+---
+
+# Primary Order Parameter Role Mapping
+
+The canonical BFG Order Parameter remains:
+
+**Φ = (Eexp · I) ÷ (Ebind · I0)**
+
+The formula itself is unchanged.
+
+The following functional estimator families are now selected.
+
+---
+
+### Eexp — External Forcing / Differentiation Contribution
+
+Primary functional source:
+
+**P1 aerodynamic forcing**
+
+Primary raw measurement family:
+
+**WindSpeed**
+
+Orientation information may later be incorporated only through a preregistered transformation.
+
+Eexp must not use:
+
+- PitchDeg,
+- fault labels,
+- PowerOutput,
+- or challenge-arm classification information
+
+in the primary confirmatory estimator.
+
+Status:
+
+**FUNCTIONAL FAMILY SELECTED — NUMERICAL ESTIMATOR NOT YET FROZEN**
+
+---
+
+### Ebind — Rotor Stabilization / Return Contribution
+
+Primary functional source:
+
+**P2 rotor/drivetrain response**
+
+Primary raw measurement family:
+
+**RotorSpeed**
+
+Ebind will quantify a preregistered stabilization, bounded-return, or retention property of the P2 dynamics.
+
+The exact estimator remains unfrozen.
+
+Ebind must not directly use PitchDeg in the primary confirmatory Order Parameter estimator.
+
+Status:
+
+**FUNCTIONAL FAMILY SELECTED — NUMERICAL ESTIMATOR NOT YET FROZEN**
+
+---
+
+### I — Structured Closure Information
+
+The primary I family will be derived from:
+
+**structural SHM response**
+
+using the independently measured acceleration and/or strain signal families of the primary dataset.
+
+The intended function of I is to quantify structured information participating in persistent turbine response.
+
+The later estimator may use preregistered quantities related to:
+
+- contrast,
+- integration,
+- recurrence,
+- closure contribution,
+- invariant retention,
+
+or a frozen subset of these components.
+
+No component weights are yet authorized.
+
+Fault labels must not enter I.
+
+PitchDeg must not directly enter the primary I estimator.
+
+Status:
+
+**FUNCTIONAL FAMILY SELECTED — NUMERICAL ESTIMATOR NOT YET FROZEN**
+
+---
+
+### I0 — Structured-Information Reference Scale
+
+I0 will be constructed from the same frozen I estimator used for I.
+
+The reference scale may be estimated only from the predeclared Normal Operation calibration subset.
+
+After calibration:
+
+**I0 must remain fixed for all held-out Normal Operation and challenge-arm evaluations.**
+
+Challenge-arm data must not determine I0.
+
+Status:
+
+**REFERENCE FAMILY SELECTED — VALUE NOT YET FROZEN**
+
+---
+
+## Primary Φ Anti-Circularity Firewall
+
+The primary confirmatory Φ estimator must be:
+
+**N-blind at the algebraic input level.**
+
+Therefore the primary Φ construction must not directly include:
+
+**PitchDeg**
+
+or any other direct N measurement inside:
+
+- Eexp,
+- Ebind,
+- I,
+- or I0.
+
+The purpose is to prevent mediator ablation from changing Φ merely because N was algebraically inserted into the Φ estimator.
+
+N may influence Φ indirectly through real turbine dynamics.
+
+That indirect influence is the quantity to be tested.
+
+---
+
+## Primary Measurement-Family Separation
+
+For the primary confirmatory analysis, the measurement families are reserved as follows:
+
+**WindSpeed → P1 / Eexp family**
+
+**RotorSpeed → P2 / Ebind family**
+
+**PitchDeg → N family**
+
+**PowerOutput → Eout family**
+
+**Structural acceleration / strain → I and I0 family**
+
+This separation is intended to reduce circular reuse of the same signal across multiple BFG roles.
+
+Alternative reuse requires explicit preregistration before target inspection.
+
+---
+
+## Label Firewall
+
+The following external condition labels must not participate in construction of:
+
+- P1,
+- P2,
+- N,
+- Eexp,
+- Ebind,
+- I,
+- I0,
+- K,
+- RC,
+- Φ,
+- or εcomm.
+
+The labels may be used only after the relevant constructions have been frozen for confirmatory evaluation.
+
+---
+
+## Positive-Candidate Boundary
+
+Normal Operation remains the:
+
+**Positive-Candidate Arm**
+
+but is not automatically classified as BFG-positive.
+
+A positive result requires the later frozen positive-support gates to pass.
+
+If held-out Normal Operation fails those gates, the result must be retained.
+
+---
+
+## Challenge-Arm Boundary
+
+The three challenge conditions remain:
+
+1. collective pitch-system mechanical failure,
+2. aerodynamic imbalance,
+3. rotor icing.
+
+No challenge arm is assumed in advance to produce a specific numerical BFG signature.
+
+Mechanistic directional predictions must be declared before confirmatory evaluation.
+
+---
+
+## Functional Freeze Decision
+
+The following functional assignments are now frozen for BFG-TEST-001:
+
+**P1 = external aerodynamic forcing**
+
+**P2 = rotor/drivetrain dynamical response**
+
+**N = collective pitch regulation**
+
+**Eout = electrical power export**
+
+**Eexp family = P1-derived external forcing**
+
+**Ebind family = P2-derived stabilization / return**
+
+**I family = structural SHM closure-information**
+
+**I0 family = calibration reference of the same I estimator**
+
+These assignments may not be replaced after target-result inspection while retaining confirmatory status.
+
+---
+
+## What Is Not Yet Frozen
+
+The following remain open:
+
+- temporal synchronization,
+- dataset alignment,
+- calibration split,
+- held-out split,
+- analysis-window duration,
+- resampling,
+- filtering,
+- normalization,
+- Eexp estimator,
+- Ebind estimator,
+- I estimator,
+- I0 numerical value,
+- RC estimator,
+- attractor estimator,
+- Φ corridor,
+- εcomm,
+- δN,
+- primary endpoint,
+- statistical model,
+- null-model implementation,
+- ablation implementation,
+- success threshold,
+- failure threshold,
+- and stopping rules.
+
+---
+
+## Current Role-Mapping Decision
+
+**Functional BFG role mapping selected and frozen.**
+
+**Numerical operationalization not yet frozen.**
+
+**Primary Φ estimator remains uncomputed.**
+
+**No target labels have been authorized for model construction.**
+
+**No positive or negative BFG result has been evaluated.**
+
+**Version:** 0.5-draft
 
 **Date:** 2026-08-29
 
