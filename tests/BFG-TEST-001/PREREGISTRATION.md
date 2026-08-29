@@ -228,7 +228,401 @@ Exploratory outcome-driven signal selection is not confirmatory.
 
 **No positive or negative result has yet been registered.**
 
-**Version:** 0.2-draft
+---
+
+## Signal Inventory & Blind Feature Eligibility
+
+### Purpose
+
+This stage defines the admissible measured signal families for BFG-TEST-001 before any BFG role mapping, Order Parameter construction, endpoint optimization, or target-result inspection.
+
+The purpose is to prevent outcome-driven variable selection.
+
+No signal listed in this section is yet assigned to:
+
+- P1,
+- P2,
+- N,
+- K,
+- C,
+- A,
+- Eout,
+- Eexp,
+- Ebind,
+- I,
+- I0,
+- ΩΦ,
+- RC,
+- Ad,
+- Dd,
+- or εcomm.
+
+Those mappings remain open.
+
+---
+
+### Metadata-Only Inspection Boundary
+
+At this preregistration stage, the following forms of inspection are permitted:
+
+- sensor names,
+- sensor type,
+- physical units,
+- sensor location,
+- sampling frequency,
+- turbine architecture,
+- documented control architecture,
+- archive structure,
+- file names,
+- metadata schemas,
+- documented operating-condition labels,
+- and documented sensor orientation.
+
+The following are not permitted for confirmatory variable selection at this stage:
+
+- comparing Normal Operation with challenge-arm distributions,
+- viewing fault-versus-normal feature plots,
+- selecting sensors because they separate the labels,
+- computing predictive accuracy against the carrier labels,
+- using feature importance based on the target labels,
+- choosing time windows because they maximize condition separation,
+- choosing BFG roles because they produce a preferred Φ regime,
+- or changing signal eligibility after target-result inspection.
+
+If outcome-driven inspection occurs before freeze, it must be recorded as a protocol deviation and the affected analysis must be classified as exploratory.
+
+---
+
+### Dataset-Declared Measurement Architecture
+
+The primary Aventa AV-7 carrier contains the following externally documented measurement families.
+
+#### 1. Structural Acceleration Signals
+
+The turbine is instrumented with:
+
+**11 accelerometers**
+
+distributed across:
+
+- the tower,
+- the nacelle main frame,
+- the main bearing,
+- and the generator.
+
+Declared sampling frequency:
+
+**200 Hz**
+
+These measurements are structurally admissible candidate inputs for later recursive, dynamic, persistence, differentiation, and mediation analyses.
+
+No BFG role is assigned to them yet.
+
+---
+
+#### 2. Tower Strain Signals
+
+The dataset contains:
+
+**2 full-bridge strain gauges**
+
+installed at the concrete tower base.
+
+The documented orientations are:
+
+- fore-aft strain,
+- side-side strain.
+
+The strain measurements may be converted to bending moments according to the carrier metadata and domain mechanics.
+
+Declared sampling frequency:
+
+**200 Hz**
+
+No BFG role is assigned to these channels yet.
+
+---
+
+#### 3. Environmental Signals
+
+The dataset includes measurements of:
+
+- temperature,
+- humidity
+
+at the tower base.
+
+Declared sampling frequency:
+
+**1 Hz**
+
+These channels are eligible as environmental or contextual variables.
+
+They must not automatically be treated as BFG order variables.
+
+---
+
+#### 4. SCADA Operational Signals
+
+The externally documented SCADA measurement family contains:
+
+- wind speed,
+- nacelle yaw orientation,
+- rotor RPM,
+- power output,
+- turbine status.
+
+Declared sampling frequency:
+
+**10 Hz**
+
+These measurements are eligible as operational carrier variables.
+
+No BFG role is assigned to them yet.
+
+---
+
+### Pitch-System Measurement Boundary
+
+The Aventa AV-7 is externally documented as using:
+
+**variable-speed and collective variable-pitch control.**
+
+However, the Zenodo v6 dataset description used for BFG-TEST-001 does not itself list a direct pitch-angle measurement channel among the declared SCADA signals.
+
+Therefore:
+
+**a direct pitch-angle signal must not be assumed to exist unless it is confirmed in the dataset metadata files.**
+
+The collective pitch-system failure condition remains an externally documented disturbance class.
+
+It does not by itself provide a measured N variable.
+
+The later mediator operationalization must therefore distinguish between:
+
+- a directly measured mediator candidate,
+- a mechanically inferred mediator candidate,
+- and a latent functional mediator construction.
+
+These alternatives must not be interchanged after target-result inspection.
+
+---
+
+### Dataset File Manifest
+
+The selected Zenodo v6 record contains four primary carrier archives.
+
+#### Normal Operation
+
+File:
+
+`aventa_normal_operation_for_system_identification.zip`
+
+Approximate size:
+
+**6.8 GB**
+
+MD5:
+
+`407114000b3c39a92e3a0cd8d73cc5af`
+
+---
+
+#### Collective Pitch-System Failure
+
+File:
+
+`aventa_failure_flexible_coupling_of_collective_pitch_drive.zip`
+
+Approximate size:
+
+**17.6 GB**
+
+MD5:
+
+`87a74879cbefabbc649ebca0c4003113`
+
+---
+
+#### Aerodynamic Imbalance
+
+File:
+
+`aventa_blade_aerodynamic_imbalance.zip`
+
+Approximate size:
+
+**17.1 GB**
+
+MD5:
+
+`1a1fa895fbf3536a0dad4ff1e818390c`
+
+---
+
+#### Rotor Icing
+
+File:
+
+`aventa_rotor_icing.zip`
+
+Approximate size:
+
+**7.7 GB**
+
+MD5:
+
+`87e8a2654cf524b72f5859f5c6c53089`
+
+---
+
+### Metadata Files Expected Inside the Carrier Archives
+
+According to the external carrier record, each use-case archive contains metadata including:
+
+- `Aventa-AV-7.json`
+- `Aventa-AV-7.yaml`
+- `Aventa_sensors.json`
+- `Aventa_Sensors_Specs.xlsx`
+- `IEAontology_schema.yaml`
+- `sensors_schema.json`
+
+and time-series measurements in:
+
+**HDF5 format**
+
+The metadata files may be inspected before signal-role mapping.
+
+The target time-series outcomes must not be used to optimize the role mapping.
+
+---
+
+### Blind Signal Eligibility Rule
+
+A signal or signal family is eligible for later confirmatory BFG operationalization only if its eligibility can be justified from:
+
+1. external carrier metadata,
+2. physical turbine architecture,
+3. documented control or structural function,
+4. dimensional compatibility,
+5. or a preregistered mathematical transformation.
+
+Eligibility must not be justified by the fact that the signal happens to distinguish Normal Operation from a challenge condition.
+
+---
+
+### Role-Mapping Firewall
+
+The following rule is mandatory:
+
+**Sensor availability does not imply BFG role identity.**
+
+In particular:
+
+- wind speed is not automatically Eexp,
+- power output is not automatically Ebind,
+- rotor RPM is not automatically I,
+- turbine status is not automatically I0,
+- the pitch-control subsystem is not automatically N,
+- structural acceleration is not automatically C,
+- and strain is not automatically Dd.
+
+Every later mapping requires a separate functional and dimensional justification.
+
+---
+
+### Order Parameter Firewall
+
+The BFG Order Parameter remains:
+
+Φ = (Eexp · I) ÷ (Ebind · I0)
+
+At this stage:
+
+**Eexp = NOT YET FROZEN**
+
+**Ebind = NOT YET FROZEN**
+
+**I = NOT YET FROZEN**
+
+**I0 = NOT YET FROZEN**
+
+Therefore:
+
+**Φ = NOT YET OPERATIONALIZED FOR THIS CARRIER**
+
+No observed value of Φ may yet be interpreted as:
+
+- binding-dominated,
+- balanced,
+- expansion-dominated,
+- healthy,
+- faulty,
+- or Trinity–Order admissible.
+
+---
+
+### Sampling-Rate Boundary
+
+The carrier contains measurements at multiple sampling frequencies:
+
+- structural acceleration and strain: 200 Hz,
+- SCADA operational measurements: 10 Hz,
+- temperature and humidity: 1 Hz.
+
+A common temporal representation will therefore be required for joint BFG analysis.
+
+The following are not yet frozen:
+
+- analysis-window duration,
+- overlap,
+- resampling rule,
+- downsampling rule,
+- anti-alias filtering,
+- aggregation statistic,
+- temporal alignment tolerance,
+- missing-data treatment,
+- and synchronization policy.
+
+These decisions must be made before confirmatory target evaluation.
+
+---
+
+### Feature-Construction Boundary
+
+No derived feature family is yet frozen.
+
+Possible future feature classes may include physically justified:
+
+- temporal statistics,
+- spectral quantities,
+- cross-channel relations,
+- recurrence quantities,
+- phase relations,
+- structural-response measures,
+- or information-retention measures.
+
+Their use is not authorized by this section.
+
+Each feature class must be declared before confirmatory evaluation.
+
+---
+
+### Current Signal-Inventory Decision
+
+**External sensor architecture identified.**
+
+**Eligible raw signal families identified from metadata.**
+
+**No BFG role mapping completed.**
+
+**No Order Parameter operationalization completed.**
+
+**No target-driven feature selection permitted.**
+
+**No positive or negative BFG result has been evaluated.**
+
+**Version:** 0.3-draft
 
 **Date:** 2026-08-29
 
