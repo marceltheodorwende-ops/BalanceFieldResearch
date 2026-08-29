@@ -622,7 +622,250 @@ Each feature class must be declared before confirmatory evaluation.
 
 **No positive or negative BFG result has been evaluated.**
 
-**Version:** 0.3-draft
+---
+
+## Supplementary SCADA Measurement Layer
+
+### Purpose
+
+A supplementary public SCADA dataset from the Aventa AV-7 research turbine family is registered before BFG role mapping in order to improve direct observability of the turbine control state.
+
+This supplementary source is not introduced after target-result inspection.
+
+It is registered during the preregistration stage.
+
+---
+
+### Supplementary Dataset
+
+Dataset:
+
+**Aventa AV-7 (6kW) IET-OST Research Wind Turbine SCADA**
+
+Zenodo version:
+
+**v2**
+
+DOI:
+
+**10.5281/zenodo.15700928**
+
+Coverage:
+
+**2022-01-01 to 2023-07-20**
+
+Sampling frequency:
+
+**1 Hz**
+
+Primary public file:
+
+`Aventa_AV7_IET_OST_SCADA.csv`
+
+MD5:
+
+`0434ccfb5a05f91225796063942538f5`
+
+---
+
+### Carrier-Identity Boundary
+
+The supplementary dataset documents an Aventa AV-7 research turbine at the Taggenberg site.
+
+It is treated as a supplementary measurement layer for the same Aventa carrier family.
+
+Exact record-level identity and timestamp alignment with the primary ETH Zurich SHM / SCADA fault archives must be verified before the two data sources are merged.
+
+No cross-dataset merge is authorized until:
+
+- timestamp compatibility is checked,
+- turbine identity compatibility is checked,
+- signal meaning is checked,
+- unit compatibility is checked,
+- and overlapping periods are documented.
+
+---
+
+### Supplementary SCADA Channels
+
+The externally documented 1 Hz SCADA channels include:
+
+- RotorSpeed
+- GeneratorSpeed
+- GeneratorTemperature
+- WindSpeed
+- PowerOutput
+- offsetWindDirection
+- SpeiseSpannung
+- PitchDeg
+- StatusAnlage
+- MaxWindHeute
+- Datetime
+
+No BFG role is assigned by the presence of a channel alone.
+
+---
+
+### Direct Pitch-Angle Measurement
+
+The supplementary metadata defines:
+
+`PitchDeg`
+
+as:
+
+**Pitch angle in degrees**
+
+with IEC-oriented channel name:
+
+`WROT.BlPthAngVal`
+
+The metadata describes the signal as derived from a:
+
+**Balluff linear magnetostrictive sensor postprocessed to degrees**
+
+and marks it as a reliable measurement.
+
+This makes PitchDeg eligible as a directly measured control-state candidate.
+
+It does not yet establish:
+
+**N = PitchDeg**
+
+or:
+
+**N = pitch system**
+
+The mediator role remains unfrozen.
+
+---
+
+### Rotor-Speed Measurement
+
+The supplementary metadata defines:
+
+`RotorSpeed`
+
+as rotor speed in RPM.
+
+The channel is marked as a reliable measurement.
+
+RotorSpeed is eligible as a measured dynamical carrier variable.
+
+No BFG role is assigned yet.
+
+---
+
+### Generator-Speed Measurement Boundary
+
+The supplementary metadata defines:
+
+`GeneratorSpeed`
+
+as generator speed in RPM.
+
+However, the metadata marks this channel as:
+
+**Reliable Measurement = FALSE**
+
+and notes that the signal is derived from a 0–10 V generator signal rather than an exact measurement.
+
+Therefore GeneratorSpeed may not be used as a primary confirmatory BFG variable unless its uncertainty or measurement limitation is explicitly handled in the preregistration.
+
+---
+
+### Power-Output Measurement Boundary
+
+The supplementary metadata defines:
+
+`PowerOutput`
+
+as converter active power in kW.
+
+The channel is marked as reliable in the metadata, while the notes state that the inverter 0–10 V measurement is not completely accurate.
+
+PowerOutput remains eligible, but its measurement limitation must be carried into any later uncertainty model.
+
+---
+
+### Wind and Orientation Measurements
+
+The supplementary metadata defines:
+
+`WindSpeed`
+
+as wind speed in m/s
+
+and:
+
+`offsetWindDirection`
+
+as wind direction relative to the nacelle in degrees.
+
+These measurements are eligible as external forcing / alignment candidates.
+
+They are not automatically:
+
+- P1,
+- Eexp,
+- N,
+- or any other BFG role.
+
+---
+
+### Supplementary-Data Firewall
+
+The supplementary dataset may currently be inspected only for:
+
+- metadata,
+- channel names,
+- physical units,
+- sampling frequency,
+- sensor description,
+- measurement reliability,
+- date coverage,
+- turbine architecture,
+- and timestamp format.
+
+The following remain prohibited until the later freeze:
+
+- comparing PitchDeg between fault and normal periods,
+- selecting PitchDeg because it separates labels,
+- choosing thresholds from fault data,
+- selecting time windows from visible anomaly peaks,
+- defining N from target-dependent behavior,
+- defining Φ from outcome separation,
+- or optimizing any BFG role mapping using fault labels.
+
+---
+
+### Mediator-Observability Status
+
+The mediator is now classified as:
+
+**DIRECTLY OBSERVABLE CANDIDATE AVAILABLE — ROLE NOT YET FROZEN**
+
+This status means that the carrier contains a direct physical control-state measurement that may later be evaluated as part of N.
+
+It does not mean that the BFG mediator hypothesis has been confirmed.
+
+---
+
+### Current Supplementary-Layer Decision
+
+**Supplementary SCADA source registered.**
+
+**Direct pitch-angle measurement identified.**
+
+**No cross-dataset merge performed.**
+
+**No BFG role mapping completed.**
+
+**No target-result inspection authorized.**
+
+**No positive or negative BFG result evaluated.**
+
+**Version:** 0.4-draft
 
 **Date:** 2026-08-29
 
