@@ -2364,7 +2364,231 @@ It is not a positive or negative empirical BFG result.
 
 **No BFG outcome has yet been evaluated.**
 
-**Version:** 0.7-draft
+---
+
+## Remote Data Access Amendment
+
+### Purpose
+
+This amendment replaces the requirement for a complete local mirror of the large Aventa carrier archives with a remote-access and blockwise-processing strategy.
+
+The scientific purpose is unchanged.
+
+The amendment is introduced before confirmatory target-result inspection and therefore does not constitute outcome-driven retuning.
+
+---
+
+## Authoritative Raw-Data Location
+
+The authoritative raw carrier data remain hosted at their original Zenodo records.
+
+A complete local copy of all large carrier archives is not required for BFG-TEST-001.
+
+The authoritative external records remain:
+
+Primary carrier:
+
+**Aventa AV-7 ETH Zurich Research Wind Turbine SCADA and high frequency Structural Health Monitoring data**
+
+Version:
+
+**v6**
+
+DOI:
+
+**10.5281/zenodo.8229750**
+
+Supplementary SCADA source:
+
+**Aventa AV-7 (6kW) IET-OST Research Wind Turbine SCADA**
+
+Version:
+
+**v2**
+
+DOI:
+
+**10.5281/zenodo.15700928**
+
+---
+
+## Remote Processing Rule
+
+BFG-TEST-001 may access carrier data remotely using a cloud or hosted computation environment.
+
+Permitted environments include reproducible Python-based hosted notebook or compute environments.
+
+Remote processing must preserve the same preregistered:
+
+- carrier identity,
+- partition rules,
+- temporal windows,
+- access classes,
+- challenge-arm lock,
+- functional role mapping,
+- no-retuning rules,
+- and confirmatory decision structure.
+
+The compute location may change.
+
+The scientific rules may not.
+
+---
+
+## Blockwise Access Rule
+
+Full carrier archives do not need to be permanently downloaded to the local research computer.
+
+Only the data required for the currently authorized stage may be fetched or materialized.
+
+Permitted block selection must be based only on:
+
+- externally defined file identity,
+- acquisition identifier,
+- timestamp,
+- preregistered temporal partition,
+- declared analysis window,
+- or deterministic record index.
+
+Block selection must not be based on:
+
+- observed Φ,
+- fault severity,
+- anomaly score,
+- classification performance,
+- visible signal pattern,
+- mediator score,
+- or preferred BFG outcome.
+
+---
+
+## Challenge-Arm Remote Seal
+
+Remote access does not weaken the challenge-arm lock.
+
+Before final operational freeze, Challenge Arm data may not be inspected for outcome-dependent signal behavior.
+
+Challenge files or blocks may be:
+
+- identified,
+- referenced,
+- checksummed where feasible,
+- structurally inventoried,
+- and prepared for later execution.
+
+They must not yet be used for:
+
+- estimator construction,
+- threshold tuning,
+- feature selection,
+- fault-versus-normal plotting,
+- Φ optimization,
+- mediator optimization,
+- or result interpretation.
+
+---
+
+## Remote Provenance Record
+
+Every remotely accessed analysis block used in BFG-TEST-001 must later receive a provenance record containing, where applicable:
+
+- dataset ID,
+- dataset version,
+- DOI,
+- authoritative source record,
+- original filename,
+- upstream checksum,
+- acquisition identifier,
+- timestamp interval,
+- record or byte range where available,
+- local or cloud cache filename,
+- local SHA-256 of the materialized block or derived artifact,
+- processing script version,
+- configuration hash,
+- access date,
+- and partition status.
+
+---
+
+## Integrity Boundary
+
+The published upstream checksum remains the integrity anchor for the authoritative source file.
+
+A complete locally recomputed checksum of a multi-gigabyte source archive is not required when the complete archive is not downloaded.
+
+For every materialized local or cloud artifact used in analysis:
+
+**a local SHA-256 must be recorded.**
+
+Derived results must remain reproducible from:
+
+**authoritative source + frozen selection rule + frozen configuration + versioned code**
+
+---
+
+## Local-Laptop Boundary
+
+The local research computer is not required to store the complete external carrier dataset.
+
+Large raw carrier files should not be committed to the BalanceFieldResearch repository.
+
+The repository will instead contain compact reproducibility artifacts including:
+
+- preregistration,
+- source manifest,
+- data dictionary,
+- checksums for materialized artifacts,
+- frozen configuration,
+- analysis code,
+- null-model code,
+- result summaries,
+- and audit records.
+
+---
+
+## Cloud-Environment Boundary
+
+Use of a hosted computation environment does not itself provide scientific evidence.
+
+The environment is treated only as execution infrastructure.
+
+Package versions, script versions, random seeds where applicable, and configuration hashes must be recorded before confirmatory execution.
+
+A change of cloud provider does not count as retuning if the frozen analytical rules and numerical implementation remain equivalent.
+
+---
+
+## Remote Access Failure Gate
+
+Remote execution is classified as operationally failed or incomplete if:
+
+- the authoritative source cannot be verified,
+- requested records cannot be deterministically reproduced,
+- timestamp or record selection cannot be reconstructed,
+- required provenance is lost,
+- or derived artifacts cannot be linked back to the authoritative carrier source.
+
+Such a failure is an infrastructure or provenance failure.
+
+It is not a positive or negative empirical BFG result.
+
+---
+
+## Amendment Decision
+
+**Complete local raw-data mirroring is no longer required.**
+
+**Authoritative Zenodo records remain the raw-data source of record.**
+
+**Remote and blockwise processing is permitted.**
+
+**Challenge-arm access restrictions remain unchanged.**
+
+**No target-result inspection has yet occurred.**
+
+**No BFG positive or negative empirical result has yet been evaluated.**
+
+**Version:** 0.8-draft
 
 **Date:** 2026-08-29
 
