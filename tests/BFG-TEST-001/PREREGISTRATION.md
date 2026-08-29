@@ -1406,7 +1406,567 @@ The following remain open:
 
 **No positive or negative BFG result has been evaluated.**
 
-**Version:** 0.5-draft
+---
+
+## Blind Partition, Temporal Alignment & Calibration Protocol
+
+### Purpose
+
+This section freezes the data-partition and temporal-alignment logic before numerical BFG estimator construction and before confirmatory target evaluation.
+
+The purpose is to prevent:
+
+- temporal leakage,
+- challenge-arm leakage,
+- threshold chasing,
+- outcome-driven window selection,
+- post-hoc synchronization,
+- and reuse of held-out data for model construction.
+
+This section freezes the protocol.
+
+It does not yet execute the partition.
+
+---
+
+## Data Access Classes
+
+Four data-access classes are defined.
+
+### Class A — Metadata Only
+
+Permitted before numerical operationalization:
+
+- filenames,
+- archive structure,
+- sensor metadata,
+- channel names,
+- units,
+- sampling rates,
+- timestamp format,
+- measurement reliability metadata,
+- turbine metadata,
+- documented carrier-condition labels.
+
+No signal-value optimization is permitted.
+
+---
+
+### Class B — Normal Calibration A
+
+A subset of externally documented Normal Operation data will be used for:
+
+- estimator construction,
+- dimensional checks,
+- numerical implementation,
+- synchronization verification,
+- feature-definition development within already frozen functional families,
+- and model fitting where required.
+
+Target challenge-arm data must not enter Calibration A.
+
+---
+
+### Class C — Normal Calibration B
+
+A second independent Normal Operation subset will be used only for:
+
+- selecting among already declared candidate estimator implementations,
+- estimating calibration reference values,
+- estimating I0,
+- setting preregistered tolerances,
+- setting frozen decision thresholds,
+- and rejecting unstable implementations.
+
+Calibration B must not be repeatedly reused after threshold freeze.
+
+---
+
+### Class D — Locked Confirmatory Evaluation
+
+The following data are locked from estimator construction and threshold selection:
+
+1. held-out Normal Operation,
+2. collective pitch-system mechanical failure,
+3. aerodynamic imbalance,
+4. rotor icing.
+
+These data may be evaluated only after the numerical operationalization, null models, endpoints, thresholds, and decision rules have been frozen.
+
+---
+
+# Primary Normal-Operation Partition
+
+Normal Operation will be partitioned into:
+
+**50% — Calibration A**
+
+**25% — Calibration B**
+
+**25% — Positive Holdout**
+
+The split must be performed using temporal acquisition groups rather than individual randomly shuffled samples.
+
+The purpose is to prevent autocorrelation leakage.
+
+---
+
+## Atomic Partition Unit
+
+The preferred atomic partition unit is:
+
+**one externally identifiable uninterrupted acquisition session or one native HDF5 acquisition group.**
+
+Acquisition units are ordered chronologically using timestamps only.
+
+Signal values must not be used to determine partition membership.
+
+Where multiple acquisition units occur within one continuous recording day, they may be grouped into a single temporal block before partitioning.
+
+---
+
+## Partition Allocation Rule
+
+After chronological ordering of eligible Normal Operation acquisition units:
+
+- the earliest approximately 50% of total eligible duration becomes Calibration A,
+- the next approximately 25% becomes Calibration B,
+- the final approximately 25% becomes Positive Holdout.
+
+Allocation is based on cumulative eligible duration rather than number of files.
+
+No unit may be reassigned because of its observed BFG score, Φ value, fault-like appearance, spectral structure, or model performance.
+
+---
+
+## Partition Fallback Rule
+
+If the native file structure does not provide enough independent acquisition units for a 50/25/25 grouped split:
+
+1. recordings will first be divided into chronologically ordered contiguous super-blocks,
+2. super-block boundaries will be based on time only,
+3. the same 50/25/25 duration rule will then be applied.
+
+The fallback rule must not depend on signal values.
+
+If an adequate temporally separated split cannot be constructed, confirmatory BFG-TEST-001 must be suspended rather than rescued by random sample-level splitting.
+
+---
+
+# Temporal Leakage Guard
+
+A temporal guard interval is required at every boundary between:
+
+- Calibration A and Calibration B,
+- Calibration B and Positive Holdout.
+
+The guard interval is:
+
+**10 minutes**
+
+or:
+
+**five times the longest primary analysis scale**
+
+whichever is larger.
+
+All samples inside the guard interval are excluded from confirmatory analysis.
+
+They must not be reassigned to another partition.
+
+---
+
+# Challenge-Arm Lock
+
+All three externally defined challenge arms are:
+
+**100% confirmatory held-out data**
+
+during estimator construction.
+
+Challenge-arm signal values must not be used to:
+
+- define P1, P2, or N,
+- choose Eexp or Ebind formulas,
+- construct I,
+- determine I0,
+- select RC,
+- define the attractor,
+- select spectral bands,
+- choose normalization,
+- choose thresholds,
+- tune εcomm,
+- tune δN,
+- select features,
+- or determine success criteria.
+
+Challenge metadata may be inspected.
+
+Challenge signal outcomes may not.
+
+---
+
+# Primary Temporal Representation
+
+The primary analysis uses native-rate signals inside common time windows.
+
+Raw structural signals will not be collapsed to 1 Hz merely to match SCADA.
+
+Instead:
+
+**features are computed at the native sampling rate of each measurement family and are subsequently aligned at the window level.**
+
+This preserves high-frequency structural information.
+
+---
+
+## Primary Window
+
+The primary confirmatory analysis window is:
+
+**60 seconds**
+
+Primary windows are:
+
+- non-overlapping,
+- timestamp-defined,
+- and independent of observed signal behavior.
+
+A window must not be shifted to capture a visible anomaly or maximize condition separation.
+
+---
+
+# Predeclared Scale Family
+
+For the Trinity–Order scale-compatibility component, the temporal scale family is:
+
+**λ1 = 30 seconds**
+
+**λ2 = 60 seconds**
+
+**λ3 = 120 seconds**
+
+The 60-second representation is the primary reporting scale.
+
+The 30-second and 120-second representations are scale-transfer tests.
+
+These scales must not be changed after challenge-arm inspection.
+
+---
+
+## Nested Scale Construction
+
+Scale representations will be constructed from common timestamp boundaries such that, where data coverage permits:
+
+- four 30-second windows correspond to one 120-second master block,
+- two 60-second windows correspond to the same 120-second master block.
+
+This nesting is used to compare scale-dependent Trinity–Order readouts without changing the underlying time interval.
+
+The master block, not an individual subwindow, is the unit used to prevent cross-partition leakage.
+
+---
+
+# Window Completeness Rule
+
+A window is eligible for the primary confirmatory analysis only when each required channel for the relevant estimator has:
+
+**at least 90% expected sample coverage**
+
+within that window.
+
+Windows below this coverage threshold are excluded according to the frozen rule.
+
+They must not be repaired selectively according to condition label.
+
+---
+
+# Missing-Data Rule
+
+The primary confirmatory analysis uses:
+
+**no outcome-dependent imputation.**
+
+Missing values are not filled using challenge-arm information.
+
+No interpolation across long gaps is permitted.
+
+If a numerical estimator requires complete samples, the corresponding window is excluded under the preregistered coverage rule.
+
+Any later imputation-based sensitivity analysis must be labeled secondary or exploratory unless separately frozen before confirmatory evaluation.
+
+---
+
+# Native-Rate Processing Rule
+
+The following principle is frozen:
+
+**feature extraction first, cross-family alignment second.**
+
+Each measurement family is processed at its native declared sampling rate.
+
+The primary analysis does not downsample 200 Hz structural data directly to 1 Hz raw measurements.
+
+Any required filtering is applied only within a frozen estimator specification developed using Calibration A.
+
+---
+
+# Anti-Aliasing Boundary
+
+No raw downsampling requiring anti-alias filtering is part of the primary temporal representation at this stage.
+
+If a later estimator requires explicit downsampling:
+
+- the filter family,
+- cutoff rule,
+- order,
+- edge treatment,
+- and target sampling rate
+
+must be frozen before confirmatory evaluation.
+
+No filter may be selected because it improves challenge-arm separation.
+
+---
+
+# Timestamp Alignment
+
+All signals are aligned using recorded timestamps.
+
+The following are not permitted:
+
+- visual manual shifting,
+- condition-specific lag correction,
+- fault-specific time offsets,
+- or maximizing alignment separately for each challenge arm.
+
+Timezone information must be taken from source metadata where available.
+
+An undocumented timezone must not be guessed.
+
+Any conversion must be recorded in the Data Manifest.
+
+---
+
+# Primary–Supplementary Dataset Merge Gate
+
+The supplementary 1 Hz SCADA dataset containing PitchDeg must not be merged automatically with the primary ETH Zurich SHM / SCADA dataset.
+
+Before merge, the following must be verified:
+
+1. exact physical turbine identity,
+2. compatible site / turbine metadata,
+3. overlapping measurement period,
+4. compatible timestamp reference,
+5. compatible signal definitions,
+6. compatible units,
+7. and record-level temporal correspondence.
+
+The verification must be documented without using challenge-condition BFG outcomes.
+
+---
+
+## Supplementary Merge Pass
+
+If exact carrier identity and temporal compatibility are established:
+
+**PitchDeg may remain the direct measured candidate component of N**
+
+under the already frozen functional-role mapping.
+
+---
+
+## Supplementary Merge Failure
+
+If exact identity or temporal compatibility cannot be established:
+
+**the supplementary dataset must not be merged into the primary confirmatory carrier.**
+
+In that case:
+
+**the direct-PitchDeg N component is suspended for BFG-TEST-001.**
+
+A replacement direct-N signal must not be introduced after target-result inspection.
+
+A reconstructed or latent N construction would require a separate preregistered test or an explicitly exploratory extension.
+
+---
+
+# Calibration-Only Alignment Exception
+
+If the two datasets are confirmed to represent the same physical turbine and overlapping period but exhibit an unresolved constant clock offset, a single global offset may be estimated using:
+
+**Calibration A only**
+
+and shared non-target operational signals.
+
+The offset must then be frozen before:
+
+- Calibration B threshold setting,
+- Positive Holdout inspection,
+- or any Challenge Arm inspection.
+
+A separate offset must not be fitted for each operating condition.
+
+If a stable global alignment cannot be obtained, the supplementary merge fails.
+
+---
+
+# Calibration A Permissions
+
+After this partition protocol is executed, Calibration A may be inspected for:
+
+- numerical estimator feasibility,
+- channel quality,
+- dimensional consistency,
+- measurement-scale behavior,
+- synchronization,
+- numerical stability,
+- and development of the already declared BFG functional estimator families.
+
+Calibration A may not be used to redefine the external carrier labels.
+
+---
+
+# Calibration B Permissions
+
+Calibration B may be used to:
+
+- compare only preregistered candidate implementations developed from Calibration A,
+- set I0,
+- establish the Normal Operation reference distribution,
+- set the Φ corridor,
+- set εcomm tolerance,
+- set mediator-loss thresholds,
+- set recursive-stability thresholds,
+- and freeze the final primary endpoint.
+
+Once these quantities are frozen:
+
+**Calibration B becomes closed for further tuning.**
+
+---
+
+# Positive Holdout Boundary
+
+The final 25% Normal Operation partition is:
+
+**Positive Holdout**
+
+It is not used for construction or tuning.
+
+Its purpose is to test whether the frozen BFG representation recognizes externally documented normal persistent operation without having been optimized directly on those records.
+
+Failure on Positive Holdout must be retained.
+
+---
+
+# Positive Evidence Boundary
+
+A candidate-positive result must not be defined only as:
+
+**challenge arms score worse than Normal Operation.**
+
+Positive evidence also requires the frozen model to satisfy its own preregistered admissibility criteria on unseen Positive Holdout data.
+
+Thus BFG-TEST-001 contains both:
+
+**positive recovery**
+
+and:
+
+**negative / perturbation discrimination**
+
+within one frozen protocol.
+
+---
+
+# Challenge Evaluation Order
+
+After full preregistration freeze, the confirmatory evaluation order is:
+
+**Stage 1 — Positive Holdout**
+
+then:
+
+**Stage 2 — Collective Pitch-System Mechanical Failure**
+
+then:
+
+**Stage 3 — Aerodynamic Imbalance**
+
+then:
+
+**Stage 4 — Rotor Icing**
+
+All stages use the same frozen operator and thresholds.
+
+Results from an earlier stage must not be used to retune a later stage.
+
+---
+
+# No-Retuning Partition Rule
+
+After partition execution:
+
+- partition membership is immutable,
+- excluded guard intervals remain excluded,
+- held-out records remain held out,
+- thresholds cannot be refitted on held-out outcomes,
+- and failed windows cannot be selectively removed because they harm the BFG result.
+
+Any deviation requires:
+
+1. explicit documentation,
+2. loss of confirmatory status for the affected analysis,
+3. and classification as exploratory unless a new preregistration is created.
+
+---
+
+# Data-Access Audit Record
+
+Before confirmatory execution, the following must be recorded:
+
+- dataset DOI and version,
+- original filename,
+- original checksum,
+- local SHA-256,
+- download date,
+- acquisition-unit identifiers,
+- partition membership,
+- exclusion reason where applicable,
+- guard-band membership,
+- temporal scale,
+- timestamp convention,
+- and preprocessing configuration hash.
+
+This record will later become part of the BFG-TEST-001 Data Manifest.
+
+---
+
+# Current Partition Decision
+
+**Blind partition protocol frozen.**
+
+**Normal Operation split = 50% Calibration A / 25% Calibration B / 25% Positive Holdout.**
+
+**Challenge arms = 100% held out during estimator construction.**
+
+**Primary window = 60 seconds.**
+
+**Scale family = 30 / 60 / 120 seconds.**
+
+**Temporal guard = 10 minutes or five times the maximum analysis scale, whichever is larger.**
+
+**Minimum required sample coverage = 90%.**
+
+**Native-rate feature extraction precedes cross-family alignment.**
+
+**Supplementary PitchDeg merge remains conditional on exact carrier and timestamp verification.**
+
+**No confirmatory target evaluation has yet occurred.**
+
+**Version:** 0.6-draft
 
 **Date:** 2026-08-29
 
