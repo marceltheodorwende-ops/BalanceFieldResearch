@@ -28,3 +28,18 @@ parameters. Before implementation the focused suite failed with missing
 `bfg_lab.minimal`, establishing the absent feature. `python -m bfg_lab.minimal`
 also executed successfully for both examples. Fixed absolute tolerance is not
 swept; tolerance-independent or physical robustness is not established.
+# Multimode recursion self-check, 2026-09-14
+
+Fresh full suite: `python -m unittest discover -s tests -v`, 27 tests passed,
+exit 0. Seven new tests cover analytic spectra, depletion timing, twelve complex
+unitary changes, perturbations, a threshold sweep of the spectral rule, invalid
+rule selection and noncommuting matrices. Test-first execution failed on the
+missing multimode API before implementation.
+
+Self-review found an incorrect rank-two expectation in the noncommuting test:
+two projected branches jointly span three directions. The test and documentation
+were corrected; production code did not need a change. Related overly general
+M1 wording claiming scalar carrier dimension was corrected as well. A rank-one
+peripheral space does not itself imply rank-one split analysis. The CLI is
+checked separately for four JSON histories. These checks support computational
+behavior, not a derivation of either experimental closure from BFG.

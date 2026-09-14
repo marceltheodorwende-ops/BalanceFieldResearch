@@ -82,4 +82,10 @@ Run `python -m bfg_lab.minimal` for two reproducible multistep histories.
 The [M1 specification](docs/MINIMAL_MODEL.md) defines every next-state variable
 using explicit additional assumptions. Maintained capacity reaches the 12-step
 budget; 20% depletion rejects the third candidate after two transitions.
-This deliberately simple, eventually scalar model is not the universal map.
+This deliberately simple model is not the universal map; its diagonal example
+reduces to a scalar state.
+
+The alternative [M2 negative spectral transport](docs/MULTIMODE_MODEL.md)
+preserves multiple negative formation directions. The same command also runs
+its two-mode maintained/depleted examples. Both closure rules are explicitly
+additional modeling assumptions; neither implements the full universal map.

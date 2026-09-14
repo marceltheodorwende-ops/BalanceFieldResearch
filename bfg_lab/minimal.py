@@ -10,12 +10,36 @@ def seed():
                 difference=3*np.eye(2), coherence=np.eye(2), neutral=np.eye(2))
 
 
-def advance(state, retention=1., rho=.5):
+def multimode_seed():
+    return dict(y=np.eye(3), d=np.ones(3), r=np.diag([1., 1., .5]),
+                difference=np.diag([4., 3., 1.]), coherence=np.eye(3), neutral=np.eye(3))
+
+
+def spectral_transport(formation, rho=.5, tol=TOL):
+    """Experimental rule: preserve the entire strictly negative spectral space."""
+    if not np.isfinite(tol) or not 0 < tol < 1:
+        raise ValueError('tol must lie in (0,1)')
+    if not np.isfinite(rho) or not 0 <= rho < 1-TOL:
+        raise ValueError('rho must lie in [0,1-TOL)')
+    values, vectors = np.linalg.eigh(hermitian(formation))
+    active = values < -tol
+    w = vectors[:, active]
+    p = w@w.conj().T
+    r = rho*np.eye(len(values))+(1-rho)*p
+    return r, dict(persistent_rank_next=int(active.sum()),
+                   next_formation_eigenvalues=values.tolist(),
+                   spectral_threshold=float(tol),
+                   near_zero_modes=int(np.sum(np.abs(values) <= tol)))
+
+
+def advance(state, retention=1., rho=.5, transport_rule='packet'):
     """Return (new state or None, diagnostics); never mutate the input."""
     if not np.isfinite(retention) or not 0 <= retention <= 1:
         raise ValueError('retention must lie in [0,1]')
     if not np.isfinite(rho) or not 0 <= rho < 1-TOL:
         raise ValueError('rho must lie in [0,1-TOL)')
+    if transport_rule not in ('packet', 'negative_spectrum'):
+        raise ValueError('Unknown experimental transport rule')
     for key in ('difference', 'coherence', 'neutral'):
         if np.linalg.eigvalsh(hermitian(state[key])).min() < -TOL:
             raise ValueError('Minimal model requires positive semidefinite capacities')
@@ -37,20 +61,26 @@ def advance(state, retention=1., rho=.5):
     # Clamp only roundoff-sized negative eigenvalues to keep a PSD load.
     values, vectors = np.linalg.eigh(y)
     y = (vectors*np.maximum(values, 0))@vectors.conj().T
-    projector = np.outer(d, d.conj())
-    r = rho*np.eye(len(d))+(1-rho)*projector
+    if transport_rule == 'packet':
+        projector = np.outer(d, d.conj())
+        r = rho*np.eye(len(d))+(1-rho)*projector
+        report['persistent_rank_next'] = 1
+    else:
+        r, audit = spectral_transport(coherence+neutral-difference, rho=rho)
+        report.update(audit)
+    report['transport_rule'] = transport_rule
     nxt = dict(y=y, d=d, r=r, difference=difference,
                coherence=coherence, neutral=neutral)
     report['next_dimension'] = len(d)
     return nxt, report
 
 
-def simulate(state, steps=10, retention=1., rho=.5):
+def simulate(state, steps=10, retention=1., rho=.5, transport_rule='packet'):
     if isinstance(steps, bool) or not isinstance(steps, (int, np.integer)) or steps < 1:
         raise ValueError('steps must be a positive integer')
     history = []
     for i in range(steps):
-        nxt, report = advance(state, retention=retention, rho=rho)
+        nxt, report = advance(state, retention=retention, rho=rho, transport_rule=transport_rule)
         history.append(dict(step=i, **report))
         if nxt is None:
             return dict(status='formation_rejected', transitions=i, history=history)
@@ -59,6 +89,8 @@ def simulate(state, steps=10, retention=1., rho=.5):
 
 
 if __name__ == '__main__':
-    for label, retention in [('maintained', 1.), ('depleted', .8)]:
-        print(json.dumps(dict(example=label, retention=retention,
-                              **simulate(seed(), steps=12, retention=retention)), allow_nan=False))
+    for rule, initial in [('packet', seed), ('negative_spectrum', multimode_seed)]:
+        for label, retention in [('maintained', 1.), ('depleted', .8)]:
+            print(json.dumps(dict(example=label, retention=retention, transport_rule=rule,
+                                 **simulate(initial(), steps=12, retention=retention,
+                                            transport_rule=rule)), allow_nan=False))

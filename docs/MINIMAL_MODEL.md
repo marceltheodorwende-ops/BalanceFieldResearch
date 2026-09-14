@@ -1,5 +1,8 @@
 # Experimental closure M1
 
+For a separate rule that preserves multiple directions, see [M2](MULTIMODE_MODEL.md).
+M1 remains the default Python API behavior; the module CLI now prints both models.
+
 This is a fully specified finite-dimensional toy recursion, not a derivation or
 implementation of the universal BFG map. It reuses the candidate formation code
 and proposed peripheral persistence interpretation. The five source documents
@@ -30,8 +33,10 @@ stable contraction `0 <= rho < 1-TOL`.
 The next carrier is the compressed support space. These choices define every
 input of the next iteration. They preserve PSD capacities and load, positive
 definite metric, unit Euclidean state norm and normal power-bounded transport
-in exact arithmetic. Dimension cannot increase; after the rank-one transport
-rule has taken effect it reduces to at most one. This model therefore cannot
+in exact arithmetic. Dimension cannot increase. Rank-one transport has one
+persistent direction, but its two split branches can jointly span up to two
+directions when the load does not preserve that space. Only the diagonal
+reference example below reduces to one dimension. This model therefore cannot
 demonstrate growing complexity, a unique canonical closure or universal dynamics.
 Invalid inputs raise errors; hitting the step limit does not prove infinite survival.
 
