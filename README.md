@@ -89,3 +89,10 @@ The alternative [M2 negative spectral transport](docs/MULTIMODE_MODEL.md)
 preserves multiple negative formation directions. The same command also runs
 its two-mode maintained/depleted examples. Both closure rules are explicitly
 additional modeling assumptions; neither implements the full universal map.
+
+## Paired comparison
+
+`python -m bfg_lab.comparison` runs 72 paired synthetic simulations and saves
+full JSON histories. The [comparison report](docs/COMPARISON.md) includes the
+carried-transport baseline and negative findings: M2 has no advantage over that
+baseline in the count of runs reaching the finite step budget.

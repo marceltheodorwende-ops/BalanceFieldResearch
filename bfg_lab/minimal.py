@@ -1,7 +1,7 @@
 """Explicit experimental closure, NOT the universal BFG map. See MINIMAL_MODEL.md."""
 import json
 import numpy as np
-from .core import TOL, hermitian
+from .core import TOL, hermitian, persistent_basis
 from .formation import prepare_candidate
 
 
@@ -38,8 +38,10 @@ def advance(state, retention=1., rho=.5, transport_rule='packet'):
         raise ValueError('retention must lie in [0,1]')
     if not np.isfinite(rho) or not 0 <= rho < 1-TOL:
         raise ValueError('rho must lie in [0,1-TOL)')
-    if transport_rule not in ('packet', 'negative_spectrum'):
+    if transport_rule not in ('packet', 'negative_spectrum', 'carried'):
         raise ValueError('Unknown experimental transport rule')
+    if transport_rule == 'carried':
+        hermitian(state['r'])  # Compression of general normal R need not be normal.
     for key in ('difference', 'coherence', 'neutral'):
         if np.linalg.eigvalsh(hermitian(state[key])).min() < -TOL:
             raise ValueError('Minimal model requires positive semidefinite capacities')
@@ -65,9 +67,15 @@ def advance(state, retention=1., rho=.5, transport_rule='packet'):
         projector = np.outer(d, d.conj())
         r = rho*np.eye(len(d))+(1-rho)*projector
         report['persistent_rank_next'] = 1
-    else:
+    elif transport_rule == 'negative_spectrum':
         r, audit = spectral_transport(coherence+neutral-difference, rho=rho)
         report.update(audit)
+    else:
+        # Identify new support with the old initial polar support, then restrict R.
+        q = candidate['split']['polar'].conj().T@t['basis']
+        r = q.conj().T@state['r']@q
+        r = (r+r.conj().T)/2
+        report['persistent_rank_next'] = persistent_basis(r).shape[1]
     report['transport_rule'] = transport_rule
     nxt = dict(y=y, d=d, r=r, difference=difference,
                coherence=coherence, neutral=neutral)

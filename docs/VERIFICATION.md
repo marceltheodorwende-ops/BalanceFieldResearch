@@ -43,3 +43,12 @@ M1 wording claiming scalar carrier dimension was corrected as well. A rank-one
 peripheral space does not itself imply rank-one split analysis. The CLI is
 checked separately for four JSON histories. These checks support computational
 behavior, not a derivation of either experimental closure from BFG.
+# Paired comparison verification, 2026-09-14
+
+Full suite: 30 tests passed, exit 0. New checks verify the analytic carried
+transport example and complete deterministic pairing across 72 runs, including
+matching initial-state hashes, plus baseline coordinate invariance and rejection
+of non-Hermitian transport. The focused test failed on the missing comparison
+module before implementation. CLI completed all 72 runs successfully. Full
+histories are reproducible with `python -m bfg_lab.comparison`; the committed
+report records the resulting counts and selected paired stopping times.
