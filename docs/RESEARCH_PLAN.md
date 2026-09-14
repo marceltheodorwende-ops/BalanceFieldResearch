@@ -23,7 +23,7 @@ and negative results. Do not rename a failed metric after seeing the test set.
 ## Implementation milestones
 
 - Initial lab: neutral, projection, balance, polar support, numerical tests, toy dashboard.
-- Next: resolve Eq. 27; obtain and audit prior definitions needed for Eq. 40.
+- Next: resolve Eq. 27; specify the concrete model required for Eq. 40, using the five-file source corpus and V2 sections 23–24. No missing V3 is assumed.
 - Then: complete finite-dimensional state and reclosure specification with gate tests.
 - Later: preregister and run a predictive network benchmark.
 - Empirical domains follow only after a validated measurement map is available.

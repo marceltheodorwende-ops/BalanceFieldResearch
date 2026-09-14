@@ -3,13 +3,19 @@
 **BFG Unified V4: reproducible mathematics and network experiments.**
 
 Research by Marcel Theodor Wende. This repository starts a new development line
-from *The BFG Compact Canonical Universal Reclosure Equation — Freedom-Closed
+from *The BFG Compact Canonical Universal Reclosure Equation â€” Freedom-Closed
 Unified V4*, dated 12 September 2026.
 
-## Source paper
+## Authoritative source collection
 
-[Read the original, unchanged PDF](papers/BFG_Unified_V4_Compact_Canonical_Universal_Reclosure_2026-09-12.pdf).
-See [source provenance](papers/README.md) for the checksum and attribution.
+The project uses exactly [five owner-supplied BFG documents](papers/README.md):
+Structural Strong Form V2 (DOCX), the three Reclosure papers of 7–8 September,
+and Compact Unified V4 (PDF). Original files are preserved byte-for-byte.
+
+**Correction: no standalone Freedom-Closed Unified V3 exists.**
+Read the [V3 erratum](docs/ERRATUM_V3.md) before interpreting V4's predecessor claims.
+See the [source completeness audit](docs/SOURCE_AUDIT.md) for what these five files
+establish and what remains unspecified.
 
 ## Current status
 
@@ -44,7 +50,7 @@ model; BFG quantities are readouts, not its governing universal law.
 ## Research plan
 
 1. Audit the paper's definitions and reproduce its algebraic building blocks.
-2. Specify the complete state and upstream Gram reconstruction functions.
+2. Specify the complete state and upstream Gram reconstruction functions, which V2 sections 23–24 explicitly leave as research tasks.
 3. Implement capacity transport, formation gate and complete reclosure only once
    those definitions are available and independently checked.
 4. Freeze one network benchmark, its measurement mapping and comparison models.

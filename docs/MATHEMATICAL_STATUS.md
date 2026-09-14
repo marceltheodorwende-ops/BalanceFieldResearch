@@ -1,6 +1,6 @@
 # Mathematical status
 
-Source: Unified V4, 12 September 2026. Page numbers refer to the PDF pages.
+Sources: the [five-document collection](../papers/README.md). V4 page numbers refer to the PDF. Read the [V3 erratum](ERRATUM_V3.md) and [source audit](SOURCE_AUDIT.md).
 
 ## Eq. 27: a concrete counterexample (page 7)
 
@@ -17,9 +17,9 @@ Mixed stable/peripheral nonnormal transport is rejected in this initial version.
 
 ## Implemented identities
 
-- Eqs. 11–14 and BFG-C1/C2: C=(I+Y)^-1, B=I-C, Z=C-B.
+- Eqs. 11â€“14 and BFG-C1/C2: C=(I+Y)^-1, B=I-C, Z=C-B.
 - Eq. 29: positive-metric orthogonal projection for a supplied independent basis.
-- Eqs. 31–38: reciprocal weights, direct-sum packet, local gain bound and polar factor.
+- Eqs. 31â€“38: reciprocal weights, direct-sum packet, local gain bound and polar factor.
 - BFG-C3: compact split, using square roots of weights as required by Eq. 37.
 
 The local non-expansion bound does not establish contraction of the entire
@@ -30,7 +30,7 @@ zero loads and singular values is a computational convention. A reported
 ## Not implemented or established
 
 - Complete state update for capacities, recursive transport and carrier maps.
-- Eq. 40's explicit B_C, W_N and L_C reconstruction functions from prior sources.
+- Concrete B_C, W_N and L_C reconstruction functions. Structural V2 sections 23–24 explicitly leave the microscopic construction open.
 - Full formation gate, universal iteration, intrinsic infinite-future quotient.
 - General nonnormal or infinite-dimensional implementation.
 - Reproduction of every original figure or the precise 10,000-instance streams.

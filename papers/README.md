@@ -1,14 +1,15 @@
-# Source paper
+# Verbindlicher Quellenbestand
 
-Author: Marcel Theodor Wende.
-Title: The BFG Compact Canonical Universal Reclosure Equation — Freedom-Closed Unified V4.
-Date: 12 September 2026.
+Stand: 14. September 2026. Ausschliesslich diese fuenf vom Autor gelieferten Dokumente bilden den primaeren BFG-Quellenbestand dieses Repositories. Keine eigenstaendige Unified V3 wird vorausgesetzt.
 
-File: `BFG_Unified_V4_Compact_Canonical_Universal_Reclosure_2026-09-12.pdf`
+**Vor der Lektuere von V4: [Korrekturhinweis](../docs/ERRATUM_V3.md).**
 
-SHA-256: `cc1083760ba0f9ce87a7c822fc1837f24e84425bf3ad12e2e776c1f2eb141fb2`
+- [BFG_Universal_Reclosure_Unification_Whitepaper_2026-09-07_revised_final.pdf](BFG_Universal_Reclosure_Unification_Whitepaper_2026-09-07_revised_final.pdf) — 30 Seiten
+- [BFG_Strong_Universal_Reclosure_Whitepaper_2026-09-08.pdf](BFG_Strong_Universal_Reclosure_Whitepaper_2026-09-08.pdf) — 34 Seiten
+- [BFG_Endogenous_Dual_Order_Strong_Universal_Canonical_Closure_Whitepaper_2026-09-08.pdf](BFG_Endogenous_Dual_Order_Strong_Universal_Canonical_Closure_Whitepaper_2026-09-08.pdf) — 31 Seiten
+- [BFG_Unified_V4_Compact_Canonical_Universal_Reclosure_2026-09-12.pdf](BFG_Unified_V4_Compact_Canonical_Universal_Reclosure_2026-09-12.pdf) — 38 Seiten
+- [BFG_Universal_Structural_Whitepaper_Strong_Form_V2.docx](BFG_Universal_Structural_Whitepaper_Strong_Form_V2.docx) — Word-Dokument
 
-Copied byte-for-byte from the owner-supplied PDF on 13 September 2026.
-No corrections or editorial changes were made to the paper.
-Earlier co-authored contributions remain credited in its bibliography.
-This repository's implementation notes do not replace the source document.
+Die Dateien wurden unveraendert uebernommen. SHA-256, Git-Blob-Hashes, Dateigroessen und Integritaetspruefungen stehen in [manifest.json](manifest.json). Die DOCX-Pruefung umfasst ZIP/XML-Lesbarkeit, keine vollstaendige visuelle Layoutpruefung.
+
+Autor: Marcel Theodor Wende. Mitautoren und externe Literatur bleiben gemaess den jeweiligen Originaldokumenten zu wuerdigen. Externe Zitate in den Originalen sind keine zusaetzlichen, hier vorliegenden BFG-Quelldateien.

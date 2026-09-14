@@ -10,3 +10,6 @@
 | A01 | BFG improves network prediction | Untested | Frozen benchmark and baselines required |
 | N01 | Natural systems realize the universal architecture | Unvalidated here | Independent carrier maps and data required |
 | N02 | These metrics measure consciousness or qualia | Not established | No such measurement is implemented |
+
+| S01 | Standalone Freedom-Closed Unified V3 exists | Corrected: no | Author clarification; see ERRATUM_V3.md |
+| S02 | Five source files fully specify arbitrary universal iteration | Not established | V2 sections 23–24 leave microscopic construction open |
