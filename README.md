@@ -51,8 +51,8 @@ model; BFG quantities are readouts, not its governing universal law.
 
 1. Audit the paper's definitions and reproduce its algebraic building blocks.
 2. Specify the complete state and upstream Gram reconstruction functions, which V2 sections 23–24 explicitly leave as research tasks.
-3. Implement capacity transport, formation gate and complete reclosure only once
-   those definitions are available and independently checked.
+3. Capacity transport and the formation gate are implemented. Complete universal
+   reclosure still requires the missing definitions and independent checking.
 4. Freeze one network benchmark, its measurement mapping and comparison models.
 5. Test held-out predictive value before making application or natural-realization claims.
 
@@ -75,3 +75,11 @@ the new implementation has not yet been designated by the repository owner.
 ## Candidate formation milestone
 
 Capacity transport and the candidate formation gate are implemented in `bfg_lab.formation`. Run `python -m bfg_lab.formation` for admitted/rejected examples. The API `prepare_candidate(y, d, r, difference, coherence, neutral)` returns diagnostics, not a complete next state. See the [proposed persistence correction](docs/PERSISTENCE_PROPOSAL.md).
+
+## Experimental multistep model
+
+Run `python -m bfg_lab.minimal` for two reproducible multistep histories.
+The [M1 specification](docs/MINIMAL_MODEL.md) defines every next-state variable
+using explicit additional assumptions. Maintained capacity reaches the 12-step
+budget; 20% depletion rejects the third candidate after two transitions.
+This deliberately simple, eventually scalar model is not the universal map.
