@@ -16,3 +16,6 @@
 
 | M06 | Capacity compression and candidate formation gate are executable | Implemented and tested | formation.py and 7 new tests |
 | M07 | Peripheral spectral definition replaces the invalid span definition | Proposed finite-dimensional correction | PERSISTENCE_PROPOSAL.md; original sources unchanged |
+
+| D01 | Fixed edge-flux law gives heat transport and modal recovery formula | Conditional on stated diffusion model | DIFFUSION_PROTOCOL.md and analytic two-node check |
+| D02 | Initial projected loads, reciprocal weights and gain identify diffusion recovery under Y=dt L+alpha I | False in general | Path/star counterexample in DIFFUSION_FINDINGS.md |

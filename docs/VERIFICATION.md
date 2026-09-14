@@ -52,3 +52,11 @@ of non-Hermitian transport. The focused test failed on the missing comparison
 module before implementation. CLI completed all 72 runs successfully. Full
 histories are reproducible with `python -m bfg_lab.comparison`; the committed
 report records the resulting counts and selected paired stopping times.
+# Diffusion reference verification, 2026-09-14
+
+Fresh full suite: 35 tests passed, exit 0. Five new tests cover the analytic
+two-node kernel, the path/star counterexample, all 72 fixed cases, invalid
+graphs/undefined target, and a sampling interval too small to resolve persistence.
+The focused suite failed on the absent diffusion module before implementation.
+CLI `python -m bfg_lab.diffusion` generated all 72 rows and protocol hash.
+See DIFFUSION_FINDINGS.md for numerical errors and limits of the self-check.

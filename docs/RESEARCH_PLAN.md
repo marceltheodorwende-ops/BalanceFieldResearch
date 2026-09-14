@@ -31,3 +31,13 @@ and negative results. Do not rename a failed metric after seeing the test set.
 ## Completed: 14 September 2026
 
 Persistence correction proposal, capacity compression and candidate formation gate are documented and tested. Next: specify the Gram rebuild and full state in an explicitly declared toy model.
+
+## Subsequent experiments: 14 September 2026
+
+M1/M2 toy closures and the 72-run paired comparison are complete. A separate
+edge-flux diffusion reference now has a fixed 72-case mathematical check.
+The path/star counterexample proves that the selected initial projected loads,
+weights and gain do not alone identify its recovery target. No empirical or
+held-out predictive advantage has been established. The next evaluation needs
+an independently justified observation budget and additional measurement,
+not a relabeling of a standard full-spectrum diffusion solution as BFG prediction.

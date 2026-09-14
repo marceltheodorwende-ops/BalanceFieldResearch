@@ -96,3 +96,10 @@ additional modeling assumptions; neither implements the full universal map.
 full JSON histories. The [comparison report](docs/COMPARISON.md) includes the
 carried-transport baseline and negative findings: M2 has no advantage over that
 baseline in the count of runs reaching the finite step budget.
+
+## Independently specified diffusion reference
+
+`python -m bfg_lab.diffusion` checks 72 cases against a transport derived from
+an edge-flux law. The [findings](docs/DIFFUSION_FINDINGS.md) give a counterexample:
+identical initial projected loads and dual gain do not identify diffusion recovery.
+This is a bounded mathematical result, not an empirical validation of BFG.
