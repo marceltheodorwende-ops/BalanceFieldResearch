@@ -27,3 +27,7 @@ and negative results. Do not rename a failed metric after seeing the test set.
 - Then: complete finite-dimensional state and reclosure specification with gate tests.
 - Later: preregister and run a predictive network benchmark.
 - Empirical domains follow only after a validated measurement map is available.
+
+## Completed: 14 September 2026
+
+Persistence correction proposal, capacity compression and candidate formation gate are documented and tested. Next: specify the Gram rebuild and full state in an explicitly declared toy model.

@@ -31,7 +31,7 @@ zero loads and singular values is a computational convention. A reported
 
 - Complete state update for capacities, recursive transport and carrier maps.
 - Concrete B_C, W_N and L_C reconstruction functions. Structural V2 sections 23–24 explicitly leave the microscopic construction open.
-- Full formation gate, universal iteration, intrinsic infinite-future quotient.
+- Full universal iteration and intrinsic infinite-future quotient; the candidate gate is implemented as noted below.
 - General nonnormal or infinite-dimensional implementation.
 - Reproduction of every original figure or the precise 10,000-instance streams.
 - Natural-theory recovery, energy identification or consciousness measurement.
@@ -41,3 +41,7 @@ choices, not derived universal carrier laws. In connected consensus networks,
 the persistent direction is the constant vector. Several projected BFG readouts
 can consequently remain unchanged despite topology changes; this is an informative
 limitation, not evidence of predictive power.
+
+## Update: 14 September 2026
+
+Eq. 39 capacity compression and Eq. 41 candidate gate are now implemented on reduced support, with explicit tolerance and edge conventions. The [persistence proposal](PERSISTENCE_PROPOSAL.md) supplies the proposed finite-dimensional replacement definition. Full Gram reconstruction and universal iteration remain open.

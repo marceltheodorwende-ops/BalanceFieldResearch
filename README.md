@@ -71,3 +71,7 @@ traceability. Old preregistrations are historical records, not this lab's protoc
 The original paper retains its existing authorship and rights. This reset does
 not assign a new license to the paper or grant new reuse rights. Licensing for
 the new implementation has not yet been designated by the repository owner.
+
+## Candidate formation milestone
+
+Capacity transport and the candidate formation gate are implemented in `bfg_lab.formation`. Run `python -m bfg_lab.formation` for admitted/rejected examples. The API `prepare_candidate(y, d, r, difference, coherence, neutral)` returns diagnostics, not a complete next state. See the [proposed persistence correction](docs/PERSISTENCE_PROPOSAL.md).

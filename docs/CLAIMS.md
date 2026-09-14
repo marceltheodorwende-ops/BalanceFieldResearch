@@ -13,3 +13,6 @@
 
 | S01 | Standalone Freedom-Closed Unified V3 exists | Corrected: no | Author clarification; see ERRATUM_V3.md |
 | S02 | Five source files fully specify arbitrary universal iteration | Not established | V2 sections 23–24 leave microscopic construction open |
+
+| M06 | Capacity compression and candidate formation gate are executable | Implemented and tested | formation.py and 7 new tests |
+| M07 | Peripheral spectral definition replaces the invalid span definition | Proposed finite-dimensional correction | PERSISTENCE_PROPOSAL.md; original sources unchanged |

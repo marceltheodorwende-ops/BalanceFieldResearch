@@ -15,3 +15,7 @@ Environment: Windows, Python 3.12.14, NumPy 2.3.5.
 Not run: empirical benchmarks, full-paper simulation reproduction, full universal
 reclosure, browser visual inspection, cross-platform or Python-version matrix.
 No CI run is claimed. Run the documented commands after cloning.
+
+## Candidate verification: 14 September 2026
+
+The new tests initially failed because the formation module was absent. After implementation, `python -m unittest discover -s tests -v` passed all 15 tests, including 7 new formation tests and the existing 105 complex matrix cases. `python -m bfg_lab.formation` reports an admitted candidate with minimum -1 and a rejected candidate with minimum approximately +1. Tests cover support reduction, unitary-coordinate invariance, zero load, missing gap, degeneracy, near-zero minima and invalid inputs. No full universal iteration or empirical validation is claimed.
