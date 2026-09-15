@@ -1,5 +1,9 @@
 # BalanceFieldResearch
 
+The [bounded family search](docs/CERTIFIED_SEARCH.md) now subdivides uncertain
+weights and initial states to resolve additional open cases with certificates.
+Run `python -m bfg_lab.certified_search --input examples/certified_search.json`.
+
 The [reference-family repair](docs/CERTIFIED_FAMILY.md) now provides exact-rational
 certificates for a common witness or exclusion of a declared healthy weight box,
 and explicitly returns `unresolved` otherwise. Run
