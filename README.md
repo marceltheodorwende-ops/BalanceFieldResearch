@@ -1,5 +1,8 @@
 # BalanceFieldResearch
 
+The [39-case comparison](docs/CERTIFIED_COMPARISON.md) resolves 12 of 35 formerly
+open regression cases at a fixed 255-box budget and diagnoses the remaining cases.
+
 The [bounded family search](docs/CERTIFIED_SEARCH.md) now subdivides uncertain
 weights and initial states to resolve additional open cases with certificates.
 Run `python -m bfg_lab.certified_search --input examples/certified_search.json`.
