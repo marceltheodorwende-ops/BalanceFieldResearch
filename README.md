@@ -127,3 +127,8 @@ The [known-reference monitor](docs/REFERENCE_FINDINGS.md) adds an exact referenc
 topology and full initial calibration. It detects 15/24, 20/24 and 21/24 edge
 removals with 2, 4 and 8 ongoing sensors on the same catalogue. Reproduce with
 `python -m bfg_lab.reference`. This improvement depends on additional information.
+
+The [reference-error and excitation check](docs/REFERENCE_STRESS_FINDINGS.md)
+tests 144 cases: a known impulse exposes some invisible cuts, but inaccurate
+reference weights also cause alarms on intact networks. Reproduce with
+`python -m bfg_lab.reference_stress`.
