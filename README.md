@@ -103,3 +103,10 @@ baseline in the count of runs reaching the finite step budget.
 an edge-flux law. The [findings](docs/DIFFUSION_FINDINGS.md) give a counterexample:
 identical initial projected loads and dual gain do not identify diffusion recovery.
 This is a bounded mathematical result, not an empirical validation of BFG.
+
+## One early measurement
+
+`python -m bfg_lab.early` tests a conditional recovery interval on 40 new
+weighted graphs (80 state cases). The [derivation and findings](docs/EARLY_FINDINGS.md)
+show how a measurement at step 5 bounds step 20 without feeding the graph or
+future state to the predictor. This is a diffusion result, not BFG superiority.
