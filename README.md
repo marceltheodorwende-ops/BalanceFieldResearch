@@ -117,3 +117,8 @@ future state to the predictor. This is a diffusion result, not BFG superiority.
 also explains how to supply JSON sensor samples. Partial observation blocks a
 global forecast; full observation can flag some model violations, but can also
 miss a connection failure. A conditional forecast is never a health certificate.
+
+The [288-run detection catalogue](docs/DETECTION_FINDINGS.md) quantifies this
+limit: all tested edge removals were missed, while 24/24 external inputs and
+20/24 speedups were flagged with full observation. Two- and four-sensor runs
+all abstain. Reproduce with `python -m bfg_lab.detection`.
