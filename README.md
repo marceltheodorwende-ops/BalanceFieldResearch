@@ -1,5 +1,9 @@
 # BalanceFieldResearch
 
+The [audited boundary extension](docs/BOUNDARY_FINDINGS.md) reduces unresolved
+cases from 23 to 2 in the same 39-case catalogue. See its
+[method](docs/BOUNDARY_METHOD.md) and [BFG audit](docs/BOUNDARY_AUDIT.md).
+
 The [39-case comparison](docs/CERTIFIED_COMPARISON.md) resolves 12 of 35 formerly
 open regression cases at a fixed 255-box budget and diagnoses the remaining cases.
 
