@@ -122,3 +122,8 @@ The [288-run detection catalogue](docs/DETECTION_FINDINGS.md) quantifies this
 limit: all tested edge removals were missed, while 24/24 external inputs and
 20/24 speedups were flagged with full observation. Two- and four-sensor runs
 all abstain. Reproduce with `python -m bfg_lab.detection`.
+
+The [known-reference monitor](docs/REFERENCE_FINDINGS.md) adds an exact reference
+topology and full initial calibration. It detects 15/24, 20/24 and 21/24 edge
+removals with 2, 4 and 8 ongoing sensors on the same catalogue. Reproduce with
+`python -m bfg_lab.reference`. This improvement depends on additional information.
