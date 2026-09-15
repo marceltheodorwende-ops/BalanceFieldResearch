@@ -110,3 +110,10 @@ This is a bounded mathematical result, not an empirical validation of BFG.
 weighted graphs (80 state cases). The [derivation and findings](docs/EARLY_FINDINGS.md)
 show how a measurement at step 5 bounds step 20 without feeding the graph or
 future state to the predictor. This is a diffusion result, not BFG superiority.
+
+## Robustness monitor prototype
+
+`python -m bfg_lab.monitor` runs controlled fault scenarios. The [monitor guide](docs/MONITOR.md)
+also explains how to supply JSON sensor samples. Partial observation blocks a
+global forecast; full observation can flag some model violations, but can also
+miss a connection failure. A conditional forecast is never a health certificate.
