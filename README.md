@@ -1,5 +1,10 @@
 # BalanceFieldResearch
 
+The [reference-family repair](docs/CERTIFIED_FAMILY.md) now provides exact-rational
+certificates for a common witness or exclusion of a declared healthy weight box,
+and explicitly returns `unresolved` otherwise. Run
+`python -m bfg_lab.certified --input examples/certified_family.json`.
+
 **BFG Unified V4: reproducible mathematics and network experiments.**
 
 Research by Marcel Theodor Wende. This repository starts a new development line
