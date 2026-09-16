@@ -1,5 +1,9 @@
 # BalanceFieldResearch
 
+The [new network evaluation](research/network-transfer-2026-09-16/README.md)
+records 20 additional cases: eight remain unresolved, and the extended search
+does not improve on the original assessor in this run.
+
 The [exact two-node stage](research/exact-pair-2026-09-16/README.md) resolves the
 last two cases in the existing 39-case catalogue. Its own subfolder preserves
 the protocol, proof, audit and results alongside earlier stages.

@@ -1,0 +1,2023 @@
+{
+  "cases": [
+    {
+      "id": "path3_3s_.8_intact",
+      "graph": "path3",
+      "condition": "intact",
+      "weight": ".8",
+      "input": {
+        "weight_lower": [
+          [
+            0,
+            ".7",
+            0
+          ],
+          [
+            ".7",
+            0,
+            ".7"
+          ],
+          [
+            0,
+            ".7",
+            0
+          ]
+        ],
+        "weight_upper": [
+          [
+            0,
+            "1.3",
+            0
+          ],
+          [
+            "1.3",
+            0,
+            "1.3"
+          ],
+          [
+            0,
+            "1.3",
+            0
+          ]
+        ],
+        "initial": [
+          1,
+          0,
+          0
+        ],
+        "samples": [
+          [
+            "0.9999999000000000000000000000000000000000000000000000000000000000000000000000000",
+            "1.0000000000000000000000000000000000000000000000000000000000000000000000000E-7",
+            "-1.0000000000000000000000000000000000000000000000000000000000000000000000000E-7"
+          ],
+          [
+            "0.83416741588799533477304424051494769140134762091627918073579973369299503157914973",
+            "0.15039602130199118912384702758914404155589601443645731100642929423051871424419164",
+            "0.015436662810013476103108731895908267042756364647263508257770972076486254176658627"
+          ],
+          [
+            "0.57311737427351287961091322918772997577740414205051643796949973911928501113568070",
+            "0.30309411557019583220827592664010284437940665717115161495898985619522073281570727",
+            "0.12378841015629128818081084417216717984318920077833194707151040468549425604861202"
+          ]
+        ],
+        "times": [
+          0,
+          ".25",
+          1
+        ],
+        "sensors": [
+          0,
+          1,
+          2
+        ],
+        "sensor_error": "1e-6"
+      }
+    },
+    {
+      "id": "path3_3s_.8_isolated",
+      "graph": "path3",
+      "condition": "isolated",
+      "weight": ".8",
+      "input": {
+        "weight_lower": [
+          [
+            0,
+            ".7",
+            0
+          ],
+          [
+            ".7",
+            0,
+            ".7"
+          ],
+          [
+            0,
+            ".7",
+            0
+          ]
+        ],
+        "weight_upper": [
+          [
+            0,
+            "1.3",
+            0
+          ],
+          [
+            "1.3",
+            0,
+            "1.3"
+          ],
+          [
+            0,
+            "1.3",
+            0
+          ]
+        ],
+        "initial": [
+          1,
+          0,
+          0
+        ],
+        "samples": [
+          [
+            "0.9999999",
+            "1E-7",
+            "-1E-7"
+          ],
+          [
+            "1.0000001",
+            "-1E-7",
+            "1E-7"
+          ],
+          [
+            "0.9999999",
+            "1E-7",
+            "-1E-7"
+          ]
+        ],
+        "times": [
+          0,
+          ".25",
+          1
+        ],
+        "sensors": [
+          0,
+          1,
+          2
+        ],
+        "sensor_error": "1e-6"
+      }
+    },
+    {
+      "id": "path3_3s_1.2_intact",
+      "graph": "path3",
+      "condition": "intact",
+      "weight": "1.2",
+      "input": {
+        "weight_lower": [
+          [
+            0,
+            ".7",
+            0
+          ],
+          [
+            ".7",
+            0,
+            ".7"
+          ],
+          [
+            0,
+            ".7",
+            0
+          ]
+        ],
+        "weight_upper": [
+          [
+            0,
+            "1.3",
+            0
+          ],
+          [
+            "1.3",
+            0,
+            "1.3"
+          ],
+          [
+            0,
+            "1.3",
+            0
+          ]
+        ],
+        "initial": [
+          1,
+          0,
+          0
+        ],
+        "samples": [
+          [
+            "0.9999999000000000000000000000000000000000000000000000000000000000000000000000000",
+            "1.0000000000000000000000000000000000000000000000000000000000000000000000000E-7",
+            "-1.0000000000000000000000000000000000000000000000000000000000000000000000000E-7"
+          ],
+          [
+            "0.77150415363095878501401259626651276739674284536123286877203647480562124306707117",
+            "0.19781001341980029603884858678479133738876554127654061075123711719685576074321241",
+            "0.030685932949240918947138816948695895214491613362226520476726407997522996189716408"
+          ],
+          [
+            "0.48848429303064980845608264728087006800255078772235606029254194017210948414384506",
+            "0.32422552585090247973281231252148232396612271546254516440119647615290159234253644",
+            "0.18729008111844771181110504019764760803132649681509877530626158367498892351361850"
+          ]
+        ],
+        "times": [
+          0,
+          ".25",
+          1
+        ],
+        "sensors": [
+          0,
+          1,
+          2
+        ],
+        "sensor_error": "1e-6"
+      }
+    },
+    {
+      "id": "path3_3s_1.2_isolated",
+      "graph": "path3",
+      "condition": "isolated",
+      "weight": "1.2",
+      "input": {
+        "weight_lower": [
+          [
+            0,
+            ".7",
+            0
+          ],
+          [
+            ".7",
+            0,
+            ".7"
+          ],
+          [
+            0,
+            ".7",
+            0
+          ]
+        ],
+        "weight_upper": [
+          [
+            0,
+            "1.3",
+            0
+          ],
+          [
+            "1.3",
+            0,
+            "1.3"
+          ],
+          [
+            0,
+            "1.3",
+            0
+          ]
+        ],
+        "initial": [
+          1,
+          0,
+          0
+        ],
+        "samples": [
+          [
+            "0.9999999",
+            "1E-7",
+            "-1E-7"
+          ],
+          [
+            "1.0000001",
+            "-1E-7",
+            "1E-7"
+          ],
+          [
+            "0.9999999",
+            "1E-7",
+            "-1E-7"
+          ]
+        ],
+        "times": [
+          0,
+          ".25",
+          1
+        ],
+        "sensors": [
+          0,
+          1,
+          2
+        ],
+        "sensor_error": "1e-6"
+      }
+    },
+    {
+      "id": "path3_3s_1_constant_cut",
+      "graph": "path3",
+      "condition": "constant_cut",
+      "weight": "1",
+      "input": {
+        "weight_lower": [
+          [
+            0,
+            ".7",
+            0
+          ],
+          [
+            ".7",
+            0,
+            ".7"
+          ],
+          [
+            0,
+            ".7",
+            0
+          ]
+        ],
+        "weight_upper": [
+          [
+            0,
+            "1.3",
+            0
+          ],
+          [
+            "1.3",
+            0,
+            "1.3"
+          ],
+          [
+            0,
+            "1.3",
+            0
+          ]
+        ],
+        "initial": [
+          ".25",
+          ".25",
+          ".25"
+        ],
+        "samples": [
+          [
+            "0.2499999",
+            "0.2500001",
+            "0.2499999"
+          ],
+          [
+            "0.2500001",
+            "0.2499999",
+            "0.2500001"
+          ],
+          [
+            "0.2499999",
+            "0.2500001",
+            "0.2499999"
+          ]
+        ],
+        "times": [
+          0,
+          ".25",
+          1
+        ],
+        "sensors": [
+          0,
+          1,
+          2
+        ],
+        "sensor_error": "1e-6"
+      }
+    },
+    {
+      "id": "path3_1s_.8_intact",
+      "graph": "path3",
+      "condition": "intact",
+      "weight": ".8",
+      "input": {
+        "weight_lower": [
+          [
+            0,
+            ".7",
+            0
+          ],
+          [
+            ".7",
+            0,
+            ".7"
+          ],
+          [
+            0,
+            ".7",
+            0
+          ]
+        ],
+        "weight_upper": [
+          [
+            0,
+            "1.3",
+            0
+          ],
+          [
+            "1.3",
+            0,
+            "1.3"
+          ],
+          [
+            0,
+            "1.3",
+            0
+          ]
+        ],
+        "initial": [
+          1,
+          0,
+          0
+        ],
+        "samples": [
+          [
+            "0.9999999000000000000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          [
+            "0.83416741588799533477304424051494769140134762091627918073579973369299503157914973"
+          ],
+          [
+            "0.57311737427351287961091322918772997577740414205051643796949973911928501113568070"
+          ]
+        ],
+        "times": [
+          0,
+          ".25",
+          1
+        ],
+        "sensors": [
+          0
+        ],
+        "sensor_error": "1e-6"
+      }
+    },
+    {
+      "id": "path3_1s_.8_isolated",
+      "graph": "path3",
+      "condition": "isolated",
+      "weight": ".8",
+      "input": {
+        "weight_lower": [
+          [
+            0,
+            ".7",
+            0
+          ],
+          [
+            ".7",
+            0,
+            ".7"
+          ],
+          [
+            0,
+            ".7",
+            0
+          ]
+        ],
+        "weight_upper": [
+          [
+            0,
+            "1.3",
+            0
+          ],
+          [
+            "1.3",
+            0,
+            "1.3"
+          ],
+          [
+            0,
+            "1.3",
+            0
+          ]
+        ],
+        "initial": [
+          1,
+          0,
+          0
+        ],
+        "samples": [
+          [
+            "0.9999999"
+          ],
+          [
+            "1.0000001"
+          ],
+          [
+            "0.9999999"
+          ]
+        ],
+        "times": [
+          0,
+          ".25",
+          1
+        ],
+        "sensors": [
+          0
+        ],
+        "sensor_error": "1e-6"
+      }
+    },
+    {
+      "id": "path3_1s_1.2_intact",
+      "graph": "path3",
+      "condition": "intact",
+      "weight": "1.2",
+      "input": {
+        "weight_lower": [
+          [
+            0,
+            ".7",
+            0
+          ],
+          [
+            ".7",
+            0,
+            ".7"
+          ],
+          [
+            0,
+            ".7",
+            0
+          ]
+        ],
+        "weight_upper": [
+          [
+            0,
+            "1.3",
+            0
+          ],
+          [
+            "1.3",
+            0,
+            "1.3"
+          ],
+          [
+            0,
+            "1.3",
+            0
+          ]
+        ],
+        "initial": [
+          1,
+          0,
+          0
+        ],
+        "samples": [
+          [
+            "0.9999999000000000000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          [
+            "0.77150415363095878501401259626651276739674284536123286877203647480562124306707117"
+          ],
+          [
+            "0.48848429303064980845608264728087006800255078772235606029254194017210948414384506"
+          ]
+        ],
+        "times": [
+          0,
+          ".25",
+          1
+        ],
+        "sensors": [
+          0
+        ],
+        "sensor_error": "1e-6"
+      }
+    },
+    {
+      "id": "path3_1s_1.2_isolated",
+      "graph": "path3",
+      "condition": "isolated",
+      "weight": "1.2",
+      "input": {
+        "weight_lower": [
+          [
+            0,
+            ".7",
+            0
+          ],
+          [
+            ".7",
+            0,
+            ".7"
+          ],
+          [
+            0,
+            ".7",
+            0
+          ]
+        ],
+        "weight_upper": [
+          [
+            0,
+            "1.3",
+            0
+          ],
+          [
+            "1.3",
+            0,
+            "1.3"
+          ],
+          [
+            0,
+            "1.3",
+            0
+          ]
+        ],
+        "initial": [
+          1,
+          0,
+          0
+        ],
+        "samples": [
+          [
+            "0.9999999"
+          ],
+          [
+            "1.0000001"
+          ],
+          [
+            "0.9999999"
+          ]
+        ],
+        "times": [
+          0,
+          ".25",
+          1
+        ],
+        "sensors": [
+          0
+        ],
+        "sensor_error": "1e-6"
+      }
+    },
+    {
+      "id": "path3_1s_1_constant_cut",
+      "graph": "path3",
+      "condition": "constant_cut",
+      "weight": "1",
+      "input": {
+        "weight_lower": [
+          [
+            0,
+            ".7",
+            0
+          ],
+          [
+            ".7",
+            0,
+            ".7"
+          ],
+          [
+            0,
+            ".7",
+            0
+          ]
+        ],
+        "weight_upper": [
+          [
+            0,
+            "1.3",
+            0
+          ],
+          [
+            "1.3",
+            0,
+            "1.3"
+          ],
+          [
+            0,
+            "1.3",
+            0
+          ]
+        ],
+        "initial": [
+          ".25",
+          ".25",
+          ".25"
+        ],
+        "samples": [
+          [
+            "0.2499999"
+          ],
+          [
+            "0.2500001"
+          ],
+          [
+            "0.2499999"
+          ]
+        ],
+        "times": [
+          0,
+          ".25",
+          1
+        ],
+        "sensors": [
+          0
+        ],
+        "sensor_error": "1e-6"
+      }
+    },
+    {
+      "id": "complete4_4s_.8_intact",
+      "graph": "complete4",
+      "condition": "intact",
+      "weight": ".8",
+      "input": {
+        "weight_lower": [
+          [
+            0,
+            ".7",
+            ".7",
+            ".7"
+          ],
+          [
+            ".7",
+            0,
+            ".7",
+            ".7"
+          ],
+          [
+            ".7",
+            ".7",
+            0,
+            ".7"
+          ],
+          [
+            ".7",
+            ".7",
+            ".7",
+            0
+          ]
+        ],
+        "weight_upper": [
+          [
+            0,
+            "1.3",
+            "1.3",
+            "1.3"
+          ],
+          [
+            "1.3",
+            0,
+            "1.3",
+            "1.3"
+          ],
+          [
+            "1.3",
+            "1.3",
+            0,
+            "1.3"
+          ],
+          [
+            "1.3",
+            "1.3",
+            "1.3",
+            0
+          ]
+        ],
+        "initial": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "samples": [
+          [
+            "0.9999999",
+            "1E-7",
+            "-1E-7",
+            "1E-7"
+          ],
+          [
+            "0.5869968230879161935725767887616720969506612059541383681734920008253430663153015",
+            "0.13766765897069460214247440374610930101644626468195387727550266639155231122823283",
+            "0.13766785897069460214247440374610930101644626468195387727550266639155231122823283",
+            "0.13766765897069460214247440374610930101644626468195387727550266639155231122823283"
+          ],
+          [
+            "0.28057155298377466137455944660831879479486181757812315164806176094784662669114191",
+            "0.23980954900540844620848018446389373506837939414062561611731274635071779110295270",
+            "0.23980934900540844620848018446389373506837939414062561611731274635071779110295270",
+            "0.23980954900540844620848018446389373506837939414062561611731274635071779110295270"
+          ]
+        ],
+        "times": [
+          0,
+          ".25",
+          1
+        ],
+        "sensors": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "sensor_error": "1e-6"
+      }
+    },
+    {
+      "id": "complete4_4s_.8_isolated",
+      "graph": "complete4",
+      "condition": "isolated",
+      "weight": ".8",
+      "input": {
+        "weight_lower": [
+          [
+            0,
+            ".7",
+            ".7",
+            ".7"
+          ],
+          [
+            ".7",
+            0,
+            ".7",
+            ".7"
+          ],
+          [
+            ".7",
+            ".7",
+            0,
+            ".7"
+          ],
+          [
+            ".7",
+            ".7",
+            ".7",
+            0
+          ]
+        ],
+        "weight_upper": [
+          [
+            0,
+            "1.3",
+            "1.3",
+            "1.3"
+          ],
+          [
+            "1.3",
+            0,
+            "1.3",
+            "1.3"
+          ],
+          [
+            "1.3",
+            "1.3",
+            0,
+            "1.3"
+          ],
+          [
+            "1.3",
+            "1.3",
+            "1.3",
+            0
+          ]
+        ],
+        "initial": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "samples": [
+          [
+            "0.9999999",
+            "1E-7",
+            "-1E-7",
+            "1E-7"
+          ],
+          [
+            "1.0000001",
+            "-1E-7",
+            "1E-7",
+            "-1E-7"
+          ],
+          [
+            "0.9999999",
+            "1E-7",
+            "-1E-7",
+            "1E-7"
+          ]
+        ],
+        "times": [
+          0,
+          ".25",
+          1
+        ],
+        "sensors": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "sensor_error": "1e-6"
+      }
+    },
+    {
+      "id": "complete4_4s_1.2_intact",
+      "graph": "complete4",
+      "condition": "intact",
+      "weight": "1.2",
+      "input": {
+        "weight_lower": [
+          [
+            0,
+            ".7",
+            ".7",
+            ".7"
+          ],
+          [
+            ".7",
+            0,
+            ".7",
+            ".7"
+          ],
+          [
+            ".7",
+            ".7",
+            0,
+            ".7"
+          ],
+          [
+            ".7",
+            ".7",
+            ".7",
+            0
+          ]
+        ],
+        "weight_upper": [
+          [
+            0,
+            "1.3",
+            "1.3",
+            "1.3"
+          ],
+          [
+            "1.3",
+            0,
+            "1.3",
+            "1.3"
+          ],
+          [
+            "1.3",
+            "1.3",
+            0,
+            "1.3"
+          ],
+          [
+            "1.3",
+            "1.3",
+            "1.3",
+            0
+          ]
+        ],
+        "initial": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "samples": [
+          [
+            "0.9999999",
+            "1E-7",
+            "-1E-7",
+            "1E-7"
+          ],
+          [
+            "0.47589575893415157248373320531241684497841821818044296373971026737284042047266993",
+            "0.17470134702194947583875559822919438500719392727318567875342991087571985984244336",
+            "0.17470154702194947583875559822919438500719392727318567875342991087571985984244336",
+            "0.17470134702194947583875559822919438500719392727318567875342991087571985984244336"
+          ],
+          [
+            "0.25617221028676502163102152007455571387746322355882890320294539566831991274533397",
+            "0.24794266323774499278965949330848142870751225881372369893235153477722669575155534",
+            "0.24794246323774499278965949330848142870751225881372369893235153477722669575155534",
+            "0.24794266323774499278965949330848142870751225881372369893235153477722669575155534"
+          ]
+        ],
+        "times": [
+          0,
+          ".25",
+          1
+        ],
+        "sensors": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "sensor_error": "1e-6"
+      }
+    },
+    {
+      "id": "complete4_4s_1.2_isolated",
+      "graph": "complete4",
+      "condition": "isolated",
+      "weight": "1.2",
+      "input": {
+        "weight_lower": [
+          [
+            0,
+            ".7",
+            ".7",
+            ".7"
+          ],
+          [
+            ".7",
+            0,
+            ".7",
+            ".7"
+          ],
+          [
+            ".7",
+            ".7",
+            0,
+            ".7"
+          ],
+          [
+            ".7",
+            ".7",
+            ".7",
+            0
+          ]
+        ],
+        "weight_upper": [
+          [
+            0,
+            "1.3",
+            "1.3",
+            "1.3"
+          ],
+          [
+            "1.3",
+            0,
+            "1.3",
+            "1.3"
+          ],
+          [
+            "1.3",
+            "1.3",
+            0,
+            "1.3"
+          ],
+          [
+            "1.3",
+            "1.3",
+            "1.3",
+            0
+          ]
+        ],
+        "initial": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "samples": [
+          [
+            "0.9999999",
+            "1E-7",
+            "-1E-7",
+            "1E-7"
+          ],
+          [
+            "1.0000001",
+            "-1E-7",
+            "1E-7",
+            "-1E-7"
+          ],
+          [
+            "0.9999999",
+            "1E-7",
+            "-1E-7",
+            "1E-7"
+          ]
+        ],
+        "times": [
+          0,
+          ".25",
+          1
+        ],
+        "sensors": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "sensor_error": "1e-6"
+      }
+    },
+    {
+      "id": "complete4_4s_1_constant_cut",
+      "graph": "complete4",
+      "condition": "constant_cut",
+      "weight": "1",
+      "input": {
+        "weight_lower": [
+          [
+            0,
+            ".7",
+            ".7",
+            ".7"
+          ],
+          [
+            ".7",
+            0,
+            ".7",
+            ".7"
+          ],
+          [
+            ".7",
+            ".7",
+            0,
+            ".7"
+          ],
+          [
+            ".7",
+            ".7",
+            ".7",
+            0
+          ]
+        ],
+        "weight_upper": [
+          [
+            0,
+            "1.3",
+            "1.3",
+            "1.3"
+          ],
+          [
+            "1.3",
+            0,
+            "1.3",
+            "1.3"
+          ],
+          [
+            "1.3",
+            "1.3",
+            0,
+            "1.3"
+          ],
+          [
+            "1.3",
+            "1.3",
+            "1.3",
+            0
+          ]
+        ],
+        "initial": [
+          ".25",
+          ".25",
+          ".25",
+          ".25"
+        ],
+        "samples": [
+          [
+            "0.2499999",
+            "0.2500001",
+            "0.2499999",
+            "0.2500001"
+          ],
+          [
+            "0.2500001",
+            "0.2499999",
+            "0.2500001",
+            "0.2499999"
+          ],
+          [
+            "0.2499999",
+            "0.2500001",
+            "0.2499999",
+            "0.2500001"
+          ]
+        ],
+        "times": [
+          0,
+          ".25",
+          1
+        ],
+        "sensors": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "sensor_error": "1e-6"
+      }
+    },
+    {
+      "id": "complete4_1s_.8_intact",
+      "graph": "complete4",
+      "condition": "intact",
+      "weight": ".8",
+      "input": {
+        "weight_lower": [
+          [
+            0,
+            ".7",
+            ".7",
+            ".7"
+          ],
+          [
+            ".7",
+            0,
+            ".7",
+            ".7"
+          ],
+          [
+            ".7",
+            ".7",
+            0,
+            ".7"
+          ],
+          [
+            ".7",
+            ".7",
+            ".7",
+            0
+          ]
+        ],
+        "weight_upper": [
+          [
+            0,
+            "1.3",
+            "1.3",
+            "1.3"
+          ],
+          [
+            "1.3",
+            0,
+            "1.3",
+            "1.3"
+          ],
+          [
+            "1.3",
+            "1.3",
+            0,
+            "1.3"
+          ],
+          [
+            "1.3",
+            "1.3",
+            "1.3",
+            0
+          ]
+        ],
+        "initial": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "samples": [
+          [
+            "0.9999999"
+          ],
+          [
+            "0.5869968230879161935725767887616720969506612059541383681734920008253430663153015"
+          ],
+          [
+            "0.28057155298377466137455944660831879479486181757812315164806176094784662669114191"
+          ]
+        ],
+        "times": [
+          0,
+          ".25",
+          1
+        ],
+        "sensors": [
+          0
+        ],
+        "sensor_error": "1e-6"
+      }
+    },
+    {
+      "id": "complete4_1s_.8_isolated",
+      "graph": "complete4",
+      "condition": "isolated",
+      "weight": ".8",
+      "input": {
+        "weight_lower": [
+          [
+            0,
+            ".7",
+            ".7",
+            ".7"
+          ],
+          [
+            ".7",
+            0,
+            ".7",
+            ".7"
+          ],
+          [
+            ".7",
+            ".7",
+            0,
+            ".7"
+          ],
+          [
+            ".7",
+            ".7",
+            ".7",
+            0
+          ]
+        ],
+        "weight_upper": [
+          [
+            0,
+            "1.3",
+            "1.3",
+            "1.3"
+          ],
+          [
+            "1.3",
+            0,
+            "1.3",
+            "1.3"
+          ],
+          [
+            "1.3",
+            "1.3",
+            0,
+            "1.3"
+          ],
+          [
+            "1.3",
+            "1.3",
+            "1.3",
+            0
+          ]
+        ],
+        "initial": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "samples": [
+          [
+            "0.9999999"
+          ],
+          [
+            "1.0000001"
+          ],
+          [
+            "0.9999999"
+          ]
+        ],
+        "times": [
+          0,
+          ".25",
+          1
+        ],
+        "sensors": [
+          0
+        ],
+        "sensor_error": "1e-6"
+      }
+    },
+    {
+      "id": "complete4_1s_1.2_intact",
+      "graph": "complete4",
+      "condition": "intact",
+      "weight": "1.2",
+      "input": {
+        "weight_lower": [
+          [
+            0,
+            ".7",
+            ".7",
+            ".7"
+          ],
+          [
+            ".7",
+            0,
+            ".7",
+            ".7"
+          ],
+          [
+            ".7",
+            ".7",
+            0,
+            ".7"
+          ],
+          [
+            ".7",
+            ".7",
+            ".7",
+            0
+          ]
+        ],
+        "weight_upper": [
+          [
+            0,
+            "1.3",
+            "1.3",
+            "1.3"
+          ],
+          [
+            "1.3",
+            0,
+            "1.3",
+            "1.3"
+          ],
+          [
+            "1.3",
+            "1.3",
+            0,
+            "1.3"
+          ],
+          [
+            "1.3",
+            "1.3",
+            "1.3",
+            0
+          ]
+        ],
+        "initial": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "samples": [
+          [
+            "0.9999999"
+          ],
+          [
+            "0.47589575893415157248373320531241684497841821818044296373971026737284042047266993"
+          ],
+          [
+            "0.25617221028676502163102152007455571387746322355882890320294539566831991274533397"
+          ]
+        ],
+        "times": [
+          0,
+          ".25",
+          1
+        ],
+        "sensors": [
+          0
+        ],
+        "sensor_error": "1e-6"
+      }
+    },
+    {
+      "id": "complete4_1s_1.2_isolated",
+      "graph": "complete4",
+      "condition": "isolated",
+      "weight": "1.2",
+      "input": {
+        "weight_lower": [
+          [
+            0,
+            ".7",
+            ".7",
+            ".7"
+          ],
+          [
+            ".7",
+            0,
+            ".7",
+            ".7"
+          ],
+          [
+            ".7",
+            ".7",
+            0,
+            ".7"
+          ],
+          [
+            ".7",
+            ".7",
+            ".7",
+            0
+          ]
+        ],
+        "weight_upper": [
+          [
+            0,
+            "1.3",
+            "1.3",
+            "1.3"
+          ],
+          [
+            "1.3",
+            0,
+            "1.3",
+            "1.3"
+          ],
+          [
+            "1.3",
+            "1.3",
+            0,
+            "1.3"
+          ],
+          [
+            "1.3",
+            "1.3",
+            "1.3",
+            0
+          ]
+        ],
+        "initial": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "samples": [
+          [
+            "0.9999999"
+          ],
+          [
+            "1.0000001"
+          ],
+          [
+            "0.9999999"
+          ]
+        ],
+        "times": [
+          0,
+          ".25",
+          1
+        ],
+        "sensors": [
+          0
+        ],
+        "sensor_error": "1e-6"
+      }
+    },
+    {
+      "id": "complete4_1s_1_constant_cut",
+      "graph": "complete4",
+      "condition": "constant_cut",
+      "weight": "1",
+      "input": {
+        "weight_lower": [
+          [
+            0,
+            ".7",
+            ".7",
+            ".7"
+          ],
+          [
+            ".7",
+            0,
+            ".7",
+            ".7"
+          ],
+          [
+            ".7",
+            ".7",
+            0,
+            ".7"
+          ],
+          [
+            ".7",
+            ".7",
+            ".7",
+            0
+          ]
+        ],
+        "weight_upper": [
+          [
+            0,
+            "1.3",
+            "1.3",
+            "1.3"
+          ],
+          [
+            "1.3",
+            0,
+            "1.3",
+            "1.3"
+          ],
+          [
+            "1.3",
+            "1.3",
+            0,
+            "1.3"
+          ],
+          [
+            "1.3",
+            "1.3",
+            "1.3",
+            0
+          ]
+        ],
+        "initial": [
+          ".25",
+          ".25",
+          ".25",
+          ".25"
+        ],
+        "samples": [
+          [
+            "0.2499999"
+          ],
+          [
+            "0.2500001"
+          ],
+          [
+            "0.2499999"
+          ]
+        ],
+        "times": [
+          0,
+          ".25",
+          1
+        ],
+        "sensors": [
+          0
+        ],
+        "sensor_error": "1e-6"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "id": "path3_3s_.8_intact",
+      "graph": "path3",
+      "condition": "intact",
+      "sensor_count": 3,
+      "baseline": "unresolved",
+      "status": "unresolved",
+      "visited_boxes": 31,
+      "candidate_checks": 9,
+      "witness": null,
+      "certificate": null,
+      "reason": "search_incomplete"
+    },
+    {
+      "id": "path3_3s_.8_isolated",
+      "graph": "path3",
+      "condition": "isolated",
+      "sensor_count": 3,
+      "baseline": "healthy_family_excluded",
+      "status": "healthy_family_excluded",
+      "visited_boxes": 1,
+      "candidate_checks": 0,
+      "witness": null,
+      "certificate": null,
+      "reason": "all_leaves_excluded"
+    },
+    {
+      "id": "path3_3s_1.2_intact",
+      "graph": "path3",
+      "condition": "intact",
+      "sensor_count": 3,
+      "baseline": "unresolved",
+      "status": "unresolved",
+      "visited_boxes": 31,
+      "candidate_checks": 9,
+      "witness": null,
+      "certificate": null,
+      "reason": "search_incomplete"
+    },
+    {
+      "id": "path3_3s_1.2_isolated",
+      "graph": "path3",
+      "condition": "isolated",
+      "sensor_count": 3,
+      "baseline": "healthy_family_excluded",
+      "status": "healthy_family_excluded",
+      "visited_boxes": 1,
+      "candidate_checks": 0,
+      "witness": null,
+      "certificate": null,
+      "reason": "all_leaves_excluded"
+    },
+    {
+      "id": "path3_3s_1_constant_cut",
+      "graph": "path3",
+      "condition": "constant_cut",
+      "sensor_count": 3,
+      "baseline": "compatible_witness",
+      "status": "compatible_witness",
+      "visited_boxes": 1,
+      "candidate_checks": 0,
+      "witness": {
+        "weights": [
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ]
+        ],
+        "initial": [
+          "1/4",
+          "1/4",
+          "1/4"
+        ]
+      },
+      "certificate": null,
+      "reason": null
+    },
+    {
+      "id": "path3_1s_.8_intact",
+      "graph": "path3",
+      "condition": "intact",
+      "sensor_count": 1,
+      "baseline": "unresolved",
+      "status": "unresolved",
+      "visited_boxes": 31,
+      "candidate_checks": 9,
+      "witness": null,
+      "certificate": null,
+      "reason": "search_incomplete"
+    },
+    {
+      "id": "path3_1s_.8_isolated",
+      "graph": "path3",
+      "condition": "isolated",
+      "sensor_count": 1,
+      "baseline": "healthy_family_excluded",
+      "status": "healthy_family_excluded",
+      "visited_boxes": 1,
+      "candidate_checks": 0,
+      "witness": null,
+      "certificate": null,
+      "reason": "all_leaves_excluded"
+    },
+    {
+      "id": "path3_1s_1.2_intact",
+      "graph": "path3",
+      "condition": "intact",
+      "sensor_count": 1,
+      "baseline": "unresolved",
+      "status": "unresolved",
+      "visited_boxes": 31,
+      "candidate_checks": 9,
+      "witness": null,
+      "certificate": null,
+      "reason": "search_incomplete"
+    },
+    {
+      "id": "path3_1s_1.2_isolated",
+      "graph": "path3",
+      "condition": "isolated",
+      "sensor_count": 1,
+      "baseline": "healthy_family_excluded",
+      "status": "healthy_family_excluded",
+      "visited_boxes": 1,
+      "candidate_checks": 0,
+      "witness": null,
+      "certificate": null,
+      "reason": "all_leaves_excluded"
+    },
+    {
+      "id": "path3_1s_1_constant_cut",
+      "graph": "path3",
+      "condition": "constant_cut",
+      "sensor_count": 1,
+      "baseline": "compatible_witness",
+      "status": "compatible_witness",
+      "visited_boxes": 1,
+      "candidate_checks": 0,
+      "witness": {
+        "weights": [
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ]
+        ],
+        "initial": [
+          "1/4",
+          "1/4",
+          "1/4"
+        ]
+      },
+      "certificate": null,
+      "reason": null
+    },
+    {
+      "id": "complete4_4s_.8_intact",
+      "graph": "complete4",
+      "condition": "intact",
+      "sensor_count": 4,
+      "baseline": "unresolved",
+      "status": "unresolved",
+      "visited_boxes": 31,
+      "candidate_checks": 27,
+      "witness": null,
+      "certificate": null,
+      "reason": "search_incomplete"
+    },
+    {
+      "id": "complete4_4s_.8_isolated",
+      "graph": "complete4",
+      "condition": "isolated",
+      "sensor_count": 4,
+      "baseline": "healthy_family_excluded",
+      "status": "healthy_family_excluded",
+      "visited_boxes": 1,
+      "candidate_checks": 0,
+      "witness": null,
+      "certificate": null,
+      "reason": "all_leaves_excluded"
+    },
+    {
+      "id": "complete4_4s_1.2_intact",
+      "graph": "complete4",
+      "condition": "intact",
+      "sensor_count": 4,
+      "baseline": "unresolved",
+      "status": "unresolved",
+      "visited_boxes": 31,
+      "candidate_checks": 27,
+      "witness": null,
+      "certificate": null,
+      "reason": "search_incomplete"
+    },
+    {
+      "id": "complete4_4s_1.2_isolated",
+      "graph": "complete4",
+      "condition": "isolated",
+      "sensor_count": 4,
+      "baseline": "healthy_family_excluded",
+      "status": "healthy_family_excluded",
+      "visited_boxes": 1,
+      "candidate_checks": 0,
+      "witness": null,
+      "certificate": null,
+      "reason": "all_leaves_excluded"
+    },
+    {
+      "id": "complete4_4s_1_constant_cut",
+      "graph": "complete4",
+      "condition": "constant_cut",
+      "sensor_count": 4,
+      "baseline": "compatible_witness",
+      "status": "compatible_witness",
+      "visited_boxes": 1,
+      "candidate_checks": 0,
+      "witness": {
+        "weights": [
+          [
+            "0",
+            "1",
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "0",
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "1",
+            "1",
+            "0"
+          ]
+        ],
+        "initial": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ]
+      },
+      "certificate": null,
+      "reason": null
+    },
+    {
+      "id": "complete4_1s_.8_intact",
+      "graph": "complete4",
+      "condition": "intact",
+      "sensor_count": 1,
+      "baseline": "unresolved",
+      "status": "unresolved",
+      "visited_boxes": 31,
+      "candidate_checks": 27,
+      "witness": null,
+      "certificate": null,
+      "reason": "search_incomplete"
+    },
+    {
+      "id": "complete4_1s_.8_isolated",
+      "graph": "complete4",
+      "condition": "isolated",
+      "sensor_count": 1,
+      "baseline": "healthy_family_excluded",
+      "status": "healthy_family_excluded",
+      "visited_boxes": 1,
+      "candidate_checks": 0,
+      "witness": null,
+      "certificate": null,
+      "reason": "all_leaves_excluded"
+    },
+    {
+      "id": "complete4_1s_1.2_intact",
+      "graph": "complete4",
+      "condition": "intact",
+      "sensor_count": 1,
+      "baseline": "unresolved",
+      "status": "unresolved",
+      "visited_boxes": 31,
+      "candidate_checks": 27,
+      "witness": null,
+      "certificate": null,
+      "reason": "search_incomplete"
+    },
+    {
+      "id": "complete4_1s_1.2_isolated",
+      "graph": "complete4",
+      "condition": "isolated",
+      "sensor_count": 1,
+      "baseline": "healthy_family_excluded",
+      "status": "healthy_family_excluded",
+      "visited_boxes": 1,
+      "candidate_checks": 0,
+      "witness": null,
+      "certificate": null,
+      "reason": "all_leaves_excluded"
+    },
+    {
+      "id": "complete4_1s_1_constant_cut",
+      "graph": "complete4",
+      "condition": "constant_cut",
+      "sensor_count": 1,
+      "baseline": "compatible_witness",
+      "status": "compatible_witness",
+      "visited_boxes": 1,
+      "candidate_checks": 0,
+      "witness": {
+        "weights": [
+          [
+            "0",
+            "1",
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "0",
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "1",
+            "1",
+            "0"
+          ]
+        ],
+        "initial": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ]
+      },
+      "certificate": null,
+      "reason": null
+    }
+  ],
+  "case_sha256": "569aa2a9357c0c67305c03159cd6a70fe8a39697bb5d1321e62833de647edf4f",
+  "protocol_sha256": "b30141af4d17b5b0d4ff61e541741f4bf291869e020d6fe78d92633c7b6c42bc",
+  "counts": {
+    "baseline": {
+      "unresolved": 8,
+      "healthy_family_excluded": 8,
+      "compatible_witness": 4
+    },
+    "status": {
+      "unresolved": 8,
+      "healthy_family_excluded": 8,
+      "compatible_witness": 4
+    }
+  },
+  "false_exclusions": []
+}
