@@ -1,5 +1,9 @@
 # BalanceFieldResearch
 
+The [exact two-node stage](research/exact-pair-2026-09-16/README.md) resolves the
+last two cases in the existing 39-case catalogue. Its own subfolder preserves
+the protocol, proof, audit and results alongside earlier stages.
+
 The [audited boundary extension](docs/BOUNDARY_FINDINGS.md) reduces unresolved
 cases from 23 to 2 in the same 39-case catalogue. See its
 [method](docs/BOUNDARY_METHOD.md) and [BFG audit](docs/BOUNDARY_AUDIT.md).
