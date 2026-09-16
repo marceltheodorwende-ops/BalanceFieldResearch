@@ -1,0 +1,998 @@
+{
+  "case_sha256": "569aa2a9357c0c67305c03159cd6a70fe8a39697bb5d1321e62833de647edf4f",
+  "old_case_sha256": "fc60c1b13331525304000346fd963a0705a8617cd7e19f6b660957e90a4d3043",
+  "protocol_sha256": "21de5ff1033817c36c142eb12b5bc55236261deb02c22706fabcf170acccef5c",
+  "counts": {
+    "baseline": {
+      "unresolved": 8,
+      "healthy_family_excluded": 8,
+      "compatible_witness": 4
+    },
+    "more_boxes": {
+      "unresolved": 8,
+      "healthy_family_excluded": 8,
+      "compatible_witness": 4
+    },
+    "interior": {
+      "compatible_witness": 8,
+      "healthy_family_excluded": 8,
+      "unresolved": 4
+    }
+  },
+  "rows": [
+    {
+      "id": "path3_3s_.8_intact",
+      "baseline": {
+        "status": "unresolved",
+        "visited_boxes": 31,
+        "candidate_checks": 9
+      },
+      "more_boxes": {
+        "status": "unresolved",
+        "visited_boxes": 256,
+        "candidate_checks": 9
+      },
+      "interior": {
+        "status": "compatible_witness",
+        "witness": {
+          "weights": [
+            [
+              "0",
+              "3999999747107/5000000000000",
+              "0"
+            ],
+            [
+              "3999999747107/5000000000000",
+              "0",
+              "399999622217/500000000000"
+            ],
+            [
+              "0",
+              "399999622217/500000000000",
+              "0"
+            ]
+          ],
+          "initial": [
+            "1",
+            "0",
+            "0"
+          ]
+        },
+        "fit_evaluations": 16,
+        "fit_stop": "small_numerical_residual"
+      }
+    },
+    {
+      "id": "path3_3s_.8_isolated",
+      "baseline": {
+        "status": "healthy_family_excluded",
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      },
+      "more_boxes": {
+        "status": "healthy_family_excluded",
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      },
+      "interior": {
+        "status": "healthy_family_excluded",
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      }
+    },
+    {
+      "id": "path3_3s_1.2_intact",
+      "baseline": {
+        "status": "unresolved",
+        "visited_boxes": 31,
+        "candidate_checks": 9
+      },
+      "more_boxes": {
+        "status": "unresolved",
+        "visited_boxes": 256,
+        "candidate_checks": 9
+      },
+      "interior": {
+        "status": "compatible_witness",
+        "witness": {
+          "weights": [
+            [
+              "0",
+              "5999999324939/5000000000000",
+              "0"
+            ],
+            [
+              "5999999324939/5000000000000",
+              "0",
+              "1199999439391/1000000000000"
+            ],
+            [
+              "0",
+              "1199999439391/1000000000000",
+              "0"
+            ]
+          ],
+          "initial": [
+            "1",
+            "0",
+            "0"
+          ]
+        },
+        "fit_evaluations": 16,
+        "fit_stop": "small_numerical_residual"
+      }
+    },
+    {
+      "id": "path3_3s_1.2_isolated",
+      "baseline": {
+        "status": "healthy_family_excluded",
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      },
+      "more_boxes": {
+        "status": "healthy_family_excluded",
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      },
+      "interior": {
+        "status": "healthy_family_excluded",
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      }
+    },
+    {
+      "id": "path3_3s_1_constant_cut",
+      "baseline": {
+        "status": "compatible_witness",
+        "witness": {
+          "weights": [
+            [
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "0"
+            ]
+          ],
+          "initial": [
+            "1/4",
+            "1/4",
+            "1/4"
+          ]
+        },
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      },
+      "more_boxes": {
+        "status": "compatible_witness",
+        "witness": {
+          "weights": [
+            [
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "0"
+            ]
+          ],
+          "initial": [
+            "1/4",
+            "1/4",
+            "1/4"
+          ]
+        },
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      },
+      "interior": {
+        "status": "compatible_witness",
+        "witness": {
+          "weights": [
+            [
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "0"
+            ]
+          ],
+          "initial": [
+            "1/4",
+            "1/4",
+            "1/4"
+          ]
+        },
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      }
+    },
+    {
+      "id": "path3_1s_.8_intact",
+      "baseline": {
+        "status": "unresolved",
+        "visited_boxes": 31,
+        "candidate_checks": 9
+      },
+      "more_boxes": {
+        "status": "unresolved",
+        "visited_boxes": 256,
+        "candidate_checks": 9
+      },
+      "interior": {
+        "status": "compatible_witness",
+        "witness": {
+          "weights": [
+            [
+              "0",
+              "3999996867161/5000000000000",
+              "0"
+            ],
+            [
+              "3999996867161/5000000000000",
+              "0",
+              "250001120141/312500000000"
+            ],
+            [
+              "0",
+              "250001120141/312500000000",
+              "0"
+            ]
+          ],
+          "initial": [
+            "1",
+            "0",
+            "0"
+          ]
+        },
+        "fit_evaluations": 16,
+        "fit_stop": "small_numerical_residual"
+      }
+    },
+    {
+      "id": "path3_1s_.8_isolated",
+      "baseline": {
+        "status": "healthy_family_excluded",
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      },
+      "more_boxes": {
+        "status": "healthy_family_excluded",
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      },
+      "interior": {
+        "status": "healthy_family_excluded",
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      }
+    },
+    {
+      "id": "path3_1s_1.2_intact",
+      "baseline": {
+        "status": "unresolved",
+        "visited_boxes": 31,
+        "candidate_checks": 9
+      },
+      "more_boxes": {
+        "status": "unresolved",
+        "visited_boxes": 256,
+        "candidate_checks": 9
+      },
+      "interior": {
+        "status": "compatible_witness",
+        "witness": {
+          "weights": [
+            [
+              "0",
+              "1499998957379/1250000000000",
+              "0"
+            ],
+            [
+              "1499998957379/1250000000000",
+              "0",
+              "1200008618221/1000000000000"
+            ],
+            [
+              "0",
+              "1200008618221/1000000000000",
+              "0"
+            ]
+          ],
+          "initial": [
+            "1",
+            "0",
+            "0"
+          ]
+        },
+        "fit_evaluations": 21,
+        "fit_stop": "small_numerical_residual"
+      }
+    },
+    {
+      "id": "path3_1s_1.2_isolated",
+      "baseline": {
+        "status": "healthy_family_excluded",
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      },
+      "more_boxes": {
+        "status": "healthy_family_excluded",
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      },
+      "interior": {
+        "status": "healthy_family_excluded",
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      }
+    },
+    {
+      "id": "path3_1s_1_constant_cut",
+      "baseline": {
+        "status": "compatible_witness",
+        "witness": {
+          "weights": [
+            [
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "0"
+            ]
+          ],
+          "initial": [
+            "1/4",
+            "1/4",
+            "1/4"
+          ]
+        },
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      },
+      "more_boxes": {
+        "status": "compatible_witness",
+        "witness": {
+          "weights": [
+            [
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "0"
+            ]
+          ],
+          "initial": [
+            "1/4",
+            "1/4",
+            "1/4"
+          ]
+        },
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      },
+      "interior": {
+        "status": "compatible_witness",
+        "witness": {
+          "weights": [
+            [
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "0"
+            ]
+          ],
+          "initial": [
+            "1/4",
+            "1/4",
+            "1/4"
+          ]
+        },
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      }
+    },
+    {
+      "id": "complete4_4s_.8_intact",
+      "baseline": {
+        "status": "unresolved",
+        "visited_boxes": 31,
+        "candidate_checks": 27
+      },
+      "more_boxes": {
+        "status": "unresolved",
+        "visited_boxes": 256,
+        "candidate_checks": 27
+      },
+      "interior": {
+        "status": "unresolved",
+        "fit_evaluations": 118,
+        "fit_stop": "stalled",
+        "fit_certificate_status": "healthy_family_excluded",
+        "visited_boxes": 31,
+        "candidate_checks": 27
+      }
+    },
+    {
+      "id": "complete4_4s_.8_isolated",
+      "baseline": {
+        "status": "healthy_family_excluded",
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      },
+      "more_boxes": {
+        "status": "healthy_family_excluded",
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      },
+      "interior": {
+        "status": "healthy_family_excluded",
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      }
+    },
+    {
+      "id": "complete4_4s_1.2_intact",
+      "baseline": {
+        "status": "unresolved",
+        "visited_boxes": 31,
+        "candidate_checks": 27
+      },
+      "more_boxes": {
+        "status": "unresolved",
+        "visited_boxes": 256,
+        "candidate_checks": 27
+      },
+      "interior": {
+        "status": "unresolved",
+        "fit_evaluations": 53,
+        "fit_stop": "stalled",
+        "fit_certificate_status": "healthy_family_excluded",
+        "visited_boxes": 31,
+        "candidate_checks": 27
+      }
+    },
+    {
+      "id": "complete4_4s_1.2_isolated",
+      "baseline": {
+        "status": "healthy_family_excluded",
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      },
+      "more_boxes": {
+        "status": "healthy_family_excluded",
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      },
+      "interior": {
+        "status": "healthy_family_excluded",
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      }
+    },
+    {
+      "id": "complete4_4s_1_constant_cut",
+      "baseline": {
+        "status": "compatible_witness",
+        "witness": {
+          "weights": [
+            [
+              "0",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "0",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "0"
+            ]
+          ],
+          "initial": [
+            "1/4",
+            "1/4",
+            "1/4",
+            "1/4"
+          ]
+        },
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      },
+      "more_boxes": {
+        "status": "compatible_witness",
+        "witness": {
+          "weights": [
+            [
+              "0",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "0",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "0"
+            ]
+          ],
+          "initial": [
+            "1/4",
+            "1/4",
+            "1/4",
+            "1/4"
+          ]
+        },
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      },
+      "interior": {
+        "status": "compatible_witness",
+        "witness": {
+          "weights": [
+            [
+              "0",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "0",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "0"
+            ]
+          ],
+          "initial": [
+            "1/4",
+            "1/4",
+            "1/4",
+            "1/4"
+          ]
+        },
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      }
+    },
+    {
+      "id": "complete4_1s_.8_intact",
+      "baseline": {
+        "status": "unresolved",
+        "visited_boxes": 31,
+        "candidate_checks": 27
+      },
+      "more_boxes": {
+        "status": "unresolved",
+        "visited_boxes": 256,
+        "candidate_checks": 27
+      },
+      "interior": {
+        "status": "unresolved",
+        "fit_evaluations": 25,
+        "fit_stop": "stalled",
+        "fit_certificate_status": "healthy_family_excluded",
+        "visited_boxes": 31,
+        "candidate_checks": 27
+      }
+    },
+    {
+      "id": "complete4_1s_.8_isolated",
+      "baseline": {
+        "status": "healthy_family_excluded",
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      },
+      "more_boxes": {
+        "status": "healthy_family_excluded",
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      },
+      "interior": {
+        "status": "healthy_family_excluded",
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      }
+    },
+    {
+      "id": "complete4_1s_1.2_intact",
+      "baseline": {
+        "status": "unresolved",
+        "visited_boxes": 31,
+        "candidate_checks": 27
+      },
+      "more_boxes": {
+        "status": "unresolved",
+        "visited_boxes": 256,
+        "candidate_checks": 27
+      },
+      "interior": {
+        "status": "unresolved",
+        "fit_evaluations": 38,
+        "fit_stop": "stalled",
+        "fit_certificate_status": "healthy_family_excluded",
+        "visited_boxes": 31,
+        "candidate_checks": 27
+      }
+    },
+    {
+      "id": "complete4_1s_1.2_isolated",
+      "baseline": {
+        "status": "healthy_family_excluded",
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      },
+      "more_boxes": {
+        "status": "healthy_family_excluded",
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      },
+      "interior": {
+        "status": "healthy_family_excluded",
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      }
+    },
+    {
+      "id": "complete4_1s_1_constant_cut",
+      "baseline": {
+        "status": "compatible_witness",
+        "witness": {
+          "weights": [
+            [
+              "0",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "0",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "0"
+            ]
+          ],
+          "initial": [
+            "1/4",
+            "1/4",
+            "1/4",
+            "1/4"
+          ]
+        },
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      },
+      "more_boxes": {
+        "status": "compatible_witness",
+        "witness": {
+          "weights": [
+            [
+              "0",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "0",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "0"
+            ]
+          ],
+          "initial": [
+            "1/4",
+            "1/4",
+            "1/4",
+            "1/4"
+          ]
+        },
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      },
+      "interior": {
+        "status": "compatible_witness",
+        "witness": {
+          "weights": [
+            [
+              "0",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "0",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "0"
+            ]
+          ],
+          "initial": [
+            "1/4",
+            "1/4",
+            "1/4",
+            "1/4"
+          ]
+        },
+        "visited_boxes": 1,
+        "candidate_checks": 0
+      }
+    }
+  ],
+  "historical_regression": [
+    {
+      "id": "exact_overlap",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "series_limit",
+      "status": "healthy_family_excluded"
+    },
+    {
+      "id": "inconsistent_narrow",
+      "status": "healthy_family_excluded"
+    },
+    {
+      "id": "midpoint_control",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "exclusion_control",
+      "status": "healthy_family_excluded"
+    },
+    {
+      "id": "constant_control",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "corner_0.9_-0.001_-0.001_-0.0001",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "corner_0.9_-0.001_-0.001_0.0001",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "corner_0.9_-0.001_0.001_-0.0001",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "corner_0.9_-0.001_0.001_0.0001",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "corner_0.9_0.001_-0.001_-0.0001",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "corner_0.9_0.001_-0.001_0.0001",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "corner_0.9_0.001_0.001_-0.0001",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "corner_0.9_0.001_0.001_0.0001",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "corner_1_-0.001_-0.001_-0.0001",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "corner_1_-0.001_-0.001_0.0001",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "corner_1_-0.001_0.001_-0.0001",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "corner_1_-0.001_0.001_0.0001",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "corner_1_0.001_-0.001_-0.0001",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "corner_1_0.001_-0.001_0.0001",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "corner_1_0.001_0.001_-0.0001",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "corner_1_0.001_0.001_0.0001",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "corner_1.1_-0.001_-0.001_-0.0001",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "corner_1.1_-0.001_-0.001_0.0001",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "corner_1.1_-0.001_0.001_-0.0001",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "corner_1.1_-0.001_0.001_0.0001",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "corner_1.1_0.001_-0.001_-0.0001",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "corner_1.1_0.001_-0.001_0.0001",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "corner_1.1_0.001_0.001_-0.0001",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "corner_1.1_0.001_0.001_0.0001",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "grid_0",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "grid_0.125",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "grid_0.5",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "grid_0.9",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "grid_1",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "grid_1.75",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "grid_2",
+      "status": "compatible_witness"
+    },
+    {
+      "id": "inconsistent_wide",
+      "status": "healthy_family_excluded"
+    },
+    {
+      "id": "initial_witness",
+      "status": "compatible_witness"
+    }
+  ]
+}

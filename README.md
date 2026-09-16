@@ -1,5 +1,9 @@
 # BalanceFieldResearch
 
+The [interior candidate stage](research/interior-search-2026-09-16/README.md)
+certifies four additional network histories; four complete-graph cases remain
+unresolved. Numerical proposals still require exact rational certificates.
+
 The [new network evaluation](research/network-transfer-2026-09-16/README.md)
 records 20 additional cases: eight remain unresolved, and the extended search
 does not improve on the original assessor in this run.
