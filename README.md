@@ -1,5 +1,9 @@
 # BalanceFieldResearch
 
+The [conditioning repair](research/conditioned-search-2026-09-16/README.md)
+resolves the four remaining complete-graph cases with the optional
+`fit_rcond=1e-8` setting and unchanged exact certification.
+
 The [interior candidate stage](research/interior-search-2026-09-16/README.md)
 certifies four additional network histories; four complete-graph cases remain
 unresolved. Numerical proposals still require exact rational certificates.

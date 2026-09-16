@@ -10,11 +10,15 @@ class _BudgetExhausted(Exception):
 
 def assess_interior(weight_lower,weight_upper,initial,samples,times,sensors,
                     initial_error=0,sensor_error=0,fit_evaluations=256,
-                    fit_terms=64,**options):
+                    fit_terms=64,fit_rcond=None,**options):
     if type(fit_evaluations)!=int or fit_evaluations<0:
         raise ValueError('Nonnegative integer fit budget required')
     if type(fit_terms)!=int or not 0<=fit_terms<=128:
         raise ValueError('Integer fit certificate budget 0..128 required')
+    if fit_rcond is not None and (isinstance(fit_rcond,bool) or
+            not isinstance(fit_rcond,(int,float)) or not np.isfinite(fit_rcond) or
+            not 0<=fit_rcond<1):
+        raise ValueError('Relative singular value cutoff must be None or finite in [0,1)')
     previous=assess_exact_pair(weight_lower,weight_upper,initial,samples,times,sensors,
                               initial_error,sensor_error,**options)
     if previous['status']!='unresolved' or fit_evaluations==0:
@@ -56,7 +60,7 @@ def assess_interior(weight_lower,weight_upper,initial,samples,times,sensors,
             for j in range(len(z)):
                 zp=z.copy(); zm=z.copy(); zp[j]=min(1,z[j]+1e-5); zm[j]=max(0,z[j]-1e-5)
                 columns.append((residual(zp)-residual(zm))/(zp[j]-zm[j]))
-            step=np.linalg.lstsq(np.array(columns).T,-r,rcond=None)[0]
+            step=np.linalg.lstsq(np.array(columns).T,-r,rcond=fit_rcond)[0]
             if not np.isfinite(step).all(): raise ValueError('Nonfinite proposal step')
             accepted=False
             for k in range(12):
@@ -71,6 +75,7 @@ def assess_interior(weight_lower,weight_upper,initial,samples,times,sensors,
     except (ValueError,OverflowError,FloatingPointError,np.linalg.LinAlgError):
         stop='numerical_failure'
     previous['fit_evaluations']=count; previous['fit_stop']=stop
+    previous['fit_rcond']=fit_rcond
     if candidate is None: return previous
     # Convert bounded normalized coordinates to rationals, then apply ORIGINAL
     # rational bounds. Floating-point optimization cannot expand the family.
@@ -84,7 +89,7 @@ def assess_interior(weight_lower,weight_upper,initial,samples,times,sensors,
                             0,sensor_error,fit_terms)
     if certified['status']=='compatible_witness':
         certified.update(witness_source='numerical_proposal_exact_certificate',
-                         fit_evaluations=count,fit_stop=stop,fit_terms=fit_terms)
+                         fit_evaluations=count,fit_stop=stop,fit_terms=fit_terms,fit_rcond=fit_rcond)
         return certified
     previous['fit_certificate_status']=certified['status']
     return previous
@@ -96,6 +101,12 @@ if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--input',type=Path,required=True)
     p.add_argument('--output',type=Path,default=Path('results/certified_interior.json'))
-    args=p.parse_args(); r=assess_interior(**json.loads(args.input.read_text(encoding='utf-8'),parse_float=str))
+    args=p.parse_args()
+    payload=json.loads(args.input.read_text(encoding='utf-8'),parse_float=str)
+    # Measurements stay exact decimal strings; this numeric solver option is
+    # a floating-point relative cutoff, not a physical measurement.
+    if isinstance(payload.get('fit_rcond'),str):
+        payload['fit_rcond']=float(payload['fit_rcond'])
+    r=assess_interior(**payload)
     args.output.parent.mkdir(parents=True,exist_ok=True)
     args.output.write_text(json.dumps(r,indent=2)+'\n',encoding='utf-8'); print(r['status'])
