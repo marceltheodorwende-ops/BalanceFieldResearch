@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-18",
+  "repository_commit": "ad1d774f551d5ec0575c526bc867dd793b1dbed3",
+  "papers": [
+    {
+      "file": "BFG_Universal_Reclosure_Unification_Whitepaper_2026-09-07_revised_final.pdf",
+      "bytes": 2176224,
+      "sha256": "9af25a981dd86e084de0656170669fee7f6d07a55eb22b20a1b588f10f1eb900",
+      "git_blob_sha": "e4332eb55e6c2eb952b661b4eff9d25c9f82b041",
+      "pages": 30,
+      "all_pages_extractable": true
+    },
+    {
+      "file": "BFG_Strong_Universal_Reclosure_Whitepaper_2026-09-08.pdf",
+      "bytes": 2190047,
+      "sha256": "cf66f8f9d5b50e38ec82760dbbc88d7e28dd37affda4757f4c8d3bc7b83505f1",
+      "git_blob_sha": "a91e84a42c9e420267426b35ad5c94071b25cffe",
+      "pages": 34,
+      "all_pages_extractable": true
+    },
+    {
+      "file": "BFG_Endogenous_Dual_Order_Strong_Universal_Canonical_Closure_Whitepaper_2026-09-08.pdf",
+      "bytes": 702216,
+      "sha256": "d88d6b83035bd4a7e8c872aba69ba1456b8f4615d16fbd5ccbbdaf69d2b84b52",
+      "git_blob_sha": "317449f5acaf6a63088211eeff181f2c300effdc",
+      "pages": 31,
+      "all_pages_extractable": true
+    },
+    {
+      "file": "BFG_Unified_V4_Compact_Canonical_Universal_Reclosure_2026-09-12.pdf",
+      "bytes": 835901,
+      "sha256": "cc1083760ba0f9ce87a7c822fc1837f24e84425bf3ad12e2e776c1f2eb141fb2",
+      "git_blob_sha": "a109e9947b7c75d8f534c14f035ea3f97dc5e7a8",
+      "pages": 38,
+      "all_pages_extractable": true
+    },
+    {
+      "file": "BFG_Universal_Structural_Whitepaper_Strong_Form_V2.docx",
+      "bytes": 69608,
+      "sha256": "9784c915d4b060dae068258166fe46448694cd32055eed69b00ecda6703eb6c2",
+      "git_blob_sha": "1c03414f75a43990a7cef97dee776e5223e2b2bd",
+      "zip_integrity_ok": true
+    }
+  ],
+  "audit_documents": [
+    {
+      "file": "BFG_Audit_Complete_Edition.docx",
+      "sha256": "ed915f5a468569ed174c3187436bbffd067fa10efe3a185ee6abf414e89711e5"
+    },
+    {
+      "file": "BFG_Audit_Workflow_Master.docx",
+      "sha256": "8a27f722de0a6f763c134d5f3320c38cd1f713b573d9fe81384e04ffcbfc4d25"
+    },
+    {
+      "file": "BFG_X_Context_Recovery_Protocol_Master finish.docx",
+      "sha256": "c571e2fe9cc7804436b2b9e52b4f8a1541b7aad50b07b242c83441556232e329"
+    }
+  ],
+  "external_primary_sources": [
+    "https://arxiv.org/pdf/astro-ph/0506723",
+    "https://doi.org/10.1086/162570",
+    "https://arxiv.org/abs/1606.09251"
+  ]
+}

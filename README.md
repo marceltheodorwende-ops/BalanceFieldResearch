@@ -1,5 +1,9 @@
 # BalanceFieldResearch
 
+The [prediction audit and seven open realization problems](research/prediction-audit-2026-09-18/README.md)
+separate possible empirical tests from unresolved universal reconstruction.
+The galaxy branch overlaps a standard MOND interpolation; no BFG confirmation is claimed.
+
 The [conditioning repair](research/conditioned-search-2026-09-16/README.md)
 resolves the four remaining complete-graph cases with the optional
 `fit_rcond=1e-8` setting and unchanged exact certification.
