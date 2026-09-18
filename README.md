@@ -1,5 +1,9 @@
 # BalanceFieldResearch
 
+The [internal closure derivations](research/internal-closure-2026-09-18/README.md)
+add a tested Gram rebuild for supplied factors and conditional mathematical results.
+The seven universal realization problems are not claimed fully solved.
+
 The [prediction audit and seven open realization problems](research/prediction-audit-2026-09-18/README.md)
 separate possible empirical tests from unresolved universal reconstruction.
 The galaxy branch overlaps a standard MOND interpolation; no BFG confirmation is claimed.
