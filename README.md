@@ -1,5 +1,10 @@
 # BalanceFieldResearch
 
+The [G1 compatibility audit](research/gram-compatibility-2026-09-18/README.md)
+derives G1 under explicit intertwining conditions and gives a gate-admitted
+counterexample to unrestricted compatibility with B_C = D_cov c.
+G1 remains a restricted proposal, not a general internal BFG theorem.
+
 The [G1 Gram inheritance proposal](research/gram-inheritance-proposal-2026-09-18/README.md)
 uniquely fixes the next load under an explicit additional postulate.
 It is not derived from existing BFG axioms and imposes a nonincreasing load-norm bound.
