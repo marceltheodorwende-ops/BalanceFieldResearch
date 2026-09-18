@@ -1,5 +1,9 @@
 # BalanceFieldResearch
 
+The [closure-boundary report and consolidated ledger](research/closure-boundaries-2026-09-19/README.md)
+record finite-derivative and infinite-domain obstructions. The autonomous internal
+derivation round pauses pending a concrete upstream model; universal closure is unproved.
+
 The [exact nonnormal certificate stage](research/exact-nonnormal-2026-09-18/README.md)
 verifies supplied rational invariant splittings and Lyapunov metrics without
 floating-point eigenvalue thresholds. It does not reconstruct recursive transport.
