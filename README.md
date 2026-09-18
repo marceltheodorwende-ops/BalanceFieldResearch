@@ -1,5 +1,9 @@
 # BalanceFieldResearch
 
+The [retained-channel analysis and progress ledger](research/retained-channels-2026-09-18/README.md)
+provide an exact Gram loss decomposition and show why compressed coherence alone
+cannot recover the missing channel energy. Universal reconstruction remains open.
+
 The [G1 compatibility audit](research/gram-compatibility-2026-09-18/README.md)
 derives G1 under explicit intertwining conditions and gives a gate-admitted
 counterexample to unrestricted compatibility with B_C = D_cov c.
