@@ -1,5 +1,9 @@
 # BalanceFieldResearch
 
+A [fully worked local reconstruction witness](research/reconstruction-witness-2026-09-18/README.md)
+shows that the same split, polar transport and successful gate permit different
+positive Gram rebuilds unless the reconstruction functions are additionally specified.
+
 The [internal closure derivations](research/internal-closure-2026-09-18/README.md)
 add a tested Gram rebuild for supplied factors and conditional mathematical results.
 The seven universal realization problems are not claimed fully solved.
