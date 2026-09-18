@@ -1,5 +1,9 @@
 # BalanceFieldResearch
 
+The [G1 Gram inheritance proposal](research/gram-inheritance-proposal-2026-09-18/README.md)
+uniquely fixes the next load under an explicit additional postulate.
+It is not derived from existing BFG axioms and imposes a nonincreasing load-norm bound.
+
 A [fully worked local reconstruction witness](research/reconstruction-witness-2026-09-18/README.md)
 shows that the same split, polar transport and successful gate permit different
 positive Gram rebuilds unless the reconstruction functions are additionally specified.
