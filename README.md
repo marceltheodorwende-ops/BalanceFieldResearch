@@ -1,5 +1,9 @@
 # BalanceFieldResearch
 
+The [exact nonnormal certificate stage](research/exact-nonnormal-2026-09-18/README.md)
+verifies supplied rational invariant splittings and Lyapunov metrics without
+floating-point eigenvalue thresholds. It does not reconstruct recursive transport.
+
 The [retained-channel analysis and progress ledger](research/retained-channels-2026-09-18/README.md)
 provide an exact Gram loss decomposition and show why compressed coherence alone
 cannot recover the missing channel energy. Universal reconstruction remains open.
