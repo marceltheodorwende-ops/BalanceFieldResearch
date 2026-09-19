@@ -1,0 +1,149 @@
+{
+  "analytic": [
+    {
+      "step": 1,
+      "status": "formation_admitted",
+      "gate": {
+        "passed": true,
+        "reasons": [],
+        "minimum": -2.9999999999999996,
+        "formation_gap": 0.9999999999999996,
+        "persistence_gap": 1.0,
+        "tolerance": 1e-10,
+        "eigenvalues": [
+          -2.9999999999999996,
+          -2.0
+        ]
+      },
+      "g1_discrepancy": 9.42055475210265e-16,
+      "derivative_discrepancy": 3.1401849173675503e-16,
+      "next_dimension": 2,
+      "next_packet_norm": 0.3535533905932739
+    },
+    {
+      "step": 2,
+      "status": "formation_admitted",
+      "gate": {
+        "passed": true,
+        "reasons": [],
+        "minimum": -2.999999999999999,
+        "formation_gap": 1.0,
+        "persistence_gap": 1.0,
+        "tolerance": 1e-10,
+        "eigenvalues": [
+          -2.999999999999999,
+          -1.9999999999999991
+        ]
+      },
+      "g1_discrepancy": 3.1401849173675503e-16,
+      "derivative_discrepancy": 1.798649393755821e-33,
+      "next_dimension": 2,
+      "next_packet_norm": 0.08838834764831853
+    },
+    {
+      "step": 3,
+      "status": "formation_admitted",
+      "gate": {
+        "passed": true,
+        "reasons": [],
+        "minimum": -2.999999999999999,
+        "formation_gap": 1.0,
+        "persistence_gap": 1.0,
+        "tolerance": 1e-10,
+        "eigenvalues": [
+          -2.999999999999999,
+          -1.9999999999999991
+        ]
+      },
+      "g1_discrepancy": 1.220377688384878e-34,
+      "derivative_discrepancy": 2.5015719162917777e-34,
+      "next_dimension": 2,
+      "next_packet_norm": 0.022097086912079646
+    },
+    {
+      "step": 4,
+      "status": "formation_admitted",
+      "gate": {
+        "passed": true,
+        "reasons": [],
+        "minimum": -2.999999999999999,
+        "formation_gap": 1.0,
+        "persistence_gap": 1.0,
+        "tolerance": 1e-10,
+        "eigenvalues": [
+          -2.999999999999999,
+          -1.9999999999999991
+        ]
+      },
+      "g1_discrepancy": 5.641792724047696e-33,
+      "derivative_discrepancy": 1.3005347604613381e-33,
+      "next_dimension": 2,
+      "next_packet_norm": 0.005524271728019915
+    }
+  ],
+  "noncommuting": [
+    {
+      "step": 1,
+      "status": "formation_admitted",
+      "gate": {
+        "passed": true,
+        "reasons": [],
+        "minimum": -6.910755421938677,
+        "formation_gap": 0.8215108438773573,
+        "persistence_gap": 1.0,
+        "tolerance": 1e-10,
+        "eigenvalues": [
+          -6.910755421938677,
+          -6.08924457806132,
+          -6.0000000000000036
+        ]
+      },
+      "g1_discrepancy": 3.833985745094753,
+      "derivative_discrepancy": 1.5033039754818294,
+      "next_dimension": 3,
+      "next_packet_norm": 0.5550586353868909
+    },
+    {
+      "step": 2,
+      "status": "formation_admitted",
+      "gate": {
+        "passed": true,
+        "reasons": [],
+        "minimum": -6.810976545806182,
+        "formation_gap": 0.6315917360802636,
+        "persistence_gap": 1.0,
+        "tolerance": 1e-10,
+        "eigenvalues": [
+          -6.810976545806182,
+          -6.179384809725918,
+          -6.009638644467903
+        ]
+      },
+      "g1_discrepancy": 1.4348423545850504,
+      "derivative_discrepancy": 0.8531788968365722,
+      "next_dimension": 3,
+      "next_packet_norm": 0.2878703423501662
+    },
+    {
+      "step": 3,
+      "status": "formation_admitted",
+      "gate": {
+        "passed": true,
+        "reasons": [],
+        "minimum": -6.757485735058462,
+        "formation_gap": 0.5268976302370785,
+        "persistence_gap": 1.0,
+        "tolerance": 1e-10,
+        "eigenvalues": [
+          -6.757485735058462,
+          -6.230588104821384,
+          -6.011926160120154
+        ]
+      },
+      "g1_discrepancy": 0.30182758224372136,
+      "derivative_discrepancy": 0.3536122088322928,
+      "next_dimension": 3,
+      "next_packet_norm": 0.05260156149772314
+    }
+  ]
+}

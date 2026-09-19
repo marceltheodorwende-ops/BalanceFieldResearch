@@ -1,5 +1,10 @@
 # BalanceFieldResearch
 
+The [M3 connection model](research/connection-model-2026-09-19/README.md)
+provides a complete finite experimental update under explicit new assumptions.
+It rebuilds from compressed connections, does not preserve G1 in general,
+and is not a derivation of universal BFG from the original papers.
+
 The [closure-boundary report and consolidated ledger](research/closure-boundaries-2026-09-19/README.md)
 record finite-derivative and infinite-domain obstructions. The autonomous internal
 derivation round pauses pending a concrete upstream model; universal closure is unproved.
