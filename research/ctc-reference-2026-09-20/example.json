@@ -1,0 +1,67 @@
+{
+  "model": "CTC-SA reference",
+  "history": [
+    {
+      "status": "advanced",
+      "dimension": 5,
+      "next_dimension": 4,
+      "eta": 1.0,
+      "eta_next": 0.19999999999999996,
+      "energy": 10.0,
+      "energy_next": 0.8333333333333329,
+      "energy_ratio": 0.08333333333333329,
+      "loads": [
+        2.0,
+        2.0
+      ],
+      "persistence_gap": 0.16666666666666663,
+      "formation_gap": 2.999999999999999,
+      "gram_inheritance_defect": 0.8,
+      "tolerance": 1e-10,
+      "scope": "floating-point finite SA model, not empirical validation"
+    },
+    {
+      "status": "advanced",
+      "dimension": 4,
+      "next_dimension": 3,
+      "eta": 0.19999999999999996,
+      "eta_next": 0.04006410256410253,
+      "energy": 0.8333333333333329,
+      "energy_next": 0.026750556411573315,
+      "energy_ratio": 0.032100667693887995,
+      "loads": [
+        0.43402777777777757,
+        0.017361111111111095
+      ],
+      "persistence_gap": 0.20000000000000007,
+      "formation_gap": 2.999999999999999,
+      "gram_inheritance_defect": 0.15993589743589742,
+      "tolerance": 1e-10,
+      "scope": "floating-point finite SA model, not empirical validation"
+    },
+    {
+      "status": "advanced",
+      "dimension": 3,
+      "next_dimension": 2,
+      "eta": 0.04006410256410253,
+      "eta_next": 0.001975298887400874,
+      "energy": 0.026750556411573315,
+      "energy_next": 5.070473491017508e-05,
+      "energy_ratio": 0.001895464682306132,
+      "loads": [
+        0.016486229699221623,
+        2.646258003064775e-05
+      ],
+      "persistence_gap": 0.2499999999999999,
+      "formation_gap": 2.9999999999999982,
+      "gram_inheritance_defect": 0.03808880367670166,
+      "tolerance": 1e-10,
+      "scope": "floating-point finite SA model, not empirical validation"
+    },
+    {
+      "status": "terminal",
+      "reason": "ctc_dimension_floor",
+      "dimension": 2
+    }
+  ]
+}
