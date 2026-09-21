@@ -1,0 +1,30 @@
+{
+  "record": "https://zenodo.org/records/10794584",
+  "doi": "10.5281/zenodo.10794584",
+  "title": "Impedance data for various electrochemical and electrical systems",
+  "creators": [
+    {
+      "name": "Danzer, Michael A.",
+      "affiliation": "Chair of Electrical Energy Systems, University of Bayreuth",
+      "orcid": "0000-0002-4135-7263"
+    },
+    {
+      "name": "Plank, Christian",
+      "affiliation": "Chair of Electrical Energy Systems, University of Bayreuth",
+      "orcid": "0000-0002-8345-1549"
+    },
+    {
+      "name": "Rüther, Tom",
+      "affiliation": "Chair of Electrical Energy Systems, University of Bayreuth",
+      "orcid": "0000-0003-3696-5333"
+    }
+  ],
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "retrieved": "2026-09-21",
+  "file_url": "https://zenodo.org/records/10794584/files/rlc_circuit.json?download=1",
+  "file_unmodified": true,
+  "sha256": "5ba93aeef5570f8eaf13bf84e0d2b3bb5221f2d208ce365c9088b62873ef5cbd",
+  "md5": "0d8f9939685d435c7475aed873a6ba99"
+}

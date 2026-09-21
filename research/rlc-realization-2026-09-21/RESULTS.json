@@ -1,0 +1,99 @@
+{
+  "source_sha256": "5ba93aeef5570f8eaf13bf84e0d2b3bb5221f2d208ce365c9088b62873ef5cbd",
+  "numpy_version": "2.3.5",
+  "points": 81,
+  "frequency_range_hz": [
+    99.968163,
+    10002.226
+  ],
+  "minimum_real_impedance_ohm": 0.10285113,
+  "low_frequency_point": {
+    "f_hz": 99.968163,
+    "real_ohm": 9.4936743,
+    "imag_ohm": 2.9197752
+  },
+  "nominal_parameters": {
+    "R_ohm": 0.0097,
+    "L_henry": 0.005,
+    "C_farad": 2.2e-06
+  },
+  "nominal_all_points": {
+    "complex_rmse_ohm": 202.04561182022294,
+    "relative_complex_rms": 1.0741177521898106,
+    "maximum_relative_complex_error": 7.6723924259004
+  },
+  "nominal_interpolation_check": {
+    "complex_rmse_ohm": 271.7270126311808,
+    "relative_complex_rms": 1.3478816154067375,
+    "maximum_relative_complex_error": 7.6723924259004
+  },
+  "continuous_poles_per_second": [
+    [
+      -983.2446214375711,
+      9669.521822032644
+    ],
+    [
+      -983.2446214375711,
+      -9669.521822032644
+    ]
+  ],
+  "fitted_parameters": {
+    "R_ohm": 9.535282998032079,
+    "L_henry": 0.004848886426701647,
+    "C_farad": 2.183134639131257e-06
+  },
+  "fit_objective": "equal per-frequency relative complex squared residual; not a likelihood",
+  "split": "ascending frequencies: even zero-based indices train, odd interpolation check; exploratory, not blind",
+  "train_points": 41,
+  "check_points": 40,
+  "fitted_train": {
+    "complex_rmse_ohm": 1.8614715682611307,
+    "relative_complex_rms": 0.015926149761658612,
+    "maximum_relative_complex_error": 0.040557077663380854
+  },
+  "fitted_interpolation_check": {
+    "complex_rmse_ohm": 1.9088279745110963,
+    "relative_complex_rms": 0.015958007725800735,
+    "maximum_relative_complex_error": 0.042742821780644584
+  },
+  "optimizer_runs": [
+    {
+      "parameters": [
+        9.535282998032079,
+        0.004848886426701647,
+        2.183134639131257e-06
+      ],
+      "iterations": 15,
+      "gradient_inf": 3.546085679869554e-10
+    },
+    {
+      "parameters": [
+        9.535282997944979,
+        0.004848886426767242,
+        2.1831346391466564e-06
+      ],
+      "iterations": 7,
+      "gradient_inf": 9.98013123857354e-10
+    },
+    {
+      "parameters": [
+        9.535282998013713,
+        0.00484888642671558,
+        2.1831346391345727e-06
+      ],
+      "iterations": 21,
+      "gradient_inf": 6.604134215404747e-11
+    }
+  ],
+  "synthetic_recovery_parameters": [
+    6.999999999999999,
+    0.003999999999999998,
+    2.9999999999999997e-06
+  ],
+  "limitations": [
+    "one spectrum",
+    "no independently established per-point uncertainty",
+    "no observed BFG reclosure transitions",
+    "no BFG load-law selection"
+  ]
+}
