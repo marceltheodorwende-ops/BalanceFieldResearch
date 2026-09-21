@@ -1,0 +1,31 @@
+{
+  "status": "prospective arithmetic, no measurement",
+  "exact_q": "1/5",
+  "responses": {
+    "q": "5/6",
+    "q_squared": "25/26",
+    "q_half": "10/11"
+  },
+  "minimum_response_gap": "15/286",
+  "disjoint_prediction_bands_require_epsilon_less_than": "15/572",
+  "uncertain_q": [
+    "19/100",
+    "21/100"
+  ],
+  "response_intervals": {
+    "q": [
+      "100/121",
+      "100/119"
+    ],
+    "q_squared": [
+      "10000/10441",
+      "10000/10361"
+    ],
+    "q_half": [
+      "200/221",
+      "200/219"
+    ]
+  },
+  "uncertain_q_minimum_gap": "101800/2286579",
+  "uncertain_q_disjoint_bands_epsilon_less_than": "50900/2286579"
+}
