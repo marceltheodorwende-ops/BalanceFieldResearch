@@ -1,0 +1,52 @@
+{
+  "sources": [
+    {
+      "file": "BFG_Unified_V4_Compact_Canonical_Universal_Reclosure_2026-09-12.pdf",
+      "sha256": "cc1083760ba0f9ce87a7c822fc1837f24e84425bf3ad12e2e776c1f2eb141fb2",
+      "cached_text_matches_file_hash": true
+    },
+    {
+      "file": "BFG_Strong_Universal_Reclosure_Whitepaper_2026-09-08.pdf",
+      "sha256": "cf66f8f9d5b50e38ec82760dbbc88d7e28dd37affda4757f4c8d3bc7b83505f1",
+      "cached_text_matches_file_hash": true
+    },
+    {
+      "file": "BFG_Endogenous_Dual_Order_Strong_Universal_Canonical_Closure_Whitepaper_2026-09-08.pdf",
+      "sha256": "d88d6b83035bd4a7e8c872aba69ba1456b8f4615d16fbd5ccbbdaf69d2b84b52",
+      "cached_text_matches_file_hash": true
+    },
+    {
+      "file": "BFG_Universal_Reclosure_Unification_Whitepaper_2026-09-07_revised_final.pdf",
+      "sha256": "9af25a981dd86e084de0656170669fee7f6d07a55eb22b20a1b588f10f1eb900",
+      "cached_text_matches_file_hash": true
+    },
+    {
+      "file": "BFG_Universal_Structural_Whitepaper_Strong_Form_V2.docx",
+      "sha256": "9784c915d4b060dae068258166fe46448694cd32055eed69b00ecda6703eb6c2",
+      "cached_text_matches_file_hash": true
+    }
+  ],
+  "packet_collision_exact_rational": [
+    {
+      "z": 1,
+      "t": "2/3",
+      "packet_norm_squared": "1/2",
+      "old_graph_energy": "6",
+      "f0": "1/6",
+      "f0_squared": "1/36",
+      "f0_half": "1/12",
+      "packet_graph_norm_squared": "1"
+    },
+    {
+      "z": 2,
+      "t": "1/3",
+      "packet_norm_squared": "1/2",
+      "old_graph_energy": "12",
+      "f0": "1/12",
+      "f0_squared": "1/144",
+      "f0_half": "1/24",
+      "packet_graph_norm_squared": "1"
+    }
+  ],
+  "scope": "Five named original sources; cached text excerpts checked, original file hashes verified. No complete corpus audit; no empirical data."
+}
