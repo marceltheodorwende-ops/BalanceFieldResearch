@@ -1,4 +1,8 @@
-# BFG conditional closure and empirical limits preprint
+# The Balance Field Framework
+
+*Mathematical Foundations, Conditional Closure, and the Path to Empirical Validation*
+
+**Current title-revised edition:** [Paper and supplement](title-revision-2026-09-22/). The files below preserve the original edition.
 
 **Author:** Marcel Theodor Wende. **Manuscript:** version 1, 21 September 2026. **Publication folder:** 22 September 2026.
 
