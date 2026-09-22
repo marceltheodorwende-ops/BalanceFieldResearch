@@ -1,5 +1,9 @@
 # Research stages
 
+## Author-supplied emergence results
+
+[9,993 successful emergence cases, provenance and reproducible summary analysis](emergence-data-2026-09-22/README.md).
+
 ## Current primary development
 
 [Canonical consolidation and mathematical review](canonical-consolidation-2026-09-22/README.md).

@@ -1,0 +1,12 @@
+{
+  "supplied_by": "Marcel Theodor Wende",
+  "received_date": "2026-09-22",
+  "original_filename": "bfg_emergence_mc.csv",
+  "sha256": "7007760c8a687c68afa22c4fa3f597e6ed6114f5e64928f6bbbc121fcdf3c9e5",
+  "bytes": 1731898,
+  "preservation": "Original bytes, without filtering or rewriting",
+  "source_class": "Author-supplied simulation output",
+  "reconciled_source": "Canonical Universal Reclosure Architecture, Section 14 / Table 6",
+  "coverage": "9993 successful emergence cases; seven paper-reported terminated trials absent",
+  "generation_code_supplied": false
+}

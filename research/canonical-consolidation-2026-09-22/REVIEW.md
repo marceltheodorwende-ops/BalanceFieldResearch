@@ -1,5 +1,9 @@
 # Review of the canonical architecture and structural novelty preprints
 
+## Data addendum — 22 September 2026
+
+After this review, the author supplied [9,993 successful emergence-case records](../emergence-data-2026-09-22/README.md). Independent scalar recomputation agrees with the architecture paper's rounded spectral-novelty summaries and correlation. Earlier statements about unavailable result streams describe the initial review's source set and are superseded for this successful-case subset only. Seven terminated trials, controls, other ensembles and original generation code remain absent. The mathematical findings below are unchanged.
+
 Date: 22 September 2026. Review type: AI-assisted source and mathematical audit; not independent peer review. Scope: the two supplied PDFs, their central equations and proofs, and their implications for this repository. Original PDFs are unchanged.
 
 ## Decision

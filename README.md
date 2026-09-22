@@ -1,5 +1,9 @@
 # Balance Field Framework
 
+## Author-supplied simulation data
+
+The [emergence dataset and reproducible analysis](research/emergence-data-2026-09-22/README.md) contain 9,993 successful cases from the architecture paper's reported 10,000 trials. Their spectral-novelty summaries and correlation agree with the paper. The seven terminated trials and separate control streams are not included.
+
 ### Canonical reclosure and structural novelty
 
 Research by **Marcel Theodor Wende**. The current reading entry is the pair of consolidated mathematical preprints supplied on **22 September 2026**.

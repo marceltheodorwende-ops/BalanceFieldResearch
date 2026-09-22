@@ -1,0 +1,75 @@
+{
+  "source": {
+    "file": "bfg_emergence_mc.csv",
+    "bytes": 1731898,
+    "sha256": "7007760c8a687c68afa22c4fa3f597e6ed6114f5e64928f6bbbc121fcdf3c9e5",
+    "git_blob_sha1": "913179839b79ced9a06364495c920e3db2002974"
+  },
+  "observed": {
+    "rows": 9993,
+    "unique_numeric_rows": 9993,
+    "all_values_finite": true,
+    "stored_gate_passes": 9993,
+    "positive_spectral_novelty_rows": 9993,
+    "weight_sum_max_abs_error": 2.220446049250313e-16,
+    "amplitude_identity_max_abs_error": 0.0,
+    "spectral_novel_commP_pearson": 0.7813765718527489,
+    "column_statistics": {
+      "spectral_novel": {
+        "min": 0.036159683470305064,
+        "median": 0.2697710116793173,
+        "max": 0.824761550954256
+      },
+      "commP": {
+        "min": 0.026880938851274325,
+        "median": 0.20218169949575937,
+        "max": 0.5147126366819909
+      },
+      "commY": {
+        "min": 0.07486540321884491,
+        "median": 0.3058039474651395,
+        "max": 0.7797881886598369
+      },
+      "ratio": {
+        "min": 0.10151715839404117,
+        "median": 0.4600368472478779,
+        "max": 0.6193594596180317
+      },
+      "wk": {
+        "min": 0.006445567483792846,
+        "median": 0.45407092879561495,
+        "max": 0.9682033272761852
+      },
+      "wu": {
+        "min": 0.03179667272381478,
+        "median": 0.5459290712043849,
+        "max": 0.9935544325162071
+      },
+      "lamplus": {
+        "min": -7.711048241811683,
+        "median": -2.4115373145973886,
+        "max": -0.04319550126704326
+      },
+      "gapplus": {
+        "min": 0.01475302077923657,
+        "median": 1.5395698389648866,
+        "max": 7.5947659739905
+      },
+      "ampplus": {
+        "min": 0.20783527435698507,
+        "median": 1.5529125263830506,
+        "max": 2.776877426501156
+      }
+    }
+  },
+  "paper_reconciliation": {
+    "paper_reported_trials": 10000,
+    "paper_reported_successes": 9993,
+    "paper_reported_terminations": 7,
+    "success_count_matches": true,
+    "spectral_summary_matches_paper_rounding": true,
+    "correlation_matches_paper_rounding": true,
+    "failed_trials_present": false,
+    "original_simulation_regenerated": false
+  }
+}
