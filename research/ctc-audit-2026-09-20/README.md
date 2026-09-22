@@ -1,3 +1,5 @@
+> Historical stage: the current primary sources are the [22 September canonical papers](../../papers/canonical-2026-09-22/README.md). Earlier V3 source-status wording is superseded by the [source-history clarification](../../docs/SOURCE_HISTORY.md).
+
 # CTC-Audit und reparierte persistente Geometrie
 
 Stand: 20. September 2026. Neue Dokumentationsstufe nach `41987d2efae143dc5fd39d4af39a5957b9d7eb21`. KI-gestützte mathematische Prüfung, keine unabhängige Begutachtung und keine empirische Bestätigung.

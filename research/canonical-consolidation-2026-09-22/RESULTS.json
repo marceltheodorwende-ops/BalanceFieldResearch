@@ -1,0 +1,55 @@
+{
+  "seed": 20260922,
+  "numpy": "2.3.5",
+  "status": "all independent checks passed",
+  "random_trials": 512,
+  "commuting_controls": 128,
+  "ambient_controls": 128,
+  "positive_trace_losses": 512,
+  "max_residuals": {
+    "polar_schur_relative": 5.5787529045058856e-15,
+    "trace_identity_absolute": 1.4566126083082054e-13,
+    "commuting_relative": 5.699326711033471e-15,
+    "ambient_relative": 1.1775005880734918e-15,
+    "pinching_bound_excess": 2.220446049250313e-16
+  },
+  "analytic_family_checks": [
+    {
+      "t": 0.1,
+      "spectrum": [
+        -2.0790816831383254,
+        2.079081683138325
+      ]
+    },
+    {
+      "t": 1.0,
+      "spectrum": [
+        -2.0615528128088303,
+        2.06155281280883
+      ]
+    },
+    {
+      "t": 10.0,
+      "spectrum": [
+        -2.019139192062567,
+        2.019139192062568
+      ]
+    }
+  ],
+  "persistence_counterexample": {
+    "witness_span_rank": 2,
+    "peripheral_rank": 1,
+    "conclusion": "Architecture Eq.23 does not in general define the peripheral space"
+  },
+  "complex_formation_counterexample": {
+    "distinct_minimizers_checked": 4,
+    "functional_values": [
+      -0.25,
+      -0.25,
+      -0.25,
+      -0.25
+    ],
+    "conclusion": "Exactly two minima requires a real profile restriction or revised phase convention"
+  },
+  "scope": "Fresh bounded audit, not reproduction of the papers reported random streams; no empirical validation; no full universal update"
+}

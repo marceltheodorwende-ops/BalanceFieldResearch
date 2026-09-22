@@ -1,3 +1,5 @@
+> Historical stage: the current primary sources are the [22 September canonical papers](../../papers/canonical-2026-09-22/README.md). Earlier V3 source-status wording is superseded by the [source-history clarification](../../docs/SOURCE_HISTORY.md).
+
 # The Balance Field Framework
 
 *Mathematical Foundations, Conditional Closure, and the Path to Empirical Validation*

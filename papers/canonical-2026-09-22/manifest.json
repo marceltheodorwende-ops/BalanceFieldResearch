@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-22",
+  "papers": [
+    {
+      "file": "BFG_Canonical_Universal_Reclosure_Architecture_Preprint_2026-09-22_FINAL.pdf",
+      "pages": 15,
+      "bytes": 342513,
+      "sha256": "1dd543e4d3849854ad3e08bd13e5d2e200156caa871d1683ac466729af4c765f",
+      "git_blob_sha": "f349b880f18742c6c7a4818bbe6c8c4b10293867",
+      "role": "current author-supplied primary source",
+      "modified": false
+    },
+    {
+      "file": "BFG_Canonical_Reclosure_and_Structural_Novelty_Preprint_2026-09-22.pdf",
+      "pages": 11,
+      "bytes": 188315,
+      "sha256": "7a532a9c74a44e2cf66d106d4c6debe80a4176bb5c442fdccc86df90acd5dadb",
+      "git_blob_sha": "5b4fb6454d6a0e8a6dfd03391044f24079b70395",
+      "role": "current author-supplied primary source",
+      "modified": false
+    }
+  ],
+  "audit_method_sources": [
+    {
+      "file": "BFG_Audit_Complete_Edition.docx",
+      "sha256": "ed915f5a468569ed174c3187436bbffd067fa10efe3a185ee6abf414e89711e5"
+    },
+    {
+      "file": "BFG_Audit_Workflow_Master.docx",
+      "sha256": "8a27f722de0a6f763c134d5f3320c38cd1f713b573d9fe81384e04ffcbfc4d25"
+    },
+    {
+      "file": "BFG_X_Context_Recovery_Protocol_Master finish.docx",
+      "sha256": "c571e2fe9cc7804436b2b9e52b4f8a1541b7aad50b07b242c83441556232e329"
+    }
+  ],
+  "source_policy": "Current consolidation replaces historical versions as the primary reading entry; historical originals and results remain unchanged."
+}

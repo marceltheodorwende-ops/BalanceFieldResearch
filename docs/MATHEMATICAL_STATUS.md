@@ -1,47 +1,23 @@
 # Mathematical status
 
-Sources: the [five-document collection](../papers/README.md). V4 page numbers refer to the PDF. Read the [V3 erratum](ERRATUM_V3.md) and [source audit](SOURCE_AUDIT.md).
+Current sources: [canonical architecture and structural novelty preprints](../papers/canonical-2026-09-22/README.md), 22 September 2026. Detailed derivations and counterexamples: [current review](../research/canonical-consolidation-2026-09-22/REVIEW.md).
 
-## Eq. 27: a concrete counterexample (page 7)
+## Established within stated assumptions
 
-Let R = diag(1, 1/2), with identity metric. Both (1,0) and (1,1) have
-bounded forward trajectories with positive limiting norm. Their span contains
-(0,1), whose trajectory tends to zero. Thus the span in the printed definition
-is the whole two-dimensional space, while the unit-modulus eigenspace has
-dimension one. This is an algebraic counterexample, not a floating-point issue.
+- Exact complementary neutral resolvents and reciprocal-load weight uniqueness.
+- Canonical polar transport on the supplied finite active support.
+- Neutral-compatible polar reclosure as the Schur multiplier of novelty Eqs. (13)–(21).
+- Commutation with the inherited neutral load iff unchanged formation operator/spectrum.
+- Exact positive weighted-commutator identity and quantitative bounds.
+- Convergence to spectral pinching when neutral geometry and weights are frozen.
+- Two polarity-related quartic minima on a real profile sector with a simple negative lowest eigenvalue.
 
-The lab uses the peripheral spectral interpretation, restricted to normal
-power-bounded matrices, with tolerance 1e-10. This is an explicit implementation
-choice pending a corrected definition; it is not a silent correction of the PDF.
-Mixed stable/peripheral nonnormal transport is rejected in this initial version.
+## Work required for the full architecture
 
-## Implemented identities
+1. Architecture Eq. (23) still uses a span of bounded nondecaying witnesses. For `R=diag(1,1/2)`, this span is the whole plane, not the peripheral line. The older [spectral persistence proposal](PERSISTENCE_PROPOSAL.md) is still relevant.
+2. Architecture Eqs. (44)–(45) ensure positivity for supplied factors, but do not specify unique reconstruction functions for those factors or the next recursive transport.
+3. The universal map, its terminal decisions and future-behavior quotient require those functions to be single-valued and well-defined first.
+4. Novelty Corollary 8.1 needs a real invariant profile restriction for exactly two minima; over a complex space the minimizers form a phase orbit.
+5. Infinite-dimensional transport and form-domain preservation remain separate proof obligations.
 
-- Eqs. 11â€“14 and BFG-C1/C2: C=(I+Y)^-1, B=I-C, Z=C-B.
-- Eq. 29: positive-metric orthogonal projection for a supplied independent basis.
-- Eqs. 31â€“38: reciprocal weights, direct-sum packet, local gain bound and polar factor.
-- BFG-C3: compact split, using square roots of weights as required by Eq. 37.
-
-The local non-expansion bound does not establish contraction of the entire
-state-dependent recursion with changing geometry. The numerical tolerance for
-zero loads and singular values is a computational convention. A reported
-`no_dual_support` is a local diagnostic, not the full Eq. 41 formation gate.
-
-## Not implemented or established
-
-- Complete state update for capacities, recursive transport and carrier maps.
-- Concrete B_C, W_N and L_C reconstruction functions. Structural V2 sections 23–24 explicitly leave the microscopic construction open.
-- Full universal iteration and intrinsic infinite-future quotient; the candidate gate is implemented as noted below.
-- General nonnormal or infinite-dimensional implementation.
-- Reproduction of every original figure or the precise 10,000-instance streams.
-- Natural-theory recovery, energy identification or consciousness measurement.
-
-The network experiment uses R=I-0.2L and Y=L+0.2I. These are declared toy
-choices, not derived universal carrier laws. In connected consensus networks,
-the persistent direction is the constant vector. Several projected BFG readouts
-can consequently remain unchanged despite topology changes; this is an informative
-limitation, not evidence of predictive power.
-
-## Update: 14 September 2026
-
-Eq. 39 capacity compression and Eq. 41 candidate gate are now implemented on reduced support, with explicit tolerance and edge conventions. The [persistence proposal](PERSISTENCE_PROPOSAL.md) supplies the proposed finite-dimensional replacement definition. Full Gram reconstruction and universal iteration remain open.
+The fresh [audit results](../research/canonical-consolidation-2026-09-22/RESULTS.json) support the finite identities and expose the stated counterexamples. Test counts are neither a universal proof nor empirical confirmation. Existing CTC-SA and connection models retain their explicit additional assumptions.

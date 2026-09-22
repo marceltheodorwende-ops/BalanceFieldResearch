@@ -1,27 +1,9 @@
-# Quellenpruefung
+# Current source audit
 
-Stand: 14. September 2026.
+The two author-supplied canonical PDFs of 22 September 2026 are readable: all 15 architecture pages and all 11 novelty pages yield text. The persistence formula on architecture page 5 and the complex/real formation issue on novelty page 6 were also checked against rendered pages. This is a targeted mathematical review, not certification of every bibliography entry or typographic detail.
 
-## Dateivollstaendigkeit
+- [Current sources and hashes](../papers/canonical-2026-09-22/manifest.json)
+- [Full review and proof obligations](../research/canonical-consolidation-2026-09-22/REVIEW.md)
+- [V3 and source-history clarification](SOURCE_HISTORY.md)
 
-Alle fuenf gelieferten Dateien sind vorhanden und lesbar. Alle 133 PDF-Seiten lassen Text extrahieren. Das DOCX-Archiv besteht den CRC-Test; der Haupttext einschliesslich mathematischer Textknoten ist lesbar. Das ist keine Garantie fuer fehlerfreies Layout und keine vollstaendige Beweispruefung.
-
-## Inhaltliche Abdeckung
-
-- Structural Strong Form V2: Titel und Untertitel stimmen mit der zitierten Grundlagenquelle ueberein. Abschnitte 5–7 geben neutrale Elimination, Gram-Geometrie und geschuetzte Persistenzrichtung an; Abschnitte 9–10 formulieren LPCP und Resolventenableitungen.
-- Universal Reclosure, 7. September: erster gemeinsamer Rekursionsaufbau und nachgelagerte Stufenkriterien.
-- Strong Universal, 8. September: Kapazitaetstransport, explizite Terminalitaet und zielunabhaengige Klassifikation.
-- Endogenous Dual-Order Canonical Closure, 8. September: reziproke Gewichte, metrische Projektion und Polartransport.
-- Compact Unified V4: Kontrastdarstellung und expandierte Auditform; V3-Verweise unterliegen dem separaten Erratum.
-
-## Weiterhin offene Spezifikation
-
-V2 Abschnitt 6, Gleichungen 22–24, beschreibt B_C=D_cov c, H_C=B_C^dagger W_N B_C und Y_C=L_C^dagger H_C L_C. Dies ist eine algebraische Bauform, noch keine eindeutige Funktion aller Operatoren aus einem beliebigen Eingabezustand.
-
-V2 Abschnitt 23 benennt explizit die nicht eindeutig hergeleiteten mikroskopischen Kapazitaeten und das noch nicht aus einem voll spezifizierten Modell berechnete Master-Spektrum. Abschnitt 24 fordert die Konstruktion von D_cov c, W_N, L_C und dem Sektorklassifikator aus einem gemeinsamen upstream model. Die offene Rekonstruktionsfrage ist daher nicht bloss eine fehlende Datei.
-
-Das Gegenbeispiel zur Span-Definition der Persistenz in Canonical Closure/V4 Gleichung 27 bleibt bestehen. V2 Abschnitt 7 nimmt dagegen eine geschuetzte Richtung mit invariantem stabilem Komplement an; dies beseitigt den spaeteren Definitionsfehler nicht automatisch.
-
-## Konsequenz fuer das Labor
-
-Die vorhandenen numerischen Bausteine und die deklarierte Netzwerksimulation bleiben als begrenzter Prototyp verwendbar. Keine universelle Rekonstruktion, keine V3-Abhaengigkeit und keine empirische Naturvalidierung werden behauptet. Zusaetzliche konkrete Modellannahmen muessen als solche dokumentiert werden, statt sie einer fehlenden Quelle zuzuschreiben.
+The earlier five-document audit is retained in Git history and the historical manifest. Its exclusive-source description is superseded. The new novelty theorem is assessed on its stated finite-dimensional assumptions; the architecture's general self-closure assertion is not accepted solely because the new source is consolidated or labelled final.
