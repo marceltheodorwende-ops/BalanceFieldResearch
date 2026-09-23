@@ -1,0 +1,16 @@
+{
+  "compared_steps": 97,
+  "mean_reward_gain": 0.000348415263232544,
+  "perspective_closure_fraction": 1.0,
+  "perspective_exports": 2,
+  "mean_standpoint_persistence": 0.9959929181073203,
+  "mean_multiplicity_unity_distance": 0.26158420255413495,
+  "ablated_mean_multiplicity_unity_distance": 0.37711450480995545,
+  "standpoint_distance_reduction": 0.1155303022558205,
+  "mean_representation_diversity": 0.20731454114498146,
+  "ablated_mean_representation_diversity": 0.20743011916251802,
+  "diversity_retention_ratio": 0.9994428098580708,
+  "perspective_action_decisions": 85,
+  "perspective_action_interventions": 83,
+  "final_here_norm": 1.6530838030814397
+}

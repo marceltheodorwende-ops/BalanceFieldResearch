@@ -1,0 +1,28 @@
+{
+  "experiment": "parallel_evolution_seed_sweep",
+  "numpy": "2.3.5",
+  "parameters": {
+    "seeds": [
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111
+    ],
+    "workers": 4
+  },
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python": "3.13.5",
+  "scipy": "1.17.0",
+  "seed": null,
+  "source_fingerprint": "e9c930922be4369e765c828c6ad40e4521ad824dd0a91e109c3dddd37ef2521e",
+  "theory_freeze_level": "Identity Closure",
+  "theory_freeze_source_level": 30
+}

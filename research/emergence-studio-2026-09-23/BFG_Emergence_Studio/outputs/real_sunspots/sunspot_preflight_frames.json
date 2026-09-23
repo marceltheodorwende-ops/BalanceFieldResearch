@@ -1,0 +1,44 @@
+[
+  {
+    "train_end": 1859,
+    "eval_start": 1860,
+    "eval_end": 1909,
+    "bfg_feature": "formation_rayleigh",
+    "null_feature": "absolute_slope",
+    "train_reclosure_fraction": 1.0,
+    "bfg_rmse": 15.136760456410368,
+    "null_rmse": 15.895378716941648,
+    "ar12_rmse": 15.093550014565638,
+    "relative_improvement": 0.047725711607155885,
+    "eval_reclosure_fraction": 1.0,
+    "eval_novelty_fraction_among_successful": 1.0
+  },
+  {
+    "train_end": 1909,
+    "eval_start": 1910,
+    "eval_end": 1959,
+    "bfg_feature": "formation_rayleigh",
+    "null_feature": "absolute_slope",
+    "train_reclosure_fraction": 1.0,
+    "bfg_rmse": 18.68242832502729,
+    "null_rmse": 18.97992210104994,
+    "ar12_rmse": 18.667978411646146,
+    "relative_improvement": 0.01567413050689992,
+    "eval_reclosure_fraction": 1.0,
+    "eval_novelty_fraction_among_successful": 1.0
+  },
+  {
+    "train_end": 1959,
+    "eval_start": 1960,
+    "eval_end": 2008,
+    "bfg_feature": "formation_rayleigh",
+    "null_feature": "absolute_slope",
+    "train_reclosure_fraction": 1.0,
+    "bfg_rmse": 17.088312776153863,
+    "null_rmse": 17.168818141176786,
+    "ar12_rmse": 16.99027139743348,
+    "relative_improvement": 0.0046890452424236395,
+    "eval_reclosure_fraction": 1.0,
+    "eval_novelty_fraction_among_successful": 1.0
+  }
+]

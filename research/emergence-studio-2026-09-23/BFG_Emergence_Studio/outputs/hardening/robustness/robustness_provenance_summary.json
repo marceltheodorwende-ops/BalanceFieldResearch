@@ -1,0 +1,13 @@
+{
+  "carrier_perturbation_survival_fraction": 1.0,
+  "commuting_controls": 40,
+  "commuting_failures": 0,
+  "noncommuting_controls": 40,
+  "noncommuting_novelty_fraction": 1.0,
+  "noncommuting_success_fraction": 0.825,
+  "passed": true,
+  "randomized_failures": 0,
+  "randomized_trials": 200,
+  "source_fingerprint": "6a80db1fcf998dc8732235da10796ece8beea4552e2bfbd1a8b080d8093c41c9",
+  "tolerance_classification_stable": true
+}

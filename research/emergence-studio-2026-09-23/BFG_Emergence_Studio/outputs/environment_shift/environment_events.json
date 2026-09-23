@@ -1,0 +1,4133 @@
+[
+  {
+    "event": "unit_birth",
+    "unit_id": "A0",
+    "parent_id": null,
+    "generation": 0,
+    "reason": "founder_variation",
+    "traits": {
+      "formation_drive": 1.45,
+      "neighbor_scale": 0.32,
+      "resource_blend": 0.28,
+      "topology_blend": 0.2,
+      "export_cost": 0.1,
+      "node_birth_threshold": 0.9,
+      "fission_threshold": 0.22
+    }
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A1",
+    "parent_id": null,
+    "generation": 0,
+    "reason": "founder_variation",
+    "traits": {
+      "formation_drive": 1.700499882081214,
+      "neighbor_scale": 0.2954434103308055,
+      "resource_blend": 0.3452312550780475,
+      "topology_blend": 0.2468174040870045,
+      "export_cost": 0.09728882006775627,
+      "node_birth_threshold": 0.9075001131464622,
+      "fission_threshold": 0.24642926798338477
+    }
+  },
+  {
+    "event": "standing_variation",
+    "unit_id": "A1",
+    "generation": 0,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.45,
+        "after": 1.700499882081214,
+        "delta": 0.2504998820812141
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.32,
+        "after": 0.2954434103308055,
+        "delta": -0.024556589669194495
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.28,
+        "after": 0.3452312550780475,
+        "delta": 0.0652312550780475
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.2,
+        "after": 0.2468174040870045,
+        "delta": 0.046817404087004494
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.1,
+        "after": 0.09728882006775627,
+        "delta": -0.0027111799322437347
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.9,
+        "after": 0.9075001131464622,
+        "delta": 0.007500113146462151
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.22,
+        "after": 0.24642926798338477,
+        "delta": 0.02642926798338477
+      }
+    ]
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A2",
+    "parent_id": null,
+    "generation": 0,
+    "reason": "founder_variation",
+    "traits": {
+      "formation_drive": 1.2463953986694827,
+      "neighbor_scale": 0.34020865927373245,
+      "resource_blend": 0.2229122532182653,
+      "topology_blend": 0.182566732126468,
+      "export_cost": 0.09131749050843353,
+      "node_birth_threshold": 0.9202009970057724,
+      "fission_threshold": 0.23816558663648557
+    }
+  },
+  {
+    "event": "standing_variation",
+    "unit_id": "A2",
+    "generation": 0,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.45,
+        "after": 1.2463953986694827,
+        "delta": -0.20360460133051728
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.32,
+        "after": 0.34020865927373245,
+        "delta": 0.020208659273732443
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.28,
+        "after": 0.2229122532182653,
+        "delta": -0.05708774678173473
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.2,
+        "after": 0.182566732126468,
+        "delta": -0.017433267873532
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.1,
+        "after": 0.09131749050843353,
+        "delta": -0.008682509491566473
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.9,
+        "after": 0.9202009970057724,
+        "delta": 0.02020099700577238
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.22,
+        "after": 0.23816558663648557,
+        "delta": 0.01816558663648557
+      }
+    ]
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A3",
+    "parent_id": null,
+    "generation": 0,
+    "reason": "founder_variation",
+    "traits": {
+      "formation_drive": 1.5842048486099918,
+      "neighbor_scale": 0.33233945721508656,
+      "resource_blend": 0.3533237320101708,
+      "topology_blend": 0.22166292733580134,
+      "export_cost": 0.07641727820868155,
+      "node_birth_threshold": 1.0237241435731574,
+      "fission_threshold": 0.25520329606744985
+    }
+  },
+  {
+    "event": "standing_variation",
+    "unit_id": "A3",
+    "generation": 0,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.45,
+        "after": 1.5842048486099918,
+        "delta": 0.13420484860999182
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.32,
+        "after": 0.33233945721508656,
+        "delta": 0.012339457215086558
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.28,
+        "after": 0.3533237320101708,
+        "delta": 0.07332373201017078
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.2,
+        "after": 0.22166292733580134,
+        "delta": 0.02166292733580133
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.1,
+        "after": 0.07641727820868155,
+        "delta": -0.023582721791318456
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.9,
+        "after": 1.0237241435731574,
+        "delta": 0.12372414357315742
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.22,
+        "after": 0.25520329606744985,
+        "delta": 0.035203296067449846
+      }
+    ]
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A4",
+    "parent_id": null,
+    "generation": 0,
+    "reason": "founder_variation",
+    "traits": {
+      "formation_drive": 1.5225923373298273,
+      "neighbor_scale": 0.34313197918805816,
+      "resource_blend": 0.27250700180401605,
+      "topology_blend": 0.24055176391182942,
+      "export_cost": 0.1047399281451675,
+      "node_birth_threshold": 0.988259958296928,
+      "fission_threshold": 0.2040238438730486
+    }
+  },
+  {
+    "event": "standing_variation",
+    "unit_id": "A4",
+    "generation": 0,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.45,
+        "after": 1.5225923373298273,
+        "delta": 0.0725923373298274
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.32,
+        "after": 0.34313197918805816,
+        "delta": 0.02313197918805815
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.28,
+        "after": 0.27250700180401605,
+        "delta": -0.00749299819598398
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.2,
+        "after": 0.24055176391182942,
+        "delta": 0.04055176391182941
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.1,
+        "after": 0.1047399281451675,
+        "delta": 0.0047399281451674935
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.9,
+        "after": 0.988259958296928,
+        "delta": 0.08825995829692801
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.22,
+        "after": 0.2040238438730486,
+        "delta": -0.015976156126951413
+      }
+    ]
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A5",
+    "parent_id": null,
+    "generation": 0,
+    "reason": "founder_variation",
+    "traits": {
+      "formation_drive": 1.4504278711333973,
+      "neighbor_scale": 0.3140544526947774,
+      "resource_blend": 0.31341319383381716,
+      "topology_blend": 0.24779490329598453,
+      "export_cost": 0.06709015220784836,
+      "node_birth_threshold": 0.7934922637094123,
+      "fission_threshold": 0.19532402358230708
+    }
+  },
+  {
+    "event": "standing_variation",
+    "unit_id": "A5",
+    "generation": 0,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.45,
+        "after": 1.4504278711333973,
+        "delta": 0.0004278711333973728
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.32,
+        "after": 0.3140544526947774,
+        "delta": -0.00594554730522262
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.28,
+        "after": 0.31341319383381716,
+        "delta": 0.033413193833817134
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.2,
+        "after": 0.24779490329598453,
+        "delta": 0.047794903295984514
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.1,
+        "after": 0.06709015220784836,
+        "delta": -0.03290984779215164
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.9,
+        "after": 0.7934922637094123,
+        "delta": -0.10650773629058774
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.22,
+        "after": 0.19532402358230708,
+        "delta": -0.024675976417692924
+      }
+    ]
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A6",
+    "parent_id": null,
+    "generation": 0,
+    "reason": "founder_variation",
+    "traits": {
+      "formation_drive": 1.5351221252965623,
+      "neighbor_scale": 0.3238556043386992,
+      "resource_blend": 0.3228723042643005,
+      "topology_blend": 0.16866207341853934,
+      "export_cost": 0.057691746666867764,
+      "node_birth_threshold": 0.7872358058293009,
+      "fission_threshold": 0.23425112602166856
+    }
+  },
+  {
+    "event": "standing_variation",
+    "unit_id": "A6",
+    "generation": 0,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.45,
+        "after": 1.5351221252965623,
+        "delta": 0.08512212529656238
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.32,
+        "after": 0.3238556043386992,
+        "delta": 0.0038556043386991923
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.28,
+        "after": 0.3228723042643005,
+        "delta": 0.0428723042643005
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.2,
+        "after": 0.16866207341853934,
+        "delta": -0.03133792658146067
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.1,
+        "after": 0.057691746666867764,
+        "delta": -0.04230825333313224
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.9,
+        "after": 0.7872358058293009,
+        "delta": -0.11276419417069916
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.22,
+        "after": 0.23425112602166856,
+        "delta": 0.014251126021668559
+      }
+    ]
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A7",
+    "parent_id": null,
+    "generation": 0,
+    "reason": "founder_variation",
+    "traits": {
+      "formation_drive": 1.3168242611227439,
+      "neighbor_scale": 0.2956282274077228,
+      "resource_blend": 0.359796743180295,
+      "topology_blend": 0.14014247150368722,
+      "export_cost": 0.0968595921568725,
+      "node_birth_threshold": 0.9676277792814869,
+      "fission_threshold": 0.21797930495892015
+    }
+  },
+  {
+    "event": "standing_variation",
+    "unit_id": "A7",
+    "generation": 0,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.45,
+        "after": 1.3168242611227439,
+        "delta": -0.1331757388772561
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.32,
+        "after": 0.2956282274077228,
+        "delta": -0.024371772592277186
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.28,
+        "after": 0.359796743180295,
+        "delta": 0.07979674318029495
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.2,
+        "after": 0.14014247150368722,
+        "delta": -0.05985752849631279
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.1,
+        "after": 0.0968595921568725,
+        "delta": -0.00314040784312751
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.9,
+        "after": 0.9676277792814869,
+        "delta": 0.06762777928148689
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.22,
+        "after": 0.21797930495892015,
+        "delta": -0.0020206950410798508
+      }
+    ]
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A8",
+    "parent_id": null,
+    "generation": 0,
+    "reason": "founder_variation",
+    "traits": {
+      "formation_drive": 1.5902698417860783,
+      "neighbor_scale": 0.29442558861822116,
+      "resource_blend": 0.2857521959194693,
+      "topology_blend": 0.16592393003471956,
+      "export_cost": 0.11314442003957276,
+      "node_birth_threshold": 0.9371852627767294,
+      "fission_threshold": 0.19570260347198173
+    }
+  },
+  {
+    "event": "standing_variation",
+    "unit_id": "A8",
+    "generation": 0,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.45,
+        "after": 1.5902698417860783,
+        "delta": 0.14026984178607838
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.32,
+        "after": 0.29442558861822116,
+        "delta": -0.02557441138177885
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.28,
+        "after": 0.2857521959194693,
+        "delta": 0.005752195919469294
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.2,
+        "after": 0.16592393003471956,
+        "delta": -0.03407606996528045
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.1,
+        "after": 0.11314442003957276,
+        "delta": 0.013144420039572752
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.9,
+        "after": 0.9371852627767294,
+        "delta": 0.0371852627767294
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.22,
+        "after": 0.19570260347198173,
+        "delta": -0.024297396528018267
+      }
+    ]
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A9",
+    "parent_id": null,
+    "generation": 0,
+    "reason": "founder_variation",
+    "traits": {
+      "formation_drive": 1.4271300667000368,
+      "neighbor_scale": 0.30813240570850164,
+      "resource_blend": 0.238900470351349,
+      "topology_blend": 0.24479225617158856,
+      "export_cost": 0.12410982359709923,
+      "node_birth_threshold": 0.8986900638942237,
+      "fission_threshold": 0.21300689861961714
+    }
+  },
+  {
+    "event": "standing_variation",
+    "unit_id": "A9",
+    "generation": 0,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.45,
+        "after": 1.4271300667000368,
+        "delta": -0.02286993329996312
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.32,
+        "after": 0.30813240570850164,
+        "delta": -0.011867594291498362
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.28,
+        "after": 0.238900470351349,
+        "delta": -0.04109952964865102
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.2,
+        "after": 0.24479225617158856,
+        "delta": 0.04479225617158855
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.1,
+        "after": 0.12410982359709923,
+        "delta": 0.02410982359709922
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.9,
+        "after": 0.8986900638942237,
+        "delta": -0.0013099361057763437
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.22,
+        "after": 0.21300689861961714,
+        "delta": -0.006993101380382866
+      }
+    ]
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A10",
+    "parent_id": null,
+    "generation": 0,
+    "reason": "founder_variation",
+    "traits": {
+      "formation_drive": 1.5862288120316754,
+      "neighbor_scale": 0.3244577004263739,
+      "resource_blend": 0.2473210428681485,
+      "topology_blend": 0.1540149401956007,
+      "export_cost": 0.10267462269780246,
+      "node_birth_threshold": 0.9713670986675498,
+      "fission_threshold": 0.18687132487669955
+    }
+  },
+  {
+    "event": "standing_variation",
+    "unit_id": "A10",
+    "generation": 0,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.45,
+        "after": 1.5862288120316754,
+        "delta": 0.13622881203167547
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.32,
+        "after": 0.3244577004263739,
+        "delta": 0.0044577004263738895
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.28,
+        "after": 0.2473210428681485,
+        "delta": -0.03267895713185154
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.2,
+        "after": 0.1540149401956007,
+        "delta": -0.04598505980439932
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.1,
+        "after": 0.10267462269780246,
+        "delta": 0.002674622697802456
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.9,
+        "after": 0.9713670986675498,
+        "delta": 0.07136709866754976
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.22,
+        "after": 0.18687132487669955,
+        "delta": -0.03312867512330045
+      }
+    ]
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A11",
+    "parent_id": null,
+    "generation": 0,
+    "reason": "founder_variation",
+    "traits": {
+      "formation_drive": 1.3307808733764972,
+      "neighbor_scale": 0.326038792303252,
+      "resource_blend": 0.33400812189883106,
+      "topology_blend": 0.21116807212445926,
+      "export_cost": 0.09438859751392636,
+      "node_birth_threshold": 0.7820771261240504,
+      "fission_threshold": 0.23902501955617275
+    }
+  },
+  {
+    "event": "standing_variation",
+    "unit_id": "A11",
+    "generation": 0,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.45,
+        "after": 1.3307808733764972,
+        "delta": -0.11921912662350276
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.32,
+        "after": 0.326038792303252,
+        "delta": 0.006038792303251994
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.28,
+        "after": 0.33400812189883106,
+        "delta": 0.05400812189883103
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.2,
+        "after": 0.21116807212445926,
+        "delta": 0.01116807212445925
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.1,
+        "after": 0.09438859751392636,
+        "delta": -0.005611402486073641
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.9,
+        "after": 0.7820771261240504,
+        "delta": -0.11792287387594957
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.22,
+        "after": 0.23902501955617275,
+        "delta": 0.01902501955617275
+      }
+    ]
+  },
+  {
+    "event": "selection_round",
+    "generation": 1,
+    "environment": "resource_rich_connected",
+    "candidate_count": 12,
+    "survivor_count": 8,
+    "mean_match_before_selection": 0.689789634519951,
+    "mean_match_after_selection": 0.7551083383423332,
+    "match_gain": 0.06531870382238214
+  },
+  {
+    "event": "selection_death",
+    "unit_id": "A6",
+    "generation": 1,
+    "environment": "resource_rich_connected",
+    "environmental_fitness": 0.6371281944579466,
+    "intrinsic_fitness": 0.6610062303222788,
+    "environment_match": 0.5981692938371939,
+    "traits": {
+      "formation_drive": 1.5351221252965623,
+      "neighbor_scale": 0.3238556043386992,
+      "resource_blend": 0.3228723042643005,
+      "topology_blend": 0.16866207341853934,
+      "export_cost": 0.057691746666867764,
+      "node_birth_threshold": 0.7872358058293009,
+      "fission_threshold": 0.23425112602166856
+    }
+  },
+  {
+    "event": "selection_death",
+    "unit_id": "A3",
+    "generation": 1,
+    "environment": "resource_rich_connected",
+    "environmental_fitness": 0.6330242127731273,
+    "intrinsic_fitness": 0.6655775670021811,
+    "environment_match": 0.5799108453467763,
+    "traits": {
+      "formation_drive": 1.5842048486099918,
+      "neighbor_scale": 0.33233945721508656,
+      "resource_blend": 0.3533237320101708,
+      "topology_blend": 0.22166292733580134,
+      "export_cost": 0.07641727820868155,
+      "node_birth_threshold": 1.0237241435731574,
+      "fission_threshold": 0.25520329606744985
+    }
+  },
+  {
+    "event": "selection_death",
+    "unit_id": "A1",
+    "generation": 1,
+    "environment": "resource_rich_connected",
+    "environmental_fitness": 0.61260502994849,
+    "intrinsic_fitness": 0.661723984994063,
+    "environment_match": 0.5324635769793973,
+    "traits": {
+      "formation_drive": 1.700499882081214,
+      "neighbor_scale": 0.2954434103308055,
+      "resource_blend": 0.3452312550780475,
+      "topology_blend": 0.2468174040870045,
+      "export_cost": 0.09728882006775627,
+      "node_birth_threshold": 0.9075001131464622,
+      "fission_threshold": 0.24642926798338477
+    }
+  },
+  {
+    "event": "selection_death",
+    "unit_id": "A5",
+    "generation": 1,
+    "environment": "resource_rich_connected",
+    "environmental_fitness": 0.6079877823887325,
+    "intrinsic_fitness": 0.6581984027105295,
+    "environment_match": 0.5260651913373796,
+    "traits": {
+      "formation_drive": 1.4504278711333973,
+      "neighbor_scale": 0.3140544526947774,
+      "resource_blend": 0.31341319383381716,
+      "topology_blend": 0.24779490329598453,
+      "export_cost": 0.06709015220784836,
+      "node_birth_threshold": 0.7934922637094123,
+      "fission_threshold": 0.19532402358230708
+    }
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A11",
+    "generation": 3,
+    "parent_node": 23,
+    "new_node": 24,
+    "resource_allocated": 0.2268748179771909
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A11",
+    "generation": 4,
+    "parent_node": 19,
+    "new_node": 25,
+    "resource_allocated": 0.23706630884632018
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A11",
+    "generation": 5,
+    "parent_node": 3,
+    "new_node": 26,
+    "resource_allocated": 0.23954671737024902
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A11",
+    "generation": 6,
+    "parent_node": 14,
+    "new_node": 27,
+    "resource_allocated": 0.24924135865102615
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A11",
+    "generation": 7,
+    "parent_node": 16,
+    "new_node": 28,
+    "resource_allocated": 0.2511405282054365
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A11",
+    "generation": 8,
+    "parent_node": 23,
+    "new_node": 29,
+    "resource_allocated": 0.2491341341504921
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A0",
+    "generation": 9,
+    "parent_node": 14,
+    "new_node": 24,
+    "resource_allocated": 0.25270614201337205
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A11",
+    "generation": 9,
+    "parent_node": 22,
+    "new_node": 30,
+    "resource_allocated": 0.25189363150276034
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A11",
+    "generation": 10,
+    "parent_node": 5,
+    "new_node": 31,
+    "resource_allocated": 0.2516461407667692
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A9",
+    "generation": 11,
+    "parent_node": 14,
+    "new_node": 24,
+    "resource_allocated": 0.25437525017680335
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A12",
+    "parent_id": "A9",
+    "generation": 11,
+    "reason": "fission_child",
+    "traits": {
+      "formation_drive": 1.3692066619488075,
+      "neighbor_scale": 0.3052345553496589,
+      "resource_blend": 0.2693578669100772,
+      "topology_blend": 0.2533833767622218,
+      "export_cost": 0.11391661014292627,
+      "node_birth_threshold": 0.9227425984625838,
+      "fission_threshold": 0.2083008357357428
+    },
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "mutation",
+    "unit_id": "A12",
+    "parent_id": "A9",
+    "generation": 11,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.4271300667000368,
+        "after": 1.3692066619488075,
+        "delta": -0.05792340475122937
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.30813240570850164,
+        "after": 0.3052345553496589,
+        "delta": -0.0028978503588427684
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.238900470351349,
+        "after": 0.2693578669100772,
+        "delta": 0.030457396558728173
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.24479225617158856,
+        "after": 0.2533833767622218,
+        "delta": 0.008591120590633217
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.12410982359709923,
+        "after": 0.11391661014292627,
+        "delta": -0.010193213454172956
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.8986900638942237,
+        "after": 0.9227425984625838,
+        "delta": 0.024052534568360096
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.21300689861961714,
+        "after": 0.2083008357357428,
+        "delta": -0.004706062883874346
+      }
+    ],
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A13",
+    "parent_id": "A9",
+    "generation": 11,
+    "reason": "fission_child",
+    "traits": {
+      "formation_drive": 1.4437479974592402,
+      "neighbor_scale": 0.30813240570850164,
+      "resource_blend": 0.25297679351762953,
+      "topology_blend": 0.23884520943943136,
+      "export_cost": 0.12348509045064852,
+      "node_birth_threshold": 0.9115926164250963,
+      "fission_threshold": 0.20864355047676497
+    },
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "mutation",
+    "unit_id": "A13",
+    "parent_id": "A9",
+    "generation": 11,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.4271300667000368,
+        "after": 1.4437479974592402,
+        "delta": 0.01661793075920337
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.238900470351349,
+        "after": 0.25297679351762953,
+        "delta": 0.014076323166280519
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.24479225617158856,
+        "after": 0.23884520943943136,
+        "delta": -0.005947046732157207
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.12410982359709923,
+        "after": 0.12348509045064852,
+        "delta": -0.0006247331464507011
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.8986900638942237,
+        "after": 0.9115926164250963,
+        "delta": 0.01290255253087258
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.21300689861961714,
+        "after": 0.20864355047676497,
+        "delta": -0.004363348142852164
+      }
+    ],
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "fission",
+    "unit_id": "A9",
+    "generation": 11,
+    "children": [
+      "A12",
+      "A13"
+    ],
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A11",
+    "generation": 11,
+    "parent_node": 12,
+    "new_node": 32,
+    "resource_allocated": 0.24962556373197742
+  },
+  {
+    "event": "selection_round",
+    "generation": 11,
+    "environment": "resource_rich_connected",
+    "candidate_count": 9,
+    "survivor_count": 8,
+    "mean_match_before_selection": 0.751308863688391,
+    "mean_match_after_selection": 0.7506152157633061,
+    "match_gain": -0.0006936479250848615
+  },
+  {
+    "event": "selection_death",
+    "unit_id": "A13",
+    "generation": 11,
+    "environment": "resource_rich_connected",
+    "environmental_fitness": 0.6746264760156193,
+    "intrinsic_fitness": 0.6242264808415693,
+    "environment_match": 0.7568580470890695,
+    "traits": {
+      "formation_drive": 1.4437479974592402,
+      "neighbor_scale": 0.30813240570850164,
+      "resource_blend": 0.25297679351762953,
+      "topology_blend": 0.23884520943943136,
+      "export_cost": 0.12348509045064852,
+      "node_birth_threshold": 0.9115926164250963,
+      "fission_threshold": 0.20864355047676497
+    }
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A0",
+    "generation": 12,
+    "parent_node": 17,
+    "new_node": 25,
+    "resource_allocated": 0.256610688005118
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A14",
+    "parent_id": "A4",
+    "generation": 12,
+    "reason": "fission_child",
+    "traits": {
+      "formation_drive": 1.5225923373298273,
+      "neighbor_scale": 0.3244324774395926,
+      "resource_blend": 0.24722540986404642,
+      "topology_blend": 0.23472138878437168,
+      "export_cost": 0.11880646457927163,
+      "node_birth_threshold": 0.9755425805082917,
+      "fission_threshold": 0.20330949525694225
+    },
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "mutation",
+    "unit_id": "A14",
+    "parent_id": "A4",
+    "generation": 12,
+    "changes": [
+      {
+        "trait": "neighbor_scale",
+        "before": 0.34313197918805816,
+        "after": 0.3244324774395926,
+        "delta": -0.018699501748465575
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.27250700180401605,
+        "after": 0.24722540986404642,
+        "delta": -0.025281591939969622
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.24055176391182942,
+        "after": 0.23472138878437168,
+        "delta": -0.0058303751274577376
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.1047399281451675,
+        "after": 0.11880646457927163,
+        "delta": 0.014066536434104132
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.988259958296928,
+        "after": 0.9755425805082917,
+        "delta": -0.012717377788636353
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.2040238438730486,
+        "after": 0.20330949525694225,
+        "delta": -0.0007143486161063362
+      }
+    ],
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A15",
+    "parent_id": "A4",
+    "generation": 12,
+    "reason": "fission_child",
+    "traits": {
+      "formation_drive": 1.4839599212952221,
+      "neighbor_scale": 0.38448172471823167,
+      "resource_blend": 0.30587015939405854,
+      "topology_blend": 0.27829976204891416,
+      "export_cost": 0.09821980081596673,
+      "node_birth_threshold": 0.9822469662684326,
+      "fission_threshold": 0.19927815832407605
+    },
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "mutation",
+    "unit_id": "A15",
+    "parent_id": "A4",
+    "generation": 12,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.5225923373298273,
+        "after": 1.4839599212952221,
+        "delta": -0.03863241603460521
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.34313197918805816,
+        "after": 0.38448172471823167,
+        "delta": 0.04134974553017351
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.27250700180401605,
+        "after": 0.30587015939405854,
+        "delta": 0.03336315759004249
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.24055176391182942,
+        "after": 0.27829976204891416,
+        "delta": 0.03774799813708474
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.1047399281451675,
+        "after": 0.09821980081596673,
+        "delta": -0.006520127329200764
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.988259958296928,
+        "after": 0.9822469662684326,
+        "delta": -0.0060129920284954785
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.2040238438730486,
+        "after": 0.19927815832407605,
+        "delta": -0.004745685548972534
+      }
+    ],
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "fission",
+    "unit_id": "A4",
+    "generation": 12,
+    "children": [
+      "A14",
+      "A15"
+    ],
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A16",
+    "parent_id": "A7",
+    "generation": 12,
+    "reason": "fission_child",
+    "traits": {
+      "formation_drive": 1.306542805596799,
+      "neighbor_scale": 0.31335602921351263,
+      "resource_blend": 0.359796743180295,
+      "topology_blend": 0.17013769329389333,
+      "export_cost": 0.09708031594974421,
+      "node_birth_threshold": 0.9528283860173704,
+      "fission_threshold": 0.22076757984382944
+    },
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "mutation",
+    "unit_id": "A16",
+    "parent_id": "A7",
+    "generation": 12,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.3168242611227439,
+        "after": 1.306542805596799,
+        "delta": -0.01028145552594495
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.2956282274077228,
+        "after": 0.31335602921351263,
+        "delta": 0.01772780180578981
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.14014247150368722,
+        "after": 0.17013769329389333,
+        "delta": 0.02999522179020611
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.0968595921568725,
+        "after": 0.09708031594974421,
+        "delta": 0.00022072379287171873
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.9676277792814869,
+        "after": 0.9528283860173704,
+        "delta": -0.0147993932641165
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.21797930495892015,
+        "after": 0.22076757984382944,
+        "delta": 0.002788274884909292
+      }
+    ],
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A17",
+    "parent_id": "A7",
+    "generation": 12,
+    "reason": "fission_child",
+    "traits": {
+      "formation_drive": 1.3196002214755886,
+      "neighbor_scale": 0.29608855913437865,
+      "resource_blend": 0.32883095718425903,
+      "topology_blend": 0.12922383917444605,
+      "export_cost": 0.0976491093730534,
+      "node_birth_threshold": 0.9297553267559802,
+      "fission_threshold": 0.21734478257919812
+    },
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "mutation",
+    "unit_id": "A17",
+    "parent_id": "A7",
+    "generation": 12,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.3168242611227439,
+        "after": 1.3196002214755886,
+        "delta": 0.002775960352844775
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.2956282274077228,
+        "after": 0.29608855913437865,
+        "delta": 0.0004603317266558271
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.359796743180295,
+        "after": 0.32883095718425903,
+        "delta": -0.030965785996035944
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.14014247150368722,
+        "after": 0.12922383917444605,
+        "delta": -0.010918632329241174
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.0968595921568725,
+        "after": 0.0976491093730534,
+        "delta": 0.00078951721618091
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.9676277792814869,
+        "after": 0.9297553267559802,
+        "delta": -0.03787245252550675
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.21797930495892015,
+        "after": 0.21734478257919812,
+        "delta": -0.0006345223797220301
+      }
+    ],
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "fission",
+    "unit_id": "A7",
+    "generation": 12,
+    "children": [
+      "A16",
+      "A17"
+    ],
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A8",
+    "generation": 12,
+    "parent_node": 17,
+    "new_node": 24,
+    "resource_allocated": 0.26257433255025797
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A18",
+    "parent_id": "A8",
+    "generation": 12,
+    "reason": "fission_child",
+    "traits": {
+      "formation_drive": 1.568333097519705,
+      "neighbor_scale": 0.3202950608080512,
+      "resource_blend": 0.2651510221053831,
+      "topology_blend": 0.16592393003471956,
+      "export_cost": 0.11434487691771142,
+      "node_birth_threshold": 0.9371852627767294,
+      "fission_threshold": 0.19270072927269347
+    },
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "mutation",
+    "unit_id": "A18",
+    "parent_id": "A8",
+    "generation": 12,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.5902698417860783,
+        "after": 1.568333097519705,
+        "delta": -0.021936744266373376
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.29442558861822116,
+        "after": 0.3202950608080512,
+        "delta": 0.025869472189830045
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.2857521959194693,
+        "after": 0.2651510221053831,
+        "delta": -0.020601173814086216
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.11314442003957276,
+        "after": 0.11434487691771142,
+        "delta": 0.0012004568781386615
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.19570260347198173,
+        "after": 0.19270072927269347,
+        "delta": -0.003001874199288268
+      }
+    ],
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A19",
+    "parent_id": "A8",
+    "generation": 12,
+    "reason": "fission_child",
+    "traits": {
+      "formation_drive": 1.583901127722145,
+      "neighbor_scale": 0.27345072267142795,
+      "resource_blend": 0.3175564503138784,
+      "topology_blend": 0.14478615627649458,
+      "export_cost": 0.11314442003957276,
+      "node_birth_threshold": 0.9223706997325636,
+      "fission_threshold": 0.19063425543629348
+    },
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "mutation",
+    "unit_id": "A19",
+    "parent_id": "A8",
+    "generation": 12,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.5902698417860783,
+        "after": 1.583901127722145,
+        "delta": -0.006368714063933245
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.29442558861822116,
+        "after": 0.27345072267142795,
+        "delta": -0.02097486594679321
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.2857521959194693,
+        "after": 0.3175564503138784,
+        "delta": 0.03180425439440909
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.16592393003471956,
+        "after": 0.14478615627649458,
+        "delta": -0.02113777375822498
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.9371852627767294,
+        "after": 0.9223706997325636,
+        "delta": -0.01481456304416584
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.19570260347198173,
+        "after": 0.19063425543629348,
+        "delta": -0.005068348035688258
+      }
+    ],
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "fission",
+    "unit_id": "A8",
+    "generation": 12,
+    "children": [
+      "A18",
+      "A19"
+    ],
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A11",
+    "generation": 12,
+    "parent_node": 19,
+    "new_node": 33,
+    "resource_allocated": 0.2540938363536606
+  },
+  {
+    "event": "selection_round",
+    "generation": 12,
+    "environment": "resource_rich_connected",
+    "candidate_count": 11,
+    "survivor_count": 8,
+    "mean_match_before_selection": 0.7399456793081051,
+    "mean_match_after_selection": 0.7643519590813187,
+    "match_gain": 0.024406279773213635
+  },
+  {
+    "event": "selection_death",
+    "unit_id": "A17",
+    "generation": 12,
+    "environment": "resource_rich_connected",
+    "environmental_fitness": 0.6494291170037618,
+    "intrinsic_fitness": 0.574437419919024,
+    "environment_match": 0.7717839911946498,
+    "traits": {
+      "formation_drive": 1.3196002214755886,
+      "neighbor_scale": 0.29608855913437865,
+      "resource_blend": 0.32883095718425903,
+      "topology_blend": 0.12922383917444605,
+      "export_cost": 0.0976491093730534,
+      "node_birth_threshold": 0.9297553267559802,
+      "fission_threshold": 0.21734478257919812
+    }
+  },
+  {
+    "event": "selection_death",
+    "unit_id": "A15",
+    "generation": 12,
+    "environment": "resource_rich_connected",
+    "environmental_fitness": 0.6160737932479267,
+    "intrinsic_fitness": 0.6055157929454844,
+    "environment_match": 0.6333000042677008,
+    "traits": {
+      "formation_drive": 1.4839599212952221,
+      "neighbor_scale": 0.38448172471823167,
+      "resource_blend": 0.30587015939405854,
+      "topology_blend": 0.27829976204891416,
+      "export_cost": 0.09821980081596673,
+      "node_birth_threshold": 0.9822469662684326,
+      "fission_threshold": 0.19927815832407605
+    }
+  },
+  {
+    "event": "selection_death",
+    "unit_id": "A19",
+    "generation": 12,
+    "environment": "resource_rich_connected",
+    "environmental_fitness": 0.6012607063307989,
+    "intrinsic_fitness": 0.5900800656545516,
+    "environment_match": 0.6195028042762549,
+    "traits": {
+      "formation_drive": 1.583901127722145,
+      "neighbor_scale": 0.27345072267142795,
+      "resource_blend": 0.3175564503138784,
+      "topology_blend": 0.14478615627649458,
+      "export_cost": 0.11314442003957276,
+      "node_birth_threshold": 0.9223706997325636,
+      "fission_threshold": 0.19063425543629348
+    }
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A20",
+    "parent_id": "A2",
+    "generation": 13,
+    "reason": "fission_child",
+    "traits": {
+      "formation_drive": 1.2348071378657879,
+      "neighbor_scale": 0.3599097606625913,
+      "resource_blend": 0.21985666631902284,
+      "topology_blend": 0.1864133847102048,
+      "export_cost": 0.09358238761523038,
+      "node_birth_threshold": 0.8783534578805199,
+      "fission_threshold": 0.24092283848497204
+    },
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "mutation",
+    "unit_id": "A20",
+    "parent_id": "A2",
+    "generation": 13,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.2463953986694827,
+        "after": 1.2348071378657879,
+        "delta": -0.011588260803694794
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.34020865927373245,
+        "after": 0.3599097606625913,
+        "delta": 0.019701101388858833
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.2229122532182653,
+        "after": 0.21985666631902284,
+        "delta": -0.0030555868992424573
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.182566732126468,
+        "after": 0.1864133847102048,
+        "delta": 0.003846652583736787
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.09131749050843353,
+        "after": 0.09358238761523038,
+        "delta": 0.002264897106796851
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.9202009970057724,
+        "after": 0.8783534578805199,
+        "delta": -0.04184753912525252
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.23816558663648557,
+        "after": 0.24092283848497204,
+        "delta": 0.002757251848486464
+      }
+    ],
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A21",
+    "parent_id": "A2",
+    "generation": 13,
+    "reason": "fission_child",
+    "traits": {
+      "formation_drive": 1.235198256725973,
+      "neighbor_scale": 0.3180289717598507,
+      "resource_blend": 0.21758462692231206,
+      "topology_blend": 0.182566732126468,
+      "export_cost": 0.09131749050843353,
+      "node_birth_threshold": 0.9681755544593807,
+      "fission_threshold": 0.24572823434021815
+    },
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "mutation",
+    "unit_id": "A21",
+    "parent_id": "A2",
+    "generation": 13,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.2463953986694827,
+        "after": 1.235198256725973,
+        "delta": -0.011197141943509736
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.34020865927373245,
+        "after": 0.3180289717598507,
+        "delta": -0.022179687513881774
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.2229122532182653,
+        "after": 0.21758462692231206,
+        "delta": -0.005327626295953236
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.9202009970057724,
+        "after": 0.9681755544593807,
+        "delta": 0.047974557453608346
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.23816558663648557,
+        "after": 0.24572823434021815,
+        "delta": 0.007562647703732578
+      }
+    ],
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "fission",
+    "unit_id": "A2",
+    "generation": 13,
+    "children": [
+      "A20",
+      "A21"
+    ],
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A16",
+    "generation": 13,
+    "parent_node": 11,
+    "new_node": 17,
+    "resource_allocated": 0.2677595906073921
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A11",
+    "generation": 13,
+    "parent_node": 2,
+    "new_node": 34,
+    "resource_allocated": 0.25907309831910175
+  },
+  {
+    "event": "selection_round",
+    "generation": 13,
+    "environment": "resource_rich_connected",
+    "candidate_count": 9,
+    "survivor_count": 8,
+    "mean_match_before_selection": 0.773952866389844,
+    "mean_match_after_selection": 0.765048729349399,
+    "match_gain": -0.008904137040444904
+  },
+  {
+    "event": "selection_death",
+    "unit_id": "A21",
+    "generation": 13,
+    "environment": "resource_rich_connected",
+    "environmental_fitness": 0.7161157489207096,
+    "intrinsic_fitness": 0.6370081985316397,
+    "environment_match": 0.8451859627134026,
+    "traits": {
+      "formation_drive": 1.235198256725973,
+      "neighbor_scale": 0.3180289717598507,
+      "resource_blend": 0.21758462692231206,
+      "topology_blend": 0.182566732126468,
+      "export_cost": 0.09131749050843353,
+      "node_birth_threshold": 0.9681755544593807,
+      "fission_threshold": 0.24572823434021815
+    }
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A0",
+    "generation": 14,
+    "parent_node": 19,
+    "new_node": 26,
+    "resource_allocated": 0.25349634441457275
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A11",
+    "generation": 14,
+    "parent_node": 17,
+    "new_node": 35,
+    "resource_allocated": 0.2607795872426175
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A0",
+    "generation": 15,
+    "parent_node": 14,
+    "new_node": 27,
+    "resource_allocated": 0.25349965124165735
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A20",
+    "generation": 15,
+    "parent_node": 9,
+    "new_node": 17,
+    "resource_allocated": 0.24618838805592594
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A22",
+    "parent_id": "A10",
+    "generation": 15,
+    "reason": "fission_child",
+    "traits": {
+      "formation_drive": 1.561745077785431,
+      "neighbor_scale": 0.3101321277414511,
+      "resource_blend": 0.21424042386414338,
+      "topology_blend": 0.13566027697905042,
+      "export_cost": 0.09653324087550168,
+      "node_birth_threshold": 0.9776623843146999,
+      "fission_threshold": 0.18803136990126817
+    },
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "mutation",
+    "unit_id": "A22",
+    "parent_id": "A10",
+    "generation": 15,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.5862288120316754,
+        "after": 1.561745077785431,
+        "delta": -0.024483734246244504
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.3244577004263739,
+        "after": 0.3101321277414511,
+        "delta": -0.014325572684922794
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.2473210428681485,
+        "after": 0.21424042386414338,
+        "delta": -0.03308061900400511
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.1540149401956007,
+        "after": 0.13566027697905042,
+        "delta": -0.01835466321655027
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.10267462269780246,
+        "after": 0.09653324087550168,
+        "delta": -0.006141381822300784
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.9713670986675498,
+        "after": 0.9776623843146999,
+        "delta": 0.006295285647150095
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.18687132487669955,
+        "after": 0.18803136990126817,
+        "delta": 0.0011600450245686234
+      }
+    ],
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A23",
+    "parent_id": "A10",
+    "generation": 15,
+    "reason": "fission_child",
+    "traits": {
+      "formation_drive": 1.5862288120316754,
+      "neighbor_scale": 0.3244577004263739,
+      "resource_blend": 0.2453157833181588,
+      "topology_blend": 0.13865154612098815,
+      "export_cost": 0.10267462269780246,
+      "node_birth_threshold": 0.9553329472779336,
+      "fission_threshold": 0.18393928330210924
+    },
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "mutation",
+    "unit_id": "A23",
+    "parent_id": "A10",
+    "generation": 15,
+    "changes": [
+      {
+        "trait": "resource_blend",
+        "before": 0.2473210428681485,
+        "after": 0.2453157833181588,
+        "delta": -0.002005259549989702
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.1540149401956007,
+        "after": 0.13865154612098815,
+        "delta": -0.01536339407461254
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.9713670986675498,
+        "after": 0.9553329472779336,
+        "delta": -0.01603415138961617
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.18687132487669955,
+        "after": 0.18393928330210924,
+        "delta": -0.002932041574590316
+      }
+    ],
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "fission",
+    "unit_id": "A10",
+    "generation": 15,
+    "children": [
+      "A22",
+      "A23"
+    ],
+    "environment": "resource_rich_connected"
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A11",
+    "generation": 15,
+    "parent_node": 16,
+    "new_node": 36,
+    "resource_allocated": 0.2611415797179566
+  },
+  {
+    "event": "selection_round",
+    "generation": 15,
+    "environment": "resource_rich_connected",
+    "candidate_count": 9,
+    "survivor_count": 8,
+    "mean_match_before_selection": 0.7588842011772109,
+    "mean_match_after_selection": 0.763711880806143,
+    "match_gain": 0.004827679628932158
+  },
+  {
+    "event": "selection_death",
+    "unit_id": "A23",
+    "generation": 15,
+    "environment": "resource_rich_connected",
+    "environmental_fitness": 0.6491059281896665,
+    "intrinsic_fitness": 0.6054936738940002,
+    "environment_match": 0.7202627641457534,
+    "traits": {
+      "formation_drive": 1.5862288120316754,
+      "neighbor_scale": 0.3244577004263739,
+      "resource_blend": 0.2453157833181588,
+      "topology_blend": 0.13865154612098815,
+      "export_cost": 0.10267462269780246,
+      "node_birth_threshold": 0.9553329472779336,
+      "fission_threshold": 0.18393928330210924
+    }
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A0",
+    "generation": 16,
+    "parent_node": 3,
+    "new_node": 28,
+    "resource_allocated": 0.2526258513532973
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A12",
+    "generation": 16,
+    "parent_node": 13,
+    "new_node": 18,
+    "resource_allocated": 0.25965495772825464
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A11",
+    "generation": 16,
+    "parent_node": 28,
+    "new_node": 37,
+    "resource_allocated": 0.2628895630503864
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A0",
+    "generation": 17,
+    "parent_node": 17,
+    "new_node": 29,
+    "resource_allocated": 0.25319578997534614
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A11",
+    "generation": 17,
+    "parent_node": 22,
+    "new_node": 38,
+    "resource_allocated": 0.25659892453180944
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A20",
+    "generation": 18,
+    "parent_node": 11,
+    "new_node": 18,
+    "resource_allocated": 0.24943420666726968
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A11",
+    "generation": 18,
+    "parent_node": 4,
+    "new_node": 39,
+    "resource_allocated": 0.25767625054380044
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A0",
+    "generation": 19,
+    "parent_node": 24,
+    "new_node": 30,
+    "resource_allocated": 0.25473329238263076
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A11",
+    "generation": 19,
+    "parent_node": 14,
+    "new_node": 40,
+    "resource_allocated": 0.25869530912037114
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A0",
+    "generation": 20,
+    "parent_node": 16,
+    "new_node": 31,
+    "resource_allocated": 0.25898420354221585
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A11",
+    "generation": 20,
+    "parent_node": 13,
+    "new_node": 41,
+    "resource_allocated": 0.26053011390558417
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A0",
+    "generation": 21,
+    "parent_node": 12,
+    "new_node": 32,
+    "resource_allocated": 0.2582839842573258
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A0",
+    "generation": 22,
+    "parent_node": 19,
+    "new_node": 33,
+    "resource_allocated": 0.2567198574240942
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A20",
+    "generation": 22,
+    "parent_node": 10,
+    "new_node": 19,
+    "resource_allocated": 0.2470617297419418
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A0",
+    "generation": 23,
+    "parent_node": 14,
+    "new_node": 34,
+    "resource_allocated": 0.25385524706278073
+  },
+  {
+    "event": "environment_shift",
+    "generation": 24,
+    "from": "resource_rich_connected",
+    "to": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 24,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.7586522520072826,
+    "mean_resource_after": 0.6714962549070905,
+    "damaged_edges": 20
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A20",
+    "generation": 24,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.7112989512623341,
+    "mean_resource_after": 0.630546810337048,
+    "damaged_edges": 9
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A14",
+    "generation": 24,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6803020181226412,
+    "mean_resource_after": 0.6030868059975405,
+    "damaged_edges": 4
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A16",
+    "generation": 24,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6573929490830628,
+    "mean_resource_after": 0.582663328119727,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 24,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.7722651594172424,
+    "mean_resource_after": 0.68456355002816,
+    "damaged_edges": 2
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 24,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.7879591435265084,
+    "mean_resource_after": 0.6989321891658178,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A22",
+    "generation": 24,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6369519645246473,
+    "mean_resource_after": 0.5645740456607872,
+    "damaged_edges": 5
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 24,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.8969058059785572,
+    "mean_resource_after": 0.7915186881566674,
+    "damaged_edges": 20
+  },
+  {
+    "event": "selection_round",
+    "generation": 24,
+    "environment": "resource_poor_fragmenting",
+    "candidate_count": 8,
+    "survivor_count": 4,
+    "mean_match_before_selection": 0.3636272837206462,
+    "mean_match_after_selection": 0.42422316162076007,
+    "match_gain": 0.06059587790011389
+  },
+  {
+    "event": "selection_death",
+    "unit_id": "A16",
+    "generation": 24,
+    "environment": "resource_poor_fragmenting",
+    "environmental_fitness": 0.5503007490191203,
+    "intrinsic_fitness": 0.7559582162761557,
+    "environment_match": 0.3604630869357031,
+    "traits": {
+      "formation_drive": 1.306542805596799,
+      "neighbor_scale": 0.31335602921351263,
+      "resource_blend": 0.359796743180295,
+      "topology_blend": 0.17013769329389333,
+      "export_cost": 0.09708031594974421,
+      "node_birth_threshold": 0.9528283860173704,
+      "fission_threshold": 0.22076757984382944
+    }
+  },
+  {
+    "event": "selection_death",
+    "unit_id": "A14",
+    "generation": 24,
+    "environment": "resource_poor_fragmenting",
+    "environmental_fitness": 0.5494711602860578,
+    "intrinsic_fitness": 0.7761880304776855,
+    "environment_match": 0.3401940493399399,
+    "traits": {
+      "formation_drive": 1.5225923373298273,
+      "neighbor_scale": 0.3244324774395926,
+      "resource_blend": 0.24722540986404642,
+      "topology_blend": 0.23472138878437168,
+      "export_cost": 0.11880646457927163,
+      "node_birth_threshold": 0.9755425805082917,
+      "fission_threshold": 0.20330949525694225
+    }
+  },
+  {
+    "event": "selection_death",
+    "unit_id": "A20",
+    "generation": 24,
+    "environment": "resource_poor_fragmenting",
+    "environmental_fitness": 0.5334860153041783,
+    "intrinsic_fitness": 0.8463283252533428,
+    "environment_match": 0.24470849842802642,
+    "traits": {
+      "formation_drive": 1.2348071378657879,
+      "neighbor_scale": 0.3599097606625913,
+      "resource_blend": 0.21985666631902284,
+      "topology_blend": 0.1864133847102048,
+      "export_cost": 0.09358238761523038,
+      "node_birth_threshold": 0.8783534578805199,
+      "fission_threshold": 0.24092283848497204
+    }
+  },
+  {
+    "event": "selection_death",
+    "unit_id": "A22",
+    "generation": 24,
+    "environment": "resource_poor_fragmenting",
+    "environmental_fitness": 0.49226131151709496,
+    "intrinsic_fitness": 0.7365544113672835,
+    "environment_match": 0.2667599885784595,
+    "traits": {
+      "formation_drive": 1.561745077785431,
+      "neighbor_scale": 0.3101321277414511,
+      "resource_blend": 0.21424042386414338,
+      "topology_blend": 0.13566027697905042,
+      "export_cost": 0.09653324087550168,
+      "node_birth_threshold": 0.9776623843146999,
+      "fission_threshold": 0.18803136990126817
+    }
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 25,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.7131331271264276,
+    "mean_resource_after": 0.6312023196829671,
+    "damaged_edges": 15
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 25,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.7341323081341019,
+    "mean_resource_after": 0.6509322584841423,
+    "damaged_edges": 5
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 25,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.7321890952087616,
+    "mean_resource_after": 0.6494723169948114,
+    "damaged_edges": 12
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 25,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.845383478864362,
+    "mean_resource_after": 0.746200484647943,
+    "damaged_edges": 15
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 26,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6858252409343336,
+    "mean_resource_after": 0.607022396295016,
+    "damaged_edges": 19
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 26,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.7000669155708259,
+    "mean_resource_after": 0.6208594806054614,
+    "damaged_edges": 8
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 26,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6939593933346595,
+    "mean_resource_after": 0.6155378512133663,
+    "damaged_edges": 5
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 26,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.8134726027495874,
+    "mean_resource_after": 0.7181267179663164,
+    "damaged_edges": 27
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 27,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6616084790063952,
+    "mean_resource_after": 0.5855624872234383,
+    "damaged_edges": 11
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 27,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.665319421670763,
+    "mean_resource_after": 0.5901465338940434,
+    "damaged_edges": 4
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 27,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6666003270401767,
+    "mean_resource_after": 0.5912196939561695,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 27,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.7919244714554727,
+    "mean_resource_after": 0.6991681455245619,
+    "damaged_edges": 26
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 28,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6447279851355407,
+    "mean_resource_after": 0.570605843118696,
+    "damaged_edges": 23
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 28,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6335519072208621,
+    "mean_resource_after": 0.5620218307737703,
+    "damaged_edges": 9
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 28,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6449249359080718,
+    "mean_resource_after": 0.5719341689118264,
+    "damaged_edges": 3
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 28,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.7756697641887395,
+    "mean_resource_after": 0.684864570776565,
+    "damaged_edges": 26
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 29,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6313251313279852,
+    "mean_resource_after": 0.5587287756601609,
+    "damaged_edges": 29
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 29,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6164419457093611,
+    "mean_resource_after": 0.5468225509287552,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 29,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6253335299431244,
+    "mean_resource_after": 0.5544999088635,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 29,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.7617439941260211,
+    "mean_resource_after": 0.6726068951462594,
+    "damaged_edges": 26
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 30,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6187471052828786,
+    "mean_resource_after": 0.5475736179240506,
+    "damaged_edges": 31
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 30,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6183952488007959,
+    "mean_resource_after": 0.5484658829146758,
+    "damaged_edges": 1
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 30,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6080907398382006,
+    "mean_resource_after": 0.5391546242867932,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 30,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.7489106282163446,
+    "mean_resource_after": 0.6613086928945694,
+    "damaged_edges": 26
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 31,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6044044872689961,
+    "mean_resource_after": 0.5348692910637518,
+    "damaged_edges": 13
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 31,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.625278755380017,
+    "mean_resource_after": 0.5544879398740311,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 31,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5878149852319625,
+    "mean_resource_after": 0.5209737050435361,
+    "damaged_edges": 8
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 31,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.7360087737574966,
+    "mean_resource_after": 0.6499458297986003,
+    "damaged_edges": 23
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 32,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5932637455075569,
+    "mean_resource_after": 0.5250092357145925,
+    "damaged_edges": 18
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 32,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6282305581908094,
+    "mean_resource_after": 0.5570322882595885,
+    "damaged_edges": 12
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 32,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5622498762507786,
+    "mean_resource_after": 0.49824581261993134,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 32,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.7230764506422868,
+    "mean_resource_after": 0.6385536441199057,
+    "damaged_edges": 26
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 33,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5825872375705784,
+    "mean_resource_after": 0.5155676017183364,
+    "damaged_edges": 16
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 33,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6269950410564117,
+    "mean_resource_after": 0.5558910135619749,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 33,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5494183370470864,
+    "mean_resource_after": 0.48692257515605436,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 33,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.7098473052751585,
+    "mean_resource_after": 0.6268963961356354,
+    "damaged_edges": 29
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 34,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5728740907658376,
+    "mean_resource_after": 0.5069825331525663,
+    "damaged_edges": 21
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 34,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6220055592671065,
+    "mean_resource_after": 0.5514249114071659,
+    "damaged_edges": 4
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 34,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5485351300886705,
+    "mean_resource_after": 0.48621079704744447,
+    "damaged_edges": 5
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 34,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6962998379500257,
+    "mean_resource_after": 0.6149548770203809,
+    "damaged_edges": 21
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 35,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5641843250699423,
+    "mean_resource_after": 0.499305172749513,
+    "damaged_edges": 20
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 35,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.61434467266293,
+    "mean_resource_after": 0.5445878048775161,
+    "damaged_edges": 6
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 35,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5570271948028435,
+    "mean_resource_after": 0.49382203288296844,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 35,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6824833532589883,
+    "mean_resource_after": 0.6027740565831421,
+    "damaged_edges": 24
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 36,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5556884730697605,
+    "mean_resource_after": 0.4917994137216602,
+    "damaged_edges": 13
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 36,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6053220949535312,
+    "mean_resource_after": 0.5365442582341857,
+    "damaged_edges": 2
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 36,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5690945293553284,
+    "mean_resource_after": 0.5045988065782319,
+    "damaged_edges": 3
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 36,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6686792075192416,
+    "mean_resource_after": 0.5906014777080948,
+    "damaged_edges": 32
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 37,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5469201264312377,
+    "mean_resource_after": 0.484052193935218,
+    "damaged_edges": 22
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 37,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5970390449037688,
+    "mean_resource_after": 0.5291669755046882,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 37,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5848507020133034,
+    "mean_resource_after": 0.5186474627374905,
+    "damaged_edges": 1
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 37,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6556015873660079,
+    "mean_resource_after": 0.5790690119144136,
+    "damaged_edges": 23
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 38,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5374879155655569,
+    "mean_resource_after": 0.47571693174287516,
+    "damaged_edges": 19
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 38,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5678304241078704,
+    "mean_resource_after": 0.5031427437908331,
+    "damaged_edges": 3
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 38,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6054189635545567,
+    "mean_resource_after": 0.5369553804654623,
+    "damaged_edges": 5
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 38,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6433207254165129,
+    "mean_resource_after": 0.5682365329807489,
+    "damaged_edges": 23
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 39,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5276035787650954,
+    "mean_resource_after": 0.466980681034568,
+    "damaged_edges": 20
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 39,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5606144589381161,
+    "mean_resource_after": 0.4967645294559227,
+    "damaged_edges": 5
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 39,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6223126126660281,
+    "mean_resource_after": 0.5519729584452492,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 39,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6326298650588801,
+    "mean_resource_after": 0.5588058101276125,
+    "damaged_edges": 23
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 40,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5174293838436351,
+    "mean_resource_after": 0.4579860518044691,
+    "damaged_edges": 9
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 40,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5639768892192009,
+    "mean_resource_after": 0.4997914513153287,
+    "damaged_edges": 4
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 40,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6303714908976837,
+    "mean_resource_after": 0.5591837972516108,
+    "damaged_edges": 3
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 40,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6236275336574236,
+    "mean_resource_after": 0.5508647489957568,
+    "damaged_edges": 21
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 41,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5061509799792783,
+    "mean_resource_after": 0.44801166454349445,
+    "damaged_edges": 11
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 41,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5723546986679254,
+    "mean_resource_after": 0.507273876665603,
+    "damaged_edges": 2
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 41,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6344040102761065,
+    "mean_resource_after": 0.5628321892036601,
+    "damaged_edges": 12
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 41,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.616374423147363,
+    "mean_resource_after": 0.5444669716943489,
+    "damaged_edges": 29
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 42,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.49517580378307985,
+    "mean_resource_after": 0.4383052782127554,
+    "damaged_edges": 10
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 42,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5838168694684913,
+    "mean_resource_after": 0.517498283519229,
+    "damaged_edges": 11
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 42,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6411689153755193,
+    "mean_resource_after": 0.5689107169144207,
+    "damaged_edges": 8
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 42,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6112778952286892,
+    "mean_resource_after": 0.5399747619151585,
+    "damaged_edges": 21
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 43,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.48453010454607953,
+    "mean_resource_after": 0.4288882036058261,
+    "damaged_edges": 18
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 43,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5990830101912098,
+    "mean_resource_after": 0.5310936013983247,
+    "damaged_edges": 6
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 43,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6492843042293223,
+    "mean_resource_after": 0.5761791381545287,
+    "damaged_edges": 4
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 43,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6076970094198467,
+    "mean_resource_after": 0.5368224265353748,
+    "damaged_edges": 17
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 44,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.47403399585402944,
+    "mean_resource_after": 0.4196023009629601,
+    "damaged_edges": 19
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 44,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6170116133506727,
+    "mean_resource_after": 0.5470543509344312,
+    "damaged_edges": 4
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 44,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6627343466141856,
+    "mean_resource_after": 0.5882086210594606,
+    "damaged_edges": 6
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 44,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6062253680997999,
+    "mean_resource_after": 0.5355375497741145,
+    "damaged_edges": 25
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 45,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.4635323456812478,
+    "mean_resource_after": 0.4103123181388442,
+    "damaged_edges": 14
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 45,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6268432678512428,
+    "mean_resource_after": 0.5558371833488039,
+    "damaged_edges": 4
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 45,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6568655986524383,
+    "mean_resource_after": 0.5831428615960246,
+    "damaged_edges": 3
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 45,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6061586250025159,
+    "mean_resource_after": 0.5355001138330268,
+    "damaged_edges": 20
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 46,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.4523089420363496,
+    "mean_resource_after": 0.40038439060111874,
+    "damaged_edges": 15
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 46,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.626165214212988,
+    "mean_resource_after": 0.5552968704600515,
+    "damaged_edges": 2
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 46,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6451347518034914,
+    "mean_resource_after": 0.5729136426271509,
+    "damaged_edges": 8
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 46,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6073346544088617,
+    "mean_resource_after": 0.5365771093399058,
+    "damaged_edges": 19
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 47,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.44148417194718625,
+    "mean_resource_after": 0.3908077524084935,
+    "damaged_edges": 17
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 47,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6171878161925852,
+    "mean_resource_after": 0.5474022083748031,
+    "damaged_edges": 5
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 47,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.63249787530412,
+    "mean_resource_after": 0.5619116519269624,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 47,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6144842164068949,
+    "mean_resource_after": 0.5429419360112221,
+    "damaged_edges": 24
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 48,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.4297070780196415,
+    "mean_resource_after": 0.3803872535196072,
+    "damaged_edges": 15
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A24",
+    "parent_id": "A0",
+    "generation": 48,
+    "reason": "fission_child",
+    "traits": {
+      "formation_drive": 1.45,
+      "neighbor_scale": 0.29265056432387704,
+      "resource_blend": 0.28,
+      "topology_blend": 0.1948276547603506,
+      "export_cost": 0.08994038608856797,
+      "node_birth_threshold": 0.9059594918423209,
+      "fission_threshold": 0.22602025468047188
+    },
+    "environment": "resource_poor_fragmenting"
+  },
+  {
+    "event": "mutation",
+    "unit_id": "A24",
+    "parent_id": "A0",
+    "generation": 48,
+    "changes": [
+      {
+        "trait": "neighbor_scale",
+        "before": 0.32,
+        "after": 0.29265056432387704,
+        "delta": -0.02734943567612297
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.2,
+        "after": 0.1948276547603506,
+        "delta": -0.005172345239649406
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.1,
+        "after": 0.08994038608856797,
+        "delta": -0.010059613911432036
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.9,
+        "after": 0.9059594918423209,
+        "delta": 0.005959491842320919
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.22,
+        "after": 0.22602025468047188,
+        "delta": 0.006020254680471876
+      }
+    ],
+    "environment": "resource_poor_fragmenting"
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A25",
+    "parent_id": "A0",
+    "generation": 48,
+    "reason": "fission_child",
+    "traits": {
+      "formation_drive": 1.414907411691893,
+      "neighbor_scale": 0.31359691249505617,
+      "resource_blend": 0.26491555181891363,
+      "topology_blend": 0.18963184774743988,
+      "export_cost": 0.10700268529934458,
+      "node_birth_threshold": 0.905961066647155,
+      "fission_threshold": 0.2166638813085487
+    },
+    "environment": "resource_poor_fragmenting"
+  },
+  {
+    "event": "mutation",
+    "unit_id": "A25",
+    "parent_id": "A0",
+    "generation": 48,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.45,
+        "after": 1.414907411691893,
+        "delta": -0.03509258830810702
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.32,
+        "after": 0.31359691249505617,
+        "delta": -0.0064030875049438385
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.28,
+        "after": 0.26491555181891363,
+        "delta": -0.015084448181086396
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.2,
+        "after": 0.18963184774743988,
+        "delta": -0.010368152252560131
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.1,
+        "after": 0.10700268529934458,
+        "delta": 0.0070026852993445715
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.9,
+        "after": 0.905961066647155,
+        "delta": 0.005961066647155011
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.22,
+        "after": 0.2166638813085487,
+        "delta": -0.003336118691451312
+      }
+    ],
+    "environment": "resource_poor_fragmenting"
+  },
+  {
+    "event": "fission",
+    "unit_id": "A0",
+    "generation": 48,
+    "children": [
+      "A24",
+      "A25"
+    ],
+    "environment": "resource_poor_fragmenting"
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 48,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6018621353558498,
+    "mean_resource_after": 0.5339281631179639,
+    "damaged_edges": 6
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 48,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6153475995466537,
+    "mean_resource_after": 0.5469083253108242,
+    "damaged_edges": 2
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 48,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.630581125138225,
+    "mean_resource_after": 0.5572025914173333,
+    "damaged_edges": 31
+  },
+  {
+    "event": "selection_round",
+    "generation": 48,
+    "environment": "resource_poor_fragmenting",
+    "candidate_count": 5,
+    "survivor_count": 4,
+    "mean_match_before_selection": 0.4200056502799015,
+    "mean_match_after_selection": 0.4283993277341891,
+    "match_gain": 0.008393677454287596
+  },
+  {
+    "event": "selection_death",
+    "unit_id": "A25",
+    "generation": 48,
+    "environment": "resource_poor_fragmenting",
+    "environmental_fitness": 0.4931703538660229,
+    "intrinsic_fitness": 0.6088047183862343,
+    "environment_match": 0.38643094046275095,
+    "traits": {
+      "formation_drive": 1.414907411691893,
+      "neighbor_scale": 0.31359691249505617,
+      "resource_blend": 0.26491555181891363,
+      "topology_blend": 0.18963184774743988,
+      "export_cost": 0.10700268529934458,
+      "node_birth_threshold": 0.905961066647155,
+      "fission_threshold": 0.2166638813085487
+    }
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A24",
+    "generation": 49,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.4379838946794483,
+    "mean_resource_after": 0.38890127827638565,
+    "damaged_edges": 14
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 49,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6073072485571247,
+    "mean_resource_after": 0.538812784622873,
+    "damaged_edges": 9
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 49,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6022012541278091,
+    "mean_resource_after": 0.5352976642279391,
+    "damaged_edges": 5
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 49,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6498876701907728,
+    "mean_resource_after": 0.5742914383009061,
+    "damaged_edges": 28
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A24",
+    "generation": 50,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.424901326720528,
+    "mean_resource_after": 0.3773593765743605,
+    "damaged_edges": 15
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 50,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6198020731702841,
+    "mean_resource_after": 0.5499775457586674,
+    "damaged_edges": 4
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 50,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5890514846532927,
+    "mean_resource_after": 0.5235894485922035,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 50,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6740011483572589,
+    "mean_resource_after": 0.5956210065963151,
+    "damaged_edges": 25
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A24",
+    "generation": 51,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.4275504883769459,
+    "mean_resource_after": 0.37983845846308784,
+    "damaged_edges": 14
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 51,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6290460923444204,
+    "mean_resource_after": 0.558272862766576,
+    "damaged_edges": 8
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 51,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5827597495492564,
+    "mean_resource_after": 0.5179594191605201,
+    "damaged_edges": 3
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 51,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6987376952762594,
+    "mean_resource_after": 0.6174952140022131,
+    "damaged_edges": 32
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A24",
+    "generation": 52,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.4454973417695224,
+    "mean_resource_after": 0.3958541664853655,
+    "damaged_edges": 10
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 52,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6268024735881965,
+    "mean_resource_after": 0.5563808238433556,
+    "damaged_edges": 8
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 52,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5845847961532019,
+    "mean_resource_after": 0.5195093455294157,
+    "damaged_edges": 3
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 52,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.7160805869318535,
+    "mean_resource_after": 0.6328383498567449,
+    "damaged_edges": 26
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A24",
+    "generation": 53,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.46383538511573036,
+    "mean_resource_after": 0.4122332018033274,
+    "damaged_edges": 9
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 53,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6184320532787333,
+    "mean_resource_after": 0.5490497490947185,
+    "damaged_edges": 5
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 53,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5880059694303061,
+    "mean_resource_after": 0.5224241564755873,
+    "damaged_edges": 6
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 53,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.7260754199570039,
+    "mean_resource_after": 0.6416865281925017,
+    "damaged_edges": 23
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A24",
+    "generation": 54,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.4789498817406474,
+    "mean_resource_after": 0.4257471863895199,
+    "damaged_edges": 13
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 54,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6075453988793577,
+    "mean_resource_after": 0.5394843284985771,
+    "damaged_edges": 3
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 54,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5924143784826308,
+    "mean_resource_after": 0.5262278528649661,
+    "damaged_edges": 3
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 54,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.7317867296974456,
+    "mean_resource_after": 0.6467477475291824,
+    "damaged_edges": 23
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A24",
+    "generation": 55,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.4951462647528263,
+    "mean_resource_after": 0.44022703802460267,
+    "damaged_edges": 6
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 55,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5966584241757649,
+    "mean_resource_after": 0.5299111441361128,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 55,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5978210544333729,
+    "mean_resource_after": 0.530958929323031,
+    "damaged_edges": 8
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 55,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.7349665768410568,
+    "mean_resource_after": 0.6495690288066859,
+    "damaged_edges": 28
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A24",
+    "generation": 56,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5136094389864497,
+    "mean_resource_after": 0.45673276816136515,
+    "damaged_edges": 12
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 56,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5867397469136701,
+    "mean_resource_after": 0.5211860171387419,
+    "damaged_edges": 4
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 56,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6032227949867657,
+    "mean_resource_after": 0.5357132849181019,
+    "damaged_edges": 5
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 56,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.7360921616536904,
+    "mean_resource_after": 0.6505726542461757,
+    "damaged_edges": 23
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A24",
+    "generation": 57,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5327080687485892,
+    "mean_resource_after": 0.47382663008872683,
+    "damaged_edges": 5
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 57,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5819895799680461,
+    "mean_resource_after": 0.5170210404595705,
+    "damaged_edges": 8
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 57,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6076826983893093,
+    "mean_resource_after": 0.5396428147924123,
+    "damaged_edges": 6
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 57,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.7360675283377651,
+    "mean_resource_after": 0.6505578136400084,
+    "damaged_edges": 28
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A24",
+    "generation": 58,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5429264500764339,
+    "mean_resource_after": 0.4830465835418314,
+    "damaged_edges": 14
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 58,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5891117365524248,
+    "mean_resource_after": 0.5233178799529414,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 58,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6097502849400779,
+    "mean_resource_after": 0.5414549280745385,
+    "damaged_edges": 6
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 58,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.7351284373057955,
+    "mean_resource_after": 0.6497328271239919,
+    "damaged_edges": 23
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A24",
+    "generation": 59,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.5396159045096267,
+    "mean_resource_after": 0.4802477214076383,
+    "damaged_edges": 8
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A26",
+    "parent_id": "A24",
+    "generation": 59,
+    "reason": "fission_child",
+    "traits": {
+      "formation_drive": 1.45,
+      "neighbor_scale": 0.30479090493424993,
+      "resource_blend": 0.2837128972453244,
+      "topology_blend": 0.1948276547603506,
+      "export_cost": 0.09113977289117425,
+      "node_birth_threshold": 0.9059594918423209,
+      "fission_threshold": 0.22602025468047188
+    },
+    "environment": "resource_poor_fragmenting"
+  },
+  {
+    "event": "mutation",
+    "unit_id": "A26",
+    "parent_id": "A24",
+    "generation": 59,
+    "changes": [
+      {
+        "trait": "neighbor_scale",
+        "before": 0.29265056432387704,
+        "after": 0.30479090493424993,
+        "delta": 0.01214034061037289
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.28,
+        "after": 0.2837128972453244,
+        "delta": 0.0037128972453243647
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.08994038608856797,
+        "after": 0.09113977289117425,
+        "delta": 0.0011993868026062837
+      }
+    ],
+    "environment": "resource_poor_fragmenting"
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A27",
+    "parent_id": "A24",
+    "generation": 59,
+    "reason": "fission_child",
+    "traits": {
+      "formation_drive": 1.45,
+      "neighbor_scale": 0.28898808259452435,
+      "resource_blend": 0.2512894718420215,
+      "topology_blend": 0.18736026278417725,
+      "export_cost": 0.08917974307977429,
+      "node_birth_threshold": 0.9059594918423209,
+      "fission_threshold": 0.22548106816421679
+    },
+    "environment": "resource_poor_fragmenting"
+  },
+  {
+    "event": "mutation",
+    "unit_id": "A27",
+    "parent_id": "A24",
+    "generation": 59,
+    "changes": [
+      {
+        "trait": "neighbor_scale",
+        "before": 0.29265056432387704,
+        "after": 0.28898808259452435,
+        "delta": -0.0036624817293526846
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.28,
+        "after": 0.2512894718420215,
+        "delta": -0.028710528157978532
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.1948276547603506,
+        "after": 0.18736026278417725,
+        "delta": -0.007467391976173354
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.08994038608856797,
+        "after": 0.08917974307977429,
+        "delta": -0.0007606430087936794
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.22602025468047188,
+        "after": 0.22548106816421679,
+        "delta": -0.0005391865162550913
+      }
+    ],
+    "environment": "resource_poor_fragmenting"
+  },
+  {
+    "event": "fission",
+    "unit_id": "A24",
+    "generation": 59,
+    "children": [
+      "A26",
+      "A27"
+    ],
+    "environment": "resource_poor_fragmenting"
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 59,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6076587331463036,
+    "mean_resource_after": 0.5396688721570815,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 59,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6094271967642954,
+    "mean_resource_after": 0.5411381389937651,
+    "damaged_edges": 6
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 59,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.7337658816931536,
+    "mean_resource_after": 0.6485323155920059,
+    "damaged_edges": 21
+  },
+  {
+    "event": "selection_round",
+    "generation": 59,
+    "environment": "resource_poor_fragmenting",
+    "candidate_count": 5,
+    "survivor_count": 4,
+    "mean_match_before_selection": 0.42351472816658864,
+    "mean_match_after_selection": 0.42666213267505315,
+    "match_gain": 0.003147404508464513
+  },
+  {
+    "event": "selection_death",
+    "unit_id": "A27",
+    "generation": 59,
+    "environment": "resource_poor_fragmenting",
+    "environmental_fitness": 0.49391851879938253,
+    "intrinsic_fitness": 0.5838280448549221,
+    "environment_match": 0.4109251101327306,
+    "traits": {
+      "formation_drive": 1.45,
+      "neighbor_scale": 0.28898808259452435,
+      "resource_blend": 0.2512894718420215,
+      "topology_blend": 0.18736026278417725,
+      "export_cost": 0.08917974307977429,
+      "node_birth_threshold": 0.9059594918423209,
+      "fission_threshold": 0.22548106816421679
+    }
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A26",
+    "generation": 60,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6304442058223254,
+    "mean_resource_after": 0.5625299117695148,
+    "damaged_edges": 9
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A18",
+    "generation": 60,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6112001064444162,
+    "mean_resource_after": 0.5426968264149328,
+    "damaged_edges": 8
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A12",
+    "generation": 60,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.6029342130461073,
+    "mean_resource_after": 0.5353062434977159,
+    "damaged_edges": 6
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A11",
+    "generation": 60,
+    "environment": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "mean_resource_before": 0.7321517654868496,
+    "mean_resource_after": 0.6471091060705569,
+    "damaged_edges": 22
+  }
+]

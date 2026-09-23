@@ -1,0 +1,641 @@
+[
+  {
+    "event": "memory_encode",
+    "generation": 0,
+    "slot_id": "M0",
+    "reward": 0.6723468710772151,
+    "context_similarity": 0.0
+  },
+  {
+    "event": "memory_consolidate",
+    "generation": 1,
+    "slot_id": "M0",
+    "reward": 0.6939195899157453
+  },
+  {
+    "event": "memory_consolidate",
+    "generation": 2,
+    "slot_id": "M0",
+    "reward": 0.706868917639601
+  },
+  {
+    "event": "memory_consolidate",
+    "generation": 4,
+    "slot_id": "M0",
+    "reward": 0.7220816798935632
+  },
+  {
+    "event": "memory_consolidate",
+    "generation": 5,
+    "slot_id": "M0",
+    "reward": 0.7269747492521363
+  },
+  {
+    "event": "memory_consolidate",
+    "generation": 7,
+    "slot_id": "M0",
+    "reward": 0.7297345937252299
+  },
+  {
+    "event": "memory_encode",
+    "generation": 8,
+    "slot_id": "M1",
+    "reward": 0.7902905996510803,
+    "context_similarity": 0.34820795063423565
+  },
+  {
+    "event": "self_prediction",
+    "generation": 12,
+    "prediction_error": 0.007616884939703385,
+    "persistence_baseline_error": 0.00734621592541971,
+    "recurrent_rho": 0.9159352589279524,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 13,
+    "prediction_error": 0.008898864971810192,
+    "persistence_baseline_error": 0.005330979168990189,
+    "recurrent_rho": 0.9187442701791151,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 14,
+    "prediction_error": 0.00820779502020876,
+    "persistence_baseline_error": 0.0016159769117618404,
+    "recurrent_rho": 0.9205827099226884,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 15,
+    "prediction_error": 0.02683604098247059,
+    "persistence_baseline_error": 0.0249844026653714,
+    "recurrent_rho": 0.9211342662381427,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "memory_encode",
+    "generation": 16,
+    "slot_id": "M2",
+    "reward": 0.47084493920701065,
+    "context_similarity": 0.7309808214993306
+  },
+  {
+    "event": "self_prediction",
+    "generation": 16,
+    "prediction_error": 0.01435355463002971,
+    "persistence_baseline_error": 0.006845495005777646,
+    "recurrent_rho": 0.9284079991299754,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 17,
+    "prediction_error": 0.007274094023316106,
+    "persistence_baseline_error": 0.00360989585857198,
+    "recurrent_rho": 0.9500540534963755,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 18,
+    "prediction_error": 0.007725839952821778,
+    "persistence_baseline_error": 0.004805259604216341,
+    "recurrent_rho": 0.9501697472700819,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 19,
+    "prediction_error": 0.006585997485874121,
+    "persistence_baseline_error": 0.004728209183776502,
+    "recurrent_rho": 0.9537929415305152,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 20,
+    "prediction_error": 0.006750996668163872,
+    "persistence_baseline_error": 0.004002174015991811,
+    "recurrent_rho": 0.9557037028085331,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "memory_consolidate",
+    "generation": 21,
+    "slot_id": "M2",
+    "reward": 0.48560305172118656
+  },
+  {
+    "event": "self_prediction",
+    "generation": 21,
+    "prediction_error": 0.00848093387200466,
+    "persistence_baseline_error": 0.007160894055782842,
+    "recurrent_rho": 0.9562530673446314,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 22,
+    "prediction_error": 0.004762689627706894,
+    "persistence_baseline_error": 0.004426064154433205,
+    "recurrent_rho": 0.9569426391453435,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 23,
+    "prediction_error": 0.002417912726874653,
+    "persistence_baseline_error": 0.0024403919159789373,
+    "recurrent_rho": 0.9577954967762441,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 24,
+    "prediction_error": 0.021310197251148497,
+    "persistence_baseline_error": 0.03155868886777471,
+    "recurrent_rho": 0.9768187889791935,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 25,
+    "prediction_error": 0.012126057070165732,
+    "persistence_baseline_error": 0.013647471785609438,
+    "recurrent_rho": 0.987513085181024,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 26,
+    "prediction_error": 0.012257325190028983,
+    "persistence_baseline_error": 0.008936414110195159,
+    "recurrent_rho": 0.9904517107592015,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 27,
+    "prediction_error": 0.013554682125617308,
+    "persistence_baseline_error": 0.011516756635165359,
+    "recurrent_rho": 0.9914300301636986,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 28,
+    "prediction_error": 0.014459298816359063,
+    "persistence_baseline_error": 0.011101287694310069,
+    "recurrent_rho": 0.9922663096250982,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 29,
+    "prediction_error": 0.012122785678942944,
+    "persistence_baseline_error": 0.00393855341694464,
+    "recurrent_rho": 0.9926034518311101,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 30,
+    "prediction_error": 0.015195420940245685,
+    "persistence_baseline_error": 0.013212081127144639,
+    "recurrent_rho": 0.9935599764452133,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 31,
+    "prediction_error": 0.016733633930390082,
+    "persistence_baseline_error": 0.012999738564677524,
+    "recurrent_rho": 0.9934083877512583,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "memory_consolidate",
+    "generation": 32,
+    "slot_id": "M1",
+    "reward": 0.794331714508381
+  },
+  {
+    "event": "self_prediction",
+    "generation": 32,
+    "prediction_error": 0.0041056996945838895,
+    "persistence_baseline_error": 0.013587066675903349,
+    "recurrent_rho": 0.9932204344664903,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "memory_consolidate",
+    "generation": 33,
+    "slot_id": "M1",
+    "reward": 0.8081025441286973
+  },
+  {
+    "event": "self_prediction",
+    "generation": 33,
+    "prediction_error": 0.014268280892872177,
+    "persistence_baseline_error": 0.020336588197391037,
+    "recurrent_rho": 0.9932823980484322,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 34,
+    "prediction_error": 0.015807695781415613,
+    "persistence_baseline_error": 0.014079195487608217,
+    "recurrent_rho": 0.9932220906522153,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 35,
+    "prediction_error": 0.006556594493768128,
+    "persistence_baseline_error": 0.0030933078030478157,
+    "recurrent_rho": 0.9932904497482117,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 36,
+    "prediction_error": 0.008875041660316144,
+    "persistence_baseline_error": 0.0032499415916980878,
+    "recurrent_rho": 0.9933307899387693,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 37,
+    "prediction_error": 0.00677806204652794,
+    "persistence_baseline_error": 0.0033009679230547734,
+    "recurrent_rho": 0.9934530612375161,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 38,
+    "prediction_error": 0.00706057658943123,
+    "persistence_baseline_error": 0.0003174792361663454,
+    "recurrent_rho": 0.9935555023756497,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 39,
+    "prediction_error": 0.01775531705692067,
+    "persistence_baseline_error": 0.020610894372076135,
+    "recurrent_rho": 0.9935388972290247,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "memory_consolidate",
+    "generation": 40,
+    "slot_id": "M2",
+    "reward": 0.4966294304951019
+  },
+  {
+    "event": "self_prediction",
+    "generation": 40,
+    "prediction_error": 0.012651389321449361,
+    "persistence_baseline_error": 0.013822891727962373,
+    "recurrent_rho": 0.9941236838073592,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 41,
+    "prediction_error": 0.006211006629959717,
+    "persistence_baseline_error": 0.006923766443005775,
+    "recurrent_rho": 0.9945329660350821,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 42,
+    "prediction_error": 0.005085871409323884,
+    "persistence_baseline_error": 0.003285793309380546,
+    "recurrent_rho": 0.9947467286304164,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 43,
+    "prediction_error": 0.0013600719908887294,
+    "persistence_baseline_error": 0.0020563745260805673,
+    "recurrent_rho": 0.9948360141245115,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 44,
+    "prediction_error": 0.0010208035600909068,
+    "persistence_baseline_error": 0.0005777842239413982,
+    "recurrent_rho": 0.9949012033296529,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 45,
+    "prediction_error": 0.028185048222711204,
+    "persistence_baseline_error": 0.030916591525779292,
+    "recurrent_rho": 0.9952468493857277,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 46,
+    "prediction_error": 0.027462559934075727,
+    "persistence_baseline_error": 0.030745432369341852,
+    "recurrent_rho": 0.9952126942828228,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 47,
+    "prediction_error": 0.001757165833799041,
+    "persistence_baseline_error": 0.0006020204587928231,
+    "recurrent_rho": 0.9952355135571125,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 48,
+    "prediction_error": 0.026400833619934127,
+    "persistence_baseline_error": 0.0364901590763493,
+    "recurrent_rho": 0.9952919985977211,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 49,
+    "prediction_error": 0.009620135922945758,
+    "persistence_baseline_error": 0.017326754880697837,
+    "recurrent_rho": 0.9954900411532858,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 50,
+    "prediction_error": 0.00593976473365786,
+    "persistence_baseline_error": 0.009497411520895758,
+    "recurrent_rho": 0.9955214614532311,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "memory_consolidate",
+    "generation": 51,
+    "slot_id": "M0",
+    "reward": 0.7521278868509766
+  },
+  {
+    "event": "self_prediction",
+    "generation": 51,
+    "prediction_error": 0.006896316347421518,
+    "persistence_baseline_error": 0.007942472828286175,
+    "recurrent_rho": 0.9955378534936932,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 52,
+    "prediction_error": 0.008810129806139688,
+    "persistence_baseline_error": 0.00507552976525089,
+    "recurrent_rho": 0.9955001706939602,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 53,
+    "prediction_error": 0.009210964555784905,
+    "persistence_baseline_error": 0.0028118781333691446,
+    "recurrent_rho": 0.9954633620909443,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 54,
+    "prediction_error": 0.009644475203488366,
+    "persistence_baseline_error": 0.0037650553576697105,
+    "recurrent_rho": 0.9954774107662396,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 55,
+    "prediction_error": 0.010045684690801785,
+    "persistence_baseline_error": 0.003616443863981308,
+    "recurrent_rho": 0.9954440839825698,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 56,
+    "prediction_error": 0.010866625343492373,
+    "persistence_baseline_error": 0.020400896572345298,
+    "recurrent_rho": 0.9953881765884112,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 57,
+    "prediction_error": 0.01559412860598252,
+    "persistence_baseline_error": 0.02107041009880169,
+    "recurrent_rho": 0.9953781269013872,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 58,
+    "prediction_error": 0.020081615812707038,
+    "persistence_baseline_error": 0.020231893407766446,
+    "recurrent_rho": 0.9952846107326409,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 59,
+    "prediction_error": 0.004430512691128991,
+    "persistence_baseline_error": 0.004204684346054963,
+    "recurrent_rho": 0.995291448859699,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 60,
+    "prediction_error": 0.0056157210452731365,
+    "persistence_baseline_error": 0.0032512146926423277,
+    "recurrent_rho": 0.9952987225397613,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 61,
+    "prediction_error": 0.0052099182055337055,
+    "persistence_baseline_error": 0.0019241384652012058,
+    "recurrent_rho": 0.9953350461274604,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 62,
+    "prediction_error": 0.005645318099709257,
+    "persistence_baseline_error": 0.001207390193465093,
+    "recurrent_rho": 0.9953721146931704,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 63,
+    "prediction_error": 0.008695435158774049,
+    "persistence_baseline_error": 0.011026311189333407,
+    "recurrent_rho": 0.9954202980629205,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 64,
+    "prediction_error": 0.007109452127378842,
+    "persistence_baseline_error": 0.008971192434953605,
+    "recurrent_rho": 0.9954715895776596,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 65,
+    "prediction_error": 0.003218485558445347,
+    "persistence_baseline_error": 0.005010401141366436,
+    "recurrent_rho": 0.9955317180391151,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 66,
+    "prediction_error": 0.005350354520073028,
+    "persistence_baseline_error": 0.005924403390678384,
+    "recurrent_rho": 0.9956156466456312,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 67,
+    "prediction_error": 0.00468547695245464,
+    "persistence_baseline_error": 0.005307417259202751,
+    "recurrent_rho": 0.995653682210284,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 68,
+    "prediction_error": 0.000963088238377172,
+    "persistence_baseline_error": 0.0007300583255696756,
+    "recurrent_rho": 0.9956936556480219,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 69,
+    "prediction_error": 0.004470927864145675,
+    "persistence_baseline_error": 0.005139169779030508,
+    "recurrent_rho": 0.9956932794723952,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 70,
+    "prediction_error": 0.004357719970186344,
+    "persistence_baseline_error": 0.005055383076134107,
+    "recurrent_rho": 0.9957228455754626,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 71,
+    "prediction_error": 0.0012893635225385888,
+    "persistence_baseline_error": 0.00022819534921980758,
+    "recurrent_rho": 0.9957409506743321,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 72,
+    "prediction_error": 0.024035335689297836,
+    "persistence_baseline_error": 0.03432128598826498,
+    "recurrent_rho": 0.9958488353270032,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 73,
+    "prediction_error": 0.003693787477264796,
+    "persistence_baseline_error": 0.013956584241048575,
+    "recurrent_rho": 0.9958981984139778,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 74,
+    "prediction_error": 0.00379205775417614,
+    "persistence_baseline_error": 0.009439481402879871,
+    "recurrent_rho": 0.9959174587915323,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 75,
+    "prediction_error": 0.029360798450055153,
+    "persistence_baseline_error": 0.029424200065231873,
+    "recurrent_rho": 0.9960950461403222,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 76,
+    "prediction_error": 0.025412534619022764,
+    "persistence_baseline_error": 0.029178587003214275,
+    "recurrent_rho": 0.9960118612022936,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 77,
+    "prediction_error": 0.007769209951039041,
+    "persistence_baseline_error": 0.0029230042044449287,
+    "recurrent_rho": 0.9959934560449973,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "memory_consolidate",
+    "generation": 78,
+    "slot_id": "M0",
+    "reward": 0.7563760367102246
+  },
+  {
+    "event": "self_prediction",
+    "generation": 78,
+    "prediction_error": 0.0276305850672127,
+    "persistence_baseline_error": 0.02929423804561219,
+    "recurrent_rho": 0.9959738601410745,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 79,
+    "prediction_error": 0.01846059815591851,
+    "persistence_baseline_error": 0.019551000682194182,
+    "recurrent_rho": 0.9958872204392764,
+    "self_reference_reachable": false
+  },
+  {
+    "event": "self_prediction",
+    "generation": 80,
+    "prediction_error": 0.008883826326120278,
+    "persistence_baseline_error": 0.0007445574351374161,
+    "recurrent_rho": 0.9958539412387439,
+    "self_reference_reachable": false
+  }
+]

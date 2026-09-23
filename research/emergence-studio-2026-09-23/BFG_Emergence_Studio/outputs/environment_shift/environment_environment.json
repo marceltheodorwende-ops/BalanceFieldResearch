@@ -1,0 +1,978 @@
+[
+  {
+    "generation": 0,
+    "name": "resource_rich_connected",
+    "resource_supply": 0.92,
+    "disturbance": 0.015,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "formation_drive": 1.34,
+      "neighbor_scale": 0.38,
+      "resource_blend": 0.22,
+      "topology_blend": 0.14,
+      "export_cost": 0.12,
+      "node_birth_threshold": 0.92,
+      "fission_threshold": 0.235
+    }
+  },
+  {
+    "generation": 1,
+    "name": "resource_rich_connected",
+    "resource_supply": 0.92,
+    "disturbance": 0.015,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "formation_drive": 1.34,
+      "neighbor_scale": 0.38,
+      "resource_blend": 0.22,
+      "topology_blend": 0.14,
+      "export_cost": 0.12,
+      "node_birth_threshold": 0.92,
+      "fission_threshold": 0.235
+    }
+  },
+  {
+    "generation": 2,
+    "name": "resource_rich_connected",
+    "resource_supply": 0.92,
+    "disturbance": 0.015,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "formation_drive": 1.34,
+      "neighbor_scale": 0.38,
+      "resource_blend": 0.22,
+      "topology_blend": 0.14,
+      "export_cost": 0.12,
+      "node_birth_threshold": 0.92,
+      "fission_threshold": 0.235
+    }
+  },
+  {
+    "generation": 3,
+    "name": "resource_rich_connected",
+    "resource_supply": 0.92,
+    "disturbance": 0.015,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "formation_drive": 1.34,
+      "neighbor_scale": 0.38,
+      "resource_blend": 0.22,
+      "topology_blend": 0.14,
+      "export_cost": 0.12,
+      "node_birth_threshold": 0.92,
+      "fission_threshold": 0.235
+    }
+  },
+  {
+    "generation": 4,
+    "name": "resource_rich_connected",
+    "resource_supply": 0.92,
+    "disturbance": 0.015,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "formation_drive": 1.34,
+      "neighbor_scale": 0.38,
+      "resource_blend": 0.22,
+      "topology_blend": 0.14,
+      "export_cost": 0.12,
+      "node_birth_threshold": 0.92,
+      "fission_threshold": 0.235
+    }
+  },
+  {
+    "generation": 5,
+    "name": "resource_rich_connected",
+    "resource_supply": 0.92,
+    "disturbance": 0.015,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "formation_drive": 1.34,
+      "neighbor_scale": 0.38,
+      "resource_blend": 0.22,
+      "topology_blend": 0.14,
+      "export_cost": 0.12,
+      "node_birth_threshold": 0.92,
+      "fission_threshold": 0.235
+    }
+  },
+  {
+    "generation": 6,
+    "name": "resource_rich_connected",
+    "resource_supply": 0.92,
+    "disturbance": 0.015,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "formation_drive": 1.34,
+      "neighbor_scale": 0.38,
+      "resource_blend": 0.22,
+      "topology_blend": 0.14,
+      "export_cost": 0.12,
+      "node_birth_threshold": 0.92,
+      "fission_threshold": 0.235
+    }
+  },
+  {
+    "generation": 7,
+    "name": "resource_rich_connected",
+    "resource_supply": 0.92,
+    "disturbance": 0.015,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "formation_drive": 1.34,
+      "neighbor_scale": 0.38,
+      "resource_blend": 0.22,
+      "topology_blend": 0.14,
+      "export_cost": 0.12,
+      "node_birth_threshold": 0.92,
+      "fission_threshold": 0.235
+    }
+  },
+  {
+    "generation": 8,
+    "name": "resource_rich_connected",
+    "resource_supply": 0.92,
+    "disturbance": 0.015,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "formation_drive": 1.34,
+      "neighbor_scale": 0.38,
+      "resource_blend": 0.22,
+      "topology_blend": 0.14,
+      "export_cost": 0.12,
+      "node_birth_threshold": 0.92,
+      "fission_threshold": 0.235
+    }
+  },
+  {
+    "generation": 9,
+    "name": "resource_rich_connected",
+    "resource_supply": 0.92,
+    "disturbance": 0.015,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "formation_drive": 1.34,
+      "neighbor_scale": 0.38,
+      "resource_blend": 0.22,
+      "topology_blend": 0.14,
+      "export_cost": 0.12,
+      "node_birth_threshold": 0.92,
+      "fission_threshold": 0.235
+    }
+  },
+  {
+    "generation": 10,
+    "name": "resource_rich_connected",
+    "resource_supply": 0.92,
+    "disturbance": 0.015,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "formation_drive": 1.34,
+      "neighbor_scale": 0.38,
+      "resource_blend": 0.22,
+      "topology_blend": 0.14,
+      "export_cost": 0.12,
+      "node_birth_threshold": 0.92,
+      "fission_threshold": 0.235
+    }
+  },
+  {
+    "generation": 11,
+    "name": "resource_rich_connected",
+    "resource_supply": 0.92,
+    "disturbance": 0.015,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "formation_drive": 1.34,
+      "neighbor_scale": 0.38,
+      "resource_blend": 0.22,
+      "topology_blend": 0.14,
+      "export_cost": 0.12,
+      "node_birth_threshold": 0.92,
+      "fission_threshold": 0.235
+    }
+  },
+  {
+    "generation": 12,
+    "name": "resource_rich_connected",
+    "resource_supply": 0.92,
+    "disturbance": 0.015,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "formation_drive": 1.34,
+      "neighbor_scale": 0.38,
+      "resource_blend": 0.22,
+      "topology_blend": 0.14,
+      "export_cost": 0.12,
+      "node_birth_threshold": 0.92,
+      "fission_threshold": 0.235
+    }
+  },
+  {
+    "generation": 13,
+    "name": "resource_rich_connected",
+    "resource_supply": 0.92,
+    "disturbance": 0.015,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "formation_drive": 1.34,
+      "neighbor_scale": 0.38,
+      "resource_blend": 0.22,
+      "topology_blend": 0.14,
+      "export_cost": 0.12,
+      "node_birth_threshold": 0.92,
+      "fission_threshold": 0.235
+    }
+  },
+  {
+    "generation": 14,
+    "name": "resource_rich_connected",
+    "resource_supply": 0.92,
+    "disturbance": 0.015,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "formation_drive": 1.34,
+      "neighbor_scale": 0.38,
+      "resource_blend": 0.22,
+      "topology_blend": 0.14,
+      "export_cost": 0.12,
+      "node_birth_threshold": 0.92,
+      "fission_threshold": 0.235
+    }
+  },
+  {
+    "generation": 15,
+    "name": "resource_rich_connected",
+    "resource_supply": 0.92,
+    "disturbance": 0.015,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "formation_drive": 1.34,
+      "neighbor_scale": 0.38,
+      "resource_blend": 0.22,
+      "topology_blend": 0.14,
+      "export_cost": 0.12,
+      "node_birth_threshold": 0.92,
+      "fission_threshold": 0.235
+    }
+  },
+  {
+    "generation": 16,
+    "name": "resource_rich_connected",
+    "resource_supply": 0.92,
+    "disturbance": 0.015,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "formation_drive": 1.34,
+      "neighbor_scale": 0.38,
+      "resource_blend": 0.22,
+      "topology_blend": 0.14,
+      "export_cost": 0.12,
+      "node_birth_threshold": 0.92,
+      "fission_threshold": 0.235
+    }
+  },
+  {
+    "generation": 17,
+    "name": "resource_rich_connected",
+    "resource_supply": 0.92,
+    "disturbance": 0.015,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "formation_drive": 1.34,
+      "neighbor_scale": 0.38,
+      "resource_blend": 0.22,
+      "topology_blend": 0.14,
+      "export_cost": 0.12,
+      "node_birth_threshold": 0.92,
+      "fission_threshold": 0.235
+    }
+  },
+  {
+    "generation": 18,
+    "name": "resource_rich_connected",
+    "resource_supply": 0.92,
+    "disturbance": 0.015,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "formation_drive": 1.34,
+      "neighbor_scale": 0.38,
+      "resource_blend": 0.22,
+      "topology_blend": 0.14,
+      "export_cost": 0.12,
+      "node_birth_threshold": 0.92,
+      "fission_threshold": 0.235
+    }
+  },
+  {
+    "generation": 19,
+    "name": "resource_rich_connected",
+    "resource_supply": 0.92,
+    "disturbance": 0.015,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "formation_drive": 1.34,
+      "neighbor_scale": 0.38,
+      "resource_blend": 0.22,
+      "topology_blend": 0.14,
+      "export_cost": 0.12,
+      "node_birth_threshold": 0.92,
+      "fission_threshold": 0.235
+    }
+  },
+  {
+    "generation": 20,
+    "name": "resource_rich_connected",
+    "resource_supply": 0.92,
+    "disturbance": 0.015,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "formation_drive": 1.34,
+      "neighbor_scale": 0.38,
+      "resource_blend": 0.22,
+      "topology_blend": 0.14,
+      "export_cost": 0.12,
+      "node_birth_threshold": 0.92,
+      "fission_threshold": 0.235
+    }
+  },
+  {
+    "generation": 21,
+    "name": "resource_rich_connected",
+    "resource_supply": 0.92,
+    "disturbance": 0.015,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "formation_drive": 1.34,
+      "neighbor_scale": 0.38,
+      "resource_blend": 0.22,
+      "topology_blend": 0.14,
+      "export_cost": 0.12,
+      "node_birth_threshold": 0.92,
+      "fission_threshold": 0.235
+    }
+  },
+  {
+    "generation": 22,
+    "name": "resource_rich_connected",
+    "resource_supply": 0.92,
+    "disturbance": 0.015,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "formation_drive": 1.34,
+      "neighbor_scale": 0.38,
+      "resource_blend": 0.22,
+      "topology_blend": 0.14,
+      "export_cost": 0.12,
+      "node_birth_threshold": 0.92,
+      "fission_threshold": 0.235
+    }
+  },
+  {
+    "generation": 23,
+    "name": "resource_rich_connected",
+    "resource_supply": 0.92,
+    "disturbance": 0.015,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "formation_drive": 1.34,
+      "neighbor_scale": 0.38,
+      "resource_blend": 0.22,
+      "topology_blend": 0.14,
+      "export_cost": 0.12,
+      "node_birth_threshold": 0.92,
+      "fission_threshold": 0.235
+    }
+  },
+  {
+    "generation": 24,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 25,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 26,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 27,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 28,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 29,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 30,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 31,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 32,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 33,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 34,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 35,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 36,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 37,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 38,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 39,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 40,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 41,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 42,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 43,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 44,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 45,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 46,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 47,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 48,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 49,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 50,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 51,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 52,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 53,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 54,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 55,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 56,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 57,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 58,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 59,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  },
+  {
+    "generation": 60,
+    "name": "resource_poor_fragmenting",
+    "resource_supply": 0.48,
+    "disturbance": 0.2,
+    "carrying_capacity": 4,
+    "preferred_traits": {
+      "formation_drive": 1.63,
+      "neighbor_scale": 0.25,
+      "resource_blend": 0.43,
+      "topology_blend": 0.31,
+      "export_cost": 0.055,
+      "node_birth_threshold": 0.72,
+      "fission_threshold": 0.185
+    }
+  }
+]

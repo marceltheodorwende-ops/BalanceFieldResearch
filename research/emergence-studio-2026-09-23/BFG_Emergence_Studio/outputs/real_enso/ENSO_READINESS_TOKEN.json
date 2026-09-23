@@ -1,0 +1,10 @@
+{
+  "mapping_fingerprint": "187833e71e7220d6d439e6e3b570b37cae3e6b3d2cf951312e35ae273066ecdb",
+  "plan_fingerprint": "e753db24dae1e55ba7106d860c2b1207b01c9438b87e557529de9a3ad9497aaa",
+  "preflight_sha256": "212e2294d6e50ed77b0da1606ff2e4bf971de72a1aebb6fb790f9b5927dda786",
+  "future_heldout_period": [
+    "2011-01-01",
+    "2025-12-01"
+  ],
+  "readiness_token": "fa05d75bfad3a465192ab89aac7e6024a7cf230b77ba55d3a3b776e7f040eab7"
+}

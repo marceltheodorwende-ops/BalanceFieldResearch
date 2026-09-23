@@ -1,0 +1,21 @@
+{
+  "initial_seed": 1341550191,
+  "perspective_enabled": true,
+  "frames": 97,
+  "core_steps": 97,
+  "successful_reclosures": 97,
+  "perspective_closure_passes": 97,
+  "perspective_closure_failures": 0,
+  "representation_exports": 2,
+  "fragmentation_failures": 0,
+  "representational_collapse_failures": 0,
+  "over_unification_failures": 0,
+  "recursive_instability_failures": 0,
+  "mean_standpoint_persistence": 0.9959929181073203,
+  "mean_multiplicity_unity_distance": 0.26158420255413495,
+  "mean_representation_diversity": 0.20731454114498146,
+  "perspective_action_decisions": 85,
+  "perspective_action_interventions": 83,
+  "final_perspective_rho": 0.985,
+  "final_here_norm": 1.6530838030814397
+}

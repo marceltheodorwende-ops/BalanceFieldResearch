@@ -69,3 +69,7 @@ Current primary sources are author-supplied theoretical preprints. Repository re
 ## Copyright and permissions
 
 Copyright (c) 2026 Marcel Theodor Wende. All rights reserved for his original protected contributions throughout this repository. See [LICENSE](LICENSE) for the repository-wide rights reservation, third-party exclusions and applicable-law/GitHub exceptions. This is not an open-source license and does not revoke existing file-specific permissions.
+
+## Experimental Emergence Studio
+
+The [author-supplied Emergence Studio](research/emergence-studio-2026-09-23/README.md) contains Python models, examples, tests and archived results. It is preserved as a separate experimental snapshot with an intake review; its full runtime suite has not yet been independently rerun here.

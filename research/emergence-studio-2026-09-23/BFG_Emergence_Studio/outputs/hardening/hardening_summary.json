@@ -1,0 +1,35 @@
+{
+  "hardening_passed": true,
+  "benchmark_passed": true,
+  "robustness_passed": true,
+  "checkpoint_roundtrip_passed": true,
+  "benchmark_count": 9,
+  "randomized_trials": 200,
+  "source_fingerprint": "6a80db1fcf998dc8732235da10796ece8beea4552e2bfbd1a8b080d8093c41c9",
+  "checkpoint_loaded_generation": 2,
+  "checkpoint_post_steps": 2,
+  "benchmark_files": {
+    "json": "/mnt/data/.bfg_enso_work/BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite.json",
+    "csv": "/mnt/data/.bfg_enso_work/BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite.csv",
+    "markdown": "/mnt/data/.bfg_enso_work/BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite.md",
+    "provenance_manifest": "/mnt/data/.bfg_enso_work/BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite_provenance_manifest.json",
+    "provenance_summary": "/mnt/data/.bfg_enso_work/BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite_provenance_summary.json",
+    "provenance_events": "/mnt/data/.bfg_enso_work/BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite_provenance_events.json",
+    "provenance_frames": "/mnt/data/.bfg_enso_work/BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite_provenance_frames.json"
+  },
+  "robustness_files": {
+    "json": "/mnt/data/.bfg_enso_work/BFG_Emergence_Studio/outputs/hardening/robustness/robustness.json",
+    "markdown": "/mnt/data/.bfg_enso_work/BFG_Emergence_Studio/outputs/hardening/robustness/robustness.md",
+    "tolerance_csv": "/mnt/data/.bfg_enso_work/BFG_Emergence_Studio/outputs/hardening/robustness/robustness_tolerance.csv",
+    "carrier_sensitivity_csv": "/mnt/data/.bfg_enso_work/BFG_Emergence_Studio/outputs/hardening/robustness/robustness_carrier_sensitivity.csv",
+    "provenance_manifest": "/mnt/data/.bfg_enso_work/BFG_Emergence_Studio/outputs/hardening/robustness/robustness_provenance_manifest.json",
+    "provenance_summary": "/mnt/data/.bfg_enso_work/BFG_Emergence_Studio/outputs/hardening/robustness/robustness_provenance_summary.json",
+    "provenance_events": "/mnt/data/.bfg_enso_work/BFG_Emergence_Studio/outputs/hardening/robustness/robustness_provenance_events.json",
+    "provenance_frames": "/mnt/data/.bfg_enso_work/BFG_Emergence_Studio/outputs/hardening/robustness/robustness_provenance_frames.json"
+  },
+  "checkpoint_files": {
+    "arrays": "/mnt/data/.bfg_enso_work/BFG_Emergence_Studio/outputs/hardening/checkpoint/master_state_arrays.npz",
+    "metadata": "/mnt/data/.bfg_enso_work/BFG_Emergence_Studio/outputs/hardening/checkpoint/master_state_metadata.json",
+    "manifest": "/mnt/data/.bfg_enso_work/BFG_Emergence_Studio/outputs/hardening/checkpoint/master_state_manifest.json"
+  }
+}

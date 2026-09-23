@@ -1,0 +1,23 @@
+{
+  "carrier_id": "annual-sunspots",
+  "status": "READY_FOR_VALIDATION",
+  "mapping_fingerprint": "a0b3673cca890c5090f472fa07fe1fec813f6663773025da07038b26132ca156",
+  "plan_fingerprint": "0d79fbd248229b50a5a3d2a2d5babbd1b7c4bae843e98308d6ff9517239af0d9",
+  "source_fingerprint": "6a80db1fcf998dc8732235da10796ece8beea4552e2bfbd1a8b080d8093c41c9",
+  "artifacts": {
+    "readiness_token": {
+      "path": "outputs/real_sunspots/SUNSPOT_READINESS_TOKEN.json",
+      "sha256": "239b5baa26293ceaa773971983a98f0f4e48eb681eef58e8143b71eea382c382"
+    },
+    "frozen_model": {
+      "path": "outputs/real_sunspots/sunspot_frozen_model.json",
+      "sha256": "d36e628caeb7d31003a42bafb6b5b64ac5e51fd81c04e8939ef2d03b791fbd05"
+    },
+    "validation_plan": {
+      "path": "outputs/real_sunspots/sunspot_validation_plan.json",
+      "sha256": "d12e4b9ef773a5732721d44c019fb15dd4e90807c18c1aa9c9d05e41b99f2cdd"
+    }
+  },
+  "heldout_metrics_evaluated": false,
+  "seal_fingerprint": "74abe01f3393e4388ec8820bea9d9a9b26d3c58e238656cc280b8f7cc171ec56"
+}

@@ -1,0 +1,155 @@
+[
+  {
+    "generation": 0,
+    "event": "memory_encode",
+    "slot_id": "M0",
+    "reward": 0.7026065271228672,
+    "context_similarity": 0.0
+  },
+  {
+    "generation": 1,
+    "event": "memory_consolidate",
+    "slot_id": "M0",
+    "reward": 0.7242409680574857
+  },
+  {
+    "generation": 2,
+    "event": "memory_consolidate",
+    "slot_id": "M0",
+    "reward": 0.7376176959101761
+  },
+  {
+    "generation": 3,
+    "event": "memory_consolidate",
+    "slot_id": "M0",
+    "reward": 0.7609355598636953
+  },
+  {
+    "generation": 5,
+    "event": "memory_consolidate",
+    "slot_id": "M0",
+    "reward": 0.7678181334054139
+  },
+  {
+    "generation": 7,
+    "event": "memory_consolidate",
+    "slot_id": "M0",
+    "reward": 0.7742994494424558
+  },
+  {
+    "generation": 8,
+    "event": "memory_encode",
+    "slot_id": "M1",
+    "reward": 0.7880409240165984,
+    "context_similarity": 0.4255100400951564
+  },
+  {
+    "generation": 16,
+    "event": "memory_encode",
+    "slot_id": "M2",
+    "reward": 0.4827635105602483,
+    "context_similarity": 0.699587919889101
+  },
+  {
+    "generation": 17,
+    "event": "memory_consolidate",
+    "slot_id": "M2",
+    "reward": 0.502187002587462
+  },
+  {
+    "generation": 18,
+    "event": "memory_consolidate",
+    "slot_id": "M2",
+    "reward": 0.5044719386211878
+  },
+  {
+    "generation": 25,
+    "event": "memory_consolidate",
+    "slot_id": "M0",
+    "reward": 0.7842906208449156
+  },
+  {
+    "generation": 29,
+    "event": "memory_consolidate",
+    "slot_id": "M0",
+    "reward": 0.7976526995724281
+  },
+  {
+    "generation": 31,
+    "event": "memory_consolidate",
+    "slot_id": "M0",
+    "reward": 0.8022544150912193
+  },
+  {
+    "generation": 38,
+    "event": "memory_consolidate",
+    "slot_id": "M1",
+    "reward": 0.7938630845258796
+  },
+  {
+    "generation": 40,
+    "event": "memory_consolidate",
+    "slot_id": "M2",
+    "reward": 0.5136279870183541
+  },
+  {
+    "generation": 51,
+    "event": "memory_consolidate",
+    "slot_id": "M0",
+    "reward": 0.8065132626711011
+  },
+  {
+    "generation": 52,
+    "event": "memory_consolidate",
+    "slot_id": "M0",
+    "reward": 0.8134977239783887
+  },
+  {
+    "generation": 55,
+    "event": "memory_consolidate",
+    "slot_id": "M0",
+    "reward": 0.8191180354064611
+  },
+  {
+    "generation": 59,
+    "event": "memory_consolidate",
+    "slot_id": "M1",
+    "reward": 0.822290187248018
+  },
+  {
+    "generation": 65,
+    "event": "memory_consolidate",
+    "slot_id": "M2",
+    "reward": 0.5174776347492567
+  },
+  {
+    "generation": 68,
+    "event": "memory_consolidate",
+    "slot_id": "M2",
+    "reward": 0.5244440318326015
+  },
+  {
+    "generation": 70,
+    "event": "memory_consolidate",
+    "slot_id": "M2",
+    "reward": 0.5478295900942947
+  },
+  {
+    "generation": 79,
+    "event": "memory_consolidate",
+    "slot_id": "M0",
+    "reward": 0.8274711491334046
+  },
+  {
+    "generation": 83,
+    "event": "memory_consolidate",
+    "slot_id": "M1",
+    "reward": 0.8243567680476953
+  },
+  {
+    "generation": 88,
+    "event": "memory_consolidate",
+    "slot_id": "M2",
+    "reward": 0.5744751447198628
+  }
+]

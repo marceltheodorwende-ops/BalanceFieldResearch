@@ -1,0 +1,38 @@
+{
+  "purpose": "Immutable confirmatory audit history, excluded from active portfolio status.",
+  "records": [
+    {
+      "name": "Annual Sunspot BFG Carrier",
+      "domain": "solar activity / annual sunspot count",
+      "dataset": "Statsmodels yearly sunspots 1700-2008 snapshot",
+      "calibration_years": [
+        1700,
+        1899
+      ],
+      "heldout_years": [
+        1900,
+        2008
+      ],
+      "mapping_fingerprint": "8345c50579367c4fcd09d6c1b2e6bcf22d909650e36e1b8e6bfb11f827f7aecc",
+      "plan_fingerprint": "59faa343efb8604f6d88e831995480fa71155a0473aef0d56bc1df6224d90247",
+      "primary_statement_passed": false,
+      "bfg_rmse": 18.142522079109842,
+      "matched_null_rmse": 18.262712245899838,
+      "ar12_rmse": 17.69188956263439,
+      "rmse_improvement_vs_matched_null": 0.006581178368890939,
+      "heldout_reclosure_success_fraction": 1.0,
+      "heldout_novelty_fraction_among_successful": 1.0,
+      "status": "REJECTED",
+      "retuning_after_heldout": false,
+      "id": "annual-sunspots-previous-confirmatory",
+      "legacy_status": "FAIL \u2014 preregistered 1% RMSE margin not reached",
+      "heldout_metrics_evaluated": true,
+      "prepared_dir": "validation/audit/sunspots/confirmatory_archive",
+      "frozen_model": "validation/audit/sunspots/confirmatory_archive/sunspot_frozen_model.json",
+      "validation_plan": "validation/audit/sunspots/confirmatory_archive/sunspot_validation_plan.json",
+      "result_artifact": "validation/audit/sunspots/confirmatory_archive/sunspot_heldout_result.json",
+      "readiness_token": null,
+      "archived_reason": "Superseded as the active sunspot hypothesis by the readiness-first prospective plan. The confirmatory result itself remains immutable."
+    }
+  ]
+}

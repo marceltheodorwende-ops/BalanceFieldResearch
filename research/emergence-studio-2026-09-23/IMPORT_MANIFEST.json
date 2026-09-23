@@ -1,0 +1,1474 @@
+{
+  "received_date": "2026-09-23",
+  "source_archive": "BFG_Emergence_Studio.zip",
+  "archive_sha256": "ffde5a303db12aba996a75d45f69c74f475f5348624893dea5833df9434b88e9",
+  "original_files": 293,
+  "preservation": "All 293 file payloads preserved byte-for-byte; zip container and empty directories not duplicated",
+  "files": [
+    {
+      "path": "BFG_Emergence_Studio/pyproject.toml",
+      "bytes": 498,
+      "sha256": "f0d007a7637720c4b5f75656c904ebdc290aebf04d8fdbd074cb78e78e711ee9"
+    },
+    {
+      "path": "BFG_Emergence_Studio/SCIENTIFIC_SCOPE.md",
+      "bytes": 15269,
+      "sha256": "398de42d0f86c552e8dc8470019f7092f7644845bca8c36ecb46abcd1bb6b90b"
+    },
+    {
+      "path": "BFG_Emergence_Studio/README.md",
+      "bytes": 35506,
+      "sha256": "6e2ba1da9758285c140c7e56867ce78dbceaead7cdff265ff947e5847ebb9ad4"
+    },
+    {
+      "path": "BFG_Emergence_Studio/HARDENING_AND_VALIDATION.md",
+      "bytes": 2213,
+      "sha256": "b3274cbd263c128e42ec6e2ad399cac7978ffa094e18f0bf15e2bbf193653301"
+    },
+    {
+      "path": "BFG_Emergence_Studio/REAL_DOMAIN_VALIDATION_PROTOCOL.md",
+      "bytes": 3697,
+      "sha256": "859badf19f294a19cd78a5d51f711b26675ede6eb880810ddc819521ce9e9347"
+    },
+    {
+      "path": "BFG_Emergence_Studio/EMPIRICAL_BENCHMARK_REGISTRY.json",
+      "bytes": 3572,
+      "sha256": "6105d42d910f2d720f4d0af30a647cf3448c403a1f3372a167160051a07d6f44"
+    },
+    {
+      "path": "BFG_Emergence_Studio/CARRIER_SDK_SCHEMA.json",
+      "bytes": 759,
+      "sha256": "cdd627c465000b994bf7edfc5b71d1b5bcecd4581aaeff64e04314f799767016"
+    },
+    {
+      "path": "BFG_Emergence_Studio/MASTER_BUILD_POLICY.md",
+      "bytes": 1317,
+      "sha256": "db4e72c937331008d7488e96c40badfd0bee5d9d80a56b2f41cac30c677ac081"
+    },
+    {
+      "path": "BFG_Emergence_Studio/THEORY_FEATURE_FREEZE.md",
+      "bytes": 1333,
+      "sha256": "77d6c82e2d018ccb6d6b14c1a0ae8921317b8588338bcfaf509cca8efe6acdc4"
+    },
+    {
+      "path": "BFG_Emergence_Studio/THEORY_FEATURE_FREEZE.json",
+      "bytes": 756,
+      "sha256": "2fba9eb72be34a128518a672d44869983c088e5195648783d70f5e8f43e990ba"
+    },
+    {
+      "path": "BFG_Emergence_Studio/VALIDATION_REPORTING_POLICY.md",
+      "bytes": 2270,
+      "sha256": "a7250fa332fd5ec4ae2473e66aac22306d76b88e4abe20a79f37fe67fce18053"
+    },
+    {
+      "path": "BFG_Emergence_Studio/PROJECT_STATUS.md",
+      "bytes": 4934,
+      "sha256": "340b3a9ca1e9be6b4937c65c3d74e56e5e1ff927a2759b659fc0f03809bf9ad6"
+    },
+    {
+      "path": "BFG_Emergence_Studio/examples/identity_demo.py",
+      "bytes": 802,
+      "sha256": "f17c0d99b1bedcd10c88bd3e330a7fa8de749ee46379c26f1fa6a64ec9eb220d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/examples/custom_carrier_template.py",
+      "bytes": 1113,
+      "sha256": "89fb13fded678fa44c90e5be1f01c8631cf448ea656ca84b501c069ad7d78df2"
+    },
+    {
+      "path": "BFG_Emergence_Studio/examples/perspective_demo.py",
+      "bytes": 850,
+      "sha256": "baa351e061ae4617de103bacd3714e8dad4fb7f24c98ca5df0687d1652b156ce"
+    },
+    {
+      "path": "BFG_Emergence_Studio/examples/population_demo.py",
+      "bytes": 605,
+      "sha256": "1593dd36c673404b3a57136c7f0c5c18c5e9fba796f6654474472384306d9198"
+    },
+    {
+      "path": "BFG_Emergence_Studio/examples/emergence_demo.py",
+      "bytes": 361,
+      "sha256": "328d485770b9312656f9cc7f8732e0e9201cb0d81b04b69addb201766be6fcc2"
+    },
+    {
+      "path": "BFG_Emergence_Studio/examples/evolution_demo.py",
+      "bytes": 757,
+      "sha256": "505d318f7bbbc330a59481c7290cb66f96957fd60de52277cc36e89ac8d28ef3"
+    },
+    {
+      "path": "BFG_Emergence_Studio/examples/learning_demo.py",
+      "bytes": 777,
+      "sha256": "52354b6ce28156e5f08edf9e022da66c1cfcbf48b1d6fe4d1b90c38f080b9777"
+    },
+    {
+      "path": "BFG_Emergence_Studio/examples/inverse_design_demo.py",
+      "bytes": 319,
+      "sha256": "484201e778caa9789b0e1734cab8f62e10b0f1e6dc3247ec2a56755e56291219"
+    },
+    {
+      "path": "BFG_Emergence_Studio/examples/self_model_demo.py",
+      "bytes": 761,
+      "sha256": "7b83501bff7d1e4e4994b561dcc8762d0ad17945d8361ca01a37ce4a021ad1a1"
+    },
+    {
+      "path": "BFG_Emergence_Studio/examples/external_carrier_template.py",
+      "bytes": 1165,
+      "sha256": "88752aac86b19c66e54bbdedd071f34712ba58dc5a9fb865f19281dbf33303e4"
+    },
+    {
+      "path": "BFG_Emergence_Studio/examples/environment_demo.py",
+      "bytes": 899,
+      "sha256": "fe9bafdbeccfc467dc9f3d0d440df9024145b48cbbd8e21feddf33d62952c794"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/PORTFOLIO_STATUS.md",
+      "bytes": 734,
+      "sha256": "17270b2cd7c586f178438f9e6a5ab2779a86c77d0a084e024a2a5b7c97fee897"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/portfolio_status.json",
+      "bytes": 5431,
+      "sha256": "b53bd60341ef0a70a61ddf1daa04ad47e70beac2887915e4dc314d1e4e73b124"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/seals/annual-sunspots.json",
+      "bytes": 1040,
+      "sha256": "5a404c22db9005e53f8d461762f41527e1cab25156d2004d2cb029335be1263b"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/seals/enso-pacific-sst.json",
+      "bytes": 1020,
+      "sha256": "c7a4904480bfb82a188784fdd8d30d8273bf89758467ce04ad605b13e966bd3a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/seals/mauna-loa-co2.json",
+      "bytes": 1011,
+      "sha256": "f42295345841a615d7421534d253c0c736fd5f08d6ee7ed68786096edb64c4c0"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/README.md",
+      "bytes": 451,
+      "sha256": "4e5f8f9b270a5aad81003ed500dd060266f190e08f65c3fe1cd4d70250a4ca9d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/EMPIRICAL_CONFIRMATORY_HISTORY.json",
+      "bytes": 1755,
+      "sha256": "2eb504170a9de7d655372a056140b9db980fc28a83b878093e486cdcfd49725c"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/SUNSPOT_EMPIRICAL_RESULT.md",
+      "bytes": 1314,
+      "sha256": "171c7617003a6786388a5d03254df39be63abe0055612d81796d661284a22870"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_calibration_forecasts.csv",
+      "bytes": 46711,
+      "sha256": "1186bbf3b47896b618ab1a9424d8c8c795e25c2160e4ad09aef2e019741ab84d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_heldout_validation_manifest.json",
+      "bytes": 615,
+      "sha256": "1d2e8c9fe9c83883964d1bb003f68637765fdae4cef4b5d48ca66ba0a44eddbe"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_heldout_forecast.png",
+      "bytes": 213342,
+      "sha256": "72a9f2f5b4d07685e2e06ec8407dfe4d2386ea0cfcdd01ce9f5299dbdec3c96e"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_calibration_freeze_events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_calibration_freeze_frames.json",
+      "bytes": 123907,
+      "sha256": "3ae52e37f4ac4216ea2c68e0908fb3fc9d19bfe2ab2c28dee8e11bb5b0c488ff"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_all_forecasts.csv",
+      "bytes": 77138,
+      "sha256": "8b3fe1c3223b57a446b1b2d6e560585b07f462e3c53c18089689d8b71e54499d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_heldout_validation_events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_heldout_validation_frames.json",
+      "bytes": 77667,
+      "sha256": "f21c3d2e9a8113314a29988b972b362676fccf238646245d24d968a789d2b6a9"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/SUNSPOT_CALIBRATION_DESIGN_LOG.md",
+      "bytes": 981,
+      "sha256": "6b8d1c8279856a4e04294e4c8831cffd54070f36a3316c7f7597e5f3fb04a717"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_carrier_schema.json",
+      "bytes": 2796,
+      "sha256": "0b7877561d05d8d48f7ea48d5bcefa3337cde3647e2698f772de766ea7ce1c6f"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_calibration_freeze_manifest.json",
+      "bytes": 785,
+      "sha256": "c8965f97bc26251bcac5017f5834385f19e8cadca4c29f0bca170b39b3709d0e"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_frozen_model_evaluated.json",
+      "bytes": 7139,
+      "sha256": "8ffb9e092a94b04eca571b1c20c4e1f92155c76ecd66a502da608998ee821cdc"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_calibration_freeze_summary.json",
+      "bytes": 7084,
+      "sha256": "cf2885446d1e42b44c9b78fe2b47bb896ac10353ec51582d763e5012bb7e1f45"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_heldout_result.json",
+      "bytes": 2295,
+      "sha256": "9572e15207b33d2676aa6d5009d47717b90c9b0cfa0bc0d940ce40cadef1fa70"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_frozen_model.json",
+      "bytes": 7084,
+      "sha256": "78b24c5b1c71833b9230500cbddcc480204fb51bd91dd26788973b8d6e8bfeb0"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_validation_plan.json",
+      "bytes": 3659,
+      "sha256": "eb62d8f013021d68dadb2bba2818183cd0e09d7584a9fe627a680a158c580113"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_heldout_validation_summary.json",
+      "bytes": 2295,
+      "sha256": "8863eab9b34c0a65632385bcd2344c8863198c439c9c78dc13c63ccd913559e3"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/search_hits.json",
+      "bytes": 1676,
+      "sha256": "82fc59e206d3794a351d9cc159cd541d550aa182c1a14a9a7f8ebdabb9b362cf"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/best_search_novelty.png",
+      "bytes": 42619,
+      "sha256": "0d62793ac2a77b5e8d4b9cf6fda919bd662a096eb92f890dceca9717b78cb81a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/control_summary.json",
+      "bytes": 175,
+      "sha256": "f5235e157b4922cf2d6076b453719735e386a25718e7b0c23a1ea313842c20fd"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/demo_stability.png",
+      "bytes": 43559,
+      "sha256": "daaae7c9f4044b73d60d20f28212e344af56c7a747c86df915f36d1cac59a4bd"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/control.csv",
+      "bytes": 1454,
+      "sha256": "cc794a3301331b0834b90f98e237bc1fb358afbe7e5d9a1a1897b383c8abc87a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/control_novelty.png",
+      "bytes": 49263,
+      "sha256": "ca3e4303d850b9b255af1878e350a0c5014cc90749c314bab82d23dca80d82db"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/demo_summary.json",
+      "bytes": 220,
+      "sha256": "2cdb860275a3316bd79bce20a6c02afa43c55c94f0ab03b66ffdd898addb635a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/best_search.csv",
+      "bytes": 1824,
+      "sha256": "1429cd6fe8b5ff5dbdcd4f122412427792f6e69293c8eee834ac4c67e51bcd26"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/best_search_summary.json",
+      "bytes": 220,
+      "sha256": "2cdb860275a3316bd79bce20a6c02afa43c55c94f0ab03b66ffdd898addb635a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/best_search_stability.png",
+      "bytes": 45062,
+      "sha256": "6d14c4eb87c2c2ffc83d125e7f240f7b9b5d2c05a7d80599a31a7bdf818b793f"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/demo.csv",
+      "bytes": 1808,
+      "sha256": "a209d47d898bbece4aef79b4e2cd5cac7bf902f6f1231daf9cfa71058e88a672"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/demo_novelty.png",
+      "bytes": 42305,
+      "sha256": "9038e4447978e59eca46eedd220c92baacc8adfec20607641b575ef394d26399"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/control_stability.png",
+      "bytes": 35805,
+      "sha256": "373b1a43db3d72e1695e8a23185dbe78a898e5740a2fe9f3f5a5b3da4bfa4742"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/perspective/perspective_comparison.csv",
+      "bytes": 11776,
+      "sha256": "859e3f42b1a2b078434d1f9b62572fdf2b8da45b6e04007f8f59d8e09d004e61"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/perspective/perspective_control_closure.png",
+      "bytes": 128092,
+      "sha256": "9e45fb4d69af86f18575c4e63fd22eddd265c412991ece170491b8de4d17cce8"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/perspective/perspective_closure.png",
+      "bytes": 130234,
+      "sha256": "75a212b0b9d0abd506c5257e0cc05ba87391c3141df838982901609d222cfda3"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/perspective/perspective_summary.json",
+      "bytes": 704,
+      "sha256": "2f7d54390965fcf674f324a6089b94ddcec34c25e22575b6ac944fd21f9f7ea5"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/perspective/perspective_control_standpoint.csv",
+      "bytes": 304,
+      "sha256": "6666543fffc411c410df4273d55f52e0b76849d236fb5ead59513cdf2fac0408"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/perspective/perspective_control_summary.json",
+      "bytes": 687,
+      "sha256": "2307277697bebc49aec93efc63d1a0be894a25e1f3d663ef1d9c29e29d70fbaf"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/perspective/perspective_standpoint.csv",
+      "bytes": 304,
+      "sha256": "5b86ace1b7bf6e9beb697826a6153ae9ed3e269ebad739d9d66519f39d864eba"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/perspective/perspective_events.json",
+      "bytes": 13503,
+      "sha256": "6c54e3119304702a78113bf610fc3055c271f08441779e5aff146aed6bfe2014"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/perspective/perspective_control_frames.csv",
+      "bytes": 34806,
+      "sha256": "d099237f7298cdcceb52aae5c711f02cfcca36db88c49723156e32b1cdd8f803"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/perspective/perspective_frames.csv",
+      "bytes": 37263,
+      "sha256": "9315e3979f6d6d0736e3ed23a3cf2f379156fc6ff4c497a6035598e3809b41d1"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/perspective/perspective_control_events.json",
+      "bytes": 3100,
+      "sha256": "ea9c7894d8a1243fe28bd086eaf52e5db75a97afdef15fe1fe82bb9ba10b3395"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/perspective/perspective_comparison_summary.json",
+      "bytes": 663,
+      "sha256": "393029b69ad326b63d953c5389def1c65d880b5ca661aa4862f24ac935661490"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution/evolution_summary.json",
+      "bytes": 333,
+      "sha256": "26288ac37cfafb5b8cfaf9a9427757afd2d72a0e8a66a971da79b0e7322ae414"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution/evolution_frames.csv",
+      "bytes": 4554,
+      "sha256": "8991adb16e6ec4dc7017afa8dbbb3898b47d86fe7a3e0e4e072ea97cdf1cc3c9"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution/evolution_events.json",
+      "bytes": 10690,
+      "sha256": "b2ea5a651f39e4d3a11adfc87673600ceedfcb14484adecdec07e1b0c22d41ab"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution/evolution_traits.png",
+      "bytes": 65370,
+      "sha256": "10b7cf560c9898907bf61cf44bb8ec2bdc368bb626205502fb1245e5991ed4ef"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution/evolution_lineage.png",
+      "bytes": 66792,
+      "sha256": "60198dfe91d77205374fb4bd11db28a688762b99fc0e8572e64f13e48dac9688"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution/evolution_population.png",
+      "bytes": 94095,
+      "sha256": "937a5509902d42c21ed12c800bc037ef620b449d00284a4cceff281bc23ac65a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution/evolution_traits.csv",
+      "bytes": 11148,
+      "sha256": "58a7f158d6a1647752998a526a52272b0f46a7a7a0d4d18f6e52fdafe2be384f"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/hardening_summary.json",
+      "bytes": 2721,
+      "sha256": "9556e61d040a315af1be3a74a74efc414cd1be76f0e97aad592bab349eaa79a0"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/checkpoint/master_state_manifest.json",
+      "bytes": 418,
+      "sha256": "6e783a3171befa1aa0597d312b745e77a4f88f26289fb74ba0df9ccc4504bef0"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/checkpoint/master_state_metadata.json",
+      "bytes": 645,
+      "sha256": "b01d2b6e9f7606c2c6569c78865c691cf6efc50a1ad6584150bbdf7074125d32"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/checkpoint/master_state_arrays.npz",
+      "bytes": 2232,
+      "sha256": "a6f47e41c6ac98c8477acdcf0ebc3545116ac5f8dbf2448b17e422a849cd468b"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/robustness/robustness_tolerance.csv",
+      "bytes": 837,
+      "sha256": "1ff921ef062edf27a6c2a2efdc66992be71d645fc51cb9560a750442cb47555e"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/robustness/robustness.json",
+      "bytes": 109234,
+      "sha256": "244237d1bd5a350b4ba415d0dfa17a61c0b811c8b408bdc54a3cb8a645b0431b"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/robustness/robustness_provenance_summary.json",
+      "bytes": 428,
+      "sha256": "e36b671fe8584b37e625ac86aa0c604a37bfa7813c8bff041b3eb97cf1ac2e8a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/robustness/robustness.md",
+      "bytes": 610,
+      "sha256": "c7249efb3d74aa404c5417b1af19f0edd14e83ed950af67ea3e58b4a90b4d92a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/robustness/robustness_provenance_events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/robustness/robustness_carrier_sensitivity.csv",
+      "bytes": 691,
+      "sha256": "09de6df8d5feae4d4d356ce1b596e287d404604bbfba29f26f028dfeeb58635b"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/robustness/robustness_provenance_manifest.json",
+      "bytes": 462,
+      "sha256": "4faacbe769010e5f9ff99ef791564bdddf4090db9349bb6e2a21e73278bbd762"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/robustness/robustness_provenance_frames.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite_provenance_events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite_provenance_frames.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite_provenance_manifest.json",
+      "bytes": 616,
+      "sha256": "74ae4402e83377e629bb14ac789cd9c850e82abeafc49466892e339ac9740774"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite.csv",
+      "bytes": 5728,
+      "sha256": "2f65898ac10e068832fa57ac26cc772162ca557da336fbd8245269ea38b329ab"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite.md",
+      "bytes": 713,
+      "sha256": "a0f5f82022decbd399018a272ba6dd3007a61431fed992282e358eea8f7e31ef"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite.json",
+      "bytes": 8074,
+      "sha256": "16a142e56b225ffca32f15d4ad0294eed6e57c7bf0cf72947febcf59697dc7b5"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite_provenance_summary.json",
+      "bytes": 8074,
+      "sha256": "2adc9324518d3150151182d33a3f58f57812e2234f0f7dd19817864b06795d99"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/self_model/self_model_predictor_weights.csv",
+      "bytes": 3865,
+      "sha256": "3c79d64e5fa38bccf013a9af89c8cb52baf0a4950eb70a1a2cedcdcafd2a7169"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/self_model/self_model_frames.csv",
+      "bytes": 28013,
+      "sha256": "08e322c4aee900f9218723df4f0cc774505ac8eb6cadd8a26fad67ee034873b3"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/self_model/self_model_control_events.json",
+      "bytes": 18615,
+      "sha256": "4dc6f9c7d1afc3b4e8f063c927a114afd96da6d5d34941f727d7b7459536392c"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/self_model/self_model_control_predictor_weights.csv",
+      "bytes": 3865,
+      "sha256": "fdf146110c06db5adc2985ed7a509c205018948b8dc3c3a382e8f035a47133a8"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/self_model/self_model_closure.png",
+      "bytes": 214652,
+      "sha256": "f7eceeee1a2560202207940854c890f1688bf20f315db47b1a68fe3863ad6eeb"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/self_model/self_model_comparison.csv",
+      "bytes": 10296,
+      "sha256": "07bf786e0ce8fd36a37d00bbb7187596cfc47833a1fa6320dbda269afed458e1"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/self_model/self_model_summary.json",
+      "bytes": 605,
+      "sha256": "9fe058e05d184821b1d2b09bc7df45c88a56402313fe7b0c054673682cbdf5b3"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/self_model/self_model_events.json",
+      "bytes": 30704,
+      "sha256": "85a94b9882fa29c21e22c44c8a1490f61cfa1f1d30ef78a8c01622bccce5ccfc"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/self_model/self_model_control_summary.json",
+      "bytes": 588,
+      "sha256": "f22cd956bffc504fe6643d5b97ca312609299841a6b8715b24a84fb99b459855"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/self_model/self_model_control_frames.csv",
+      "bytes": 28319,
+      "sha256": "ebc3c31d0f24f6fefd62261ca13eb250b1624bedaed723973bea1d7a9914b1dc"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/self_model/self_model_control_closure.png",
+      "bytes": 204014,
+      "sha256": "1eb1e2ed3e86bdbb21d866e474fc3b91e1dd47ece92f1d34a3e8436286e2d5b7"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/self_model/self_model_comparison_summary.json",
+      "bytes": 360,
+      "sha256": "5dca2b47e6d994dbae79a6dfbe3fc393176225d5900f91d80dc98eca7dbaf310"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/identity/identity_frames.csv",
+      "bytes": 52297,
+      "sha256": "17d4f24c2ffe7545c31d6a2cde9cc2e268d1207f2aefc3fe0d443d57647a7e69"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/identity/identity_final_identity.csv",
+      "bytes": 304,
+      "sha256": "514399087c125625a03d245078a38652b4dcb97fc37116f5f1ffe71546538ab1"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/identity/identity_comparison_summary.json",
+      "bytes": 604,
+      "sha256": "fc7b3e60a5e04435023fba56703d316813b97e443fc6805b544b03445b972349"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/identity/identity_comparison.csv",
+      "bytes": 17484,
+      "sha256": "372029fd2076c4a8dbc5a9c0df3196ca32ef0093e325c47dde4d674acdeeb126"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/identity/identity_control_events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/identity/identity_control_final_identity.csv",
+      "bytes": 304,
+      "sha256": "1766842cf208eb16f324457114933c946997418eff341ee46e03ea6840a93a97"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/identity/identity_control_frames.csv",
+      "bytes": 52182,
+      "sha256": "15da05ad3d86152543da15def728c18ffbcc8c8bb0968ead19ff4014130b0f37"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/identity/identity_summary.json",
+      "bytes": 715,
+      "sha256": "d30b0f5cac26a22f1a0bc7f37be28b181e4a663d85a00f2bc86c6a6c9db9fe5c"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/identity/identity_events.json",
+      "bytes": 35311,
+      "sha256": "3fb5a128447a838e5995061fcc1d312463539bf67706377fc3048c0a770ec6b9"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/identity/identity_control_continuity.png",
+      "bytes": 118609,
+      "sha256": "08a5c765a2343697850864c8a928ccfa51186aa59f71d956b728501072b1b804"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/identity/identity_control_summary.json",
+      "bytes": 697,
+      "sha256": "df5d7402895ed08d0206a379a36271febd1e3fc66e267817bc73d6bd3ab19049"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/identity/identity_continuity.png",
+      "bytes": 121275,
+      "sha256": "1d193701593ecb2eb870c94872db5a3b36f484c015b0ededaaafdb3a9f16635d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/population_fission/population_frames.csv",
+      "bytes": 1906,
+      "sha256": "d9bd0e177e73533edf26170c942549d2212224558deea64517aea8ac415fbe91"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/population_fission/population_summary.json",
+      "bytes": 303,
+      "sha256": "5975e69adfda1e3f6b3a3c2992b223f7ea1cf9ac9da0041739f0e593c89b5194"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/population_fission/population_trajectory.png",
+      "bytes": 68635,
+      "sha256": "3bdcf27266e7983d9d96b6850531b17c8233051bc847518781f627651d863a0f"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/population_fission/population_events.json",
+      "bytes": 888,
+      "sha256": "ff3297f7f1880ae863883555fdb86090d7a23abbf93a32557661457ee021d87c"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/population_fission/population_lineage.png",
+      "bytes": 58139,
+      "sha256": "b123f7d289f5b23f1d56c8e65f9aa96e37a4398c9a5c492088c5172fb1a2eb0b"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_sunspots/sunspot_preflight_frames.json",
+      "bytes": 1319,
+      "sha256": "31c9067749b91846bac48e62575f3bb9654b2979ebb1f38deac1df91e6969deb"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_sunspots/sunspot_preflight_manifest.json",
+      "bytes": 678,
+      "sha256": "9448708d997d36f8554a875761741e3abc51b1d723b1f57b0c2918e6f04f0b07"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_sunspots/sunspot_preflight_folds.png",
+      "bytes": 35669,
+      "sha256": "bbf341d64f69912da2e5d207f2e6ac7d44484edba3e4455291fae81ca17ce9c7"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_sunspots/sunspot_preflight_summary.json",
+      "bytes": 2317,
+      "sha256": "0cc01b32a47a87f7d0afb17b9c7f495ce5dc79a4da83268c02c18a3e55dc7051"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_sunspots/SUNSPOT_PREFLIGHT_RESULT.md",
+      "bytes": 2233,
+      "sha256": "76ca5941c1b377d5ca528d57d0bd9d2b26fbc68b2e4130f5cab8bc328fdc152d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_sunspots/sunspot_preflight_events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_sunspots/sunspot_carrier_schema.json",
+      "bytes": 2719,
+      "sha256": "befc8e2f3531c36d30af3f30ae4e0e8d6fecbf82a56118ea39156ba38b2a72ad"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_sunspots/SUNSPOT_READINESS_TOKEN.json",
+      "bytes": 416,
+      "sha256": "239b5baa26293ceaa773971983a98f0f4e48eb681eef58e8143b71eea382c382"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_sunspots/sunspot_frozen_model.json",
+      "bytes": 7769,
+      "sha256": "d36e628caeb7d31003a42bafb6b5b64ac5e51fd81c04e8939ef2d03b791fbd05"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_sunspots/sunspot_preflight.json",
+      "bytes": 2317,
+      "sha256": "e4ff1101bd9a810f84860534a8f2e6f15e21c362fb68871f2f6cbe4e17191284"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_sunspots/sunspot_validation_plan.json",
+      "bytes": 3867,
+      "sha256": "d12e4b9ef773a5732721d44c019fb15dd4e90807c18c1aa9c9d05e41b99f2cdd"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_seasonal/environment_environment.json",
+      "bytes": 10667,
+      "sha256": "4f643860c2e93730361f0582f06457e3b4d4afa0ccf2bc48cdd29c90aafa5ba2"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_seasonal/environment_trait_tracking.png",
+      "bytes": 162088,
+      "sha256": "cebd726b2146035856639d84c9a07aecdbc8c57745724af96260b37d94a713f1"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_seasonal/environment_summary.json",
+      "bytes": 3810,
+      "sha256": "2802ca2a22015680b8b3a689bb78f72c29ee3664ab02008e27394b2ebbc734fa"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_seasonal/environment_frames.csv",
+      "bytes": 5154,
+      "sha256": "e39a33aa124de0e2d063a178e55f4a63d3b4026177592df9a678497ed19a31c9"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_seasonal/environment_population.png",
+      "bytes": 47889,
+      "sha256": "1227b67d9a3ef86690ee3187844e045d940952f9f040558a9a5d80deec739bee"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_seasonal/environment_events.json",
+      "bytes": 53198,
+      "sha256": "b7e707651b08987d92a8eb89c126c8090afbc0e312c43194215783fae6e7a943"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_seasonal/environment_traits.csv",
+      "bytes": 12019,
+      "sha256": "8f52f3da9d14696fc00c964d63e96768dae836ff96b6bf4270100ad9792c0978"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_seasonal/environment_adaptation.png",
+      "bytes": 134869,
+      "sha256": "ec8a37784a6c0140281d8e03a6913bbc4f96529b826d833db6386a9ac90992f6"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_search/best_self_organization_organization.json",
+      "bytes": 8971,
+      "sha256": "ea154e420c40964d8c50fd653e2ccf8060d3ae8f8d612a59c07e2ba95def8678"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_search/best_self_organization_core_novelty.png",
+      "bytes": 62859,
+      "sha256": "efe3a32c8c1ff046bb049e0e129155a935f6aa6b3710ded4b849e4f0aa75d157"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_search/best_self_organization_organization.png",
+      "bytes": 69183,
+      "sha256": "476cf4c0c5622608015a2acb5daa43917d1e578aadd30dc2c115b8d9c1b23002"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_search/best_self_organization_network_final.png",
+      "bytes": 250144,
+      "sha256": "929db238adb2c7290d51d28fe9941da9143a949b19a855a8208eb7e5d550db6f"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_search/best_self_organization_core_stability.png",
+      "bytes": 41139,
+      "sha256": "62be6ced9228586567090fd77c0f3a2b26eff6756ac18527f8a8bee6f0dc5b55"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_search/best_self_organization_core_summary.json",
+      "bytes": 180,
+      "sha256": "75aedee5d498285ac6aaf98290389c5b745a30e896785e4821905c78afcc3737"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_search/best_self_organization_core.csv",
+      "bytes": 5388,
+      "sha256": "d8247ece7879316deeff2c599c0ccb8b8bc7c71edb206118c1feb5237babf356"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_search/best_self_organization_organization.csv",
+      "bytes": 2955,
+      "sha256": "45aba1ec4e4e7b816f35e84d3081f19487f76df43c28b159d6260d68e17a3335"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_search/self_organization_search_hits.json",
+      "bytes": 4200,
+      "sha256": "7a44abde57b2ff2a2821ceff787fe4b929a7c2798e8998402488197ccfb9cbf0"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/cross_domain/cross_domain_invariants.json",
+      "bytes": 12671,
+      "sha256": "61ee156b7d559ceeedb1fa44647594c4afaeac8bb60dbce693d9b1f0d87e6f61"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/cross_domain/cross_domain_corridor_overlap.png",
+      "bytes": 69053,
+      "sha256": "4e0eaf33a16b0dbbd1da063534b9de4d904dba2204ed1c5b2b26f562f421a6bd"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/cross_domain/cross_domain_invariants.csv",
+      "bytes": 6005,
+      "sha256": "4f5e3f0f3f7f4f27d1bd2ae59e04b9f530bc0d9d295ac1c70c0b6fb43f161313"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/cross_domain/CROSS_DOMAIN_INVARIANTS.md",
+      "bytes": 778,
+      "sha256": "641b7b6d4054ebf41ec259a272c7e71e9da4704b53ef3144ab5861df75c71420"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_co2/CO2_PREFLIGHT_RESULT.md",
+      "bytes": 1900,
+      "sha256": "8f0d2e03fd11de99f4e51902c946ad428ff5a3630bc606542a24f9a3d70af8eb"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_co2/co2_preflight_folds.png",
+      "bytes": 29285,
+      "sha256": "a721aeb38ec4cfc924b32228379ab7316aa84fce2eff59118bbb67faf58704b8"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_co2/co2_frozen_model.json",
+      "bytes": 6297,
+      "sha256": "76e69cf3820c2f87ff063bf70c7ed3b8b51db9ae6e13afa3e74ce60dc9cb222e"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_co2/co2_carrier_schema.json",
+      "bytes": 2038,
+      "sha256": "f01260847cb0dadf5cc80fc7052add00d75e5d50cebc17a1b611d78b25751691"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_co2/co2_preflight.json",
+      "bytes": 1917,
+      "sha256": "98e7b1e2c0ae8bd15a343476a8da053ee32e98e77837c7464db978f1eb6189ba"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_co2/co2_preflight_frames.json",
+      "bytes": 1112,
+      "sha256": "5bf79b6be8782d5f748a6d6ee54e3b1877c9ef917f3aecc2bbe6d5cda36156b4"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_co2/CO2_READINESS_TOKEN.json",
+      "bytes": 364,
+      "sha256": "e33c3a90bb181022c902834cdf823a55dcad547a887b8446db82c6952a0d74a4"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_co2/co2_preflight_events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_co2/co2_validation_plan.json",
+      "bytes": 5380,
+      "sha256": "debd6094caad539603d2eb601f018a5d1a343f215ee1066211019a159812468c"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_co2/co2_preflight_summary.json",
+      "bytes": 1917,
+      "sha256": "fbe7825b3e836667901970065ee306095cf9e0cf03ee5a9d4bfec2c92bcfded3"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_co2/co2_preflight_manifest.json",
+      "bytes": 647,
+      "sha256": "9c75e96cebe15c11f2f04aa2e0533ac474d6124383876c267b0bd42874620f83"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife/self_organization_core.csv",
+      "bytes": 5406,
+      "sha256": "5a3e142d13419f6b90437a617133c1e445a1488ae78f83e21f775ff40d00c999"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife/self_organization_core_summary.json",
+      "bytes": 180,
+      "sha256": "75aedee5d498285ac6aaf98290389c5b745a30e896785e4821905c78afcc3737"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife/self_organization_core_novelty.png",
+      "bytes": 56047,
+      "sha256": "f7b67d28c6b63c0c5a58fc1553d17e22fd3e0c8494010c41d2de18c09ddcaaea"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife/self_organization_organization.png",
+      "bytes": 66489,
+      "sha256": "28acfb8923037d4bd661e8a40a69807295f1db76a1c73cb5bd8fb650d8e21732"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife/self_organization_core_stability.png",
+      "bytes": 41974,
+      "sha256": "803b3ee53c91143df4e7353e593123fedcd9e327fa3ef36e4c19a880d75a112e"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife/self_organization_organization.json",
+      "bytes": 9000,
+      "sha256": "6e1ca008e9e2d163d1ec459aa1d90af7922f0ec6042b881147c90081e6769e50"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife/self_organization_network_final.png",
+      "bytes": 274403,
+      "sha256": "daaba6d507c3fdc10296a073b5c1338ffda1ffbb0bd7f11cf4cc5a1bc4b42aee"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife/self_organization_organization.csv",
+      "bytes": 2984,
+      "sha256": "1490f3f704b2348fe28f740a843fcf075a2dd5b3ebc8951066345132d2940068"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_best/self_organization_core.csv",
+      "bytes": 5388,
+      "sha256": "d8247ece7879316deeff2c599c0ccb8b8bc7c71edb206118c1feb5237babf356"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_best/self_organization_core_summary.json",
+      "bytes": 180,
+      "sha256": "75aedee5d498285ac6aaf98290389c5b745a30e896785e4821905c78afcc3737"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_best/self_organization_core_novelty.png",
+      "bytes": 62859,
+      "sha256": "efe3a32c8c1ff046bb049e0e129155a935f6aa6b3710ded4b849e4f0aa75d157"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_best/self_organization_organization.png",
+      "bytes": 69183,
+      "sha256": "476cf4c0c5622608015a2acb5daa43917d1e578aadd30dc2c115b8d9c1b23002"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_best/self_organization_core_stability.png",
+      "bytes": 41139,
+      "sha256": "62be6ced9228586567090fd77c0f3a2b26eff6756ac18527f8a8bee6f0dc5b55"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_best/self_organization_organization.json",
+      "bytes": 9691,
+      "sha256": "f1b3ad669765f05b7a333713bdd2d4956db2170873f3f17c1bdf51f634408409"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_best/self_organization_network_final.png",
+      "bytes": 250144,
+      "sha256": "929db238adb2c7290d51d28fe9941da9143a949b19a855a8208eb7e5d550db6f"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_best/self_organization_organization.csv",
+      "bytes": 3091,
+      "sha256": "fef61950eb6ca6e84c7ba036e61200cfb6697816701c484d906861a4e10f8272"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_best/self_organization_lineage.json",
+      "bytes": 5792,
+      "sha256": "6ec3f26036a86dfade4171bcbf34d29e21ca1860c27ad48de05148670ed7dc9c"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/parallel_evolution_sweep/seed_sweep_provenance_manifest.json",
+      "bytes": 549,
+      "sha256": "5896053f066258f0c75c22c5868ff11f7069fc036bcdcaff40d4c728c599a54b"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/parallel_evolution_sweep/seed_sweep_provenance_summary.json",
+      "bytes": 6008,
+      "sha256": "7000305fcc6ca38e87a63038aeae35a53fb90a35bda9fc384af190f3bdc94a47"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/parallel_evolution_sweep/seed_sweep.json",
+      "bytes": 6008,
+      "sha256": "d3d25029c08752250ccfdd71063028d8b56b5d32cc44e0562e681b239929b1b0"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/parallel_evolution_sweep/seed_sweep.csv",
+      "bytes": 4123,
+      "sha256": "ad1e75016f42c4aa4e89412466516853e724142bb7166e8dc5fc48529bf6cc2b"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/parallel_evolution_sweep/seed_sweep_provenance_frames.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/parallel_evolution_sweep/seed_sweep_provenance_events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_shift/environment_environment.json",
+      "bytes": 24551,
+      "sha256": "41fee8804e43a3dac3a0d454756cd56fbefbec43278971f25673b130919a3332"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_shift/environment_trait_tracking.png",
+      "bytes": 100938,
+      "sha256": "da12fb6746db8cd05a17f189e76eae1a607c6cae4f6c581d3f7500eb70daf868"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_shift/environment_summary.json",
+      "bytes": 922,
+      "sha256": "4eafa1105840f5ff76afae4464a8459900ce13158fd7b2c1c72d33e8270f30ae"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_shift/environment_frames.csv",
+      "bytes": 9189,
+      "sha256": "12d00648b8d8f78674cbdfd2b7731ce5bd24962137999a4adcf3da7d339c059a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_shift/environment_population.png",
+      "bytes": 43228,
+      "sha256": "91619350b5d5022a76d36efe0a695688e64d531f18fc521b07d12f4de2e7d7ef"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_shift/environment_events.json",
+      "bytes": 112065,
+      "sha256": "08313061fe7524371a8c06ce5b467724091a9f66a6b30b6c83e353e493e16e51"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_shift/environment_traits.csv",
+      "bytes": 21497,
+      "sha256": "5ec3da828437258276a1e38f83547e50c5b4263fcf2bc00148bfbcb4536bb3d8"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_shift/environment_adaptation.png",
+      "bytes": 97620,
+      "sha256": "953f537b02c2d14ad41b7ed45bed57dc547411ad60b9cec0e366479e1a1089ac"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution_selection/evolution_summary.json",
+      "bytes": 333,
+      "sha256": "140bbc0984416415b92e842868a3afbe149e33293eb01ffd231ab3011f3f06d1"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution_selection/evolution_frames.csv",
+      "bytes": 2164,
+      "sha256": "7ec91bec86bc6b28e93cfe312d630c5a15c687f7bfae96e41bcab97cbd9d2982"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution_selection/evolution_events.json",
+      "bytes": 4307,
+      "sha256": "b9cfa6455e6765c5de4441e1134d687bfc784414a8a7b1c65dc2b1f1e8480c79"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution_selection/evolution_traits.png",
+      "bytes": 58699,
+      "sha256": "d3fcf736caa29ea5fcfb0578260b2c7790289e4de45163cca3c6387951c2edea"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution_selection/evolution_lineage.png",
+      "bytes": 68927,
+      "sha256": "1bd612eb1bae71a128d2ffcbb4b41f71c88aa12e94069e5991281a3e5d694145"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution_selection/evolution_population.png",
+      "bytes": 84832,
+      "sha256": "d9bc7a009ad8cad3215c18ad4224e9a8d68ada63b654747de3daab1776ff77a9"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution_selection/evolution_traits.csv",
+      "bytes": 4066,
+      "sha256": "0edfc765a9920140e44d904f34569b872a30fb6d15bc65e4c46e1bab0d2f1b05"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/population_growth/population_frames.csv",
+      "bytes": 1429,
+      "sha256": "968d3ff46e1e176851fa428ecd861e0f79fdc91e62dbbccbae94d2ea3b708b71"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/population_growth/population_summary.json",
+      "bytes": 295,
+      "sha256": "44631a514cc0529b82c038fdb661bd42a280c4742c8d5562d9f155c8a29ee0b3"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/population_growth/population_trajectory.png",
+      "bytes": 73732,
+      "sha256": "203711e869ab0364270f50c9a29a652415617e9f5182e6e952ac63fc0027751a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/population_growth/population_events.json",
+      "bytes": 1819,
+      "sha256": "f06938c1c92bfe08a8cb5b4957c676963917a4237e0a88b953ef8232bfb4476a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/population_growth/population_lineage.png",
+      "bytes": 32772,
+      "sha256": "018ab902f03db354107c8591d9fb256650e93ede04921f559109decef6a0a0ec"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_enso/enso_preflight_frames.json",
+      "bytes": 1284,
+      "sha256": "eb7e0d6a5a1b41660d7bc6a30d3e93c338eaca8917c2ba7379188d4420eb5271"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_enso/ENSO_READINESS_TOKEN.json",
+      "bytes": 433,
+      "sha256": "fdc5994b8410feba9834b63782f313abc9a888085d6a14343f62b4552b91e2d2"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_enso/enso_carrier_schema.json",
+      "bytes": 2678,
+      "sha256": "3fb72abbfabf3caaf0f1d10811b7c340fde48dfd232f5784add0a43fbe04114a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_enso/enso_preflight_summary.json",
+      "bytes": 2274,
+      "sha256": "df0937cbb0a9e9894cc0b08acdb77ef9b48b6c06ac3ee62fe869c63e0c2a003a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_enso/enso_preflight_events.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_enso/enso_frozen_model.json",
+      "bytes": 7503,
+      "sha256": "b1be521e79c9bfc6cf37d8855f12e8baf15eac9643db958e4e3220bbcebc9b95"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_enso/ENSO_PREFLIGHT_RESULT.md",
+      "bytes": 2042,
+      "sha256": "36fdffbb4e3c38ff3925bd651ce6a295b18906c8def980b2b62e2c311763f9c5"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_enso/enso_preflight_folds.png",
+      "bytes": 36579,
+      "sha256": "544607cd756f8310b791c4882a35173dbb20bf6d1df0963491b62bcda466cadb"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_enso/enso_validation_plan.json",
+      "bytes": 9118,
+      "sha256": "e75cb68d9c394ee45eb069b457f66bcdc5c80b9c62db543991ed7639e36dac7d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_enso/enso_preflight_manifest.json",
+      "bytes": 720,
+      "sha256": "63af248efafe11adb547e2798a436f0344afda87d892ea0ac9384cfd03c59d0e"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_enso/enso_preflight.json",
+      "bytes": 2274,
+      "sha256": "212e2294d6e50ed77b0da1606ff2e4bf971de72a1aebb6fb790f9b5927dda786"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/learning/learning_memory_frames.csv",
+      "bytes": 30599,
+      "sha256": "d7e4dd6b3c4ac9a0bac192aa51efb7728b1d7412d91fbc20d791297f7893d2e4"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/learning/learning_control_events.json",
+      "bytes": 602,
+      "sha256": "d9a79cbe9a97a3aa22f08feb944b6758d6a0ecdc79d64601d5f3bea2f84c2f1f"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/learning/learning_memory_trajectory.png",
+      "bytes": 98238,
+      "sha256": "b70b663bfb5f8877186b0bd975e92916e525661d12cb0e8e2583b05eae159b82"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/learning/learning_memory_memory.json",
+      "bytes": 1091,
+      "sha256": "136434eecbf2b2d7f08a19c7ca6031332b908d7eed14d00ff441afca24918077"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/learning/learning_control_trajectory.png",
+      "bytes": 88465,
+      "sha256": "e1fa5c414da66b8c9cd5c7841a606530c8df494ec3b88d5e80ced121b00d24b9"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/learning/learning_memory_summary.json",
+      "bytes": 433,
+      "sha256": "195a914101cf97d1b8f5e55fcae11e73a13f68616aff4f5f611c41b2d855989b"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/learning/learning_control_memory.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/learning/learning_comparison.csv",
+      "bytes": 7796,
+      "sha256": "aaf669c54fa33651d7bedb29aa16442666627ef31e06b88dae11011e1ca8c4a4"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/learning/learning_comparison.png",
+      "bytes": 96620,
+      "sha256": "456e723640b9e9131fd2453af718b9dc37ffb32a49883525bbe1b21a61470752"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/learning/learning_control_summary.json",
+      "bytes": 433,
+      "sha256": "098be408d941abfdc991766e79eb2f88762ead910d47049751a31a6ca6711226"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/learning/learning_memory_events.json",
+      "bytes": 15449,
+      "sha256": "9b2bd09aff4bdddd76197236652873a5089d1d8cf0f40a698cac623c15200dbf"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/learning/learning_control_frames.csv",
+      "bytes": 18044,
+      "sha256": "160559404254a79bb2a7e079c3abda6e3b297c5be6127c2f5aef598d9ac93bba"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/learning/learning_comparison_summary.json",
+      "bytes": 328,
+      "sha256": "2cf1e281549d744b0790c8e961417c6e5eeede5dca613889a3c60926be024b6a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/data/enso_pacific_sst_monthly_1950_2010_provenance.json",
+      "bytes": 629,
+      "sha256": "e08ec3a718b72f65d6f50f0059d027c52ef84d6c2560b0d9eba675d7252054ba"
+    },
+    {
+      "path": "BFG_Emergence_Studio/data/sunspots_annual_1700_2008.csv",
+      "bytes": 3104,
+      "sha256": "7dac2f45399b4d3b335823db9884c4b6d7f79509f94aed6de20da6a431ae5900"
+    },
+    {
+      "path": "BFG_Emergence_Studio/data/mauna_loa_co2_weekly_1958_2001.csv",
+      "bytes": 38542,
+      "sha256": "2737f74222cf1fb702d41058927d2b8d2a34778d519bfa6b1dea2f1b47c234f4"
+    },
+    {
+      "path": "BFG_Emergence_Studio/data/enso_pacific_sst_monthly_1950_2010.csv",
+      "bytes": 4680,
+      "sha256": "685e30c099aca159580267ecafa013f24f445759b4c5e38fbd13250f2982a8d8"
+    },
+    {
+      "path": "BFG_Emergence_Studio/data/sunspots_annual_1700_2008_provenance.json",
+      "bytes": 542,
+      "sha256": "b13198c2d339e73adb00c3f2eab5ec957bf4b4b7c368f9b7d3d3f339f00f93f7"
+    },
+    {
+      "path": "BFG_Emergence_Studio/data/mauna_loa_co2_weekly_1958_2001_provenance.json",
+      "bytes": 507,
+      "sha256": "76f282bddf65821472c941473cd87e0ab3259a4fd1a17cea0892c111f346752c"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_session_sdk.py",
+      "bytes": 2760,
+      "sha256": "27c46c162906426c70c74e001c1fc64686cb6267cc1e891132ab52e212a82c5d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_core.py",
+      "bytes": 1109,
+      "sha256": "6eaaaaad54be020dc0291b0f9a5614a1b211433a2031fbc9ab8301a4eb135439"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_population.py",
+      "bytes": 1668,
+      "sha256": "8882d0d10a5af145251dda05de3c62ea20682097f98587082ce92a34d580365b"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_alife.py",
+      "bytes": 1492,
+      "sha256": "ba7450ab4b3a58d8b575e8c16ead9bb882cef5e5e40d5c466ac2821c94bad609"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_co2_carrier.py",
+      "bytes": 1511,
+      "sha256": "091820cd65edbe45827da1920501cab16e4bbb4f8cfdc095ac1167ea128c1c19"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_real_validation.py",
+      "bytes": 2862,
+      "sha256": "1c0856620bb41cd70c9c85ebb380e45fb9fcf877cbf8c739a4e6c7fe2d94ce6a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_evolution.py",
+      "bytes": 2118,
+      "sha256": "ede658243d623c08ecb462ceae39504531af133cd9196024769a10c5ce409451"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_hardening.py",
+      "bytes": 923,
+      "sha256": "b58b7d73a1aa2c7cff841237a38bf9647e488a569ef7930a5b53b961ab9adf08"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_perspective.py",
+      "bytes": 5314,
+      "sha256": "fc0e640a087f32547738338e238cee679c2fbb81f8ce18b9d167f65d5eb20334"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_environment.py",
+      "bytes": 2350,
+      "sha256": "1025fb356e214519bcce54ee8abb008e41a8411a56a3862d77b0efe7a3284fab"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_sunspot_carrier.py",
+      "bytes": 2816,
+      "sha256": "9f9186f73fad5ef9f45285ecb37d3efb96f31c7b8337e4bbe84ec80be4a263e1"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_portfolio.py",
+      "bytes": 3795,
+      "sha256": "ce01d585d1681e73a153610bf72da67dcc1da06fa39bd8091256ab1964cae10f"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_selfmodel.py",
+      "bytes": 2678,
+      "sha256": "d603689531a23e7f5f6f8fe6287ddee5679505d08012b504c7be36848d282105"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_cross_domain.py",
+      "bytes": 1697,
+      "sha256": "03ecc7d0ea46e251a81bc10ee8f1efca213e75509d7cf3605cefac2f2ea87fda"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_enso_carrier.py",
+      "bytes": 2663,
+      "sha256": "c1eea9f12f0338145f335ade888b0b42678099baafd0ba3992011f0f45026126"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_learning.py",
+      "bytes": 2598,
+      "sha256": "7502bbedd629005b4c2cf77a602516505d80f7289bec71b62f5a075ff8a52d2f"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_identity.py",
+      "bytes": 3528,
+      "sha256": "1a188366f09d1866029566c96f551ace9257670c66e0e19a75c4badf660ab7c3"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/cli.py",
+      "bytes": 31230,
+      "sha256": "c7ab0305533e80577a9a3559a0476504c4fca6d003056ab9d1196aece6f85ae5"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/sunspot_carrier.py",
+      "bytes": 36438,
+      "sha256": "11d4124253e8eff35d3b853ff828434c61835eee133949f093341863fc291a01"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/carrier_sdk.py",
+      "bytes": 7922,
+      "sha256": "790fd99130a874c4dbc9240f0d5940bf9081faae06a41fdc6a4cc100af761daa"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/hardening.py",
+      "bytes": 2877,
+      "sha256": "e270ac660c144118ec5c48f89c377d3aa6dc8d2da73556709fb97af70dbf17c7"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/simulate.py",
+      "bytes": 546,
+      "sha256": "fcd31df635ebd02eb82aabd947bc3d311fdbfd3bc9261ffb7d80a01b0791bb28"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/__init__.py",
+      "bytes": 8639,
+      "sha256": "0977f2eea022b88de5feb7a224818572015560fa3b5365f4e0525315c2e68d3e"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/carrier.py",
+      "bytes": 2432,
+      "sha256": "8c505cd1c7b1f36dc987009dc8fbb6905e15bde189931d4219731834bc8cdf91"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/evolution.py",
+      "bytes": 22894,
+      "sha256": "82a8586e2624d30b1168f3c215aa12d48398d053ffbf11b6791bad0964073262"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/selfmodel.py",
+      "bytes": 36250,
+      "sha256": "064ed61dafe82c06190a39ce63b4609794794587b840ae12cca5efbe74b7e55e"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/report.py",
+      "bytes": 3025,
+      "sha256": "1635c10feacde203f316a32815fc36191584c0f0d991bac8ab70b61a7fe3fed0"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/sunspot_validation.py",
+      "bytes": 29009,
+      "sha256": "b0d27a0ead97750c7003bafc15e60dcc3864d3ae7abcc8e6c4a20be9cb796a2a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/portfolio.py",
+      "bytes": 21346,
+      "sha256": "8189727a719af61da65b0299c3115ff39c792ee3855ffc32facce5c85f485ed0"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/cross_domain.py",
+      "bytes": 13217,
+      "sha256": "aa6f301777835ed766f642c676b3da231753679f9d2d75a9459fb342f32a69b2"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/learning.py",
+      "bytes": 32808,
+      "sha256": "949c28fdd082aebec9622a2fb892c8f4ec4e257e6dd0780fdb0c03d52937fb35"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/environment.py",
+      "bytes": 30251,
+      "sha256": "2e780c59acc22121275b0d1e23662cc14a5cdd09cb21dadb6fba7bf9603330fa"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/linalg.py",
+      "bytes": 1206,
+      "sha256": "dae1f7c95a54188b3819e721c7e8db1da856e011055cb1848971e6f333705dec"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/__main__.py",
+      "bytes": 29,
+      "sha256": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/real_validation.py",
+      "bytes": 5518,
+      "sha256": "1a282af05e417e4f89aa49e3ac15863e82bd8d9727b3b4152ab7b3d3fdb1a405"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/benchmarks.py",
+      "bytes": 14300,
+      "sha256": "926696cf9cb0ae0583c7d9ee39deb48fbbe167546aa0cfeeace10fc962fe9db0"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/population.py",
+      "bytes": 21626,
+      "sha256": "ba7fe4b6aa3664586e36bd298fbfd35f945225074d692a4713d6b648ffb85fb1"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/search.py",
+      "bytes": 1189,
+      "sha256": "a8a93f04cad89c58608fd04a80d08beca877f75d88c1a5f15274c39001e46466"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/co2_carrier.py",
+      "bytes": 28446,
+      "sha256": "b9031cef494e084125a48fbdfc642ccad8a9173719d42ab3d30f7bd249166e03"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/perspective.py",
+      "bytes": 33254,
+      "sha256": "7fb94fbdc1b52b6503deed17e6f5b99c01aeba3c9b59128bb6661eae55dd0e27"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/enso_carrier.py",
+      "bytes": 31375,
+      "sha256": "2ad075499684d062489ef327d7fdfcc50556329998b4eee9bbec6cb9a1c325d0"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/batch.py",
+      "bytes": 4346,
+      "sha256": "2569cd156e49def942080010102675d56553199296299b4b09bd6be6390e9158"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/core.py",
+      "bytes": 6441,
+      "sha256": "6bb7b11c59776ab654f98f9f73786b52be6f347552213895d9da10f94d1d4302"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/types.py",
+      "bytes": 2506,
+      "sha256": "88ae12376939b545f6cb2d08f9270b44499fe5b4eea472f8b0bc496c2398474d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/session.py",
+      "bytes": 8188,
+      "sha256": "faa3de7c86fd0b425fb716b5b69f11dc91b7ca6ae283a5ed7651e9576784658e"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/identity.py",
+      "bytes": 23848,
+      "sha256": "94c33047305e4f8925e2c1efe95b13bc20e5c5acf6d0b9dfaaca5a5ee554728e"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/seeds.py",
+      "bytes": 2024,
+      "sha256": "54fe14f94e57299256d2b46e9cd67f0e3f402bee1b089a41bca05b4e32ff0262"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/robustness.py",
+      "bytes": 13818,
+      "sha256": "17cfe41b390011cc6a313fb8ba74addad1249f572cbf9798352a408ae0492d05"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/alife.py",
+      "bytes": 19974,
+      "sha256": "8adfdc5f127a8b47053b18132ce5f821bfe8f853ab9aad53961af5db1787c7f0"
+    }
+  ]
+}

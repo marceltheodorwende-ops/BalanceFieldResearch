@@ -1,0 +1,41 @@
+[
+  {
+    "train_end": "1970-12-01",
+    "eval_start": "1971-01-01",
+    "eval_end": "1983-12-01",
+    "bfg_feature": "formation_rayleigh",
+    "null_feature": "diff_volatility",
+    "train_reclosure_fraction": 1.0,
+    "bfg_rmse": 0.4368961495765459,
+    "null_rmse": 0.4513879318558772,
+    "relative_improvement": 0.032104939579905345,
+    "eval_reclosure_fraction": 1.0,
+    "eval_novelty_fraction_among_successful": 1.0
+  },
+  {
+    "train_end": "1983-12-01",
+    "eval_start": "1984-01-01",
+    "eval_end": "1996-12-01",
+    "bfg_feature": "formation_rayleigh",
+    "null_feature": "recent_level",
+    "train_reclosure_fraction": 1.0,
+    "bfg_rmse": 0.3790948345688653,
+    "null_rmse": 0.3794777796086697,
+    "relative_improvement": 0.0010091369254856541,
+    "eval_reclosure_fraction": 1.0,
+    "eval_novelty_fraction_among_successful": 1.0
+  },
+  {
+    "train_end": "1996-12-01",
+    "eval_start": "1997-01-01",
+    "eval_end": "2010-12-01",
+    "bfg_feature": "formation_rayleigh",
+    "null_feature": "recent_level",
+    "train_reclosure_fraction": 1.0,
+    "bfg_rmse": 0.48013827258471464,
+    "null_rmse": 0.47788568754360145,
+    "relative_improvement": -0.004713648263231729,
+    "eval_reclosure_fraction": 1.0,
+    "eval_novelty_fraction_among_successful": 1.0
+  }
+]

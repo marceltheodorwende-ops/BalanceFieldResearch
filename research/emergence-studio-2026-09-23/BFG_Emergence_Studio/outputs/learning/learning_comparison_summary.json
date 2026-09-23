@@ -1,0 +1,14 @@
+{
+  "compared_steps": 61,
+  "mean_reward_gain_memory_vs_control": 0.009471526094600818,
+  "mean_reward_gain_at_witness_recovery": 0.012235699410650891,
+  "mean_post_recall_reward_gain": 0.010070183111003871,
+  "witness_recoveries": 4,
+  "memory_slots_final": 2,
+  "recurrence_generations": [
+    20,
+    30,
+    40,
+    50
+  ]
+}

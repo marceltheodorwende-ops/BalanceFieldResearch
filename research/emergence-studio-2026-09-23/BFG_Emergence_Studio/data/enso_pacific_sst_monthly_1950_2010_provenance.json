@@ -1,0 +1,16 @@
+{
+  "dataset": "NOAA Pacific Ocean monthly average sea surface temperature",
+  "observations": "61 years x 12 months",
+  "years": [
+    1950,
+    2010
+  ],
+  "region": "0-10 degrees South, 90-80 degrees West",
+  "variable": "average sea surface temperature",
+  "units": "degrees Celsius",
+  "statsmodels_dataset": "statsmodels.datasets.elnino",
+  "source_note": "Statsmodels describes the source as NOAA.",
+  "snapshot_sha256": "685e30c099aca159580267ecafa013f24f445759b4c5e38fbd13250f2982a8d8",
+  "active_role": "development-only for readiness preflight",
+  "prospective_heldout": "2011-2025 monthly continuation, not bundled"
+}

@@ -1,0 +1,24 @@
+{
+  "experiment": "bfg_reference_benchmark_suite",
+  "numpy": "2.3.5",
+  "parameters": {
+    "benchmarks": [
+      "canonical_core",
+      "self_organization",
+      "population_fission",
+      "evolution",
+      "changing_environment",
+      "learning_memory",
+      "self_model",
+      "perspective",
+      "identity"
+    ]
+  },
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python": "3.13.5",
+  "scipy": "1.17.0",
+  "seed": null,
+  "source_fingerprint": "6a80db1fcf998dc8732235da10796ece8beea4552e2bfbd1a8b080d8093c41c9",
+  "theory_freeze_level": "Identity Closure",
+  "theory_freeze_source_level": 30
+}

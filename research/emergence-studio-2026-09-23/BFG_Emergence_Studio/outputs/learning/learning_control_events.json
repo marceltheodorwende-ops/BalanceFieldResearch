@@ -1,0 +1,32 @@
+[
+  {
+    "event": "environment_shift",
+    "generation": 10,
+    "from": "learning_rich",
+    "to": "learning_poor"
+  },
+  {
+    "event": "environment_shift",
+    "generation": 20,
+    "from": "learning_poor",
+    "to": "learning_rich"
+  },
+  {
+    "event": "environment_shift",
+    "generation": 30,
+    "from": "learning_rich",
+    "to": "learning_poor"
+  },
+  {
+    "event": "environment_shift",
+    "generation": 40,
+    "from": "learning_poor",
+    "to": "learning_rich"
+  },
+  {
+    "event": "environment_shift",
+    "generation": 50,
+    "from": "learning_rich",
+    "to": "learning_poor"
+  }
+]

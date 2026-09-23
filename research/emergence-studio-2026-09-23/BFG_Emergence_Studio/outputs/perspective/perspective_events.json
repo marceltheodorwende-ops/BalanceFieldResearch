@@ -1,0 +1,667 @@
+[
+  {
+    "generation": 0,
+    "event": "perspective_export",
+    "representation": "memory_self",
+    "residual": 0.4639258811321494,
+    "mode": "non_integrable_self_relation"
+  },
+  {
+    "generation": 0,
+    "event": "memory_encode",
+    "slot_id": "M0",
+    "reward": 0.7026065271228672,
+    "context_similarity": 0.0
+  },
+  {
+    "generation": 1,
+    "event": "memory_consolidate",
+    "slot_id": "M0",
+    "reward": 0.7242409680574857
+  },
+  {
+    "generation": 2,
+    "event": "memory_consolidate",
+    "slot_id": "M0",
+    "reward": 0.7376176959101761
+  },
+  {
+    "generation": 3,
+    "event": "memory_consolidate",
+    "slot_id": "M0",
+    "reward": 0.7609355598636953
+  },
+  {
+    "generation": 5,
+    "event": "memory_consolidate",
+    "slot_id": "M0",
+    "reward": 0.7678181334054139
+  },
+  {
+    "generation": 7,
+    "event": "memory_consolidate",
+    "slot_id": "M0",
+    "reward": 0.7742994494424558
+  },
+  {
+    "generation": 8,
+    "event": "perspective_export",
+    "representation": "memory_self",
+    "residual": 0.46340639696812524,
+    "mode": "non_integrable_self_relation"
+  },
+  {
+    "generation": 8,
+    "event": "memory_encode",
+    "slot_id": "M1",
+    "reward": 0.7880409240165984,
+    "context_similarity": 0.4255100400951564
+  },
+  {
+    "event": "perspective_action",
+    "generation": 12,
+    "chosen_index": 2,
+    "score": 0.7429563703762035
+  },
+  {
+    "event": "perspective_action",
+    "generation": 14,
+    "chosen_index": 2,
+    "score": 0.737979958428932
+  },
+  {
+    "event": "perspective_action",
+    "generation": 15,
+    "chosen_index": 3,
+    "score": 0.7374084494021562
+  },
+  {
+    "event": "perspective_action",
+    "generation": 16,
+    "chosen_index": 4,
+    "score": 0.7484581476060311
+  },
+  {
+    "generation": 16,
+    "event": "memory_encode",
+    "slot_id": "M2",
+    "reward": 0.4827635105602483,
+    "context_similarity": 0.699587919889101
+  },
+  {
+    "event": "perspective_action",
+    "generation": 17,
+    "chosen_index": 1,
+    "score": 0.6252770653532205
+  },
+  {
+    "generation": 17,
+    "event": "memory_consolidate",
+    "slot_id": "M2",
+    "reward": 0.502187002587462
+  },
+  {
+    "event": "perspective_action",
+    "generation": 18,
+    "chosen_index": 3,
+    "score": 0.6046879008146162
+  },
+  {
+    "generation": 18,
+    "event": "memory_consolidate",
+    "slot_id": "M2",
+    "reward": 0.5044719386211878
+  },
+  {
+    "event": "perspective_action",
+    "generation": 19,
+    "chosen_index": 1,
+    "score": 0.6054585501041422
+  },
+  {
+    "event": "perspective_action",
+    "generation": 20,
+    "chosen_index": 1,
+    "score": 0.6097342455278794
+  },
+  {
+    "event": "perspective_action",
+    "generation": 21,
+    "chosen_index": 2,
+    "score": 0.6105533074305598
+  },
+  {
+    "event": "perspective_action",
+    "generation": 22,
+    "chosen_index": 2,
+    "score": 0.6057461657922781
+  },
+  {
+    "event": "perspective_action",
+    "generation": 23,
+    "chosen_index": 3,
+    "score": 0.6088786921224154
+  },
+  {
+    "event": "perspective_action",
+    "generation": 24,
+    "chosen_index": 4,
+    "score": 0.7194243965694744
+  },
+  {
+    "event": "perspective_action",
+    "generation": 25,
+    "chosen_index": 4,
+    "score": 0.7389326847213925
+  },
+  {
+    "generation": 25,
+    "event": "memory_consolidate",
+    "slot_id": "M0",
+    "reward": 0.7842906208449156
+  },
+  {
+    "event": "perspective_action",
+    "generation": 26,
+    "chosen_index": 3,
+    "score": 0.7576157821453839
+  },
+  {
+    "event": "perspective_action",
+    "generation": 27,
+    "chosen_index": 1,
+    "score": 0.7618524089941648
+  },
+  {
+    "event": "perspective_action",
+    "generation": 28,
+    "chosen_index": 1,
+    "score": 0.7604799725050324
+  },
+  {
+    "event": "perspective_action",
+    "generation": 29,
+    "chosen_index": 4,
+    "score": 0.7728001792880234
+  },
+  {
+    "generation": 29,
+    "event": "memory_consolidate",
+    "slot_id": "M0",
+    "reward": 0.7976526995724281
+  },
+  {
+    "event": "perspective_action",
+    "generation": 30,
+    "chosen_index": 4,
+    "score": 0.7784018613713385
+  },
+  {
+    "event": "perspective_action",
+    "generation": 31,
+    "chosen_index": 4,
+    "score": 0.7732106331787334
+  },
+  {
+    "generation": 31,
+    "event": "memory_consolidate",
+    "slot_id": "M0",
+    "reward": 0.8022544150912193
+  },
+  {
+    "event": "perspective_action",
+    "generation": 32,
+    "chosen_index": 4,
+    "score": 0.7630093165208215
+  },
+  {
+    "event": "perspective_action",
+    "generation": 33,
+    "chosen_index": 3,
+    "score": 0.7537041092138609
+  },
+  {
+    "event": "perspective_action",
+    "generation": 34,
+    "chosen_index": 3,
+    "score": 0.7474953961764106
+  },
+  {
+    "event": "perspective_action",
+    "generation": 35,
+    "chosen_index": 3,
+    "score": 0.7486646753944723
+  },
+  {
+    "event": "perspective_action",
+    "generation": 36,
+    "chosen_index": 4,
+    "score": 0.7451333870536773
+  },
+  {
+    "event": "perspective_action",
+    "generation": 37,
+    "chosen_index": 4,
+    "score": 0.7445416593888761
+  },
+  {
+    "event": "perspective_action",
+    "generation": 38,
+    "chosen_index": 3,
+    "score": 0.7449906363227193
+  },
+  {
+    "generation": 38,
+    "event": "memory_consolidate",
+    "slot_id": "M1",
+    "reward": 0.7938630845258796
+  },
+  {
+    "event": "perspective_action",
+    "generation": 39,
+    "chosen_index": 1,
+    "score": 0.7472003134637023
+  },
+  {
+    "event": "perspective_action",
+    "generation": 40,
+    "chosen_index": 1,
+    "score": 0.6343167041303536
+  },
+  {
+    "generation": 40,
+    "event": "memory_consolidate",
+    "slot_id": "M2",
+    "reward": 0.5136279870183541
+  },
+  {
+    "event": "perspective_action",
+    "generation": 41,
+    "chosen_index": 4,
+    "score": 0.6242217207280318
+  },
+  {
+    "event": "perspective_action",
+    "generation": 42,
+    "chosen_index": 2,
+    "score": 0.6172248954965232
+  },
+  {
+    "event": "perspective_action",
+    "generation": 43,
+    "chosen_index": 4,
+    "score": 0.6159948181122421
+  },
+  {
+    "event": "perspective_action",
+    "generation": 44,
+    "chosen_index": 4,
+    "score": 0.6123503370799376
+  },
+  {
+    "event": "perspective_action",
+    "generation": 45,
+    "chosen_index": 1,
+    "score": 0.6112041696132801
+  },
+  {
+    "event": "perspective_action",
+    "generation": 46,
+    "chosen_index": 4,
+    "score": 0.6120018222086672
+  },
+  {
+    "event": "perspective_action",
+    "generation": 47,
+    "chosen_index": 4,
+    "score": 0.6100296761635333
+  },
+  {
+    "event": "perspective_action",
+    "generation": 48,
+    "chosen_index": 2,
+    "score": 0.7422570604557984
+  },
+  {
+    "event": "perspective_action",
+    "generation": 49,
+    "chosen_index": 2,
+    "score": 0.7551753705267985
+  },
+  {
+    "event": "perspective_action",
+    "generation": 50,
+    "chosen_index": 2,
+    "score": 0.7615256083811623
+  },
+  {
+    "event": "perspective_action",
+    "generation": 51,
+    "chosen_index": 2,
+    "score": 0.7652406245493806
+  },
+  {
+    "generation": 51,
+    "event": "memory_consolidate",
+    "slot_id": "M0",
+    "reward": 0.8065132626711011
+  },
+  {
+    "event": "perspective_action",
+    "generation": 52,
+    "chosen_index": 2,
+    "score": 0.7689027074033876
+  },
+  {
+    "generation": 52,
+    "event": "memory_consolidate",
+    "slot_id": "M0",
+    "reward": 0.8134977239783887
+  },
+  {
+    "event": "perspective_action",
+    "generation": 53,
+    "chosen_index": 1,
+    "score": 0.7731077827701242
+  },
+  {
+    "event": "perspective_action",
+    "generation": 54,
+    "chosen_index": 1,
+    "score": 0.7758954958115571
+  },
+  {
+    "event": "perspective_action",
+    "generation": 55,
+    "chosen_index": 2,
+    "score": 0.7765653205297882
+  },
+  {
+    "generation": 55,
+    "event": "memory_consolidate",
+    "slot_id": "M0",
+    "reward": 0.8191180354064611
+  },
+  {
+    "event": "perspective_action",
+    "generation": 56,
+    "chosen_index": 2,
+    "score": 0.7682557029257686
+  },
+  {
+    "event": "perspective_action",
+    "generation": 57,
+    "chosen_index": 3,
+    "score": 0.7566601175739951
+  },
+  {
+    "event": "perspective_action",
+    "generation": 58,
+    "chosen_index": 3,
+    "score": 0.751384667329706
+  },
+  {
+    "event": "perspective_action",
+    "generation": 59,
+    "chosen_index": 2,
+    "score": 0.7481600008584816
+  },
+  {
+    "generation": 59,
+    "event": "memory_consolidate",
+    "slot_id": "M1",
+    "reward": 0.822290187248018
+  },
+  {
+    "event": "perspective_action",
+    "generation": 60,
+    "chosen_index": 2,
+    "score": 0.7503502409672542
+  },
+  {
+    "event": "perspective_action",
+    "generation": 61,
+    "chosen_index": 4,
+    "score": 0.7516847624790169
+  },
+  {
+    "event": "perspective_action",
+    "generation": 62,
+    "chosen_index": 4,
+    "score": 0.7517372101880132
+  },
+  {
+    "event": "perspective_action",
+    "generation": 63,
+    "chosen_index": 3,
+    "score": 0.7504522898744658
+  },
+  {
+    "event": "perspective_action",
+    "generation": 64,
+    "chosen_index": 3,
+    "score": 0.6240990569261662
+  },
+  {
+    "event": "perspective_action",
+    "generation": 65,
+    "chosen_index": 3,
+    "score": 0.6137273160423026
+  },
+  {
+    "generation": 65,
+    "event": "memory_consolidate",
+    "slot_id": "M2",
+    "reward": 0.5174776347492567
+  },
+  {
+    "event": "perspective_action",
+    "generation": 66,
+    "chosen_index": 3,
+    "score": 0.6119140893950773
+  },
+  {
+    "event": "perspective_action",
+    "generation": 67,
+    "chosen_index": 2,
+    "score": 0.6113485259269948
+  },
+  {
+    "event": "perspective_action",
+    "generation": 68,
+    "chosen_index": 4,
+    "score": 0.6098681786468699
+  },
+  {
+    "generation": 68,
+    "event": "memory_consolidate",
+    "slot_id": "M2",
+    "reward": 0.5244440318326015
+  },
+  {
+    "event": "perspective_action",
+    "generation": 69,
+    "chosen_index": 1,
+    "score": 0.6113208310256311
+  },
+  {
+    "event": "perspective_action",
+    "generation": 70,
+    "chosen_index": 4,
+    "score": 0.6101712322965053
+  },
+  {
+    "generation": 70,
+    "event": "memory_consolidate",
+    "slot_id": "M2",
+    "reward": 0.5478295900942947
+  },
+  {
+    "event": "perspective_action",
+    "generation": 71,
+    "chosen_index": 3,
+    "score": 0.6105255474143849
+  },
+  {
+    "event": "perspective_action",
+    "generation": 72,
+    "chosen_index": 2,
+    "score": 0.7413524263438144
+  },
+  {
+    "event": "perspective_action",
+    "generation": 73,
+    "chosen_index": 2,
+    "score": 0.7533503427235354
+  },
+  {
+    "event": "perspective_action",
+    "generation": 74,
+    "chosen_index": 3,
+    "score": 0.7635033969168867
+  },
+  {
+    "event": "perspective_action",
+    "generation": 75,
+    "chosen_index": 2,
+    "score": 0.7679489823699286
+  },
+  {
+    "event": "perspective_action",
+    "generation": 76,
+    "chosen_index": 3,
+    "score": 0.7738034878896524
+  },
+  {
+    "event": "perspective_action",
+    "generation": 77,
+    "chosen_index": 1,
+    "score": 0.7733036575662557
+  },
+  {
+    "event": "perspective_action",
+    "generation": 78,
+    "chosen_index": 3,
+    "score": 0.7758227764089888
+  },
+  {
+    "event": "perspective_action",
+    "generation": 79,
+    "chosen_index": 4,
+    "score": 0.7756384113505119
+  },
+  {
+    "generation": 79,
+    "event": "memory_consolidate",
+    "slot_id": "M0",
+    "reward": 0.8277321716819517
+  },
+  {
+    "event": "perspective_action",
+    "generation": 80,
+    "chosen_index": 2,
+    "score": 0.7728434183178245
+  },
+  {
+    "event": "perspective_action",
+    "generation": 81,
+    "chosen_index": 3,
+    "score": 0.7641715659343642
+  },
+  {
+    "event": "perspective_action",
+    "generation": 82,
+    "chosen_index": 4,
+    "score": 0.7589400651559335
+  },
+  {
+    "event": "perspective_action",
+    "generation": 83,
+    "chosen_index": 1,
+    "score": 0.7582251501436984
+  },
+  {
+    "generation": 83,
+    "event": "memory_consolidate",
+    "slot_id": "M1",
+    "reward": 0.8244917644500952
+  },
+  {
+    "event": "perspective_action",
+    "generation": 84,
+    "chosen_index": 3,
+    "score": 0.7571500120836803
+  },
+  {
+    "event": "perspective_action",
+    "generation": 86,
+    "chosen_index": 3,
+    "score": 0.7538497296957205
+  },
+  {
+    "event": "perspective_action",
+    "generation": 87,
+    "chosen_index": 1,
+    "score": 0.7555099394324207
+  },
+  {
+    "event": "perspective_action",
+    "generation": 88,
+    "chosen_index": 1,
+    "score": 0.6311627431248682
+  },
+  {
+    "generation": 88,
+    "event": "memory_consolidate",
+    "slot_id": "M2",
+    "reward": 0.5745084277916613
+  },
+  {
+    "event": "perspective_action",
+    "generation": 89,
+    "chosen_index": 3,
+    "score": 0.6237940319536458
+  },
+  {
+    "event": "perspective_action",
+    "generation": 90,
+    "chosen_index": 1,
+    "score": 0.6226441523849457
+  },
+  {
+    "event": "perspective_action",
+    "generation": 91,
+    "chosen_index": 2,
+    "score": 0.6219104264311026
+  },
+  {
+    "event": "perspective_action",
+    "generation": 92,
+    "chosen_index": 4,
+    "score": 0.6219878955187377
+  },
+  {
+    "event": "perspective_action",
+    "generation": 93,
+    "chosen_index": 2,
+    "score": 0.621152950976745
+  },
+  {
+    "event": "perspective_action",
+    "generation": 94,
+    "chosen_index": 1,
+    "score": 0.6213093087292356
+  },
+  {
+    "event": "perspective_action",
+    "generation": 95,
+    "chosen_index": 4,
+    "score": 0.6215650223492318
+  },
+  {
+    "event": "perspective_action",
+    "generation": 96,
+    "chosen_index": 2,
+    "score": 0.6218230967549804
+  }
+]

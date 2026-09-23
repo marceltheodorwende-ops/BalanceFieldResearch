@@ -37,3 +37,7 @@ These records describe their original sources and assumptions. Historical V3 ava
 - [retained-channels-2026-09-18](retained-channels-2026-09-18/README.md)
 - [rlc-realization-2026-09-21](rlc-realization-2026-09-21/README.md)
 - [status-preprint-2026-09-22](status-preprint-2026-09-22/README.md)
+
+## Experimental software snapshot
+
+[BFG Emergence Studio import and review](emergence-studio-2026-09-23/README.md), 23 September 2026.

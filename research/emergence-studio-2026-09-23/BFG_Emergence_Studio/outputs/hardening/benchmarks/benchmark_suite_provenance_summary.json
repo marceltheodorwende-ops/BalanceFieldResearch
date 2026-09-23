@@ -1,0 +1,246 @@
+{
+  "benchmarks": 9,
+  "failed": 0,
+  "passed": 9,
+  "results": [
+    {
+      "criteria": {
+        "commuting_spectral_mismatch_max": 1e-07,
+        "neutral_partition_residual_max": 1e-08,
+        "noncommuting_novelty": true,
+        "noncommuting_step_success": true,
+        "reciprocal_balance_residual_max": 1e-08
+      },
+      "elapsed_seconds": 0.0035574049998103874,
+      "error": null,
+      "metrics": {
+        "commuting_novelty": false,
+        "commuting_spectral_mismatch": 9.429293304580125e-16,
+        "commuting_success": true,
+        "neutral_partition_residual": 5.677126908791904e-16,
+        "noncommuting_novelty": true,
+        "noncommuting_spectral_mismatch": 0.2623721966574676,
+        "noncommuting_success": true,
+        "reciprocal_balance_residual": 0.0
+      },
+      "name": "canonical_core",
+      "passed": true
+    },
+    {
+      "criteria": {
+        "final_maintenance_min": 0.2,
+        "novel_reclosures_min": 12,
+        "successful_reclosures_min": 16
+      },
+      "elapsed_seconds": 0.04238591400007863,
+      "error": null,
+      "metrics": {
+        "attempted_steps": 18,
+        "final_maintenance": 0.6347379858041631,
+        "final_viable_fraction": 1.0,
+        "novel_reclosures": 18,
+        "successful_reclosures": 18,
+        "terminal": false
+      },
+      "name": "self_organization",
+      "passed": true
+    },
+    {
+      "criteria": {
+        "fission_events_min": 1,
+        "max_population_min": 2,
+        "successful_reclosures_min": 16
+      },
+      "elapsed_seconds": 0.07488136500023757,
+      "error": null,
+      "metrics": {
+        "core_steps": 27,
+        "final_population": 2,
+        "fission_events": 1,
+        "frames": 23,
+        "initial_seed": 1341550191,
+        "max_population": 2,
+        "max_total_nodes": 24,
+        "node_birth_events": 0,
+        "node_loss_events": 1,
+        "spectrally_novel_reclosures": 27,
+        "successful_reclosures": 27,
+        "unit_deaths": 0
+      },
+      "name": "population_fission",
+      "passed": true
+    },
+    {
+      "criteria": {
+        "max_lineage_depth_min": 1,
+        "mutation_events_min": 1,
+        "successful_reclosures_min": 18,
+        "unit_birth_events_min": 3
+      },
+      "elapsed_seconds": 0.08789218300034918,
+      "error": null,
+      "metrics": {
+        "core_steps": 31,
+        "final_population": 2,
+        "fission_events": 1,
+        "frames": 25,
+        "initial_seed": 1341550191,
+        "intrinsic_deaths": 0,
+        "max_lineage_depth": 1,
+        "max_population": 2,
+        "mutation_events": 2,
+        "selection_deaths": 0,
+        "spectrally_novel_reclosures": 31,
+        "successful_reclosures": 31,
+        "unit_birth_events": 3
+      },
+      "name": "evolution",
+      "passed": true
+    },
+    {
+      "criteria": {
+        "environment_shifts_min": 1,
+        "positive_match_gain_required": true,
+        "selection_rounds_min": 1
+      },
+      "elapsed_seconds": 0.3465948240000216,
+      "error": null,
+      "metrics": {
+        "core_steps": 94,
+        "environment_shifts": 1,
+        "final_population": 4,
+        "fission_events": 0,
+        "frames": 17,
+        "initial_seed": 11,
+        "max_population": 10,
+        "max_selection_match_gain": 0.08975539842421609,
+        "mutation_events": 0,
+        "selection_deaths": 6,
+        "selection_rounds": 2,
+        "shift_response": [
+          {
+            "final_mean_maintenance": 0.570395152757935,
+            "final_new_environment_match": 0.40377371934415046,
+            "immediate_post_shift_mean_maintenance": 0.5937842486642884,
+            "immediate_selection_match_gain": 0.08975539842421609,
+            "net_adaptation_from_new_environment_baseline": 0.08975539842421609,
+            "new_environment_match_after_selection": 0.40377371934415046,
+            "new_environment_match_before_selection": 0.31401832091993437,
+            "pre_shift_mean_maintenance": 0.6093918243578758,
+            "pre_shift_old_environment_match": 0.7356882366345954,
+            "shift_generation": 7
+          }
+        ],
+        "spectrally_novel_reclosures": 94,
+        "successful_reclosures": 94
+      },
+      "name": "changing_environment",
+      "passed": true
+    },
+    {
+      "criteria": {
+        "mean_reward_gain_min": 0.0,
+        "memory_slots_final_min": 1,
+        "witness_recoveries_min": 1
+      },
+      "elapsed_seconds": 0.42982248799989975,
+      "error": null,
+      "metrics": {
+        "compared_steps": 45,
+        "mean_post_recall_reward_gain": 0.01297872394819591,
+        "mean_reward_gain_at_witness_recovery": 0.017382846822560267,
+        "mean_reward_gain_memory_vs_control": 0.010928378996171561,
+        "memory_slots_final": 2,
+        "recurrence_generations": [
+          20,
+          30,
+          40
+        ],
+        "witness_recoveries": 3
+      },
+      "name": "learning_memory",
+      "passed": true
+    },
+    {
+      "criteria": {
+        "action_interventions_min": 1,
+        "closure_passes_min": 20,
+        "final_self_reference_reachable": true,
+        "prediction_vs_persistence_ratio_max": 1.1
+      },
+      "elapsed_seconds": 0.5834009230002266,
+      "error": null,
+      "metrics": {
+        "compared_steps": 65,
+        "final_self_reference_reachable": true,
+        "mean_persistence_baseline_error": 0.013021691120575697,
+        "mean_prediction_error": 0.013185851109409693,
+        "mean_reward_gain": 0.006684139810434112,
+        "prediction_beats_persistence_fraction": 0.4528301886792453,
+        "prediction_to_persistence_error_ratio": 1.0126066566403658,
+        "self_model_action_interventions": 43,
+        "self_model_closure_passes": 52
+      },
+      "name": "self_model",
+      "passed": true
+    },
+    {
+      "criteria": {
+        "diversity_retention_ratio_min": 0.9,
+        "mean_standpoint_persistence_min": 0.9,
+        "perspective_closure_fraction_min": 0.5,
+        "standpoint_distance_reduction_min": 0.02
+      },
+      "elapsed_seconds": 0.6026161430004322,
+      "error": null,
+      "metrics": {
+        "ablated_mean_multiplicity_unity_distance": 0.3739400489441519,
+        "ablated_mean_representation_diversity": 0.20878480971446955,
+        "compared_steps": 65,
+        "diversity_retention_ratio": 0.9994082585369645,
+        "final_here_norm": 1.4918522005056605,
+        "mean_multiplicity_unity_distance": 0.2698014400534693,
+        "mean_representation_diversity": 0.2086612630857095,
+        "mean_reward_gain": 0.0,
+        "mean_standpoint_persistence": 0.9951641823232356,
+        "perspective_action_decisions": 53,
+        "perspective_action_interventions": 52,
+        "perspective_closure_fraction": 1.0,
+        "perspective_exports": 2,
+        "standpoint_distance_reduction": 0.1041386088906826
+      },
+      "name": "perspective",
+      "passed": true
+    },
+    {
+      "criteria": {
+        "continuity_smoothing_gain_min": 0.0,
+        "identity_closure_failures_max": 2,
+        "identity_closure_passes_min": 55,
+        "mean_transverse_adaptation_min": 0.01,
+        "minimum_self_index_similarity_min": 0.8
+      },
+      "elapsed_seconds": 0.3322698980000496,
+      "error": null,
+      "metrics": {
+        "ablated_mean_self_index_similarity": 0.9353032929566952,
+        "compared_steps": 65,
+        "continuity_smoothing_gain": 0.0010083555846104211,
+        "final_identity_rho": 0.965,
+        "identity_closure_failures": 0,
+        "identity_closure_passes": 64,
+        "identity_exports": 1,
+        "mean_historical_present_distance": 0.08525702053332582,
+        "mean_identity_step_distance": 0.0038144167404145714,
+        "mean_raw_perspective_step_distance": 0.0048227723250249925,
+        "mean_self_index_similarity": 0.9666773701702281,
+        "mean_transverse_adaptation": 0.06149128649773321,
+        "minimum_self_index_similarity": 0.9139914878236455
+      },
+      "name": "identity",
+      "passed": true
+    }
+  ],
+  "source_fingerprint": "6a80db1fcf998dc8732235da10796ece8beea4552e2bfbd1a8b080d8093c41c9",
+  "suite_passed": true
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "Mauna Loa atmospheric CO2 weekly measurements",
+  "observations": 2284,
+  "missing_weekly_values": 59,
+  "date_range": [
+    "1958-03-29",
+    "2001-12-29"
+  ],
+  "statsmodels_dataset": "statsmodels.datasets.co2",
+  "snapshot_sha256": "2737f74222cf1fb702d41058927d2b8d2a34778d519bfa6b1dea2f1b47c234f4",
+  "planned_transform": "monthly means after time interpolation performed separately within each split",
+  "planned_calibration_end": "1990-12-31",
+  "planned_heldout_start": "1991-01-01"
+}

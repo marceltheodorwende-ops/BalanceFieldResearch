@@ -1,0 +1,51 @@
+{
+  "description": "24-month causal recurrence-graph carrier with graph-aligned formation, neutral load, and recursive persistence.",
+  "domain": "atmospheric CO2 / monthly Mauna Loa measurements",
+  "empirical_units": {
+    "co2": "parts per million",
+    "date": "calendar month"
+  },
+  "invariant_parameters": {
+    "adaptive_family": "two coefficients: intercept + standardized feature slope",
+    "bfg_feature_mean": 0.003983508442312103,
+    "bfg_feature_name": "lambda_up",
+    "bfg_feature_std": 0.0037538522660608403,
+    "bfg_intercept": 0.9468251999378381,
+    "bfg_slope": -0.02707228325739566,
+    "calibration_end": "1990-12-31",
+    "contraction": 0.76,
+    "dataset_sha256": "2737f74222cf1fb702d41058927d2b8d2a34778d519bfa6b1dea2f1b47c234f4",
+    "forecast_endpoints": [
+      "seasonal persistence y[t-12]",
+      "seasonal drift y[t-12] + y[t-1]-y[t-13]"
+    ],
+    "formation_drive": 1.45,
+    "formation_offset": 0.2,
+    "graph_sigma": 0.18508604159866798,
+    "heldout_end": "2001-12-01",
+    "heldout_start": "1991-01-01",
+    "lag": 24,
+    "matched_null": "same coefficient count and same forecast endpoints",
+    "mean": 331.8795978074908,
+    "neutral_load_scale": 0.42,
+    "null_feature_mean": 0.07950769322458691,
+    "null_feature_name": "recent_level",
+    "null_feature_std": 0.9659250905249207,
+    "null_intercept": 0.9506202641196229,
+    "null_slope": 0.016714809135754377,
+    "persistent_rank": 4,
+    "phase_scale": 0.4,
+    "std": 11.886363666312684,
+    "stress_scale": 0.18,
+    "temporal_scale": 6.0
+  },
+  "mapping_fingerprint": "fd69a8b0d4f771f6effa6fbe5c2a00c79322131bbf2248a5f1ddf37ddb50fea9",
+  "measurement_mapping": {
+    "D": "standardized monthly delay state with resource/phase embedding",
+    "K": "graph-aligned formation operator with one rank-one negative mode",
+    "R_C": "graph eigenbasis with persistent low modes and contractive complement",
+    "Y": "PSD squared graph geometry plus scalar stress"
+  },
+  "name": "Mauna Loa Monthly CO2 BFG Carrier",
+  "schema_revision": 1
+}

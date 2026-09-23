@@ -1,0 +1,9 @@
+{
+  "states": 5,
+  "steps_attempted": 4,
+  "successful_reclosures": 4,
+  "spectrally_novel_steps": 0,
+  "terminal": false,
+  "terminal_reason": null,
+  "final_generation": 4
+}
