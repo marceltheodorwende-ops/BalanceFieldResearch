@@ -1,5 +1,9 @@
 # Mathematical status
 
+## Amendment — 23 September 2026
+
+The [finite repair](../research/finite-repair-2026-09-23/REPAIR.md) now provides corrected finite persistence and real/complex formation statements, with proofs and conditional real-structure preservation under polar transport. Items about defective printed formulas below remain descriptions of the unchanged source PDFs. The replacement statements address those defects under their declared assumptions. Next-state reconstruction and invariant iteration remain open; see the [completion contract](../research/finite-repair-2026-09-23/RECONSTRUCTION.md).
+
 Current sources: [canonical architecture and structural novelty preprints](../papers/canonical-2026-09-22/README.md), 22 September 2026. Detailed derivations and counterexamples: [current review](../research/canonical-consolidation-2026-09-22/REVIEW.md).
 
 ## Established within stated assumptions

@@ -1,5 +1,9 @@
 # Balance Field Framework
 
+## Mathematical amendment — 23 September 2026
+
+The [finite repair stage](research/finite-repair-2026-09-23/README.md) supplies a corrected persistence definition, distinguishes spectral and metric projectors, and proves the real/complex formation alternatives with real-structure transport conditions. The full reconstruction law remains open; its completion contract is explicit.
+
 ## Author-supplied simulation data
 
 The [emergence dataset and reproducible analysis](research/emergence-data-2026-09-22/README.md) contain 9,993 successful cases from the architecture paper's reported 10,000 trials. Their spectral-novelty summaries and correlation agree with the paper. The seven terminated trials and separate control streams are not included.
@@ -61,4 +65,7 @@ The new script checks the isolated operator theorem; it is not an implementation
 
 ## Publication and provenance
 
-Current primary sources are author-supplied theoretical preprints. Repository reviews are AI-assisted mathematical checks, not independent peer review. Earlier stages and negative findings remain available in their dated folders and Git history. The superseded V3 nonexistence erratum has been withdrawn at the author's request; V3 is not a prerequisite file for using the consolidated sources. Original authorship and rights remain with the respective authors; this update introduces no new license.
+Current primary sources are author-supplied theoretical preprints. Repository reviews are AI-assisted mathematical checks, not independent peer review. Earlier stages and negative findings remain available in their dated folders and Git history. The superseded V3 nonexistence erratum has been withdrawn at the author's request; V3 is not a prerequisite file for using the consolidated sources. Original authorship and rights remain with the respective authors.
+## Copyright and permissions
+
+Copyright (c) 2026 Marcel Theodor Wende. All rights reserved for his original protected contributions throughout this repository. See [LICENSE](LICENSE) for the repository-wide rights reservation, third-party exclusions and applicable-law/GitHub exceptions. This is not an open-source license and does not revoke existing file-specific permissions.

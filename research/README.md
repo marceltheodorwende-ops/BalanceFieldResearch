@@ -1,5 +1,9 @@
 # Research stages
 
+## Latest mathematical amendment
+
+[Finite persistence, real/complex formation and reconstruction contract](finite-repair-2026-09-23/README.md), 23 September 2026.
+
 ## Author-supplied emergence results
 
 [9,993 successful emergence cases, provenance and reproducible summary analysis](emergence-data-2026-09-22/README.md).
