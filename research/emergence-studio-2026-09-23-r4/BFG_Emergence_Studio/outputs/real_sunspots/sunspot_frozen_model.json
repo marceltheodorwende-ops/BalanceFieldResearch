@@ -1,0 +1,242 @@
+{
+  "config": {
+    "lag": 12,
+    "development_start_year": 1700,
+    "development_end_year": 2008,
+    "heldout_start_year": 2009,
+    "heldout_end_year": 2025,
+    "mean": 49.75210355987054,
+    "std": 40.387084638624245,
+    "graph_sigma": 0.8468053662703048,
+    "temporal_scale": 4.0,
+    "neutral_load_scale": 0.42,
+    "stress_scale": 0.18,
+    "formation_drive": 1.45,
+    "formation_offset": 0.2,
+    "persistent_rank": 4,
+    "contraction": 0.76,
+    "phase_scale": 0.4,
+    "ar_ridge": 1.0,
+    "ar_intercept": 0.009943752863166707,
+    "ar_coefficients": [
+      -0.001049348171446037,
+      0.003784791504935649,
+      0.008790706448751516,
+      0.23783726807875438,
+      -0.06857364696036972,
+      0.03836463608160428,
+      0.002637116572936217,
+      -0.07693671976842273,
+      0.12750725666812032,
+      -0.1778244703544835,
+      -0.3592228866663687,
+      1.125816738515526
+    ],
+    "bfg_feature_name": "neutral_retention",
+    "bfg_feature_mean": 0.8809463650279136,
+    "bfg_feature_std": 0.03695455533020637,
+    "bfg_intercept": -0.06283089025609709,
+    "bfg_slope": 0.12574615766169173,
+    "null_feature_name": "absolute_slope",
+    "null_feature_mean": 0.09236772529964728,
+    "null_feature_std": 0.06233136977190319,
+    "null_intercept": -0.05427379348929787,
+    "null_slope": 0.08636981310823136,
+    "development_dataset_sha256": "7dac2f45399b4d3b335823db9884c4b6d7f79509f94aed6de20da6a431ae5900"
+  },
+  "mapping_fingerprint": "a0b3673cca890c5090f472fa07fe1fec813f6663773025da07038b26132ca156",
+  "plan_fingerprint": "0d79fbd248229b50a5a3d2a2d5babbd1b7c4bae843e98308d6ff9517239af0d9",
+  "development_dataset_sha256": "7dac2f45399b4d3b335823db9884c4b6d7f79509f94aed6de20da6a431ae5900",
+  "bfg_candidates": [
+    {
+      "feature": "neutral_retention",
+      "rmse": 14.786536455660283,
+      "mae": 11.314033993111352,
+      "intercept": -0.06283089025609709,
+      "slope": 0.12574615766169173,
+      "feature_mean": 0.8809463650279136,
+      "feature_std": 0.03695455533020637
+    },
+    {
+      "feature": "formation_rayleigh",
+      "rmse": 14.788460096075744,
+      "mae": 11.313272159141706,
+      "intercept": -0.04565003837197485,
+      "slope": -0.12893501470823995,
+      "feature_mean": 0.13838762967427523,
+      "feature_std": 0.41497476026659313
+    },
+    {
+      "feature": "crossfed_gain",
+      "rmse": 14.906655875940828,
+      "mae": 11.384852827184444,
+      "intercept": -0.032912555153063065,
+      "slope": -0.05654352543260335,
+      "feature_mean": 0.09443418274159819,
+      "feature_std": 0.03298893271652401
+    },
+    {
+      "feature": "omega_keep",
+      "rmse": 14.871485222022816,
+      "mae": 11.355583481970609,
+      "intercept": -0.041918968343389755,
+      "slope": -0.08950945016811779,
+      "feature_mean": 0.009272120181628249,
+      "feature_std": 0.007322401945837861
+    },
+    {
+      "feature": "lambda_up",
+      "rmse": 14.908229444071745,
+      "mae": 11.375540797581296,
+      "intercept": -0.029848633656006745,
+      "slope": -0.059017476107220086,
+      "feature_mean": 0.005920370663380959,
+      "feature_std": 0.004338747764931071
+    },
+    {
+      "feature": "spectral_mismatch",
+      "rmse": 14.909389375926787,
+      "mae": 11.386709134670934,
+      "intercept": -0.031913622570704375,
+      "slope": -0.05334198186698686,
+      "feature_mean": 0.004165325652052993,
+      "feature_std": 0.0021762783328944427
+    }
+  ],
+  "null_candidates": [
+    {
+      "feature": "diff_volatility",
+      "rmse": 14.941026063673887,
+      "mae": 11.353569665488823,
+      "intercept": -0.007530984975509065,
+      "slope": 0.0026402363789399326,
+      "feature_mean": 0.5518902777001911,
+      "feature_std": 0.22176001510173352
+    },
+    {
+      "feature": "level_volatility",
+      "rmse": 14.901824229738487,
+      "mae": 11.378825209536663,
+      "intercept": -0.03963904263065204,
+      "slope": 0.05361220211045672,
+      "feature_mean": 0.8350818858074017,
+      "feature_std": 0.30011158711179314
+    },
+    {
+      "feature": "absolute_slope",
+      "rmse": 14.821987505110574,
+      "mae": 11.295150852388621,
+      "intercept": -0.05427379348929787,
+      "slope": 0.08636981310823136,
+      "feature_mean": 0.09236772529964728,
+      "feature_std": 0.06233136977190319
+    },
+    {
+      "feature": "range",
+      "rmse": 14.881405878873258,
+      "mae": 11.385829580035184,
+      "intercept": -0.04739816715932532,
+      "slope": 0.07073635805445637,
+      "feature_mean": 2.525876663928214,
+      "feature_std": 0.8889558308857717
+    },
+    {
+      "feature": "recent_level",
+      "rmse": 14.933395495697848,
+      "mae": 11.308017461330708,
+      "intercept": 0.0019563309457459534,
+      "slope": -0.023236618877085363,
+      "feature_mean": 0.031273561005516544,
+      "feature_std": 1.004595681001709
+    },
+    {
+      "feature": "curvature",
+      "rmse": 14.847571415941221,
+      "mae": 11.214942224654855,
+      "intercept": 0.026640869450165798,
+      "slope": -0.07157466726172462,
+      "feature_mean": 0.41513254586242365,
+      "feature_std": 0.39534815548763064
+    }
+  ],
+  "preflight": {
+    "readiness": true,
+    "status": "READY_FOR_VALIDATION",
+    "folds": [
+      {
+        "train_end": 1859,
+        "eval_start": 1860,
+        "eval_end": 1909,
+        "bfg_feature": "formation_rayleigh",
+        "null_feature": "absolute_slope",
+        "train_reclosure_fraction": 1.0,
+        "bfg_rmse": 15.136760456410368,
+        "null_rmse": 15.895378716941648,
+        "ar12_rmse": 15.093550014565638,
+        "relative_improvement": 0.047725711607155885,
+        "eval_reclosure_fraction": 1.0,
+        "eval_novelty_fraction_among_successful": 1.0
+      },
+      {
+        "train_end": 1909,
+        "eval_start": 1910,
+        "eval_end": 1959,
+        "bfg_feature": "formation_rayleigh",
+        "null_feature": "absolute_slope",
+        "train_reclosure_fraction": 1.0,
+        "bfg_rmse": 18.68242832502729,
+        "null_rmse": 18.97992210104994,
+        "ar12_rmse": 18.667978411646146,
+        "relative_improvement": 0.01567413050689992,
+        "eval_reclosure_fraction": 1.0,
+        "eval_novelty_fraction_among_successful": 1.0
+      },
+      {
+        "train_end": 1959,
+        "eval_start": 1960,
+        "eval_end": 2008,
+        "bfg_feature": "formation_rayleigh",
+        "null_feature": "absolute_slope",
+        "train_reclosure_fraction": 1.0,
+        "bfg_rmse": 17.088312776153863,
+        "null_rmse": 17.168818141176786,
+        "ar12_rmse": 16.99027139743348,
+        "relative_improvement": 0.0046890452424236395,
+        "eval_reclosure_fraction": 1.0,
+        "eval_novelty_fraction_among_successful": 1.0
+      }
+    ],
+    "fold_wins": 3,
+    "folds_total": 3,
+    "mean_relative_improvement": 0.022696295785493148,
+    "worst_relative_improvement": 0.0046890452424236395,
+    "minimum_eval_reclosure_fraction": 1.0,
+    "readiness_rule": {
+      "fold_wins_min": 2,
+      "mean_relative_improvement_gt": 0.0,
+      "worst_fold_relative_improvement_min": -0.02,
+      "minimum_reclosure_fraction": 0.95
+    },
+    "full_development": {
+      "years": [
+        1700,
+        2008
+      ],
+      "bfg_feature": "neutral_retention",
+      "null_feature": "absolute_slope",
+      "bfg_rmse": 14.786536455660283,
+      "null_rmse": 14.821987505110574,
+      "ar12_rmse": 14.941539859540573,
+      "relative_improvement": 0.002391787838039061,
+      "reclosure_fraction": 1.0,
+      "novelty_fraction_among_successful": 1.0
+    },
+    "heldout_years": [
+      2009,
+      2025
+    ],
+    "heldout_metrics_evaluated": false
+  },
+  "heldout_metrics_evaluated": false,
+  "historical_1900_2008_role": "development-only in this new hypothesis because that interval was already opened by the previous confirmatory plan"
+}

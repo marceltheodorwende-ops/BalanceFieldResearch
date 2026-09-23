@@ -1,0 +1,2520 @@
+{
+  "date": "2026-09-23",
+  "author": "Marcel Theodor Wende",
+  "archive": "BFG_Emergence_Studio.zip",
+  "archive_sha256": "19c5efd3c26e4e1a11ebb2375c07a1ffa6ae30068ce0180bb23784942c4f34ec",
+  "archive_bytes": 11469930,
+  "original_files": 417,
+  "expanded_bytes": 39296444,
+  "comparison": {
+    "added": 13,
+    "changed": 35,
+    "unchanged": 369,
+    "removed": 0
+  },
+  "execution": "No tests or Python code executed",
+  "files": [
+    {
+      "path": "BFG_Emergence_Studio/BFG_CROSS_STRATUM_CONTINUATION_THEOREM.md",
+      "size": 10827,
+      "sha": "7d7313651651435ce3ad386754198d103325af2f",
+      "sha256": "59f6222a88ac10c1ff4929dd801dfb134e8ef3464596793b2959bd6485eb2cd5"
+    },
+    {
+      "path": "BFG_Emergence_Studio/BFG_FORMATION_ELIGIBILITY_THEOREM.md",
+      "size": 7268,
+      "sha": "913d1b28080aee40ccd2f0bd3415ec02d1244238",
+      "sha256": "0b45ac21ef60559b6371018aae0bdf56eac4ce33ffc8f87bae9a5fcf6488bc13"
+    },
+    {
+      "path": "BFG_Emergence_Studio/BFG_FORMATION_ROBUSTNESS_THEOREM.md",
+      "size": 6384,
+      "sha": "b9a202223e2771fd3da7ab4e5ac3a3a8063a3609",
+      "sha256": "d3c07bc59dcb2832d2bdcc58dc208853de9ab304a708bb2f25cf5e3c25cd96a1"
+    },
+    {
+      "path": "BFG_Emergence_Studio/BFG_PARENT_FORMATION_ROBUSTNESS_THEOREM.md",
+      "size": 11909,
+      "sha": "d9d6beb2014ec74545fb91be48e26ea919ce39b9",
+      "sha256": "efbe26c5efcc3a6dce592e5a04752309356bf2ba328e241a4cce25dc34aac63b"
+    },
+    {
+      "path": "BFG_Emergence_Studio/BFG_RECURSIVE_STABILITY_THEOREM.md",
+      "size": 12442,
+      "sha": "d462c9d9ecb1f72094c1226e2a63973f2224205d",
+      "sha256": "e82871ada6289f1d18e78ac6d8745e470c04c2dcd830596e973538e0c2b8eba0"
+    },
+    {
+      "path": "BFG_Emergence_Studio/BFG_SMALL_LOAD_CONTRACTION_THEOREM.md",
+      "size": 6911,
+      "sha": "05ff97eafe786c01d30e44b489c4ad7ebf84f93b",
+      "sha256": "08dce92c28c8ad5131b39ad2ef241625576571c7c3e2fc9484d911458729f891"
+    },
+    {
+      "path": "BFG_Emergence_Studio/BFG_STRATUM_TRANSITION_GEOMETRY_THEOREM.md",
+      "size": 10751,
+      "sha": "d24e7b86db4b320dee1da0eec7a7e351052ea5f0",
+      "sha256": "df61dada3d20821781b5d791dd8ed2fbceb87dd61b44e31639df4904194bf593"
+    },
+    {
+      "path": "BFG_Emergence_Studio/CARRIER_SDK_SCHEMA.json",
+      "size": 759,
+      "sha": "d15d005624742b391d937c6cdf278c0628733a0c",
+      "sha256": "cdd627c465000b994bf7edfc5b71d1b5bcecd4581aaeff64e04314f799767016"
+    },
+    {
+      "path": "BFG_Emergence_Studio/EMPIRICAL_BENCHMARK_REGISTRY.json",
+      "size": 3572,
+      "sha": "5f3f3087a457677d11307e7d812c6a03ad428fa5",
+      "sha256": "6105d42d910f2d720f4d0af30a647cf3448c403a1f3372a167160051a07d6f44"
+    },
+    {
+      "path": "BFG_Emergence_Studio/EXPLORATORY_CARRIER_REGISTRY.json",
+      "size": 1058,
+      "sha": "a7f1dfa1593fb728e0a09f8b73844f2bad9c0fce",
+      "sha256": "b9a87e9278e45f3c48a8960493eef4db85b0837683c543873167f74e2030c400"
+    },
+    {
+      "path": "BFG_Emergence_Studio/HARDENING_AND_VALIDATION.md",
+      "size": 10767,
+      "sha": "ced931de1085224d599637cf40f1f3245a31a8d2",
+      "sha256": "710dbe198932fe854c0c78dcb15e7986182e98a2547aec61ddcabb1e417869fa"
+    },
+    {
+      "path": "BFG_Emergence_Studio/INTEGRATED_CLOSURE_ARCHITECTURE.md",
+      "size": 10449,
+      "sha": "75a6fd363a02476b2211b4a509780bffb41c0335",
+      "sha256": "89c98716bdd111655bb4af6c9ec6a5dabcc76c0f5edb7ec26b8bc9a39ea91621"
+    },
+    {
+      "path": "BFG_Emergence_Studio/MASTER_BUILD_POLICY.md",
+      "size": 1317,
+      "sha": "80b0420d30c3f93228b2b27ab028a3699b17b187",
+      "sha256": "db4e72c937331008d7488e96c40badfd0bee5d9d80a56b2f41cac30c677ac081"
+    },
+    {
+      "path": "BFG_Emergence_Studio/MASTER_CLOSURE_AUDIT.json",
+      "size": 2498,
+      "sha": "6869e7cdd92481a00974b586703970ef873c35c1",
+      "sha256": "2c2d30c38526f147b3ebdf7edd524afe818f30825b83fc00f30c048eddf3766a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/MASTER_CLOSURE_AUDIT.md",
+      "size": 4640,
+      "sha": "b3432520263cbb3ac7dc26f662dedc0b13c979eb",
+      "sha256": "748362b12376198e95466c36b7a895dc865c2c668726adefb657eca2c3f68e1a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/MATHEMATICAL_CLOSURE_LEDGER.json",
+      "size": 1522,
+      "sha": "489ba912fc240fed567477e70c954a92a4190cab",
+      "sha256": "8e855ae79fa3a2e97a6eac635d0ada041ea77e78fcfcb853961fedc074dbb8cf"
+    },
+    {
+      "path": "BFG_Emergence_Studio/MATHEMATICAL_CLOSURE_LEDGER.md",
+      "size": 7207,
+      "sha": "d9cb53d392b61ad663406f62ef077de20864ccde",
+      "sha256": "13cf472405b2cfe41e793e0f2d131c7b4a86e21c2e26e5a3bb863eebd1f51ab1"
+    },
+    {
+      "path": "BFG_Emergence_Studio/PROJECT_STATUS.md",
+      "size": 18459,
+      "sha": "d18707c5dab919dc110dfda66ed865bb5ff67894",
+      "sha256": "8e24ff24a0bda2e4ef59b602db850e585dedb3fc75809705bf5a5e7c9ff6a11f"
+    },
+    {
+      "path": "BFG_Emergence_Studio/pyproject.toml",
+      "size": 498,
+      "sha": "3ffd8150252a69132bc6d8c4e0dd8e441a769d49",
+      "sha256": "f0d007a7637720c4b5f75656c904ebdc290aebf04d8fdbd074cb78e78e711ee9"
+    },
+    {
+      "path": "BFG_Emergence_Studio/README.md",
+      "size": 57181,
+      "sha": "5f8f845c18cf328a9bce30ce89f543d08679d82c",
+      "sha256": "7aa2af5f2acf5cfa343575bab6cbe45ac8448feb29688a156d2e489eaed6b301"
+    },
+    {
+      "path": "BFG_Emergence_Studio/REAL_DOMAIN_VALIDATION_PROTOCOL.md",
+      "size": 3697,
+      "sha": "ca8986a3c6b7a30ce349bea500f550e59ce6f004",
+      "sha256": "859badf19f294a19cd78a5d51f711b26675ede6eb880810ddc819521ce9e9347"
+    },
+    {
+      "path": "BFG_Emergence_Studio/REAL_RELATIONAL_NETWORK_CARRIER.md",
+      "size": 6514,
+      "sha": "029823943fe5c1346c7e6b10b737333c99acc07e",
+      "sha256": "241a173bd514042f5c1d4d15aef7889d6c4f52d598b605334462950c5186c716"
+    },
+    {
+      "path": "BFG_Emergence_Studio/SCIENTIFIC_SCOPE.md",
+      "size": 26847,
+      "sha": "dea6b6ac1d0ff81707c7dc48a4332a0b4db563f3",
+      "sha256": "15aaed4866f5f0ba867a4c243402993d7f75f77ab839f63f8ec923e99f2a8719"
+    },
+    {
+      "path": "BFG_Emergence_Studio/THEORY_FEATURE_FREEZE.json",
+      "size": 756,
+      "sha": "5c1d2d833338f579a76bd05713954f1c711131db",
+      "sha256": "2fba9eb72be34a128518a672d44869983c088e5195648783d70f5e8f43e990ba"
+    },
+    {
+      "path": "BFG_Emergence_Studio/THEORY_FEATURE_FREEZE.md",
+      "size": 1333,
+      "sha": "2f4450106c0bbe64cdebb7736afea07a8b58af65",
+      "sha256": "77d6c82e2d018ccb6d6b14c1a0ae8921317b8588338bcfaf509cca8efe6acdc4"
+    },
+    {
+      "path": "BFG_Emergence_Studio/VALIDATION_REPORTING_POLICY.md",
+      "size": 2270,
+      "sha": "758c0c3f327c93006a0d56725da8cb4b467b4363",
+      "sha256": "a7250fa332fd5ec4ae2473e66aac22306d76b88e4abe20a79f37fe67fce18053"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/__init__.py",
+      "size": 15519,
+      "sha": "b08812d9374f26888fe3acef12815c8ad2e56f97",
+      "sha256": "67595a96ad169796bded9af0f687567a8b0da9c4699dcef4d32e0996ea940fa5"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/__main__.py",
+      "size": 29,
+      "sha": "130bc6375628dffcf81fd338a297adae47ac205c",
+      "sha256": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/alife.py",
+      "size": 19974,
+      "sha": "98356d37afe1832fa9afc12eb42f2784ecb587fb",
+      "sha256": "8adfdc5f127a8b47053b18132ce5f821bfe8f853ab9aad53961af5db1787c7f0"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/batch.py",
+      "size": 4346,
+      "sha": "230617fc86b57c44e1026158e45af63e724b6a2a",
+      "sha256": "2569cd156e49def942080010102675d56553199296299b4b09bd6be6390e9158"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/benchmarks.py",
+      "size": 14300,
+      "sha": "0f2b3c4537ea4ec31463f680e1050f405632a2f3",
+      "sha256": "926696cf9cb0ae0583c7d9ee39deb48fbbe167546aa0cfeeace10fc962fe9db0"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/carrier_sdk.py",
+      "size": 7922,
+      "sha": "f5864d91dea0cb73441cd752a7bf306c66c07bbd",
+      "sha256": "790fd99130a874c4dbc9240f0d5940bf9081faae06a41fdc6a4cc100af761daa"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/carrier.py",
+      "size": 2432,
+      "sha": "557718598563931e2b1f71c82c4e14a2af61858a",
+      "sha256": "8c505cd1c7b1f36dc987009dc8fbb6905e15bde189931d4219731834bc8cdf91"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/cli.py",
+      "size": 46978,
+      "sha": "648fd9f2e17e7d0a3f5ae146e35e8d104e980133",
+      "sha256": "1df998609a535e93f571555109d5b4fcc539da6f6140a98fb6230794f4bc9934"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/closure_math.py",
+      "size": 15218,
+      "sha": "1cfcfc26b2485902c1173939d4a2a91ec0daf61b",
+      "sha256": "12944f5c2d426db8c0f08394c8c5151f2e3220166ae47b980d76d5f5da056847"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/co2_carrier.py",
+      "size": 28446,
+      "sha": "2e6cfed0dae2ceedb5551b31f65ba67155dffab8",
+      "sha256": "b9031cef494e084125a48fbdfc642ccad8a9173719d42ab3d30f7bd249166e03"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/core.py",
+      "size": 6923,
+      "sha": "ac761b0c1df022ca6acb7c37ce513ebd49d7844a",
+      "sha256": "f205ecf064adc2bd247a0752b8dc967616fcc55f3dec47096469c91d5d38a9c4"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/cross_domain.py",
+      "size": 13217,
+      "sha": "50f965b5d914c5becb67ba5f1df3cd361c2b8b53",
+      "sha256": "aa6f301777835ed766f642c676b3da231753679f9d2d75a9459fb342f32a69b2"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/cross_stratum.py",
+      "size": 33089,
+      "sha": "63b5e0a5f1e20dc7103a934a3faa9d96681dd76d",
+      "sha256": "e3403acb62a0e4ddb7e27ed4f34fb0fdde726ac5acc9d681257fb900dee07621"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/enso_carrier.py",
+      "size": 31375,
+      "sha": "b795b159d9e5dc43b5e070a58bbe7a67df6d75ac",
+      "sha256": "2ad075499684d062489ef327d7fdfcc50556329998b4eee9bbec6cb9a1c325d0"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/environment.py",
+      "size": 30251,
+      "sha": "8fea063ac0cfcc9ecfc29f0c2118805b9ed3b4b3",
+      "sha256": "2e780c59acc22121275b0d1e23662cc14a5cdd09cb21dadb6fba7bf9603330fa"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/evolution.py",
+      "size": 22894,
+      "sha": "98df834bca41d58f6adedafc1b26b88e9926e353",
+      "sha256": "82a8586e2624d30b1168f3c215aa12d48398d053ffbf11b6791bad0964073262"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/finite_closure.py",
+      "size": 19090,
+      "sha": "0ff8dc42874097b5872d007893203acb9d186a59",
+      "sha256": "2030013b755e93d350a6e08cef28179dfa039ed22ef65f359725b4f9ce5db438"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/formation_dynamics.py",
+      "size": 34325,
+      "sha": "e062393f56f8cb048ca0e7cc7c4c6f715161929a",
+      "sha256": "61a97e2622e3f5271e05e9fe55a9c2788b8656a03c3c65af0071a1373fe4abe3"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/formation_eligibility.py",
+      "size": 20746,
+      "sha": "0c2c462b743afa432bf10e74f8670d25afc04c3b",
+      "sha256": "de8534bf3d9d13105e03a24fb8037f96b3c3a105c8e59988f88e1cb1006092b1"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/formation_robustness.py",
+      "size": 22621,
+      "sha": "1a0383e8267d3e43d10718cc8b0275b878d210b5",
+      "sha256": "d9530b1fb4ed8a1ad68818ef18b085e61924461220ca4ec70420bb26579eada7"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/hardening.py",
+      "size": 13380,
+      "sha": "b87dfae1ce71adff2125f7465eda95b7b564f6c8",
+      "sha256": "4fde3000c5cfe45f63589d57958e29ee55bd5d5c24a87c9df9ab2d816c27a7f7"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/identity.py",
+      "size": 23848,
+      "sha": "cb450f88cfaa4530d2467e526d50643cd39a1b91",
+      "sha256": "94c33047305e4f8925e2c1efe95b13bc20e5c5acf6d0b9dfaaca5a5ee554728e"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/learning.py",
+      "size": 32808,
+      "sha": "68c9a12dd56734afd94b9345e701659aefd076d8",
+      "sha256": "949c28fdd082aebec9622a2fb892c8f4ec4e257e6dd0780fdb0c03d52937fb35"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/linalg.py",
+      "size": 3267,
+      "sha": "d3fd80c9a8c2c09abab6def05e58e73754be142c",
+      "sha256": "7a912023727ffc4652c6cb334811c806377ab4c3adc3c4c1377ad28716a95ddd"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/math_audit.py",
+      "size": 17298,
+      "sha": "15b9b0823ed423c46dc16d994ee42caeeef4109c",
+      "sha256": "1143e5bfcd42f56a77328814538644596d5d93e63b64bc97f8b61479bdb9283b"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/network_audit.py",
+      "size": 16091,
+      "sha": "7163ff2d6fb9b476469942418b1ca42fef25fe33",
+      "sha256": "21ce40f036e545f4c13d435f68f9cb3122e70dea3b77d22854a8bc46ee233f66"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/network_carrier.py",
+      "size": 10117,
+      "sha": "7d598c661d1d3aa294e8be3de6056db35eb41f9c",
+      "sha256": "1956d137e34f62be922da4ee7ffa37bd8b7e36d20aa0ad29d69d4bd22df1010a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/parent_formation.py",
+      "size": 43785,
+      "sha": "515e802e84be5636a320000aa137e8a79d972b92",
+      "sha256": "d2e591f4e7c79ac184e5fafa44ee10fc5f0aed51437b6fd522795b18e3328a20"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/perspective.py",
+      "size": 33254,
+      "sha": "93034b453ad749521864a8a9a1994d66aa6df66b",
+      "sha256": "7fb94fbdc1b52b6503deed17e6f5b99c01aeba3c9b59128bb6661eae55dd0e27"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/population.py",
+      "size": 21626,
+      "sha": "ed4582fe2c3688e64d6e0b64fc6642dbd5552ead",
+      "sha256": "ba7fe4b6aa3664586e36bd298fbfd35f945225074d692a4713d6b648ffb85fb1"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/portfolio.py",
+      "size": 21346,
+      "sha": "5a3d1ee49048b865a6b632b0bc02296e906f82b1",
+      "sha256": "8189727a719af61da65b0299c3115ff39c792ee3855ffc32facce5c85f485ed0"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/real_validation.py",
+      "size": 5518,
+      "sha": "f0dadef55021b085eeba95097b7f394d2ecb548b",
+      "sha256": "1a282af05e417e4f89aa49e3ac15863e82bd8d9727b3b4152ab7b3d3fdb1a405"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/report.py",
+      "size": 3025,
+      "sha": "d9ac0d1e54d6b5497c902747bfee24801b6ba1b9",
+      "sha256": "1635c10feacde203f316a32815fc36191584c0f0d991bac8ab70b61a7fe3fed0"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/robustness.py",
+      "size": 13818,
+      "sha": "1f173cb56be760dbf45e3fa0a12997ddb87bb641",
+      "sha256": "17cfe41b390011cc6a313fb8ba74addad1249f572cbf9798352a408ae0492d05"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/runtime_transfer.py",
+      "size": 23723,
+      "sha": "28a8bd0104a48e089e2617cca432e2bec49598a1",
+      "sha256": "8f7be3d8ff3a470dff8cda3288b4876f8e9312322585d125f29ea91bd6c7c294"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/search.py",
+      "size": 1189,
+      "sha": "fbdc3c81ef52e45f4641e5573e759ecf0784381e",
+      "sha256": "a8a93f04cad89c58608fd04a80d08beca877f75d88c1a5f15274c39001e46466"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/seeds.py",
+      "size": 2024,
+      "sha": "8b8ce747872c88b76d88dc1363fab10597516cfc",
+      "sha256": "54fe14f94e57299256d2b46e9cd67f0e3f402bee1b089a41bca05b4e32ff0262"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/selfmodel.py",
+      "size": 36250,
+      "sha": "1dd2251c36ed693eb92e6bec1abcfc3a3c312daf",
+      "sha256": "064ed61dafe82c06190a39ce63b4609794794587b840ae12cca5efbe74b7e55e"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/session.py",
+      "size": 8188,
+      "sha": "6c40b7c1403882877649d91d652af3893839eac1",
+      "sha256": "faa3de7c86fd0b425fb716b5b69f11dc91b7ca6ae283a5ed7651e9576784658e"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/simulate.py",
+      "size": 1803,
+      "sha": "8a6165c032b9001ac7e370205431d31b3ff55d19",
+      "sha256": "a47961eada769ca03512d96aa13bafc8b1e0a4f1ce875c017d78a6fc2085f2b5"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/small_load.py",
+      "size": 27949,
+      "sha": "be5022ace7e1f1a94ba127ddd0ae63b18ad07d31",
+      "sha256": "7107580a7f77886b6cf27abd61698e2e2fe76add57986829da215e2b2055e496"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/stability.py",
+      "size": 19679,
+      "sha": "8a87542707bf7b690090cebcb61666103c270b20",
+      "sha256": "767c5c0d3db21af4627d160cbd870672dcce5e431452c4784b2e9b1d387cf156"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/stratum_geometry.py",
+      "size": 17952,
+      "sha": "60c483e537671f0328cea49017d53d4e743e94ab",
+      "sha256": "6413a5e6f78fa6a7ce76c91a78e6f3c386a2d6c4361c3425696a8fa19c31893b"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/sunspot_carrier.py",
+      "size": 36438,
+      "sha": "38acbd3adfdffe27466d5e1e8e24e2dfd284e9a1",
+      "sha256": "11d4124253e8eff35d3b853ff828434c61835eee133949f093341863fc291a01"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/sunspot_validation.py",
+      "size": 29009,
+      "sha": "54fcd0ac98c0e2c76a4d612e5641c56ebac85e62",
+      "sha256": "b0d27a0ead97750c7003bafc15e60dcc3864d3ae7abcc8e6c4a20be9cb796a2a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/bfg_studio/types.py",
+      "size": 2506,
+      "sha": "3a720e2d6a4b47dd5fdab084c192b271bf8e3ce3",
+      "sha256": "88ae12376939b545f6cb2d08f9270b44499fe5b4eea472f8b0bc496c2398474d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/data/enso_pacific_sst_monthly_1950_2010_provenance.json",
+      "size": 629,
+      "sha": "ada48cfa17ea0a9d5324a60ce11a9217ad406ab9",
+      "sha256": "e08ec3a718b72f65d6f50f0059d027c52ef84d6c2560b0d9eba675d7252054ba"
+    },
+    {
+      "path": "BFG_Emergence_Studio/data/enso_pacific_sst_monthly_1950_2010.csv",
+      "size": 4680,
+      "sha": "a072747b8fc8e1b7279073fd0b5b12c0ffc83812",
+      "sha256": "685e30c099aca159580267ecafa013f24f445759b4c5e38fbd13250f2982a8d8"
+    },
+    {
+      "path": "BFG_Emergence_Studio/data/mauna_loa_co2_weekly_1958_2001_provenance.json",
+      "size": 507,
+      "sha": "922c7a652562254f3085deeba140f264473aa5fd",
+      "sha256": "76f282bddf65821472c941473cd87e0ab3259a4fd1a17cea0892c111f346752c"
+    },
+    {
+      "path": "BFG_Emergence_Studio/data/mauna_loa_co2_weekly_1958_2001.csv",
+      "size": 38542,
+      "sha": "14bcea7151e6cd277f4dce39baffdea8c2686f8f",
+      "sha256": "2737f74222cf1fb702d41058927d2b8d2a34778d519bfa6b1dea2f1b47c234f4"
+    },
+    {
+      "path": "BFG_Emergence_Studio/data/sunspots_annual_1700_2008_provenance.json",
+      "size": 542,
+      "sha": "a96ea2c702af602f63f8c04ca14905881bf463db",
+      "sha256": "b13198c2d339e73adb00c3f2eab5ec957bf4b4b7c368f9b7d3d3f339f00f93f7"
+    },
+    {
+      "path": "BFG_Emergence_Studio/data/sunspots_annual_1700_2008.csv",
+      "size": 3104,
+      "sha": "b830afad8d3cbb7c65b67a67456c8789b4c7cbc1",
+      "sha256": "7dac2f45399b4d3b335823db9884c4b6d7f79509f94aed6de20da6a431ae5900"
+    },
+    {
+      "path": "BFG_Emergence_Studio/data/zachary_karate_club_weighted_edges_provenance.json",
+      "size": 676,
+      "sha": "f12a08ae4050b4cc397d6a12cbcceb132326d379",
+      "sha256": "4a51c846db37013f11396fc71037a2cc806f11c36166953f9318258529098da4"
+    },
+    {
+      "path": "BFG_Emergence_Studio/data/zachary_karate_club_weighted_edges.csv",
+      "size": 661,
+      "sha": "bfa4b6037f3bf774bafafd67c27b5a0f2583321d",
+      "sha256": "759fea7650a4eaf6e6036a8113fbfd8400d9ed8e701ed4a3d68690c98bb84f7c"
+    },
+    {
+      "path": "BFG_Emergence_Studio/examples/custom_carrier_template.py",
+      "size": 1113,
+      "sha": "34b15a5137851b25b516d084dc5f7ad50a89c85c",
+      "sha256": "89fb13fded678fa44c90e5be1f01c8631cf448ea656ca84b501c069ad7d78df2"
+    },
+    {
+      "path": "BFG_Emergence_Studio/examples/emergence_demo.py",
+      "size": 361,
+      "sha": "443cf025b9570380b7710bf438abb4b4d6b769e1",
+      "sha256": "328d485770b9312656f9cc7f8732e0e9201cb0d81b04b69addb201766be6fcc2"
+    },
+    {
+      "path": "BFG_Emergence_Studio/examples/environment_demo.py",
+      "size": 899,
+      "sha": "228fb42d746896ffaac084355b359785f87945b6",
+      "sha256": "fe9bafdbeccfc467dc9f3d0d440df9024145b48cbbd8e21feddf33d62952c794"
+    },
+    {
+      "path": "BFG_Emergence_Studio/examples/evolution_demo.py",
+      "size": 757,
+      "sha": "09c519e451bacb905922f20754c515d6ed05fa56",
+      "sha256": "505d318f7bbbc330a59481c7290cb66f96957fd60de52277cc36e89ac8d28ef3"
+    },
+    {
+      "path": "BFG_Emergence_Studio/examples/external_carrier_template.py",
+      "size": 1165,
+      "sha": "083772d36d8cf8087163e924de5d7c447d0a0bf5",
+      "sha256": "88752aac86b19c66e54bbdedd071f34712ba58dc5a9fb865f19281dbf33303e4"
+    },
+    {
+      "path": "BFG_Emergence_Studio/examples/identity_demo.py",
+      "size": 802,
+      "sha": "aaa731d18ab464269df62058a49976dab26dd351",
+      "sha256": "f17c0d99b1bedcd10c88bd3e330a7fa8de749ee46379c26f1fa6a64ec9eb220d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/examples/inverse_design_demo.py",
+      "size": 319,
+      "sha": "7c5439cd08b1f08cfc880703652c3f91d4d9da1e",
+      "sha256": "484201e778caa9789b0e1734cab8f62e10b0f1e6dc3247ec2a56755e56291219"
+    },
+    {
+      "path": "BFG_Emergence_Studio/examples/learning_demo.py",
+      "size": 777,
+      "sha": "efbd2bbe27550b9003954ce4c5a83eb6418210f0",
+      "sha256": "52354b6ce28156e5f08edf9e022da66c1cfcbf48b1d6fe4d1b90c38f080b9777"
+    },
+    {
+      "path": "BFG_Emergence_Studio/examples/perspective_demo.py",
+      "size": 850,
+      "sha": "34e0e1c989632560b9ef908134d364782c4bd08d",
+      "sha256": "baa351e061ae4617de103bacd3714e8dad4fb7f24c98ca5df0687d1652b156ce"
+    },
+    {
+      "path": "BFG_Emergence_Studio/examples/population_demo.py",
+      "size": 605,
+      "sha": "b8b73b24b055b6f98e54f9b8274c95c986708c6d",
+      "sha256": "1593dd36c673404b3a57136c7f0c5c18c5e9fba796f6654474472384306d9198"
+    },
+    {
+      "path": "BFG_Emergence_Studio/examples/self_model_demo.py",
+      "size": 761,
+      "sha": "cdabb412b74db2cc1e85870f4f3f0049e5d3a9fc",
+      "sha256": "7b83501bff7d1e4e4994b561dcc8762d0ad17945d8361ca01a37ce4a021ad1a1"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/best_search_novelty.png",
+      "size": 42619,
+      "sha": "90c88ab44f5e8f8bd0869e8f1f1cf0e0e05a0fa4",
+      "sha256": "0d62793ac2a77b5e8d4b9cf6fda919bd662a096eb92f890dceca9717b78cb81a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/best_search_stability.png",
+      "size": 45062,
+      "sha": "ae664ab1f07a8871105b0d6a2446d6f7503c7d25",
+      "sha256": "6d14c4eb87c2c2ffc83d125e7f240f7b9b5d2c05a7d80599a31a7bdf818b793f"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/best_search_summary.json",
+      "size": 220,
+      "sha": "c90aa769c0bd9d26e7611fb683ec18ba78bbfaf8",
+      "sha256": "2cdb860275a3316bd79bce20a6c02afa43c55c94f0ab03b66ffdd898addb635a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/best_search.csv",
+      "size": 1824,
+      "sha": "78da685f323e0f9d04c9149612f40ff7960641d2",
+      "sha256": "1429cd6fe8b5ff5dbdcd4f122412427792f6e69293c8eee834ac4c67e51bcd26"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/control_novelty.png",
+      "size": 49263,
+      "sha": "ff0d5543a72b6f3c757789d0031461d0f8b1d4ae",
+      "sha256": "ca3e4303d850b9b255af1878e350a0c5014cc90749c314bab82d23dca80d82db"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/control_stability.png",
+      "size": 35805,
+      "sha": "d89afdea731d3595ba59e306b1ea777e263394a2",
+      "sha256": "373b1a43db3d72e1695e8a23185dbe78a898e5740a2fe9f3f5a5b3da4bfa4742"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/control_summary.json",
+      "size": 175,
+      "sha": "520d9198e8b55a6a7c2f4a9678490c65e8169646",
+      "sha256": "f5235e157b4922cf2d6076b453719735e386a25718e7b0c23a1ea313842c20fd"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/control.csv",
+      "size": 1454,
+      "sha": "96e2f11159fb8499f82f44cbd5ce41c59b5ccfbe",
+      "sha256": "cc794a3301331b0834b90f98e237bc1fb358afbe7e5d9a1a1897b383c8abc87a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/demo_novelty.png",
+      "size": 31439,
+      "sha": "7b6d968c41ac1ef00fe9b155856ffbf0c1a50fd1",
+      "sha256": "7673665f9c497a02332c01cd9259a8eed97f64e6e19a27c3fd0dc78be2fc1d2a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/demo_stability.png",
+      "size": 38716,
+      "sha": "aff283cf39c3d162ffe776a3b4cce117299c6348",
+      "sha256": "6a2e8bcc5fe536261244850b334e906f2e1fa605625a11a5c5f4bcbf252a05cf"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/demo_summary.json",
+      "size": 193,
+      "sha": "cf3d9fc0b051c9021cc233e06cb0d0042a741264",
+      "sha256": "1fdfa18df0e926f72ce688c062d1d89bc4a2c6b01f19ef8cfde24b111c275581"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/demo.csv",
+      "size": 608,
+      "sha": "e0c0852d4e1401b30b339ba9d52e3b2918ed3b21",
+      "sha256": "d452bfa12c29975384e44a36b117c4d895ac0fa1f4061afb91d14c5d2531a87c"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/search_hits.json",
+      "size": 1676,
+      "sha": "691ee45ea2c2685dae36001d7965f296888bd6de",
+      "sha256": "82fc59e206d3794a351d9cc159cd541d550aa182c1a14a9a7f8ebdabb9b362cf"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife/self_organization_core_novelty.png",
+      "size": 56047,
+      "sha": "69cc72ee4e0a67ea516719cc9a01e7780dc55aa5",
+      "sha256": "f7b67d28c6b63c0c5a58fc1553d17e22fd3e0c8494010c41d2de18c09ddcaaea"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife/self_organization_core_stability.png",
+      "size": 41974,
+      "sha": "fcb7ae0d24a82f020e7d3e55886a562a86afcd3e",
+      "sha256": "803b3ee53c91143df4e7353e593123fedcd9e327fa3ef36e4c19a880d75a112e"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife/self_organization_core_summary.json",
+      "size": 180,
+      "sha": "a7888640662ddf939d97ec2cca530c3411b50dea",
+      "sha256": "75aedee5d498285ac6aaf98290389c5b745a30e896785e4821905c78afcc3737"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife/self_organization_core.csv",
+      "size": 5406,
+      "sha": "30081360c0921fb1ce71bc9bdbb9a469e2404864",
+      "sha256": "5a3e142d13419f6b90437a617133c1e445a1488ae78f83e21f775ff40d00c999"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife/self_organization_network_final.png",
+      "size": 274403,
+      "sha": "29e141447528b4b43ca66db4ab0bf279f90efbc9",
+      "sha256": "daaba6d507c3fdc10296a073b5c1338ffda1ffbb0bd7f11cf4cc5a1bc4b42aee"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife/self_organization_organization.csv",
+      "size": 2984,
+      "sha": "8e81360568a4a0f6cff642f5d66e92e6a336f76c",
+      "sha256": "1490f3f704b2348fe28f740a843fcf075a2dd5b3ebc8951066345132d2940068"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife/self_organization_organization.json",
+      "size": 9000,
+      "sha": "0fcebb2264e547dde6eda229af589a83b057b5e2",
+      "sha256": "6e1ca008e9e2d163d1ec459aa1d90af7922f0ec6042b881147c90081e6769e50"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife/self_organization_organization.png",
+      "size": 66489,
+      "sha": "c15782b8758f12159f07ffccc78161753fac6e8b",
+      "sha256": "28acfb8923037d4bd661e8a40a69807295f1db76a1c73cb5bd8fb650d8e21732"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_best/self_organization_core_novelty.png",
+      "size": 62859,
+      "sha": "45eb4b8db26959726159207c549ffa17f4906688",
+      "sha256": "efe3a32c8c1ff046bb049e0e129155a935f6aa6b3710ded4b849e4f0aa75d157"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_best/self_organization_core_stability.png",
+      "size": 41139,
+      "sha": "d328eb408f2ff4526765c3fa563e92af121a5c56",
+      "sha256": "62be6ced9228586567090fd77c0f3a2b26eff6756ac18527f8a8bee6f0dc5b55"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_best/self_organization_core_summary.json",
+      "size": 180,
+      "sha": "a7888640662ddf939d97ec2cca530c3411b50dea",
+      "sha256": "75aedee5d498285ac6aaf98290389c5b745a30e896785e4821905c78afcc3737"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_best/self_organization_core.csv",
+      "size": 5388,
+      "sha": "f2c7a1e0a798ac0f60d1e89f56def2ab8b73300b",
+      "sha256": "d8247ece7879316deeff2c599c0ccb8b8bc7c71edb206118c1feb5237babf356"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_best/self_organization_lineage.json",
+      "size": 5792,
+      "sha": "ed242ee775cbebaab426f0ca81acd998b25bc24d",
+      "sha256": "6ec3f26036a86dfade4171bcbf34d29e21ca1860c27ad48de05148670ed7dc9c"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_best/self_organization_network_final.png",
+      "size": 250144,
+      "sha": "7da76a9dede4bf022c928782c8b642956d8f30c3",
+      "sha256": "929db238adb2c7290d51d28fe9941da9143a949b19a855a8208eb7e5d550db6f"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_best/self_organization_organization.csv",
+      "size": 3091,
+      "sha": "690bcf83e11959b24e5f559b82e29963b10d86fd",
+      "sha256": "fef61950eb6ca6e84c7ba036e61200cfb6697816701c484d906861a4e10f8272"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_best/self_organization_organization.json",
+      "size": 9691,
+      "sha": "b230722d1c736baef91dec032c70da38a6d811ad",
+      "sha256": "f1b3ad669765f05b7a333713bdd2d4956db2170873f3f17c1bdf51f634408409"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_best/self_organization_organization.png",
+      "size": 69183,
+      "sha": "3661290b669001a3a1b88fb90178468a51e4d922",
+      "sha256": "476cf4c0c5622608015a2acb5daa43917d1e578aadd30dc2c115b8d9c1b23002"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_search/best_self_organization_core_novelty.png",
+      "size": 62859,
+      "sha": "45eb4b8db26959726159207c549ffa17f4906688",
+      "sha256": "efe3a32c8c1ff046bb049e0e129155a935f6aa6b3710ded4b849e4f0aa75d157"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_search/best_self_organization_core_stability.png",
+      "size": 41139,
+      "sha": "d328eb408f2ff4526765c3fa563e92af121a5c56",
+      "sha256": "62be6ced9228586567090fd77c0f3a2b26eff6756ac18527f8a8bee6f0dc5b55"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_search/best_self_organization_core_summary.json",
+      "size": 180,
+      "sha": "a7888640662ddf939d97ec2cca530c3411b50dea",
+      "sha256": "75aedee5d498285ac6aaf98290389c5b745a30e896785e4821905c78afcc3737"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_search/best_self_organization_core.csv",
+      "size": 5388,
+      "sha": "f2c7a1e0a798ac0f60d1e89f56def2ab8b73300b",
+      "sha256": "d8247ece7879316deeff2c599c0ccb8b8bc7c71edb206118c1feb5237babf356"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_search/best_self_organization_network_final.png",
+      "size": 250144,
+      "sha": "7da76a9dede4bf022c928782c8b642956d8f30c3",
+      "sha256": "929db238adb2c7290d51d28fe9941da9143a949b19a855a8208eb7e5d550db6f"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_search/best_self_organization_organization.csv",
+      "size": 2955,
+      "sha": "70ec4223485f2410fff06e77f7bda7c27ec079a7",
+      "sha256": "45aba1ec4e4e7b816f35e84d3081f19487f76df43c28b159d6260d68e17a3335"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_search/best_self_organization_organization.json",
+      "size": 8971,
+      "sha": "44a5478a96ef41ed79073d71909e739bdfd7fd8e",
+      "sha256": "ea154e420c40964d8c50fd653e2ccf8060d3ae8f8d612a59c07e2ba95def8678"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_search/best_self_organization_organization.png",
+      "size": 69183,
+      "sha": "3661290b669001a3a1b88fb90178468a51e4d922",
+      "sha256": "476cf4c0c5622608015a2acb5daa43917d1e578aadd30dc2c115b8d9c1b23002"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/alife_search/self_organization_search_hits.json",
+      "size": 4200,
+      "sha": "d1c652c9cbf0d7508ec157dcd59ce8a020d05aab",
+      "sha256": "7a44abde57b2ff2a2821ceff787fe4b929a7c2798e8998402488197ccfb9cbf0"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/cross_domain/cross_domain_corridor_overlap.png",
+      "size": 69053,
+      "sha": "26293f73b6cbea55a0baa167cdf4d9f039a1b4bb",
+      "sha256": "4e0eaf33a16b0dbbd1da063534b9de4d904dba2204ed1c5b2b26f562f421a6bd"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/cross_domain/cross_domain_invariants.csv",
+      "size": 6005,
+      "sha": "087452e05d7401d9cf902b3788f75b575514c470",
+      "sha256": "4f5e3f0f3f7f4f27d1bd2ae59e04b9f530bc0d9d295ac1c70c0b6fb43f161313"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/cross_domain/cross_domain_invariants.json",
+      "size": 12671,
+      "sha": "52ec7abcbdf118a09073bfc6d2541274b724a776",
+      "sha256": "61ee156b7d559ceeedb1fa44647594c4afaeac8bb60dbce693d9b1f0d87e6f61"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/cross_domain/CROSS_DOMAIN_INVARIANTS.md",
+      "size": 778,
+      "sha": "dfe41f53b9bc5b81c0ade7f969db12850e041730",
+      "sha256": "641b7b6d4054ebf41ec259a272c7e71e9da4704b53ef3144ab5861df75c71420"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/cross_stratum/cross_stratum_continuation.json",
+      "size": 537900,
+      "sha": "28cbf274912de2ff9873bd9dab829a2eb19b30e3",
+      "sha256": "81e737d274d3777a7713cf77273359c1315a809b7bf2c8fc41023b03179c5ce2"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/cross_stratum/CROSS_STRATUM_CONTINUATION.md",
+      "size": 1883,
+      "sha": "eac86dc9763c1b895185694ba1caf79c251e6391",
+      "sha256": "be36a71ba5cc04fb845e04921d4f29c485d6215191cbb83c0e32ae9c238868a5"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/cross_stratum/cross_stratum_real_states.csv",
+      "size": 150726,
+      "sha": "c4281ccf133347c8713573d893a047ccd4a1c68d",
+      "sha256": "c82ea0128294161bc36012386636ffba3553cd0d882d35db31a53542342a3696"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/cross_stratum/cross_stratum_synthetic_witness_mass.png",
+      "size": 118767,
+      "sha": "01d52b51e773b13f3b30bbf93a7f1434473b47ef",
+      "sha256": "bdb5fbd01d1caf0ae2d9a0b915471545255b0963c0a009de45595aa89378d40d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_seasonal/environment_adaptation.png",
+      "size": 134869,
+      "sha": "f525256679ab0a5c79ea117462c7646576b18f11",
+      "sha256": "ec8a37784a6c0140281d8e03a6913bbc4f96529b826d833db6386a9ac90992f6"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_seasonal/environment_environment.json",
+      "size": 10667,
+      "sha": "6db87e704bc33a81d62d4e01415236123c1f9012",
+      "sha256": "4f643860c2e93730361f0582f06457e3b4d4afa0ccf2bc48cdd29c90aafa5ba2"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_seasonal/environment_events.json",
+      "size": 53198,
+      "sha": "ba24d7e7251478bafe74073cc8571f3caf50cd34",
+      "sha256": "b7e707651b08987d92a8eb89c126c8090afbc0e312c43194215783fae6e7a943"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_seasonal/environment_frames.csv",
+      "size": 5154,
+      "sha": "e63d5bd9500f9cbf9442e1985f197d4946c56b16",
+      "sha256": "e39a33aa124de0e2d063a178e55f4a63d3b4026177592df9a678497ed19a31c9"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_seasonal/environment_population.png",
+      "size": 47889,
+      "sha": "d9c4bd006bae45155626026f8469d0a302972e19",
+      "sha256": "1227b67d9a3ef86690ee3187844e045d940952f9f040558a9a5d80deec739bee"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_seasonal/environment_summary.json",
+      "size": 3810,
+      "sha": "52804a6a85fa2802c7cd3d6f52e3c2d396d2da0f",
+      "sha256": "2802ca2a22015680b8b3a689bb78f72c29ee3664ab02008e27394b2ebbc734fa"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_seasonal/environment_trait_tracking.png",
+      "size": 162088,
+      "sha": "cd0d5e4793614fffda2028e5b5d480924177d91f",
+      "sha256": "cebd726b2146035856639d84c9a07aecdbc8c57745724af96260b37d94a713f1"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_seasonal/environment_traits.csv",
+      "size": 12019,
+      "sha": "8424017ef854a0267c2a5aa617de36228f0481a4",
+      "sha256": "8f52f3da9d14696fc00c964d63e96768dae836ff96b6bf4270100ad9792c0978"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_shift/environment_adaptation.png",
+      "size": 97620,
+      "sha": "f2b70b21b570494c4a97c4d12006191a056bc8ef",
+      "sha256": "953f537b02c2d14ad41b7ed45bed57dc547411ad60b9cec0e366479e1a1089ac"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_shift/environment_environment.json",
+      "size": 24551,
+      "sha": "faaf73c654470ae81d25390ab3ac22579f36672e",
+      "sha256": "41fee8804e43a3dac3a0d454756cd56fbefbec43278971f25673b130919a3332"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_shift/environment_events.json",
+      "size": 112065,
+      "sha": "e31cebfe1c1e5b4dc5f69491616a1cb8ceddf103",
+      "sha256": "08313061fe7524371a8c06ce5b467724091a9f66a6b30b6c83e353e493e16e51"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_shift/environment_frames.csv",
+      "size": 9189,
+      "sha": "b5e92a220f9a95f178363ac37f61b2b2aa69450e",
+      "sha256": "12d00648b8d8f78674cbdfd2b7731ce5bd24962137999a4adcf3da7d339c059a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_shift/environment_population.png",
+      "size": 43228,
+      "sha": "77caf783796c0c73d068d257d0f90f07e84714f6",
+      "sha256": "91619350b5d5022a76d36efe0a695688e64d531f18fc521b07d12f4de2e7d7ef"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_shift/environment_summary.json",
+      "size": 922,
+      "sha": "5ec0ef65e6f8006f740fe8ca98573f406c49b787",
+      "sha256": "4eafa1105840f5ff76afae4464a8459900ce13158fd7b2c1c72d33e8270f30ae"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_shift/environment_trait_tracking.png",
+      "size": 100938,
+      "sha": "84669139ca29414e23640e85be8a426d0a67629d",
+      "sha256": "da12fb6746db8cd05a17f189e76eae1a607c6cae4f6c581d3f7500eb70daf868"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/environment_shift/environment_traits.csv",
+      "size": 21497,
+      "sha": "d17fd683c3e1d0f2fa9414c9c1f5de4ad64fd59c",
+      "sha256": "5ec3da828437258276a1e38f83547e50c5b4263fcf2bc00148bfbcb4536bb3d8"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution/evolution_events.json",
+      "size": 10690,
+      "sha": "03c9515d80130416d3f52dd8f360b15b9abbe95e",
+      "sha256": "b2ea5a651f39e4d3a11adfc87673600ceedfcb14484adecdec07e1b0c22d41ab"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution/evolution_frames.csv",
+      "size": 4554,
+      "sha": "c86e70981fdbf7fd47f5e858134d6eb1a0e99b6e",
+      "sha256": "8991adb16e6ec4dc7017afa8dbbb3898b47d86fe7a3e0e4e072ea97cdf1cc3c9"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution/evolution_lineage.png",
+      "size": 66792,
+      "sha": "e09be959e62b6ffc83e95a46684d9accbca10fab",
+      "sha256": "60198dfe91d77205374fb4bd11db28a688762b99fc0e8572e64f13e48dac9688"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution/evolution_population.png",
+      "size": 94095,
+      "sha": "f0ef29483fd3945d7a5756bc820a073dacb90225",
+      "sha256": "937a5509902d42c21ed12c800bc037ef620b449d00284a4cceff281bc23ac65a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution/evolution_summary.json",
+      "size": 333,
+      "sha": "e83850770354debce9d897d6fe32f3cc41b6435e",
+      "sha256": "26288ac37cfafb5b8cfaf9a9427757afd2d72a0e8a66a971da79b0e7322ae414"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution/evolution_traits.csv",
+      "size": 11148,
+      "sha": "af6e396f802f2a408944eac3bc7acceb6f189f04",
+      "sha256": "58a7f158d6a1647752998a526a52272b0f46a7a7a0d4d18f6e52fdafe2be384f"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution/evolution_traits.png",
+      "size": 65370,
+      "sha": "c4817640eabe017e05bfb50a09f3c2e5a1f8fe9b",
+      "sha256": "10b7cf560c9898907bf61cf44bb8ec2bdc368bb626205502fb1245e5991ed4ef"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution_selection/evolution_events.json",
+      "size": 4307,
+      "sha": "2c84fd506bf174362f968c8f893e33fb519eff7f",
+      "sha256": "b9cfa6455e6765c5de4441e1134d687bfc784414a8a7b1c65dc2b1f1e8480c79"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution_selection/evolution_frames.csv",
+      "size": 2164,
+      "sha": "d81b8703864329346214eb3ef400f65715388972",
+      "sha256": "7ec91bec86bc6b28e93cfe312d630c5a15c687f7bfae96e41bcab97cbd9d2982"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution_selection/evolution_lineage.png",
+      "size": 68927,
+      "sha": "72cc5f656ddbff6bf1315b19542cd0821371dcad",
+      "sha256": "1bd612eb1bae71a128d2ffcbb4b41f71c88aa12e94069e5991281a3e5d694145"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution_selection/evolution_population.png",
+      "size": 84832,
+      "sha": "603b8783db3e498e05d13367f718459edb6c120c",
+      "sha256": "d9bc7a009ad8cad3215c18ad4224e9a8d68ada63b654747de3daab1776ff77a9"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution_selection/evolution_summary.json",
+      "size": 333,
+      "sha": "6a532219363e4b79e04f376d66ecd502ccc5ebee",
+      "sha256": "140bbc0984416415b92e842868a3afbe149e33293eb01ffd231ab3011f3f06d1"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution_selection/evolution_traits.csv",
+      "size": 4066,
+      "sha": "5afddbc69c02c96a60ad7300ecda771c17f2d069",
+      "sha256": "0edfc765a9920140e44d904f34569b872a30fb6d15bc65e4c46e1bab0d2f1b05"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/evolution_selection/evolution_traits.png",
+      "size": 58699,
+      "sha": "4bb10cc57d8ebf49715148932f618a7638261f26",
+      "sha256": "d3fcf736caa29ea5fcfb0578260b2c7790289e4de45163cca3c6387951c2edea"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/formation_dynamics/dual_load_margin_by_depth.png",
+      "size": 99035,
+      "sha": "9b94af79e60b62d2f3cdd4613bdf31d74bfd4db5",
+      "sha256": "c6f722c49032af38fae34783f0b810fb13a94e69c8f7e6d712a59ba5c4b6cd9b"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/formation_dynamics/formation_normalization_intervals.png",
+      "size": 107412,
+      "sha": "9d34d2917f407ebcd6e44b4dcac833c946c06175",
+      "sha256": "f870b8fbe3f337719057d8e3ba73bb1e63de899a5f3c442ab8a33c1482560370"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/formation_dynamics/formation_termination_analysis.json",
+      "size": 7543447,
+      "sha": "4655fad42fd71e424a5f77d82d53975473a3b4e8",
+      "sha256": "043fd9c78a6cbadd4a2a605b2af2e830e730abf007d9543fccf79fea9757e0f9"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/formation_dynamics/FORMATION_TERMINATION_ANALYSIS.md",
+      "size": 3795,
+      "sha": "3e8030c3b4451680e962040e7b76106633a0a245",
+      "sha256": "7a9ee139dee35d6db7d31c0585d79b7cb6bd7aa7950b57f40d5a5304522c4e48"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/formation_dynamics/formation_termination_transitions.csv",
+      "size": 2606333,
+      "sha": "ee59667cc4ea0ad16f54431626e713cbd548a786",
+      "sha256": "32d8cf1aadda35c37f0999647f6f822317452dc5c663416be0d8d7abca75ed61"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/formation_dynamics/neutral_load_decay.png",
+      "size": 109048,
+      "sha": "0ba3156c90acbd3775bf2761dc97b55e2f75b2c9",
+      "sha256": "ea2758afa4a8ce5bd67b469fbfef9092dac9dca7d55b4b2a92f0df9e79b80743"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/formation_dynamics/termination_tolerance_sensitivity.png",
+      "size": 43424,
+      "sha": "45c58c01d007463d0708fbefa38feb249c6fd31b",
+      "sha256": "41e9cdc7b59ea555d30c3446261eb35a45f69f37268f0b3e92cd66ca51c6f6d4"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/formation_eligibility/formation_eligibility_audit.json",
+      "size": 1026472,
+      "sha": "fd0ad092c0fe86d193055afa91c4b57de4738cac",
+      "sha256": "040a0a90084825ee97563bd35caab611066d5331a1209043d24706d12e8c0c35"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/formation_eligibility/formation_eligibility_rows.csv",
+      "size": 275459,
+      "sha": "5c86b4e2e6b2758267dbbdeacb4240b3313f9156",
+      "sha256": "9b85129d4ab5497912afebdb74857300b96cc48aae3b14aacc3e5fe9350657af"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/formation_eligibility/FORMATION_ELIGIBILITY_THEOREM.md",
+      "size": 1914,
+      "sha": "243ea73e8ced992c6457055433740ba8735db50c",
+      "sha256": "6f8d3c273699533d8f35e8d3408e553195812b363befc063759761be09164627"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/formation_eligibility/network_formation_witness.png",
+      "size": 56052,
+      "sha": "2f25140cb1f81b6042e8a0a6bb1bafcbbb5422a6",
+      "sha256": "c9e22bf77731b98cde5290b0a1f4f20f42ec3b0f07a84fd80d5a1179fb813e28"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/formation_robustness/formation_margin_rows.csv",
+      "size": 306735,
+      "sha": "409b34e79ee6761bc34a1c181210322d0dbb5a62",
+      "sha256": "98a2656d8cf64b0ea8ede436718b308a457b2f751e6e99a76f97205c2b85eeb7"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/formation_robustness/FORMATION_ROBUSTNESS_AND_BIFURCATION.md",
+      "size": 1979,
+      "sha": "5f718fcc5be42d122e65f88037d690e4e69a9670",
+      "sha256": "afe98dcdc9bb9c0be2d0faf99457590db99c70f47a9efd321bbf689a941d0e65"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/formation_robustness/formation_robustness_audit.json",
+      "size": 971600,
+      "sha": "77d4a245c8721e2cd628b10429e1c39b6ba272b5",
+      "sha256": "9141dc01e98b09278a4dde8ee6eb97f22728784568ddce135bda712a961cac2f"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/formation_robustness/network_formation_signed_margin.png",
+      "size": 56697,
+      "sha": "f85e45f3efb5b8e343d64501ec2e6f15d20a9fd7",
+      "sha256": "6df70824fb8097fa24e4d97600d65c32dbbf43b51adf279e969646d38f9bb08d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/hardening_summary.json",
+      "size": 8990,
+      "sha": "2dcd2b63b71b478c06b1891189af4908db39987b",
+      "sha256": "e8be473fef20ea9b22fd333a719ef7613db5a0f0ae01e6eff3635d31a3a2eb87"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite_provenance_events.json",
+      "size": 2,
+      "sha": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite_provenance_frames.json",
+      "size": 2,
+      "sha": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite_provenance_manifest.json",
+      "size": 616,
+      "sha": "0b3a16d4729364e37d5bb1b1df3daf3d8f8850d8",
+      "sha256": "9bd76811da8def22d65cbad99c50711ce2ba4a715d23e925c2ac98840dd9dbe9"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite_provenance_summary.json",
+      "size": 8074,
+      "sha": "c8575fb25aaf4fbe7de941630f07bee05e51b8ff",
+      "sha256": "9ee9d72bfead61efb343740e64ac280798f78140d9405da27018741c875345d6"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite.csv",
+      "size": 5728,
+      "sha": "cd60be8cae26d1d8be9c91667b9386e039caa137",
+      "sha256": "e742379b0aca575727a18c9b983ce50f00b1aebe392691a476598ad6197bf2c2"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite.json",
+      "size": 8074,
+      "sha": "ccfde256e6a318cdd8908a7ec1246177b62c7e86",
+      "sha256": "21752336991ecfe61dd4d62ce3dc125ec8840649345d495aa13490f83589418a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite.md",
+      "size": 713,
+      "sha": "2b9aca884107107bd3265918001d95bc33a2d237",
+      "sha256": "b5535073cf7e72476c94b7bcbad03ed3b15cfaeb1815cfb70f5239c8a33d1128"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/checkpoint/master_state_arrays.npz",
+      "size": 2232,
+      "sha": "d32e771a280c8506c719bb7c441f589f47b20a70",
+      "sha256": "a6f47e41c6ac98c8477acdcf0ebc3545116ac5f8dbf2448b17e422a849cd468b"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/checkpoint/master_state_manifest.json",
+      "size": 418,
+      "sha": "4cf64dc381d8bbbeeb8712eddf0f7a245986a844",
+      "sha256": "9a736cdfdab7b158f95a3d4996f0e96cbfe7a0cfee7280a01abd13fab2870242"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/checkpoint/master_state_metadata.json",
+      "size": 645,
+      "sha": "a07a406bfe128182a227a3e8374f7eb0d0829c02",
+      "sha256": "b01d2b6e9f7606c2c6569c78865c691cf6efc50a1ad6584150bbdf7074125d32"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/cross_stratum/cross_stratum_continuation.json",
+      "size": 23489,
+      "sha": "9a4c5cc07a28a51a42c95b1c3f8abad5fe27f98f",
+      "sha256": "f49b97c50ea2589416c7faa4954b2e6f8b83e540d56ce9de73f58f756e8e4cd5"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/cross_stratum/CROSS_STRATUM_CONTINUATION.md",
+      "size": 1879,
+      "sha": "a49ece80403d7ef7d44573ff73c4778989683565",
+      "sha256": "30ea500764298d29de9c6ae3064bd2cf51f839705e563a2006566d5088ef1b75"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/cross_stratum/cross_stratum_real_states.csv",
+      "size": 4592,
+      "sha": "f7399de0be14727098759d0060590e37226edf79",
+      "sha256": "491528f93b0c4dca39617f263634cc73e30ea7ab67132b3e9f5997454ca72751"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/cross_stratum/cross_stratum_synthetic_witness_mass.png",
+      "size": 118767,
+      "sha": "01d52b51e773b13f3b30bbf93a7f1434473b47ef",
+      "sha256": "bdb5fbd01d1caf0ae2d9a0b915471545255b0963c0a009de45595aa89378d40d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/formation_eligibility/formation_eligibility_audit.json",
+      "size": 38850,
+      "sha": "bf88b9d3d89705d121686f6594abc3ca5c427a1e",
+      "sha256": "82fa0d9a6cb0dd2d582f8b207de1f10e773fee553340bba1ecb4a68292e68219"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/formation_eligibility/formation_eligibility_rows.csv",
+      "size": 11638,
+      "sha": "c6838380dc01b5ba442a466639a30b26771ccf73",
+      "sha256": "d422bdb2aa5472306520e0a77b77f683919c34be100b1fabc0a612d207925cb1"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/formation_eligibility/FORMATION_ELIGIBILITY_THEOREM.md",
+      "size": 1868,
+      "sha": "22d3d9f837252643fbfca11a0d854e9cc2194794",
+      "sha256": "7d75e2ebb2723fe5e345fe40dee8b7fa89571f66c2f6a7d81e2ea5f77759a37d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/formation_eligibility/network_formation_witness.png",
+      "size": 56052,
+      "sha": "2f25140cb1f81b6042e8a0a6bb1bafcbbb5422a6",
+      "sha256": "c9e22bf77731b98cde5290b0a1f4f20f42ec3b0f07a84fd80d5a1179fb813e28"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/formation_robustness/formation_margin_rows.csv",
+      "size": 10551,
+      "sha": "1daa2ccd3c6dd3d22d40ea4f5175b6577b92fa74",
+      "sha256": "a889199cda8ff13d9bd345f208a96d9ae561156b1f7590c62a0208c08648aea7"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/formation_robustness/FORMATION_ROBUSTNESS_AND_BIFURCATION.md",
+      "size": 1957,
+      "sha": "eae7b13b3177a0e293469e65b879eef51cdfc80c",
+      "sha256": "c8d3b2dded599533838ceef2a1bfd527f15f9314f059153563e0f0a3be2e5bba"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/formation_robustness/formation_robustness_audit.json",
+      "size": 37488,
+      "sha": "44c4d1f8c9c64023298ab09cb63e57d2a485b8d0",
+      "sha256": "3ee6d6fcea83f9112c5ff75729491ca05e09eac430a997a390aa33445850fdf4"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/formation_robustness/network_formation_signed_margin.png",
+      "size": 56697,
+      "sha": "f85e45f3efb5b8e343d64501ec2e6f15d20a9fd7",
+      "sha256": "6df70824fb8097fa24e4d97600d65c32dbbf43b51adf279e969646d38f9bb08d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/math_audit/integrated_math_audit.json",
+      "size": 3506,
+      "sha": "3e0c70170708ef2067c8c87af1a225af9b556424",
+      "sha256": "74631d3ee0fada79cb146b49f9f6ae4b8293a3994276b58875468f5e162ac478"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/math_audit/INTEGRATED_MATH_AUDIT.md",
+      "size": 3844,
+      "sha": "e08f1b8dc73aae00b9a289defd8b5a7e145cb89e",
+      "sha256": "5a6ee8621d28d8e3f0029f25e02b3f7a88f8432c036234b70aeab96a741303f5"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/parent_formation/network_parent_formation_radius.png",
+      "size": 48626,
+      "sha": "9a04a7dc0ecec0c10e044c759ec58070bc1ded5f",
+      "sha256": "581acc3bf9e7f08c00729881181843ad5af7153ccd2282d0a7ee122da9457c6a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/parent_formation/network_runtime_stratum_radius.png",
+      "size": 50942,
+      "sha": "18a971569915552c3ae7da48443ad31c5b21e6cc",
+      "sha256": "57c48640e52864f4f9b49b448d0fcbb183b5fec25a69cffc6654217c11b02642"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/parent_formation/parent_formation_radius_audit.json",
+      "size": 105400,
+      "sha": "b0736124f3017017ea93a1a381f18a3b428c8303",
+      "sha256": "9b2b74672d152df68e13d09fe4aeb1303b15a706948e53b1d86085df9229ff39"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/parent_formation/parent_formation_radius_rows.csv",
+      "size": 44467,
+      "sha": "5703ecbaf9a6660bfd0efd8476cdc56af95fa9d8",
+      "sha256": "9d8dd66e419419899b48689089c0b2d838f30201b29ac6918c539894bc0b5ecf"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/parent_formation/PARENT_FORMATION_RADIUS.md",
+      "size": 2570,
+      "sha": "1a57833c19d092b6179112484bb7f0130866b10d",
+      "sha256": "702eefa6f119808845f07a40fa85bdc7c36fd130cad0d5b6a9c339f288799c36"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/real_network/karate_network_audit.json",
+      "size": 56064,
+      "sha": "081a5626b2cc92576fa36916bb2fb5af85eaa770",
+      "sha256": "5bcb40ddc6fa43d33ec806239582ded92937949dba9426801a4ba80b7648d148"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/real_network/KARATE_NETWORK_AUDIT.md",
+      "size": 1647,
+      "sha": "7fc390c7476f87531666918cd07f7045b1a36737",
+      "sha256": "a99e0d406eccada80c1d4b4f6712ff501533c3ba5e76bbc2f0dfa22e84d08d11"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/real_network/karate_network_transfer_summary.png",
+      "size": 39236,
+      "sha": "477ec2c5096be32f8deaa76fd10cab00e044a5cf",
+      "sha256": "6db3f30750f162bddbe976b12b042ff2bf9c56865c5cd55d01cd92c935e28a17"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/real_network/karate_transfer_records.csv",
+      "size": 14039,
+      "sha": "8dd5c106028d07d8ffd291a4c59feae37af5de4b",
+      "sha256": "53d5aba994fb32828151e0734bd22b2959c503baadbfb8eba9d200d553f031d4"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/robustness/robustness_carrier_sensitivity.csv",
+      "size": 691,
+      "sha": "78b56ac21d8663efa102b3bd6e3a7a1465c1e73b",
+      "sha256": "09de6df8d5feae4d4d356ce1b596e287d404604bbfba29f26f028dfeeb58635b"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/robustness/robustness_provenance_events.json",
+      "size": 2,
+      "sha": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/robustness/robustness_provenance_frames.json",
+      "size": 2,
+      "sha": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/robustness/robustness_provenance_manifest.json",
+      "size": 462,
+      "sha": "59b7a843235d78e14f55b5aa717d73769c46a754",
+      "sha256": "d554438a9cfa0e7ba741f326c08ae3151d9ef26e34cc61ab84f16b2884998b65"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/robustness/robustness_provenance_summary.json",
+      "size": 428,
+      "sha": "0d9865bb11d3b6d190d38e2516feb664be5f2d0d",
+      "sha256": "d6d0444cd06e092bf139b3c8bffb97cc0824ca748f6d23fa4b67bd926946acb2"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/robustness/robustness_tolerance.csv",
+      "size": 837,
+      "sha": "ba6c1e9234ed7a4b0f979146b9b9c2f5cad28e49",
+      "sha256": "1ff921ef062edf27a6c2a2efdc66992be71d645fc51cb9560a750442cb47555e"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/robustness/robustness.json",
+      "size": 109234,
+      "sha": "5d68ba44ff7d55945b98f6b65b2022c634d06be9",
+      "sha256": "d93ecc9261414eea53585f71506ffdf9c6548e2dff6e4dbb5e4d804c5a1e9196"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/robustness/robustness.md",
+      "size": 610,
+      "sha": "f0e68a259e827fb946f5c031ea2445160c7fd197",
+      "sha256": "dc8d7eac19801fd88245e5912b15196fc23d11662772e7f51bf9a5004f768eeb"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/runtime_transfer/master_runtime_transfer_audit.json",
+      "size": 2147744,
+      "sha": "a8943e52bc9b517d2bc4e19993c0913b18053303",
+      "sha256": "32ec2c53416f0e0c79d734af1e4e23f6e58c4990f34ca9864c6cfaed4d3c10e4"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/runtime_transfer/MASTER_RUNTIME_TRANSFER_AUDIT.md",
+      "size": 2107,
+      "sha": "61aca08316299534812efff801efc971039ff4d5",
+      "sha256": "007af55bc5b616eb5aaa42f5ec56e88d04836c857bc8b6cc022c1860c48e776d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/runtime_transfer/master_runtime_transfer_records.csv",
+      "size": 676326,
+      "sha": "63a3afc68519867adf5ba6624d8cd7f1d4da03a2",
+      "sha256": "8ca9f4f16945bdfaf28290ed80a7202f0b37a1f1ed9b2db1df169f27d0605a2d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/runtime_transfer/transformation_corridor_overlap.png",
+      "size": 87026,
+      "sha": "5bc9bb7e52dc15fffdd2c9919221b1fd532aa696",
+      "sha256": "b64add6370d91c49a8c86129c61ae4626b1596fc0fd0cd1d9b7abc082ce91980"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/stability/recursive_stability_audit.json",
+      "size": 10048,
+      "sha": "c18d490dca8f6df709168fc8659c5d74bd1eb6ba",
+      "sha256": "13872859959b8e775ab4f3b602db372c5accaeb36f99e392a8c3c419a453a193"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/stability/RECURSIVE_STABILITY_AUDIT.md",
+      "size": 1000,
+      "sha": "2f550bad55146c85cfb0b5366854e347db2677a4",
+      "sha256": "1261b555e9951cb1b0f8eef2e0f1f771694334757f3d5e7a2a809c4a0c840eff"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/stratum_geometry/native_bifurcation_margins.png",
+      "size": 83235,
+      "sha": "859bc11c16b01fb34977fd88fcb4740f133a0802",
+      "sha256": "601b0184592b923a56b7b343c632df395d3136096c6cc4e6be23b5132b19ae74"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/stratum_geometry/stratum_transition_geometry.json",
+      "size": 28353,
+      "sha": "0acd14a5cf4067d7f764359f024cc4db68c476fb",
+      "sha256": "f9bf36e61d134097a2b894ac51c205a23e1bc0806e49ec5ec4f6291e21294b68"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/stratum_geometry/STRATUM_TRANSITION_GEOMETRY.md",
+      "size": 1577,
+      "sha": "7df6bc648fdd2ff2b270921178c55d9203d33ab3",
+      "sha256": "51d6b731c73d54be8e669d0ba15e34baf38436a7624e42a860487cb27f1deafa"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/hardening/stratum_geometry/stratum_transition_rows.csv",
+      "size": 7364,
+      "sha": "dd42ed7ee6aee0e2a5134d5387d799b5b2531611",
+      "sha256": "dec5bc5087b80e26d0581e0bdaeff6d63444bdb8918ba390646ae5fff5880d8b"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/identity/identity_comparison_summary.json",
+      "size": 604,
+      "sha": "70812fa65c7ad11f55ff1e0c39ba47e4a7d001ef",
+      "sha256": "fc7b3e60a5e04435023fba56703d316813b97e443fc6805b544b03445b972349"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/identity/identity_comparison.csv",
+      "size": 17484,
+      "sha": "3f4554fc7e7bb60a26ad1457d3307a0594b14c38",
+      "sha256": "372029fd2076c4a8dbc5a9c0df3196ca32ef0093e325c47dde4d674acdeeb126"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/identity/identity_continuity.png",
+      "size": 121275,
+      "sha": "3985042e94540fc883c1cf549888b94e0d488a2d",
+      "sha256": "1d193701593ecb2eb870c94872db5a3b36f484c015b0ededaaafdb3a9f16635d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/identity/identity_control_continuity.png",
+      "size": 118609,
+      "sha": "a16171bf8330942e979944f96cebd021081971ab",
+      "sha256": "08a5c765a2343697850864c8a928ccfa51186aa59f71d956b728501072b1b804"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/identity/identity_control_events.json",
+      "size": 2,
+      "sha": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/identity/identity_control_final_identity.csv",
+      "size": 304,
+      "sha": "6dc6fd5526e0218915acdfd7a45c92c0aad75b7d",
+      "sha256": "1766842cf208eb16f324457114933c946997418eff341ee46e03ea6840a93a97"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/identity/identity_control_frames.csv",
+      "size": 52182,
+      "sha": "130f56074060f545b6641d70a3e4eaca45ceeb38",
+      "sha256": "15da05ad3d86152543da15def728c18ffbcc8c8bb0968ead19ff4014130b0f37"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/identity/identity_control_summary.json",
+      "size": 697,
+      "sha": "079ba1ac99ac872effb71eca23461b79668e77c2",
+      "sha256": "df5d7402895ed08d0206a379a36271febd1e3fc66e267817bc73d6bd3ab19049"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/identity/identity_events.json",
+      "size": 35311,
+      "sha": "483ac424a824f8216c92aa3df9cd3f03edc41d1c",
+      "sha256": "3fb5a128447a838e5995061fcc1d312463539bf67706377fc3048c0a770ec6b9"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/identity/identity_final_identity.csv",
+      "size": 304,
+      "sha": "ab36c41650ae29632696fcd9ba1bc1019d45090e",
+      "sha256": "514399087c125625a03d245078a38652b4dcb97fc37116f5f1ffe71546538ab1"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/identity/identity_frames.csv",
+      "size": 52297,
+      "sha": "78489a6e2e7e76a26116817bc7ca461f54a3f1d0",
+      "sha256": "17d4f24c2ffe7545c31d6a2cde9cc2e268d1207f2aefc3fe0d443d57647a7e69"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/identity/identity_summary.json",
+      "size": 715,
+      "sha": "1de48c27b61670028adc2711383ba4346823b35f",
+      "sha256": "d30b0f5cac26a22f1a0bc7f37be28b181e4a663d85a00f2bc86c6a6c9db9fe5c"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/learning/learning_comparison_summary.json",
+      "size": 328,
+      "sha": "96bbf454fdca10f4d463d25c0a01c7e6c0811883",
+      "sha256": "2cf1e281549d744b0790c8e961417c6e5eeede5dca613889a3c60926be024b6a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/learning/learning_comparison.csv",
+      "size": 7796,
+      "sha": "9f876667fb8aea4d08d1a80d683333a40b7c6864",
+      "sha256": "aaf669c54fa33651d7bedb29aa16442666627ef31e06b88dae11011e1ca8c4a4"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/learning/learning_comparison.png",
+      "size": 96620,
+      "sha": "374aba0888702f99747675c1dc467f4ea793d6e0",
+      "sha256": "456e723640b9e9131fd2453af718b9dc37ffb32a49883525bbe1b21a61470752"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/learning/learning_control_events.json",
+      "size": 602,
+      "sha": "61ba9e34c7e730080f3fa2fe39b395801446e5ad",
+      "sha256": "d9a79cbe9a97a3aa22f08feb944b6758d6a0ecdc79d64601d5f3bea2f84c2f1f"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/learning/learning_control_frames.csv",
+      "size": 18044,
+      "sha": "1ad8060f771c569b319f131ed0cffd9097012a0a",
+      "sha256": "160559404254a79bb2a7e079c3abda6e3b297c5be6127c2f5aef598d9ac93bba"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/learning/learning_control_memory.json",
+      "size": 2,
+      "sha": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/learning/learning_control_summary.json",
+      "size": 433,
+      "sha": "3ac555ca73f880867a60be8988fa9d05879f7656",
+      "sha256": "098be408d941abfdc991766e79eb2f88762ead910d47049751a31a6ca6711226"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/learning/learning_control_trajectory.png",
+      "size": 88465,
+      "sha": "4e9c164318fe29b95e04ad700144756971c3fdf4",
+      "sha256": "e1fa5c414da66b8c9cd5c7841a606530c8df494ec3b88d5e80ced121b00d24b9"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/learning/learning_memory_events.json",
+      "size": 15449,
+      "sha": "3dd65a02c8124b3ecbdcdd50ace7e7b1a1f840cc",
+      "sha256": "9b2bd09aff4bdddd76197236652873a5089d1d8cf0f40a698cac623c15200dbf"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/learning/learning_memory_frames.csv",
+      "size": 30599,
+      "sha": "d591cd5877bc42aa5d6d77831714e78c2fbbfa0a",
+      "sha256": "d7e4dd6b3c4ac9a0bac192aa51efb7728b1d7412d91fbc20d791297f7893d2e4"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/learning/learning_memory_memory.json",
+      "size": 1091,
+      "sha": "838c4f4bb1cfefafe0bb68f89e150b12ceb67b49",
+      "sha256": "136434eecbf2b2d7f08a19c7ca6031332b908d7eed14d00ff441afca24918077"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/learning/learning_memory_summary.json",
+      "size": 433,
+      "sha": "7df79bfab2c2844be0e6fe3ac39051d4d6acc78d",
+      "sha256": "195a914101cf97d1b8f5e55fcae11e73a13f68616aff4f5f611c41b2d855989b"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/learning/learning_memory_trajectory.png",
+      "size": 98238,
+      "sha": "d9a26e07f7f1c6cf081c035a095c93cc6f51816c",
+      "sha256": "b70b663bfb5f8877186b0bd975e92916e525661d12cb0e8e2583b05eae159b82"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/math_audit/integrated_math_audit.json",
+      "size": 3161,
+      "sha": "c9946b8acd320bd1459e0de627b1c8fc785e5a73",
+      "sha256": "381e8b74d0c6a52ff3f0e6b02088837aa94c0cfc5e96ac5032456823c4854845"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/math_audit/INTEGRATED_MATH_AUDIT.md",
+      "size": 3502,
+      "sha": "da9f7b9ad03b38ae3d5eb5433c944a1e9c929853",
+      "sha256": "56ae0a092e58a98ac00e2489f6487eaa32e89e41f97fff598fb800426a901484"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/parallel_evolution_sweep/seed_sweep_provenance_events.json",
+      "size": 2,
+      "sha": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/parallel_evolution_sweep/seed_sweep_provenance_frames.json",
+      "size": 2,
+      "sha": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/parallel_evolution_sweep/seed_sweep_provenance_manifest.json",
+      "size": 549,
+      "sha": "4863c5215dabff96e8d8422fe9977695ee2c177b",
+      "sha256": "5896053f066258f0c75c22c5868ff11f7069fc036bcdcaff40d4c728c599a54b"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/parallel_evolution_sweep/seed_sweep_provenance_summary.json",
+      "size": 6008,
+      "sha": "202b4061e704e784ee2a4d17803e5257449cfc58",
+      "sha256": "7000305fcc6ca38e87a63038aeae35a53fb90a35bda9fc384af190f3bdc94a47"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/parallel_evolution_sweep/seed_sweep.csv",
+      "size": 4123,
+      "sha": "2e2f40eee8abaadfa0cc3c16c126255ba2b57538",
+      "sha256": "ad1e75016f42c4aa4e89412466516853e724142bb7166e8dc5fc48529bf6cc2b"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/parallel_evolution_sweep/seed_sweep.json",
+      "size": 6008,
+      "sha": "8a59a90bdaa6eb41680ec027121b8b3605686adf",
+      "sha256": "d3d25029c08752250ccfdd71063028d8b56b5d32cc44e0562e681b239929b1b0"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/parent_formation/network_parent_formation_radius.png",
+      "size": 48626,
+      "sha": "9a04a7dc0ecec0c10e044c759ec58070bc1ded5f",
+      "sha256": "581acc3bf9e7f08c00729881181843ad5af7153ccd2282d0a7ee122da9457c6a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/parent_formation/network_runtime_stratum_radius.png",
+      "size": 50942,
+      "sha": "18a971569915552c3ae7da48443ad31c5b21e6cc",
+      "sha256": "57c48640e52864f4f9b49b448d0fcbb183b5fec25a69cffc6654217c11b02642"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/parent_formation/parent_formation_radius_audit.json",
+      "size": 3036396,
+      "sha": "c15222540031169843d5514a6741aad6385f61d4",
+      "sha256": "0636589b50f4f29711411ef741164eca608250f474777088d333482dd0f85f08"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/parent_formation/parent_formation_radius_rows.csv",
+      "size": 1404799,
+      "sha": "444012cf93e1dafa3c9b8d7b25de81fbecfbb874",
+      "sha256": "a052719ddf36cd4521627f8f75ef6c5b5fa06ff1950e12eb88dcf9b062cff6e3"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/parent_formation/PARENT_FORMATION_RADIUS.md",
+      "size": 2591,
+      "sha": "2fba1ebaf96f9b530dc602b6cf4a205444f3fc22",
+      "sha256": "b918bf57ddb8f410d35329ff59fa9a8443e837c00781da539c746842368eecaf"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/perspective/perspective_closure.png",
+      "size": 130234,
+      "sha": "d4c47f9f01d09bbc9d59503df0b92510efff9570",
+      "sha256": "75a212b0b9d0abd506c5257e0cc05ba87391c3141df838982901609d222cfda3"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/perspective/perspective_comparison_summary.json",
+      "size": 663,
+      "sha": "798ddcb73b5fb6734b9b7ef0a6ed6d4135d54f41",
+      "sha256": "393029b69ad326b63d953c5389def1c65d880b5ca661aa4862f24ac935661490"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/perspective/perspective_comparison.csv",
+      "size": 11776,
+      "sha": "25b44ba572af81004de21591c849deda528062fb",
+      "sha256": "859e3f42b1a2b078434d1f9b62572fdf2b8da45b6e04007f8f59d8e09d004e61"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/perspective/perspective_control_closure.png",
+      "size": 128092,
+      "sha": "f743e6d269fed4ab9ddcef55beed4b46cdf0b864",
+      "sha256": "9e45fb4d69af86f18575c4e63fd22eddd265c412991ece170491b8de4d17cce8"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/perspective/perspective_control_events.json",
+      "size": 3100,
+      "sha": "5b2e129596a36bf5d81f08a54f253adf5ea46f1c",
+      "sha256": "ea9c7894d8a1243fe28bd086eaf52e5db75a97afdef15fe1fe82bb9ba10b3395"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/perspective/perspective_control_frames.csv",
+      "size": 34806,
+      "sha": "a585920f196a19161560b8794efeb5d407972e84",
+      "sha256": "d099237f7298cdcceb52aae5c711f02cfcca36db88c49723156e32b1cdd8f803"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/perspective/perspective_control_standpoint.csv",
+      "size": 304,
+      "sha": "7b759bd5a0026de12d3ad62d2ca4e6c6d27711ed",
+      "sha256": "6666543fffc411c410df4273d55f52e0b76849d236fb5ead59513cdf2fac0408"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/perspective/perspective_control_summary.json",
+      "size": 687,
+      "sha": "26e56bd55938ac5ecd3b5b2fd65f16e1c1d41ca6",
+      "sha256": "2307277697bebc49aec93efc63d1a0be894a25e1f3d663ef1d9c29e29d70fbaf"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/perspective/perspective_events.json",
+      "size": 13503,
+      "sha": "4055b176821bf2587e550c775be2f909dbbe7948",
+      "sha256": "6c54e3119304702a78113bf610fc3055c271f08441779e5aff146aed6bfe2014"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/perspective/perspective_frames.csv",
+      "size": 37263,
+      "sha": "573cb8e89cb46e4b7de341bc99bfb6768760f7cc",
+      "sha256": "9315e3979f6d6d0736e3ed23a3cf2f379156fc6ff4c497a6035598e3809b41d1"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/perspective/perspective_standpoint.csv",
+      "size": 304,
+      "sha": "b7019fa0dbb155a024a4b4cdfcda8951943b41b6",
+      "sha256": "5b86ace1b7bf6e9beb697826a6153ae9ed3e269ebad739d9d66519f39d864eba"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/perspective/perspective_summary.json",
+      "size": 704,
+      "sha": "8a81c60672f6f5861463eac99e591f4e952e7f35",
+      "sha256": "2f7d54390965fcf674f324a6089b94ddcec34c25e22575b6ac944fd21f9f7ea5"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/population_fission/population_events.json",
+      "size": 888,
+      "sha": "678d9bcf946d3c79ea8ef7dc11b66daf0d832b06",
+      "sha256": "ff3297f7f1880ae863883555fdb86090d7a23abbf93a32557661457ee021d87c"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/population_fission/population_frames.csv",
+      "size": 1906,
+      "sha": "e2da838d467bc2a2af6539867faad3f57020cc73",
+      "sha256": "d9bd0e177e73533edf26170c942549d2212224558deea64517aea8ac415fbe91"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/population_fission/population_lineage.png",
+      "size": 58139,
+      "sha": "3d711ee2fe9a518f9c6da896f0d6ac776befe8cb",
+      "sha256": "b123f7d289f5b23f1d56c8e65f9aa96e37a4398c9a5c492088c5172fb1a2eb0b"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/population_fission/population_summary.json",
+      "size": 303,
+      "sha": "ceee5fe93d698763994aef71d5475a37750cf8f3",
+      "sha256": "5975e69adfda1e3f6b3a3c2992b223f7ea1cf9ac9da0041739f0e593c89b5194"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/population_fission/population_trajectory.png",
+      "size": 68635,
+      "sha": "304383b6f975934491ee5b4cf7e4a5cceae955d1",
+      "sha256": "3bdcf27266e7983d9d96b6850531b17c8233051bc847518781f627651d863a0f"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/population_growth/population_events.json",
+      "size": 1819,
+      "sha": "dbdbbb0803beefef4978ecb55330aad503180dd7",
+      "sha256": "f06938c1c92bfe08a8cb5b4957c676963917a4237e0a88b953ef8232bfb4476a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/population_growth/population_frames.csv",
+      "size": 1429,
+      "sha": "b7166528fc32a3c80a6938abfed20441edebc65d",
+      "sha256": "968d3ff46e1e176851fa428ecd861e0f79fdc91e62dbbccbae94d2ea3b708b71"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/population_growth/population_lineage.png",
+      "size": 32772,
+      "sha": "fcafec3734db901ba089d871a5baf16f7ee6ce01",
+      "sha256": "018ab902f03db354107c8591d9fb256650e93ede04921f559109decef6a0a0ec"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/population_growth/population_summary.json",
+      "size": 295,
+      "sha": "6aafbe1225aaa40ee786715d9f092ec6c7012d81",
+      "sha256": "44631a514cc0529b82c038fdb661bd42a280c4742c8d5562d9f155c8a29ee0b3"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/population_growth/population_trajectory.png",
+      "size": 73732,
+      "sha": "2805f26609d3eaf59c7365c0805dd785abd0c445",
+      "sha256": "203711e869ab0364270f50c9a29a652415617e9f5182e6e952ac63fc0027751a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_co2/co2_carrier_schema.json",
+      "size": 2038,
+      "sha": "de1fc452d4781fbeab89cc8bd3d829957cd613c4",
+      "sha256": "f01260847cb0dadf5cc80fc7052add00d75e5d50cebc17a1b611d78b25751691"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_co2/co2_frozen_model.json",
+      "size": 6297,
+      "sha": "e57784bb776747f01465aa218a3b4927591b73ea",
+      "sha256": "76e69cf3820c2f87ff063bf70c7ed3b8b51db9ae6e13afa3e74ce60dc9cb222e"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_co2/co2_preflight_events.json",
+      "size": 2,
+      "sha": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_co2/co2_preflight_folds.png",
+      "size": 29285,
+      "sha": "82b7e5156d091567f0fb7ec40239ad6f6dcb2a91",
+      "sha256": "a721aeb38ec4cfc924b32228379ab7316aa84fce2eff59118bbb67faf58704b8"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_co2/co2_preflight_frames.json",
+      "size": 1112,
+      "sha": "af4b5a6623484843ccc6fdd5e1e0c9fa261a0733",
+      "sha256": "5bf79b6be8782d5f748a6d6ee54e3b1877c9ef917f3aecc2bbe6d5cda36156b4"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_co2/co2_preflight_manifest.json",
+      "size": 647,
+      "sha": "08e080afb01e9ce5d7da01f9e2ceaf639926ab42",
+      "sha256": "9c75e96cebe15c11f2f04aa2e0533ac474d6124383876c267b0bd42874620f83"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_co2/CO2_PREFLIGHT_RESULT.md",
+      "size": 1900,
+      "sha": "8f960ea8dac658739b225c824d9528eb353f6a9d",
+      "sha256": "8f0d2e03fd11de99f4e51902c946ad428ff5a3630bc606542a24f9a3d70af8eb"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_co2/co2_preflight_summary.json",
+      "size": 1917,
+      "sha": "4dd0069ad4fcf113cf112f45a187627011b53684",
+      "sha256": "fbe7825b3e836667901970065ee306095cf9e0cf03ee5a9d4bfec2c92bcfded3"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_co2/co2_preflight.json",
+      "size": 1917,
+      "sha": "2a2abf0176c8cb510d89ccd1accee7ca14b28b10",
+      "sha256": "98e7b1e2c0ae8bd15a343476a8da053ee32e98e77837c7464db978f1eb6189ba"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_co2/CO2_READINESS_TOKEN.json",
+      "size": 364,
+      "sha": "f877da4d4abf64e7c40655809cce64d534338fbd",
+      "sha256": "e33c3a90bb181022c902834cdf823a55dcad547a887b8446db82c6952a0d74a4"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_co2/co2_validation_plan.json",
+      "size": 5380,
+      "sha": "44a349a8c6f03b244b9c193c3afbbf18dd6f5142",
+      "sha256": "debd6094caad539603d2eb601f018a5d1a343f215ee1066211019a159812468c"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_enso/enso_carrier_schema.json",
+      "size": 2678,
+      "sha": "cc77680aeea6c646e4c85c355e02ff4dc2e18afb",
+      "sha256": "3fb72abbfabf3caaf0f1d10811b7c340fde48dfd232f5784add0a43fbe04114a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_enso/enso_frozen_model.json",
+      "size": 7503,
+      "sha": "9eb43f4bc1a3397b6e2138c7136960360f396219",
+      "sha256": "b1be521e79c9bfc6cf37d8855f12e8baf15eac9643db958e4e3220bbcebc9b95"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_enso/enso_preflight_events.json",
+      "size": 2,
+      "sha": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_enso/enso_preflight_folds.png",
+      "size": 36579,
+      "sha": "5c4391dc0fe84a0648ade83b4f8e8112efbf8d9f",
+      "sha256": "544607cd756f8310b791c4882a35173dbb20bf6d1df0963491b62bcda466cadb"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_enso/enso_preflight_frames.json",
+      "size": 1284,
+      "sha": "bdc19bc6cb133553fa3f619fc3b9d06824ff9fec",
+      "sha256": "eb7e0d6a5a1b41660d7bc6a30d3e93c338eaca8917c2ba7379188d4420eb5271"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_enso/enso_preflight_manifest.json",
+      "size": 720,
+      "sha": "5d0739993791e1bb070b74cb90ac1f59946d2825",
+      "sha256": "63af248efafe11adb547e2798a436f0344afda87d892ea0ac9384cfd03c59d0e"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_enso/ENSO_PREFLIGHT_RESULT.md",
+      "size": 2042,
+      "sha": "941e8d3090009272b15c2bc02b5e58f2745e26d0",
+      "sha256": "36fdffbb4e3c38ff3925bd651ce6a295b18906c8def980b2b62e2c311763f9c5"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_enso/enso_preflight_summary.json",
+      "size": 2274,
+      "sha": "ba24e6fd446f25067106db7ed80d6fd411fceeaf",
+      "sha256": "df0937cbb0a9e9894cc0b08acdb77ef9b48b6c06ac3ee62fe869c63e0c2a003a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_enso/enso_preflight.json",
+      "size": 2274,
+      "sha": "7286237af75cd9af7279d60118ce5b0797190278",
+      "sha256": "212e2294d6e50ed77b0da1606ff2e4bf971de72a1aebb6fb790f9b5927dda786"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_enso/ENSO_READINESS_TOKEN.json",
+      "size": 433,
+      "sha": "f1f8d0f5fcdb35c9a729ddfb448c449a9f2cc318",
+      "sha256": "fdc5994b8410feba9834b63782f313abc9a888085d6a14343f62b4552b91e2d2"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_enso/enso_validation_plan.json",
+      "size": 9118,
+      "sha": "b28dcb1d7e2ed6a27708ade377ab247c0c99671a",
+      "sha256": "e75cb68d9c394ee45eb069b457f66bcdc5c80b9c62db543991ed7639e36dac7d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_network/karate_carrier_schema.json",
+      "size": 1541,
+      "sha": "548bf1b0f85746664260935889e4991f1e6c3c21",
+      "sha256": "9afffd0a1f40382c52a28720b7bc2d705b1ffd3afe0140960e85c4cb9c92d053"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_network/karate_frozen_config.json",
+      "size": 575,
+      "sha": "a814b0097c11b885f62d4c2f7777acb23f52af35",
+      "sha256": "1d2fbbbef53bebf36450dea638eda2bb734c63773284334e3b081e71e04bd363"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_network/karate_network_audit.json",
+      "size": 56064,
+      "sha": "768199e7796c65a419c9b35b704303f35406435b",
+      "sha256": "563ebbbbc0fa6e0e94806b60b277b77d0d4cc59d08a8c2f3222e82e38baca3b2"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_network/KARATE_NETWORK_AUDIT.md",
+      "size": 1647,
+      "sha": "7fc390c7476f87531666918cd07f7045b1a36737",
+      "sha256": "a99e0d406eccada80c1d4b4f6712ff501533c3ba5e76bbc2f0dfa22e84d08d11"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_network/karate_network_transfer_summary.png",
+      "size": 39236,
+      "sha": "477ec2c5096be32f8deaa76fd10cab00e044a5cf",
+      "sha256": "6db3f30750f162bddbe976b12b042ff2bf9c56865c5cd55d01cd92c935e28a17"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_network/karate_transfer_records.csv",
+      "size": 14039,
+      "sha": "8dd5c106028d07d8ffd291a4c59feae37af5de4b",
+      "sha256": "53d5aba994fb32828151e0734bd22b2959c503baadbfb8eba9d200d553f031d4"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_sunspots/sunspot_carrier_schema.json",
+      "size": 2719,
+      "sha": "458c009a5eefbfd96c6c2b93feb28ba0ede3f9eb",
+      "sha256": "befc8e2f3531c36d30af3f30ae4e0e8d6fecbf82a56118ea39156ba38b2a72ad"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_sunspots/sunspot_frozen_model.json",
+      "size": 7769,
+      "sha": "4f5040e3f7e6a4a8f138dc7d2384bd30a7a97e30",
+      "sha256": "d36e628caeb7d31003a42bafb6b5b64ac5e51fd81c04e8939ef2d03b791fbd05"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_sunspots/sunspot_preflight_events.json",
+      "size": 2,
+      "sha": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_sunspots/sunspot_preflight_folds.png",
+      "size": 35669,
+      "sha": "a064591538a46b9c31595283d34039c80dbc9391",
+      "sha256": "bbf341d64f69912da2e5d207f2e6ac7d44484edba3e4455291fae81ca17ce9c7"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_sunspots/sunspot_preflight_frames.json",
+      "size": 1319,
+      "sha": "2722fc0d234aac68f6eedc63e3a348c2a283d005",
+      "sha256": "31c9067749b91846bac48e62575f3bb9654b2979ebb1f38deac1df91e6969deb"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_sunspots/sunspot_preflight_manifest.json",
+      "size": 678,
+      "sha": "831c0325d34291e180d39520659d8e7f9e9fb535",
+      "sha256": "9448708d997d36f8554a875761741e3abc51b1d723b1f57b0c2918e6f04f0b07"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_sunspots/SUNSPOT_PREFLIGHT_RESULT.md",
+      "size": 2233,
+      "sha": "87a86b8750255737897cd3f391bde5da8aeb07f8",
+      "sha256": "76ca5941c1b377d5ca528d57d0bd9d2b26fbc68b2e4130f5cab8bc328fdc152d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_sunspots/sunspot_preflight_summary.json",
+      "size": 2317,
+      "sha": "7a95bc3e05517e80827b904e9d7122319d574670",
+      "sha256": "0cc01b32a47a87f7d0afb17b9c7f495ce5dc79a4da83268c02c18a3e55dc7051"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_sunspots/sunspot_preflight.json",
+      "size": 2317,
+      "sha": "1c695160d9059ee386e9de8ff4495617f7f02fab",
+      "sha256": "e4ff1101bd9a810f84860534a8f2e6f15e21c362fb68871f2f6cbe4e17191284"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_sunspots/SUNSPOT_READINESS_TOKEN.json",
+      "size": 416,
+      "sha": "87c108e42cbf09e6b76eb7fea632f7dba2be179a",
+      "sha256": "239b5baa26293ceaa773971983a98f0f4e48eb681eef58e8143b71eea382c382"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/real_sunspots/sunspot_validation_plan.json",
+      "size": 3867,
+      "sha": "d4c3b22d40ffccdc9ecffcaf5323c3969e52f4c0",
+      "sha256": "d12e4b9ef773a5732721d44c019fb15dd4e90807c18c1aa9c9d05e41b99f2cdd"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/runtime_transfer/master_runtime_transfer_audit.json",
+      "size": 2147744,
+      "sha": "e3aabb523d9a71ab2d15fb2582f60ea261c1452e",
+      "sha256": "5ba1ba425f1457f5f254f6213efab0795358cb59fd0c740fa9d49190517e2308"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/runtime_transfer/MASTER_RUNTIME_TRANSFER_AUDIT.md",
+      "size": 2107,
+      "sha": "61aca08316299534812efff801efc971039ff4d5",
+      "sha256": "007af55bc5b616eb5aaa42f5ec56e88d04836c857bc8b6cc022c1860c48e776d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/runtime_transfer/master_runtime_transfer_records.csv",
+      "size": 676326,
+      "sha": "63a3afc68519867adf5ba6624d8cd7f1d4da03a2",
+      "sha256": "8ca9f4f16945bdfaf28290ed80a7202f0b37a1f1ed9b2db1df169f27d0605a2d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/runtime_transfer/transformation_corridor_overlap.png",
+      "size": 87026,
+      "sha": "5bc9bb7e52dc15fffdd2c9919221b1fd532aa696",
+      "sha256": "b64add6370d91c49a8c86129c61ae4626b1596fc0fd0cd1d9b7abc082ce91980"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/self_model/self_model_closure.png",
+      "size": 214652,
+      "sha": "80f39c3e33f67c03fef140d28923a91f2ed3d1ad",
+      "sha256": "f7eceeee1a2560202207940854c890f1688bf20f315db47b1a68fe3863ad6eeb"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/self_model/self_model_comparison_summary.json",
+      "size": 360,
+      "sha": "145e47098c8c03a9682a8247cd39d5a41e78118d",
+      "sha256": "5dca2b47e6d994dbae79a6dfbe3fc393176225d5900f91d80dc98eca7dbaf310"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/self_model/self_model_comparison.csv",
+      "size": 10296,
+      "sha": "43bf05f4a347f09488f142ec648735676802fad1",
+      "sha256": "07bf786e0ce8fd36a37d00bbb7187596cfc47833a1fa6320dbda269afed458e1"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/self_model/self_model_control_closure.png",
+      "size": 204014,
+      "sha": "14a7759584eeca9e0bbc2ca46b377f44f348c336",
+      "sha256": "1eb1e2ed3e86bdbb21d866e474fc3b91e1dd47ece92f1d34a3e8436286e2d5b7"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/self_model/self_model_control_events.json",
+      "size": 18615,
+      "sha": "7964f3c2748d1889d3f8c87944999864fbbd86ca",
+      "sha256": "4dc6f9c7d1afc3b4e8f063c927a114afd96da6d5d34941f727d7b7459536392c"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/self_model/self_model_control_frames.csv",
+      "size": 28319,
+      "sha": "64a9245b134f8b053242ca0b379a26133d0b4fab",
+      "sha256": "ebc3c31d0f24f6fefd62261ca13eb250b1624bedaed723973bea1d7a9914b1dc"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/self_model/self_model_control_predictor_weights.csv",
+      "size": 3865,
+      "sha": "710a128e95da5c42f06719ef2999f084ec11ab1f",
+      "sha256": "fdf146110c06db5adc2985ed7a509c205018948b8dc3c3a382e8f035a47133a8"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/self_model/self_model_control_summary.json",
+      "size": 588,
+      "sha": "605a900cd2ecd6951af435f75a4350ed8065786f",
+      "sha256": "f22cd956bffc504fe6643d5b97ca312609299841a6b8715b24a84fb99b459855"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/self_model/self_model_events.json",
+      "size": 30704,
+      "sha": "65a8f99a0962911ed360bdaea3c25b15544b24c1",
+      "sha256": "85a94b9882fa29c21e22c44c8a1490f61cfa1f1d30ef78a8c01622bccce5ccfc"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/self_model/self_model_frames.csv",
+      "size": 28013,
+      "sha": "1af317b5210eb9afc5ce9d6b17fe6c123a1dbd9a",
+      "sha256": "08e322c4aee900f9218723df4f0cc774505ac8eb6cadd8a26fad67ee034873b3"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/self_model/self_model_predictor_weights.csv",
+      "size": 3865,
+      "sha": "af3f7758f278b41129357754c4de9424566ced47",
+      "sha256": "3c79d64e5fa38bccf013a9af89c8cb52baf0a4950eb70a1a2cedcdcafd2a7169"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/self_model/self_model_summary.json",
+      "size": 605,
+      "sha": "cfa736a9b64d7985ef14ad70e5009e54a14a8323",
+      "sha256": "9fe058e05d184821b1d2b09bc7df45c88a56402313fe7b0c054673682cbdf5b3"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/small_load/small_load_bound_scatter.png",
+      "size": 83802,
+      "sha": "1898a6f967c0e80258fe55cbef804a93c903fef0",
+      "sha256": "4cc66ccdc8b0f89e0cb55cba41db1fea3fecabf551f234b26974a2e5562c8cd5"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/small_load/small_load_certificates.csv",
+      "size": 1250163,
+      "sha": "6e2af9e0891a650c943fcb57e06606e392e2c505",
+      "sha256": "6108a5ee0c67b17eba468733f5cc39c97b46a77bc237d8b604eed53d474b8687"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/small_load/small_load_contraction_audit.json",
+      "size": 4404968,
+      "sha": "e609519d85ad08202174888390d33cf3af08996a",
+      "sha256": "8402c4464ebf261ff6344c011d770256167074231935018906fc15c332dd61a6"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/small_load/SMALL_LOAD_CONTRACTION_THEOREM.md",
+      "size": 1647,
+      "sha": "b5de75efd6992ce002d5d8821e71c02df953a027",
+      "sha256": "b00ec98efa372bb9bdc83ea117c3e68e8530dcd59e62acc16c5eee8dae9097f6"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/stability/recursive_stability_audit.json",
+      "size": 10048,
+      "sha": "123aa725123831fbdf98971a91cdb459964a5613",
+      "sha256": "91694e33a04e3af8c0e3721f136b15004c7e19a3672c15ce7eec366b47ac721f"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/stability/RECURSIVE_STABILITY_AUDIT.md",
+      "size": 1000,
+      "sha": "2f550bad55146c85cfb0b5366854e347db2677a4",
+      "sha256": "1261b555e9951cb1b0f8eef2e0f1f771694334757f3d5e7a2a809c4a0c840eff"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/stratum_geometry/native_bifurcation_margins.png",
+      "size": 83232,
+      "sha": "e7266ff2a6db26bcbc0bc2466e9bb4bf71a8002c",
+      "sha256": "7eff5820b9ec7b93de878deb7d2b44f4fec465f15310987902ca128582097ebf"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/stratum_geometry/stratum_transition_geometry.json",
+      "size": 800462,
+      "sha": "1e899390906e3654487f75098ecbe58a22415945",
+      "sha256": "810e5edf8a4e56c34d41faa9bf8fbc8521818e7a8916337955e6425c5c806ad4"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/stratum_geometry/STRATUM_TRANSITION_GEOMETRY.md",
+      "size": 1599,
+      "sha": "83ded8fec083c73c2b27924dd8f4578cb4e8dae1",
+      "sha256": "a377bba9d43f950420023422c5c2c217651f74f4a2185ed33de25433ee49eaab"
+    },
+    {
+      "path": "BFG_Emergence_Studio/outputs/stratum_geometry/stratum_transition_rows.csv",
+      "size": 231858,
+      "sha": "43e059ef1fc01ad9a149f0f25f94df666391d498",
+      "sha256": "35a891d3e21ec191c099030c2345e7255f14768875be845c3745e8e2aaa55dc3"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_alife.py",
+      "size": 1492,
+      "sha": "52e85b2e2828fc6aeede76c860dd377c65dba6fc",
+      "sha256": "ba7450ab4b3a58d8b575e8c16ead9bb882cef5e5e40d5c466ac2821c94bad609"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_closure_math.py",
+      "size": 3291,
+      "sha": "1c0d5205bea4398e357f0d0adef6a1a33d1c67b3",
+      "sha256": "3c782149b315c8cd6484ebbb5587e4bfc500bc7dfe632b819dcddc92aa1b414d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_co2_carrier.py",
+      "size": 1511,
+      "sha": "1c16ebd9936986398460417f16e74e668a649a47",
+      "sha256": "091820cd65edbe45827da1920501cab16e4bbb4f8cfdc095ac1167ea128c1c19"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_core.py",
+      "size": 2071,
+      "sha": "c72915be2dd1eea0d46a086859253bd8e3782491",
+      "sha256": "4f0f2ed727bffeef5d114f508d0b39dd2ddbaef0fbf2a5da3c6ebe7cca065b82"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_cross_domain.py",
+      "size": 1697,
+      "sha": "a871d731f2bac4d55f286d48ee96067854989087",
+      "sha256": "03ecc7d0ea46e251a81bc10ee8f1efca213e75509d7cf3605cefac2f2ea87fda"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_cross_stratum.py",
+      "size": 4886,
+      "sha": "f83b27b9da0b72e41590570a1ca5bac344245f27",
+      "sha256": "f3e61c3d8b84c18a0c9cfead6424f44eb413d3e748c7b612d903de147703f467"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_enso_carrier.py",
+      "size": 2663,
+      "sha": "2186746fea6363e259bcdaadfdf02b9620866255",
+      "sha256": "c1eea9f12f0338145f335ade888b0b42678099baafd0ba3992011f0f45026126"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_environment.py",
+      "size": 2350,
+      "sha": "43e1a630758d974636dc36c1411bc1687197e83d",
+      "sha256": "1025fb356e214519bcce54ee8abb008e41a8411a56a3862d77b0efe7a3284fab"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_evolution.py",
+      "size": 2118,
+      "sha": "b255ba0fb790079d49a9793ce1c9b392bb9edd7b",
+      "sha256": "ede658243d623c08ecb462ceae39504531af133cd9196024769a10c5ce409451"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_finite_closure.py",
+      "size": 4774,
+      "sha": "f376584d65642567133ea6ca2eaa3090d70ec31c",
+      "sha256": "b0d1c1bbca8789eaa8b6cc35943b37bb088050652c02fd708df75cb79c2f9876"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_formation_dynamics.py",
+      "size": 1055,
+      "sha": "ade9fdd0e91b6176fd6080a4473ba1d677173a5b",
+      "sha256": "c843d07ed8e8131948457536950456c237ab878576af030e0b576e42c94c8a31"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_formation_eligibility.py",
+      "size": 2148,
+      "sha": "328bd35a83340ec330e328568029454be6454dba",
+      "sha256": "3859437fa43fdb765784b25e2686fad11f83d90b2912735ecbe92f4523c73c04"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_formation_robustness.py",
+      "size": 1865,
+      "sha": "530a0d5294dcc3533a2dc5fdb576deaaa622ada1",
+      "sha256": "81d8131e9523625e8acdc39508bfc4d6f7f36034822899f04622b10de8b5e17d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_hardening.py",
+      "size": 923,
+      "sha": "01ec35fc5ba5b27806f26cde4100af125089541c",
+      "sha256": "b58b7d73a1aa2c7cff841237a38bf9647e488a569ef7930a5b53b961ab9adf08"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_identity.py",
+      "size": 3528,
+      "sha": "5300700b8d0329f9abdfeff8b1c42d77de3951a8",
+      "sha256": "1a188366f09d1866029566c96f551ace9257670c66e0e19a75c4badf660ab7c3"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_learning.py",
+      "size": 2598,
+      "sha": "6cd50ac28614dc213d2429444af5c45878717767",
+      "sha256": "7502bbedd629005b4c2cf77a602516505d80f7289bec71b62f5a075ff8a52d2f"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_math_audit.py",
+      "size": 550,
+      "sha": "79aea05d4b4a51f39ffe2b29e9c7bd6829bd0eff",
+      "sha256": "bd675e160e95e9f9ec9e24911b728a36ba579d01054965b02df7e1e410176f64"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_network_carrier.py",
+      "size": 1665,
+      "sha": "f712f1db33c79ebbc842d4fa8ff01d4150ba7aec",
+      "sha256": "5bd5e4faf2f74c961b010cf13c23cfda0947998894b293fed86eb4944e8af69c"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_parent_formation.py",
+      "size": 1852,
+      "sha": "3f7c9ac31e88c70cd11e23e653d0d6cefb2c7030",
+      "sha256": "4629ab678f53a53414bc2bc6bde15b0b00e74c1dd2e40554b9927f35ed8dae2a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_perspective.py",
+      "size": 5314,
+      "sha": "5ddb44c122770e810616cfaa8068814f6900b570",
+      "sha256": "fc0e640a087f32547738338e238cee679c2fbb81f8ce18b9d167f65d5eb20334"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_population.py",
+      "size": 1668,
+      "sha": "9b5791fa052e3cebb0df74cc857e024e040a8dbd",
+      "sha256": "8882d0d10a5af145251dda05de3c62ea20682097f98587082ce92a34d580365b"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_portfolio.py",
+      "size": 3795,
+      "sha": "8053c6d3d489d6ef2607d8cb121981f65817ed7c",
+      "sha256": "ce01d585d1681e73a153610bf72da67dcc1da06fa39bd8091256ab1964cae10f"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_real_validation.py",
+      "size": 2862,
+      "sha": "922f92c5e8868682fd9f8f1b00c35a55708aedbc",
+      "sha256": "1c0856620bb41cd70c9c85ebb380e45fb9fcf877cbf8c739a4e6c7fe2d94ce6a"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_runtime_transfer.py",
+      "size": 2046,
+      "sha": "69f42d379071ae25d29f25534fa3533a1751c993",
+      "sha256": "281e4ed74c4af1beb945b7a3d9ebfcc5ff817c43d7ef58638a881d63b69c23cd"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_selfmodel.py",
+      "size": 2678,
+      "sha": "213b488e01f7ee71220875b76e674d0943ca90c8",
+      "sha256": "d603689531a23e7f5f6f8fe6287ddee5679505d08012b504c7be36848d282105"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_session_sdk.py",
+      "size": 2760,
+      "sha": "b6f786bda31d631439a56f3520cc6feda2216f12",
+      "sha256": "27c46c162906426c70c74e001c1fc64686cb6267cc1e891132ab52e212a82c5d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_small_load.py",
+      "size": 1684,
+      "sha": "7f80b1903bddf94cce99f3f55df5b8be17be625f",
+      "sha256": "31ca44d21da4c748db4d405fd198ff31400dc8bc0107b649ceeab41ee3fa524b"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_stability.py",
+      "size": 2489,
+      "sha": "bd35f7f7c5ae3cb14e1d6e85123ba73418ddb878",
+      "sha256": "d7f3b3f8474cd2929cb2c49756124791d4c311e4240598c725def37b44598270"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_stratum_geometry.py",
+      "size": 3157,
+      "sha": "bf932a7e036b71257e65fc1686e39692371b2f92",
+      "sha256": "58b688c37c390a477534ecc1931726033b3336a277b56a6bd5dbb6529b0e65d6"
+    },
+    {
+      "path": "BFG_Emergence_Studio/tests/test_sunspot_carrier.py",
+      "size": 2816,
+      "sha": "ed3017de1a71d2b8663b0764047274f0e94a926f",
+      "sha256": "9f9186f73fad5ef9f45285ecb37d3efb96f31c7b8337e4bbe84ec80be4a263e1"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/portfolio_status.json",
+      "size": 5431,
+      "sha": "02b7050f8125c009fdcb0cf1e81f00e0369d74a6",
+      "sha256": "b528bf2082cfb29aa98a78153e24e8598de82f1bdad0f8588e677fac8b6034ce"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/PORTFOLIO_STATUS.md",
+      "size": 734,
+      "sha": "a2f4589e1892dab384ffb3f6b2449ea496fd6bfc",
+      "sha256": "b1ce77e3ea05f21a9a6a2f397146093f9613ddf661e2798a2898780070ec2b1e"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/EMPIRICAL_CONFIRMATORY_HISTORY.json",
+      "size": 1755,
+      "sha": "519d858ed58ec72defdbb5f5ec05b257bbc1101f",
+      "sha256": "2eb504170a9de7d655372a056140b9db980fc28a83b878093e486cdcfd49725c"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/README.md",
+      "size": 451,
+      "sha": "830c93172e8fcfa4272bd111f9863e16a5692a9d",
+      "sha256": "4e5f8f9b270a5aad81003ed500dd060266f190e08f65c3fe1cd4d70250a4ca9d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_all_forecasts.csv",
+      "size": 77138,
+      "sha": "db6ddc834df09aedef454115aff2ccf4e25883ec",
+      "sha256": "8b3fe1c3223b57a446b1b2d6e560585b07f462e3c53c18089689d8b71e54499d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/SUNSPOT_CALIBRATION_DESIGN_LOG.md",
+      "size": 981,
+      "sha": "68fff0bd8aaaa042e66dac1868643520315ea650",
+      "sha256": "6b8d1c8279856a4e04294e4c8831cffd54070f36a3316c7f7597e5f3fb04a717"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_calibration_forecasts.csv",
+      "size": 46711,
+      "sha": "563445cc20b5e17f0166ff023f74518b74d3d357",
+      "sha256": "1186bbf3b47896b618ab1a9424d8c8c795e25c2160e4ad09aef2e019741ab84d"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_calibration_freeze_events.json",
+      "size": 2,
+      "sha": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_calibration_freeze_frames.json",
+      "size": 123907,
+      "sha": "80e40e7e59cfa7b8ddf6ce0bd61bbd726d60d2d0",
+      "sha256": "3ae52e37f4ac4216ea2c68e0908fb3fc9d19bfe2ab2c28dee8e11bb5b0c488ff"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_calibration_freeze_manifest.json",
+      "size": 785,
+      "sha": "1b4caedab9875873c2881f4f392623d0c8715db0",
+      "sha256": "c8965f97bc26251bcac5017f5834385f19e8cadca4c29f0bca170b39b3709d0e"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_calibration_freeze_summary.json",
+      "size": 7084,
+      "sha": "68702e87d4c70fb454021b6791feacf5d1426234",
+      "sha256": "cf2885446d1e42b44c9b78fe2b47bb896ac10353ec51582d763e5012bb7e1f45"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_carrier_schema.json",
+      "size": 2796,
+      "sha": "03b506672afc662a827f8aa2e6d12fba4dd12ad0",
+      "sha256": "0b7877561d05d8d48f7ea48d5bcefa3337cde3647e2698f772de766ea7ce1c6f"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/SUNSPOT_EMPIRICAL_RESULT.md",
+      "size": 1314,
+      "sha": "4739bef4a0836acb94693e08f6e8d1f39ec2c51d",
+      "sha256": "171c7617003a6786388a5d03254df39be63abe0055612d81796d661284a22870"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_frozen_model_evaluated.json",
+      "size": 7139,
+      "sha": "8e8a15d2a7c0ee0db7346224d29ea6b4d66fdff8",
+      "sha256": "8ffb9e092a94b04eca571b1c20c4e1f92155c76ecd66a502da608998ee821cdc"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_frozen_model.json",
+      "size": 7084,
+      "sha": "7f6f4df2b672d42aae9a2d5a605645ee0b00e715",
+      "sha256": "78b24c5b1c71833b9230500cbddcc480204fb51bd91dd26788973b8d6e8bfeb0"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_heldout_forecast.png",
+      "size": 213342,
+      "sha": "02106f1c7f581a4a537ae73df63d38f61b54f079",
+      "sha256": "72a9f2f5b4d07685e2e06ec8407dfe4d2386ea0cfcdd01ce9f5299dbdec3c96e"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_heldout_result.json",
+      "size": 2295,
+      "sha": "4ee06cd99fb6c71637ec4451cf1acbe1d875a761",
+      "sha256": "9572e15207b33d2676aa6d5009d47717b90c9b0cfa0bc0d940ce40cadef1fa70"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_heldout_validation_events.json",
+      "size": 2,
+      "sha": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_heldout_validation_frames.json",
+      "size": 77667,
+      "sha": "55f62ea3db3dc27dbb324f069c23e3b39d44d03f",
+      "sha256": "f21c3d2e9a8113314a29988b972b362676fccf238646245d24d968a789d2b6a9"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_heldout_validation_manifest.json",
+      "size": 615,
+      "sha": "386aaf1a8cdb076bd5e06436818c62eca9364515",
+      "sha256": "1d2e8c9fe9c83883964d1bb003f68637765fdae4cef4b5d48ca66ba0a44eddbe"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_heldout_validation_summary.json",
+      "size": 2295,
+      "sha": "18163b3b21a72cd5048f73c79de1578a29453549",
+      "sha256": "8863eab9b34c0a65632385bcd2344c8863198c439c9c78dc13c63ccd913559e3"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/audit/sunspots/confirmatory_archive/sunspot_validation_plan.json",
+      "size": 3659,
+      "sha": "979a58bc431814fc4adc60febf2f99f97baa5805",
+      "sha256": "eb62d8f013021d68dadb2bba2818183cd0e09d7584a9fe627a680a158c580113"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/provenance/source_intake/source_intake_manifest.json",
+      "size": 1885,
+      "sha": "fc8cbdf1a4fbb4ad3ec5cfacea08973c84d2e50f",
+      "sha256": "d9d53d9bcc8b6ebfa69268b45134012f95bdd31697193116458c1e21f68d212c"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/provenance/source_intake/source_integration_history.md",
+      "size": 4893,
+      "sha": "5869979bd430f3702140d4a3d56c7276883b3ae7",
+      "sha256": "bec4833025017f401ebf40b909c13bc6b1d98cf95a20b890051752e08e5dc0b6"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/seals/annual-sunspots.json",
+      "size": 1040,
+      "sha": "60abdbdcf9587b486122aeb02620797a3c54e1fb",
+      "sha256": "47dcb67069f497358fb5fafac6622e942eea314906bc842678ad62de1b54bf86"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/seals/enso-pacific-sst.json",
+      "size": 1020,
+      "sha": "9f03c3b768cad5920fa74c09c666876ca6a7a453",
+      "sha256": "10ce7d75650234c43a0ce5e15b2e7172448ea9691a6e84aa293df13629d338b2"
+    },
+    {
+      "path": "BFG_Emergence_Studio/validation/seals/mauna-loa-co2.json",
+      "size": 1011,
+      "sha": "74892312ed33c34bc6ddde7feb91b007c83daa60",
+      "sha256": "39facb52f62695d26e33ff2937133941d9ddade0ca18640b38cfafb838827b44"
+    }
+  ]
+}

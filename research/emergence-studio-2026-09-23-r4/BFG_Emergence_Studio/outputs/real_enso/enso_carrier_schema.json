@@ -1,0 +1,68 @@
+{
+  "description": "24-month causal anomaly-window recurrence graph. K, Y and R_C share one graph geometry; forecast adapts between climatological mean reversion and anomaly persistence.",
+  "domain": "Pacific sea-surface-temperature anomaly / ENSO-like dynamics",
+  "empirical_units": {
+    "anomaly": "degrees Celsius relative to development climatology",
+    "date": "calendar month",
+    "sst": "degrees Celsius"
+  },
+  "invariant_parameters": {
+    "adaptive_family": "two coefficients: intercept + standardized feature slope",
+    "anomaly_mean": 1.1648241569837709e-16,
+    "anomaly_std": 1.080746320196259,
+    "bfg_feature_mean": 0.017071419648931403,
+    "bfg_feature_name": "formation_rayleigh",
+    "bfg_feature_std": 0.4801286475487407,
+    "bfg_intercept": 0.927850600844152,
+    "bfg_slope": 0.04910655376109028,
+    "climatology_rule": "month-of-year means estimated from development data only",
+    "contraction": 0.76,
+    "development_dataset_sha256": "685e30c099aca159580267ecafa013f24f445759b4c5e38fbd13250f2982a8d8",
+    "development_end": "2010-12-01",
+    "development_start": "1950-01-01",
+    "forecast_endpoints": [
+      "zero climatological anomaly",
+      "previous-month anomaly persistence"
+    ],
+    "formation_drive": 1.45,
+    "formation_offset": 0.2,
+    "graph_sigma": 0.6173633000507788,
+    "heldout_end": "2025-12-01",
+    "heldout_start": "2011-01-01",
+    "lag": 24,
+    "matched_null": "same coefficient count and same forecast endpoints",
+    "month_climatology": [
+      24.39213114754098,
+      25.839344262295082,
+      26.247704918032788,
+      25.38655737704918,
+      24.161967213114757,
+      22.833934426229508,
+      21.7439344262295,
+      20.842786885245907,
+      20.583770491803275,
+      20.86229508196722,
+      21.523934426229506,
+      22.693114754098364
+    ],
+    "neutral_load_scale": 0.42,
+    "null_feature_mean": 0.009243652598138079,
+    "null_feature_name": "recent_level",
+    "null_feature_std": 0.9984720565293024,
+    "null_intercept": 0.8932859347038602,
+    "null_slope": 0.019400985308068608,
+    "persistent_rank": 4,
+    "phase_scale": 0.4,
+    "stress_scale": 0.18,
+    "temporal_scale": 6.0
+  },
+  "mapping_fingerprint": "187833e71e7220d6d439e6e3b570b37cae3e6b3d2cf951312e35ae273066ecdb",
+  "measurement_mapping": {
+    "D": "standardized monthly SST-anomaly resource/phase state",
+    "K": "graph-aligned formation operator with one resource-supported negative mode",
+    "R_C": "same graph eigenbasis with persistent low modes and contractive complement",
+    "Y": "PSD squared recurrence-graph geometry plus scalar stress"
+  },
+  "name": "ENSO Pacific SST BFG Carrier",
+  "schema_revision": 1
+}

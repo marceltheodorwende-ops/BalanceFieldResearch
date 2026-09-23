@@ -1,6 +1,10 @@
 # Research stages
 
-## Current Studio — 404 original files
+## Current BFG Emergence Studio — 417 original files
+
+**[Open the complete latest Studio (417 files)](emergence-studio-2026-09-23-r4/BFG_Emergence_Studio/)** · [Version overview](emergence-studio-2026-09-23-r4/README.md). Revision 4 preserves the latest ZIP unchanged, including the cross-stratum continuation theorem and master closure audit. Previous versions below are retained as research history.
+
+## Archived Studio revision 3 — 404 files
 
 **[Open all 404 files](emergence-studio-2026-09-23-r3/BFG_Emergence_Studio/)** · [Version overview](emergence-studio-2026-09-23-r3/README.md). The 293-file and 314-file stages are preserved older versions.
 

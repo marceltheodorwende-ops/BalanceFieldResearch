@@ -1,0 +1,483 @@
+[
+  {
+    "generation": 0,
+    "name": "season_rich",
+    "resource_supply": 0.95,
+    "disturbance": 0.02,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "neighbor_scale": 0.37,
+      "resource_blend": 0.23,
+      "topology_blend": 0.15,
+      "export_cost": 0.115
+    }
+  },
+  {
+    "generation": 1,
+    "name": "season_rich",
+    "resource_supply": 0.95,
+    "disturbance": 0.02,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "neighbor_scale": 0.37,
+      "resource_blend": 0.23,
+      "topology_blend": 0.15,
+      "export_cost": 0.115
+    }
+  },
+  {
+    "generation": 2,
+    "name": "season_rich",
+    "resource_supply": 0.95,
+    "disturbance": 0.02,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "neighbor_scale": 0.37,
+      "resource_blend": 0.23,
+      "topology_blend": 0.15,
+      "export_cost": 0.115
+    }
+  },
+  {
+    "generation": 3,
+    "name": "season_rich",
+    "resource_supply": 0.95,
+    "disturbance": 0.02,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "neighbor_scale": 0.37,
+      "resource_blend": 0.23,
+      "topology_blend": 0.15,
+      "export_cost": 0.115
+    }
+  },
+  {
+    "generation": 4,
+    "name": "season_rich",
+    "resource_supply": 0.95,
+    "disturbance": 0.02,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "neighbor_scale": 0.37,
+      "resource_blend": 0.23,
+      "topology_blend": 0.15,
+      "export_cost": 0.115
+    }
+  },
+  {
+    "generation": 5,
+    "name": "season_rich",
+    "resource_supply": 0.95,
+    "disturbance": 0.02,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "neighbor_scale": 0.37,
+      "resource_blend": 0.23,
+      "topology_blend": 0.15,
+      "export_cost": 0.115
+    }
+  },
+  {
+    "generation": 6,
+    "name": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "carrying_capacity": 5,
+    "preferred_traits": {
+      "neighbor_scale": 0.26,
+      "resource_blend": 0.4,
+      "topology_blend": 0.29,
+      "export_cost": 0.065
+    }
+  },
+  {
+    "generation": 7,
+    "name": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "carrying_capacity": 5,
+    "preferred_traits": {
+      "neighbor_scale": 0.26,
+      "resource_blend": 0.4,
+      "topology_blend": 0.29,
+      "export_cost": 0.065
+    }
+  },
+  {
+    "generation": 8,
+    "name": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "carrying_capacity": 5,
+    "preferred_traits": {
+      "neighbor_scale": 0.26,
+      "resource_blend": 0.4,
+      "topology_blend": 0.29,
+      "export_cost": 0.065
+    }
+  },
+  {
+    "generation": 9,
+    "name": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "carrying_capacity": 5,
+    "preferred_traits": {
+      "neighbor_scale": 0.26,
+      "resource_blend": 0.4,
+      "topology_blend": 0.29,
+      "export_cost": 0.065
+    }
+  },
+  {
+    "generation": 10,
+    "name": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "carrying_capacity": 5,
+    "preferred_traits": {
+      "neighbor_scale": 0.26,
+      "resource_blend": 0.4,
+      "topology_blend": 0.29,
+      "export_cost": 0.065
+    }
+  },
+  {
+    "generation": 11,
+    "name": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "carrying_capacity": 5,
+    "preferred_traits": {
+      "neighbor_scale": 0.26,
+      "resource_blend": 0.4,
+      "topology_blend": 0.29,
+      "export_cost": 0.065
+    }
+  },
+  {
+    "generation": 12,
+    "name": "season_rich",
+    "resource_supply": 0.95,
+    "disturbance": 0.02,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "neighbor_scale": 0.37,
+      "resource_blend": 0.23,
+      "topology_blend": 0.15,
+      "export_cost": 0.115
+    }
+  },
+  {
+    "generation": 13,
+    "name": "season_rich",
+    "resource_supply": 0.95,
+    "disturbance": 0.02,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "neighbor_scale": 0.37,
+      "resource_blend": 0.23,
+      "topology_blend": 0.15,
+      "export_cost": 0.115
+    }
+  },
+  {
+    "generation": 14,
+    "name": "season_rich",
+    "resource_supply": 0.95,
+    "disturbance": 0.02,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "neighbor_scale": 0.37,
+      "resource_blend": 0.23,
+      "topology_blend": 0.15,
+      "export_cost": 0.115
+    }
+  },
+  {
+    "generation": 15,
+    "name": "season_rich",
+    "resource_supply": 0.95,
+    "disturbance": 0.02,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "neighbor_scale": 0.37,
+      "resource_blend": 0.23,
+      "topology_blend": 0.15,
+      "export_cost": 0.115
+    }
+  },
+  {
+    "generation": 16,
+    "name": "season_rich",
+    "resource_supply": 0.95,
+    "disturbance": 0.02,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "neighbor_scale": 0.37,
+      "resource_blend": 0.23,
+      "topology_blend": 0.15,
+      "export_cost": 0.115
+    }
+  },
+  {
+    "generation": 17,
+    "name": "season_rich",
+    "resource_supply": 0.95,
+    "disturbance": 0.02,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "neighbor_scale": 0.37,
+      "resource_blend": 0.23,
+      "topology_blend": 0.15,
+      "export_cost": 0.115
+    }
+  },
+  {
+    "generation": 18,
+    "name": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "carrying_capacity": 5,
+    "preferred_traits": {
+      "neighbor_scale": 0.26,
+      "resource_blend": 0.4,
+      "topology_blend": 0.29,
+      "export_cost": 0.065
+    }
+  },
+  {
+    "generation": 19,
+    "name": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "carrying_capacity": 5,
+    "preferred_traits": {
+      "neighbor_scale": 0.26,
+      "resource_blend": 0.4,
+      "topology_blend": 0.29,
+      "export_cost": 0.065
+    }
+  },
+  {
+    "generation": 20,
+    "name": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "carrying_capacity": 5,
+    "preferred_traits": {
+      "neighbor_scale": 0.26,
+      "resource_blend": 0.4,
+      "topology_blend": 0.29,
+      "export_cost": 0.065
+    }
+  },
+  {
+    "generation": 21,
+    "name": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "carrying_capacity": 5,
+    "preferred_traits": {
+      "neighbor_scale": 0.26,
+      "resource_blend": 0.4,
+      "topology_blend": 0.29,
+      "export_cost": 0.065
+    }
+  },
+  {
+    "generation": 22,
+    "name": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "carrying_capacity": 5,
+    "preferred_traits": {
+      "neighbor_scale": 0.26,
+      "resource_blend": 0.4,
+      "topology_blend": 0.29,
+      "export_cost": 0.065
+    }
+  },
+  {
+    "generation": 23,
+    "name": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "carrying_capacity": 5,
+    "preferred_traits": {
+      "neighbor_scale": 0.26,
+      "resource_blend": 0.4,
+      "topology_blend": 0.29,
+      "export_cost": 0.065
+    }
+  },
+  {
+    "generation": 24,
+    "name": "season_rich",
+    "resource_supply": 0.95,
+    "disturbance": 0.02,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "neighbor_scale": 0.37,
+      "resource_blend": 0.23,
+      "topology_blend": 0.15,
+      "export_cost": 0.115
+    }
+  },
+  {
+    "generation": 25,
+    "name": "season_rich",
+    "resource_supply": 0.95,
+    "disturbance": 0.02,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "neighbor_scale": 0.37,
+      "resource_blend": 0.23,
+      "topology_blend": 0.15,
+      "export_cost": 0.115
+    }
+  },
+  {
+    "generation": 26,
+    "name": "season_rich",
+    "resource_supply": 0.95,
+    "disturbance": 0.02,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "neighbor_scale": 0.37,
+      "resource_blend": 0.23,
+      "topology_blend": 0.15,
+      "export_cost": 0.115
+    }
+  },
+  {
+    "generation": 27,
+    "name": "season_rich",
+    "resource_supply": 0.95,
+    "disturbance": 0.02,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "neighbor_scale": 0.37,
+      "resource_blend": 0.23,
+      "topology_blend": 0.15,
+      "export_cost": 0.115
+    }
+  },
+  {
+    "generation": 28,
+    "name": "season_rich",
+    "resource_supply": 0.95,
+    "disturbance": 0.02,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "neighbor_scale": 0.37,
+      "resource_blend": 0.23,
+      "topology_blend": 0.15,
+      "export_cost": 0.115
+    }
+  },
+  {
+    "generation": 29,
+    "name": "season_rich",
+    "resource_supply": 0.95,
+    "disturbance": 0.02,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "neighbor_scale": 0.37,
+      "resource_blend": 0.23,
+      "topology_blend": 0.15,
+      "export_cost": 0.115
+    }
+  },
+  {
+    "generation": 30,
+    "name": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "carrying_capacity": 5,
+    "preferred_traits": {
+      "neighbor_scale": 0.26,
+      "resource_blend": 0.4,
+      "topology_blend": 0.29,
+      "export_cost": 0.065
+    }
+  },
+  {
+    "generation": 31,
+    "name": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "carrying_capacity": 5,
+    "preferred_traits": {
+      "neighbor_scale": 0.26,
+      "resource_blend": 0.4,
+      "topology_blend": 0.29,
+      "export_cost": 0.065
+    }
+  },
+  {
+    "generation": 32,
+    "name": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "carrying_capacity": 5,
+    "preferred_traits": {
+      "neighbor_scale": 0.26,
+      "resource_blend": 0.4,
+      "topology_blend": 0.29,
+      "export_cost": 0.065
+    }
+  },
+  {
+    "generation": 33,
+    "name": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "carrying_capacity": 5,
+    "preferred_traits": {
+      "neighbor_scale": 0.26,
+      "resource_blend": 0.4,
+      "topology_blend": 0.29,
+      "export_cost": 0.065
+    }
+  },
+  {
+    "generation": 34,
+    "name": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "carrying_capacity": 5,
+    "preferred_traits": {
+      "neighbor_scale": 0.26,
+      "resource_blend": 0.4,
+      "topology_blend": 0.29,
+      "export_cost": 0.065
+    }
+  },
+  {
+    "generation": 35,
+    "name": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "carrying_capacity": 5,
+    "preferred_traits": {
+      "neighbor_scale": 0.26,
+      "resource_blend": 0.4,
+      "topology_blend": 0.29,
+      "export_cost": 0.065
+    }
+  },
+  {
+    "generation": 36,
+    "name": "season_rich",
+    "resource_supply": 0.95,
+    "disturbance": 0.02,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "neighbor_scale": 0.37,
+      "resource_blend": 0.23,
+      "topology_blend": 0.15,
+      "export_cost": 0.115
+    }
+  }
+]

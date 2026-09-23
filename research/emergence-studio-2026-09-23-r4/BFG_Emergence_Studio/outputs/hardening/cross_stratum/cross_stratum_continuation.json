@@ -1,0 +1,710 @@
+{
+  "status": "CROSS_STRATUM_CONTINUATION_AUDIT",
+  "source_fingerprint": "5f9bb90432df834f9b9335ba4c1565ab33e9a74df81fc4a288847110b5f04f24",
+  "heldout_metrics_evaluated": false,
+  "real_states_total": 40,
+  "real_observed_rank_crossings": 0,
+  "real_identity_continuity_passed": 40,
+  "synthetic_crossing_cases": 7,
+  "synthetic_crossing_passed": true,
+  "unitary_equivariance_passed": true,
+  "identity_continuity_passed": true,
+  "cross_stratum_chain_stability_passed": true,
+  "theorem": {
+    "canonical_transport": "polar partial isometry of Q_target Q_source",
+    "witness_rule": "transport inherited witness only on polar initial support; record exact retained mass",
+    "expansion_rule": "new complement receives no inherited amplitude",
+    "contraction_rule": "lost witness mass is explicit; zero retained mass commits to bottom",
+    "no_choice_rule": "emergent seed exists only for a simple negative lowest formation mode; otherwise bottom",
+    "equivariance": "all projector/transport objects commute with ambient unitary conjugation",
+    "chain_stability": "each polar transport is a partial isometry with norm <=1, so arbitrary finite transport products are nonamplifying"
+  },
+  "domains": [
+    {
+      "carrier_id": "annual-sunspots",
+      "states": 2,
+      "active_ranks": [
+        4
+      ],
+      "persistent_ranks": [
+        4
+      ],
+      "identity_continuity_passed": 2
+    },
+    {
+      "carrier_id": "mauna-loa-co2",
+      "states": 2,
+      "active_ranks": [
+        4
+      ],
+      "persistent_ranks": [
+        4
+      ],
+      "identity_continuity_passed": 2
+    },
+    {
+      "carrier_id": "enso-pacific-sst",
+      "states": 2,
+      "active_ranks": [
+        4
+      ],
+      "persistent_ranks": [
+        4
+      ],
+      "identity_continuity_passed": 2
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "states": 34,
+      "active_ranks": [
+        4
+      ],
+      "persistent_ranks": [
+        4
+      ],
+      "identity_continuity_passed": 34
+    }
+  ],
+  "real_rows": [
+    {
+      "carrier_id": "annual-sunspots",
+      "state_index": 0,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.389164060411037e-10,
+      "persistent_native_radius": 9.999999717180685e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 5.896307453335804e-16
+    },
+    {
+      "carrier_id": "annual-sunspots",
+      "state_index": 1,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.378074548757848e-10,
+      "persistent_native_radius": 1.0000000272292198e-08,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 6.52497142746056e-16
+    },
+    {
+      "carrier_id": "mauna-loa-co2",
+      "state_index": 0,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 1.8796345394734619e-10,
+      "persistent_native_radius": 9.999999717180685e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 9.088492340097677e-16
+    },
+    {
+      "carrier_id": "mauna-loa-co2",
+      "state_index": 1,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 1.8882551665258076e-10,
+      "persistent_native_radius": 1.0000000050247593e-08,
+      "identity_terminal": false,
+      "identity_retained_mass": 0.9999999999999984,
+      "identity_transport_residual": 8.97792399645199e-16
+    },
+    {
+      "carrier_id": "enso-pacific-sst",
+      "state_index": 0,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 1.1358252176173769e-10,
+      "persistent_native_radius": 9.999997385712334e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 8.701360977201583e-16
+    },
+    {
+      "carrier_id": "enso-pacific-sst",
+      "state_index": 1,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 1.1249107799451819e-10,
+      "persistent_native_radius": 9.999999717180685e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 0.9999999999999996,
+      "identity_transport_residual": 8.358136474780227e-16
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 0,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 1.9648123603745184e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 7.885196547673557e-16
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 1,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.0109482367948296e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 1.1217859257414608e-15
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 2,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 1.9981786281718895e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 0.9999999999999993,
+      "identity_transport_residual": 1.979674891877818e-15
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 3,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.0402730911176506e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 8.420583311284013e-16
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 4,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.0628375230281206e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 8.664663448118586e-16
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 5,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.0504831464290225e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 1.9340452260999557e-15
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 6,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.0527069999590933e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 0.9999999999999999,
+      "identity_transport_residual": 1.2200438939185422e-15
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 7,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.052165804901719e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 1.1717158306114313e-15
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 8,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.0405877485846473e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 6.17553489290332e-16
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 9,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.0781511201954838e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 7.495814823326277e-16
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 10,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.063141282057596e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 1.0062605394436259e-15
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 11,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.077603567364138e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 1.0357444322547153e-15
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 12,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.0735825344917845e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 6.736851600995837e-16
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 13,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.0418296252242006e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 0.999999999999999,
+      "identity_transport_residual": 1.1382337926026898e-15
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 14,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.0684733608071075e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 1.025696025713342e-15
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 15,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.064123685233656e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 7.295233055592651e-16
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 16,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.0685645498987748e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 1.5437388157048213e-15
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 17,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.0753733710648254e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 0.9999999999999994,
+      "identity_transport_residual": 9.138201741367691e-16
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 18,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.0760465235317452e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 1.4139138424357167e-15
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 19,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.0691252436131642e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 0.9999999999999991,
+      "identity_transport_residual": 1.4807968471704335e-15
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 20,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.0710608847751515e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 7.947104029499111e-16
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 21,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.0723514542521176e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 8.257003252767534e-16
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 22,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.0683359388464666e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 9.954654629012364e-16
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 23,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.031903321805689e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 1.796194297765481e-15
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 24,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.0641411648495985e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 0.9999999999999996,
+      "identity_transport_residual": 8.531063799545865e-16
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 25,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.0498972245408976e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 0.9999999999999994,
+      "identity_transport_residual": 1.0068238085197918e-15
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 26,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.066871316831977e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 8.026943064557009e-16
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 27,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.050565700003488e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 1.3706524590708012e-15
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 28,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.0655524975872692e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 7.25791368422122e-16
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 29,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.0512392340138669e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 1.1140159263615174e-15
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 30,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.0546124798314343e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 0.9999999999999982,
+      "identity_transport_residual": 1.1253279334096884e-15
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 31,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 2.031748181099939e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 9.545932030253473e-16
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 32,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 1.9807435266992197e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 1.0,
+      "identity_transport_residual": 9.515290781049152e-16
+    },
+    {
+      "carrier_id": "zachary-karate-network",
+      "state_index": 33,
+      "active_rank": 4,
+      "persistent_rank": 4,
+      "active_native_radius": 1.943728207024502e-10,
+      "persistent_native_radius": 9.999999384113778e-09,
+      "identity_terminal": false,
+      "identity_retained_mass": 0.9999999999999997,
+      "identity_transport_residual": 7.419593285893398e-16
+    }
+  ],
+  "synthetic": [
+    {
+      "case": "active_rank_increase",
+      "terminal": false,
+      "reason": null,
+      "source_rank": 1,
+      "target_rank": 2,
+      "overlap_rank": 1,
+      "emergent_rank": 1,
+      "lost_rank": 0,
+      "transition_kind": "rank_increase",
+      "polar_residual": 0.0,
+      "source_support_residual": 0.0,
+      "target_support_residual": 0.0,
+      "equivariant_object": true,
+      "retained_witness_mass": 1.0,
+      "lost_witness_mass": 0.0,
+      "emergent_seed_present": false,
+      "emergent_seed_eigenvalue": null,
+      "emergent_seed_gap": null,
+      "trace_witness": 1.0
+    },
+    {
+      "case": "active_rank_decrease_retained_witness",
+      "terminal": false,
+      "reason": null,
+      "source_rank": 2,
+      "target_rank": 1,
+      "overlap_rank": 1,
+      "emergent_rank": 0,
+      "lost_rank": 1,
+      "transition_kind": "rank_decrease",
+      "polar_residual": 0.0,
+      "source_support_residual": 0.0,
+      "target_support_residual": 0.0,
+      "equivariant_object": true,
+      "retained_witness_mass": 1.0,
+      "lost_witness_mass": 0.0,
+      "emergent_seed_present": false,
+      "emergent_seed_eigenvalue": null,
+      "emergent_seed_gap": null,
+      "trace_witness": 1.0
+    },
+    {
+      "case": "active_rank_decrease_witness_annihilation",
+      "terminal": true,
+      "reason": "witness continuity lost: target stratum has zero transportable witness overlap",
+      "source_rank": 2,
+      "target_rank": 1,
+      "overlap_rank": 1,
+      "emergent_rank": 0,
+      "lost_rank": 1,
+      "transition_kind": "rank_decrease",
+      "polar_residual": 0.0,
+      "source_support_residual": 0.0,
+      "target_support_residual": 0.0,
+      "equivariant_object": true,
+      "retained_witness_mass": 0.0,
+      "lost_witness_mass": 1.0,
+      "emergent_seed_present": false,
+      "emergent_seed_eigenvalue": null,
+      "emergent_seed_gap": null,
+      "trace_witness": null
+    },
+    {
+      "case": "persistent_rank_increase",
+      "terminal": false,
+      "reason": null,
+      "source_rank": 1,
+      "target_rank": 2,
+      "overlap_rank": 1,
+      "emergent_rank": 1,
+      "lost_rank": 0,
+      "transition_kind": "rank_increase",
+      "polar_residual": 0.0,
+      "source_support_residual": 0.0,
+      "target_support_residual": 0.0,
+      "equivariant_object": true,
+      "retained_witness_mass": 1.0,
+      "lost_witness_mass": 0.0,
+      "emergent_seed_present": false,
+      "emergent_seed_eigenvalue": null,
+      "emergent_seed_gap": null,
+      "trace_witness": 1.0
+    },
+    {
+      "case": "same_rank_rotating_support",
+      "terminal": false,
+      "reason": null,
+      "source_rank": 1,
+      "target_rank": 1,
+      "overlap_rank": 1,
+      "emergent_rank": 0,
+      "lost_rank": 0,
+      "transition_kind": "same_rank_transport",
+      "polar_residual": 4.577566798522237e-16,
+      "source_support_residual": 0.0,
+      "target_support_residual": 1.3877787807814457e-17,
+      "equivariant_object": true,
+      "retained_witness_mass": 1.0,
+      "lost_witness_mass": 0.0,
+      "emergent_seed_present": false,
+      "emergent_seed_eigenvalue": null,
+      "emergent_seed_gap": null,
+      "target_alignment": 1.0000000000000002
+    },
+    {
+      "case": "degenerate_emergent_no_choice",
+      "terminal": true,
+      "reason": "no-choice gate: emergent sector has no simple negative lowest mode",
+      "source_rank": 1,
+      "target_rank": 3,
+      "overlap_rank": 1,
+      "emergent_rank": 2,
+      "lost_rank": 0,
+      "transition_kind": "rank_increase",
+      "polar_residual": 0.0,
+      "source_support_residual": 0.0,
+      "target_support_residual": 0.0,
+      "equivariant_object": true,
+      "retained_witness_mass": 1.0,
+      "lost_witness_mass": 0.0,
+      "emergent_seed_present": false,
+      "emergent_seed_eigenvalue": -1.0,
+      "emergent_seed_gap": 0.0
+    },
+    {
+      "case": "unique_emergent_seed",
+      "terminal": false,
+      "reason": null,
+      "source_rank": 1,
+      "target_rank": 3,
+      "overlap_rank": 1,
+      "emergent_rank": 2,
+      "lost_rank": 0,
+      "transition_kind": "rank_increase",
+      "polar_residual": 0.0,
+      "source_support_residual": 0.0,
+      "target_support_residual": 0.0,
+      "equivariant_object": true,
+      "retained_witness_mass": 1.0,
+      "lost_witness_mass": 0.0,
+      "emergent_seed_present": true,
+      "emergent_seed_eigenvalue": -2.0,
+      "emergent_seed_gap": 3.0,
+      "seed_trace": 2.0
+    }
+  ],
+  "unitary_equivariance": {
+    "transport_residual": 6.814311292708731e-16,
+    "initial_support_residual": 1.0651783467093912e-15,
+    "final_support_residual": 1.07421585187563e-15,
+    "emergent_residual": 1.1728268316419035e-15,
+    "lost_residual": 1.0619646688407675e-15
+  },
+  "chain_stability": {
+    "terminal": false,
+    "cumulative_retained_mass": 0.9480262487627622,
+    "transport_product_norm": 0.9736663950053747,
+    "steps": [
+      {
+        "index": 0,
+        "source_rank": 1,
+        "target_rank": 2,
+        "transition_kind": "rank_increase",
+        "mass_before": 1.0,
+        "mass_after": 1.0,
+        "retention_fraction": 1.0,
+        "transport_norm": 1.0,
+        "product_norm": 1.0
+      },
+      {
+        "index": 1,
+        "source_rank": 2,
+        "target_rank": 2,
+        "transition_kind": "same_rank_transport",
+        "mass_before": 1.0,
+        "mass_after": 1.0,
+        "retention_fraction": 1.0,
+        "transport_norm": 1.0,
+        "product_norm": 1.0
+      },
+      {
+        "index": 2,
+        "source_rank": 2,
+        "target_rank": 1,
+        "transition_kind": "rank_decrease",
+        "mass_before": 1.0,
+        "mass_after": 0.9480262487627622,
+        "retention_fraction": 0.9480262487627622,
+        "transport_norm": 0.9999999999999999,
+        "product_norm": 0.9736663950053747
+      }
+    ]
+  },
+  "interpretation_guard": {
+    "real_cross_stratum_event_observed": false,
+    "universal_natural_transition_established": false,
+    "note": "Current real first-step carrier states all remain on rank-4/rank-4 runtime strata. Cross-stratum logic is theorem/structural runtime machinery plus controlled crossing tests, not an empirical claim that a natural carrier crossing has already been observed."
+  }
+}

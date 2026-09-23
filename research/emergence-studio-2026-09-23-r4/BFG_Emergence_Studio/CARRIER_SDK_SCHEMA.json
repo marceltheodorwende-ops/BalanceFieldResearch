@@ -1,0 +1,18 @@
+{
+  "schema_revision": 1,
+  "required_bfg_state_fields": {
+    "D": "complex vector, shape (n,)",
+    "K": "Hermitian complex matrix, shape (n,n)",
+    "Y": "positive-semidefinite Hermitian matrix, shape (n,n)",
+    "R_C": "complex recursive-closure matrix, shape (n,n)"
+  },
+  "required_carrier_declarations": [
+    "name",
+    "domain",
+    "description",
+    "measurement_mapping",
+    "invariant_parameters"
+  ],
+  "no_retuning_rule": "The carrier schema and invariant parameter mapping are fingerprinted before evaluation and must remain unchanged across comparison data.",
+  "natural_realization_rule": "A valid software mapping is not by itself evidence of natural realization; external validation against independently measured systems is required."
+}

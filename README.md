@@ -1,10 +1,14 @@
 # Balance Field Framework
 
-## Current BFG Emergence Studio — all 404 files
+## Current BFG Emergence Studio — 417 original files
+
+**[Open the complete latest Studio (417 files)](research/emergence-studio-2026-09-23-r4/BFG_Emergence_Studio/)** · [Version overview](research/emergence-studio-2026-09-23-r4/README.md). Revision 4 preserves the latest ZIP unchanged, including the cross-stratum continuation theorem and master closure audit. Previous versions below are retained as research history.
+
+## Archived Studio revision 3 — 404 files
 
 **[Open the complete current Studio folder (404 original files)](research/emergence-studio-2026-09-23-r3/BFG_Emergence_Studio/)**
 
-This is the current ZIP version. All 404 original files were checked against the ZIP again: **404 identical, 0 missing, 0 different**. [Verification record](research/emergence-studio-2026-09-23-r3/UPLOAD_VERIFICATION.json) · [Version overview](research/emergence-studio-2026-09-23-r3/README.md). The 293-file and 314-file folders below are archived earlier versions.
+This is the preserved revision 3 ZIP version. All 404 original files were checked against the ZIP again: **404 identical, 0 missing, 0 different**. [Verification record](research/emergence-studio-2026-09-23-r3/UPLOAD_VERIFICATION.json) · [Version overview](research/emergence-studio-2026-09-23-r3/README.md). The 293-file and 314-file folders below are archived earlier versions.
 
 ## Mathematical amendment — 23 September 2026
 

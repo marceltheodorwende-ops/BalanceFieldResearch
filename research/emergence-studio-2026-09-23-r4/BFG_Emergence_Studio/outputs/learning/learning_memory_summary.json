@@ -1,0 +1,17 @@
+{
+  "initial_seed": 1341550191,
+  "frames": 61,
+  "memory_enabled": true,
+  "memory_slots_final": 2,
+  "memory_encodings": 2,
+  "memory_retrievals": 59,
+  "witness_recoveries": 4,
+  "witness_failures": 0,
+  "memory_exports": 0,
+  "policy_updates": 17,
+  "core_steps": 61,
+  "successful_reclosures": 61,
+  "final_reward": 0.4316111076555419,
+  "final_environment_match": 0.22837240938716177,
+  "final_maintenance": 0.553151259376118
+}

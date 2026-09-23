@@ -1,0 +1,12 @@
+{
+  "dataset": "Zachary's Karate Club",
+  "source_library": "NetworkX karate_club_graph",
+  "reference": "Wayne W. Zachary, An Information Flow Model for Conflict and Fission in Small Groups, Journal of Anthropological Research 33 (1977), 452-473",
+  "nodes": 34,
+  "edges": 78,
+  "edge_weight_meaning": "number of contexts in which incident members interacted, per NetworkX dataset documentation",
+  "node_indexing": "0-indexed snapshot; original paper uses 1-indexed individuals",
+  "club_labels_present_in_source_but_unused_by_bfg_mapping": true,
+  "mapping_uses_club_labels": false,
+  "snapshot_sha256": "759fea7650a4eaf6e6036a8113fbfd8400d9ed8e701ed4a3d68690c98bb84f7c"
+}

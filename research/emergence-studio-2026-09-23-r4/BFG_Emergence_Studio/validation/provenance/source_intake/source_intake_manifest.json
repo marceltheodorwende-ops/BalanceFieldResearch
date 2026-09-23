@@ -1,0 +1,29 @@
+{
+  "repository": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch",
+  "branch": "main",
+  "integration_date": "2026-09-23",
+  "integrated_source_paths": {
+    "exact_nonnormal": "research/exact-nonnormal-2026-09-18/README.md",
+    "retained_channels": "research/retained-channels-2026-09-18/README.md",
+    "gram_compatibility": "research/gram-compatibility-2026-09-18/README.md",
+    "gram_inheritance_proposal": "research/gram-inheritance-proposal-2026-09-18/README.md",
+    "reconstruction_witness": "research/reconstruction-witness-2026-09-18/README.md",
+    "closure_boundaries": "research/closure-boundaries-2026-09-19/README.md",
+    "connection_model_m3": "research/connection-model-2026-09-19/README.md",
+    "implementation_exact_certificate": "bfg_lab/persistence_certificate.py",
+    "implementation_gram": "bfg_lab/gram.py",
+    "implementation_m3": "bfg_lab/connection_model.py",
+    "finite_repair": "research/finite-repair-2026-09-23/REPAIR.md",
+    "finite_reconstruction_contract": "research/finite-repair-2026-09-23/RECONSTRUCTION.md",
+    "finite_closure_theorem": "research/finite-closure-model-2026-09-23/THEOREM.md",
+    "finite_closure_audit": "research/finite-closure-model-2026-09-23/AUDIT.md",
+    "integrated_studio_reading_note": "research/emergence-studio-integrated-2026-09-23/READING_NOTE.md"
+  },
+  "claim_policy": {
+    "exact_results": "integrate into theorem/audit layer and execute regression controls",
+    "conditional_results": "retain their hypotheses explicitly",
+    "finite_runtime_profile": "adopt the 23-Sep reduced finite closure laws as the master runtime closure profile",
+    "bounded_infinite_entry": "record the restricted reduction theorem as an admissible entry contract",
+    "historical_internal_uniqueness": "not required for runtime closure; do not mislabel chosen laws as uniquely forced by older axioms"
+  }
+}

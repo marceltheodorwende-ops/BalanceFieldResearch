@@ -1,0 +1,23 @@
+{
+  "carrier_id": "mauna-loa-co2",
+  "status": "READY_FOR_VALIDATION",
+  "mapping_fingerprint": "fd69a8b0d4f771f6effa6fbe5c2a00c79322131bbf2248a5f1ddf37ddb50fea9",
+  "plan_fingerprint": "653836593f729577e1f878a2212aa1d0ea53cae752f80d57ec4db41599b50a17",
+  "source_fingerprint": "5f9bb90432df834f9b9335ba4c1565ab33e9a74df81fc4a288847110b5f04f24",
+  "artifacts": {
+    "readiness_token": {
+      "path": "outputs/real_co2/CO2_READINESS_TOKEN.json",
+      "sha256": "e33c3a90bb181022c902834cdf823a55dcad547a887b8446db82c6952a0d74a4"
+    },
+    "frozen_model": {
+      "path": "outputs/real_co2/co2_frozen_model.json",
+      "sha256": "76e69cf3820c2f87ff063bf70c7ed3b8b51db9ae6e13afa3e74ce60dc9cb222e"
+    },
+    "validation_plan": {
+      "path": "outputs/real_co2/co2_validation_plan.json",
+      "sha256": "debd6094caad539603d2eb601f018a5d1a343f215ee1066211019a159812468c"
+    }
+  },
+  "heldout_metrics_evaluated": false,
+  "seal_fingerprint": "6599b48888c15c69abf4da2403048e748cc4c3f9b6c3d6831290e74cc424fe28"
+}

@@ -1,0 +1,348 @@
+{
+  "audit_passed": true,
+  "theorem_scope": "finite-dimensional recursive closure operators",
+  "claim_class": "numerical audit of theorem hypotheses",
+  "source_fingerprint": "9ed33c1e22e743dd88004ed147b447dfe7a0c832f25779196805b137726843b8",
+  "horizon": 64,
+  "controls_passed": true,
+  "synthetic_core_passed": true,
+  "development_carrier_operators": 1375,
+  "development_carrier_criterion_passed": 1375,
+  "development_carrier_pass_fraction": 1.0,
+  "families": [
+    {
+      "carrier_id": "annual-sunspots",
+      "operators": 297,
+      "criterion_passed": 297,
+      "semisimple_peripheral": 297,
+      "pass_fraction": 1.0,
+      "max_spectral_radius": 1.000000000000003,
+      "minimum_stable_gap": 0.2399999999999971,
+      "maximum_finite_horizon_power_norm": 1.0000000000001539
+    },
+    {
+      "carrier_id": "mauna-loa-co2",
+      "operators": 370,
+      "criterion_passed": 370,
+      "semisimple_peripheral": 370,
+      "pass_fraction": 1.0,
+      "max_spectral_radius": 1.0000000000000042,
+      "minimum_stable_gap": 0.23999999999999588,
+      "maximum_finite_horizon_power_norm": 1.0000000000002405
+    },
+    {
+      "carrier_id": "enso-pacific-sst",
+      "operators": 708,
+      "criterion_passed": 708,
+      "semisimple_peripheral": 708,
+      "pass_fraction": 1.0,
+      "max_spectral_radius": 1.000000000000004,
+      "minimum_stable_gap": 0.23999999999999522,
+      "maximum_finite_horizon_power_norm": 1.0000000000002496
+    }
+  ],
+  "controls": {
+    "stable_semisimple": {
+      "dimension": 4,
+      "spectral_radius": 1.0,
+      "stable_radius": 0.8,
+      "stable_gap": 0.19999999999999996,
+      "peripheral_count": 2,
+      "unstable_count": 0,
+      "semisimple_peripheral": true,
+      "spectral_criterion_satisfied": true,
+      "finite_horizon_peak_norm": 1.0,
+      "finite_horizon_last_norm": 1.0,
+      "finite_horizon": 64,
+      "peripheral_groups": [
+        {
+          "representative_real": 1.0,
+          "representative_imag": 0.0,
+          "algebraic_multiplicity": 1,
+          "geometric_multiplicity": 1,
+          "semisimple": true
+        },
+        {
+          "representative_real": 0.955336489125606,
+          "representative_imag": 0.29552020666133955,
+          "algebraic_multiplicity": 1,
+          "geometric_multiplicity": 1,
+          "semisimple": true
+        }
+      ],
+      "eigenvalues": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.955336489125606,
+          0.29552020666133955
+        ],
+        [
+          0.8,
+          0.0
+        ],
+        [
+          0.55,
+          0.0
+        ]
+      ],
+      "tolerances": {
+        "unit_tol": 1e-08,
+        "grouping_tol": 1e-07,
+        "svd_rtol": 1e-09
+      }
+    },
+    "jordan_unit_circle": {
+      "dimension": 2,
+      "spectral_radius": 1.0,
+      "stable_radius": null,
+      "stable_gap": null,
+      "peripheral_count": 2,
+      "unstable_count": 0,
+      "semisimple_peripheral": false,
+      "spectral_criterion_satisfied": false,
+      "finite_horizon_peak_norm": 64.01562118716424,
+      "finite_horizon_last_norm": 64.01562118716424,
+      "finite_horizon": 64,
+      "peripheral_groups": [
+        {
+          "representative_real": 1.0,
+          "representative_imag": 0.0,
+          "algebraic_multiplicity": 2,
+          "geometric_multiplicity": 1,
+          "semisimple": false
+        }
+      ],
+      "eigenvalues": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "tolerances": {
+        "unit_tol": 1e-08,
+        "grouping_tol": 1e-07,
+        "svd_rtol": 1e-09
+      }
+    },
+    "supercritical": {
+      "dimension": 2,
+      "spectral_radius": 1.01,
+      "stable_radius": null,
+      "stable_gap": null,
+      "peripheral_count": 1,
+      "unstable_count": 1,
+      "semisimple_peripheral": true,
+      "spectral_criterion_satisfied": false,
+      "finite_horizon_peak_norm": 1.8904618694795556,
+      "finite_horizon_last_norm": 1.8904618694795556,
+      "finite_horizon": 64,
+      "peripheral_groups": [
+        {
+          "representative_real": 1.0,
+          "representative_imag": 0.0,
+          "algebraic_multiplicity": 1,
+          "geometric_multiplicity": 1,
+          "semisimple": true
+        }
+      ],
+      "eigenvalues": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.01,
+          0.0
+        ]
+      ],
+      "tolerances": {
+        "unit_tol": 1e-08,
+        "grouping_tol": 1e-07,
+        "svd_rtol": 1e-09
+      }
+    },
+    "small_outward_perturbation": {
+      "operator_norm_perturbation": 9.999999999998899e-05,
+      "base_power_bounded": true,
+      "perturbed_power_bounded": false,
+      "base_peripheral_count": 1,
+      "perturbed_peripheral_count": 0,
+      "admissible_stability_preserved": false,
+      "smallness_alone_sufficient": false,
+      "note": "Cluster separation can be perturbatively stable, but exact unit-circle persistence/power boundedness requires the perturbed operator to remain in the admissible class."
+    },
+    "tangential_unit_circle_perturbation": {
+      "operator_norm_perturbation": 9.999999995833333e-05,
+      "base_power_bounded": true,
+      "perturbed_power_bounded": true,
+      "base_peripheral_count": 1,
+      "perturbed_peripheral_count": 1,
+      "admissible_stability_preserved": true,
+      "smallness_alone_sufficient": false,
+      "note": "Cluster separation can be perturbatively stable, but exact unit-circle persistence/power boundedness requires the perturbed operator to remain in the admissible class."
+    }
+  },
+  "synthetic_core": [
+    {
+      "dimension": 6,
+      "spectral_radius": 1.0000000000000007,
+      "stable_radius": 0.7500000000000003,
+      "stable_gap": 0.24999999999999967,
+      "peripheral_count": 4,
+      "unstable_count": 0,
+      "semisimple_peripheral": true,
+      "spectral_criterion_satisfied": true,
+      "finite_horizon_peak_norm": 1.0000000000000353,
+      "finite_horizon_last_norm": 1.0000000000000353,
+      "finite_horizon": 64,
+      "peripheral_groups": [
+        {
+          "representative_real": 0.6759356165794452,
+          "representative_imag": -0.7369606788963469,
+          "algebraic_multiplicity": 1,
+          "geometric_multiplicity": 1,
+          "semisimple": true
+        },
+        {
+          "representative_real": 0.9804832421541045,
+          "representative_imag": -0.19660267509618648,
+          "algebraic_multiplicity": 1,
+          "geometric_multiplicity": 1,
+          "semisimple": true
+        },
+        {
+          "representative_real": 0.9140803883725466,
+          "representative_imag": -0.4055330363764396,
+          "algebraic_multiplicity": 1,
+          "geometric_multiplicity": 1,
+          "semisimple": true
+        },
+        {
+          "representative_real": 0.8287699887983565,
+          "representative_imag": -0.5595894081084546,
+          "algebraic_multiplicity": 1,
+          "geometric_multiplicity": 1,
+          "semisimple": true
+        }
+      ],
+      "eigenvalues": [
+        [
+          0.3499999999999998,
+          2.2596024841787465e-16
+        ],
+        [
+          0.7500000000000003,
+          -3.915643492843345e-18
+        ],
+        [
+          0.6759356165794452,
+          -0.7369606788963469
+        ],
+        [
+          0.9804832421541045,
+          -0.19660267509618648
+        ],
+        [
+          0.9140803883725466,
+          -0.4055330363764396
+        ],
+        [
+          0.8287699887983565,
+          -0.5595894081084546
+        ]
+      ],
+      "tolerances": {
+        "unit_tol": 1e-08,
+        "grouping_tol": 1e-07,
+        "svd_rtol": 1e-09
+      }
+    },
+    {
+      "dimension": 6,
+      "spectral_radius": 1.0000000000000007,
+      "stable_radius": 0.7000000000000002,
+      "stable_gap": 0.2999999999999998,
+      "peripheral_count": 4,
+      "unstable_count": 0,
+      "semisimple_peripheral": true,
+      "spectral_criterion_satisfied": true,
+      "finite_horizon_peak_norm": 1.0000000000000115,
+      "finite_horizon_last_norm": 1.0000000000000115,
+      "finite_horizon": 64,
+      "peripheral_groups": [
+        {
+          "representative_real": 0.8775825618903734,
+          "representative_imag": -0.47942553860420284,
+          "algebraic_multiplicity": 1,
+          "geometric_multiplicity": 1,
+          "semisimple": true
+        },
+        {
+          "representative_real": 0.8775825618903736,
+          "representative_imag": 0.47942553860420273,
+          "algebraic_multiplicity": 1,
+          "geometric_multiplicity": 1,
+          "semisimple": true
+        },
+        {
+          "representative_real": 0.986143231562925,
+          "representative_imag": -0.1658961326934155,
+          "algebraic_multiplicity": 1,
+          "geometric_multiplicity": 1,
+          "semisimple": true
+        },
+        {
+          "representative_real": 0.9861432315629254,
+          "representative_imag": 0.1658961326934153,
+          "algebraic_multiplicity": 1,
+          "geometric_multiplicity": 1,
+          "semisimple": true
+        }
+      ],
+      "eigenvalues": [
+        [
+          0.3,
+          2.220446049250313e-16
+        ],
+        [
+          0.8775825618903734,
+          -0.47942553860420284
+        ],
+        [
+          0.8775825618903736,
+          0.47942553860420273
+        ],
+        [
+          0.986143231562925,
+          -0.1658961326934155
+        ],
+        [
+          0.9861432315629254,
+          0.1658961326934153
+        ],
+        [
+          0.7000000000000002,
+          2.697326734290025e-17
+        ]
+      ],
+      "tolerances": {
+        "unit_tol": 1e-08,
+        "grouping_tol": 1e-07,
+        "svd_rtol": 1e-09
+      }
+    }
+  ],
+  "interpretation_guard": {
+    "global_all_BFG_carriers_proved": false,
+    "infinite_dimensional_extension_proved": false,
+    "natural_realization_proved": false,
+    "note": "The mathematical theorem is exact under its stated finite-dimensional assumptions. This audit only checks numerical hypotheses for the current implemented operators."
+  }
+}

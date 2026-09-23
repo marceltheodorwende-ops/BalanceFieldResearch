@@ -1,0 +1,23 @@
+{
+  "dataset": "Yearly sunspots data 1700-2008",
+  "observations": 309,
+  "columns": [
+    "YEAR",
+    "SUNACTIVITY"
+  ],
+  "years": [
+    1700,
+    2008
+  ],
+  "source_description": "Statsmodels dataset documentation: yearly sunspot counts from the National Geophysical Data Center; public domain.",
+  "statsmodels_dataset": "statsmodels.datasets.sunspots",
+  "snapshot_sha256": "7dac2f45399b4d3b335823db9884c4b6d7f79509f94aed6de20da6a431ae5900",
+  "calibration_years": [
+    1700,
+    1899
+  ],
+  "heldout_years": [
+    1900,
+    2008
+  ]
+}

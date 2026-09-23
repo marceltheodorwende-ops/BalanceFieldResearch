@@ -1,0 +1,2058 @@
+[
+  {
+    "event": "unit_birth",
+    "unit_id": "A0",
+    "parent_id": null,
+    "generation": 0,
+    "reason": "founder_variation",
+    "traits": {
+      "formation_drive": 1.45,
+      "neighbor_scale": 0.32,
+      "resource_blend": 0.28,
+      "topology_blend": 0.2,
+      "export_cost": 0.1,
+      "node_birth_threshold": 0.92,
+      "fission_threshold": 0.22
+    }
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A1",
+    "parent_id": null,
+    "generation": 0,
+    "reason": "founder_variation",
+    "traits": {
+      "formation_drive": 1.5760539114141556,
+      "neighbor_scale": 0.3176551757894249,
+      "resource_blend": 0.2789337609091408,
+      "topology_blend": 0.2659392383150624,
+      "export_cost": 0.09001191331597805,
+      "node_birth_threshold": 0.8403575587783574,
+      "fission_threshold": 0.2305229119961809
+    }
+  },
+  {
+    "event": "standing_variation",
+    "unit_id": "A1",
+    "generation": 0,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.45,
+        "after": 1.5760539114141556,
+        "delta": 0.12605391141415567
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.32,
+        "after": 0.3176551757894249,
+        "delta": -0.0023448242105750805
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.28,
+        "after": 0.2789337609091408,
+        "delta": -0.0010662390908592334
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.2,
+        "after": 0.2659392383150624,
+        "delta": 0.06593923831506238
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.1,
+        "after": 0.09001191331597805,
+        "delta": -0.009988086684021957
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.92,
+        "after": 0.8403575587783574,
+        "delta": -0.07964244122164266
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.22,
+        "after": 0.2305229119961809,
+        "delta": 0.010522911996180911
+      }
+    ]
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A2",
+    "parent_id": null,
+    "generation": 0,
+    "reason": "founder_variation",
+    "traits": {
+      "formation_drive": 1.5857334612729237,
+      "neighbor_scale": 0.3365907282511065,
+      "resource_blend": 0.2731882669777969,
+      "topology_blend": 0.3235108635812123,
+      "export_cost": 0.05930778997265488,
+      "node_birth_threshold": 0.843739505630683,
+      "fission_threshold": 0.21603182926787062
+    }
+  },
+  {
+    "event": "standing_variation",
+    "unit_id": "A2",
+    "generation": 0,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.45,
+        "after": 1.5857334612729237,
+        "delta": 0.13573346127292374
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.32,
+        "after": 0.3365907282511065,
+        "delta": 0.016590728251106468
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.28,
+        "after": 0.2731882669777969,
+        "delta": -0.006811733022203115
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.2,
+        "after": 0.3235108635812123,
+        "delta": 0.12351086358121227
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.1,
+        "after": 0.05930778997265488,
+        "delta": -0.040692210027345126
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.92,
+        "after": 0.843739505630683,
+        "delta": -0.07626049436931703
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.22,
+        "after": 0.21603182926787062,
+        "delta": -0.003968170732129378
+      }
+    ]
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A3",
+    "parent_id": null,
+    "generation": 0,
+    "reason": "founder_variation",
+    "traits": {
+      "formation_drive": 1.4689010357201717,
+      "neighbor_scale": 0.2825320925449097,
+      "resource_blend": 0.29788627038472315,
+      "topology_blend": 0.2256320563151072,
+      "export_cost": 0.09156103515862478,
+      "node_birth_threshold": 0.9351601459495377,
+      "fission_threshold": 0.2402904218316031
+    }
+  },
+  {
+    "event": "standing_variation",
+    "unit_id": "A3",
+    "generation": 0,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.45,
+        "after": 1.4689010357201717,
+        "delta": 0.018901035720171766
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.32,
+        "after": 0.2825320925449097,
+        "delta": -0.03746790745509032
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.28,
+        "after": 0.29788627038472315,
+        "delta": 0.017886270384723124
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.2,
+        "after": 0.2256320563151072,
+        "delta": 0.025632056315107177
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.1,
+        "after": 0.09156103515862478,
+        "delta": -0.008438964841375227
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.92,
+        "after": 0.9351601459495377,
+        "delta": 0.015160145949537629
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.22,
+        "after": 0.2402904218316031,
+        "delta": 0.020290421831603095
+      }
+    ]
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A4",
+    "parent_id": null,
+    "generation": 0,
+    "reason": "founder_variation",
+    "traits": {
+      "formation_drive": 1.3718966025072468,
+      "neighbor_scale": 0.325124245979152,
+      "resource_blend": 0.22238735222599915,
+      "topology_blend": 0.1662119178164616,
+      "export_cost": 0.058277311720344865,
+      "node_birth_threshold": 0.9367633273626961,
+      "fission_threshold": 0.20091321574356125
+    }
+  },
+  {
+    "event": "standing_variation",
+    "unit_id": "A4",
+    "generation": 0,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.45,
+        "after": 1.3718966025072468,
+        "delta": -0.07810339749275319
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.32,
+        "after": 0.325124245979152,
+        "delta": 0.005124245979152009
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.28,
+        "after": 0.22238735222599915,
+        "delta": -0.05761264777400088
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.2,
+        "after": 0.1662119178164616,
+        "delta": -0.033788082183538404
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.1,
+        "after": 0.058277311720344865,
+        "delta": -0.04172268827965514
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.92,
+        "after": 0.9367633273626961,
+        "delta": 0.016763327362696034
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.22,
+        "after": 0.20091321574356125,
+        "delta": -0.019086784256438755
+      }
+    ]
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A5",
+    "parent_id": null,
+    "generation": 0,
+    "reason": "founder_variation",
+    "traits": {
+      "formation_drive": 1.3143901818443662,
+      "neighbor_scale": 0.38063465412419983,
+      "resource_blend": 0.3121133100701332,
+      "topology_blend": 0.2017206283908398,
+      "export_cost": 0.10082406057683475,
+      "node_birth_threshold": 0.9766371157341985,
+      "fission_threshold": 0.21973939265307324
+    }
+  },
+  {
+    "event": "standing_variation",
+    "unit_id": "A5",
+    "generation": 0,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.45,
+        "after": 1.3143901818443662,
+        "delta": -0.13560981815563378
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.32,
+        "after": 0.38063465412419983,
+        "delta": 0.06063465412419983
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.28,
+        "after": 0.3121133100701332,
+        "delta": 0.03211331007013318
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.2,
+        "after": 0.2017206283908398,
+        "delta": 0.001720628390839779
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.1,
+        "after": 0.10082406057683475,
+        "delta": 0.0008240605768347481
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.92,
+        "after": 0.9766371157341985,
+        "delta": 0.056637115734198495
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.22,
+        "after": 0.21973939265307324,
+        "delta": -0.00026060734692676113
+      }
+    ]
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A6",
+    "parent_id": null,
+    "generation": 0,
+    "reason": "founder_variation",
+    "traits": {
+      "formation_drive": 1.5918065051853634,
+      "neighbor_scale": 0.28318828124224465,
+      "resource_blend": 0.2277626598481512,
+      "topology_blend": 0.1118852563804576,
+      "export_cost": 0.0631757452679736,
+      "node_birth_threshold": 0.8599216653391784,
+      "fission_threshold": 0.19562906365798982
+    }
+  },
+  {
+    "event": "standing_variation",
+    "unit_id": "A6",
+    "generation": 0,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.45,
+        "after": 1.5918065051853634,
+        "delta": 0.14180650518536342
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.32,
+        "after": 0.28318828124224465,
+        "delta": -0.03681171875775535
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.28,
+        "after": 0.2277626598481512,
+        "delta": -0.05223734015184883
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.2,
+        "after": 0.1118852563804576,
+        "delta": -0.08811474361954241
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.1,
+        "after": 0.0631757452679736,
+        "delta": -0.03682425473202641
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.92,
+        "after": 0.8599216653391784,
+        "delta": -0.060078334660821686
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.22,
+        "after": 0.19562906365798982,
+        "delta": -0.02437093634201018
+      }
+    ]
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A7",
+    "parent_id": null,
+    "generation": 0,
+    "reason": "founder_variation",
+    "traits": {
+      "formation_drive": 1.4399802411780498,
+      "neighbor_scale": 0.2881470762673576,
+      "resource_blend": 0.3525297042936554,
+      "topology_blend": 0.16149032429335833,
+      "export_cost": 0.11500101532631463,
+      "node_birth_threshold": 0.9106946219511665,
+      "fission_threshold": 0.2294142071065554
+    }
+  },
+  {
+    "event": "standing_variation",
+    "unit_id": "A7",
+    "generation": 0,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.45,
+        "after": 1.4399802411780498,
+        "delta": -0.010019758821950164
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.32,
+        "after": 0.2881470762673576,
+        "delta": -0.031852923732642424
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.28,
+        "after": 0.3525297042936554,
+        "delta": 0.07252970429365535
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.2,
+        "after": 0.16149032429335833,
+        "delta": -0.03850967570664168
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.1,
+        "after": 0.11500101532631463,
+        "delta": 0.01500101532631462
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.92,
+        "after": 0.9106946219511665,
+        "delta": -0.009305378048833579
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.22,
+        "after": 0.2294142071065554,
+        "delta": 0.009414207106555411
+      }
+    ]
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A8",
+    "parent_id": null,
+    "generation": 0,
+    "reason": "founder_variation",
+    "traits": {
+      "formation_drive": 1.4495143321046071,
+      "neighbor_scale": 0.3062720605140539,
+      "resource_blend": 0.3452756101950006,
+      "topology_blend": 0.2101643059077684,
+      "export_cost": 0.10588442939939122,
+      "node_birth_threshold": 0.8906694855520737,
+      "fission_threshold": 0.21017062859476018
+    }
+  },
+  {
+    "event": "standing_variation",
+    "unit_id": "A8",
+    "generation": 0,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.45,
+        "after": 1.4495143321046071,
+        "delta": -0.0004856678953928384
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.32,
+        "after": 0.3062720605140539,
+        "delta": -0.013727939485946083
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.28,
+        "after": 0.3452756101950006,
+        "delta": 0.06527561019500056
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.2,
+        "after": 0.2101643059077684,
+        "delta": 0.0101643059077684
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.1,
+        "after": 0.10588442939939122,
+        "delta": 0.005884429399391211
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.92,
+        "after": 0.8906694855520737,
+        "delta": -0.029330514447926337
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.22,
+        "after": 0.21017062859476018,
+        "delta": -0.009829371405239817
+      }
+    ]
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "A9",
+    "parent_id": null,
+    "generation": 0,
+    "reason": "founder_variation",
+    "traits": {
+      "formation_drive": 1.4573153574222821,
+      "neighbor_scale": 0.2530063646802181,
+      "resource_blend": 0.26628760572030163,
+      "topology_blend": 0.23023646446866036,
+      "export_cost": 0.12132314664295064,
+      "node_birth_threshold": 0.8747660967232753,
+      "fission_threshold": 0.2119933965521581
+    }
+  },
+  {
+    "event": "standing_variation",
+    "unit_id": "A9",
+    "generation": 0,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.45,
+        "after": 1.4573153574222821,
+        "delta": 0.007315357422282176
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.32,
+        "after": 0.2530063646802181,
+        "delta": -0.06699363531978192
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.28,
+        "after": 0.26628760572030163,
+        "delta": -0.013712394279698392
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.2,
+        "after": 0.23023646446866036,
+        "delta": 0.03023646446866035
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.1,
+        "after": 0.12132314664295064,
+        "delta": 0.02132314664295064
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 0.92,
+        "after": 0.8747660967232753,
+        "delta": -0.04523390327672472
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.22,
+        "after": 0.2119933965521581,
+        "delta": -0.008006603447841903
+      }
+    ]
+  },
+  {
+    "event": "selection_round",
+    "generation": 1,
+    "environment": "season_rich",
+    "candidate_count": 10,
+    "survivor_count": 8,
+    "mean_match_before_selection": 0.6510880353492132,
+    "mean_match_after_selection": 0.6973354745812145,
+    "match_gain": 0.04624743923200125
+  },
+  {
+    "event": "selection_death",
+    "unit_id": "A9",
+    "generation": 1,
+    "environment": "season_rich",
+    "environmental_fitness": 0.5803429204040178,
+    "intrinsic_fitness": 0.5882643806249636,
+    "environment_match": 0.565631637136547,
+    "traits": {
+      "formation_drive": 1.4573153574222821,
+      "neighbor_scale": 0.2530063646802181,
+      "resource_blend": 0.26628760572030163,
+      "topology_blend": 0.23023646446866036,
+      "export_cost": 0.12132314664295064,
+      "node_birth_threshold": 0.8747660967232753,
+      "fission_threshold": 0.2119933965521581
+    }
+  },
+  {
+    "event": "selection_death",
+    "unit_id": "A2",
+    "generation": 1,
+    "environment": "season_rich",
+    "environmental_fitness": 0.5183549218357857,
+    "intrinsic_fitness": 0.6000879999057406,
+    "environment_match": 0.3665649197058694,
+    "traits": {
+      "formation_drive": 1.5857334612729237,
+      "neighbor_scale": 0.3365907282511065,
+      "resource_blend": 0.2731882669777969,
+      "topology_blend": 0.3235108635812123,
+      "export_cost": 0.05930778997265488,
+      "node_birth_threshold": 0.843739505630683,
+      "fission_threshold": 0.21603182926787062
+    }
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A7",
+    "generation": 4,
+    "parent_node": 15,
+    "new_node": 20,
+    "resource_allocated": 0.2563654325128834
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A6",
+    "generation": 5,
+    "parent_node": 15,
+    "new_node": 20,
+    "resource_allocated": 0.24732767784991255
+  },
+  {
+    "event": "environment_shift",
+    "generation": 6,
+    "from": "season_rich",
+    "to": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "carrying_capacity": 5,
+    "preferred_traits": {
+      "neighbor_scale": 0.26,
+      "resource_blend": 0.4,
+      "topology_blend": 0.29,
+      "export_cost": 0.065
+    }
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 6,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5443800545763122,
+    "mean_resource_after": 0.49109871203153643,
+    "damaged_edges": 5
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A1",
+    "generation": 6,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5675105012138123,
+    "mean_resource_after": 0.5119509615592637,
+    "damaged_edges": 5
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A3",
+    "generation": 6,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5388425304561056,
+    "mean_resource_after": 0.4860521795180359,
+    "damaged_edges": 4
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A4",
+    "generation": 6,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5211423132963098,
+    "mean_resource_after": 0.4701997511165724,
+    "damaged_edges": 6
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A5",
+    "generation": 6,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5834556656943131,
+    "mean_resource_after": 0.5263401371866888,
+    "damaged_edges": 12
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A6",
+    "generation": 6,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.412633751651855,
+    "mean_resource_after": 0.37245478271695565,
+    "damaged_edges": 6
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A7",
+    "generation": 6,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5196347797189899,
+    "mean_resource_after": 0.46872681323296017,
+    "damaged_edges": 6
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A8",
+    "generation": 6,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5504460904998173,
+    "mean_resource_after": 0.4964486528312079,
+    "damaged_edges": 6
+  },
+  {
+    "event": "selection_round",
+    "generation": 6,
+    "environment": "season_poor",
+    "candidate_count": 8,
+    "survivor_count": 5,
+    "mean_match_before_selection": 0.5420252987047334,
+    "mean_match_after_selection": 0.6343522889053042,
+    "match_gain": 0.09232699020057078
+  },
+  {
+    "event": "selection_death",
+    "unit_id": "A5",
+    "generation": 6,
+    "environment": "season_poor",
+    "environmental_fitness": 0.6068524707029592,
+    "intrinsic_fitness": 0.7504132087103741,
+    "environment_match": 0.43832464782468944,
+    "traits": {
+      "formation_drive": 1.3143901818443662,
+      "neighbor_scale": 0.38063465412419983,
+      "resource_blend": 0.3121133100701332,
+      "topology_blend": 0.2017206283908398,
+      "export_cost": 0.10082406057683475,
+      "node_birth_threshold": 0.9766371157341985,
+      "fission_threshold": 0.21973939265307324
+    }
+  },
+  {
+    "event": "selection_death",
+    "unit_id": "A4",
+    "generation": 6,
+    "environment": "season_poor",
+    "environmental_fitness": 0.5675994971162387,
+    "intrinsic_fitness": 0.70717049078343,
+    "environment_match": 0.40375528715910103,
+    "traits": {
+      "formation_drive": 1.3718966025072468,
+      "neighbor_scale": 0.325124245979152,
+      "resource_blend": 0.22238735222599915,
+      "topology_blend": 0.1662119178164616,
+      "export_cost": 0.058277311720344865,
+      "node_birth_threshold": 0.9367633273626961,
+      "fission_threshold": 0.20091321574356125
+    }
+  },
+  {
+    "event": "selection_death",
+    "unit_id": "A6",
+    "generation": 6,
+    "environment": "season_poor",
+    "environmental_fitness": 0.5140612911497492,
+    "intrinsic_fitness": 0.6773615305390251,
+    "environment_match": 0.32236101012755575,
+    "traits": {
+      "formation_drive": 1.5918065051853634,
+      "neighbor_scale": 0.28318828124224465,
+      "resource_blend": 0.2277626598481512,
+      "topology_blend": 0.1118852563804576,
+      "export_cost": 0.0631757452679736,
+      "node_birth_threshold": 0.8599216653391784,
+      "fission_threshold": 0.19562906365798982
+    }
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 7,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5564948746318067,
+    "mean_resource_after": 0.502042073270332,
+    "damaged_edges": 8
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A1",
+    "generation": 7,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.570056990414564,
+    "mean_resource_after": 0.5142738862609393,
+    "damaged_edges": 8
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A3",
+    "generation": 7,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5490878371154455,
+    "mean_resource_after": 0.49529807921032587,
+    "damaged_edges": 6
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A7",
+    "generation": 7,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5829832431841931,
+    "mean_resource_after": 0.5259243628119553,
+    "damaged_edges": 11
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A8",
+    "generation": 7,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5560754606261397,
+    "mean_resource_after": 0.501544526676706,
+    "damaged_edges": 10
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 8,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5558052887254488,
+    "mean_resource_after": 0.5014399677666179,
+    "damaged_edges": 5
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A1",
+    "generation": 8,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5747686703271454,
+    "mean_resource_after": 0.5185433844051842,
+    "damaged_edges": 3
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A3",
+    "generation": 8,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5487076059271463,
+    "mean_resource_after": 0.49496281543773524,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A7",
+    "generation": 8,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.6180916298738468,
+    "mean_resource_after": 0.557631679138092,
+    "damaged_edges": 11
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A8",
+    "generation": 8,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5440793730234984,
+    "mean_resource_after": 0.49073684268046325,
+    "damaged_edges": 5
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 9,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5469340925425712,
+    "mean_resource_after": 0.4934578703418497,
+    "damaged_edges": 6
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A1",
+    "generation": 9,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5694127469316934,
+    "mean_resource_after": 0.5137316596022454,
+    "damaged_edges": 4
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A3",
+    "generation": 9,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5382731244747383,
+    "mean_resource_after": 0.48555893081812407,
+    "damaged_edges": 4
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A7",
+    "generation": 9,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.6344028708768032,
+    "mean_resource_after": 0.5723645601552108,
+    "damaged_edges": 4
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A8",
+    "generation": 9,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5237347688180191,
+    "mean_resource_after": 0.47239837205975566,
+    "damaged_edges": 6
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 10,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5325616500805876,
+    "mean_resource_after": 0.4805107719801356,
+    "damaged_edges": 3
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A1",
+    "generation": 10,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5578524542260663,
+    "mean_resource_after": 0.503322270215749,
+    "damaged_edges": 4
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A3",
+    "generation": 10,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5219096871026618,
+    "mean_resource_after": 0.4708064879243528,
+    "damaged_edges": 2
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A7",
+    "generation": 10,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.6396268527143574,
+    "mean_resource_after": 0.5770820471867236,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A8",
+    "generation": 10,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.49926294465998156,
+    "mean_resource_after": 0.45033433118648497,
+    "damaged_edges": 10
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 11,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5154393861531403,
+    "mean_resource_after": 0.46508145788840977,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A1",
+    "generation": 11,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5427770752275294,
+    "mean_resource_after": 0.48973876008771955,
+    "damaged_edges": 1
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A3",
+    "generation": 11,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5021684331349638,
+    "mean_resource_after": 0.453005889779179,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A7",
+    "generation": 11,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.63932216844063,
+    "mean_resource_after": 0.576802286863983,
+    "damaged_edges": 3
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A8",
+    "generation": 11,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.4728986473065352,
+    "mean_resource_after": 0.4265583471303639,
+    "damaged_edges": 3
+  },
+  {
+    "event": "environment_shift",
+    "generation": 12,
+    "from": "season_poor",
+    "to": "season_rich",
+    "resource_supply": 0.95,
+    "disturbance": 0.02,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "neighbor_scale": 0.37,
+      "resource_blend": 0.23,
+      "topology_blend": 0.15,
+      "export_cost": 0.115
+    }
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A1",
+    "generation": 12,
+    "parent_node": 1,
+    "new_node": 20,
+    "resource_allocated": 0.2366386367606698
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A7",
+    "generation": 13,
+    "parent_node": 20,
+    "new_node": 21,
+    "resource_allocated": 0.26107860040268016
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A8",
+    "generation": 13,
+    "parent_node": 1,
+    "new_node": 20,
+    "resource_allocated": 0.2588575880164324
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A7",
+    "generation": 14,
+    "parent_node": 5,
+    "new_node": 22,
+    "resource_allocated": 0.2599685268831952
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A0",
+    "generation": 15,
+    "parent_node": 1,
+    "new_node": 20,
+    "resource_allocated": 0.2607887257465103
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A3",
+    "generation": 15,
+    "parent_node": 1,
+    "new_node": 20,
+    "resource_allocated": 0.26346656347327946
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A1",
+    "generation": 16,
+    "parent_node": 19,
+    "new_node": 21,
+    "resource_allocated": 0.23574778157950846
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A7",
+    "generation": 16,
+    "parent_node": 1,
+    "new_node": 23,
+    "resource_allocated": 0.25674258759747987
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A1",
+    "generation": 17,
+    "parent_node": 3,
+    "new_node": 22,
+    "resource_allocated": 0.23570456998866854
+  },
+  {
+    "event": "environment_shift",
+    "generation": 18,
+    "from": "season_rich",
+    "to": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "carrying_capacity": 5,
+    "preferred_traits": {
+      "neighbor_scale": 0.26,
+      "resource_blend": 0.4,
+      "topology_blend": 0.29,
+      "export_cost": 0.065
+    }
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 18,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.6436629687112657,
+    "mean_resource_after": 0.5808455778687952,
+    "damaged_edges": 6
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A1",
+    "generation": 18,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.6824927186515939,
+    "mean_resource_after": 0.6158690847423997,
+    "damaged_edges": 9
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A3",
+    "generation": 18,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5888444157050435,
+    "mean_resource_after": 0.53104209439593,
+    "damaged_edges": 6
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A7",
+    "generation": 18,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7240988648056428,
+    "mean_resource_after": 0.6532072516200781,
+    "damaged_edges": 2
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A8",
+    "generation": 18,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7252940268135069,
+    "mean_resource_after": 0.6542489916702771,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 19,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.6660905183745509,
+    "mean_resource_after": 0.6012623723345998,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A1",
+    "generation": 19,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7092903623387675,
+    "mean_resource_after": 0.6400122970451548,
+    "damaged_edges": 4
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A3",
+    "generation": 19,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.6205814518529029,
+    "mean_resource_after": 0.5597550323052639,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A7",
+    "generation": 19,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.6989797364150697,
+    "mean_resource_after": 0.6305584902166003,
+    "damaged_edges": 14
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A8",
+    "generation": 19,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7244095842728894,
+    "mean_resource_after": 0.6536112930717783,
+    "damaged_edges": 4
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 20,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.6718127097524074,
+    "mean_resource_after": 0.6066415146035181,
+    "damaged_edges": 6
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A1",
+    "generation": 20,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7297847194529976,
+    "mean_resource_after": 0.6585072430066549,
+    "damaged_edges": 9
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A3",
+    "generation": 20,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.6654560367827571,
+    "mean_resource_after": 0.6003624972916962,
+    "damaged_edges": 8
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A7",
+    "generation": 20,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.687649424607837,
+    "mean_resource_after": 0.6203836986115635,
+    "damaged_edges": 8
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A8",
+    "generation": 20,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7195283461838595,
+    "mean_resource_after": 0.6494021388534442,
+    "damaged_edges": 3
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 21,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.669715475487819,
+    "mean_resource_after": 0.604759566570876,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A1",
+    "generation": 21,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7442478616985158,
+    "mean_resource_after": 0.6715915618822454,
+    "damaged_edges": 3
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A3",
+    "generation": 21,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.6937150843586223,
+    "mean_resource_after": 0.6260354622180844,
+    "damaged_edges": 6
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A7",
+    "generation": 21,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.6848836932675928,
+    "mean_resource_after": 0.617961347820638,
+    "damaged_edges": 3
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A8",
+    "generation": 21,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7205473550599363,
+    "mean_resource_after": 0.6503014177217211,
+    "damaged_edges": 3
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 22,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.6644442808003429,
+    "mean_resource_after": 0.6000214673457195,
+    "damaged_edges": 5
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A1",
+    "generation": 22,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7428536081831519,
+    "mean_resource_after": 0.6703880375023026,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A3",
+    "generation": 22,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.6940616162543739,
+    "mean_resource_after": 0.6265707993074344,
+    "damaged_edges": 3
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A7",
+    "generation": 22,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.6864520508190396,
+    "mean_resource_after": 0.6194636807895785,
+    "damaged_edges": 9
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A8",
+    "generation": 22,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7201458622206696,
+    "mean_resource_after": 0.6499368871608497,
+    "damaged_edges": 4
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 23,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.6620624649023835,
+    "mean_resource_after": 0.5979061142645175,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A1",
+    "generation": 23,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7342669784211185,
+    "mean_resource_after": 0.6627051521869759,
+    "damaged_edges": 8
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A3",
+    "generation": 23,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7000482683523972,
+    "mean_resource_after": 0.6319891900686347,
+    "damaged_edges": 6
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A7",
+    "generation": 23,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.6843243124980152,
+    "mean_resource_after": 0.6176172181840466,
+    "damaged_edges": 8
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A8",
+    "generation": 23,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7191775938379865,
+    "mean_resource_after": 0.6490696427779922,
+    "damaged_edges": 7
+  },
+  {
+    "event": "environment_shift",
+    "generation": 24,
+    "from": "season_poor",
+    "to": "season_rich",
+    "resource_supply": 0.95,
+    "disturbance": 0.02,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "neighbor_scale": 0.37,
+      "resource_blend": 0.23,
+      "topology_blend": 0.15,
+      "export_cost": 0.115
+    }
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A1",
+    "generation": 24,
+    "parent_node": 4,
+    "new_node": 23,
+    "resource_allocated": 0.2390530985194695
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A8",
+    "generation": 24,
+    "parent_node": 10,
+    "new_node": 21,
+    "resource_allocated": 0.25154884734629357
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A1",
+    "generation": 25,
+    "parent_node": 13,
+    "new_node": 24,
+    "resource_allocated": 0.2448910062373052
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A1",
+    "generation": 26,
+    "parent_node": 5,
+    "new_node": 25,
+    "resource_allocated": 0.24577699574979692
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A7",
+    "generation": 26,
+    "parent_node": 5,
+    "new_node": 24,
+    "resource_allocated": 0.25898561388420815
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A8",
+    "generation": 26,
+    "parent_node": 4,
+    "new_node": 22,
+    "resource_allocated": 0.2537219843187442
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A1",
+    "generation": 27,
+    "parent_node": 19,
+    "new_node": 26,
+    "resource_allocated": 0.2518677794089881
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A7",
+    "generation": 27,
+    "parent_node": 19,
+    "new_node": 25,
+    "resource_allocated": 0.2564475330531034
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A8",
+    "generation": 27,
+    "parent_node": 13,
+    "new_node": 23,
+    "resource_allocated": 0.2521602877474787
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A1",
+    "generation": 28,
+    "parent_node": 16,
+    "new_node": 27,
+    "resource_allocated": 0.25152231706612793
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A3",
+    "generation": 28,
+    "parent_node": 4,
+    "new_node": 21,
+    "resource_allocated": 0.26197033698987277
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A8",
+    "generation": 28,
+    "parent_node": 9,
+    "new_node": 24,
+    "resource_allocated": 0.2549138834586439
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A0",
+    "generation": 29,
+    "parent_node": 4,
+    "new_node": 21,
+    "resource_allocated": 0.25970756782366117
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A1",
+    "generation": 29,
+    "parent_node": 1,
+    "new_node": 28,
+    "resource_allocated": 0.2497005747497503
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A8",
+    "generation": 29,
+    "parent_node": 3,
+    "new_node": 25,
+    "resource_allocated": 0.26052555730324956
+  },
+  {
+    "event": "environment_shift",
+    "generation": 30,
+    "from": "season_rich",
+    "to": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "carrying_capacity": 5,
+    "preferred_traits": {
+      "neighbor_scale": 0.26,
+      "resource_blend": 0.4,
+      "topology_blend": 0.29,
+      "export_cost": 0.065
+    }
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 30,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7607665586030469,
+    "mean_resource_after": 0.6872050241678948,
+    "damaged_edges": 5
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A1",
+    "generation": 30,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7317691602256566,
+    "mean_resource_after": 0.660423210483713,
+    "damaged_edges": 11
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A3",
+    "generation": 30,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.8096771378934929,
+    "mean_resource_after": 0.7310189553260668,
+    "damaged_edges": 6
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A7",
+    "generation": 30,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7359284578220066,
+    "mean_resource_after": 0.6640651765339555,
+    "damaged_edges": 12
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A8",
+    "generation": 30,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7763934695683721,
+    "mean_resource_after": 0.7009309953967272,
+    "damaged_edges": 7
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A8",
+    "generation": 30,
+    "parent_node": 2,
+    "new_node": 26,
+    "resource_allocated": 0.25063850485008915
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 31,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7485366320801957,
+    "mean_resource_after": 0.6762197711196818,
+    "damaged_edges": 6
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A1",
+    "generation": 31,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7083533931382452,
+    "mean_resource_after": 0.6392076868422849,
+    "damaged_edges": 11
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A3",
+    "generation": 31,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7606402842545598,
+    "mean_resource_after": 0.6867960898185825,
+    "damaged_edges": 3
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A7",
+    "generation": 31,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.679829598089583,
+    "mean_resource_after": 0.6134892636189655,
+    "damaged_edges": 4
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A8",
+    "generation": 31,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7509787002757149,
+    "mean_resource_after": 0.6780336605901242,
+    "damaged_edges": 11
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 32,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7397233344439809,
+    "mean_resource_after": 0.668324550176084,
+    "damaged_edges": 5
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A1",
+    "generation": 32,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7132440512636878,
+    "mean_resource_after": 0.6436354563899592,
+    "damaged_edges": 8
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A3",
+    "generation": 32,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7263068148707666,
+    "mean_resource_after": 0.6558437565194708,
+    "damaged_edges": 5
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A7",
+    "generation": 32,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.6402185558399337,
+    "mean_resource_after": 0.5778006541975068,
+    "damaged_edges": 6
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A8",
+    "generation": 32,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7681240353070409,
+    "mean_resource_after": 0.693550279215169,
+    "damaged_edges": 15
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 33,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7328785069645624,
+    "mean_resource_after": 0.6622077071746587,
+    "damaged_edges": 9
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A1",
+    "generation": 33,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7155799009581589,
+    "mean_resource_after": 0.6457786486390847,
+    "damaged_edges": 14
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A3",
+    "generation": 33,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7010549433232736,
+    "mean_resource_after": 0.6330873135276728,
+    "damaged_edges": 6
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A7",
+    "generation": 33,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.6113072041480159,
+    "mean_resource_after": 0.5517694639551481,
+    "damaged_edges": 5
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A8",
+    "generation": 33,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7753486055893388,
+    "mean_resource_after": 0.7001397608300821,
+    "damaged_edges": 18
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 34,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7273050322076912,
+    "mean_resource_after": 0.6572377809362417,
+    "damaged_edges": 5
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A1",
+    "generation": 34,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7169044943015921,
+    "mean_resource_after": 0.6470182396069151,
+    "damaged_edges": 18
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A3",
+    "generation": 34,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.6811098220871835,
+    "mean_resource_after": 0.6151171612562487,
+    "damaged_edges": 4
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A7",
+    "generation": 34,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5899997826759849,
+    "mean_resource_after": 0.5325949643675076,
+    "damaged_edges": 11
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A8",
+    "generation": 34,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7770889380499758,
+    "mean_resource_after": 0.7017948382775289,
+    "damaged_edges": 6
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A0",
+    "generation": 35,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7223882827038767,
+    "mean_resource_after": 0.6528568705074106,
+    "damaged_edges": 5
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A1",
+    "generation": 35,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7176865475612846,
+    "mean_resource_after": 0.6477709668655707,
+    "damaged_edges": 16
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A3",
+    "generation": 35,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.664405809477275,
+    "mean_resource_after": 0.6000650411869565,
+    "damaged_edges": 8
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A7",
+    "generation": 35,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.5759441768107884,
+    "mean_resource_after": 0.5199511888321604,
+    "damaged_edges": 6
+  },
+  {
+    "event": "environmental_forcing",
+    "unit_id": "A8",
+    "generation": 35,
+    "environment": "season_poor",
+    "resource_supply": 0.52,
+    "disturbance": 0.16,
+    "mean_resource_before": 0.7755647014173667,
+    "mean_resource_after": 0.7005116426561844,
+    "damaged_edges": 9
+  },
+  {
+    "event": "environment_shift",
+    "generation": 36,
+    "from": "season_poor",
+    "to": "season_rich",
+    "resource_supply": 0.95,
+    "disturbance": 0.02,
+    "carrying_capacity": 8,
+    "preferred_traits": {
+      "neighbor_scale": 0.37,
+      "resource_blend": 0.23,
+      "topology_blend": 0.15,
+      "export_cost": 0.115
+    }
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A1",
+    "generation": 36,
+    "parent_node": 13,
+    "new_node": 29,
+    "resource_allocated": 0.2453386404104481
+  },
+  {
+    "event": "node_birth",
+    "unit_id": "A8",
+    "generation": 36,
+    "parent_node": 13,
+    "new_node": 27,
+    "resource_allocated": 0.25556240895341487
+  }
+]
