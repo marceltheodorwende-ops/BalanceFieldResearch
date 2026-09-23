@@ -1,0 +1,34 @@
+{
+  "project": "BFG Emergence Studio",
+  "public_versioning": false,
+  "theory_feature_freeze": true,
+  "highest_implemented_named_closure": "Identity Closure",
+  "source_level": 30,
+  "implemented_stack": [
+    "Canonical Reclosure",
+    "Self-Organization",
+    "Population/Fission",
+    "Evolution",
+    "Environmental Adaptation",
+    "Learning",
+    "Memory",
+    "Self-Model",
+    "Perspective",
+    "Identity"
+  ],
+  "not_claimed": [
+    "Consciousness Closure",
+    "Phenomenal Unity Closure",
+    "Selfhood Closure",
+    "Narrative Identity Closure",
+    "Intersubjective Closure"
+  ],
+  "next_phase": [
+    "benchmarks",
+    "robustness",
+    "persistent experiment state",
+    "carrier SDK",
+    "performance",
+    "real-domain validation"
+  ]
+}

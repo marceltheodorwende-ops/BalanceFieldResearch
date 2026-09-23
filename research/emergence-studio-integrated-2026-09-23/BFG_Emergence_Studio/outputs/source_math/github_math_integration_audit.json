@@ -1,0 +1,40 @@
+{
+  "audit_passed": true,
+  "checks": {
+    "exact_nonnormal_supplied_certificate": true,
+    "defective_peripheral_control_rejected": true,
+    "supplied_factor_gram_rebuild": true,
+    "retained_channel_gram_identity": true,
+    "g1_conditional_intertwining_example": true,
+    "g1_incompatible_reconstruction_rejected": true,
+    "m3_cayley_transport_unitary": true,
+    "finite_reduced_closure_scalar_identity": true,
+    "finite_reduced_closure_iteration_contract": true,
+    "bounded_infinite_entry_reduction_contract": true
+  },
+  "source_repository": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch",
+  "source_paths": {
+    "exact_nonnormal": "research/exact-nonnormal-2026-09-18/README.md",
+    "retained_channels": "research/retained-channels-2026-09-18/README.md",
+    "gram_compatibility": "research/gram-compatibility-2026-09-18/README.md",
+    "gram_inheritance_proposal": "research/gram-inheritance-proposal-2026-09-18/README.md",
+    "reconstruction_witness": "research/reconstruction-witness-2026-09-18/README.md",
+    "closure_boundaries": "research/closure-boundaries-2026-09-19/README.md",
+    "connection_model_m3": "research/connection-model-2026-09-19/README.md",
+    "finite_repair": "research/finite-repair-2026-09-23/REPAIR.md",
+    "finite_reconstruction_contract": "research/finite-repair-2026-09-23/RECONSTRUCTION.md",
+    "finite_closure_theorem": "research/finite-closure-model-2026-09-23/THEOREM.md",
+    "finite_closure_audit": "research/finite-closure-model-2026-09-23/AUDIT.md"
+  },
+  "source_fingerprint": "c8faa7142b9835c53b100ab6f2e3900667d0cc9807c48630f7a737530b975bb0",
+  "claim_register": {
+    "exact_nonnormal_certificate": "runtime-confirmed for supplied rational invariant splittings and metrics",
+    "finite_gram_rebuild": "runtime-confirmed for explicitly supplied B_C, W_N, L_C",
+    "retained_channel_gram_energy": "runtime-confirmed exact decomposition identity",
+    "g1": "conditional compatibility layer; not required by the finite master closure profile",
+    "m3": "complete finite experimental connection model under its declared assumptions",
+    "finite_reduced_master_closure": "CLOSED for the declared finite reduced category by adopted explicit laws; total with absorbing bottom and exact finite iteration",
+    "bounded_infinite_entry_class": "CLOSED as a restricted reduction theorem into the finite master profile under the declared bounded finite-peripheral-rank assumptions",
+    "historical_internal_uniqueness": "not required for runtime closure and not claimed as a derivation from older axioms"
+  }
+}

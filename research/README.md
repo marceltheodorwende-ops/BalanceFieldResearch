@@ -45,3 +45,7 @@ These records describe their original sources and assumptions. Historical V3 ava
 ## Explicit conditional closure model
 
 [Finite reduced-state completion, proof and 15 regression checks](finite-closure-model-2026-09-23/README.md), 23 September 2026. Additional reconstruction rules are explicit; general internal uniqueness remains open.
+
+## Latest integrated Studio version
+
+[BFG Emergence Studio — integrated finite runtime profile](emergence-studio-integrated-2026-09-23/README.md), 23 September 2026. Newer 314-file snapshot with its documented results and a separate reading note.

@@ -1,0 +1,15 @@
+{
+  "compared_steps": 121,
+  "identity_closure_passes": 120,
+  "identity_closure_failures": 0,
+  "identity_exports": 1,
+  "mean_historical_present_distance": 0.08083103503019963,
+  "mean_identity_step_distance": 0.0032764604071002963,
+  "mean_raw_perspective_step_distance": 0.0034922264833255915,
+  "continuity_smoothing_gain": 0.00021576607622529522,
+  "mean_self_index_similarity": 0.9230879299555552,
+  "minimum_self_index_similarity": 0.8394527565038352,
+  "mean_transverse_adaptation": 0.05294793878242226,
+  "ablated_mean_self_index_similarity": 0.8899264325390315,
+  "final_identity_rho": 0.965
+}

@@ -1,0 +1,10 @@
+{
+  "compared_steps": 81,
+  "mean_reward_gain": 0.0046997168933712126,
+  "self_model_action_interventions": 57,
+  "self_model_closure_passes": 68,
+  "mean_prediction_error": 0.012716426835108876,
+  "mean_persistence_baseline_error": 0.012765132460397278,
+  "prediction_beats_persistence_fraction": 0.4782608695652174,
+  "final_self_reference_reachable": true
+}

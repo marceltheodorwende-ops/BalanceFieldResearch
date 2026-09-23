@@ -1,0 +1,236 @@
+{
+  "items": [
+    {
+      "mode": "evolution",
+      "seed": 100,
+      "summary": {
+        "core_steps": 12,
+        "final_population": 1,
+        "fission_events": 0,
+        "frames": 13,
+        "initial_seed": 100,
+        "intrinsic_deaths": 0,
+        "max_lineage_depth": 0,
+        "max_population": 1,
+        "mutation_events": 0,
+        "selection_deaths": 0,
+        "spectrally_novel_reclosures": 12,
+        "successful_reclosures": 12,
+        "unit_birth_events": 1
+      }
+    },
+    {
+      "mode": "evolution",
+      "seed": 101,
+      "summary": {
+        "core_steps": 12,
+        "final_population": 1,
+        "fission_events": 0,
+        "frames": 13,
+        "initial_seed": 101,
+        "intrinsic_deaths": 0,
+        "max_lineage_depth": 0,
+        "max_population": 1,
+        "mutation_events": 0,
+        "selection_deaths": 0,
+        "spectrally_novel_reclosures": 12,
+        "successful_reclosures": 12,
+        "unit_birth_events": 1
+      }
+    },
+    {
+      "mode": "evolution",
+      "seed": 102,
+      "summary": {
+        "core_steps": 15,
+        "final_population": 2,
+        "fission_events": 1,
+        "frames": 13,
+        "initial_seed": 102,
+        "intrinsic_deaths": 0,
+        "max_lineage_depth": 1,
+        "max_population": 2,
+        "mutation_events": 2,
+        "selection_deaths": 0,
+        "spectrally_novel_reclosures": 15,
+        "successful_reclosures": 15,
+        "unit_birth_events": 3
+      }
+    },
+    {
+      "mode": "evolution",
+      "seed": 103,
+      "summary": {
+        "core_steps": 12,
+        "final_population": 1,
+        "fission_events": 0,
+        "frames": 13,
+        "initial_seed": 103,
+        "intrinsic_deaths": 0,
+        "max_lineage_depth": 0,
+        "max_population": 1,
+        "mutation_events": 0,
+        "selection_deaths": 0,
+        "spectrally_novel_reclosures": 12,
+        "successful_reclosures": 12,
+        "unit_birth_events": 1
+      }
+    },
+    {
+      "mode": "evolution",
+      "seed": 104,
+      "summary": {
+        "core_steps": 12,
+        "final_population": 1,
+        "fission_events": 0,
+        "frames": 13,
+        "initial_seed": 104,
+        "intrinsic_deaths": 0,
+        "max_lineage_depth": 0,
+        "max_population": 1,
+        "mutation_events": 0,
+        "selection_deaths": 0,
+        "spectrally_novel_reclosures": 12,
+        "successful_reclosures": 12,
+        "unit_birth_events": 1
+      }
+    },
+    {
+      "mode": "evolution",
+      "seed": 105,
+      "summary": {
+        "core_steps": 12,
+        "final_population": 1,
+        "fission_events": 0,
+        "frames": 13,
+        "initial_seed": 105,
+        "intrinsic_deaths": 0,
+        "max_lineage_depth": 0,
+        "max_population": 1,
+        "mutation_events": 0,
+        "selection_deaths": 0,
+        "spectrally_novel_reclosures": 12,
+        "successful_reclosures": 12,
+        "unit_birth_events": 1
+      }
+    },
+    {
+      "mode": "evolution",
+      "seed": 106,
+      "summary": {
+        "core_steps": 12,
+        "final_population": 1,
+        "fission_events": 0,
+        "frames": 13,
+        "initial_seed": 106,
+        "intrinsic_deaths": 0,
+        "max_lineage_depth": 0,
+        "max_population": 1,
+        "mutation_events": 0,
+        "selection_deaths": 0,
+        "spectrally_novel_reclosures": 12,
+        "successful_reclosures": 12,
+        "unit_birth_events": 1
+      }
+    },
+    {
+      "mode": "evolution",
+      "seed": 107,
+      "summary": {
+        "core_steps": 12,
+        "final_population": 1,
+        "fission_events": 0,
+        "frames": 13,
+        "initial_seed": 107,
+        "intrinsic_deaths": 0,
+        "max_lineage_depth": 0,
+        "max_population": 1,
+        "mutation_events": 0,
+        "selection_deaths": 0,
+        "spectrally_novel_reclosures": 12,
+        "successful_reclosures": 12,
+        "unit_birth_events": 1
+      }
+    },
+    {
+      "mode": "evolution",
+      "seed": 108,
+      "summary": {
+        "core_steps": 12,
+        "final_population": 1,
+        "fission_events": 0,
+        "frames": 13,
+        "initial_seed": 108,
+        "intrinsic_deaths": 0,
+        "max_lineage_depth": 0,
+        "max_population": 1,
+        "mutation_events": 0,
+        "selection_deaths": 0,
+        "spectrally_novel_reclosures": 12,
+        "successful_reclosures": 12,
+        "unit_birth_events": 1
+      }
+    },
+    {
+      "mode": "evolution",
+      "seed": 109,
+      "summary": {
+        "core_steps": 12,
+        "final_population": 1,
+        "fission_events": 0,
+        "frames": 13,
+        "initial_seed": 109,
+        "intrinsic_deaths": 0,
+        "max_lineage_depth": 0,
+        "max_population": 1,
+        "mutation_events": 0,
+        "selection_deaths": 0,
+        "spectrally_novel_reclosures": 12,
+        "successful_reclosures": 12,
+        "unit_birth_events": 1
+      }
+    },
+    {
+      "mode": "evolution",
+      "seed": 110,
+      "summary": {
+        "core_steps": 12,
+        "final_population": 1,
+        "fission_events": 0,
+        "frames": 13,
+        "initial_seed": 110,
+        "intrinsic_deaths": 0,
+        "max_lineage_depth": 0,
+        "max_population": 1,
+        "mutation_events": 0,
+        "selection_deaths": 0,
+        "spectrally_novel_reclosures": 12,
+        "successful_reclosures": 12,
+        "unit_birth_events": 1
+      }
+    },
+    {
+      "mode": "evolution",
+      "seed": 111,
+      "summary": {
+        "core_steps": 12,
+        "final_population": 1,
+        "fission_events": 0,
+        "frames": 13,
+        "initial_seed": 111,
+        "intrinsic_deaths": 0,
+        "max_lineage_depth": 0,
+        "max_population": 1,
+        "mutation_events": 0,
+        "selection_deaths": 0,
+        "spectrally_novel_reclosures": 12,
+        "successful_reclosures": 12,
+        "unit_birth_events": 1
+      }
+    }
+  ],
+  "mode": "evolution",
+  "runs": 12,
+  "source_fingerprint": "e9c930922be4369e765c828c6ad40e4521ad824dd0a91e109c3dddd37ef2521e",
+  "workers": 4
+}

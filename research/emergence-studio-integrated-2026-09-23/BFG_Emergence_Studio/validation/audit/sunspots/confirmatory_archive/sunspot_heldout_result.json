@@ -1,0 +1,63 @@
+{
+  "passed": false,
+  "target_statement": "With one frozen 12-year recurrence-graph BFG carrier, the state-dependent neutral-retention correction will achieve held-out 1900-2008 one-step RMSE at least 1% below an equal-coefficient calibration-selected ordinary-feature adaptive null, while at least 90% of held-out mapped states pass canonical BFG reclosure.",
+  "success_criterion": "BFG_RMSE <= 0.99 * matched_null_RMSE AND heldout_reclosure_success_fraction >= 0.90",
+  "mapping_fingerprint": "8345c50579367c4fcd09d6c1b2e6bcf22d909650e36e1b8e6bfb11f827f7aecc",
+  "plan_fingerprint": "59faa343efb8604f6d88e831995480fa71155a0473aef0d56bc1df6224d90247",
+  "dataset_sha256": "7dac2f45399b4d3b335823db9884c4b6d7f79509f94aed6de20da6a431ae5900",
+  "calibration_years": [
+    1700,
+    1899
+  ],
+  "heldout_years": [
+    1900,
+    2008
+  ],
+  "heldout_observations": 109,
+  "heldout_metrics": {
+    "bfg": {
+      "rmse": 18.142522079109842,
+      "mae": 13.42934315509335,
+      "correlation": 0.9245976915703673
+    },
+    "matched_null": {
+      "rmse": 18.262712245899838,
+      "mae": 13.574185497151621,
+      "correlation": 0.9249001902900529
+    },
+    "static_blend": {
+      "rmse": 17.69188956263439,
+      "mae": 13.25337923945667,
+      "correlation": 0.929700048990135
+    },
+    "ar12": {
+      "rmse": 17.69188956263439,
+      "mae": 13.25337923945667,
+      "correlation": 0.929700048990135
+    },
+    "persistence": {
+      "rmse": 28.605885709897294,
+      "mae": 21.719266055045868,
+      "correlation": 0.8180407931593124
+    }
+  },
+  "heldout_reclosure_success_fraction": 1.0,
+  "heldout_novelty_fraction_among_successful": 1.0,
+  "rmse_improvement_vs_matched_null": 0.006581178368890939,
+  "frozen_parameters": {
+    "lag": 12,
+    "ar_ridge": 1.0,
+    "neutral_load_scale": 8.0,
+    "matched_null_feature": "absolute_slope",
+    "persistent_rank": 4,
+    "contraction": 0.76,
+    "phase_scale": 0.4,
+    "formation_drive": 1.45,
+    "formation_offset": 0.2
+  },
+  "interpretation_guard": {
+    "empirical_domain_result": true,
+    "universal_BFG_validation": false,
+    "note": "This is one frozen held-out benchmark of one external carrier. Passing supports only the declared annual-sunspot statement. Failing rejects that statement; held-out retuning is not allowed."
+  }
+}

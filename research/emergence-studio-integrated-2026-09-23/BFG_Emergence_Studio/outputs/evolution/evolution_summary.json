@@ -1,0 +1,15 @@
+{
+  "initial_seed": 1341550191,
+  "frames": 71,
+  "final_population": 2,
+  "max_population": 2,
+  "max_lineage_depth": 1,
+  "unit_birth_events": 3,
+  "fission_events": 1,
+  "mutation_events": 2,
+  "selection_deaths": 0,
+  "intrinsic_deaths": 0,
+  "core_steps": 97,
+  "successful_reclosures": 97,
+  "spectrally_novel_reclosures": 97
+}

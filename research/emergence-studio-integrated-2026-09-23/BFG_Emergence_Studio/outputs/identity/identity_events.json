@@ -1,0 +1,1092 @@
+[
+  {
+    "event": "identity_closure",
+    "generation": 1,
+    "historical_present_distance": 0.0071366746167255,
+    "identity_step_distance": 0.00024978361158539214,
+    "self_index_similarity": 0.9999998033347237,
+    "transverse_adaptation": 0.006191734183655991,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 2,
+    "historical_present_distance": 0.014005504502419762,
+    "identity_step_distance": 0.0004901926575846934,
+    "self_index_similarity": 0.9999982805422264,
+    "transverse_adaptation": 0.01212030529425419,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 3,
+    "historical_present_distance": 0.020582818651048617,
+    "identity_step_distance": 0.0007203986527867042,
+    "self_index_similarity": 0.9999933279115965,
+    "transverse_adaptation": 0.017772950109697712,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 4,
+    "historical_present_distance": 0.026889375323939806,
+    "identity_step_distance": 0.0009411281363379009,
+    "self_index_similarity": 0.9999820277116308,
+    "transverse_adaptation": 0.02316828736756492,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 5,
+    "historical_present_distance": 0.03288904560278095,
+    "identity_step_distance": 0.0011511165960973286,
+    "self_index_similarity": 0.9999608389980661,
+    "transverse_adaptation": 0.028267739459865285,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 6,
+    "historical_present_distance": 0.03859794658197938,
+    "identity_step_distance": 0.0013509281303692767,
+    "self_index_similarity": 0.999925742949622,
+    "transverse_adaptation": 0.033089895051374746,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 7,
+    "historical_present_distance": 0.04402082614421486,
+    "identity_step_distance": 0.0015407289150475107,
+    "self_index_similarity": 0.999872386107646,
+    "transverse_adaptation": 0.03764289120148661,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 8,
+    "historical_present_distance": 0.048781766922961114,
+    "identity_step_distance": 0.0017073618423036362,
+    "self_index_similarity": 0.9997969802189715,
+    "transverse_adaptation": 0.041554095997945587,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 9,
+    "historical_present_distance": 0.05367584000722223,
+    "identity_step_distance": 0.0018786544002527786,
+    "self_index_similarity": 0.9996943194425036,
+    "transverse_adaptation": 0.0456432463616752,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 10,
+    "historical_present_distance": 0.058281490548607144,
+    "identity_step_distance": 0.0020398521692012502,
+    "self_index_similarity": 0.999559772820327,
+    "transverse_adaptation": 0.049470223503349356,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 11,
+    "historical_present_distance": 0.0625707864885151,
+    "identity_step_distance": 0.00218997752709804,
+    "self_index_similarity": 0.9993889809745431,
+    "transverse_adaptation": 0.05299803894647353,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 12,
+    "historical_present_distance": 0.06658314588001966,
+    "identity_step_distance": 0.002330410105800684,
+    "self_index_similarity": 0.9991777452953284,
+    "transverse_adaptation": 0.05626760921812383,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 13,
+    "historical_present_distance": 0.07040115381272727,
+    "identity_step_distance": 0.002464040383445454,
+    "self_index_similarity": 0.998921848032282,
+    "transverse_adaptation": 0.05935531288638909,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 14,
+    "historical_present_distance": 0.07393465865087231,
+    "identity_step_distance": 0.0025877130527805275,
+    "self_index_similarity": 0.9986178276752488,
+    "transverse_adaptation": 0.06216058087837236,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 15,
+    "historical_present_distance": 0.07727106225126619,
+    "identity_step_distance": 0.0027044871787943146,
+    "self_index_similarity": 0.9982622259719806,
+    "transverse_adaptation": 0.0647747714866164,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 16,
+    "historical_present_distance": 0.0797099409951326,
+    "identity_step_distance": 0.00278984793482964,
+    "self_index_similarity": 0.9978562740415039,
+    "transverse_adaptation": 0.06652713363428098,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 17,
+    "historical_present_distance": 0.08265984965830189,
+    "identity_step_distance": 0.0028930947380405737,
+    "self_index_similarity": 0.9973936693176992,
+    "transverse_adaptation": 0.06878736088672868,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 18,
+    "historical_present_distance": 0.0854112262230503,
+    "identity_step_distance": 0.002989392917806754,
+    "self_index_similarity": 0.9968722133790973,
+    "transverse_adaptation": 0.07085096718808734,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 19,
+    "historical_present_distance": 0.08802159445534698,
+    "identity_step_distance": 0.0030807558059371505,
+    "self_index_similarity": 0.9962897188801924,
+    "transverse_adaptation": 0.07277461917263296,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 20,
+    "historical_present_distance": 0.09044912247120972,
+    "identity_step_distance": 0.003165719286492347,
+    "self_index_similarity": 0.9956447223731699,
+    "transverse_adaptation": 0.07451874404008797,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 21,
+    "historical_present_distance": 0.09272651073054254,
+    "identity_step_distance": 0.0032454278755689914,
+    "self_index_similarity": 0.9949359197179517,
+    "transverse_adaptation": 0.07611690262343158,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 22,
+    "historical_present_distance": 0.09484322102667742,
+    "identity_step_distance": 0.003319512735933712,
+    "self_index_similarity": 0.9941625572644791,
+    "transverse_adaptation": 0.07755589838244539,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 23,
+    "historical_present_distance": 0.09681558850279467,
+    "identity_step_distance": 0.003388545597597812,
+    "self_index_similarity": 0.9933241413345875,
+    "transverse_adaptation": 0.07885361717369986,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 24,
+    "historical_present_distance": 0.09875496420693695,
+    "identity_step_distance": 0.0034564237472428016,
+    "self_index_similarity": 0.9924196790075948,
+    "transverse_adaptation": 0.0800849982015459,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 25,
+    "historical_present_distance": 0.10060686900039262,
+    "identity_step_distance": 0.003521240415013743,
+    "self_index_similarity": 0.9914489430041483,
+    "transverse_adaptation": 0.08120833053483298,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 26,
+    "historical_present_distance": 0.10234324695793999,
+    "identity_step_distance": 0.003582013643527891,
+    "self_index_similarity": 0.990412188688171,
+    "transverse_adaptation": 0.08221281315106922,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 27,
+    "historical_present_distance": 0.10394541160091621,
+    "identity_step_distance": 0.0036380894060320705,
+    "self_index_similarity": 0.989310336705713,
+    "transverse_adaptation": 0.08307724825037648,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 28,
+    "historical_present_distance": 0.10542602079101115,
+    "identity_step_distance": 0.0036899107276853974,
+    "self_index_similarity": 0.9881444508523174,
+    "transverse_adaptation": 0.08382081727167776,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 29,
+    "historical_present_distance": 0.1067994750813044,
+    "identity_step_distance": 0.0037379816278456613,
+    "self_index_similarity": 0.986915676282825,
+    "transverse_adaptation": 0.08446201629574662,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 30,
+    "historical_present_distance": 0.1080801210759429,
+    "identity_step_distance": 0.0037828042376580086,
+    "self_index_similarity": 0.9856251263659003,
+    "transverse_adaptation": 0.08502187876646707,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 31,
+    "historical_present_distance": 0.10922442764544567,
+    "identity_step_distance": 0.003822854967590603,
+    "self_index_similarity": 0.9842749833971269,
+    "transverse_adaptation": 0.08545045108706918,
+    "failure": null
+  },
+  {
+    "event": "identity_export",
+    "generation": 32,
+    "feature_index": 6,
+    "feature": "continuity_position",
+    "historical_value": 0.1205386208233303,
+    "present_value": 0.28122555925285253,
+    "exported_residual": 0.16068693842952222,
+    "mode": "obsolete_or_non_integrable_historical_component"
+  },
+  {
+    "event": "identity_closure",
+    "generation": 32,
+    "historical_present_distance": 0.11022455154196031,
+    "identity_step_distance": 0.06081922143626589,
+    "self_index_similarity": 0.9576782485221559,
+    "transverse_adaptation": 0.07010372709530666,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 33,
+    "historical_present_distance": 0.09271943893363141,
+    "identity_step_distance": 0.0032451803626770987,
+    "self_index_similarity": 0.9570221916247565,
+    "transverse_adaptation": 0.06984577966100437,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 34,
+    "historical_present_distance": 0.09340129751563456,
+    "identity_step_distance": 0.0032690454130472136,
+    "self_index_similarity": 0.9562830509286145,
+    "transverse_adaptation": 0.06958325455939202,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 35,
+    "historical_present_distance": 0.09404730433192396,
+    "identity_step_distance": 0.0032916556516173288,
+    "self_index_similarity": 0.9554658008543919,
+    "transverse_adaptation": 0.06933143989199583,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 36,
+    "historical_present_distance": 0.09465982873283137,
+    "identity_step_distance": 0.003313094005649096,
+    "self_index_similarity": 0.9545751354540233,
+    "transverse_adaptation": 0.06909196496644741,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 37,
+    "historical_present_distance": 0.09521738988037466,
+    "identity_step_distance": 0.0033326086458131195,
+    "self_index_similarity": 0.9536158598466792,
+    "transverse_adaptation": 0.06883749217795845,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 38,
+    "historical_present_distance": 0.09574960240360193,
+    "identity_step_distance": 0.0033512360841260755,
+    "self_index_similarity": 0.952592125090643,
+    "transverse_adaptation": 0.06860115944745696,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 39,
+    "historical_present_distance": 0.09626571622924239,
+    "identity_step_distance": 0.0033693000680234814,
+    "self_index_similarity": 0.951507947277434,
+    "transverse_adaptation": 0.06837789121369497,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 40,
+    "historical_present_distance": 0.09663480522569373,
+    "identity_step_distance": 0.0033822181828992736,
+    "self_index_similarity": 0.9503687322172953,
+    "transverse_adaptation": 0.06807150335789469,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 41,
+    "historical_present_distance": 0.09696711007267428,
+    "identity_step_distance": 0.003393848852543609,
+    "self_index_similarity": 0.9491780059801834,
+    "transverse_adaptation": 0.06778125524115858,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 42,
+    "historical_present_distance": 0.09726374604026668,
+    "identity_step_distance": 0.0034042311114093364,
+    "self_index_similarity": 0.9479390857616432,
+    "transverse_adaptation": 0.06750218663545254,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 43,
+    "historical_present_distance": 0.09748661955616805,
+    "identity_step_distance": 0.003412031684465884,
+    "self_index_similarity": 0.9466559214361601,
+    "transverse_adaptation": 0.0671825723839481,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 44,
+    "historical_present_distance": 0.09768401320903453,
+    "identity_step_distance": 0.0034189404623162175,
+    "self_index_similarity": 0.9453315296031185,
+    "transverse_adaptation": 0.06687428346671917,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 45,
+    "historical_present_distance": 0.09781440928712679,
+    "identity_step_distance": 0.0034235043250494487,
+    "self_index_similarity": 0.9439694235932182,
+    "transverse_adaptation": 0.0665331406275811,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 46,
+    "historical_present_distance": 0.09790923435224426,
+    "identity_step_distance": 0.003426823202328553,
+    "self_index_similarity": 0.9425725660288846,
+    "transverse_adaptation": 0.06618718930174318,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 47,
+    "historical_present_distance": 0.09796501921289116,
+    "identity_step_distance": 0.003428775672451211,
+    "self_index_similarity": 0.9411438384526084,
+    "transverse_adaptation": 0.06583174848263192,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 48,
+    "historical_present_distance": 0.09811038358664255,
+    "identity_step_distance": 0.003433863425532476,
+    "self_index_similarity": 0.939684457582994,
+    "transverse_adaptation": 0.06554934113246348,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 49,
+    "historical_present_distance": 0.09829121999691355,
+    "identity_step_distance": 0.0034401926998919702,
+    "self_index_similarity": 0.9381962347423379,
+    "transverse_adaptation": 0.0653052140383953,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 50,
+    "historical_present_distance": 0.09843658673768786,
+    "identity_step_distance": 0.003445280535819075,
+    "self_index_similarity": 0.9366819671048574,
+    "transverse_adaptation": 0.06503130856545267,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 51,
+    "historical_present_distance": 0.09857359812265847,
+    "identity_step_distance": 0.0034500759342930417,
+    "self_index_similarity": 0.9351436294921961,
+    "transverse_adaptation": 0.06476497362215955,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 52,
+    "historical_present_distance": 0.09862905627911593,
+    "identity_step_distance": 0.003452016969769068,
+    "self_index_similarity": 0.9335846733598376,
+    "transverse_adaptation": 0.06443427003657255,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 53,
+    "historical_present_distance": 0.09867288197270906,
+    "identity_step_distance": 0.0034535508690448163,
+    "self_index_similarity": 0.9320067377732077,
+    "transverse_adaptation": 0.06412250900672381,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 54,
+    "historical_present_distance": 0.09866170102015842,
+    "identity_step_distance": 0.0034531595357055454,
+    "self_index_similarity": 0.9304122492483518,
+    "transverse_adaptation": 0.06377522562549531,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 55,
+    "historical_present_distance": 0.09860967007939798,
+    "identity_step_distance": 0.003451338452778935,
+    "self_index_similarity": 0.9288032822155939,
+    "transverse_adaptation": 0.06340711070138672,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 56,
+    "historical_present_distance": 0.09848470411748879,
+    "identity_step_distance": 0.0034469646441121007,
+    "self_index_similarity": 0.9271818725341274,
+    "transverse_adaptation": 0.06299224777960347,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 57,
+    "historical_present_distance": 0.09827395792866787,
+    "identity_step_distance": 0.003439588527503377,
+    "self_index_similarity": 0.9255504303923497,
+    "transverse_adaptation": 0.06252820561893398,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 58,
+    "historical_present_distance": 0.09798517580600408,
+    "identity_step_distance": 0.0034294811532101445,
+    "self_index_similarity": 0.9239113924018141,
+    "transverse_adaptation": 0.06201763697314647,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 59,
+    "historical_present_distance": 0.09764816862366386,
+    "identity_step_distance": 0.0034176859018282273,
+    "self_index_similarity": 0.9222665897362833,
+    "transverse_adaptation": 0.061488510966662954,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 60,
+    "historical_present_distance": 0.09730800905865734,
+    "identity_step_distance": 0.0034057803170530108,
+    "self_index_similarity": 0.9206166620415566,
+    "transverse_adaptation": 0.06099459542672105,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 61,
+    "historical_present_distance": 0.09696633943123156,
+    "identity_step_distance": 0.003393821880093102,
+    "self_index_similarity": 0.9189624198948556,
+    "transverse_adaptation": 0.06052282999076075,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 62,
+    "historical_present_distance": 0.0965889270247088,
+    "identity_step_distance": 0.003380612445864809,
+    "self_index_similarity": 0.9173053768715704,
+    "transverse_adaptation": 0.060035802703016096,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 63,
+    "historical_present_distance": 0.09615899198503039,
+    "identity_step_distance": 0.00336556471947606,
+    "self_index_similarity": 0.9156474265782684,
+    "transverse_adaptation": 0.05951365587653449,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 64,
+    "historical_present_distance": 0.09560016942856955,
+    "identity_step_distance": 0.003346005929999932,
+    "self_index_similarity": 0.9139914878236455,
+    "transverse_adaptation": 0.058912117171219386,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 65,
+    "historical_present_distance": 0.09496555106708446,
+    "identity_step_distance": 0.003323794287347967,
+    "self_index_similarity": 0.9123396346277068,
+    "transverse_adaptation": 0.05826826188884068,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 66,
+    "historical_present_distance": 0.0943241393649007,
+    "identity_step_distance": 0.0033013448777715303,
+    "self_index_similarity": 0.9106931232224041,
+    "transverse_adaptation": 0.0576173724617165,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 67,
+    "historical_present_distance": 0.0936745733362663,
+    "identity_step_distance": 0.003278610066769339,
+    "self_index_similarity": 0.909052528171428,
+    "transverse_adaptation": 0.05698314236983945,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 68,
+    "historical_present_distance": 0.09300029681626323,
+    "identity_step_distance": 0.0032550103885692094,
+    "self_index_similarity": 0.9074189486709452,
+    "transverse_adaptation": 0.05634057746476138,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 69,
+    "historical_present_distance": 0.09230340039552572,
+    "identity_step_distance": 0.003230619013843399,
+    "self_index_similarity": 0.9057931772016512,
+    "transverse_adaptation": 0.05570500496173144,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 70,
+    "historical_present_distance": 0.09162691405256018,
+    "identity_step_distance": 0.0032069419918396235,
+    "self_index_similarity": 0.9041750726759104,
+    "transverse_adaptation": 0.055108279336464124,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 71,
+    "historical_present_distance": 0.0909554367661257,
+    "identity_step_distance": 0.003183440286814392,
+    "self_index_similarity": 0.902565352691882,
+    "transverse_adaptation": 0.054508725046220445,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 72,
+    "historical_present_distance": 0.0903351876021122,
+    "identity_step_distance": 0.0031617315660739265,
+    "self_index_similarity": 0.9009641106170074,
+    "transverse_adaptation": 0.05393302279956677,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 73,
+    "historical_present_distance": 0.08975377764138733,
+    "identity_step_distance": 0.0031413822174485642,
+    "self_index_similarity": 0.8993715263331317,
+    "transverse_adaptation": 0.05338201622630907,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 74,
+    "historical_present_distance": 0.08921988433847998,
+    "identity_step_distance": 0.0031226959518467763,
+    "self_index_similarity": 0.8977871694850098,
+    "transverse_adaptation": 0.05287265620592192,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 75,
+    "historical_present_distance": 0.08868480169381697,
+    "identity_step_distance": 0.0031039680592836105,
+    "self_index_similarity": 0.896211681152844,
+    "transverse_adaptation": 0.05235966103178351,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 76,
+    "historical_present_distance": 0.08815661208218362,
+    "identity_step_distance": 0.0030854814228764103,
+    "self_index_similarity": 0.8946453001464199,
+    "transverse_adaptation": 0.05185695956268793,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 77,
+    "historical_present_distance": 0.08759581901785427,
+    "identity_step_distance": 0.003065853665624919,
+    "self_index_similarity": 0.8930892065255894,
+    "transverse_adaptation": 0.05132659127398903,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 78,
+    "historical_present_distance": 0.08701263222750986,
+    "identity_step_distance": 0.0030454421279628454,
+    "self_index_similarity": 0.8915442182713339,
+    "transverse_adaptation": 0.05078177723013977,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 79,
+    "historical_present_distance": 0.08640889401649218,
+    "identity_step_distance": 0.0030243112905772255,
+    "self_index_similarity": 0.8900110558443824,
+    "transverse_adaptation": 0.0502255190500879,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 80,
+    "historical_present_distance": 0.08576517571196479,
+    "identity_step_distance": 0.0030017811499187925,
+    "self_index_similarity": 0.8884900075605622,
+    "transverse_adaptation": 0.04966605244703667,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 81,
+    "historical_present_distance": 0.08508086036675648,
+    "identity_step_distance": 0.0029778301128364822,
+    "self_index_similarity": 0.88698154048656,
+    "transverse_adaptation": 0.049095048742285735,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 82,
+    "historical_present_distance": 0.0843643164831686,
+    "identity_step_distance": 0.0029527510769109173,
+    "self_index_similarity": 0.8854862107770336,
+    "transverse_adaptation": 0.048515587933818216,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 83,
+    "historical_present_distance": 0.0836240243480337,
+    "identity_step_distance": 0.002926840852181179,
+    "self_index_similarity": 0.8840045554850418,
+    "transverse_adaptation": 0.047928492258611295,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 84,
+    "historical_present_distance": 0.08292435652239029,
+    "identity_step_distance": 0.0029023524782836665,
+    "self_index_similarity": 0.8825355589887255,
+    "transverse_adaptation": 0.04738925159183446,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 85,
+    "historical_present_distance": 0.08221204919881359,
+    "identity_step_distance": 0.0028774217219584607,
+    "self_index_similarity": 0.8810795341570189,
+    "transverse_adaptation": 0.04684945762381961,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 86,
+    "historical_present_distance": 0.081476326846647,
+    "identity_step_distance": 0.0028516714396326424,
+    "self_index_similarity": 0.87963710006226,
+    "transverse_adaptation": 0.04629682162848992,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 87,
+    "historical_present_distance": 0.0807417226028521,
+    "identity_step_distance": 0.0028259602910998363,
+    "self_index_similarity": 0.8782082873112023,
+    "transverse_adaptation": 0.04575344997839971,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 88,
+    "historical_present_distance": 0.07998188854738406,
+    "identity_step_distance": 0.0027993660991584204,
+    "self_index_similarity": 0.8767931049462537,
+    "transverse_adaptation": 0.04521856895592038,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 89,
+    "historical_present_distance": 0.07918480156630443,
+    "identity_step_distance": 0.002771468054820662,
+    "self_index_similarity": 0.8753928073206528,
+    "transverse_adaptation": 0.044648222911374484,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 90,
+    "historical_present_distance": 0.07837103128512224,
+    "identity_step_distance": 0.0027429860949792764,
+    "self_index_similarity": 0.8740076432855349,
+    "transverse_adaptation": 0.044076728863656454,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 91,
+    "historical_present_distance": 0.07755983976175956,
+    "identity_step_distance": 0.0027145943916616023,
+    "self_index_similarity": 0.8726374921266495,
+    "transverse_adaptation": 0.043517908022038844,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 92,
+    "historical_present_distance": 0.0767579745506905,
+    "identity_step_distance": 0.002686529109274148,
+    "self_index_similarity": 0.8712820903570304,
+    "transverse_adaptation": 0.042976395950157585,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 93,
+    "historical_present_distance": 0.07593775052594678,
+    "identity_step_distance": 0.002657821268408148,
+    "self_index_similarity": 0.8699420518431387,
+    "transverse_adaptation": 0.04241960682518148,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 94,
+    "historical_present_distance": 0.07510898616701545,
+    "identity_step_distance": 0.002628814515845548,
+    "self_index_similarity": 0.868617642201571,
+    "transverse_adaptation": 0.041859792264177687,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 95,
+    "historical_present_distance": 0.0742988509951444,
+    "identity_step_distance": 0.0026004597848300662,
+    "self_index_similarity": 0.8673084573987346,
+    "transverse_adaptation": 0.041321203770903286,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 96,
+    "historical_present_distance": 0.07348602970840301,
+    "identity_step_distance": 0.002572011039794107,
+    "self_index_similarity": 0.8660145446852242,
+    "transverse_adaptation": 0.040786316719187886,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 97,
+    "historical_present_distance": 0.07267369359689098,
+    "identity_step_distance": 0.002543579275891201,
+    "self_index_similarity": 0.864735885377328,
+    "transverse_adaptation": 0.040257142458186124,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 98,
+    "historical_present_distance": 0.07185648754320137,
+    "identity_step_distance": 0.0025149770640120373,
+    "self_index_similarity": 0.8634727580207491,
+    "transverse_adaptation": 0.03972293417515047,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 99,
+    "historical_present_distance": 0.0710459236104861,
+    "identity_step_distance": 0.002486607326366999,
+    "self_index_similarity": 0.8622249769778764,
+    "transverse_adaptation": 0.03919970458246963,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 100,
+    "historical_present_distance": 0.07024779139497533,
+    "identity_step_distance": 0.0024586726988241304,
+    "self_index_similarity": 0.8609923090649555,
+    "transverse_adaptation": 0.038688840775713086,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 101,
+    "historical_present_distance": 0.069428865901478,
+    "identity_step_distance": 0.0024300103065517395,
+    "self_index_similarity": 0.8597754000337382,
+    "transverse_adaptation": 0.038158711498791575,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 102,
+    "historical_present_distance": 0.06861949351413273,
+    "identity_step_distance": 0.0024016822729946347,
+    "self_index_similarity": 0.8585740358894162,
+    "transverse_adaptation": 0.03763969372211406,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 103,
+    "historical_present_distance": 0.06782824371138194,
+    "identity_step_distance": 0.002373988529898379,
+    "self_index_similarity": 0.8573878098388641,
+    "transverse_adaptation": 0.03713806622953564,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 104,
+    "historical_present_distance": 0.0670412322628555,
+    "identity_step_distance": 0.0023464431291999634,
+    "self_index_similarity": 0.8562167037677545,
+    "transverse_adaptation": 0.03663982342440886,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 105,
+    "historical_present_distance": 0.06625859744502252,
+    "identity_step_distance": 0.002319050910575761,
+    "self_index_similarity": 0.8550605949060724,
+    "transverse_adaptation": 0.03614825556940311,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 106,
+    "historical_present_distance": 0.06547449138893796,
+    "identity_step_distance": 0.0022916071986127996,
+    "self_index_similarity": 0.8539195940305367,
+    "transverse_adaptation": 0.03565513648071772,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 107,
+    "historical_present_distance": 0.06470303630848465,
+    "identity_step_distance": 0.002264606270796941,
+    "self_index_similarity": 0.8527934203064977,
+    "transverse_adaptation": 0.03517374613176012,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 108,
+    "historical_present_distance": 0.06393970733856764,
+    "identity_step_distance": 0.0022378897568498747,
+    "self_index_similarity": 0.8516819156927279,
+    "transverse_adaptation": 0.03469960042725196,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 109,
+    "historical_present_distance": 0.06317964780784889,
+    "identity_step_distance": 0.0022112876732747126,
+    "self_index_similarity": 0.8505850378949839,
+    "transverse_adaptation": 0.03422852012527374,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 110,
+    "historical_present_distance": 0.06243163972405469,
+    "identity_step_distance": 0.0021851073903419362,
+    "self_index_similarity": 0.8495025169020515,
+    "transverse_adaptation": 0.03376805736170597,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 111,
+    "historical_present_distance": 0.06168144995076066,
+    "identity_step_distance": 0.0021588507482766138,
+    "self_index_similarity": 0.848434364039484,
+    "transverse_adaptation": 0.03330848715565467,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 112,
+    "historical_present_distance": 0.06093004243719441,
+    "identity_step_distance": 0.002132551485301804,
+    "self_index_similarity": 0.8473806122836165,
+    "transverse_adaptation": 0.032848966427950745,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 113,
+    "historical_present_distance": 0.060191649352746145,
+    "identity_step_distance": 0.0021067077273461046,
+    "self_index_similarity": 0.8463409415835752,
+    "transverse_adaptation": 0.032401296862609126,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 114,
+    "historical_present_distance": 0.05945136442085114,
+    "identity_step_distance": 0.002080797754729786,
+    "self_index_similarity": 0.8453154699967395,
+    "transverse_adaptation": 0.031950555856374435,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 115,
+    "historical_present_distance": 0.05870757448382907,
+    "identity_step_distance": 0.002054765106934041,
+    "self_index_similarity": 0.844304215148495,
+    "transverse_adaptation": 0.03150014405847251,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 116,
+    "historical_present_distance": 0.05798336141610481,
+    "identity_step_distance": 0.0020294176495636662,
+    "self_index_similarity": 0.8433066249277684,
+    "transverse_adaptation": 0.031068987801644625,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 117,
+    "historical_present_distance": 0.05725788749203733,
+    "identity_step_distance": 0.0020040260622213096,
+    "self_index_similarity": 0.8423227773467138,
+    "transverse_adaptation": 0.03063587158533608,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 118,
+    "historical_present_distance": 0.05652597943745775,
+    "identity_step_distance": 0.0019784092803110127,
+    "self_index_similarity": 0.8413528123604485,
+    "transverse_adaptation": 0.030198767808552136,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 119,
+    "historical_present_distance": 0.05581492027327331,
+    "identity_step_distance": 0.0019535222095645654,
+    "self_index_similarity": 0.840396196032283,
+    "transverse_adaptation": 0.029779919361986828,
+    "failure": null
+  },
+  {
+    "event": "identity_closure",
+    "generation": 120,
+    "historical_present_distance": 0.055107903071571554,
+    "identity_step_distance": 0.0019287766075050024,
+    "self_index_similarity": 0.8394527565038352,
+    "transverse_adaptation": 0.029367267042417343,
+    "failure": null
+  }
+]

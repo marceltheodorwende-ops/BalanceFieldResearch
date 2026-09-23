@@ -1,0 +1,224 @@
+{
+  "config": {
+    "lag": 12,
+    "calibration_start_year": 1700,
+    "calibration_end_year": 1899,
+    "heldout_start_year": 1900,
+    "heldout_end_year": 2008,
+    "mean": 44.123999999999995,
+    "std": 34.67576277459517,
+    "graph_sigma": 0.8795769021221215,
+    "temporal_scale": 4.0,
+    "neutral_load_scale": 8.0,
+    "stress_scale": 0.18,
+    "formation_drive": 1.45,
+    "formation_offset": 0.2,
+    "persistent_rank": 4,
+    "contraction": 0.76,
+    "phase_scale": 0.4,
+    "ar_ridge": 1.0,
+    "ar_intercept": 0.013878721206320095,
+    "ar_coefficients": [
+      -0.1025170995823876,
+      0.22162371018813506,
+      -0.15110651552521964,
+      0.14114293066617375,
+      0.08194956833768069,
+      -0.07706721629342661,
+      0.07921993041062184,
+      -0.13153528059037636,
+      0.10430424373625558,
+      -0.038806885727732415,
+      -0.541355221152578,
+      1.2219939389521757
+    ],
+    "neutral_feature_mean": 0.5562605170315469,
+    "neutral_feature_std": 0.1319037541361697,
+    "bfg_correction_intercept": -0.07776671670878281,
+    "bfg_correction_slope": 0.19431310973958793,
+    "null_feature_name": "absolute_slope",
+    "null_feature_mean": 0.0999708002943567,
+    "null_feature_std": 0.06774589390156432,
+    "null_correction_intercept": -0.06946207955137812,
+    "null_correction_slope": 0.15113210994380216,
+    "static_blend_alpha": 0.0,
+    "dataset_sha256": "7dac2f45399b4d3b335823db9884c4b6d7f79509f94aed6de20da6a431ae5900"
+  },
+  "mapping_fingerprint": "8345c50579367c4fcd09d6c1b2e6bcf22d909650e36e1b8e6bfb11f827f7aecc",
+  "plan_fingerprint": "59faa343efb8604f6d88e831995480fa71155a0473aef0d56bc1df6224d90247",
+  "dataset_sha256": "7dac2f45399b4d3b335823db9884c4b6d7f79509f94aed6de20da6a431ae5900",
+  "calibration_metrics": {
+    "bfg": {
+      "rmse": 13.492548240653862,
+      "mae": 10.343368425489622
+    },
+    "matched_null": {
+      "rmse": 13.510316744481495,
+      "mae": 10.307749462677657
+    },
+    "static_blend": {
+      "rmse": 13.779886653568857,
+      "mae": 10.420652406412838
+    },
+    "ar12": {
+      "rmse": 13.779886653568857,
+      "mae": 10.420652406412838
+    },
+    "persistence": {
+      "rmse": 21.391399395203354,
+      "mae": 16.63351063829787
+    }
+  },
+  "calibration_reclosure_success_fraction": 1.0,
+  "calibration_novelty_fraction_among_successful": 1.0,
+  "bfg_neutral_scale_candidates": [
+    {
+      "neutral_load_scale": 0.01,
+      "rmse": 13.767071559946793,
+      "mae": 10.445213267324155,
+      "intercept": -0.03402955115555955,
+      "slope": 0.03759099901877444,
+      "feature_mean": 0.9468884088053279,
+      "feature_std": 0.0141560260670773
+    },
+    {
+      "neutral_load_scale": 0.025,
+      "rmse": 13.760862173496308,
+      "mae": 10.44700155944016,
+      "intercept": -0.03866505756394503,
+      "slope": 0.047887311268479615,
+      "feature_mean": 0.9438319228408713,
+      "feature_std": 0.014838547781781045
+    },
+    {
+      "neutral_load_scale": 0.05,
+      "rmse": 13.749746686264528,
+      "mae": 10.45334759433193,
+      "intercept": -0.04488735889036818,
+      "slope": 0.062252623851016216,
+      "feature_mean": 0.9388436122577287,
+      "feature_std": 0.016163298397494825
+    },
+    {
+      "neutral_load_scale": 0.1,
+      "rmse": 13.729041554254254,
+      "mae": 10.462440909816014,
+      "intercept": -0.05276264566099548,
+      "slope": 0.08295827468318841,
+      "feature_mean": 0.9292424627407773,
+      "feature_std": 0.019235829979109807
+    },
+    {
+      "neutral_load_scale": 0.25,
+      "rmse": 13.689730913742867,
+      "mae": 10.467793196719153,
+      "intercept": -0.06038550116461563,
+      "slope": 0.1134903733837614,
+      "feature_mean": 0.9030749983600954,
+      "feature_std": 0.02917769505417474
+    },
+    {
+      "neutral_load_scale": 0.5,
+      "rmse": 13.658554879588003,
+      "mae": 10.461026666953646,
+      "intercept": -0.06264329287111312,
+      "slope": 0.1333373239279017,
+      "feature_mean": 0.8663861536032393,
+      "feature_std": 0.04386153760213575
+    },
+    {
+      "neutral_load_scale": 1.0,
+      "rmse": 13.62551732406398,
+      "mae": 10.443743729291205,
+      "intercept": -0.0644738663445013,
+      "slope": 0.15079204924117132,
+      "feature_mean": 0.8102743785944226,
+      "feature_std": 0.0652573114861606
+    },
+    {
+      "neutral_load_scale": 2.0,
+      "rmse": 13.586358908037393,
+      "mae": 10.418457100363183,
+      "intercept": -0.06756998890791752,
+      "slope": 0.1674661963284495,
+      "feature_mean": 0.7353510379726285,
+      "feature_std": 0.09044996106660981
+    },
+    {
+      "neutral_load_scale": 4.0,
+      "rmse": 13.540663075105499,
+      "mae": 10.385537947691834,
+      "intercept": -0.07217469157835989,
+      "slope": 0.1826314458791425,
+      "feature_mean": 0.6480158531632862,
+      "feature_std": 0.11419036727132725
+    },
+    {
+      "neutral_load_scale": 8.0,
+      "rmse": 13.492548240653862,
+      "mae": 10.34336842548962,
+      "intercept": -0.07776671670878281,
+      "slope": 0.19431310973958793,
+      "feature_mean": 0.5562605170315469,
+      "feature_std": 0.1319037541361697
+    }
+  ],
+  "ordinary_null_candidates": [
+    {
+      "feature_name": "diff_volatility",
+      "rmse": 13.775491111613778,
+      "mae": 10.447343442670537,
+      "intercept": -0.011986156251358305,
+      "slope": -0.01283943645054187,
+      "feature_mean": 0.5665373163200045,
+      "feature_std": 0.22020009534173365
+    },
+    {
+      "feature_name": "level_volatility",
+      "rmse": 13.695491737855853,
+      "mae": 10.44631000200531,
+      "intercept": -0.062068005054825584,
+      "slope": 0.10213455530772646,
+      "feature_mean": 0.8586718270396744,
+      "feature_std": 0.26871975958846506
+    },
+    {
+      "feature_name": "absolute_slope",
+      "rmse": 13.510316744481495,
+      "mae": 10.307749462677657,
+      "intercept": -0.06946207955137812,
+      "slope": 0.15113210994380216,
+      "feature_mean": 0.0999708002943567,
+      "feature_std": 0.06774589390156432
+    },
+    {
+      "feature_name": "range",
+      "rmse": 13.711861799907169,
+      "mae": 10.460137934449886,
+      "intercept": -0.0569097701014894,
+      "slope": 0.09084146217699925,
+      "feature_mean": 2.6751317525598735,
+      "feature_std": 0.9126496994266499
+    },
+    {
+      "feature_name": "recent_level",
+      "rmse": 13.688694155897261,
+      "mae": 10.301460349835217,
+      "intercept": 0.01042961903584314,
+      "slope": -0.09528471615579108,
+      "feature_mean": 0.045771746192957166,
+      "feature_std": 1.0084466023651006
+    },
+    {
+      "feature_name": "curvature",
+      "rmse": 13.736664222697494,
+      "mae": 10.38247967220896,
+      "intercept": 0.008087056634870587,
+      "slope": -0.04367920452660475,
+      "feature_mean": 0.4187577581275165,
+      "feature_std": 0.4221621474002666
+    }
+  ],
+  "heldout_metrics_evaluated": false,
+  "calibration_design_note": "This freeze supersedes a rejected calibration-only prototype whose R_C lacked a persistent sector and whose direct neutral blend did not beat the calibration null. No held-out metric was evaluated before this freeze."
+}

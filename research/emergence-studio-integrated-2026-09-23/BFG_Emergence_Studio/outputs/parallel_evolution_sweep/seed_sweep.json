@@ -1,0 +1,236 @@
+{
+  "mode": "evolution",
+  "runs": 12,
+  "workers": 4,
+  "source_fingerprint": "e9c930922be4369e765c828c6ad40e4521ad824dd0a91e109c3dddd37ef2521e",
+  "items": [
+    {
+      "seed": 100,
+      "mode": "evolution",
+      "summary": {
+        "initial_seed": 100,
+        "frames": 13,
+        "final_population": 1,
+        "max_population": 1,
+        "max_lineage_depth": 0,
+        "unit_birth_events": 1,
+        "fission_events": 0,
+        "mutation_events": 0,
+        "selection_deaths": 0,
+        "intrinsic_deaths": 0,
+        "core_steps": 12,
+        "successful_reclosures": 12,
+        "spectrally_novel_reclosures": 12
+      }
+    },
+    {
+      "seed": 101,
+      "mode": "evolution",
+      "summary": {
+        "initial_seed": 101,
+        "frames": 13,
+        "final_population": 1,
+        "max_population": 1,
+        "max_lineage_depth": 0,
+        "unit_birth_events": 1,
+        "fission_events": 0,
+        "mutation_events": 0,
+        "selection_deaths": 0,
+        "intrinsic_deaths": 0,
+        "core_steps": 12,
+        "successful_reclosures": 12,
+        "spectrally_novel_reclosures": 12
+      }
+    },
+    {
+      "seed": 102,
+      "mode": "evolution",
+      "summary": {
+        "initial_seed": 102,
+        "frames": 13,
+        "final_population": 2,
+        "max_population": 2,
+        "max_lineage_depth": 1,
+        "unit_birth_events": 3,
+        "fission_events": 1,
+        "mutation_events": 2,
+        "selection_deaths": 0,
+        "intrinsic_deaths": 0,
+        "core_steps": 15,
+        "successful_reclosures": 15,
+        "spectrally_novel_reclosures": 15
+      }
+    },
+    {
+      "seed": 103,
+      "mode": "evolution",
+      "summary": {
+        "initial_seed": 103,
+        "frames": 13,
+        "final_population": 1,
+        "max_population": 1,
+        "max_lineage_depth": 0,
+        "unit_birth_events": 1,
+        "fission_events": 0,
+        "mutation_events": 0,
+        "selection_deaths": 0,
+        "intrinsic_deaths": 0,
+        "core_steps": 12,
+        "successful_reclosures": 12,
+        "spectrally_novel_reclosures": 12
+      }
+    },
+    {
+      "seed": 104,
+      "mode": "evolution",
+      "summary": {
+        "initial_seed": 104,
+        "frames": 13,
+        "final_population": 1,
+        "max_population": 1,
+        "max_lineage_depth": 0,
+        "unit_birth_events": 1,
+        "fission_events": 0,
+        "mutation_events": 0,
+        "selection_deaths": 0,
+        "intrinsic_deaths": 0,
+        "core_steps": 12,
+        "successful_reclosures": 12,
+        "spectrally_novel_reclosures": 12
+      }
+    },
+    {
+      "seed": 105,
+      "mode": "evolution",
+      "summary": {
+        "initial_seed": 105,
+        "frames": 13,
+        "final_population": 1,
+        "max_population": 1,
+        "max_lineage_depth": 0,
+        "unit_birth_events": 1,
+        "fission_events": 0,
+        "mutation_events": 0,
+        "selection_deaths": 0,
+        "intrinsic_deaths": 0,
+        "core_steps": 12,
+        "successful_reclosures": 12,
+        "spectrally_novel_reclosures": 12
+      }
+    },
+    {
+      "seed": 106,
+      "mode": "evolution",
+      "summary": {
+        "initial_seed": 106,
+        "frames": 13,
+        "final_population": 1,
+        "max_population": 1,
+        "max_lineage_depth": 0,
+        "unit_birth_events": 1,
+        "fission_events": 0,
+        "mutation_events": 0,
+        "selection_deaths": 0,
+        "intrinsic_deaths": 0,
+        "core_steps": 12,
+        "successful_reclosures": 12,
+        "spectrally_novel_reclosures": 12
+      }
+    },
+    {
+      "seed": 107,
+      "mode": "evolution",
+      "summary": {
+        "initial_seed": 107,
+        "frames": 13,
+        "final_population": 1,
+        "max_population": 1,
+        "max_lineage_depth": 0,
+        "unit_birth_events": 1,
+        "fission_events": 0,
+        "mutation_events": 0,
+        "selection_deaths": 0,
+        "intrinsic_deaths": 0,
+        "core_steps": 12,
+        "successful_reclosures": 12,
+        "spectrally_novel_reclosures": 12
+      }
+    },
+    {
+      "seed": 108,
+      "mode": "evolution",
+      "summary": {
+        "initial_seed": 108,
+        "frames": 13,
+        "final_population": 1,
+        "max_population": 1,
+        "max_lineage_depth": 0,
+        "unit_birth_events": 1,
+        "fission_events": 0,
+        "mutation_events": 0,
+        "selection_deaths": 0,
+        "intrinsic_deaths": 0,
+        "core_steps": 12,
+        "successful_reclosures": 12,
+        "spectrally_novel_reclosures": 12
+      }
+    },
+    {
+      "seed": 109,
+      "mode": "evolution",
+      "summary": {
+        "initial_seed": 109,
+        "frames": 13,
+        "final_population": 1,
+        "max_population": 1,
+        "max_lineage_depth": 0,
+        "unit_birth_events": 1,
+        "fission_events": 0,
+        "mutation_events": 0,
+        "selection_deaths": 0,
+        "intrinsic_deaths": 0,
+        "core_steps": 12,
+        "successful_reclosures": 12,
+        "spectrally_novel_reclosures": 12
+      }
+    },
+    {
+      "seed": 110,
+      "mode": "evolution",
+      "summary": {
+        "initial_seed": 110,
+        "frames": 13,
+        "final_population": 1,
+        "max_population": 1,
+        "max_lineage_depth": 0,
+        "unit_birth_events": 1,
+        "fission_events": 0,
+        "mutation_events": 0,
+        "selection_deaths": 0,
+        "intrinsic_deaths": 0,
+        "core_steps": 12,
+        "successful_reclosures": 12,
+        "spectrally_novel_reclosures": 12
+      }
+    },
+    {
+      "seed": 111,
+      "mode": "evolution",
+      "summary": {
+        "initial_seed": 111,
+        "frames": 13,
+        "final_population": 1,
+        "max_population": 1,
+        "max_lineage_depth": 0,
+        "unit_birth_events": 1,
+        "fission_events": 0,
+        "mutation_events": 0,
+        "selection_deaths": 0,
+        "intrinsic_deaths": 0,
+        "core_steps": 12,
+        "successful_reclosures": 12,
+        "spectrally_novel_reclosures": 12
+      }
+    }
+  ]
+}

@@ -77,3 +77,7 @@ The [author-supplied Emergence Studio](research/emergence-studio-2026-09-23/READ
 ## Explicit finite conditional completion
 
 The [finite closure model](research/finite-closure-model-2026-09-23/README.md) defines and proves a reduced-state update with explicit intrinsic-Gram and unitary-recursion choices. Fifteen focused checks pass. This is a conditional mathematical completion, not a proof that the original BFG axioms uniquely force those choices or close the general unbounded case.
+
+## Current BFG Emergence Studio
+
+The [integrated Studio version](research/emergence-studio-integrated-2026-09-23/README.md) includes 314 original files, the adopted reduced finite closure profile, recursive-stability and exact-certificate modules, and documented results of 107 tests and nine benchmarks. The earlier Studio snapshot remains available; this import performs no new code execution.

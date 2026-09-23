@@ -1,0 +1,72 @@
+[
+  {
+    "rank": 1,
+    "score": 22.5,
+    "seed": 1560023974,
+    "summary": {
+      "states": 7,
+      "steps_attempted": 6,
+      "successful_reclosures": 5,
+      "spectrally_novel_steps": 5,
+      "terminal": true,
+      "terminal_reason": "dual-order failure: one persistent load vanished",
+      "final_generation": 6
+    }
+  },
+  {
+    "rank": 2,
+    "score": 22.5,
+    "seed": 2025197564,
+    "summary": {
+      "states": 7,
+      "steps_attempted": 6,
+      "successful_reclosures": 5,
+      "spectrally_novel_steps": 5,
+      "terminal": true,
+      "terminal_reason": "dual-order failure: one persistent load vanished",
+      "final_generation": 6
+    }
+  },
+  {
+    "rank": 3,
+    "score": 22.5,
+    "seed": 2096467393,
+    "summary": {
+      "states": 7,
+      "steps_attempted": 6,
+      "successful_reclosures": 5,
+      "spectrally_novel_steps": 5,
+      "terminal": true,
+      "terminal_reason": "dual-order failure: one persistent load vanished",
+      "final_generation": 6
+    }
+  },
+  {
+    "rank": 4,
+    "score": 22.5,
+    "seed": 2083673626,
+    "summary": {
+      "states": 7,
+      "steps_attempted": 6,
+      "successful_reclosures": 5,
+      "spectrally_novel_steps": 5,
+      "terminal": true,
+      "terminal_reason": "dual-order failure: one persistent load vanished",
+      "final_generation": 6
+    }
+  },
+  {
+    "rank": 5,
+    "score": 22.5,
+    "seed": 973933017,
+    "summary": {
+      "states": 7,
+      "steps_attempted": 6,
+      "successful_reclosures": 5,
+      "spectrally_novel_steps": 5,
+      "terminal": true,
+      "terminal_reason": "dual-order failure: one persistent load vanished",
+      "final_generation": 6
+    }
+  }
+]

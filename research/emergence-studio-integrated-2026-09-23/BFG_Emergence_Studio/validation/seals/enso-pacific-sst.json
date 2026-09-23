@@ -1,0 +1,23 @@
+{
+  "carrier_id": "enso-pacific-sst",
+  "status": "READY_FOR_VALIDATION",
+  "mapping_fingerprint": "187833e71e7220d6d439e6e3b570b37cae3e6b3d2cf951312e35ae273066ecdb",
+  "plan_fingerprint": "e753db24dae1e55ba7106d860c2b1207b01c9438b87e557529de9a3ad9497aaa",
+  "source_fingerprint": "c8faa7142b9835c53b100ab6f2e3900667d0cc9807c48630f7a737530b975bb0",
+  "artifacts": {
+    "readiness_token": {
+      "path": "outputs/real_enso/ENSO_READINESS_TOKEN.json",
+      "sha256": "fdc5994b8410feba9834b63782f313abc9a888085d6a14343f62b4552b91e2d2"
+    },
+    "frozen_model": {
+      "path": "outputs/real_enso/enso_frozen_model.json",
+      "sha256": "b1be521e79c9bfc6cf37d8855f12e8baf15eac9643db958e4e3220bbcebc9b95"
+    },
+    "validation_plan": {
+      "path": "outputs/real_enso/enso_validation_plan.json",
+      "sha256": "e75cb68d9c394ee45eb069b457f66bcdc5c80b9c62db543991ed7639e36dac7d"
+    }
+  },
+  "heldout_metrics_evaluated": false,
+  "seal_fingerprint": "d28feedc36ca55ae1331b43b03f7ca5eaa1cbc1cc1c2041efa064dab9dfde2db"
+}

@@ -1,0 +1,180 @@
+[
+  {
+    "event": "unit_birth",
+    "unit_id": "E0",
+    "parent_id": null,
+    "generation": 0,
+    "lineage_depth": 0,
+    "traits": {
+      "formation_drive": 1.45,
+      "neighbor_scale": 0.32,
+      "resource_blend": 0.28,
+      "topology_blend": 0.2,
+      "export_cost": 0.1,
+      "node_birth_threshold": 1.05,
+      "fission_threshold": 0.22
+    },
+    "reason": "initial_seed"
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "E1",
+    "parent_id": "E0",
+    "generation": 17,
+    "lineage_depth": 1,
+    "node_count": 17,
+    "traits": {
+      "formation_drive": 1.5255194850877716,
+      "neighbor_scale": 0.3128639018830093,
+      "resource_blend": 0.2667212659826639,
+      "topology_blend": 0.20319252410764704,
+      "export_cost": 0.09596799317679679,
+      "node_birth_threshold": 1.031895194548701,
+      "fission_threshold": 0.21509277333841834
+    },
+    "reason": "fission_child"
+  },
+  {
+    "event": "mutation",
+    "unit_id": "E1",
+    "parent_id": "E0",
+    "generation": 17,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.45,
+        "after": 1.5255194850877716,
+        "delta": 0.07551948508777162
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.32,
+        "after": 0.3128639018830093,
+        "delta": -0.00713609811699073
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.28,
+        "after": 0.2667212659826639,
+        "delta": -0.013278734017336147
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.2,
+        "after": 0.20319252410764704,
+        "delta": 0.0031925241076470323
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.1,
+        "after": 0.09596799317679679,
+        "delta": -0.004032006823203219
+      },
+      {
+        "trait": "node_birth_threshold",
+        "before": 1.05,
+        "after": 1.031895194548701,
+        "delta": -0.01810480545129911
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.22,
+        "after": 0.21509277333841834,
+        "delta": -0.004907226661581665
+      }
+    ]
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "E2",
+    "parent_id": "E0",
+    "generation": 17,
+    "lineage_depth": 1,
+    "node_count": 5,
+    "traits": {
+      "formation_drive": 1.522226935223431,
+      "neighbor_scale": 0.29524778256506873,
+      "resource_blend": 0.2881627204551561,
+      "topology_blend": 0.20736281663306766,
+      "export_cost": 0.09372015769959512,
+      "node_birth_threshold": 1.05,
+      "fission_threshold": 0.22210799175291623
+    },
+    "reason": "fission_child"
+  },
+  {
+    "event": "mutation",
+    "unit_id": "E2",
+    "parent_id": "E0",
+    "generation": 17,
+    "changes": [
+      {
+        "trait": "formation_drive",
+        "before": 1.45,
+        "after": 1.522226935223431,
+        "delta": 0.07222693522343104
+      },
+      {
+        "trait": "neighbor_scale",
+        "before": 0.32,
+        "after": 0.29524778256506873,
+        "delta": -0.02475221743493128
+      },
+      {
+        "trait": "resource_blend",
+        "before": 0.28,
+        "after": 0.2881627204551561,
+        "delta": 0.008162720455156092
+      },
+      {
+        "trait": "topology_blend",
+        "before": 0.2,
+        "after": 0.20736281663306766,
+        "delta": 0.007362816633067648
+      },
+      {
+        "trait": "export_cost",
+        "before": 0.1,
+        "after": 0.09372015769959512,
+        "delta": -0.006279842300404889
+      },
+      {
+        "trait": "fission_threshold",
+        "before": 0.22,
+        "after": 0.22210799175291623,
+        "delta": 0.002107991752916233
+      }
+    ]
+  },
+  {
+    "event": "fission",
+    "unit_id": "E0",
+    "generation": 17,
+    "children": [
+      "E1",
+      "E2"
+    ],
+    "child_sizes": [
+      17,
+      5
+    ],
+    "lineage_depth": 0
+  },
+  {
+    "event": "selection_death",
+    "unit_id": "E2",
+    "generation": 17,
+    "fitness": 0.6149998250059889,
+    "age": 0,
+    "lineage_depth": 1,
+    "traits": {
+      "formation_drive": 1.522226935223431,
+      "neighbor_scale": 0.29524778256506873,
+      "resource_blend": 0.2881627204551561,
+      "topology_blend": 0.20736281663306766,
+      "export_cost": 0.09372015769959512,
+      "node_birth_threshold": 1.05,
+      "fission_threshold": 0.22210799175291623
+    }
+  }
+]

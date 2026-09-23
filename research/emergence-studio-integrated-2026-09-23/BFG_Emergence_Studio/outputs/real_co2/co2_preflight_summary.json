@@ -1,0 +1,62 @@
+{
+  "fold_wins": 2,
+  "folds": [
+    {
+      "bfg_feature": "neutral_retention",
+      "bfg_rmse": 0.25055957792340344,
+      "eval_end": "1980-12-01",
+      "eval_reclosure_fraction": 1.0,
+      "eval_start": "1976-01-01",
+      "null_feature": "recent_level",
+      "null_rmse": 0.24707952532952127,
+      "relative_improvement": -0.014084746962505168,
+      "train_end": "1975-12-01",
+      "train_reclosure_fraction": 1.0
+    },
+    {
+      "bfg_feature": "crossfed_gain",
+      "bfg_rmse": 0.4349926626426723,
+      "eval_end": "1985-12-01",
+      "eval_reclosure_fraction": 1.0,
+      "eval_start": "1981-01-01",
+      "null_feature": "recent_level",
+      "null_rmse": 0.4461746931487656,
+      "relative_improvement": 0.025062000776375215,
+      "train_end": "1980-12-01",
+      "train_reclosure_fraction": 1.0
+    },
+    {
+      "bfg_feature": "lambda_up",
+      "bfg_rmse": 0.421022790420289,
+      "eval_end": "1990-12-01",
+      "eval_reclosure_fraction": 1.0,
+      "eval_start": "1986-01-01",
+      "null_feature": "recent_level",
+      "null_rmse": 0.42388852473444133,
+      "relative_improvement": 0.006760584792776969,
+      "train_end": "1985-12-01",
+      "train_reclosure_fraction": 1.0
+    }
+  ],
+  "folds_total": 3,
+  "full_calibration": {
+    "bfg_feature": "lambda_up",
+    "bfg_rmse": 0.4063208516456599,
+    "null_feature": "recent_level",
+    "null_rmse": 0.40687441045219574,
+    "reclosure_fraction": 1.0,
+    "relative_improvement": 0.0013605151671264304
+  },
+  "heldout_metrics_evaluated": false,
+  "mean_relative_improvement": 0.005912612868882339,
+  "minimum_eval_reclosure_fraction": 1.0,
+  "readiness": true,
+  "readiness_rule": {
+    "fold_wins_min": 2,
+    "mean_relative_improvement_gt": 0.0,
+    "minimum_reclosure_fraction": 0.95,
+    "worst_fold_relative_improvement_min": -0.02
+  },
+  "status": "READY_FOR_VALIDATION",
+  "worst_relative_improvement": -0.014084746962505168
+}

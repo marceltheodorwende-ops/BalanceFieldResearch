@@ -1,0 +1,9 @@
+{
+  "states": 7,
+  "steps_attempted": 6,
+  "successful_reclosures": 5,
+  "spectrally_novel_steps": 5,
+  "terminal": true,
+  "terminal_reason": "dual-order failure: one persistent load vanished",
+  "final_generation": 6
+}
