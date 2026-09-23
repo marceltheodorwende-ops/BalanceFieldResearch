@@ -1,0 +1,162 @@
+{
+  "source_fingerprint": "9ed33c1e22e743dd88004ed147b447dfe7a0c832f25779196805b137726843b8",
+  "entries": [
+    {
+      "id": "annual-sunspots",
+      "name": "Annual Sunspot BFG Carrier",
+      "domain": "solar activity / annual sunspot count",
+      "status": "READY_FOR_VALIDATION",
+      "mapping_fingerprint": "a0b3673cca890c5090f472fa07fe1fec813f6663773025da07038b26132ca156",
+      "plan_fingerprint": "0d79fbd248229b50a5a3d2a2d5babbd1b7c4bae843e98308d6ff9517239af0d9",
+      "heldout_metrics_evaluated": false
+    },
+    {
+      "id": "mauna-loa-co2",
+      "name": "Mauna Loa Monthly CO2 BFG Carrier",
+      "domain": "atmospheric CO2 / monthly Mauna Loa measurements",
+      "status": "READY_FOR_VALIDATION",
+      "mapping_fingerprint": "fd69a8b0d4f771f6effa6fbe5c2a00c79322131bbf2248a5f1ddf37ddb50fea9",
+      "plan_fingerprint": "653836593f729577e1f878a2212aa1d0ea53cae752f80d57ec4db41599b50a17",
+      "heldout_metrics_evaluated": false
+    },
+    {
+      "id": "enso-pacific-sst",
+      "name": "ENSO Pacific SST BFG Carrier",
+      "domain": "Pacific SST anomaly / ENSO-like dynamics",
+      "status": "READY_FOR_VALIDATION",
+      "mapping_fingerprint": "187833e71e7220d6d439e6e3b570b37cae3e6b3d2cf951312e35ae273066ecdb",
+      "plan_fingerprint": "e753db24dae1e55ba7106d860c2b1207b01c9438b87e557529de9a3ad9497aaa",
+      "heldout_metrics_evaluated": false
+    }
+  ],
+  "audit": {
+    "valid": true,
+    "carrier_count": 3,
+    "status_counts": {
+      "CONFIRMED": 0,
+      "EXPLORATORY": 0,
+      "NOT_YET_VALIDATED": 0,
+      "READY_FOR_VALIDATION": 3,
+      "REJECTED": 0
+    },
+    "source_fingerprint": "9ed33c1e22e743dd88004ed147b447dfe7a0c832f25779196805b137726843b8",
+    "entries": [
+      {
+        "id": "annual-sunspots",
+        "valid": true,
+        "checks": {
+          "valid_status": true,
+          "name_present": true,
+          "domain_present": true,
+          "mapping_fingerprint_shape": true,
+          "plan_fingerprint_shape": true,
+          "heldout_not_evaluated": true,
+          "readiness_token_exists": true,
+          "frozen_model_exists": true,
+          "validation_plan_exists": true
+        },
+        "diagnostics": {
+          "status": "READY_FOR_VALIDATION",
+          "heldout_metrics_evaluated": false
+        }
+      },
+      {
+        "id": "mauna-loa-co2",
+        "valid": true,
+        "checks": {
+          "valid_status": true,
+          "name_present": true,
+          "domain_present": true,
+          "mapping_fingerprint_shape": true,
+          "plan_fingerprint_shape": true,
+          "heldout_not_evaluated": true,
+          "readiness_token_exists": true,
+          "frozen_model_exists": true,
+          "validation_plan_exists": true
+        },
+        "diagnostics": {
+          "status": "READY_FOR_VALIDATION",
+          "heldout_metrics_evaluated": false
+        }
+      },
+      {
+        "id": "enso-pacific-sst",
+        "valid": true,
+        "checks": {
+          "valid_status": true,
+          "name_present": true,
+          "domain_present": true,
+          "mapping_fingerprint_shape": true,
+          "plan_fingerprint_shape": true,
+          "heldout_not_evaluated": true,
+          "readiness_token_exists": true,
+          "frozen_model_exists": true,
+          "validation_plan_exists": true
+        },
+        "diagnostics": {
+          "status": "READY_FOR_VALIDATION",
+          "heldout_metrics_evaluated": false
+        }
+      }
+    ]
+  },
+  "confirmation_guard": {
+    "annual-sunspots": {
+      "valid": true,
+      "checks": {
+        "carrier_id": true,
+        "status_ready": true,
+        "source_fingerprint": true,
+        "mapping_fingerprint": true,
+        "plan_fingerprint": true,
+        "heldout_not_evaluated": true,
+        "readiness_token_exists": true,
+        "readiness_token_unchanged": true,
+        "frozen_model_exists": true,
+        "frozen_model_unchanged": true,
+        "validation_plan_exists": true,
+        "validation_plan_unchanged": true,
+        "seal_integrity": true
+      },
+      "seal_fingerprint": "f24e6611d4248b7fe90578314b37aaed2f78adaa8ebc153ae71126183e1d7e98"
+    },
+    "mauna-loa-co2": {
+      "valid": true,
+      "checks": {
+        "carrier_id": true,
+        "status_ready": true,
+        "source_fingerprint": true,
+        "mapping_fingerprint": true,
+        "plan_fingerprint": true,
+        "heldout_not_evaluated": true,
+        "readiness_token_exists": true,
+        "readiness_token_unchanged": true,
+        "frozen_model_exists": true,
+        "frozen_model_unchanged": true,
+        "validation_plan_exists": true,
+        "validation_plan_unchanged": true,
+        "seal_integrity": true
+      },
+      "seal_fingerprint": "fba8bca27bbf36d0700a5056d53afee591198eff1217dbe70ef4b95b3da94b0e"
+    },
+    "enso-pacific-sst": {
+      "valid": true,
+      "checks": {
+        "carrier_id": true,
+        "status_ready": true,
+        "source_fingerprint": true,
+        "mapping_fingerprint": true,
+        "plan_fingerprint": true,
+        "heldout_not_evaluated": true,
+        "readiness_token_exists": true,
+        "readiness_token_unchanged": true,
+        "frozen_model_exists": true,
+        "frozen_model_unchanged": true,
+        "validation_plan_exists": true,
+        "validation_plan_unchanged": true,
+        "seal_integrity": true
+      },
+      "seal_fingerprint": "a6d92f7ffe11cf1dcfbb64f8c6f3fa668280e09211c797fe230016e052333763"
+    }
+  }
+}

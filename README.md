@@ -81,3 +81,7 @@ The [finite closure model](research/finite-closure-model-2026-09-23/README.md) d
 ## Current BFG Emergence Studio
 
 The [integrated Studio version](research/emergence-studio-integrated-2026-09-23/README.md) includes 314 original files, the adopted reduced finite closure profile, recursive-stability and exact-certificate modules, and documented results of 107 tests and nine benchmarks. The earlier Studio snapshot remains available; this import performs no new code execution.
+
+## Latest BFG Emergence Studio — revision 3
+
+The [current 404-file Studio version](research/emergence-studio-2026-09-23-r3/README.md) adds formation robustness, small-load contraction, stratum-transition geometry and an exploratory relational network carrier. Its documented results include 142 passed tests. Original files and results are preserved unchanged; this import does not rerun tests. Earlier versions remain available.

@@ -1,0 +1,24 @@
+{
+  "arrays_sha256": "a6f47e41c6ac98c8477acdcf0ebc3545116ac5f8dbf2448b17e422a849cd468b",
+  "extra": {
+    "pre_summary": {
+      "final_generation": 2,
+      "spectrally_novel_steps": 2,
+      "states": 3,
+      "steps_attempted": 2,
+      "successful_reclosures": 2,
+      "terminal": false,
+      "terminal_reason": null
+    }
+  },
+  "generation": 2,
+  "metadata": {
+    "carrier": "ReferenceGramCarrier",
+    "kind": "random_noncommuting_seed",
+    "rebuild_note": "demonstration positive-Gram carrier; not a universal empirical realization",
+    "seed": 17
+  },
+  "name": "random_seed_g1_g2",
+  "terminal": false,
+  "terminal_reason": null
+}

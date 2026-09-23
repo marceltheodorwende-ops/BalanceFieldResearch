@@ -1,0 +1,20 @@
+{
+  "identity_enabled": false,
+  "frames": 121,
+  "lower_perspective_reclosures": 121,
+  "identity_closure_passes": 0,
+  "identity_closure_failures": 0,
+  "identity_exports": 0,
+  "fragmentation_failures": 0,
+  "rigidity_failures": 0,
+  "recursive_instability_failures": 0,
+  "identity_norm_failures": 0,
+  "mean_historical_present_distance": 0.0034922264833255915,
+  "mean_identity_step_distance": 0.003463365107430339,
+  "mean_perspective_step_distance": 0.0034922264833255915,
+  "mean_self_index_similarity": 0.8899264325390315,
+  "minimum_self_index_similarity": 0.8144143807359449,
+  "mean_transverse_adaptation": 0.0,
+  "final_identity_rho": 0.0,
+  "final_identity_norm": 1.732006871468381
+}

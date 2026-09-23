@@ -49,3 +49,7 @@ These records describe their original sources and assumptions. Historical V3 ava
 ## Latest integrated Studio version
 
 [BFG Emergence Studio — integrated finite runtime profile](emergence-studio-integrated-2026-09-23/README.md), 23 September 2026. Newer 314-file snapshot with its documented results and a separate reading note.
+
+## Latest Studio snapshot
+
+[BFG Emergence Studio, revision 3](emergence-studio-2026-09-23-r3/README.md), 23 September 2026: 404 unchanged original files, expanded mathematical documentation and documented results.

@@ -1,0 +1,18 @@
+{
+  "initial_seed": 1341550191,
+  "self_model_enabled": true,
+  "frames": 81,
+  "core_steps": 81,
+  "successful_reclosures": 81,
+  "predictor_observations": 81,
+  "mean_self_prediction_error": 0.012716426835108876,
+  "mean_persistence_baseline_error": 0.012765132460397278,
+  "self_model_action_decisions": 61,
+  "self_model_action_interventions": 57,
+  "self_model_closure_passes": 68,
+  "world_self_corridor_pass_fraction": 1.0,
+  "self_reference_reachable_fraction": 0.8395061728395061,
+  "self_model_closure_failures": 2,
+  "self_model_excess_exports": 0,
+  "final_recurrent_rho": 0.9943348046603683
+}

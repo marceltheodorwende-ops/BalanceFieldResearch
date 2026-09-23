@@ -1,0 +1,19 @@
+{
+  "status": "EXPLORATORY",
+  "heldout_metrics_evaluated": false,
+  "config": {
+    "diffusion_time": 1.0,
+    "neutral_load_scale": 0.42,
+    "stress_scale": 0.18,
+    "formation_drive": 1.45,
+    "formation_offset": 0.2,
+    "persistent_rank": 4,
+    "contraction": 0.76,
+    "phase_scale": 0.4,
+    "dataset_sha256": "759fea7650a4eaf6e6036a8113fbfd8400d9ed8e701ed4a3d68690c98bb84f7c"
+  },
+  "mapping_fingerprint": "28b388e5beee263228862e896536752d70aab97d42c65ab2199168306b64e8d7",
+  "measurements": 34,
+  "club_labels_used": false,
+  "confirmatory_plan_defined": false
+}

@@ -1,0 +1,78 @@
+{
+  "fold_wins": 3,
+  "folds": [
+    {
+      "ar12_rmse": 15.093550014565638,
+      "bfg_feature": "formation_rayleigh",
+      "bfg_rmse": 15.136760456410368,
+      "eval_end": 1909,
+      "eval_novelty_fraction_among_successful": 1.0,
+      "eval_reclosure_fraction": 1.0,
+      "eval_start": 1860,
+      "null_feature": "absolute_slope",
+      "null_rmse": 15.895378716941648,
+      "relative_improvement": 0.047725711607155885,
+      "train_end": 1859,
+      "train_reclosure_fraction": 1.0
+    },
+    {
+      "ar12_rmse": 18.667978411646146,
+      "bfg_feature": "formation_rayleigh",
+      "bfg_rmse": 18.68242832502729,
+      "eval_end": 1959,
+      "eval_novelty_fraction_among_successful": 1.0,
+      "eval_reclosure_fraction": 1.0,
+      "eval_start": 1910,
+      "null_feature": "absolute_slope",
+      "null_rmse": 18.97992210104994,
+      "relative_improvement": 0.01567413050689992,
+      "train_end": 1909,
+      "train_reclosure_fraction": 1.0
+    },
+    {
+      "ar12_rmse": 16.99027139743348,
+      "bfg_feature": "formation_rayleigh",
+      "bfg_rmse": 17.088312776153863,
+      "eval_end": 2008,
+      "eval_novelty_fraction_among_successful": 1.0,
+      "eval_reclosure_fraction": 1.0,
+      "eval_start": 1960,
+      "null_feature": "absolute_slope",
+      "null_rmse": 17.168818141176786,
+      "relative_improvement": 0.0046890452424236395,
+      "train_end": 1959,
+      "train_reclosure_fraction": 1.0
+    }
+  ],
+  "folds_total": 3,
+  "full_development": {
+    "ar12_rmse": 14.941539859540573,
+    "bfg_feature": "neutral_retention",
+    "bfg_rmse": 14.786536455660283,
+    "novelty_fraction_among_successful": 1.0,
+    "null_feature": "absolute_slope",
+    "null_rmse": 14.821987505110574,
+    "reclosure_fraction": 1.0,
+    "relative_improvement": 0.002391787838039061,
+    "years": [
+      1700,
+      2008
+    ]
+  },
+  "heldout_metrics_evaluated": false,
+  "heldout_years": [
+    2009,
+    2025
+  ],
+  "mean_relative_improvement": 0.022696295785493148,
+  "minimum_eval_reclosure_fraction": 1.0,
+  "readiness": true,
+  "readiness_rule": {
+    "fold_wins_min": 2,
+    "mean_relative_improvement_gt": 0.0,
+    "minimum_reclosure_fraction": 0.95,
+    "worst_fold_relative_improvement_min": -0.02
+  },
+  "status": "READY_FOR_VALIDATION",
+  "worst_relative_improvement": 0.0046890452424236395
+}

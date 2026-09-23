@@ -1,0 +1,235 @@
+{
+  "config": {
+    "lag": 24,
+    "development_start": "1950-01-01",
+    "development_end": "2010-12-01",
+    "heldout_start": "2011-01-01",
+    "heldout_end": "2025-12-01",
+    "month_climatology": [
+      24.39213114754098,
+      25.839344262295082,
+      26.247704918032788,
+      25.38655737704918,
+      24.161967213114757,
+      22.833934426229508,
+      21.7439344262295,
+      20.842786885245907,
+      20.583770491803275,
+      20.86229508196722,
+      21.523934426229506,
+      22.693114754098364
+    ],
+    "anomaly_mean": 1.1648241569837709e-16,
+    "anomaly_std": 1.080746320196259,
+    "graph_sigma": 0.6173633000507788,
+    "temporal_scale": 6.0,
+    "neutral_load_scale": 0.42,
+    "stress_scale": 0.18,
+    "formation_drive": 1.45,
+    "formation_offset": 0.2,
+    "persistent_rank": 4,
+    "contraction": 0.76,
+    "phase_scale": 0.4,
+    "bfg_feature_name": "formation_rayleigh",
+    "bfg_feature_mean": 0.017071419648931403,
+    "bfg_feature_std": 0.4801286475487407,
+    "bfg_intercept": 0.927850600844152,
+    "bfg_slope": 0.04910655376109028,
+    "null_feature_name": "recent_level",
+    "null_feature_mean": 0.009243652598138079,
+    "null_feature_std": 0.9984720565293024,
+    "null_intercept": 0.8932859347038602,
+    "null_slope": 0.019400985308068608,
+    "development_dataset_sha256": "685e30c099aca159580267ecafa013f24f445759b4c5e38fbd13250f2982a8d8"
+  },
+  "mapping_fingerprint": "187833e71e7220d6d439e6e3b570b37cae3e6b3d2cf951312e35ae273066ecdb",
+  "plan_fingerprint": "e753db24dae1e55ba7106d860c2b1207b01c9438b87e557529de9a3ad9497aaa",
+  "development_dataset_sha256": "685e30c099aca159580267ecafa013f24f445759b4c5e38fbd13250f2982a8d8",
+  "bfg_candidates": [
+    {
+      "feature": "neutral_retention",
+      "rmse": 0.43285125448625433,
+      "mae": 0.3358554854324568,
+      "intercept": 0.9176665903896014,
+      "slope": -0.0032541451685173845,
+      "feature_mean": 0.8944988871063012,
+      "feature_std": 0.041023253743371325
+    },
+    {
+      "feature": "formation_rayleigh",
+      "rmse": 0.43034770221133395,
+      "mae": 0.33349446303827823,
+      "intercept": 0.927850600844152,
+      "slope": 0.04910655376109028,
+      "feature_mean": 0.017071419648931403,
+      "feature_std": 0.4801286475487407
+    },
+    {
+      "feature": "crossfed_gain",
+      "rmse": 0.43247362095317504,
+      "mae": 0.33491616666634,
+      "intercept": 0.9171621599736527,
+      "slope": 0.017502900123796857,
+      "feature_mean": 0.06688954866693805,
+      "feature_std": 0.021793685881078283
+    },
+    {
+      "feature": "omega_keep",
+      "rmse": 0.43285561554721913,
+      "mae": 0.3359329623309707,
+      "intercept": 0.9156711515697475,
+      "slope": -0.002190296050213751,
+      "feature_mean": 0.004707974038998867,
+      "feature_std": 0.003005316277099021
+    },
+    {
+      "feature": "lambda_up",
+      "rmse": 0.4327941577863079,
+      "mae": 0.3356026945473334,
+      "intercept": 0.9168263561162112,
+      "slope": 0.006993438710354219,
+      "feature_mean": 0.002828927879687947,
+      "feature_std": 0.0018809555240247265
+    },
+    {
+      "feature": "spectral_mismatch",
+      "rmse": 0.4307819185828237,
+      "mae": 0.33489655322350137,
+      "intercept": 0.8928713328759749,
+      "slope": -0.04923545549244403,
+      "feature_mean": 0.0010646318667856527,
+      "feature_std": 0.000991338703938816
+    }
+  ],
+  "null_candidates": [
+    {
+      "feature": "diff_volatility",
+      "rmse": 0.43285178278383524,
+      "mae": 0.3359167971973537,
+      "intercept": 0.9154923460095562,
+      "slope": 0.0026355198592632983,
+      "feature_mean": 0.39866715615737863,
+      "feature_std": 0.07773027182363902
+    },
+    {
+      "feature": "level_volatility",
+      "rmse": 0.432859480365284,
+      "mae": 0.33589214923562905,
+      "intercept": 0.9154985754591738,
+      "slope": 0.0008280498820394885,
+      "feature_mean": 0.7397686789635445,
+      "feature_std": 0.3472495668927904
+    },
+    {
+      "feature": "absolute_slope",
+      "rmse": 0.4328550256323512,
+      "mae": 0.3359020594739089,
+      "intercept": 0.9176209093728863,
+      "slope": -0.0014300011740724808,
+      "feature_mean": 0.05849817538697677,
+      "feature_std": 0.05193058942352216
+    },
+    {
+      "feature": "range",
+      "rmse": 0.4325556820436334,
+      "mae": 0.33578773605826445,
+      "intercept": 0.9049054930685385,
+      "slope": 0.0125138719550194,
+      "feature_mean": 2.6398354957137355,
+      "feature_std": 1.0170851396391511
+    },
+    {
+      "feature": "recent_level",
+      "rmse": 0.43084801617427665,
+      "mae": 0.3342047004896595,
+      "intercept": 0.8932859347038602,
+      "slope": 0.019400985308068608,
+      "feature_mean": 0.009243652598138079,
+      "feature_std": 0.9984720565293024
+    },
+    {
+      "feature": "curvature",
+      "rmse": 0.43285061539354514,
+      "mae": 0.33593179391072187,
+      "intercept": 0.9165286995539693,
+      "slope": -0.0026767565815818844,
+      "feature_mean": 0.41475558981669763,
+      "feature_std": 0.3294906081088171
+    }
+  ],
+  "preflight": {
+    "readiness": true,
+    "status": "READY_FOR_VALIDATION",
+    "folds": [
+      {
+        "train_end": "1970-12-01",
+        "eval_start": "1971-01-01",
+        "eval_end": "1983-12-01",
+        "bfg_feature": "formation_rayleigh",
+        "null_feature": "diff_volatility",
+        "train_reclosure_fraction": 1.0,
+        "bfg_rmse": 0.4368961495765459,
+        "null_rmse": 0.4513879318558772,
+        "relative_improvement": 0.032104939579905345,
+        "eval_reclosure_fraction": 1.0,
+        "eval_novelty_fraction_among_successful": 1.0
+      },
+      {
+        "train_end": "1983-12-01",
+        "eval_start": "1984-01-01",
+        "eval_end": "1996-12-01",
+        "bfg_feature": "formation_rayleigh",
+        "null_feature": "recent_level",
+        "train_reclosure_fraction": 1.0,
+        "bfg_rmse": 0.3790948345688653,
+        "null_rmse": 0.3794777796086697,
+        "relative_improvement": 0.0010091369254856541,
+        "eval_reclosure_fraction": 1.0,
+        "eval_novelty_fraction_among_successful": 1.0
+      },
+      {
+        "train_end": "1996-12-01",
+        "eval_start": "1997-01-01",
+        "eval_end": "2010-12-01",
+        "bfg_feature": "formation_rayleigh",
+        "null_feature": "recent_level",
+        "train_reclosure_fraction": 1.0,
+        "bfg_rmse": 0.48013827258471464,
+        "null_rmse": 0.47788568754360145,
+        "relative_improvement": -0.004713648263231729,
+        "eval_reclosure_fraction": 1.0,
+        "eval_novelty_fraction_among_successful": 1.0
+      }
+    ],
+    "fold_wins": 2,
+    "folds_total": 3,
+    "mean_relative_improvement": 0.00946680941405309,
+    "worst_relative_improvement": -0.004713648263231729,
+    "minimum_eval_reclosure_fraction": 1.0,
+    "readiness_rule": {
+      "fold_wins_min": 2,
+      "mean_relative_improvement_gt": 0.0,
+      "worst_fold_relative_improvement_min": -0.02,
+      "minimum_reclosure_fraction": 0.95
+    },
+    "full_development": {
+      "period": [
+        "1950-01-01",
+        "2010-12-01"
+      ],
+      "bfg_feature": "formation_rayleigh",
+      "null_feature": "recent_level",
+      "bfg_rmse": 0.43034770221133384,
+      "null_rmse": 0.43084801617427665,
+      "relative_improvement": 0.0011612307453225945,
+      "reclosure_fraction": 1.0,
+      "novelty_fraction_among_successful": 1.0
+    },
+    "heldout_period": [
+      "2011-01-01",
+      "2025-12-01"
+    ],
+    "heldout_metrics_evaluated": false
+  },
+  "heldout_metrics_evaluated": false
+}

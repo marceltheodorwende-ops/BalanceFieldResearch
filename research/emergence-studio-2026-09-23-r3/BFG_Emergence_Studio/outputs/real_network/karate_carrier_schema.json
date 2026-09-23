@@ -1,0 +1,31 @@
+{
+  "description": "Node-centered heat-diffusion probes on the fixed weighted Zachary karate-club interaction graph; club labels are not used.",
+  "domain": "real social interaction network / weighted undirected graph",
+  "empirical_units": {
+    "edge_weight": "interaction-context count",
+    "node": "club member index"
+  },
+  "invariant_parameters": {
+    "club_labels_used": false,
+    "contraction": 0.76,
+    "dataset_sha256": "759fea7650a4eaf6e6036a8113fbfd8400d9ed8e701ed4a3d68690c98bb84f7c",
+    "diffusion_time": 1.0,
+    "formation_drive": 1.45,
+    "formation_offset": 0.2,
+    "neutral_load_scale": 0.42,
+    "parameter_policy": "same graph-aligned load/formation/recursion coefficients already used by the real time-series carriers; no target fit",
+    "persistent_rank": 4,
+    "phase_scale": 0.4,
+    "probe_family": "all 34 observed nodes, one heat-diffusion probe each",
+    "stress_scale": 0.18
+  },
+  "mapping_fingerprint": "28b388e5beee263228862e896536752d70aab97d42c65ab2199168306b64e8d7",
+  "measurement_mapping": {
+    "D": "normalized heat-diffusion state exp(-t L_n) e_i from the focal observed node",
+    "K": "normalized observed graph Laplacian plus fixed offset minus one diffusion-supported formation mode",
+    "R_C": "observed graph-Laplacian eigenbasis with low persistent unit-modulus modes and contractive complement",
+    "Y": "PSD squared normalized observed graph Laplacian plus scalar probe-complement stress"
+  },
+  "name": "Zachary Karate Weighted Interaction BFG Carrier",
+  "schema_revision": 1
+}

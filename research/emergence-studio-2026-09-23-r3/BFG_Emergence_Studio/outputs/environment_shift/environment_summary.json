@@ -1,0 +1,27 @@
+{
+  "initial_seed": 1341550191,
+  "frames": 61,
+  "final_population": 4,
+  "max_population": 12,
+  "environment_shifts": 1,
+  "selection_deaths": 16,
+  "fission_events": 8,
+  "mutation_events": 16,
+  "core_steps": 340,
+  "successful_reclosures": 340,
+  "spectrally_novel_reclosures": 340,
+  "shift_response": [
+    {
+      "shift_generation": 24,
+      "pre_shift_old_environment_match": 0.763711880806143,
+      "new_environment_match_before_selection": 0.3636272837206462,
+      "new_environment_match_after_selection": 0.42422316162076007,
+      "immediate_selection_match_gain": 0.06059587790011389,
+      "final_new_environment_match": 0.42666213267505315,
+      "net_adaptation_from_new_environment_baseline": 0.06303484895440697,
+      "pre_shift_mean_maintenance": 0.7299716381046089,
+      "immediate_post_shift_mean_maintenance": 0.7516826510979412,
+      "final_mean_maintenance": 0.6237216117588094
+    }
+  ]
+}

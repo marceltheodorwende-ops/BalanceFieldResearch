@@ -1,0 +1,246 @@
+{
+  "suite_passed": true,
+  "benchmarks": 9,
+  "passed": 9,
+  "failed": 0,
+  "source_fingerprint": "9ed33c1e22e743dd88004ed147b447dfe7a0c832f25779196805b137726843b8",
+  "results": [
+    {
+      "name": "canonical_core",
+      "passed": true,
+      "metrics": {
+        "noncommuting_success": true,
+        "noncommuting_novelty": true,
+        "noncommuting_spectral_mismatch": 0.2623721966574676,
+        "commuting_success": true,
+        "commuting_novelty": false,
+        "commuting_spectral_mismatch": 9.429293304580125e-16,
+        "neutral_partition_residual": 5.677126908791904e-16,
+        "reciprocal_balance_residual": 0.0
+      },
+      "criteria": {
+        "noncommuting_step_success": true,
+        "noncommuting_novelty": true,
+        "commuting_spectral_mismatch_max": 1e-07,
+        "neutral_partition_residual_max": 1e-08,
+        "reciprocal_balance_residual_max": 1e-08
+      },
+      "elapsed_seconds": 0.0031933460013533477,
+      "error": null
+    },
+    {
+      "name": "self_organization",
+      "passed": true,
+      "metrics": {
+        "attempted_steps": 18,
+        "successful_reclosures": 18,
+        "novel_reclosures": 18,
+        "final_maintenance": 0.6347379858041631,
+        "final_viable_fraction": 1.0,
+        "terminal": false
+      },
+      "criteria": {
+        "successful_reclosures_min": 16,
+        "novel_reclosures_min": 12,
+        "final_maintenance_min": 0.2
+      },
+      "elapsed_seconds": 0.036547423998854356,
+      "error": null
+    },
+    {
+      "name": "population_fission",
+      "passed": true,
+      "metrics": {
+        "initial_seed": 1341550191,
+        "frames": 23,
+        "final_population": 2,
+        "max_population": 2,
+        "max_total_nodes": 24,
+        "fission_events": 1,
+        "node_birth_events": 0,
+        "node_loss_events": 1,
+        "unit_deaths": 0,
+        "core_steps": 27,
+        "successful_reclosures": 27,
+        "spectrally_novel_reclosures": 27
+      },
+      "criteria": {
+        "fission_events_min": 1,
+        "max_population_min": 2,
+        "successful_reclosures_min": 16
+      },
+      "elapsed_seconds": 0.07250157499947818,
+      "error": null
+    },
+    {
+      "name": "evolution",
+      "passed": true,
+      "metrics": {
+        "initial_seed": 1341550191,
+        "frames": 25,
+        "final_population": 2,
+        "max_population": 2,
+        "max_lineage_depth": 1,
+        "unit_birth_events": 3,
+        "fission_events": 1,
+        "mutation_events": 2,
+        "selection_deaths": 0,
+        "intrinsic_deaths": 0,
+        "core_steps": 31,
+        "successful_reclosures": 31,
+        "spectrally_novel_reclosures": 31
+      },
+      "criteria": {
+        "unit_birth_events_min": 3,
+        "mutation_events_min": 1,
+        "max_lineage_depth_min": 1,
+        "successful_reclosures_min": 18
+      },
+      "elapsed_seconds": 0.09050025800024741,
+      "error": null
+    },
+    {
+      "name": "changing_environment",
+      "passed": true,
+      "metrics": {
+        "initial_seed": 11,
+        "frames": 17,
+        "final_population": 4,
+        "max_population": 10,
+        "environment_shifts": 1,
+        "selection_deaths": 6,
+        "fission_events": 0,
+        "mutation_events": 0,
+        "core_steps": 94,
+        "successful_reclosures": 94,
+        "spectrally_novel_reclosures": 94,
+        "shift_response": [
+          {
+            "shift_generation": 7,
+            "pre_shift_old_environment_match": 0.7356882366345954,
+            "new_environment_match_before_selection": 0.31401832091993437,
+            "new_environment_match_after_selection": 0.40377371934415046,
+            "immediate_selection_match_gain": 0.08975539842421609,
+            "final_new_environment_match": 0.40377371934415046,
+            "net_adaptation_from_new_environment_baseline": 0.08975539842421609,
+            "pre_shift_mean_maintenance": 0.6093918243578758,
+            "immediate_post_shift_mean_maintenance": 0.5937842486642884,
+            "final_mean_maintenance": 0.570395152757935
+          }
+        ],
+        "selection_rounds": 2,
+        "max_selection_match_gain": 0.08975539842421609
+      },
+      "criteria": {
+        "environment_shifts_min": 1,
+        "selection_rounds_min": 1,
+        "positive_match_gain_required": true
+      },
+      "elapsed_seconds": 0.3822459510010958,
+      "error": null
+    },
+    {
+      "name": "learning_memory",
+      "passed": true,
+      "metrics": {
+        "compared_steps": 45,
+        "mean_reward_gain_memory_vs_control": 0.010928378996171561,
+        "mean_reward_gain_at_witness_recovery": 0.017382846822560267,
+        "mean_post_recall_reward_gain": 0.01297872394819591,
+        "witness_recoveries": 3,
+        "memory_slots_final": 2,
+        "recurrence_generations": [
+          20,
+          30,
+          40
+        ]
+      },
+      "criteria": {
+        "witness_recoveries_min": 1,
+        "memory_slots_final_min": 1,
+        "mean_reward_gain_min": 0.0
+      },
+      "elapsed_seconds": 0.46669746399857104,
+      "error": null
+    },
+    {
+      "name": "self_model",
+      "passed": true,
+      "metrics": {
+        "compared_steps": 65,
+        "mean_reward_gain": 0.006684139810434112,
+        "self_model_action_interventions": 43,
+        "self_model_closure_passes": 52,
+        "mean_prediction_error": 0.013185851109409693,
+        "mean_persistence_baseline_error": 0.013021691120575697,
+        "prediction_beats_persistence_fraction": 0.4528301886792453,
+        "final_self_reference_reachable": true,
+        "prediction_to_persistence_error_ratio": 1.0126066566403658
+      },
+      "criteria": {
+        "closure_passes_min": 20,
+        "action_interventions_min": 1,
+        "final_self_reference_reachable": true,
+        "prediction_vs_persistence_ratio_max": 1.1
+      },
+      "elapsed_seconds": 0.6449314519995824,
+      "error": null
+    },
+    {
+      "name": "perspective",
+      "passed": true,
+      "metrics": {
+        "compared_steps": 65,
+        "mean_reward_gain": 0.0,
+        "perspective_closure_fraction": 1.0,
+        "perspective_exports": 2,
+        "mean_standpoint_persistence": 0.9951641823232356,
+        "mean_multiplicity_unity_distance": 0.2698014400534693,
+        "ablated_mean_multiplicity_unity_distance": 0.3739400489441519,
+        "standpoint_distance_reduction": 0.1041386088906826,
+        "mean_representation_diversity": 0.2086612630857095,
+        "ablated_mean_representation_diversity": 0.20878480971446955,
+        "diversity_retention_ratio": 0.9994082585369645,
+        "perspective_action_decisions": 53,
+        "perspective_action_interventions": 52,
+        "final_here_norm": 1.4918522005056605
+      },
+      "criteria": {
+        "perspective_closure_fraction_min": 0.5,
+        "diversity_retention_ratio_min": 0.9,
+        "standpoint_distance_reduction_min": 0.02,
+        "mean_standpoint_persistence_min": 0.9
+      },
+      "elapsed_seconds": 0.666793755000981,
+      "error": null
+    },
+    {
+      "name": "identity",
+      "passed": true,
+      "metrics": {
+        "compared_steps": 65,
+        "identity_closure_passes": 64,
+        "identity_closure_failures": 0,
+        "identity_exports": 1,
+        "mean_historical_present_distance": 0.08525702053332582,
+        "mean_identity_step_distance": 0.0038144167404145714,
+        "mean_raw_perspective_step_distance": 0.0048227723250249925,
+        "continuity_smoothing_gain": 0.0010083555846104211,
+        "mean_self_index_similarity": 0.9666773701702281,
+        "minimum_self_index_similarity": 0.9139914878236455,
+        "mean_transverse_adaptation": 0.06149128649773321,
+        "ablated_mean_self_index_similarity": 0.9353032929566952,
+        "final_identity_rho": 0.965
+      },
+      "criteria": {
+        "identity_closure_passes_min": 55,
+        "identity_closure_failures_max": 2,
+        "minimum_self_index_similarity_min": 0.8,
+        "mean_transverse_adaptation_min": 0.01,
+        "continuity_smoothing_gain_min": 0.0
+      },
+      "elapsed_seconds": 0.36419649199888227,
+      "error": null
+    }
+  ]
+}

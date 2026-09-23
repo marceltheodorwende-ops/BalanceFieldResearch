@@ -1,0 +1,23 @@
+{
+  "experiment": "sunspot_readiness_refresh",
+  "numpy": "2.3.5",
+  "parameters": {
+    "development_years": [
+      1700,
+      2008
+    ],
+    "future_heldout_years": [
+      2009,
+      2025
+    ],
+    "mapping_fingerprint": "a0b3673cca890c5090f472fa07fe1fec813f6663773025da07038b26132ca156",
+    "plan_fingerprint": "0d79fbd248229b50a5a3d2a2d5babbd1b7c4bae843e98308d6ff9517239af0d9"
+  },
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python": "3.13.5",
+  "scipy": "1.17.0",
+  "seed": null,
+  "source_fingerprint": "2ff2a327cb87415062af8d7690c502a890f451d865fe7d5cab2b70d0c7bd7a8f",
+  "theory_freeze_level": "Identity Closure",
+  "theory_freeze_source_level": 30
+}

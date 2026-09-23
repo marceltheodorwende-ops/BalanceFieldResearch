@@ -1,0 +1,18 @@
+{
+  "experiment": "co2_validation_preflight",
+  "numpy": "2.3.5",
+  "parameters": {
+    "calibration_end": "1990-12-31",
+    "heldout_start": "1991-01-01",
+    "lag": 24,
+    "mapping_fingerprint": "fd69a8b0d4f771f6effa6fbe5c2a00c79322131bbf2248a5f1ddf37ddb50fea9",
+    "plan_fingerprint": "653836593f729577e1f878a2212aa1d0ea53cae752f80d57ec4db41599b50a17"
+  },
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python": "3.13.5",
+  "scipy": "1.17.0",
+  "seed": null,
+  "source_fingerprint": "0c95188d5c976e1a5c8714d5ac8aaf21b49ccba15c07aea9dbbb35a94b8bddc9",
+  "theory_freeze_level": "Identity Closure",
+  "theory_freeze_source_level": 30
+}

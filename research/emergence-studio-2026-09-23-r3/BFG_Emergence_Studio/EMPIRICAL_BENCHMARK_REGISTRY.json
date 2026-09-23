@@ -1,0 +1,84 @@
+{
+  "empirical_benchmarks": [
+    {
+      "id": "annual-sunspots",
+      "name": "Annual Sunspot BFG Carrier",
+      "domain": "solar activity / annual sunspot count",
+      "dataset": "Statsmodels annual sunspots 1700-2008 as development snapshot",
+      "development_years": [
+        1700,
+        2008
+      ],
+      "heldout_years": [
+        2009,
+        2025
+      ],
+      "mapping_fingerprint": "a0b3673cca890c5090f472fa07fe1fec813f6663773025da07038b26132ca156",
+      "plan_fingerprint": "0d79fbd248229b50a5a3d2a2d5babbd1b7c4bae843e98308d6ff9517239af0d9",
+      "status": "READY_FOR_VALIDATION",
+      "heldout_metrics_evaluated": false,
+      "preflight_fold_wins": 3,
+      "preflight_folds_total": 3,
+      "preflight_mean_relative_improvement": 0.022696295785493148,
+      "preflight_worst_relative_improvement": 0.0046890452424236395,
+      "preflight_minimum_reclosure_fraction": 1.0,
+      "retuning_after_heldout": false,
+      "prepared_dir": "outputs/real_sunspots",
+      "readiness_token": "outputs/real_sunspots/SUNSPOT_READINESS_TOKEN.json",
+      "frozen_model": "outputs/real_sunspots/sunspot_frozen_model.json",
+      "validation_plan": "outputs/real_sunspots/sunspot_validation_plan.json",
+      "result_artifact": null
+    },
+    {
+      "name": "Mauna Loa Monthly CO2 BFG Carrier",
+      "domain": "atmospheric CO2 / monthly Mauna Loa measurements",
+      "calibration_end": "1990-12-31",
+      "heldout_start": "1991-01-01",
+      "mapping_fingerprint": "fd69a8b0d4f771f6effa6fbe5c2a00c79322131bbf2248a5f1ddf37ddb50fea9",
+      "plan_fingerprint": "653836593f729577e1f878a2212aa1d0ea53cae752f80d57ec4db41599b50a17",
+      "status": "READY_FOR_VALIDATION",
+      "heldout_metrics_evaluated": false,
+      "preflight_fold_wins": 2,
+      "preflight_folds_total": 3,
+      "preflight_mean_relative_improvement": 0.005912612868882339,
+      "preflight_worst_relative_improvement": -0.014084746962505168,
+      "preflight_minimum_reclosure_fraction": 1.0,
+      "retuning_after_heldout": false,
+      "id": "mauna-loa-co2",
+      "prepared_dir": "outputs/real_co2",
+      "readiness_token": "outputs/real_co2/CO2_READINESS_TOKEN.json",
+      "frozen_model": "outputs/real_co2/co2_frozen_model.json",
+      "validation_plan": "outputs/real_co2/co2_validation_plan.json",
+      "result_artifact": null
+    },
+    {
+      "id": "enso-pacific-sst",
+      "name": "ENSO Pacific SST BFG Carrier",
+      "domain": "Pacific SST anomaly / ENSO-like dynamics",
+      "dataset": "NOAA Pacific monthly SST 1950-2010 development snapshot",
+      "development_period": [
+        "1950-01-01",
+        "2010-12-01"
+      ],
+      "heldout_period": [
+        "2011-01-01",
+        "2025-12-01"
+      ],
+      "mapping_fingerprint": "187833e71e7220d6d439e6e3b570b37cae3e6b3d2cf951312e35ae273066ecdb",
+      "plan_fingerprint": "e753db24dae1e55ba7106d860c2b1207b01c9438b87e557529de9a3ad9497aaa",
+      "status": "READY_FOR_VALIDATION",
+      "heldout_metrics_evaluated": false,
+      "preflight_fold_wins": 2,
+      "preflight_folds_total": 3,
+      "preflight_mean_relative_improvement": 0.00946680941405309,
+      "preflight_worst_relative_improvement": -0.004713648263231729,
+      "preflight_minimum_reclosure_fraction": 1.0,
+      "retuning_after_heldout": false,
+      "prepared_dir": "outputs/real_enso",
+      "readiness_token": "outputs/real_enso/ENSO_READINESS_TOKEN.json",
+      "frozen_model": "outputs/real_enso/enso_frozen_model.json",
+      "validation_plan": "outputs/real_enso/enso_validation_plan.json",
+      "result_artifact": null
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "initial_seed": 7,
+  "frames": 21,
+  "final_population": 1,
+  "max_population": 1,
+  "max_total_nodes": 30,
+  "fission_events": 0,
+  "node_birth_events": 10,
+  "node_loss_events": 0,
+  "unit_deaths": 0,
+  "core_steps": 20,
+  "successful_reclosures": 20,
+  "spectrally_novel_reclosures": 20
+}

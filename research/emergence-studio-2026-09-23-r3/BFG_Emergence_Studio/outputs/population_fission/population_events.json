@@ -1,0 +1,50 @@
+[
+  {
+    "event": "unit_birth",
+    "unit_id": "U0",
+    "parent_id": null,
+    "generation": 0,
+    "node_count": 24,
+    "reason": "initial_seed"
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "U1",
+    "parent_id": "U0",
+    "generation": 17,
+    "node_count": 17,
+    "reason": "fission_child"
+  },
+  {
+    "event": "unit_birth",
+    "unit_id": "U2",
+    "parent_id": "U0",
+    "generation": 17,
+    "node_count": 5,
+    "reason": "fission_child"
+  },
+  {
+    "event": "fission",
+    "unit_id": "U0",
+    "generation": 17,
+    "children": [
+      "U1",
+      "U2"
+    ],
+    "child_sizes": [
+      17,
+      5
+    ],
+    "parent_nodes_before_fission": 24,
+    "unassigned_fragment_nodes": 2,
+    "age": 17
+  },
+  {
+    "event": "node_loss",
+    "unit_id": "U0",
+    "generation": 17,
+    "count": 2,
+    "resource_removed": null,
+    "reason": "nonviable_fission_fragments"
+  }
+]

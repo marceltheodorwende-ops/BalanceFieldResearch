@@ -1,0 +1,23 @@
+{
+  "purpose": "Structurally distinct real carriers not yet admitted to the sealed confirmatory portfolio.",
+  "carriers": [
+    {
+      "id": "zachary-karate-network",
+      "name": "Zachary weighted karate-club interaction network",
+      "status": "EXPLORATORY",
+      "domain": "real weighted social interaction graph",
+      "mapping_fingerprint": "28b388e5beee263228862e896536752d70aab97d42c65ab2199168306b64e8d7",
+      "dataset_sha256": "759fea7650a4eaf6e6036a8113fbfd8400d9ed8e701ed4a3d68690c98bb84f7c",
+      "heldout_metrics_evaluated": false,
+      "confirmatory_plan_defined": false,
+      "active_portfolio_member": false,
+      "notes": [
+        "34 node-centered heat-diffusion probes over the observed weighted graph",
+        "club/fission labels are not used in the BFG mapping",
+        "13/34 probes pass the first simple-negative formation gate",
+        "41/41 successful recursive small-load theorem certificates pass",
+        "existing time-series transformation corridors do not extend to this network carrier"
+      ]
+    }
+  ]
+}

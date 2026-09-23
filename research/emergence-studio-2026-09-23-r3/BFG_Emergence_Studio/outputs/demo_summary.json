@@ -1,0 +1,9 @@
+{
+  "states": 2,
+  "steps_attempted": 1,
+  "successful_reclosures": 0,
+  "spectrally_novel_steps": 1,
+  "terminal": true,
+  "terminal_reason": "formation gate failed",
+  "final_generation": 1
+}

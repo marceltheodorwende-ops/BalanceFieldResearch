@@ -1,0 +1,196 @@
+{
+  "config": {
+    "lag": 24,
+    "calibration_end": "1990-12-31",
+    "heldout_start": "1991-01-01",
+    "heldout_end": "2001-12-01",
+    "mean": 331.8795978074908,
+    "std": 11.886363666312684,
+    "graph_sigma": 0.18508604159866798,
+    "temporal_scale": 6.0,
+    "neutral_load_scale": 0.42,
+    "stress_scale": 0.18,
+    "formation_drive": 1.45,
+    "formation_offset": 0.2,
+    "persistent_rank": 4,
+    "contraction": 0.76,
+    "phase_scale": 0.4,
+    "bfg_feature_name": "lambda_up",
+    "bfg_feature_mean": 0.003983508442312103,
+    "bfg_feature_std": 0.0037538522660608403,
+    "bfg_intercept": 0.9468251999378381,
+    "bfg_slope": -0.02707228325739566,
+    "null_feature_name": "recent_level",
+    "null_feature_mean": 0.07950769322458691,
+    "null_feature_std": 0.9659250905249207,
+    "null_intercept": 0.9506202641196229,
+    "null_slope": 0.016714809135754377,
+    "dataset_sha256": "2737f74222cf1fb702d41058927d2b8d2a34778d519bfa6b1dea2f1b47c234f4"
+  },
+  "mapping_fingerprint": "fd69a8b0d4f771f6effa6fbe5c2a00c79322131bbf2248a5f1ddf37ddb50fea9",
+  "plan_fingerprint": "653836593f729577e1f878a2212aa1d0ea53cae752f80d57ec4db41599b50a17",
+  "dataset_sha256": "2737f74222cf1fb702d41058927d2b8d2a34778d519bfa6b1dea2f1b47c234f4",
+  "bfg_candidates": [
+    {
+      "feature": "neutral_retention",
+      "rmse": 0.4072994191425576,
+      "intercept": 0.9549998422065141,
+      "slope": 0.00817565150843111,
+      "feature_mean": 0.9316769378421995,
+      "feature_std": 0.04316979664239155
+    },
+    {
+      "feature": "formation_rayleigh",
+      "rmse": 0.40724537232647806,
+      "intercept": 0.9575685958704134,
+      "slope": 0.010039834889101536,
+      "feature_mean": -0.9225273286096562,
+      "feature_std": 0.5978211727634151
+    },
+    {
+      "feature": "crossfed_gain",
+      "rmse": 0.4066096185951092,
+      "intercept": 0.9491219361306052,
+      "slope": -0.021158524583034053,
+      "feature_mean": 0.07139458029103056,
+      "feature_std": 0.04536437954098003
+    },
+    {
+      "feature": "omega_keep",
+      "rmse": 0.4065330911773905,
+      "intercept": 0.9479045001918452,
+      "slope": -0.023512476038462963,
+      "feature_mean": 0.0047558428866583445,
+      "feature_std": 0.004111490645861051
+    },
+    {
+      "feature": "lambda_up",
+      "rmse": 0.4063208516456599,
+      "intercept": 0.9468251999378381,
+      "slope": -0.02707228325739566,
+      "feature_mean": 0.003983508442312103,
+      "feature_std": 0.0037538522660608403
+    },
+    {
+      "feature": "spectral_mismatch",
+      "rmse": 0.407142322968513,
+      "intercept": 0.9584495494615057,
+      "slope": 0.01192229545106651,
+      "feature_mean": 0.00035359590536406026,
+      "feature_std": 0.00012109703555582307
+    }
+  ],
+  "null_candidates": [
+    {
+      "feature": "diff_volatility",
+      "rmse": 0.4071969466303195,
+      "intercept": 0.9546576792402153,
+      "slope": 0.011134378938215176,
+      "feature_mean": 0.09693335348889466,
+      "feature_std": 0.006444710503049382
+    },
+    {
+      "feature": "level_volatility",
+      "rmse": 0.4074541662419082,
+      "intercept": 0.9572550749058589,
+      "slope": 0.0009153892904998763,
+      "feature_mean": 0.1778840067913594,
+      "feature_std": 0.02176658818206198
+    },
+    {
+      "feature": "absolute_slope",
+      "rmse": 0.4073643644753872,
+      "intercept": 0.9592340854150507,
+      "slope": -0.005948510483760275,
+      "feature_mean": 0.009046229357045753,
+      "feature_std": 0.0067776084159123715
+    },
+    {
+      "feature": "range",
+      "rmse": 0.40741690440940787,
+      "intercept": 0.9556801827577918,
+      "slope": 0.004070025298716584,
+      "feature_mean": 0.6188035744834356,
+      "feature_std": 0.08566228532225847
+    },
+    {
+      "feature": "recent_level",
+      "rmse": 0.40687441045219574,
+      "intercept": 0.9506202641196229,
+      "slope": 0.016714809135754377,
+      "feature_mean": 0.07950769322458691,
+      "feature_std": 0.9659250905249207
+    },
+    {
+      "feature": "curvature",
+      "rmse": 0.4073892623987903,
+      "intercept": 0.957890206634302,
+      "slope": -0.005294365917617955,
+      "feature_mean": 0.05941761040365612,
+      "feature_std": 0.046682561283565766
+    }
+  ],
+  "preflight": {
+    "readiness": true,
+    "status": "READY_FOR_VALIDATION",
+    "folds": [
+      {
+        "train_end": "1975-12-01",
+        "eval_start": "1976-01-01",
+        "eval_end": "1980-12-01",
+        "bfg_feature": "neutral_retention",
+        "null_feature": "recent_level",
+        "train_reclosure_fraction": 1.0,
+        "bfg_rmse": 0.25055957792340344,
+        "null_rmse": 0.24707952532952127,
+        "relative_improvement": -0.014084746962505168,
+        "eval_reclosure_fraction": 1.0
+      },
+      {
+        "train_end": "1980-12-01",
+        "eval_start": "1981-01-01",
+        "eval_end": "1985-12-01",
+        "bfg_feature": "crossfed_gain",
+        "null_feature": "recent_level",
+        "train_reclosure_fraction": 1.0,
+        "bfg_rmse": 0.4349926626426723,
+        "null_rmse": 0.4461746931487656,
+        "relative_improvement": 0.025062000776375215,
+        "eval_reclosure_fraction": 1.0
+      },
+      {
+        "train_end": "1985-12-01",
+        "eval_start": "1986-01-01",
+        "eval_end": "1990-12-01",
+        "bfg_feature": "lambda_up",
+        "null_feature": "recent_level",
+        "train_reclosure_fraction": 1.0,
+        "bfg_rmse": 0.421022790420289,
+        "null_rmse": 0.42388852473444133,
+        "relative_improvement": 0.006760584792776969,
+        "eval_reclosure_fraction": 1.0
+      }
+    ],
+    "fold_wins": 2,
+    "folds_total": 3,
+    "mean_relative_improvement": 0.005912612868882339,
+    "worst_relative_improvement": -0.014084746962505168,
+    "minimum_eval_reclosure_fraction": 1.0,
+    "full_calibration": {
+      "bfg_feature": "lambda_up",
+      "null_feature": "recent_level",
+      "bfg_rmse": 0.4063208516456599,
+      "null_rmse": 0.40687441045219574,
+      "relative_improvement": 0.0013605151671264304,
+      "reclosure_fraction": 1.0
+    },
+    "readiness_rule": {
+      "fold_wins_min": 2,
+      "mean_relative_improvement_gt": 0.0,
+      "worst_fold_relative_improvement_min": -0.02,
+      "minimum_reclosure_fraction": 0.95
+    },
+    "heldout_metrics_evaluated": false
+  },
+  "heldout_metrics_evaluated": false
+}

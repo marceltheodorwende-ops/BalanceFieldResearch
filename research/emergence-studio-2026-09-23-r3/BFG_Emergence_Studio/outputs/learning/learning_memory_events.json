@@ -1,0 +1,729 @@
+[
+  {
+    "event": "policy_update",
+    "generation": 0,
+    "change_norm": 0.08493742214509879,
+    "reward": 0.6257002784863555,
+    "source": "explore"
+  },
+  {
+    "event": "memory_encode",
+    "generation": 0,
+    "slot_id": "M0",
+    "reward": 0.6257002784863555,
+    "context_similarity": 0.0
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 1,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 1,
+    "stored_reward": 0.6257002784863555
+  },
+  {
+    "event": "memory_consolidate",
+    "generation": 1,
+    "slot_id": "M0",
+    "reward": 0.6448825027709142
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 2,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 1,
+    "stored_reward": 0.6448825027709142
+  },
+  {
+    "event": "memory_consolidate",
+    "generation": 2,
+    "slot_id": "M0",
+    "reward": 0.6563649610949864
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 3,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 1,
+    "stored_reward": 0.6563649610949864
+  },
+  {
+    "event": "memory_consolidate",
+    "generation": 3,
+    "slot_id": "M0",
+    "reward": 0.6633047376895125
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 4,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 1,
+    "stored_reward": 0.6633047376895125
+  },
+  {
+    "event": "memory_consolidate",
+    "generation": 4,
+    "slot_id": "M0",
+    "reward": 0.668646411592378
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 5,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 1,
+    "stored_reward": 0.668646411592378
+  },
+  {
+    "event": "policy_update",
+    "generation": 5,
+    "change_norm": 0.008367507126483431,
+    "reward": 0.6731798576876671,
+    "source": "explore"
+  },
+  {
+    "event": "memory_consolidate",
+    "generation": 5,
+    "slot_id": "M0",
+    "reward": 0.6731798576876671
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 6,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 1,
+    "stored_reward": 0.6731798576876671
+  },
+  {
+    "event": "policy_update",
+    "generation": 6,
+    "change_norm": 0.005187854418419727,
+    "reward": 0.672875469562983,
+    "source": "recall_or_current"
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 7,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 2,
+    "stored_reward": 0.6731798576876671
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 8,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 3,
+    "stored_reward": 0.6731798576876671
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 9,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 4,
+    "stored_reward": 0.6731798576876671
+  },
+  {
+    "event": "policy_update",
+    "generation": 9,
+    "change_norm": 0.009872889414643777,
+    "reward": 0.6757334753210058,
+    "source": "explore"
+  },
+  {
+    "event": "memory_consolidate",
+    "generation": 9,
+    "slot_id": "M0",
+    "reward": 0.6757334753210058
+  },
+  {
+    "event": "environment_shift",
+    "generation": 10,
+    "from": "learning_rich",
+    "to": "learning_poor"
+  },
+  {
+    "event": "policy_update",
+    "generation": 10,
+    "change_norm": 0.0912031924073114,
+    "reward": 0.43987151515177864,
+    "source": "explore"
+  },
+  {
+    "event": "memory_encode",
+    "generation": 10,
+    "slot_id": "M1",
+    "reward": 0.43987151515177864,
+    "context_similarity": 0.10886972344455337
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 11,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 1,
+    "stored_reward": 0.43987151515177864
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 12,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 2,
+    "stored_reward": 0.43987151515177864
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 13,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 3,
+    "stored_reward": 0.43987151515177864
+  },
+  {
+    "event": "policy_update",
+    "generation": 13,
+    "change_norm": 0.00978316220957419,
+    "reward": 0.43159699572880184,
+    "source": "explore"
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 14,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 4,
+    "stored_reward": 0.43987151515177864
+  },
+  {
+    "event": "policy_update",
+    "generation": 14,
+    "change_norm": 0.00978316220957419,
+    "reward": 0.42533117432632783,
+    "source": "recall_or_current"
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 15,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 5,
+    "stored_reward": 0.43987151515177864
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 16,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 6,
+    "stored_reward": 0.43987151515177864
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 17,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 7,
+    "stored_reward": 0.43987151515177864
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 18,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 8,
+    "stored_reward": 0.43987151515177864
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 19,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 9,
+    "stored_reward": 0.43987151515177864
+  },
+  {
+    "event": "environment_shift",
+    "generation": 20,
+    "from": "learning_poor",
+    "to": "learning_rich"
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 20,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 11,
+    "stored_reward": 0.6757334753210058
+  },
+  {
+    "event": "witness_recovery",
+    "generation": 20,
+    "slot_id": "M0",
+    "trace_age": 11,
+    "context_gap": 11,
+    "similarity": 1.0
+  },
+  {
+    "event": "policy_update",
+    "generation": 20,
+    "change_norm": 0.09106929680402215,
+    "reward": 0.6532907575120115,
+    "source": "recall_or_current"
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 21,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 12,
+    "stored_reward": 0.6757334753210058
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 22,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 13,
+    "stored_reward": 0.6757334753210058
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 23,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 14,
+    "stored_reward": 0.6757334753210058
+  },
+  {
+    "event": "policy_update",
+    "generation": 23,
+    "change_norm": 0.007408772340030522,
+    "reward": 0.6692928320441898,
+    "source": "explore"
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 24,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 15,
+    "stored_reward": 0.6757334753210058
+  },
+  {
+    "event": "policy_update",
+    "generation": 24,
+    "change_norm": 0.007408772340030522,
+    "reward": 0.6683657376667824,
+    "source": "recall_or_current"
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 25,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 16,
+    "stored_reward": 0.6757334753210058
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 26,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 17,
+    "stored_reward": 0.6757334753210058
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 27,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 18,
+    "stored_reward": 0.6757334753210058
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 28,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 19,
+    "stored_reward": 0.6757334753210058
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 29,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 20,
+    "stored_reward": 0.6757334753210058
+  },
+  {
+    "event": "environment_shift",
+    "generation": 30,
+    "from": "learning_rich",
+    "to": "learning_poor"
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 30,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 20,
+    "stored_reward": 0.43987151515177864
+  },
+  {
+    "event": "witness_recovery",
+    "generation": 30,
+    "slot_id": "M1",
+    "trace_age": 20,
+    "context_gap": 11,
+    "similarity": 1.0
+  },
+  {
+    "event": "policy_update",
+    "generation": 30,
+    "change_norm": 0.09106929680402215,
+    "reward": 0.4427102648051534,
+    "source": "recall_or_current"
+  },
+  {
+    "event": "memory_consolidate",
+    "generation": 30,
+    "slot_id": "M1",
+    "reward": 0.4427102648051534
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 31,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 1,
+    "stored_reward": 0.4427102648051534
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 32,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 2,
+    "stored_reward": 0.4427102648051534
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 33,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 3,
+    "stored_reward": 0.4427102648051534
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 34,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 4,
+    "stored_reward": 0.4427102648051534
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 35,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 5,
+    "stored_reward": 0.4427102648051534
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 36,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 6,
+    "stored_reward": 0.4427102648051534
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 37,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 7,
+    "stored_reward": 0.4427102648051534
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 38,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 8,
+    "stored_reward": 0.4427102648051534
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 39,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 9,
+    "stored_reward": 0.4427102648051534
+  },
+  {
+    "event": "environment_shift",
+    "generation": 40,
+    "from": "learning_poor",
+    "to": "learning_rich"
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 40,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 31,
+    "stored_reward": 0.6757334753210058
+  },
+  {
+    "event": "witness_recovery",
+    "generation": 40,
+    "slot_id": "M0",
+    "trace_age": 31,
+    "context_gap": 11,
+    "similarity": 1.0
+  },
+  {
+    "event": "policy_update",
+    "generation": 40,
+    "change_norm": 0.09106929680402215,
+    "reward": 0.6663765563431261,
+    "source": "recall_or_current"
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 41,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 32,
+    "stored_reward": 0.6757334753210058
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 42,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 33,
+    "stored_reward": 0.6757334753210058
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 43,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 34,
+    "stored_reward": 0.6757334753210058
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 44,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 35,
+    "stored_reward": 0.6757334753210058
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 45,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 36,
+    "stored_reward": 0.6757334753210058
+  },
+  {
+    "event": "memory_consolidate",
+    "generation": 45,
+    "slot_id": "M0",
+    "reward": 0.6781990853548322
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 46,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 1,
+    "stored_reward": 0.6781990853548322
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 47,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 2,
+    "stored_reward": 0.6781990853548322
+  },
+  {
+    "event": "policy_update",
+    "generation": 47,
+    "change_norm": 0.012533164313375375,
+    "reward": 0.6839877464416297,
+    "source": "explore"
+  },
+  {
+    "event": "memory_consolidate",
+    "generation": 47,
+    "slot_id": "M0",
+    "reward": 0.6839877464416297
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 48,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 1,
+    "stored_reward": 0.6839877464416297
+  },
+  {
+    "event": "policy_update",
+    "generation": 48,
+    "change_norm": 0.00777056187429273,
+    "reward": 0.6807683093570043,
+    "source": "recall_or_current"
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 49,
+    "slot_id": "M0",
+    "similarity": 1.0,
+    "trace_age": 2,
+    "stored_reward": 0.6839877464416297
+  },
+  {
+    "event": "environment_shift",
+    "generation": 50,
+    "from": "learning_rich",
+    "to": "learning_poor"
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 50,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 20,
+    "stored_reward": 0.4427102648051534
+  },
+  {
+    "event": "witness_recovery",
+    "generation": 50,
+    "slot_id": "M1",
+    "trace_age": 20,
+    "context_gap": 11,
+    "similarity": 1.0
+  },
+  {
+    "event": "policy_update",
+    "generation": 50,
+    "change_norm": 0.09133989705230061,
+    "reward": 0.44564588606585176,
+    "source": "recall_or_current"
+  },
+  {
+    "event": "memory_consolidate",
+    "generation": 50,
+    "slot_id": "M1",
+    "reward": 0.44564588606585176
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 51,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 1,
+    "stored_reward": 0.44564588606585176
+  },
+  {
+    "event": "policy_update",
+    "generation": 51,
+    "change_norm": 0.014839984216191603,
+    "reward": 0.4429909595663236,
+    "source": "explore"
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 52,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 2,
+    "stored_reward": 0.44564588606585176
+  },
+  {
+    "event": "policy_update",
+    "generation": 52,
+    "change_norm": 0.014839984216191603,
+    "reward": 0.43700545345243785,
+    "source": "recall_or_current"
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 53,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 3,
+    "stored_reward": 0.44564588606585176
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 54,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 4,
+    "stored_reward": 0.44564588606585176
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 55,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 5,
+    "stored_reward": 0.44564588606585176
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 56,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 6,
+    "stored_reward": 0.44564588606585176
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 57,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 7,
+    "stored_reward": 0.44564588606585176
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 58,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 8,
+    "stored_reward": 0.44564588606585176
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 59,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 9,
+    "stored_reward": 0.44564588606585176
+  },
+  {
+    "event": "memory_retrieval",
+    "generation": 60,
+    "slot_id": "M1",
+    "similarity": 1.0,
+    "trace_age": 10,
+    "stored_reward": 0.44564588606585176
+  }
+]

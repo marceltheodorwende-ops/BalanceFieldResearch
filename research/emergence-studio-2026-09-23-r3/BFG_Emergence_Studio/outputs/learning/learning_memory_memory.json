@@ -1,0 +1,44 @@
+[
+  {
+    "slot_id": "M0",
+    "cue": [
+      0.6266666666666666,
+      0.02,
+      0.5
+    ],
+    "policy": {
+      "formation_drive": -0.06075989576833227,
+      "neighbor_scale": -0.000286399579046362,
+      "resource_blend": 0.03246065635319379,
+      "topology_blend": -0.03757845566833427,
+      "export_cost": 0.030098150262650974
+    },
+    "reward": 0.6839877464416297,
+    "strength": 1.3162289483253988,
+    "created_generation": 0,
+    "last_update_generation": 47,
+    "last_retrieved_generation": 49,
+    "retrieval_count": 29
+  },
+  {
+    "slot_id": "M1",
+    "cue": [
+      0.3333333333333333,
+      0.17,
+      0.3125
+    ],
+    "policy": {
+      "formation_drive": -0.09886877927962202,
+      "neighbor_scale": 0.004042910793725306,
+      "resource_blend": 0.08080141027303,
+      "topology_blend": -0.039542363270319576,
+      "export_cost": -0.0372164948016791
+    },
+    "reward": 0.44564588606585176,
+    "strength": 0.9475986156067862,
+    "created_generation": 10,
+    "last_update_generation": 50,
+    "last_retrieved_generation": 60,
+    "retrieval_count": 30
+  }
+]

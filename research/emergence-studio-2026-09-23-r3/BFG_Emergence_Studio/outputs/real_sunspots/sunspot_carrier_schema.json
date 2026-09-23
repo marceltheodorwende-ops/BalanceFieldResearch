@@ -1,0 +1,79 @@
+{
+  "description": "12-year causal recurrence-graph state with graph-aligned K, Y and R_C; active validation uses readiness-first rolling preflight.",
+  "domain": "solar activity / annual sunspot count",
+  "empirical_units": {
+    "SUNACTIVITY": "annual sunspot count",
+    "YEAR": "calendar year"
+  },
+  "invariant_parameters": {
+    "ar_coefficients": [
+      -0.001049348171446037,
+      0.003784791504935649,
+      0.008790706448751516,
+      0.23783726807875438,
+      -0.06857364696036972,
+      0.03836463608160428,
+      0.002637116572936217,
+      -0.07693671976842273,
+      0.12750725666812032,
+      -0.1778244703544835,
+      -0.3592228866663687,
+      1.125816738515526
+    ],
+    "ar_intercept": 0.009943752863166707,
+    "ar_ridge": 1.0,
+    "bfg_feature_family": [
+      "neutral_retention",
+      "formation_rayleigh",
+      "crossfed_gain",
+      "omega_keep",
+      "lambda_up",
+      "spectral_mismatch"
+    ],
+    "bfg_feature_mean": 0.8809463650279136,
+    "bfg_feature_name": "neutral_retention",
+    "bfg_feature_std": 0.03695455533020637,
+    "bfg_intercept": -0.06283089025609709,
+    "bfg_slope": 0.12574615766169173,
+    "contraction": 0.76,
+    "development_dataset_sha256": "7dac2f45399b4d3b335823db9884c4b6d7f79509f94aed6de20da6a431ae5900",
+    "development_end_year": 2008,
+    "development_start_year": 1700,
+    "forecast_family": "AR(12) endpoint plus two-coefficient correction along (persistence - AR12)",
+    "formation_drive": 1.45,
+    "formation_offset": 0.2,
+    "graph_sigma": 0.8468053662703048,
+    "heldout_end_year": 2025,
+    "heldout_start_year": 2009,
+    "lag": 12,
+    "matched_null_feature_family": [
+      "diff_volatility",
+      "level_volatility",
+      "absolute_slope",
+      "range",
+      "recent_level",
+      "curvature"
+    ],
+    "mean": 49.75210355987054,
+    "neutral_load_scale": 0.42,
+    "null_feature_mean": 0.09236772529964728,
+    "null_feature_name": "absolute_slope",
+    "null_feature_std": 0.06233136977190319,
+    "null_intercept": -0.05427379348929787,
+    "null_slope": 0.08636981310823136,
+    "persistent_rank": 4,
+    "phase_scale": 0.4,
+    "std": 40.387084638624245,
+    "stress_scale": 0.18,
+    "temporal_scale": 4.0
+  },
+  "mapping_fingerprint": "a0b3673cca890c5090f472fa07fe1fec813f6663773025da07038b26132ca156",
+  "measurement_mapping": {
+    "D": "activity/resource state with phase from level + local gradient",
+    "K": "graph Laplacian plus fixed offset minus one resource-supported formation mode",
+    "R_C": "same graph eigenbasis with persistent low modes and contractive complement",
+    "Y": "PSD squared graph geometry plus scalar resource stress"
+  },
+  "name": "Annual Sunspot BFG Carrier",
+  "schema_revision": 1
+}

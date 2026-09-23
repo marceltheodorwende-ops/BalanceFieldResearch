@@ -1,0 +1,16 @@
+{
+  "experiment": "bfg_robustness_suite",
+  "numpy": "2.3.5",
+  "parameters": {
+    "commuting_controls": 40,
+    "noncommuting_controls": 40,
+    "randomized_trials": 200
+  },
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python": "3.13.5",
+  "scipy": "1.17.0",
+  "seed": null,
+  "source_fingerprint": "9ed33c1e22e743dd88004ed147b447dfe7a0c832f25779196805b137726843b8",
+  "theory_freeze_level": "Identity Closure",
+  "theory_freeze_source_level": 30
+}

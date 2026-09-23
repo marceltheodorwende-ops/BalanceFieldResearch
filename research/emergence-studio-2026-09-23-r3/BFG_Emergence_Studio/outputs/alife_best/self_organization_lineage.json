@@ -1,0 +1,293 @@
+[
+  {
+    "from_generation": 0,
+    "to_generation": 1,
+    "previous_cluster": 0,
+    "previous_size": 24,
+    "descendants": [
+      {
+        "next_cluster": 0,
+        "next_size": 24,
+        "predecessor_overlap": 1.0,
+        "jaccard": 1.0
+      }
+    ],
+    "event": "continuation"
+  },
+  {
+    "from_generation": 1,
+    "to_generation": 2,
+    "previous_cluster": 0,
+    "previous_size": 24,
+    "descendants": [
+      {
+        "next_cluster": 0,
+        "next_size": 24,
+        "predecessor_overlap": 1.0,
+        "jaccard": 1.0
+      }
+    ],
+    "event": "continuation"
+  },
+  {
+    "from_generation": 2,
+    "to_generation": 3,
+    "previous_cluster": 0,
+    "previous_size": 24,
+    "descendants": [
+      {
+        "next_cluster": 0,
+        "next_size": 24,
+        "predecessor_overlap": 1.0,
+        "jaccard": 1.0
+      }
+    ],
+    "event": "continuation"
+  },
+  {
+    "from_generation": 3,
+    "to_generation": 4,
+    "previous_cluster": 0,
+    "previous_size": 24,
+    "descendants": [
+      {
+        "next_cluster": 0,
+        "next_size": 24,
+        "predecessor_overlap": 1.0,
+        "jaccard": 1.0
+      }
+    ],
+    "event": "continuation"
+  },
+  {
+    "from_generation": 4,
+    "to_generation": 5,
+    "previous_cluster": 0,
+    "previous_size": 24,
+    "descendants": [
+      {
+        "next_cluster": 0,
+        "next_size": 24,
+        "predecessor_overlap": 1.0,
+        "jaccard": 1.0
+      }
+    ],
+    "event": "continuation"
+  },
+  {
+    "from_generation": 5,
+    "to_generation": 6,
+    "previous_cluster": 0,
+    "previous_size": 24,
+    "descendants": [
+      {
+        "next_cluster": 0,
+        "next_size": 24,
+        "predecessor_overlap": 1.0,
+        "jaccard": 1.0
+      }
+    ],
+    "event": "continuation"
+  },
+  {
+    "from_generation": 6,
+    "to_generation": 7,
+    "previous_cluster": 0,
+    "previous_size": 24,
+    "descendants": [
+      {
+        "next_cluster": 0,
+        "next_size": 24,
+        "predecessor_overlap": 1.0,
+        "jaccard": 1.0
+      }
+    ],
+    "event": "continuation"
+  },
+  {
+    "from_generation": 7,
+    "to_generation": 8,
+    "previous_cluster": 0,
+    "previous_size": 24,
+    "descendants": [
+      {
+        "next_cluster": 0,
+        "next_size": 24,
+        "predecessor_overlap": 1.0,
+        "jaccard": 1.0
+      }
+    ],
+    "event": "continuation"
+  },
+  {
+    "from_generation": 8,
+    "to_generation": 9,
+    "previous_cluster": 0,
+    "previous_size": 24,
+    "descendants": [
+      {
+        "next_cluster": 0,
+        "next_size": 24,
+        "predecessor_overlap": 1.0,
+        "jaccard": 1.0
+      }
+    ],
+    "event": "continuation"
+  },
+  {
+    "from_generation": 9,
+    "to_generation": 10,
+    "previous_cluster": 0,
+    "previous_size": 24,
+    "descendants": [
+      {
+        "next_cluster": 0,
+        "next_size": 24,
+        "predecessor_overlap": 1.0,
+        "jaccard": 1.0
+      }
+    ],
+    "event": "continuation"
+  },
+  {
+    "from_generation": 10,
+    "to_generation": 11,
+    "previous_cluster": 0,
+    "previous_size": 24,
+    "descendants": [
+      {
+        "next_cluster": 0,
+        "next_size": 24,
+        "predecessor_overlap": 1.0,
+        "jaccard": 1.0
+      }
+    ],
+    "event": "continuation"
+  },
+  {
+    "from_generation": 11,
+    "to_generation": 12,
+    "previous_cluster": 0,
+    "previous_size": 24,
+    "descendants": [
+      {
+        "next_cluster": 0,
+        "next_size": 24,
+        "predecessor_overlap": 1.0,
+        "jaccard": 1.0
+      }
+    ],
+    "event": "continuation"
+  },
+  {
+    "from_generation": 12,
+    "to_generation": 13,
+    "previous_cluster": 0,
+    "previous_size": 24,
+    "descendants": [
+      {
+        "next_cluster": 0,
+        "next_size": 24,
+        "predecessor_overlap": 1.0,
+        "jaccard": 1.0
+      }
+    ],
+    "event": "continuation"
+  },
+  {
+    "from_generation": 13,
+    "to_generation": 14,
+    "previous_cluster": 0,
+    "previous_size": 24,
+    "descendants": [
+      {
+        "next_cluster": 0,
+        "next_size": 24,
+        "predecessor_overlap": 1.0,
+        "jaccard": 1.0
+      }
+    ],
+    "event": "continuation"
+  },
+  {
+    "from_generation": 14,
+    "to_generation": 15,
+    "previous_cluster": 0,
+    "previous_size": 24,
+    "descendants": [
+      {
+        "next_cluster": 0,
+        "next_size": 24,
+        "predecessor_overlap": 1.0,
+        "jaccard": 1.0
+      }
+    ],
+    "event": "continuation"
+  },
+  {
+    "from_generation": 15,
+    "to_generation": 16,
+    "previous_cluster": 0,
+    "previous_size": 24,
+    "descendants": [
+      {
+        "next_cluster": 0,
+        "next_size": 24,
+        "predecessor_overlap": 1.0,
+        "jaccard": 1.0
+      }
+    ],
+    "event": "continuation"
+  },
+  {
+    "from_generation": 16,
+    "to_generation": 17,
+    "previous_cluster": 0,
+    "previous_size": 24,
+    "descendants": [
+      {
+        "next_cluster": 0,
+        "next_size": 17,
+        "predecessor_overlap": 0.7083333333333334,
+        "jaccard": 0.7083333333333334
+      },
+      {
+        "next_cluster": 1,
+        "next_size": 5,
+        "predecessor_overlap": 0.20833333333333334,
+        "jaccard": 0.20833333333333334
+      }
+    ],
+    "event": "split_like"
+  },
+  {
+    "from_generation": 17,
+    "to_generation": 18,
+    "previous_cluster": 0,
+    "previous_size": 17,
+    "descendants": [
+      {
+        "next_cluster": 0,
+        "next_size": 17,
+        "predecessor_overlap": 1.0,
+        "jaccard": 1.0
+      }
+    ],
+    "event": "continuation"
+  },
+  {
+    "from_generation": 17,
+    "to_generation": 18,
+    "previous_cluster": 1,
+    "previous_size": 5,
+    "descendants": [
+      {
+        "next_cluster": 1,
+        "next_size": 5,
+        "predecessor_overlap": 1.0,
+        "jaccard": 1.0
+      }
+    ],
+    "event": "continuation"
+  }
+]

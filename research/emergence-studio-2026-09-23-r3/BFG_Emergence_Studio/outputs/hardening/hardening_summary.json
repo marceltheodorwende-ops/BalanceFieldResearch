@@ -1,0 +1,103 @@
+{
+  "hardening_passed": true,
+  "benchmark_passed": true,
+  "robustness_passed": true,
+  "recursive_stability_audit_passed": true,
+  "integrated_math_audit_passed": true,
+  "master_runtime_transfer_audit_passed": true,
+  "master_runtime_first_step_success_fraction": 1.0,
+  "formation_dynamics_smoke_passed": true,
+  "formation_dynamics_smoke_pooled_exponent": 1.7219003333178262,
+  "formation_scalar_quadratic_probe_ratio": 0.9999980000019999,
+  "small_load_contraction_smoke_passed": true,
+  "small_load_contraction_smoke_transitions": 36,
+  "relational_network_audit_passed": true,
+  "relational_network_first_step_success_fraction": 0.38235294117647056,
+  "relational_network_small_load_bounds": "41/41",
+  "formation_eligibility_audit_passed": true,
+  "formation_eligibility_max_generalized_residual": 1.5543122344752192e-15,
+  "formation_robustness_audit_passed": true,
+  "formation_robustness_boundary_controls": 46,
+  "parent_formation_radius_audit_passed": true,
+  "parent_formation_radius_smoke_states": 40,
+  "parent_formation_radius_smoke_certified": 40,
+  "parent_runtime_stratum_controls": 40,
+  "parent_runtime_stratum_status_preserved": 40,
+  "stratum_transition_audit_passed": true,
+  "stratum_transition_smoke_states": 40,
+  "checkpoint_roundtrip_passed": true,
+  "benchmark_count": 9,
+  "randomized_trials": 200,
+  "source_fingerprint": "9ed33c1e22e743dd88004ed147b447dfe7a0c832f25779196805b137726843b8",
+  "checkpoint_loaded_generation": 2,
+  "checkpoint_post_steps": 2,
+  "benchmark_files": {
+    "json": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite.json",
+    "csv": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite.csv",
+    "markdown": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite.md",
+    "provenance_manifest": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite_provenance_manifest.json",
+    "provenance_summary": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite_provenance_summary.json",
+    "provenance_events": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite_provenance_events.json",
+    "provenance_frames": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/benchmarks/benchmark_suite_provenance_frames.json"
+  },
+  "robustness_files": {
+    "json": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/robustness/robustness.json",
+    "markdown": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/robustness/robustness.md",
+    "tolerance_csv": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/robustness/robustness_tolerance.csv",
+    "carrier_sensitivity_csv": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/robustness/robustness_carrier_sensitivity.csv",
+    "provenance_manifest": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/robustness/robustness_provenance_manifest.json",
+    "provenance_summary": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/robustness/robustness_provenance_summary.json",
+    "provenance_events": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/robustness/robustness_provenance_events.json",
+    "provenance_frames": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/robustness/robustness_provenance_frames.json"
+  },
+  "stability_files": {
+    "json": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/stability/recursive_stability_audit.json",
+    "markdown": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/stability/RECURSIVE_STABILITY_AUDIT.md"
+  },
+  "math_audit_files": {
+    "json": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/math_audit/integrated_math_audit.json",
+    "markdown": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/math_audit/INTEGRATED_MATH_AUDIT.md"
+  },
+  "runtime_transfer_files": {
+    "json": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/runtime_transfer/master_runtime_transfer_audit.json",
+    "csv": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/runtime_transfer/master_runtime_transfer_records.csv",
+    "markdown": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/runtime_transfer/MASTER_RUNTIME_TRANSFER_AUDIT.md",
+    "plot": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/runtime_transfer/transformation_corridor_overlap.png"
+  },
+  "network_files": {
+    "json": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/real_network/karate_network_audit.json",
+    "csv": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/real_network/karate_transfer_records.csv",
+    "markdown": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/real_network/KARATE_NETWORK_AUDIT.md",
+    "plot": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/real_network/karate_network_transfer_summary.png"
+  },
+  "formation_eligibility_files": {
+    "json": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/formation_eligibility/formation_eligibility_audit.json",
+    "csv": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/formation_eligibility/formation_eligibility_rows.csv",
+    "markdown": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/formation_eligibility/FORMATION_ELIGIBILITY_THEOREM.md",
+    "plot": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/formation_eligibility/network_formation_witness.png"
+  },
+  "formation_robustness_files": {
+    "json": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/formation_robustness/formation_robustness_audit.json",
+    "csv": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/formation_robustness/formation_margin_rows.csv",
+    "markdown": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/formation_robustness/FORMATION_ROBUSTNESS_AND_BIFURCATION.md",
+    "plot": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/formation_robustness/network_formation_signed_margin.png"
+  },
+  "parent_formation_files": {
+    "json": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/parent_formation/parent_formation_radius_audit.json",
+    "csv": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/parent_formation/parent_formation_radius_rows.csv",
+    "markdown": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/parent_formation/PARENT_FORMATION_RADIUS.md",
+    "plot": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/parent_formation/network_parent_formation_radius.png",
+    "runtime_plot": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/parent_formation/network_runtime_stratum_radius.png"
+  },
+  "stratum_geometry_files": {
+    "json": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/stratum_geometry/stratum_transition_geometry.json",
+    "csv": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/stratum_geometry/stratum_transition_rows.csv",
+    "markdown": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/stratum_geometry/STRATUM_TRANSITION_GEOMETRY.md",
+    "plot": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/stratum_geometry/native_bifurcation_margins.png"
+  },
+  "checkpoint_files": {
+    "arrays": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/checkpoint/master_state_arrays.npz",
+    "metadata": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/checkpoint/master_state_metadata.json",
+    "manifest": "/mnt/data/.bfg_parent_margin_work/BFG_Emergence_Studio/outputs/hardening/checkpoint/master_state_manifest.json"
+  }
+}
