@@ -1,5 +1,7 @@
 # BFG Emergence Studio — integrated finite profile
 
+> **Archived version: 314 original files. [Open the current version with all 404 files](../emergence-studio-2026-09-23-r3/BFG_Emergence_Studio/).**
+
 **Author and creator: Marcel Theodor Wende.** Received 23 September 2026 as a second `BFG_Emergence_Studio.zip` supplied from the author's BFG GitHub folder.
 
 This is the newer author-supplied Studio snapshot. All 314 original files are preserved byte-for-byte. Compared with the [first snapshot](../emergence-studio-2026-09-23/README.md), 270 files are unchanged, 23 changed and 21 added; none were removed. The previous snapshot and research derivations remain available.

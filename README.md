@@ -1,5 +1,11 @@
 # Balance Field Framework
 
+## Current BFG Emergence Studio — all 404 files
+
+**[Open the complete current Studio folder (404 original files)](research/emergence-studio-2026-09-23-r3/BFG_Emergence_Studio/)**
+
+This is the current ZIP version. All 404 original files were checked against the ZIP again: **404 identical, 0 missing, 0 different**. [Verification record](research/emergence-studio-2026-09-23-r3/UPLOAD_VERIFICATION.json) · [Version overview](research/emergence-studio-2026-09-23-r3/README.md). The 293-file and 314-file folders below are archived earlier versions.
+
 ## Mathematical amendment — 23 September 2026
 
 The [finite repair stage](research/finite-repair-2026-09-23/README.md) supplies a corrected persistence definition, distinguishes spectral and metric projectors, and proves the real/complex formation alternatives with real-structure transport conditions. The full reconstruction law remains open; its completion contract is explicit.
@@ -70,7 +76,7 @@ Current primary sources are author-supplied theoretical preprints. Repository re
 
 Copyright (c) 2026 Marcel Theodor Wende. All rights reserved for his original protected contributions throughout this repository. See [LICENSE](LICENSE) for the repository-wide rights reservation, third-party exclusions and applicable-law/GitHub exceptions. This is not an open-source license and does not revoke existing file-specific permissions.
 
-## Experimental Emergence Studio
+## Archived Studio — first version (293 files)
 
 The [author-supplied Emergence Studio](research/emergence-studio-2026-09-23/README.md) contains Python models, examples, tests and archived results. It is preserved as a separate experimental snapshot with an intake review; its full runtime suite has not yet been independently rerun here.
 
@@ -78,10 +84,10 @@ The [author-supplied Emergence Studio](research/emergence-studio-2026-09-23/READ
 
 The [finite closure model](research/finite-closure-model-2026-09-23/README.md) defines and proves a reduced-state update with explicit intrinsic-Gram and unitary-recursion choices. Fifteen focused checks pass. This is a conditional mathematical completion, not a proof that the original BFG axioms uniquely force those choices or close the general unbounded case.
 
-## Current BFG Emergence Studio
+## Archived Studio — second version (314 files)
 
 The [integrated Studio version](research/emergence-studio-integrated-2026-09-23/README.md) includes 314 original files, the adopted reduced finite closure profile, recursive-stability and exact-certificate modules, and documented results of 107 tests and nine benchmarks. The earlier Studio snapshot remains available; this import performs no new code execution.
 
-## Latest BFG Emergence Studio — revision 3
+## Studio revision 3 overview
 
 The [current 404-file Studio version](research/emergence-studio-2026-09-23-r3/README.md) adds formation robustness, small-load contraction, stratum-transition geometry and an exploratory relational network carrier. Its documented results include 142 passed tests. Original files and results are preserved unchanged; this import does not rerun tests. Earlier versions remain available.

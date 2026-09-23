@@ -1,5 +1,9 @@
 # Research stages
 
+## Current Studio — 404 original files
+
+**[Open all 404 files](emergence-studio-2026-09-23-r3/BFG_Emergence_Studio/)** · [Version overview](emergence-studio-2026-09-23-r3/README.md). The 293-file and 314-file stages are preserved older versions.
+
 ## Latest mathematical amendment
 
 [Finite persistence, real/complex formation and reconstruction contract](finite-repair-2026-09-23/README.md), 23 September 2026.
@@ -38,7 +42,7 @@ These records describe their original sources and assumptions. Historical V3 ava
 - [rlc-realization-2026-09-21](rlc-realization-2026-09-21/README.md)
 - [status-preprint-2026-09-22](status-preprint-2026-09-22/README.md)
 
-## Experimental software snapshot
+## Archived first Studio snapshot (293 files)
 
 [BFG Emergence Studio import and review](emergence-studio-2026-09-23/README.md), 23 September 2026.
 
@@ -46,7 +50,7 @@ These records describe their original sources and assumptions. Historical V3 ava
 
 [Finite reduced-state completion, proof and 15 regression checks](finite-closure-model-2026-09-23/README.md), 23 September 2026. Additional reconstruction rules are explicit; general internal uniqueness remains open.
 
-## Latest integrated Studio version
+## Archived second Studio snapshot (314 files)
 
 [BFG Emergence Studio — integrated finite runtime profile](emergence-studio-integrated-2026-09-23/README.md), 23 September 2026. Newer 314-file snapshot with its documented results and a separate reading note.
 

@@ -1,5 +1,7 @@
 # BFG Emergence Studio — preserved author-supplied snapshot
 
+> **Archived version: 293 original files. [Open the current version with all 404 files](../emergence-studio-2026-09-23-r3/BFG_Emergence_Studio/).**
+
 Imported 23 September 2026 from `BFG_Emergence_Studio.zip`, supplied by Marcel Theodor Wende. This is an experimental software stage, separate from the canonical mathematical papers and the finite repair amendment.
 
 ## Open the studio

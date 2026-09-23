@@ -1,0 +1,10 @@
+{
+  "archive_files": 404,
+  "github_original_files": 404,
+  "matching_files": 404,
+  "mismatches": [],
+  "commit": "ff688f9b3d38942e47ea0bffe171a341caa0e1ce",
+  "archive_sha256": "a1c626484dd19ce3ccd9964d4a2982459eee7da94df4db73cb54726d640b7bab",
+  "verification_method": "ZIP re-extracted; Git blob SHA-1 recomputed for every original file and compared with live main tree",
+  "python_or_tests_executed": false
+}
