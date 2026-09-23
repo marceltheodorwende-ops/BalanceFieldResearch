@@ -41,3 +41,7 @@ These records describe their original sources and assumptions. Historical V3 ava
 ## Experimental software snapshot
 
 [BFG Emergence Studio import and review](emergence-studio-2026-09-23/README.md), 23 September 2026.
+
+## Explicit conditional closure model
+
+[Finite reduced-state completion, proof and 15 regression checks](finite-closure-model-2026-09-23/README.md), 23 September 2026. Additional reconstruction rules are explicit; general internal uniqueness remains open.

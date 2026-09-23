@@ -1,0 +1,12 @@
+{
+  "tests_run": 15,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "scope": "Finite conditional model; no empirical or uniquely forced BFG closure claim",
+  "python": "3.12.8",
+  "numpy": "2.2.5",
+  "scipy": "1.17.0",
+  "original_core_tests_directly_executed": 4,
+  "original_growing_recursion_success_reproduced": true
+}

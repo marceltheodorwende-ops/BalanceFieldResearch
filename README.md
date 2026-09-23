@@ -73,3 +73,7 @@ Copyright (c) 2026 Marcel Theodor Wende. All rights reserved for his original pr
 ## Experimental Emergence Studio
 
 The [author-supplied Emergence Studio](research/emergence-studio-2026-09-23/README.md) contains Python models, examples, tests and archived results. It is preserved as a separate experimental snapshot with an intake review; its full runtime suite has not yet been independently rerun here.
+
+## Explicit finite conditional completion
+
+The [finite closure model](research/finite-closure-model-2026-09-23/README.md) defines and proves a reduced-state update with explicit intrinsic-Gram and unitary-recursion choices. Fifteen focused checks pass. This is a conditional mathematical completion, not a proof that the original BFG axioms uniquely force those choices or close the general unbounded case.

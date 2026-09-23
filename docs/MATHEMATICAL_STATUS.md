@@ -25,3 +25,7 @@ Current sources: [canonical architecture and structural novelty preprints](../pa
 5. Infinite-dimensional transport and form-domain preservation remain separate proof obligations.
 
 The fresh [audit results](../research/canonical-consolidation-2026-09-22/RESULTS.json) support the finite identities and expose the stated counterexamples. Test counts are neither a universal proof nor empirical confirmation. Existing CTC-SA and connection models retain their explicit additional assumptions.
+
+## Conditional completion — 23 September 2026
+
+A new [reduced finite model](../research/finite-closure-model-2026-09-23/THEOREM.md) now specifies phase-independent formation, an explicit active Gram rebuild, factor gauge and unitary successor recursion. Its declared category is preserved and its exact finite iteration is well-defined on unitary equivalence classes, with an absorbing terminal state. A bounded infinite-dimensional input class with finite peripheral rank reduces to it. These are results under additional chosen laws; the original internal-uniqueness, full-state semantics and general unbounded obligations below remain open. The [audit ledger](../research/finite-closure-model-2026-09-23/AUDIT.md) retains the observed floating-point ambiguity and the original Studio growth-admission defect.
