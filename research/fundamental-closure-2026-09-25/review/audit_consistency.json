@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": [
+    "check_required",
+    "check_python",
+    "check_claim_ids",
+    "check_json",
+    "check_manifest",
+    "check_markdown_refs",
+    "check_authoritative_semantics"
+  ],
+  "required_files": 19
+}

@@ -1,0 +1,81 @@
+{
+  "authoritative_finite_state": [
+    "H",
+    "D_cap",
+    "coherence",
+    "emergence",
+    "rho_F",
+    "rho_W",
+    "Y",
+    "R_C"
+  ],
+  "broken_internal_references": 0,
+  "compile": "PASS",
+  "consistency_audit": "PASS",
+  "date": "2026-09-25",
+  "declared_finite_completion_rules": [
+    "intrinsic-Gram successor load",
+    "Neutral-Contrast Selection",
+    "neutral transverse successor recursion"
+  ],
+  "duplicate_claim_ids": 0,
+  "pytest": {
+    "failed": 0,
+    "passed": 174,
+    "status": "PASS"
+  },
+  "scientific_status": {
+    "established_theory_of_everything": false,
+    "historical_source_uniquely_forces_all_completions": false,
+    "physical_sector_derivations_complete": false
+  },
+  "scope": "living BFG finite candidate + explicitly declared continuum completion layer",
+  "stress": {
+    "csr": {
+      "cases": 1000,
+      "interpretation": {
+        "dual_load_numerical_ambiguity": "A positive legacy rank-one dual load fell below floating resolution. This is numerical ambiguity, not exact terminality.",
+        "numerical_rank_ambiguity": "A nonzero analysis map fell below the declared floating rank threshold. This is numerical ambiguity, not exact mathematical termination.",
+        "rank_increase": "Inherited-only CSR is designed not to fabricate persistence; therefore exact persistent rank increase is absent. R4 supports new persistent strata separately, so this is a restriction of CSR."
+      },
+      "max_observed_recursive_power_norm": 1.0000000000000193,
+      "max_steps": 10,
+      "max_successful_steps": 5,
+      "mean_successful_steps": 3.777,
+      "min_successful_steps": 2,
+      "persistent_rank_increases": 0,
+      "runtime_stop_semantics_counts": {
+        "exact_terminal_or_no_choice_failure": 0,
+        "numerical_unresolved": 1000,
+        "step_limit": 0
+      },
+      "seed": 20260925,
+      "status_note": "Internal deterministic finite mathematical stress test only. Counts depend on the declared synthetic seed ensemble and are not empirical evidence. Numerical ambiguity is not exact terminality.",
+      "terminal_or_boundary_counts": {
+        "dual_load_numerical_ambiguity": 1000
+      }
+    },
+    "selection_first": {
+      "cases": 1000,
+      "export_events": 812,
+      "max_observed_recursive_power_norm": 1.0000000000000182,
+      "max_steps": 8,
+      "max_successful_steps": 5,
+      "mean_successful_steps": 4.497,
+      "min_successful_steps": 0,
+      "persistent_rank_decreases": 1150,
+      "persistent_rank_increases": 781,
+      "runtime_stop_semantics_counts": {
+        "exact_terminal_or_no_choice_failure": 16,
+        "numerical_unresolved": 984
+      },
+      "seed": 20260925,
+      "status_note": "Internal deterministic finite mathematical stress test only. Counts depend on the declared synthetic seed ensemble and are not empirical evidence. Numerical ambiguity is not exact terminality.",
+      "terminal_or_boundary_counts": {
+        "dual_load_numerical_ambiguity": 984,
+        "no_closure_positive_source_sector": 16
+      },
+      "witness_loss_events": 166
+    }
+  }
+}

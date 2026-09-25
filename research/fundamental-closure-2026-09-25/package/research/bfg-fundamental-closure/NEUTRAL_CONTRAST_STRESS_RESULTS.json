@@ -1,0 +1,22 @@
+{
+  "cases": 1000,
+  "export_events": 812,
+  "max_observed_recursive_power_norm": 1.0000000000000182,
+  "max_steps": 8,
+  "max_successful_steps": 5,
+  "mean_successful_steps": 4.497,
+  "min_successful_steps": 0,
+  "persistent_rank_decreases": 1150,
+  "persistent_rank_increases": 781,
+  "runtime_stop_semantics_counts": {
+    "exact_terminal_or_no_choice_failure": 16,
+    "numerical_unresolved": 984
+  },
+  "seed": 20260925,
+  "status_note": "Internal deterministic finite mathematical stress test only. Counts depend on the declared synthetic seed ensemble and are not empirical evidence. Numerical ambiguity is not exact terminality.",
+  "terminal_or_boundary_counts": {
+    "dual_load_numerical_ambiguity": 984,
+    "no_closure_positive_source_sector": 16
+  },
+  "witness_loss_events": 166
+}

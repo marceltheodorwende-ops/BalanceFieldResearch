@@ -1,0 +1,24 @@
+{
+  "cases": 1000,
+  "interpretation": {
+    "dual_load_numerical_ambiguity": "A positive legacy rank-one dual load fell below floating resolution. This is numerical ambiguity, not exact terminality.",
+    "numerical_rank_ambiguity": "A nonzero analysis map fell below the declared floating rank threshold. This is numerical ambiguity, not exact mathematical termination.",
+    "rank_increase": "Inherited-only CSR is designed not to fabricate persistence; therefore exact persistent rank increase is absent. R4 supports new persistent strata separately, so this is a restriction of CSR."
+  },
+  "max_observed_recursive_power_norm": 1.0000000000000193,
+  "max_steps": 10,
+  "max_successful_steps": 5,
+  "mean_successful_steps": 3.777,
+  "min_successful_steps": 2,
+  "persistent_rank_increases": 0,
+  "runtime_stop_semantics_counts": {
+    "exact_terminal_or_no_choice_failure": 0,
+    "numerical_unresolved": 1000,
+    "step_limit": 0
+  },
+  "seed": 20260925,
+  "status_note": "Internal deterministic finite mathematical stress test only. Counts depend on the declared synthetic seed ensemble and are not empirical evidence. Numerical ambiguity is not exact terminality.",
+  "terminal_or_boundary_counts": {
+    "dual_load_numerical_ambiguity": 1000
+  }
+}

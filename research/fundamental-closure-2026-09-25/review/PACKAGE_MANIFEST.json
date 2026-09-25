@@ -1,0 +1,269 @@
+{
+  "archive_sha256": "0a59ec47ae03f9a5aaa725740f258f1acb44698a77902eaddd5229bb14cd7825",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6191,
+      "sha256": "1e5f28cc6f26ad3cbfca86eea3c31c70f4b78ca375415294a49a70d4c0fec939",
+      "git_blob_sha": "2516e717c037145b7cf8decca4969b8a3baaae84"
+    },
+    {
+      "path": "INTEGRATION.md",
+      "bytes": 2726,
+      "sha256": "cf416d13168a237f98b08908f5c6eed529559cbb89ec4409a5d40bc557fc5539",
+      "git_blob_sha": "7b88e352ec137205a7fa60b8911c1575eb9ec33b"
+    },
+    {
+      "path": "PACKAGE_STATUS.json",
+      "bytes": 3083,
+      "sha256": "5dba18ad39529ad98f6a027feb662d2a60c22b9d7f039976deda2fdce9fa19d7",
+      "git_blob_sha": "170a8041f84c0e056f3486e614c63029694c9568"
+    },
+    {
+      "path": "bfg_lab/fundamental_closure.py",
+      "bytes": 128884,
+      "sha256": "f7b0612571cea7417be9e604699ce749bf9b45510b399cbec2c171543d14615b",
+      "git_blob_sha": "24969572e998ca91f362873a88d09ff6f1053728"
+    },
+    {
+      "path": "tests/test_fundamental_closure.py",
+      "bytes": 90904,
+      "sha256": "2d1b12b0c5d1f0f05a265d8fb3ee01bb110c0e5fbb98cc066a7e9dc11a05b4d5",
+      "git_blob_sha": "23d58289cd676f13d101e45c07a4ec135d4f5500"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/PERSISTENCE_INCLUSION_THEOREM.md",
+      "bytes": 3766,
+      "sha256": "8bb7e5b19a15a138847c5b7dc04c0174f907cee5aa159e9921f8f37dc51bc740",
+      "git_blob_sha": "1802052a9bbe34cd1ba1c0c27bf4c442e4c87aaf"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/TWO_DENSITY_UNIVERSAL_STATE.md",
+      "bytes": 6903,
+      "sha256": "ae0569a5eb687e28f8479fa011fd17f66264f1b9e5b7a31c9f62e8a97c266771",
+      "git_blob_sha": "6964a38e8ed58500701c485c342521f4d995c01f"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/EXACT_FORWARD_ORBIT_THEOREM.md",
+      "bytes": 7130,
+      "sha256": "c423d79c4361e194a6419f6e580c90b1508b680857677b8e9d40bb55fdf72eb6",
+      "git_blob_sha": "dbdca02fa1a506808312e518089a1814c47c8243"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/stress_csr.py",
+      "bytes": 5014,
+      "sha256": "75f9e1987b1cbfbe9dca11430cfd034f6e4ee95eaedc6077b7c42245488faeaa",
+      "git_blob_sha": "370758d99b1485b2dcbe2befd6f45c1cac299331"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/CANONICAL_SELF_RECLOSURE_AXIOM.md",
+      "bytes": 6787,
+      "sha256": "15be6e82a084da5f53f4714eb3eb01c0b7734b040d3934397a08d2f3037ac854",
+      "git_blob_sha": "d5b1c5ca138cfea1b4a31aa860af664444911bc2"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/SELECTION_EXPORT_STRATUM_LAW.md",
+      "bytes": 5454,
+      "sha256": "d0a8b2f06ef0592e91c67ebe83d037896370223106fa0a912e4bdfb3e293d693",
+      "git_blob_sha": "5669e724f54f26751b88ccfe5c65c26d11de1fdd"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/PRIOR_ART_BOUNDARY.md",
+      "bytes": 2373,
+      "sha256": "4ed0f7c2510d98da850ee0cfc41c916b12298e4b4753feb6fa23f7b553d68072",
+      "git_blob_sha": "a4761633b1b920c7b8b2b53e5af95a3b08fa6ee6"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/CSR_STRESS_RESULTS.json",
+      "bytes": 1256,
+      "sha256": "95c9bde4279017d3069bef039bab3349ba258ee5652ada99f0fa3e487e14349c",
+      "git_blob_sha": "e938e5399046674dfc2c9a2a59b1a1f57f956a79"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/RECURSIVE_TIME_CONTINUUM_GENERATOR.md",
+      "bytes": 6640,
+      "sha256": "647aa8e7562b9f0bed2b623a5f2a570a3992dc872c70b344d0dae0e65fbd73d7",
+      "git_blob_sha": "b527f349e74de78375fba79c94f934d64cb568bf"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/RECIPROCAL_ALPHA_FIBER_REDUCTION.md",
+      "bytes": 5961,
+      "sha256": "0c376a859f11a3dbcae806d7a3d5747ebff41bbff986ba0ee819ae9551c43803",
+      "git_blob_sha": "a2590db6f432efe41a25d629b6724f7915b8f311"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/LOCAL_ANCHOR_ELIMINATION_THEOREM.md",
+      "bytes": 11414,
+      "sha256": "07b92de624a9acba1c82ed56f573bf19d06f8b2808b8dcc6c5736b7d8c5d6b66",
+      "git_blob_sha": "ce12f97cfa4c3c266ec19301016122efe55512e8"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/README.md",
+      "bytes": 2265,
+      "sha256": "d7722fd8926c55dd2d7543b0afadd7a4f727f258ce17a7104c8fa4c6b975b50c",
+      "git_blob_sha": "43409a8218a33d7cf830a47ce67f33ee1390c3a3"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/MASTER_STATE.md",
+      "bytes": 4058,
+      "sha256": "f5f30e4d7871d30497312d5bad0b197a50eb60b839e0cdcd2985e0662829d127",
+      "git_blob_sha": "7f78ddd8cd2eff5c072cbd35dadc6116ae2036dd"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/CANONICAL_TWO_CHANNEL_CP_SUSPENSION.md",
+      "bytes": 9638,
+      "sha256": "c34f31234602907d2d6602322e6fb17b6736b58be8762a857450a6a64e44c8d5",
+      "git_blob_sha": "f0adcf0ca9238bb9f35c1868a8af2e63d410ffb6"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/FROZEN_SCHUR_CP_EMBEDDABILITY.md",
+      "bytes": 3595,
+      "sha256": "649b07e41c20fd03d2a4542e4ab13bc6e5d2d56cf5a54ddeaf9a9d6ccc71175d",
+      "git_blob_sha": "20c3807f9679fab4f355d46f6c7ff75d85c9fad4"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/CSR_STRESS_AUDIT.md",
+      "bytes": 7636,
+      "sha256": "d43a9b64b6b505e4d3694a46cbd048b12b136e1fcae9d088c318ab25f5ab3a94",
+      "git_blob_sha": "5e0ee3069a02652ae67e908f07fa5abf3e800659"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/SELECTION_FIRST_ORDERING_THEOREM.md",
+      "bytes": 1444,
+      "sha256": "f000d27e62f0b0b95b0ee9735af004cf759d22cedb2b9c474c8d36bebc9e8ab9",
+      "git_blob_sha": "a8dccd4f2bab52f07490384f4497f0ac2f002b32"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/UNIVERSAL_UPDATE_DERIVATION_AUDIT.md",
+      "bytes": 9805,
+      "sha256": "1f55e983cef9053c734907db9a228e3c252025f36a17b794deb403d8cd82fb48",
+      "git_blob_sha": "1776128df21c0281fdd4765667f93a9c8d2f643b"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/NEUTRAL_CONTRAST_STRESS_RESULTS.json",
+      "bytes": 796,
+      "sha256": "39cbc2c5b1772793423392d6e14c475f0fa007d9189b257f55aecb014b8d406e",
+      "git_blob_sha": "96ccd5d695911ce32f02bab33bd18755cb6ea667"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/CONSISTENCY_AUDIT.md",
+      "bytes": 5563,
+      "sha256": "6157e043b0ff4de02a56b4a522c186cf08d87beab538d9d62b87a5b6381a7453",
+      "git_blob_sha": "7ce714ca7041debefbaf1a9129d9891aad74241d"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/TWO_LAW_OBSTRUCTION_THEOREM.md",
+      "bytes": 1543,
+      "sha256": "39f86ebcd725b95b95e6e905413a9f4a4ecabb8be5d39cb831774ffaea676e9d",
+      "git_blob_sha": "1932f5c9894d2c1dfdab1a29f9078d1b32c4ec89"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/FALSIFICATION.md",
+      "bytes": 2273,
+      "sha256": "94c79601fff477b7e48997379e7ebe2ba3ff34f8e9e614256e43f82c18a79385",
+      "git_blob_sha": "f0fb0f2753d5e6a2242db89012090734337b6809"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/UNIVERSAL_STATE_UPDATE_CANDIDATE.md",
+      "bytes": 7307,
+      "sha256": "e6eef74db694d2d16017991005f3f8b04425ff45d74f80e351331d4b7d99eb01",
+      "git_blob_sha": "fdac6d8781ffd57f296f0d10d1c2735c0bcfb666"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/COMMUTING_AND_NONCOMMUTING_CONTINUUM.md",
+      "bytes": 9196,
+      "sha256": "2c9e8b38e9a74c966ec0f11a9d14a29dccc992569262b052174f8aabc1853f53",
+      "git_blob_sha": "bc78e32ea8960601863ab92ad4fe82461fef0aab"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/CLAIMS.md",
+      "bytes": 14977,
+      "sha256": "e4729df18beb66be8f7a48da747c83d5edf974b4f76695c93f0b2e62f5b486f3",
+      "git_blob_sha": "f49f8b1ab82ee4abef4cf29b4577e97f9700bdfc"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/stress_neutral_contrast.py",
+      "bytes": 5940,
+      "sha256": "fa2e5c6871607ebfa44f5b694785018f5b03b69eb656c7def2a4e6dbc06a5e45",
+      "git_blob_sha": "600aa8483657570517e39fae222a332c21187eea"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/NEUTRAL_CONTRAST_CLOSURE_GAIN.md",
+      "bytes": 7781,
+      "sha256": "01eead8ab115f7eebc43d76faa770b96e0a94102869fde7458b45baeccd5272b",
+      "git_blob_sha": "7df9486bf54c4c7ca89fa06a96a805041ec19078"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/audit_consistency.py",
+      "bytes": 6409,
+      "sha256": "42860c4075d855ef40d3e789dbdc7ef349b8f78ae4ddbe6012e6c0929d687a59",
+      "git_blob_sha": "15e5619b8c242c38ee21687cfb04fbb8505ded2d"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/CLOSURE_DEPTH_COORDINATE.md",
+      "bytes": 4011,
+      "sha256": "74746319dac9f38f5433b7ac8dd9f62f8e0538c31eb48144b4ef54d86c46d5a6",
+      "git_blob_sha": "86e51989a5906d55015b747d131808c8b017a68c"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/BFG_ONLY_CONTRACT.md",
+      "bytes": 3029,
+      "sha256": "36f14acd4c7dc9f3b5c701e64a897a323abfb82023e5526015bce5ed0ea11b7d",
+      "git_blob_sha": "5bbc0a65de14307bc13592845993ff16c4031762"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/SIMPLE_FOLD_MEMORY_THEOREM.md",
+      "bytes": 5788,
+      "sha256": "bdf5d5109c08602cbd859ef3ffdb9fcd5c68409a694de8f6ed958f826f1311ce",
+      "git_blob_sha": "acc9b29c7c34456fd77da54ac7a18ec778986303"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/FUNDAMENTAL_CLOSURE_LAW.md",
+      "bytes": 18949,
+      "sha256": "79dd45f9dfc734c4fe51463b524885fd3a786f423489528ad250c6e3464ea979",
+      "git_blob_sha": "2938df47c019da532712262f3bbfe4d7b55cc22d"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/FIXED_STRATUM_OPERATOR_CONTINUUM.md",
+      "bytes": 6728,
+      "sha256": "3257ad7a478f1fafd4105b5027badd1a9227ccf5276bdd38fe56b50aa2fcb287",
+      "git_blob_sha": "201908ac9e45354fb0f6f307cae8b14683b77db6"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/FIXED_DIMENSION_MEMORY_TAMENESS.md",
+      "bytes": 7509,
+      "sha256": "522903575d91727db7cfdd430caf308d4fb520aec682026f21d5bb274bce45c8",
+      "git_blob_sha": "22b6a5130bce30ab437e623b0e9c4902615e4b14"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/CARRIER_DIMENSION_MONOTONICITY_THEOREM.md",
+      "bytes": 6714,
+      "sha256": "f1b63c5a3bd04402f2066f987f5d6017b671c01a56a127da9f4353b1414c6792",
+      "git_blob_sha": "c844f848db81137e3d0d412345fdd9bea5b7fd6e"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/RESEARCH_PLAN.md",
+      "bytes": 2288,
+      "sha256": "6b7265366221e5406fc605df6f80e62e3d8b78745bcbe940045e3598fed310da",
+      "git_blob_sha": "fc529244999bd35d3e80c038c18811fd9c8bd0de"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/GLOBAL_MEMORY_GRAPH_THEOREM.md",
+      "bytes": 8868,
+      "sha256": "12756ae8e1974ee3f4d21c5e29d4c68f85a51631814a9089842bd7da64cf52db",
+      "git_blob_sha": "bf1c41caf1a0fd56d8b8daaa38901fda848fc284"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/DUAL_LOAD_BOUNDARY_THEOREM.md",
+      "bytes": 4570,
+      "sha256": "1c0560770bff2f22c4e81bae6dc929991340e53c2ccf9ec032ae96634b9a7ebb",
+      "git_blob_sha": "2ce0203af275ffbd9ca9daa1f302fae615296160"
+    },
+    {
+      "path": "research/bfg-fundamental-closure/PHASE_ANCHORED_STATE_SUSPENSION.md",
+      "bytes": 11581,
+      "sha256": "b4ff37109d16c4a81ddc661d355bb99c708a12986042734b0ca7677b8cfa1aa7",
+      "git_blob_sha": "78969c9e071042d83844953283ae38e7d370938a"
+    }
+  ]
+}
