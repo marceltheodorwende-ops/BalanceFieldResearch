@@ -100,3 +100,8 @@ The [current 404-file Studio version](research/emergence-studio-2026-09-23-r3/RE
 ## Fundamental Closure research stage — 25 September 2026
 
 The new [Fundamental Closure package and intake review](research/fundamental-closure-2026-09-25/README.md) preserves all 44 supplied files separately from the Emergence Studio master. Fresh verification reproduced 174 passing tests and both 1,000-case synthetic stress reports. [The review](research/fundamental-closure-2026-09-25/review/REVIEW.md) preserves numerical ambiguities and distinguishes declared completion rules from historically derived and empirically established claims.
+
+
+## Canonical Minimal Finite Closure preprint — 26 September 2026
+
+[Publication package](research/canonical-minimal-finite-closure-2026-09-26/README.md): the unchanged original DOCX, a direct Microsoft Word PDF export, abstract, author/ORCID metadata, citation files and integrity manifest. The paper presents the five-object finite closure candidate and explicitly separates source synthesis, mathematical claims and downstream empirical obligations. Earlier research stages remain preserved.

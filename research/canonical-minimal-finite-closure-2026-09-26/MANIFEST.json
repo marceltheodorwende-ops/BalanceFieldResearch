@@ -1,0 +1,52 @@
+{
+  "files": [
+    {
+      "path": "ABSTRACT.md",
+      "bytes": 2464,
+      "sha256": "53ff656ae5b58f9063b154ddfd203342bc909ecfd86c951e0f2f799391a292d5",
+      "git_blob_sha": "52ef0e72a70bd7c9ac86b9975559a92c382fa177"
+    },
+    {
+      "path": "BFG_Canonical_Minimal_Finite_Closure_and_Universal_Reclosure_Preprint_2026-09-26.docx",
+      "bytes": 1935429,
+      "sha256": "84c009a774a2409b9fcbc56443ddfbdc306e5d7af356664d58885e8e76bb9b30",
+      "git_blob_sha": "203a23fd4b0ec0e9dbee6e196b896a35768e5714"
+    },
+    {
+      "path": "BFG_Canonical_Minimal_Finite_Closure_and_Universal_Reclosure_Preprint_2026-09-26.pdf",
+      "bytes": 1159981,
+      "sha256": "bcbf3bb9a6cdeb31699ec2ce8d237c890e7ba1b79e50a13d99db30def9d9765e",
+      "git_blob_sha": "26f398bfef09ede5060a0ee1ea0c4df873b52c2f"
+    },
+    {
+      "path": "citation.bib",
+      "bytes": 411,
+      "sha256": "a53c1e2b1c941cb18429cdab44c69e86abbb2519f055aafc474424dfc32543c9",
+      "git_blob_sha": "628cf36f3e1d785f378c2447b23cbc5eb786a7e9"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 478,
+      "sha256": "ff203adb00c741c8593d24ac60698d3ec65d619cb6473a6c1be10c022ebf24cd",
+      "git_blob_sha": "b737efe13522a50ce0c1cf49290567034da33245"
+    },
+    {
+      "path": "metadata.json",
+      "bytes": 3468,
+      "sha256": "4827fa931a953b0bdf6612d3de48fe4be154f050e50486c2caae7e5711b94376",
+      "git_blob_sha": "b4136b06e225a1bd5aba41d572f67649af07c859"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 1469,
+      "sha256": "d2cdf6a769965c80831df5b78b3b77af1ce3e1265be67f1c04dd7d2573349b4f",
+      "git_blob_sha": "61a442e4b9fa1b486f9f2f8e5f3a88204f8563d9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2255,
+      "sha256": "daabd47ee3fafcbb69cd3f77406cd36ae2f410c110a895caa329a2db17654f85",
+      "git_blob_sha": "68dfeaa425d306a1da6c1c9d9de37ecfeffe6499"
+    }
+  ]
+}

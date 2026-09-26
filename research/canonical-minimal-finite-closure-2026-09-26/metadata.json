@@ -1,0 +1,31 @@
+{
+  "title": "Balance–Field Framework (BFG): Canonical Minimal Finite Closure and Universal Reclosure",
+  "subtitle": "A Preprint on Typed-Operational Minimality, Neutral Selection, Intrinsic-Gram Reconstruction, Identity Continuity, and Structural Emergence",
+  "author": {
+    "name": "Marcel Theodor Wende",
+    "orcid": "https://orcid.org/0009-0007-4028-2208",
+    "affiliation": "Independent Researcher, Balance–Field Framework (BFG)"
+  },
+  "date": "2026-09-26",
+  "language": "en",
+  "type": "preprint",
+  "abstract": "This preprint consolidates the current finite Balance–Field Framework (BFG) closure program into a single minimal and auditable formulation. The operative state is the five-object quotient Ξ=(K,ρ_F,ρ_W,Y,P), comprising Hermitian formation geometry, a nonzero positive formation/load density, a normalized positive identity witness, a positive neutral load, and an orthogonal persistent projector. Within the present finite candidate this state is typed-operationally minimal: deleting any one role can make the successor indeterminate. The universal neutral pair C_N=(I+Y)^{-1} and B_N=Y(I+Y)^{-1} is exact and complementary. A source-synthesized Neutral-Contrast Selection identifies closure-positive modes through Q_N=1_(0,∞)[(I−Y)(I+Y)^{-1}], without a fitted threshold. Selection precedes generation of the next packet. The surviving source determines reciprocal closure loads and a parameter-free dual weight pair; these define a cross-fed analysis operator whose reduced singular values generate the successor positive geometry Y_+=Σ². The same active frame transports the formation operator, while a distinct R4 polar overlap carries inherited identity and formation into the successor without relabelling emergent formation as prior identity. A simple negative ground mode in the non-inherited target complement supplies the only admissible endogenous formation seed. The resulting map is a level-independent finite self-reclosure law with no free numerical or constitutive completion function in the current minimal kernel, subject to the explicitly stated source-synthesis boundary. An exact BFG inheritance–emergence theorem further shows, on the neutral-compatible persistent stratum, that [Y_P,K_P]=0 is equivalent to formation inheritance, whereas noncommutation forces a change in the formation spectrum. Numerical audits reported in the BFG source line test the finite identities and novelty mechanism to floating-point precision but are not empirical evidence for natural realization. The preprint closes by locating continuum phase, memory, minimal polar carrier geometry, gravity, quantum structure, and cosmology as downstream derivation obligations rather than new fundamental inputs.",
+  "keywords": [
+    "Balance–Field Framework",
+    "recursive closure",
+    "neutral mediation",
+    "operator theory",
+    "polar decomposition",
+    "singular value decomposition",
+    "persistence",
+    "identity witness",
+    "structural emergence",
+    "no-retuning",
+    "minimal state"
+  ],
+  "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/tree/main/research/canonical-minimal-finite-closure-2026-09-26",
+  "rights": "Copyright (c) 2026 Marcel Theodor Wende. All rights reserved. See repository LICENSE.",
+  "pdf_pages": 20,
+  "conversion": "Microsoft Word native PDF export from read-only original; no manuscript edits",
+  "empirical_dataset": false
+}

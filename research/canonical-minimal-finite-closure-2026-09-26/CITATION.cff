@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the preprint using this metadata."
+type: article
+title: "Balance–Field Framework (BFG): Canonical Minimal Finite Closure and Universal Reclosure"
+authors:
+  - family-names: "Wende"
+    given-names: "Marcel Theodor"
+    orcid: "https://orcid.org/0009-0007-4028-2208"
+date-released: 2026-09-26
+url: "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/tree/main/research/canonical-minimal-finite-closure-2026-09-26"
