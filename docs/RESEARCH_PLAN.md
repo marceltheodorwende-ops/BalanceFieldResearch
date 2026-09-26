@@ -1,5 +1,12 @@
 # Next mathematical development
 
+## Current proof-chain status — 26 September 2026
+
+The [three-rule proof-chain audit](../research/proof-chain-audit-2026-09-26/README.md) distinguishes proved conditional consequences from open historical derivations. It records a counterexample to the weak-monotonicity selection argument and the additional premise needed for its corrected theorem. The current finite candidate uses the [two-density master state](../research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/MASTER_STATE.md).
+
+Immediate work is the source-based justification of intrinsic Gram, Neutral-Contrast Selection and transverse recursion. Finite persistence and real/complex formation repairs already exist. Earlier plans below retain their dated scope; they must not be read as saying that no conditional finite runtime exists. See [open obligations](../research/proof-chain-audit-2026-09-26/OPEN_OBLIGATIONS.md).
+
+
 The current program follows the [two canonical papers](../papers/canonical-2026-09-22/README.md) and the [consolidation audit](../research/canonical-consolidation-2026-09-22/REVIEW.md).
 
 1. Replace the architecture's witness-span persistence definition with an explicit admissible spectral definition, retaining the distinction between Riesz and graph-metric projectors. State finite power-bounded and infinite-domain assumptions separately.

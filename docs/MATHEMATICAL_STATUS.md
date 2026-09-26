@@ -1,5 +1,12 @@
 # Mathematical status
 
+## Current proof-chain status — 26 September 2026
+
+The [three-rule proof-chain audit](../research/proof-chain-audit-2026-09-26/README.md) distinguishes proved conditional consequences from open historical derivations. It records a counterexample to the weak-monotonicity selection argument and the additional premise needed for its corrected theorem. The current finite candidate uses the [two-density master state](../research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/MASTER_STATE.md).
+
+Immediate work is the source-based justification of intrinsic Gram, Neutral-Contrast Selection and transverse recursion. Finite persistence and real/complex formation repairs already exist. Earlier plans below retain their dated scope; they must not be read as saying that no conditional finite runtime exists. See [open obligations](../research/proof-chain-audit-2026-09-26/OPEN_OBLIGATIONS.md).
+
+
 ## Amendment — 23 September 2026
 
 The [finite repair](../research/finite-repair-2026-09-23/REPAIR.md) now provides corrected finite persistence and real/complex formation statements, with proofs and conditional real-structure preservation under polar transport. Items about defective printed formulas below remain descriptions of the unchanged source PDFs. The replacement statements address those defects under their declared assumptions. Next-state reconstruction and invariant iteration remain open; see the [completion contract](../research/finite-repair-2026-09-23/RECONSTRUCTION.md).

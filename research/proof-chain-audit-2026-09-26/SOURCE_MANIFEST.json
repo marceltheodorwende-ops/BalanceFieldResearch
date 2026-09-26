@@ -1,0 +1,36 @@
+{
+  "baseline": "4ada209e4f3283d086dc64bc0cb7ba0b7948174e",
+  "scope": "Repository source versions, not proof of historical attribution",
+  "sources": [
+    {
+      "path": "research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/BFG_ONLY_CONTRACT.md",
+      "git_blob_sha": "5bbc0a65de14307bc13592845993ff16c4031762",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/4ada209e4f3283d086dc64bc0cb7ba0b7948174e/research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/BFG_ONLY_CONTRACT.md"
+    },
+    {
+      "path": "research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/MASTER_STATE.md",
+      "git_blob_sha": "7f78ddd8cd2eff5c072cbd35dadc6116ae2036dd",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/4ada209e4f3283d086dc64bc0cb7ba0b7948174e/research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/MASTER_STATE.md"
+    },
+    {
+      "path": "research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/CANONICAL_SELF_RECLOSURE_AXIOM.md",
+      "git_blob_sha": "d5b1c5ca138cfea1b4a31aa860af664444911bc2",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/4ada209e4f3283d086dc64bc0cb7ba0b7948174e/research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/CANONICAL_SELF_RECLOSURE_AXIOM.md"
+    },
+    {
+      "path": "research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/NEUTRAL_CONTRAST_CLOSURE_GAIN.md",
+      "git_blob_sha": "7df9486bf54c4c7ca89fa06a96a805041ec19078",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/4ada209e4f3283d086dc64bc0cb7ba0b7948174e/research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/NEUTRAL_CONTRAST_CLOSURE_GAIN.md"
+    },
+    {
+      "path": "research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/SELECTION_FIRST_ORDERING_THEOREM.md",
+      "git_blob_sha": "a8dccd4f2bab52f07490384f4497f0ac2f002b32",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/4ada209e4f3283d086dc64bc0cb7ba0b7948174e/research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/SELECTION_FIRST_ORDERING_THEOREM.md"
+    },
+    {
+      "path": "research/architecture-repair-2026-09-26/REPAIR.md",
+      "git_blob_sha": "5e569a98961d6fe4fc6b68d6abc6ca05ee535b99",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/4ada209e4f3283d086dc64bc0cb7ba0b7948174e/research/architecture-repair-2026-09-26/REPAIR.md"
+    }
+  ]
+}

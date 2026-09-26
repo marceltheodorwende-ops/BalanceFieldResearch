@@ -1,5 +1,12 @@
 # Research stages
 
+## Current proof-chain status — 26 September 2026
+
+The [three-rule proof-chain audit](proof-chain-audit-2026-09-26/README.md) distinguishes proved conditional consequences from open historical derivations. It records a counterexample to the weak-monotonicity selection argument and the additional premise needed for its corrected theorem. The current finite candidate uses the [two-density master state](fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/MASTER_STATE.md).
+
+Immediate work is the source-based justification of intrinsic Gram, Neutral-Contrast Selection and transverse recursion. Finite persistence and real/complex formation repairs already exist. Earlier plans below retain their dated scope; they must not be read as saying that no conditional finite runtime exists. See [open obligations](proof-chain-audit-2026-09-26/OPEN_OBLIGATIONS.md).
+
+
 ## Current BFG Emergence Studio — 417 original files
 
 **[Open the complete latest Studio (417 files)](emergence-studio-2026-09-23-r4/BFG_Emergence_Studio/)** · [Version overview](emergence-studio-2026-09-23-r4/README.md). Revision 4 preserves the latest ZIP unchanged, including the cross-stratum continuation theorem and master closure audit. Previous versions below are retained as research history.
@@ -58,6 +65,6 @@ These records describe their original sources and assumptions. Historical V3 ava
 
 [BFG Emergence Studio — integrated finite runtime profile](emergence-studio-integrated-2026-09-23/README.md), 23 September 2026. Newer 314-file snapshot with its documented results and a separate reading note.
 
-## Latest Studio snapshot
+## Archived Studio revision 3 snapshot
 
 [BFG Emergence Studio, revision 3](emergence-studio-2026-09-23-r3/README.md), 23 September 2026: 404 unchanged original files, expanded mathematical documentation and documented results.

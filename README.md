@@ -1,5 +1,12 @@
 # Balance Field Framework
 
+## Current proof-chain status — 26 September 2026
+
+The [three-rule proof-chain audit](research/proof-chain-audit-2026-09-26/README.md) distinguishes proved conditional consequences from open historical derivations. It records a counterexample to the weak-monotonicity selection argument and the additional premise needed for its corrected theorem. The current finite candidate uses the [two-density master state](research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/MASTER_STATE.md).
+
+Immediate work is the source-based justification of intrinsic Gram, Neutral-Contrast Selection and transverse recursion. Finite persistence and real/complex formation repairs already exist. Earlier plans below retain their dated scope; they must not be read as saying that no conditional finite runtime exists. See [open obligations](research/proof-chain-audit-2026-09-26/OPEN_OBLIGATIONS.md).
+
+
 ## Current BFG Emergence Studio — 417 original files
 
 **[Open the complete latest Studio (417 files)](research/emergence-studio-2026-09-23-r4/BFG_Emergence_Studio/)** · [Version overview](research/emergence-studio-2026-09-23-r4/README.md). Revision 4 preserves the latest ZIP unchanged, including the cross-stratum continuation theorem and master closure audit. Previous versions below are retained as research history.
