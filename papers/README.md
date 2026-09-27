@@ -1,8 +1,12 @@
 # BFG source library
 
+## Universal Emergent Closure preprint — 27 September 2026
+
+[Read the FINAL paper and download its reproducibility package](universal-emergent-closure-2026-09-27/README.md). This dated intake preserves the corrected PDF, original numerical supplements, and checksums. The earlier RELEASE DOCX is explicitly marked as historical. The numerical results remain exploratory and do not establish empirical universality or close the existing proof-chain obligations.
+
 ## Current primary sources
 
-The two [canonical preprints of 22 September 2026](canonical-2026-09-22/README.md) now lead the repository. Their original bytes and hashes are preserved. They consolidate the author's development line without requiring developmental version labels in the mathematical body.
+The two [canonical preprints of 22 September 2026](canonical-2026-09-22/README.md) remain the canonical source pair for that dated development stage. Their original bytes and hashes are preserved. They consolidate the author's development line without requiring developmental version labels in the mathematical body.
 
 ## Historical source collection
 

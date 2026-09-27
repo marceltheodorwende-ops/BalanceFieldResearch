@@ -1,0 +1,8 @@
+{
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "matplotlib": "3.10.8",
+  "prng": "NumPy Generator PCG64",
+  "primary_seed": 20260927,
+  "script_sha256": "01efb2c0503e295f8fa742acb1d5f45a7298b9bd4b3f3b9b9e2b93cd6e67f9fd"
+}

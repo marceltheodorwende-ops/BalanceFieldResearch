@@ -1,5 +1,9 @@
 # Research stages
 
+## Universal Emergent Closure preprint — 27 September 2026
+
+[Read the FINAL paper and download its reproducibility package](../papers/universal-emergent-closure-2026-09-27/README.md). This dated intake preserves the corrected PDF, original numerical supplements, and checksums. The earlier RELEASE DOCX is explicitly marked as historical. The numerical results remain exploratory and do not establish empirical universality or close the existing proof-chain obligations.
+
 ## Current proof-chain status — 26 September 2026
 
 The [three-rule proof-chain audit](proof-chain-audit-2026-09-26/README.md) distinguishes proved conditional consequences from open historical derivations. It records a counterexample to the weak-monotonicity selection argument and the additional premise needed for its corrected theorem. The current finite candidate uses the [two-density master state](fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/MASTER_STATE.md).
