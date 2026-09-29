@@ -1,0 +1,41 @@
+{
+  "circular_shift_autocorrelation_max_error": 7.105427357601002e-15,
+  "equal_capacity_latent_clone_max_trajectory_difference": 0.0,
+  "generative_ablation": {
+    "direct_dyad_bootstrap_95_interval": [
+      -0.058675280398784536,
+      -0.056084734751048505
+    ],
+    "exploratory_bootstrap_95_interval": [
+      0.008950301230631733,
+      0.013578278327856285
+    ],
+    "full_mean_absolute_mediator": 0.04764757614218515,
+    "mean_reporter_deficit": {
+      "common_driver": 0.1292922727078852,
+      "direct_dyad": 0.06057743818217376,
+      "full": 0.11792665330433044,
+      "latent_clone": 0.11792665330433044
+    },
+    "paired_direct_dyad_minus_full": -0.05734921512215669,
+    "paired_no_mediator_minus_full": 0.011365619403554756,
+    "source_sd_gate_rate": {
+      "common_driver": 1.0,
+      "direct_dyad": 1.0,
+      "full": 1.0,
+      "latent_clone": 1.0
+    }
+  },
+  "held_out_prediction_rmse": {
+    "BFG_mediator_and_relation": 0.015773621538264178,
+    "N1_common_driver": 0.024390851658318783,
+    "N2_additive": 0.02389987354189775,
+    "N3_direct_dyad": 0.015773340067799384,
+    "N4_circular_shift": 0.023998161493202268
+  },
+  "perturbation_size": 1.5,
+  "perturbation_time": 120,
+  "runs": 1000,
+  "seed": 20260929,
+  "status": "exploratory synthetic pilot; no empirical BFG validation"
+}

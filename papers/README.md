@@ -1,5 +1,9 @@
 # BFG source library
 
+## Universal reclosure and irreducible emergence preprint — 29 September 2026
+
+[Read the new PDF, editable DOCX, proof status, and synthetic pilot](universal-reclosure-emergence-2026-09-29/README.md). The finite internal novelty and observational clone theorems are exact under their stated assumptions. Strong higher emergence remains conditional on a carrier-specific intervention and rival comparison; the pilot does not confirm empirical universality.
+
 ## Universal Emergent Closure preprint — 27 September 2026
 
 [Read the FINAL paper and download its reproducibility package](universal-emergent-closure-2026-09-27/README.md). This dated intake preserves the corrected PDF, original numerical supplements, and checksums. The earlier RELEASE DOCX is explicitly marked as historical. The numerical results remain exploratory and do not establish empirical universality or close the existing proof-chain obligations.

@@ -1,5 +1,9 @@
 # Balance Field Framework
 
+## Universal reclosure and emergence preprint — 29 September 2026
+
+[Read the new preprint and its proof-status overview](papers/universal-reclosure-emergence-2026-09-29/README.md). It integrates the formal BFG closure grammar with the finite novelty theorem, a clone-identifiability proof, and a generative test protocol. It does not claim that every BFG successor is irreducibly emergent or that natural universality is empirically confirmed.
+
 ## Universal Emergent Closure preprint — 27 September 2026
 
 [Read the FINAL paper and download its reproducibility package](papers/universal-emergent-closure-2026-09-27/README.md). This dated intake preserves the corrected PDF, original numerical supplements, and checksums. The earlier RELEASE DOCX is explicitly marked as historical. The numerical results remain exploratory and do not establish empirical universality or close the existing proof-chain obligations.
