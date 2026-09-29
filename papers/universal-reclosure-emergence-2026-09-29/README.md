@@ -2,13 +2,14 @@
 
 Preprint intake: 29 September 2026. Author: **Marcel Theodor Wende**, BalanceFeld Gleichung (BFG), Independent Researcher. ORCID: 0009-0007-4028-2208.
 
-- [Read the revised twelve-page preprint (PDF)](BFG_Universal_Reclosure_and_Emergence_Preprint_2026-09-29.pdf)
+- [Read the revised thirteen-page preprint (PDF)](BFG_Universal_Reclosure_and_Emergence_Preprint_2026-09-29.pdf)
 - [Download the editable preprint (DOCX)](BFG_Universal_Reclosure_and_Emergence_Preprint_2026-09-29.docx)
 - [Run the exploratory synthetic pilot](bfg_relational_ablation_pilot.py) and [inspect its frozen JSON output](BFG_relational_ablation_results_2026-09-29.json)
 - [Read the constructive test protocol](CONSTRUCTIVE_TEST_PROTOCOL.md), [run the constructive witness](bfg_constructive_emergence_witness.py), and [inspect its frozen results](BFG_constructive_emergence_results_2026-09-29.json)
 - [Verify file hashes](SHA256SUMS.txt)
 - [Run and inspect the adapted 10,000-case numerical audit](NUMERICAL_AUDIT_10000_README.md)
 - [Inspect the full finite successor execution and natural-evidence audit](FULL_SUCCESSOR_NATURAL_EVIDENCE_AUDIT.md)
+- [Use the full-state natural-carrier measurement and selective-intervention protocol](NATURAL_CARRIER_FULL_STATE_PROTOCOL.md)
 - [Read the Level-0 to neutral-sector bridge](../../research/completion-boundary-2026-09-29/LEVEL0_NEUTRAL_TANGENT_BRIDGE.md)
 
 ## Exact claim and proof boundary
@@ -19,7 +20,7 @@ The conditional criterion for *irreducible higher closure* additionally requires
 
 The synthetic pilot shows a mediator-versus-removal effect in the constructed dynamics. Its direct-dyad control performs better on the chosen recovery endpoint, and its exact clone reproduces all trajectories. The pilot is not a run of the complete canonical five-object BFG operator and provides no empirical confirmation of universal BFG emergence.
 
-The corrected preprint adds a separate, deliberately constructed two-stage synthetic witness. Its source, removal, and restoration gates pass in 1,000 seeded realizations. A direct source-history control with **matched effective memory** reproduces the full, removed, and restored paths (maximum difference `6.661e-16`) and passes the mixed contrast and temporal impulse signature. The one-pole direct baseline fails the temporal signature because it lacks that memory; it is a diagnostic, not a decisive rival. Thus specific mediation is **not established** by this synthetic example. The correction supersedes the initial restricted-rival pass assertion, retained in the repository's version history. Neither synthetic test derives the generator from Level 0, executes the full finite BFG map, or validates natural emergence.
+The corrected preprint adds a separate, deliberately constructed two-stage synthetic witness. Its source, removal, and restoration gates pass in 1,000 seeded realizations. A direct source-history control with **matched effective memory** reproduces the full, removed, and restored paths (maximum difference `6.661e-16`) and passes the mixed contrast and temporal impulse signature. The one-pole direct baseline fails the temporal signature because it lacks that memory; it is a diagnostic, not a decisive rival. Thus specific mediation is **not established** by this synthetic example. The correction supersedes the initial restricted-rival pass assertion, retained in the repository's version history. Neither synthetic test derives the generator from Level 0, executes the full finite BFG map, or validates natural emergence. Appendix E and its [prospective supplement](NATURAL_CARRIER_FULL_STATE_PROTOCOL.md) specify the missing measurements and real intervention arms; no natural-system pass is asserted.
 
 ## Reproduction
 
