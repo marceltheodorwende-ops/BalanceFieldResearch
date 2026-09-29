@@ -1,0 +1,23 @@
+{
+  "exact_two_state_clone": "TIE; representation equivalence",
+  "full_steady_range": [
+    0.500232802646,
+    1.499817827795
+  ],
+  "impulse_g1_to_g4": [
+    0.0,
+    0.24,
+    0.24,
+    0.1824
+  ],
+  "impulse_hankel_determinant": -0.013824,
+  "min_full_minus_removed": 0.550554426614,
+  "min_restored_minus_removed": 0.563750128535,
+  "mixed_contrast": 2.0,
+  "protocol": "CONSTRUCTIVE_TEST_PROTOCOL.md",
+  "restricted_rival_gate": "PASS",
+  "runs": 1000,
+  "scope": "Constructive synthetic realization relative to the declared restricted rival class; not canonical-map or natural-carrier validation",
+  "seed": 20260929,
+  "source_gate_all": true
+}

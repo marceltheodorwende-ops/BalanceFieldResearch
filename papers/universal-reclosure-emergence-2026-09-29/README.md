@@ -2,9 +2,10 @@
 
 Preprint intake: 29 September 2026. Author: **Marcel Theodor Wende**, BalanceFeld Gleichung (BFG), Independent Researcher. ORCID: 0009-0007-4028-2208.
 
-- [Read the nine-page preprint (PDF)](BFG_Universal_Reclosure_and_Emergence_Preprint_2026-09-29.pdf)
+- [Read the revised ten-page preprint (PDF)](BFG_Universal_Reclosure_and_Emergence_Preprint_2026-09-29.pdf)
 - [Download the editable preprint (DOCX)](BFG_Universal_Reclosure_and_Emergence_Preprint_2026-09-29.docx)
 - [Run the exploratory synthetic pilot](bfg_relational_ablation_pilot.py) and [inspect its frozen JSON output](BFG_relational_ablation_results_2026-09-29.json)
+- [Read the constructive test protocol](CONSTRUCTIVE_TEST_PROTOCOL.md), [run the constructive witness](bfg_constructive_emergence_witness.py), and [inspect its frozen results](BFG_constructive_emergence_results_2026-09-29.json)
 - [Verify file hashes](SHA256SUMS.txt)
 
 ## Exact claim and proof boundary
@@ -15,6 +16,8 @@ The conditional criterion for *irreducible higher closure* additionally requires
 
 The synthetic pilot shows a mediator-versus-removal effect in the constructed dynamics. Its direct-dyad control performs better on the chosen recovery endpoint, and its exact clone reproduces all trajectories. The pilot is not a run of the complete canonical five-object BFG operator and provides no empirical confirmation of universal BFG emergence.
 
+The revised preprint adds a separate, deliberately constructed two-stage synthetic witness. With its fixed source gate, generating-edge removal, restoration, mixed source contrast, and temporal impulse determinant, it passes the specified restricted additive/common-driver and one-pole direct-dyad controls in 1,000 deterministic seeded realizations. A two-state direct recoding ties. This demonstrates logical realizability under stipulated dynamics and restricted rivals; it does not overturn the older negative comparison, derive the generator from Level 0, establish a unique mediator, execute the full finite BFG map, or validate natural emergence.
+
 ## Reproduction
 
 With Python and NumPy installed, run from this directory:
@@ -22,6 +25,8 @@ With Python and NumPy installed, run from this directory:
 ```sh
 python bfg_relational_ablation_pilot.py > fresh_results.json
 diff -u BFG_relational_ablation_results_2026-09-29.json fresh_results.json
+python bfg_constructive_emergence_witness.py > fresh_constructive_results.json
+diff -u BFG_constructive_emergence_results_2026-09-29.json fresh_constructive_results.json
 sha256sum -c SHA256SUMS.txt
 ```
 
