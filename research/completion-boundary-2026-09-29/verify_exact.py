@@ -33,6 +33,24 @@ def witness_r():
     return [[str(x) for x in r] for r in (r1, r2)]
 
 
+def quadratic_bridges():
+    c, b = F(2, 3), F(1, 3)
+    assert c * c - b * b == c - b == F(1, 3)
+    # For Y=[[1,1/2],[1/2,1]], I+Y has determinant 15/4.
+    det = F(2) * F(2) - F(1, 2) ** 2
+    response_then_project = F(2) / det
+    project_then_response = F(1) / (1 + F(1))
+    assert response_then_project == F(8, 15)
+    assert project_then_response == F(1, 2)
+    assert response_then_project - project_then_response == F(1, 30)
+    return {
+        "squared_channel_difference": str(c * c - b * b),
+        "response_then_project": str(response_then_project),
+        "project_then_response": str(project_then_response),
+        "ordering_difference": str(response_then_project - project_then_response),
+    }
+
+
 def witness_e():
     a, b = F(3, 5), F(2, 5)
     signs = [(1, -1), (1, 1), (-1, -1), (-1, 1)] * 10
@@ -56,7 +74,7 @@ def witness_e():
 
 
 def main():
-    print(json.dumps({"G": witness_g(), "S": witness_s(), "R": witness_r(), "E": witness_e()}, indent=2, sort_keys=True))
+    print(json.dumps({"G": witness_g(), "S": witness_s(), "R": witness_r(), "E": witness_e(), "quadratic_bridges": quadratic_bridges()}, indent=2, sort_keys=True))
 
 
 if __name__ == "__main__":

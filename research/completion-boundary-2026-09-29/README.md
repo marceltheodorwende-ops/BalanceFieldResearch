@@ -30,6 +30,25 @@ folgen Stationarität und Resolventenidentität:
 
 Wenn der neutrale Split **derselben** Bewertung durch `C_N(Y)=(I+Y)^−1` beschrieben wird, folgt wegen Injektivität der Resolvente `Y=A* A` auf der Quellseite. Die aktive Zielseite erhält über die polare Isometrie dieselben positiven Singulärwerte, nicht stillschweigend denselben Operator. Bei erklärter Zielmetrik `H` lautet die entsprechende Quellform `A* H A`. Diese Ableitung benutzt die **bereits gewählte quadratische Vervollständigung**. Die lokale Hessian-Rechnung aus der Level-0-Formationsfunktion zeigt einen natürlichen quadratischen Sektor, aber ihre kubischen und quartischen Terme beweisen keine exakte globale Quadratik. Siehe die [entsprechende Abgrenzung im Preprint](../../papers/universal-reclosure-emergence-2026-09-29/README.md) und die [G-Beweiskette](../proof-chain-audit-2026-09-26/PROOF_CHAINS.md).
 
+**Gemeinsame quadratische Brücke zur Auswahl.** Setze `C=(I+Y)^−1` und `B=I−C`. Dann kommutieren `C` und `B`, `C+B=I`, und daher gilt für jeden Vektor `d` exakt
+
+```math
+\|Cd\|^2-\|Bd\|^2
+=\langle d,(C^2-B^2)d\rangle
+=\langle d,(C-B)d\rangle.
+```
+
+Die positive Spektralhälfte dieser **Differenz der quadratischen Kanalantworten** ist folglich genau `Y<1`. Damit ist die Auswahlformel aus derselben Neutralalgebra herleitbar, **wenn** „closure-positive Gain“ als diese quadratische Kanaldifferenz identifiziert wird. Die Minimierung von `J_A` allein definiert den physisch relevanten Gain noch nicht; die Rollenidentifikation ist ausdrücklich die zusätzlich benötigte Brücke. Sie löst die schwach-monotone S-Lücke, sobald sie als BFG-Regel festgelegt ist, und verändert keine numerische Konstante.
+
+**Nichtkommutative Reihenfolge der Rekursion.** Sogar bei gegebener quadratischer Last ist für einen persistenten Projektor `P` und `Q=I−P` die Regel „erst neutral antworten, dann auf `Q` projizieren“ im Allgemeinen verschieden von „die quadratische Bewertung zuerst auf `Q` einschränken, dann minimieren“:
+
+```math
+R_{\rm after}|_Q=QCQ|_Q,
+\qquad R_{\rm before}|_Q=(I_Q+QYQ|_Q)^{-1}.
+```
+
+Zum Beweis genügt `Y=[[1,1/2],[1/2,1]]` und `P=diag(1,0)`. Das strikt positive `Y` ergibt auf `Q` exakt `QCQ=8/15`, während die vorab eingeschränkte Minimierung `1/2` ergibt; der Unterschied beträgt `1/30`. Die beiden Vorgänge sind nur unter zusätzlichen Verträglichkeitsbedingungen wie `[P,Y]=0` automatisch gleich. Der kanonisch deklarierte BFG-Nachfolger verwendet `QCQ`; die gemeinsame quadratische Neutralenergie **allein** legt diese Projektionsreihenfolge nicht fest. Dieses neue Gegenbeispiel schärft die R-Beweispflicht und ist ebenfalls exakt verifiziert.
+
 ## 3. Vier präzise Grenzen jeder stärkeren Ableitung
 
 Die Gegenmodelle beziehen sich auf die jeweils **angegebenen schwächeren Bedingungen**. Sie behaupten nicht, jede historische BFG-Seite vollständig zu formalisieren oder jede denkbare zusätzliche BFG-Bedingung auszuschließen.
