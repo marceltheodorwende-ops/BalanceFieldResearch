@@ -1,5 +1,4 @@
 {
-  "exact_two_state_clone": "TIE; representation equivalence",
   "full_steady_range": [
     0.500232802646,
     1.499817827795
@@ -11,13 +10,25 @@
     0.1824
   ],
   "impulse_hankel_determinant": -0.013824,
+  "matched_memory_direct_higher_mixed_contrast": 0.48,
+  "matched_memory_direct_impulse": [
+    0.0,
+    0.24,
+    0.24,
+    0.1824
+  ],
+  "matched_memory_direct_interventions": "PASS; full, removal, restoration all reproduced",
+  "matched_memory_direct_max_path_error": "6.661e-16",
+  "matched_memory_direct_signature": "PASS; same mixed contrast and impulse response",
   "min_full_minus_removed": 0.550554426614,
   "min_restored_minus_removed": 0.563750128535,
   "mixed_contrast": 2.0,
+  "one_pole_diagnostic": "FAIL temporal determinant; insufficient memory for a relevant direct rival",
+  "operational_synthetic_gate": "PASS; source continuity and higher-state removal/restoration",
   "protocol": "CONSTRUCTIVE_TEST_PROTOCOL.md",
-  "restricted_rival_gate": "PASS",
   "runs": 1000,
-  "scope": "Constructive synthetic realization relative to the declared restricted rival class; not canonical-map or natural-carrier validation",
+  "scope": "Constructive synthetic operational witness; no unique mediator, canonical-map realization, or natural-carrier validation",
   "seed": 20260929,
-  "source_gate_all": true
+  "source_gate_all": true,
+  "specific_mediation_exclusion": "NOT ESTABLISHED; matched-memory direct representation ties"
 }

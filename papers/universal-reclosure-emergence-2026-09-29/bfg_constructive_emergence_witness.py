@@ -22,6 +22,29 @@ def trajectory(sources, restore_at=None, removed=False):
     return output
 
 
+def direct_history_trajectory(sources, restore_at=None, removed=False):
+    """Same outputs from source history, without an explicit mediator state.
+
+    The full source-history kernel has the same effective memory as the
+    mediator. It is a fair representation control, not evidence of a distinct
+    physical cause.
+    """
+    history = []
+    higher = 1.0
+    output = []
+    for t, (s1, s2) in enumerate(sources):
+        if t == REMOVE_AT:
+            higher = 0.0
+        gamma = 0.0 if removed and (restore_at is None or t < restore_at) and t >= REMOVE_AT else 1.0
+        effective_input = A ** t + (1 - A) * sum(
+            A ** (t - 1 - k) * q for k, q in enumerate(history)
+        )
+        higher = B * higher + (1 - B) * gamma * effective_input
+        history.append(1 + 0.5 * s1 * s2)
+        output.append(higher)
+    return output
+
+
 def mean_window(values, start, end):
     return sum(values[start:end]) / (end - start)
 
@@ -32,12 +55,23 @@ def main():
     restoration_effects = []
     min_full = 1.5
     max_full = 0.5
+    max_direct_path_error = 0.0
     for _ in range(RUNS):
         sources = [(rng.choice((-1, 1)), rng.choice((-1, 1))) for _ in range(STEPS)]
         assert all(abs(x) == abs(y) == 1 for x, y in sources)
         full = trajectory(sources)
         removed = trajectory(sources, removed=True)
         restored = trajectory(sources, restore_at=RESTORE_AT, removed=True)
+        for kwargs, reference in (
+            ({}, full),
+            ({"removed": True}, removed),
+            ({"restore_at": RESTORE_AT, "removed": True}, restored),
+        ):
+            direct = direct_history_trajectory(sources, **kwargs)
+            max_direct_path_error = max(
+                max_direct_path_error,
+                max(abs(x - y) for x, y in zip(reference, direct)),
+            )
         # The reset at t=80 creates a known transient; include steady epochs only.
         steady = full[:REMOVE_AT] + full[RESTORE_AT:]
         min_full = min(min_full, min(steady))
@@ -55,13 +89,27 @@ def main():
         impulse.append(h)
     determinant = impulse[1] * impulse[3] - impulse[2] ** 2
     expected = [0.0, 0.24, 0.24, 0.1824]
+    baseline = [(1, -1)] + [(1, 1)] * 3
+    changed = [(1, 1)] + [(1, 1)] * 3
+    direct_impulse = [
+        y - x for x, y in zip(
+            direct_history_trajectory(baseline), direct_history_trajectory(changed)
+        )
+    ]
+    higher_mixed = sum(
+        weight * direct_history_trajectory([(x, y), (1, 1)])[1]
+        for weight, x, y in ((1, 1, 1), (-1, 1, -1), (-1, -1, 1), (1, -1, -1))
+    )
     assert max(abs(x - y) for x, y in zip(impulse, expected)) < TOL
     assert abs(determinant + 0.013824) < TOL
     assert abs(mixed - 2.0) < TOL
+    assert max(abs(x - y) for x, y in zip(direct_impulse, expected)) < TOL
+    assert abs(higher_mixed - 0.48) < TOL
     assert min_full >= 0.5 - TOL and max_full <= 1.5 + TOL
     assert min(removal_effects) > 0.49 and min(restoration_effects) > 0.49
-    # Restricted additive/common-driver/shift and direct one-pole classes
-    # have zero mixed contrast or zero temporal determinant by algebra.
+    assert max_direct_path_error < TOL
+    # The one-pole diagnostic has a zero determinant but is under-capacity.
+    # The matched-memory direct representation passes every observed signature.
     result = {
         "protocol": "CONSTRUCTIVE_TEST_PROTOCOL.md",
         "seed": SEED,
@@ -73,9 +121,15 @@ def main():
         "mixed_contrast": mixed,
         "impulse_g1_to_g4": [round(x, 12) for x in impulse],
         "impulse_hankel_determinant": round(determinant, 12),
-        "restricted_rival_gate": "PASS",
-        "exact_two_state_clone": "TIE; representation equivalence",
-        "scope": "Constructive synthetic realization relative to the declared restricted rival class; not canonical-map or natural-carrier validation",
+        "matched_memory_direct_max_path_error": format(max_direct_path_error, ".3e"),
+        "matched_memory_direct_impulse": [round(x, 12) for x in direct_impulse],
+        "matched_memory_direct_higher_mixed_contrast": round(higher_mixed, 12),
+        "matched_memory_direct_signature": "PASS; same mixed contrast and impulse response",
+        "matched_memory_direct_interventions": "PASS; full, removal, restoration all reproduced",
+        "one_pole_diagnostic": "FAIL temporal determinant; insufficient memory for a relevant direct rival",
+        "operational_synthetic_gate": "PASS; source continuity and higher-state removal/restoration",
+        "specific_mediation_exclusion": "NOT ESTABLISHED; matched-memory direct representation ties",
+        "scope": "Constructive synthetic operational witness; no unique mediator, canonical-map realization, or natural-carrier validation",
     }
     print(json.dumps(result, indent=2, sort_keys=True))
 
