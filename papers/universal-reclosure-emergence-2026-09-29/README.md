@@ -2,11 +2,12 @@
 
 Preprint intake: 29 September 2026. Author: **Marcel Theodor Wende**, BalanceFeld Gleichung (BFG), Independent Researcher. ORCID: 0009-0007-4028-2208.
 
-- [Read the revised thirteen-page preprint (PDF)](BFG_Universal_Reclosure_and_Emergence_Preprint_2026-09-29.pdf)
+- [Read the revised thirteen-page preprint with four numbered figures (PDF)](BFG_Universal_Reclosure_and_Emergence_Preprint_2026-09-29.pdf)
 - [Download the editable preprint (DOCX)](BFG_Universal_Reclosure_and_Emergence_Preprint_2026-09-29.docx)
 - [Run the exploratory synthetic pilot](bfg_relational_ablation_pilot.py) and [inspect its frozen JSON output](BFG_relational_ablation_results_2026-09-29.json)
 - [Read the constructive test protocol](CONSTRUCTIVE_TEST_PROTOCOL.md), [run the constructive witness](bfg_constructive_emergence_witness.py), and [inspect its frozen results](BFG_constructive_emergence_results_2026-09-29.json)
 - [Verify file hashes](SHA256SUMS.txt)
+- [Reproduce the three equation-based 3D figures](generate_mathematical_figures.py) and [inspect their grid parameters](MATHEMATICAL_FIGURES_RESULTS.json)
 - [Run and inspect the adapted 10,000-case numerical audit](NUMERICAL_AUDIT_10000_README.md)
 - [Inspect the full finite successor execution and natural-evidence audit](FULL_SUCCESSOR_NATURAL_EVIDENCE_AUDIT.md)
 - [Use the full-state natural-carrier measurement and selective-intervention protocol](NATURAL_CARRIER_FULL_STATE_PROTOCOL.md)
@@ -31,10 +32,13 @@ python bfg_relational_ablation_pilot.py > fresh_results.json
 diff -u BFG_relational_ablation_results_2026-09-29.json fresh_results.json
 python bfg_constructive_emergence_witness.py > fresh_constructive_results.json
 diff -u BFG_constructive_emergence_results_2026-09-29.json fresh_constructive_results.json
+python numerical_audit_10000.py > fresh_audit.json
+diff -u NUMERICAL_AUDIT_10000_RESULTS.json fresh_audit.json
+python generate_mathematical_figures.py
 sha256sum -c SHA256SUMS.txt
 ```
 
-The pilot uses NumPy PCG64 with seed `20260929`, 1,000 synthetic realizations of 240 steps, and a fixed perturbation at step 120. Its reported resampling intervals are exploratory. The mathematical theorems do not depend on this simulation. Checksums establish byte identity, not independent experimental validation.
+The pilot uses NumPy PCG64 with seed `20260929`, 1,000 synthetic realizations of 240 steps, and a fixed perturbation at step 120. Its reported resampling intervals are exploratory. Figures 2–4 evaluate stated equations on deterministic 171×171 grids; they are mathematical surfaces, not natural-system data. The mathematical theorems do not depend on these numerical runs. Checksums establish byte identity, not independent experimental validation.
 
 ## Relationship to earlier sources
 

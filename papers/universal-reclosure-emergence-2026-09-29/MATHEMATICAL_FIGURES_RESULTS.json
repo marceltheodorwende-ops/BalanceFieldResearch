@@ -1,0 +1,35 @@
+{
+  "status": "deterministic equation evaluation; not an empirical simulation",
+  "grid_points_per_axis": 171,
+  "figure2": {
+    "path": "figures/figure2_level0_formation_3d.png",
+    "K0_eigenvalues": [
+      -1,
+      2
+    ],
+    "global_minima": [
+      [
+        -1,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "minimum_energy": -0.25
+  },
+  "figure3": {
+    "path": "figures/figure3_neutral_tangent_3d.png",
+    "H_star": 2,
+    "M": 2,
+    "L": 1,
+    "analytical_valley": "eta=D/2; min J=D\u00b2/2"
+  },
+  "figure4": {
+    "path": "figures/figure4_neutral_novelty_3d.png",
+    "alpha": 1,
+    "beta": 1,
+    "diagonal_defect_max_abs": 0.0
+  }
+}
