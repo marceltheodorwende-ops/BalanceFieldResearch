@@ -2,7 +2,7 @@
 
 Preprint intake: 29 September 2026. Author: **Marcel Theodor Wende**, BalanceFeld Gleichung (BFG), Independent Researcher. ORCID: 0009-0007-4028-2208.
 
-- [Read the revised thirteen-page preprint with four numbered figures (PDF)](BFG_Universal_Reclosure_and_Emergence_Preprint_2026-09-29.pdf)
+- [Read the revised fourteen-page preprint with four numbered figures and verified references (PDF)](BFG_Universal_Reclosure_and_Emergence_Preprint_2026-09-29.pdf)
 - [Download the editable preprint (DOCX)](BFG_Universal_Reclosure_and_Emergence_Preprint_2026-09-29.docx)
 - [Run the exploratory synthetic pilot](bfg_relational_ablation_pilot.py) and [inspect its frozen JSON output](BFG_relational_ablation_results_2026-09-29.json)
 - [Read the constructive test protocol](CONSTRUCTIVE_TEST_PROTOCOL.md), [run the constructive witness](bfg_constructive_emergence_witness.py), and [inspect its frozen results](BFG_constructive_emergence_results_2026-09-29.json)
@@ -14,6 +14,8 @@ Preprint intake: 29 September 2026. Author: **Marcel Theodor Wende**, BalanceFel
 - [Read the Level-0 to neutral-sector bridge](../../research/completion-boundary-2026-09-29/LEVEL0_NEUTRAL_TANGENT_BRIDGE.md)
 
 ## Exact claim and proof boundary
+
+The bibliography now distinguishes the relevant BFG preprints and the Wende–Loker Level-0 antecedent from external literature by Anderson, Hoel, Rosas, Battiston, Horn, Hernán and Robins, Holm, and the original experimental dataset authors. Each entry has a live source link in the PDF. These works support the mathematical tools, emergence questions, causal design, and feasibility of higher-order oscillator measurements; they do not constitute independent verification of the BFG universal claim. Pilot code and frozen outputs are listed as reproducibility materials in Appendix B rather than independent literature.
 
 The preprint combines the generator-level BFG closure grammar with the finite five-object reclosure candidate. It restates and proves, on the declared neutral-compatible persistent stratum, the exact inheritance–novelty identity: `[Y_P,K_P]=0` if and only if `K_+=K_P`; noncommutation produces a strictly changed second spectral moment. It also proves that invertible recodings of a hidden mediator generate identical observed paths under corresponding initial states and inputs. An exact dynamical clone therefore cannot be a rival that the original model must strictly outperform.
 
