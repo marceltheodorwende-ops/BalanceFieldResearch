@@ -1,0 +1,55 @@
+{
+  "seed": 20260929,
+  "dimensions": [
+    2,
+    8
+  ],
+  "trials": 10000,
+  "controls": 1000,
+  "tolerance_abs": 1e-09,
+  "counts": {
+    "complex_consistency": 10000,
+    "level0_tangent": 10000,
+    "noncommuting_novelty": 10000,
+    "formation_gate_pass": 9861,
+    "formation_gate_terminal": 139,
+    "commuting_controls": 1000,
+    "scalar_load_controls": 100
+  },
+  "max_abs_residual": {
+    "neutral_partition": 7.696121622530276e-16,
+    "contrast_to_resolvent": 4.691802966820439e-16,
+    "graph_projector_idempotence": 5.540207710471796e-11,
+    "graph_projector_adjoint": 7.758365441036384e-11,
+    "reciprocal_balance": 1.7763568394002505e-15,
+    "reciprocal_simplex": 2.220446049250313e-16,
+    "crossfed_gain": 0.6313519195385524,
+    "compact_expanded_packet": 1.2486346295974964e-15,
+    "polar_support": 3.3054772827890883e-15,
+    "level0_stationarity": 2.1745213725000594e-15,
+    "quartic_taylor_identity": 1.817990202823694e-15,
+    "hessian_whitening": 7.105427357601002e-14,
+    "neutral_gram_minimum": 7.105427357601002e-14,
+    "neutral_stationarity": 9.220200024359997e-15,
+    "schur_defect_identity": 9.001046435974658e-16,
+    "novelty_moment_identity": 1.4654943925052066e-14,
+    "commuting_inheritance": 9.155133597044475e-16,
+    "scalar_load_inheritance": 1.2485960682834372e-15
+  },
+  "minimum_eigenvalues_and_margins": {
+    "nonexpansion_margin": 0.1013947536949853,
+    "compressed_capacity_min_eig": -2.5605385871725125e-14,
+    "rebuilt_gram_min_eig": 0.00017012803816517097,
+    "formed_hessian_min_eig": 0.7079679271109394
+  },
+  "spectral_novelty_successful_cases": {
+    "minimum": 1.0618336399598309e-08,
+    "median": 0.05106481745573235,
+    "maximum": 0.648122708870483
+  },
+  "failure_count": 0,
+  "failures": [],
+  "numpy_version": "2.3.5",
+  "python_version": "3.12.14",
+  "scope": "Adapted internal finite-dimensional consistency audit; the Schur stratum is not a full canonical five-object successor, and no natural-carrier or irreducible-emergence test is run."
+}
