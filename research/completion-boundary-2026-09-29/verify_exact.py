@@ -73,6 +73,29 @@ def level0_quartic_gap():
             "excess": str(excess)}
 
 
+def tangent_bridge():
+    d = F(1, 10)
+    # Same formed branch: K=-1, delta_*=1, H_*=M=2, L=1.
+    h = m = F(2)
+    y = h / m
+    tangent_minimum = h * d * d / (2 * (1 + y))
+    assert y == 1 and tangent_minimum == d * d / 2
+    z = d / 2
+    f = lambda x: x * x + x ** 3 + x ** 4 / 4
+    full_quartic_minimum = 2 * f(z)
+    assert full_quartic_minimum - tangent_minimum == d ** 3 / 4 + d ** 4 / 32
+    # Distinct neutral metric: H=2, M=3, L=1/2.
+    m, ell = F(3), F(1, 2)
+    y = h * ell * ell / m
+    eta = F(2) * d / 7
+    from_resolvent = h * d * d / (2 * (1 + y))
+    directly = h * (d - ell * eta) ** 2 / 2 + m * eta ** 2 / 2
+    assert y == F(1, 6) and from_resolvent == directly == F(6, 7) * d * d
+    return {"same_branch_Y": "1", "same_branch_tangent_minimum": str(tangent_minimum),
+            "full_quartic_minimum": str(full_quartic_minimum),
+            "different_metric_Y": str(y), "different_metric_minimum": str(directly)}
+
+
 def witness_e():
     a, b = F(3, 5), F(2, 5)
     signs = [(1, -1), (1, 1), (-1, -1), (-1, 1)] * 10
@@ -96,7 +119,7 @@ def witness_e():
 
 
 def main():
-    print(json.dumps({"G": witness_g(), "S": witness_s(), "R": witness_r(), "E": witness_e(), "quadratic_bridges": quadratic_bridges(), "level0_quartic_gap": level0_quartic_gap()}, indent=2, sort_keys=True))
+    print(json.dumps({"G": witness_g(), "S": witness_s(), "R": witness_r(), "E": witness_e(), "quadratic_bridges": quadratic_bridges(), "level0_quartic_gap": level0_quartic_gap(), "tangent_bridge": tangent_bridge()}, indent=2, sort_keys=True))
 
 
 if __name__ == "__main__":

@@ -35,5 +35,12 @@
     "project_then_response": "1/2",
     "response_then_project": "8/15",
     "squared_channel_difference": "1/3"
+  },
+  "tangent_bridge": {
+    "different_metric_Y": "1/6",
+    "different_metric_minimum": "3/350",
+    "full_quartic_minimum": "1681/320000",
+    "same_branch_Y": "1",
+    "same_branch_tangent_minimum": "1/200"
   }
 }

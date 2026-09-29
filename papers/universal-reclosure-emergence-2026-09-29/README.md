@@ -2,17 +2,18 @@
 
 Preprint intake: 29 September 2026. Author: **Marcel Theodor Wende**, BalanceFeld Gleichung (BFG), Independent Researcher. ORCID: 0009-0007-4028-2208.
 
-- [Read the revised ten-page preprint (PDF)](BFG_Universal_Reclosure_and_Emergence_Preprint_2026-09-29.pdf)
+- [Read the revised eleven-page preprint (PDF)](BFG_Universal_Reclosure_and_Emergence_Preprint_2026-09-29.pdf)
 - [Download the editable preprint (DOCX)](BFG_Universal_Reclosure_and_Emergence_Preprint_2026-09-29.docx)
 - [Run the exploratory synthetic pilot](bfg_relational_ablation_pilot.py) and [inspect its frozen JSON output](BFG_relational_ablation_results_2026-09-29.json)
 - [Read the constructive test protocol](CONSTRUCTIVE_TEST_PROTOCOL.md), [run the constructive witness](bfg_constructive_emergence_witness.py), and [inspect its frozen results](BFG_constructive_emergence_results_2026-09-29.json)
 - [Verify file hashes](SHA256SUMS.txt)
+- [Read the Level-0 to neutral-sector bridge](../../research/completion-boundary-2026-09-29/LEVEL0_NEUTRAL_TANGENT_BRIDGE.md)
 
 ## Exact claim and proof boundary
 
 The preprint combines the generator-level BFG closure grammar with the finite five-object reclosure candidate. It restates and proves, on the declared neutral-compatible persistent stratum, the exact inheritance–novelty identity: `[Y_P,K_P]=0` if and only if `K_+=K_P`; noncommutation produces a strictly changed second spectral moment. It also proves that invertible recodings of a hidden mediator generate identical observed paths under corresponding initial states and inputs. An exact dynamical clone therefore cannot be a rival that the original model must strictly outperform.
 
-The conditional criterion for *irreducible higher closure* additionally requires surviving source closures, a separately specified higher channel, a generating-relation removal and restoration, and discrimination against mechanistically different rivals under fixed rules. **The paper does not prove that every admissible BFG successor is emergent or that a natural carrier satisfies these requirements.** For `Y_P=λI`, the displayed finite formation step has `K_+=K_P`; even strict internal novelty is not automatic. The earlier qualitative Level-0 statements do not uniquely entail the later exact quadratic neutral completion.
+The conditional criterion for *irreducible higher closure* additionally requires surviving source closures, a separately specified higher channel, a generating-relation removal and restoration, and discrimination against mechanistically different rivals under fixed rules. **The paper does not prove that every admissible BFG successor is emergent or that a natural carrier satisfies these requirements.** For `Y_P=λI`, the displayed finite formation step has `K_+=K_P`; even strict internal novelty is not automatic. Appendix C relates the historical §3.1 quartic formation to §3.2's exact quadratic neutral completion through the positive Hessian on a formed branch and explicit coordinate whitening. The neutral role and metric are identified for the chosen carrier; global equality between the quartic and quadratic energies is not claimed.
 
 The synthetic pilot shows a mediator-versus-removal effect in the constructed dynamics. Its direct-dyad control performs better on the chosen recovery endpoint, and its exact clone reproduces all trajectories. The pilot is not a run of the complete canonical five-object BFG operator and provides no empirical confirmation of universal BFG emergence.
 
