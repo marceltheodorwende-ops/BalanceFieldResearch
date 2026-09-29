@@ -24,6 +24,7 @@
     "0"
   ],
   "quadratic_bridges": {
+    "G_weighted_channel_difference": "1/2",
     "ordering_difference": "1/30",
     "project_then_response": "1/2",
     "response_then_project": "8/15",

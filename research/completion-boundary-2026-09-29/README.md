@@ -13,6 +13,8 @@ Vier verschiedene Aussagen dürfen nicht miteinander vertauscht werden:
 
 Eine vollständige endliche **bedingte** Dynamik existiert bereits für ein reduziertes Zustandsmodell: [Satz und Beweis](../finite-closure-model-2026-09-23/THEOREM.md). Der [volle rankbewusste Zustand](../fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/MASTER_STATE.md) besitzt deklarierte Abschlussregeln. Deren historische Herleitung, die vollständige Rollenrekonstruktion und die starke universelle Emergenzaussage sind andere Beweisziele.
 
+Die gemeinsame G/S/R-Herleitung und ein ausführlicher **bedingter Typerhaltungssatz für den vollen endlichen Zustand** stehen jetzt in [UNIFIED_FINITE_THEOREM.md](UNIFIED_FINITE_THEOREM.md). Der Satz macht jede benötigte Rollenidentifikation und jeden terminalen Gate-Fall ausdrücklich sichtbar.
+
 ## 2. Kanonische neutrale Vermittlung: der bewiesene Teil
 
 Für die in der späteren BFG erklärte quadratische Neutral-Vervollständigung
@@ -38,7 +40,7 @@ Wenn der neutrale Split **derselben** Bewertung durch `C_N(Y)=(I+Y)^−1` beschr
 =\langle d,(C-B)d\rangle.
 ```
 
-Die positive Spektralhälfte dieser **Differenz der quadratischen Kanalantworten** ist folglich genau `Y<1`. Damit ist die Auswahlformel aus derselben Neutralalgebra herleitbar, **wenn** „closure-positive Gain“ als diese quadratische Kanaldifferenz identifiziert wird. Die Minimierung von `J_A` allein definiert den physisch relevanten Gain noch nicht; die Rollenidentifikation ist ausdrücklich die zusätzlich benötigte Brücke. Sie löst die schwach-monotone S-Lücke, sobald sie als BFG-Regel festgelegt ist, und verändert keine numerische Konstante.
+Die positive Spektralhälfte dieser **Differenz der quadratischen Kanalantworten** ist folglich genau `Y<1`. Das gilt ebenso in der erklärten BFG-Metrik `G=I+Y`, denn dort ist die Differenz `⟨d,G(C²−B²)d⟩=⟨d,(I−Y)d⟩`. Damit ist die Auswahlformel aus derselben Neutralalgebra herleitbar, **wenn** „closure-positive Gain“ als diese quadratische Kanaldifferenz identifiziert wird. Die Minimierung von `J_A` allein definiert den physisch relevanten Gain noch nicht; die Rollenidentifikation ist ausdrücklich die zusätzlich benötigte Brücke. Sie löst die schwach-monotone S-Lücke, sobald sie als BFG-Regel festgelegt ist, und verändert keine numerische Konstante.
 
 **Nichtkommutative Reihenfolge der Rekursion.** Sogar bei gegebener quadratischer Last ist für einen persistenten Projektor `P` und `Q=I−P` die Regel „erst neutral antworten, dann auf `Q` projizieren“ im Allgemeinen verschieden von „die quadratische Bewertung zuerst auf `Q` einschränken, dann minimieren“:
 
@@ -77,6 +79,8 @@ Das [aktualisierte Preprint und Reproduktionspaket](../../papers/universal-reclo
 ## 6. Genaues Abschlussurteil
 
 **Erreicht:** eine konsistente bedingte endliche Dynamik in einem erklärten reduzierten Sektor; die kanonische Gram-Folge aus der bereits erklärten quadratischen Neutral-Vervollständigung; exakte Neuheits- und Stabilitätssätze unter ihren Voraussetzungen; ein operationaler, reproduzierbarer synthetischer Entfernungstest; jetzt eine explizite Unabhängigkeitsgrenze für weitergehende Eindeutigkeit.
+
+**Zusammengesetzter endlicher Schritt:** [Der neue Typerhaltungssatz](UNIFIED_FINITE_THEOREM.md) beweist unter den bereits deklarierten drei Abschlussregeln und exakten Gates, dass der volle endlichdimensionale Nachfolger seine Kapazitäts-, Dichte-, Last- und Rekursionstypen bewahrt oder terminiert. Das ist die stärkere formale Endlichkeitsfassung des hier erreichten bedingten Abschlusses, nicht die Herleitung der Regeln selbst.
 
 **Offen:** die Ableitung der quantitativen G-, S- und R-Identifikationen aus dem historischen Level 0 ohne zusätzliche Prämissen; voller rankbewusster globaler Abschluss und allgemeine Kontinuums-/unbeschränkte Fälle; eine nachgewiesene spezifische höhere Relation unter fairen mechanistischen Rivalen; natürliche empirische Bestätigung. Eine Aussage „BFG ist in diesem absoluten Sinn vervollständigt“ lässt sich aus den vorliegenden Prämissen nicht beweisen. Die schwächeren Bedingungen sind durch die Gegenmodelle nachweislich unzureichend. Neue präzise BFG-Prämissen oder unabhängige Beobachtungen können die offenen Ziele eingrenzen, müssen aber als solche ausgewiesen werden.
 

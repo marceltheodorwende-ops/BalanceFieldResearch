@@ -36,6 +36,8 @@ def witness_r():
 def quadratic_bridges():
     c, b = F(2, 3), F(1, 3)
     assert c * c - b * b == c - b == F(1, 3)
+    g_metric = F(3, 2)
+    assert g_metric * (c * c - b * b) == F(1, 2)
     # For Y=[[1,1/2],[1/2,1]], I+Y has determinant 15/4.
     det = F(2) * F(2) - F(1, 2) ** 2
     response_then_project = F(2) / det
@@ -45,6 +47,7 @@ def quadratic_bridges():
     assert response_then_project - project_then_response == F(1, 30)
     return {
         "squared_channel_difference": str(c * c - b * b),
+        "G_weighted_channel_difference": str(g_metric * (c * c - b * b)),
         "response_then_project": str(response_then_project),
         "project_then_response": str(project_then_response),
         "ordering_difference": str(response_then_project - project_then_response),
