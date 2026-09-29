@@ -23,6 +23,12 @@
     "1/3",
     "0"
   ],
+  "level0_quartic_gap": {
+    "D": "1/10",
+    "canonical_quadratic_minimum": "1/400",
+    "excess": "81/640000",
+    "normalized_quartic_midpoint": "1681/640000"
+  },
   "quadratic_bridges": {
     "G_weighted_channel_difference": "1/2",
     "ordering_difference": "1/30",

@@ -15,6 +15,8 @@ Eine vollständige endliche **bedingte** Dynamik existiert bereits für ein redu
 
 Die gemeinsame G/S/R-Herleitung und ein ausführlicher **bedingter Typerhaltungssatz für den vollen endlichen Zustand** stehen jetzt in [UNIFIED_FINITE_THEOREM.md](UNIFIED_FINITE_THEOREM.md). Der Satz macht jede benötigte Rollenidentifikation und jeden terminalen Gate-Fall ausdrücklich sichtbar.
 
+Die [direkte Ableitungsprüfung an den Whitepapern vom 7. und 8. September](SOURCE_DERIVATION_ATTEMPT.md) rechnet §3.1 gegen §3.2 mit derselben Level-0-Formationsfunktion durch. Sie zeigt eine positive lokale Gram-Geometrie, aber nach korrekter Normierung einen exakten kubischen und quartischen Rest gegenüber der späteren quadratischen Neutral-Vervollständigung.
+
 ## 2. Kanonische neutrale Vermittlung: der bewiesene Teil
 
 Für die in der späteren BFG erklärte quadratische Neutral-Vervollständigung

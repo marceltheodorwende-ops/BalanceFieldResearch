@@ -54,6 +54,25 @@ def quadratic_bridges():
     }
 
 
+def level0_quartic_gap():
+    d = F(1, 10)
+    z = d / 2
+    f = lambda x: x * x + x ** 3 + x ** 4 / 4
+    test_shift = F(1, 7)
+    assert f(z + test_shift) + f(z - test_shift) - 2 * f(z) == (
+        test_shift ** 2 * (2 + 6 * z + 3 * z ** 2) + test_shift ** 4 / 2
+    )
+    normalized_two_piece = f(z)
+    canonical_minimum = d * d / 4
+    excess = normalized_two_piece - canonical_minimum
+    assert normalized_two_piece == F(1681, 640000)
+    assert canonical_minimum == F(1, 400)
+    assert excess == F(81, 640000)
+    return {"D": str(d), "normalized_quartic_midpoint": str(normalized_two_piece),
+            "canonical_quadratic_minimum": str(canonical_minimum),
+            "excess": str(excess)}
+
+
 def witness_e():
     a, b = F(3, 5), F(2, 5)
     signs = [(1, -1), (1, 1), (-1, -1), (-1, 1)] * 10
@@ -77,7 +96,7 @@ def witness_e():
 
 
 def main():
-    print(json.dumps({"G": witness_g(), "S": witness_s(), "R": witness_r(), "E": witness_e(), "quadratic_bridges": quadratic_bridges()}, indent=2, sort_keys=True))
+    print(json.dumps({"G": witness_g(), "S": witness_s(), "R": witness_r(), "E": witness_e(), "quadratic_bridges": quadratic_bridges(), "level0_quartic_gap": level0_quartic_gap()}, indent=2, sort_keys=True))
 
 
 if __name__ == "__main__":
