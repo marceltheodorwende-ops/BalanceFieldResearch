@@ -1,6 +1,18 @@
-# Exact Level-0 to neutral-sector bridge
+# BFG-internal chain from Level 0 to the neutral sector
 
-**Amendment, 29 September 2026.** Source: Marcel Theodor Wende's [Strong Universal Reclosure Whitepaper](../../papers/BFG_Strong_Universal_Reclosure_Whitepaper_2026-09-08.pdf), §3.1 equations (2)–(7) and §3.2 equations (8)–(16); the [7 September source](../../papers/BFG_Universal_Reclosure_Unification_Whitepaper_2026-09-07_revised_final.pdf) has the same pair. This note supplies a mathematically consistent **coordinate and scope bridge**. It does not assert that the historical text had already specified this bridge, or that its quartic formation energy is globally quadratic.
+**Restated amendment, 29 September 2026.** Source: Marcel Theodor Wende's [Strong Universal Reclosure Whitepaper](../../papers/BFG_Strong_Universal_Reclosure_Whitepaper_2026-09-08.pdf), §3.1 equations (2)–(7) and §3.2 equations (8)–(16); the [7 September source](../../papers/BFG_Universal_Reclosure_Unification_Whitepaper_2026-09-07_revised_final.pdf) has the same pair. “BFG-internal” here means a deduction using **both** the Level-0 formation rule and its subsequent, explicitly stated BFG neutral-completion rule. It does not mean that the neutral rule is a theorem of §3.1 in isolation. The Hessian chart below gives the two rules a consistent common geometry; it is an explicit interpretation of their interface, not a claim that the historical text already printed it.
+
+## 0. Dependency statement
+
+| Stage | Status | Content |
+|---|---|---|
+| §3.1 formation | BFG source rule | Quartic `F_0`, simple negative lowest eigenvalue, formed branch. |
+| Formed-branch tangent | Derived from §3.1 | Positive `H_*` and its exact quadratic second-order jet. |
+| §3.2 neutral completion | Subsequent BFG source rule | Canonical two-piece quadratic `J_A(d,nu)`. The source declares this rule; §3.1 alone does not force its existence or a unique mediator. |
+| Interface chart | Explicit BFG interpretation | Identify a formed-carrier perturbation with the normalized source coordinate and a chosen neutral carrier with the normalized neutral coordinate. `L` and `M` describe that identification; they do not add an empirical interaction law. |
+| Elimination | Derived from the preceding rules | Resolvent and positive source-side Gram load, exactly within the quadratic sector. |
+
+Thus the exact logical form is `(§3.1 + §3.2 + declared carrier/coordinate identification) ⇒ normalized neutral resolvent and Gram load`. It is **not** `§3.1 ⇒ a uniquely selected §3.2`, and it is **not** a theorem of universal physical emergence.
 
 ## 1. Formed branch and its exact Hessian
 
@@ -28,9 +40,9 @@ Q_*(x):=\tfrac12\langle x,H_*x\rangle.
 
 “Exact” here means exact as a quadratic form defined by the Hessian. Taylor's theorem gives `F_0(delta_*+x)-F_0(delta_*)=Q_*(x)+O(||x||³)`, which is *not* an exact equality to the original quartic energy for finite `x`.
 
-## 2. The neutral mediation calculation in normalized tangent coordinates
+## 2. Apply the subsequent BFG neutral rule in tangent coordinates
 
-Let `D` be a perturbation on this formed carrier with metric `H_*`, and let the neutral channel have a **declared** positive metric `M` and a linearized mediation map `L` from neutral variables to formed perturbations. On the tangent sector define the two-piece neutral completion with the *same* quadratic source geometry on the mediated difference:
+Section 3.2 **already states** the canonical BFG rule `J_A(d,nu)=||d-A*nu||²/2+||nu||²/2`. To read its source coordinate as a perturbation of the §3.1 formed branch, let `D` have metric `H_*`; let the identified neutral carrier have a **declared** positive metric `M` and a linearized map `L` from neutral variables to formed perturbations. In these unnormalized coordinates the same two-piece BFG rule is
 
 ```math
 J_*^{(2)}(D,\eta)
@@ -38,7 +50,7 @@ J_*^{(2)}(D,\eta)
  +\tfrac12\|\eta\|_M^2.
 ```
 
-The first metric `H_*` is derived from §3.1. The neutral channel and its metric `M` must be identified: for a neutral piece of the same formed branch, take `M=H_*`; for a distinct formed neutral carrier, `M` can be its independently derived Hessian. The assertion that the mediation cost is this **quadratic tangent** two-piece completion is the sector/role identification connecting §3.1 to §3.2, and must be printed explicitly.
+The first metric `H_*` is derived from §3.1. The neutral channel and its metric `M` must be identified: for a neutral piece of the same formed branch, take `M=H_*`; for a distinct formed neutral carrier, `M` can be its independently derived Hessian. The two-piece cost comes from §3.2; the claim that its source coordinate is the §3.1 Hessian tangent perturbation is the **explicit interface interpretation**. The historical BFG text supplies the rules but does not uniquely determine this interface or its physical realization.
 
 Set `d=H_*^{1/2}D`, `nu=M^{1/2}eta`, and define the ordinary-adjoint map `A* = H_*^{1/2} L M^{-1/2}`. The invertible whitening is then an exact change of variables *inside this tangent model*:
 
@@ -48,7 +60,7 @@ J_*^{(2)}(D,\eta)
 =J_A(d,\nu).
 ```
 
-Thus §3.2's printed quadratic functional is the normalized representation of the Hessian tangent model. Its exact elimination gives
+Thus §3.2's printed quadratic functional can be represented as the normalized Hessian tangent model under the stated interface. Conversely, for any specified §3.2 map `A*` and positive `H_*`,`M`, setting `L=H_*^{-1/2}A*M^{1/2}` supplies precisely this coordinate representation; that algebraic construction does not prove that this `L` is a unique physical mechanism. Exact elimination gives
 
 ```math
 Y=A^*A
@@ -75,6 +87,6 @@ This agrees with the **quadratic** term of the exact same-branch energy `f(D−e
 
 ## 4. What is now consistent, and what remains conditional
 
-Sections 3.1 and 3.2 fit into one mathematical chain **if §3.2 is explicitly the neutral theory on the formed branch's Hessian tangent sector, written in whitened coordinates**. In that sector the §3.2 minimizer, resolvent split and Gram load are exact for every tangent-sector input. The approximation occurs only in replacing the full quartic Level-0 energy by its second-order jet. The BFG source's use of the word “exact” for elimination is therefore correct *within its declared quadratic sector*; it must not be read as a global identity for the quartic §3.1 energy.
+The two BFG rules fit into one mathematical chain **when §3.2 is applied to the formed branch's Hessian tangent sector in whitened coordinates**. In that sector the §3.2 minimizer, resolvent split and Gram load are exact for every tangent-sector input. The approximation occurs only in replacing the full quartic Level-0 energy by its second-order jet. The BFG source's use of the word “exact” for elimination is therefore correct *within its declared quadratic sector*; it must not be read as a global identity for the quartic §3.1 energy.
 
 This bridge fixes a compatibility and units problem without changing the historical sources. It does not uniquely derive the choice of a two-piece neutral cost, the metric on a distinct neutral channel, its physical mediator role, the later target projection order, or strong emergence from §3.1 alone. Those are constitutive identifications of the completed BFG, already kept explicit in the [unified finite theorem](UNIFIED_FINITE_THEOREM.md) and [source derivation audit](SOURCE_DERIVATION_ATTEMPT.md).

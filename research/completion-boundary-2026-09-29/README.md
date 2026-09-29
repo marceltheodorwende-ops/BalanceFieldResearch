@@ -17,7 +17,7 @@ Die gemeinsame G/S/R-Herleitung und ein ausführlicher **bedingter Typerhaltungs
 
 Die [direkte Ableitungsprüfung an den Whitepapern vom 7. und 8. September](SOURCE_DERIVATION_ATTEMPT.md) rechnet §3.1 gegen §3.2 mit derselben Level-0-Formationsfunktion durch. Sie zeigt eine positive lokale Gram-Geometrie, aber nach korrekter Normierung einen exakten kubischen und quartischen Rest gegenüber der späteren quadratischen Neutral-Vervollständigung.
 
-Die [Level-0-Neutral-Brücke](LEVEL0_NEUTRAL_TANGENT_BRIDGE.md) stellt die beiden Abschnitte konsistent zusammen: §3.1 bestimmt die positive Hessian-Geometrie einer gebildeten Formation; §3.2 ist die in dieser Geometrie **geweißte quadratische Tangentialtheorie**. Ihre Eliminierung ist dort exakt. Die Ersetzung der vollen quartischen Bewertung durch den Tangentialsektor und die Rolle des neutralen Kanals werden ausdrücklich ausgewiesen.
+Die [neu aufgesetzte BFG-interne Herleitung](LEVEL0_NEUTRAL_TANGENT_BRIDGE.md) benennt ihre Abhängigkeiten: §3.1 liefert die positive Hesse-Geometrie am gebildeten Zustand; §3.2 stellt als **nachfolgende BFG-Regel** die quadratische Neutral-Vervollständigung bereit. Eine ausdrücklich angegebene Trägerzuordnung und Normierung setzen beide in denselben Tangentialkoordinaten zusammen. Die Eliminierung folgt dort exakt. §3.2 und die physische Rolle des neutralen Kanals werden nicht als zwingende Folgerung aus §3.1 allein ausgegeben.
 
 ## 2. Kanonische neutrale Vermittlung: der bewiesene Teil
 
