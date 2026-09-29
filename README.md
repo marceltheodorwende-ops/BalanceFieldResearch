@@ -1,5 +1,9 @@
 # Balance Field Framework
 
+## Completion boundary — 29 September 2026
+
+The [BFG completion dossier](research/completion-boundary-2026-09-29/README.md) gives an exact source-to-claim ledger and independently executable rational countermodels for the Gram, selection, recursion and mediation-identity gaps. The declared finite completion and its conditional theorems remain valid in their stated scope. Unconditional historical derivation and universal irreducible emergence are not established.
+
 ## Universal reclosure and emergence preprint — 29 September 2026
 
 [Read the new preprint and its proof-status overview](papers/universal-reclosure-emergence-2026-09-29/README.md). It integrates the formal BFG closure grammar with the finite novelty theorem, a clone-identifiability proof, and a generative test protocol. It does not claim that every BFG successor is irreducibly emergent or that natural universality is empirically confirmed.

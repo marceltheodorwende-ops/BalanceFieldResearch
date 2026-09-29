@@ -1,5 +1,9 @@
 # Research stages
 
+## BFG completion boundary — 29 September 2026
+
+[Exact completion dossier and rational countermodels](completion-boundary-2026-09-29/README.md). It consolidates the declared finite closure with proof obligations for historical Gram, selection, recursion, and specific mediation. The four exact witnesses show why the listed weaker conditions alone do not establish an unconditional universal theory.
+
 ## Universal Emergent Closure preprint — 27 September 2026
 
 [Read the FINAL paper and download its reproducibility package](../papers/universal-emergent-closure-2026-09-27/README.md). This dated intake preserves the corrected PDF, original numerical supplements, and checksums. The earlier RELEASE DOCX is explicitly marked as historical. The numerical results remain exploratory and do not establish empirical universality or close the existing proof-chain obligations.
