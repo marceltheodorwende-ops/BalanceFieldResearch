@@ -8,6 +8,7 @@ Preprint intake: 29 September 2026. Author: **Marcel Theodor Wende**, BalanceFel
 - [Read the constructive test protocol](CONSTRUCTIVE_TEST_PROTOCOL.md), [run the constructive witness](bfg_constructive_emergence_witness.py), and [inspect its frozen results](BFG_constructive_emergence_results_2026-09-29.json)
 - [Verify file hashes](SHA256SUMS.txt)
 - [Run and inspect the adapted 10,000-case numerical audit](NUMERICAL_AUDIT_10000_README.md)
+- [Inspect the full finite successor execution and natural-evidence audit](FULL_SUCCESSOR_NATURAL_EVIDENCE_AUDIT.md)
 - [Read the Level-0 to neutral-sector bridge](../../research/completion-boundary-2026-09-29/LEVEL0_NEUTRAL_TANGENT_BRIDGE.md)
 
 ## Exact claim and proof boundary
