@@ -2,7 +2,7 @@
 
 ## Relational composition and shared balance state — 30 September 2026
 
-[Read the conditional derivation and download its reproducibility package](relational-composition-2026-09-30/README.md). Three explicitly proposed relational rules yield a Bell-form direction and an exact real-sector G0 continuation. The supplement distinguishes these additions from the historical Level-0 axioms and leaves independent measurement statistics open.
+[Read the English conditional derivation and download its reproducibility package](relational-composition-2026-09-30/README.md). Three explicitly proposed relational rules yield a Bell-form direction and an exact real-sector G0 continuation. The supplement distinguishes these additions from the historical Level-0 axioms and leaves independent measurement statistics open.
 
 ## Neutral first finite completion preprint — 30 September 2026
 

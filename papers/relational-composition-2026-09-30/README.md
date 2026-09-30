@@ -1,9 +1,9 @@
 # BFG relational composition and the shared balance state
 
-Mathematical supplement prepared for Marcel Theodor Wende, 30 September 2026. The document is in German.
+Mathematical supplement prepared for Marcel Theodor Wende, 30 September 2026. The paper and reproducibility package are in English.
 
-- [Download the derivation with 32 editable equations (DOCX)](BFG_Relationale_Zusammensetzung_und_Balancezustand_2026-09-30.docx)
-- [Download the reproducibility package (ZIP)](BFG_Relationale_Zusammensetzung_Rechenpaket_2026-09-30.zip)
+- [Download the derivation with 32 editable equations (DOCX)](BFG_Relational_Composition_and_Balance_State_2026-09-30.docx)
+- [Download the reproducibility package (ZIP)](BFG_Relational_Composition_Reproducibility_Package_2026-09-30.zip)
 
 ## Result and scope
 
@@ -31,4 +31,6 @@ The ZIP contains:
 - `build_report.py`
 - `README.txt`
 
-The report builder additionally requires python-docx, lxml, and Pandoc. The original document was rendered and all eight pages were visually checked before publication. The uploaded DOCX and ZIP preserve the reviewed artifact bytes.
+The report builder additionally requires python-docx, lxml, and Pandoc. The English paper was rendered and all eight pages were visually checked before publication. All 32 native editable equations match the previous version, apart from a translated explanatory phrase. The verification script, G0 implementation, and recorded numerical results are unchanged. The report builder now generates the English paper.
+
+This English edition replaces the German files previously published in this folder. The earlier edition remains available in Git history.
