@@ -1,5 +1,9 @@
 # BFG source library
 
+## Neutral first finite completion preprint — 30 September 2026
+
+[Download the new editable DOCX preprint](neutral-first-finite-completion-2026-09-30/README.md). It proposes an explicit finite neutral-capacity source rule and proves conditional algebraic consequences; the rule is not derived uniquely from the historical Level-0 formulation.
+
 ## Universal reclosure and irreducible emergence preprint — 29 September 2026
 
 [Read the new PDF, editable DOCX, proof status, and synthetic pilot](universal-reclosure-emergence-2026-09-29/README.md). The finite internal novelty and observational clone theorems are exact under their stated assumptions. Strong higher emergence remains conditional on a carrier-specific intervention and rival comparison; the pilot does not confirm empirical universality.
