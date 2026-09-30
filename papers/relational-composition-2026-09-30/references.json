@@ -1,0 +1,105 @@
+[
+  {
+    "number": 6,
+    "key": "Watrous2018",
+    "citation": "J. Watrous, The Theory of Quantum Information. Cambridge University Press, Cambridge, 2018. Chapter 1, especially the operator–vector correspondence and Schmidt decomposition.",
+    "doi": "10.1017/9781316848142",
+    "source_url": "https://cs.uwaterloo.ca/~watrous/TQI/TQI.1.pdf",
+    "metadata_url": "https://www.cambridge.org/core/books/the-theory-of-quantum-information/AE4AA5638F808D2CFEB070C55431D897",
+    "role": "Standard mathematical context for vectorization, singular values, partial traces, and product vectors; no additional BFG premise.",
+    "accessed": "2026-09-30"
+  },
+  {
+    "number": 7,
+    "key": "EinsteinPodolskyRosen1935",
+    "citation": "A. Einstein, B. Podolsky, and N. Rosen, “Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?”, Physical Review 47, 777–780 (1935).",
+    "doi": "10.1103/PhysRev.47.777",
+    "source_url": "https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777",
+    "role": "Historical context for correlated separated systems and the completeness question.",
+    "accessed": "2026-09-30"
+  },
+  {
+    "number": 8,
+    "key": "Schrodinger1935",
+    "citation": "E. Schrödinger, “Discussion of Probability Relations between Separated Systems”, Mathematical Proceedings of the Cambridge Philosophical Society 31(4), 555–563 (1935).",
+    "doi": "10.1017/S0305004100013554",
+    "source_url": "https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/abs/discussion-of-probability-relations-between-separated-systems/C1C71E1AA5BA56EBE6588AAACB9A222D",
+    "role": "Historical discussion of joint state descriptions and matched observables; not a derivation of BFG rule R3.",
+    "accessed": "2026-09-30"
+  },
+  {
+    "number": 9,
+    "key": "Bell1964",
+    "citation": "J. S. Bell, “On the Einstein Podolsky Rosen paradox”, Physics Physique Fizika 1, 195–200 (1964).",
+    "doi": "10.1103/PhysicsPhysiqueFizika.1.195",
+    "source_url": "https://journals.aps.org/ppf/abstract/10.1103/PhysicsPhysiqueFizika.1.195",
+    "role": "Original Bell theorem and the incompatibility of local hidden-variable descriptions with all quantum correlations.",
+    "accessed": "2026-09-30"
+  },
+  {
+    "number": 10,
+    "key": "CHSH1969",
+    "citation": "J. F. Clauser, M. A. Horne, A. Shimony, and R. A. Holt, “Proposed Experiment to Test Local Hidden-Variable Theories”, Physical Review Letters 23, 880–884 (1969).",
+    "doi": "10.1103/PhysRevLett.23.880",
+    "source_url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.23.880",
+    "role": "Experimental Bell correlation inequality; the local bound concerns outcome statistics.",
+    "accessed": "2026-09-30"
+  },
+  {
+    "number": 11,
+    "key": "Cirelson1980",
+    "citation": "B. S. Cirel’son, “Quantum generalizations of Bell’s inequality”, Letters in Mathematical Physics 4, 93–100 (1980).",
+    "doi": "10.1007/BF00417500",
+    "source_url": "https://www.informationphilosopher.com/solutions/scientist/bell/Tsirelson.pdf",
+    "role": "Quantum bounds on Bell correlations, including the standard CHSH bound 2√2; comparison only.",
+    "accessed": "2026-09-30",
+    "metadata_url": "https://link.springer.com/article/10.1007/BF00417500"
+  },
+  {
+    "number": 12,
+    "key": "Werner1989",
+    "citation": "R. F. Werner, “Quantum states with Einstein-Podolsky-Rosen correlations admitting a hidden-variable model”, Physical Review A 40, 4277–4281 (1989).",
+    "doi": "10.1103/PhysRevA.40.4277",
+    "source_url": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.40.4277",
+    "role": "Distinguishes mixed-state entanglement from Bell nonlocality; projective-measurement local models need not imply separability.",
+    "accessed": "2026-09-30"
+  },
+  {
+    "number": 13,
+    "key": "Gleason1957",
+    "citation": "A. M. Gleason, “Measures on the Closed Subspaces of a Hilbert Space”, Journal of Mathematics and Mechanics 6(6), 885–893 (1957).",
+    "doi": "10.1512/iumj.1957.6.56050",
+    "source_url": "https://pages.jh.edu/rrynasi1/Bananaworld/eprints/Gleason1957MeasuresOnTheClosedSubspacesOfAHilbertSpace.pdf",
+    "role": "Trace-form representation under nonnegative orthogonally additive measures on subspaces, for Hilbert-space dimension at least three.",
+    "accessed": "2026-09-30"
+  },
+  {
+    "number": 14,
+    "key": "Busch2003",
+    "citation": "P. Busch, “Quantum States and Generalized Observables: A Simple Proof of Gleason’s Theorem”, Physical Review Letters 91, 120403 (2003).",
+    "doi": "10.1103/PhysRevLett.91.120403",
+    "source_url": "https://arxiv.org/pdf/quant-ph/9909073",
+    "metadata_url": "https://arxiv.org/abs/quant-ph/9909073",
+    "role": "Generalized effect-space probability theorem, including dimension two; requires additional probability and effect assumptions.",
+    "accessed": "2026-09-30"
+  },
+  {
+    "number": 15,
+    "key": "Hensen2015",
+    "citation": "B. Hensen et al., “Loophole-free Bell inequality violation using electron spins separated by 1.3 kilometres”, Nature 526, 682–686 (2015).",
+    "doi": "10.1038/nature15759",
+    "source_url": "https://www.nature.com/articles/nature15759",
+    "role": "Experimental example with event-ready preparation and treatment of detection and locality loopholes; not an empirical BFG test.",
+    "accessed": "2026-09-30"
+  },
+  {
+    "number": 16,
+    "key": "MarlettoVedral2017",
+    "citation": "C. Marletto and V. Vedral, “Gravitationally Induced Entanglement between Two Massive Particles is Sufficient Evidence of Quantum Effects in Gravity”, Physical Review Letters 119, 240402 (2017).",
+    "doi": "10.1103/PhysRevLett.119.240402",
+    "source_url": "https://arxiv.org/pdf/1707.06036",
+    "metadata_url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.119.240402",
+    "role": "Conditional comparison for a physical mediator: local coupling of each quantum endpoint to the mediator, with no direct endpoint interaction.",
+    "accessed": "2026-09-30"
+  }
+]

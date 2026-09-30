@@ -13,6 +13,12 @@ The existing real G0 continuation selects and preserves this direction in the de
 
 R1–R3 are proposed BFG constitutive additions, not established deductions from the historical Level-0 axioms. The geometric correlation combination is 2√2, but interpreting it as counted CHSH outcomes still requires additional measurement assumptions. This is not an independent derivation of the Born rule or empirical validation of BFG.
 
+## External literature
+
+The English paper now contains 16 numbered references: five BFG development sources and eleven external scholarly works, comprising ten journal articles and one academic monograph. All external works have DOI links and are cited in the text. Section 9 compares the construction with established results on entanglement, Bell correlations, probability representation, experimental Bell tests, and physical mediation.
+
+The bibliography includes Watrous, Einstein–Podolsky–Rosen, Schrödinger, Bell, Clauser–Horne–Shimony–Holt, Cirel’son, Werner, Gleason, Busch, Hensen and colleagues, and Marletto–Vedral. [The external reference list and source links](references.json) are also available separately and inside the ZIP. These citations do not change the stated BFG assumptions or turn the calculation into an empirical validation.
+
 ## Reproduce the calculations
 
 Extract the ZIP and run:
@@ -30,7 +36,8 @@ The ZIP contains:
 - `results.json`
 - `build_report.py`
 - `README.txt`
+- `references.json` (external bibliography, DOI identifiers, source links, and citation roles)
 
-The report builder additionally requires python-docx, lxml, and Pandoc. The English paper was rendered and all eight pages were visually checked before publication. All 32 native editable equations match the previous version, apart from a translated explanatory phrase. The verification script, G0 implementation, and recorded numerical results are unchanged. The report builder now generates the English paper.
+The report builder additionally requires python-docx, lxml, and Pandoc. The English paper was rendered and all eleven pages were visually checked before publication. All 32 native editable equations are unchanged from the previous English edition. The verification script, G0 implementation, and recorded numerical results are unchanged. The report builder now generates the English paper.
 
 This English edition replaces the German files previously published in this folder. The earlier edition remains available in Git history.
