@@ -1,0 +1,7 @@
+case,spectral_radius,C20,D20,G20
+reference,0.92,0.189,0.0014,0.5727
+weak_mediation,0.598,3.42e-05,2.54e-07,0.0125
+disconnected_levels,0.92,0.189,0.0014,0.0
+contrast_suppression,0.92,0.189,1.31e-08,0.5438
+middle_interface_reduced,0.8174,0.016,6.97e-05,0.0613
+linear_instability,1.0304,1.82,0.0135,2.6301

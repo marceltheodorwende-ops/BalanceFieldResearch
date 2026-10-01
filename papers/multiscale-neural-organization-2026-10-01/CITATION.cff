@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the preprint using this metadata."
+type: article
+title: "Multiscale Neural Organization and Conscious Closure in the Balance Field Framework"
+authors:
+  - family-names: Wende
+    given-names: Marcel Theodor
+    orcid: "https://orcid.org/0009-0007-4028-2208"
+version: "1.0"
+date-released: "2026-10-01"
+url: "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/tree/main/papers/multiscale-neural-organization-2026-10-01"
