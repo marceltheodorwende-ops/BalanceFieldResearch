@@ -1,0 +1,56 @@
+[
+  {
+    "reference": "1",
+    "filename": "22_Resolving_the_DNA_Gene_Regulation_Problem.pdf",
+    "sha256": "ae988d0f5c05df3a3982cad5f2d4017c0b660ba0fabf382917139c44f9e71095",
+    "used_locations": "pp. 4-11 and Appendix C"
+  },
+  {
+    "reference": "2",
+    "filename": "23_The_Function_of_Non_Coding_DNA_as_Regime_Architecture (1).pdf",
+    "sha256": "89e2e81660561af034840bb253c2993bdb1c9aabdccdea63682bfd2f3469afdd",
+    "used_locations": "pp. 5-11"
+  },
+  {
+    "reference": "3",
+    "filename": "BFG_Model_Of_Biological_Organism_Formation.pdf",
+    "sha256": "bff7ee6ff16b82bb4085552da7ced62e8963eb835ab5e0faa29076fdab23c066",
+    "used_locations": "pp. 120-122, 172-174, 187-189"
+  },
+  {
+    "reference": "4",
+    "filename": "BFG_Biological_Organism_Formation_Trinity_Level0_AGC_Integrated_Journal_Ready.docx",
+    "sha256": "5248e13348aec2bfe8ad5343df41390fb4e60697fc0659abca3aa4ae022f84a6",
+    "used_locations": "paragraphs 8,14,21; table 32"
+  },
+  {
+    "reference": "5",
+    "filename": "BFG_Multiscale_Neural_Organization_and_Conscious_Closure_Preprint_2026-10-01.pdf",
+    "sha256": "89e33df0327e20ad4206e4164c2350200f85137b4d153ace5e3020ca68b66c5a",
+    "used_locations": "sections 6-10"
+  },
+  {
+    "reference": "6",
+    "filename": "BFG_TRI_FIB_The Recursive Closure Growth Principle.pdf",
+    "sha256": "e988eef6d96c1b6b588a743e10f4e97377950fa2c33985189f07b68eae75d638",
+    "used_locations": "Sections 7-9, 16.4, 17.5"
+  },
+  {
+    "reference": "7",
+    "filename": "Full_BFG_Trinitarian_Recursive_Closure_Monograph_Pure_BFG_Strongest_EN_v3.docx",
+    "sha256": "29b4e352fa4204a93bf393ffe9639d8d9817a335b8c19fc453922524c434adb0",
+    "used_locations": "growth chapter; paragraphs 638-647; source crosswalk"
+  },
+  {
+    "reference": "8",
+    "filename": "BFG_Canonical_Minimal_Finite_Closure_and_Universal_Reclosure_Preprint_2026-09-26.pdf",
+    "sha256": "bcbf3bb9a6cdeb31699ec2ce8d237c890e7ba1b79e50a13d99db30def9d9765e",
+    "used_locations": "Sections 10-12"
+  },
+  {
+    "reference": "9",
+    "filename": "BFG_Canonical_Reclosure_and_Structural_Novelty_Preprint_2026-09-22.pdf",
+    "sha256": "7a532a9c74a44e2cf66d106d4c6debe80a4176bb5c442fdccc86df90acd5dadb",
+    "used_locations": "Sections 2-7"
+  }
+]
