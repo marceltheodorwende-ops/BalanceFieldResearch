@@ -1,0 +1,33 @@
+{
+  "stage": "exploratory; attempt-1 temporal development split, no confirmatory holdout",
+  "recordings": 15,
+  "holdout_accessed": false,
+  "fit_seconds": "0 <= t < 30",
+  "validation_seconds": "30 <= t < 60",
+  "horizon_seconds": 0.1,
+  "models": {
+    "gravity": {
+      "mean_relative_increment_rmse": 0.2557190197970352,
+      "mean_velocity_rmse": 0.1108270074330738
+    },
+    "viscous": {
+      "mean_relative_increment_rmse": 0.2550817983894691,
+      "mean_velocity_rmse": 0.11063009116356533
+    },
+    "quadratic": {
+      "mean_relative_increment_rmse": 0.25340727529485413,
+      "mean_velocity_rmse": 0.10968378447447333
+    },
+    "dry": {
+      "mean_relative_increment_rmse": 0.2557190197970352,
+      "mean_velocity_rmse": 0.1108270074330738
+    },
+    "mixed": {
+      "mean_relative_increment_rmse": 0.25340727529485413,
+      "mean_velocity_rmse": 0.10968378447447333
+    }
+  },
+  "max_integration_sensitivity": 5.263077595962784e-08,
+  "coefficients_identified": "mg*ell/I, b/I, c/I, tau_c/I conditional on torque model",
+  "individual_mass_inertia_drag_identified": false
+}

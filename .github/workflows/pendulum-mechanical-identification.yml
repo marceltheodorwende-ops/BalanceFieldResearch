@@ -1,0 +1,40 @@
+name: Development mechanical identification
+on:
+  push:
+    branches: [experiment/real-pendulum-decay-2026-10-07]
+    paths:
+      - experiments/pendulum-mechanical-identification-2026-10-07/**
+      - .github/workflows/pendulum-mechanical-identification.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: bfg-mechanical-identification
+  cancel-in-progress: false
+jobs:
+  identify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned numerical tools
+        run: python -m pip install -r experiments/pendulum-mechanical-identification-2026-10-07/requirements.txt
+      - name: Download development files only
+        working-directory: experiments/bfg-realization-development-2026-10-07
+        run: python fetch_development.py
+      - name: Test and evaluate
+        working-directory: experiments/pendulum-mechanical-identification-2026-10-07
+        shell: bash
+        run: |
+          set -euo pipefail
+          sha256sum -c SHA256SUMS.txt
+          python -m unittest -v test_identify.py
+          python identify.py ../bfg-realization-development-2026-10-07/data results
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Development-mechanical-identification
+          path: experiments/pendulum-mechanical-identification-2026-10-07/results/
+          retention-days: 30
