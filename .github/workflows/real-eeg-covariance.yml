@@ -24,6 +24,7 @@ jobs:
       MPLCONFIGDIR: /tmp/bfg-eeg-matplotlib
     defaults:
       run:
+        shell: bash
         working-directory: experiments/real-eeg-covariance-2026-10-07
     steps:
       - uses: actions/checkout@v4
@@ -42,7 +43,12 @@ jobs:
           mkdir -p results
           python -m unittest -v test_experiment 2>&1 | tee results/tests.log
           python -m pip freeze > results/environment.txt
-      - name: Cache checksum-verified original measurements\n        uses: actions/cache@v4\n        with:\n          path: experiments/real-eeg-covariance-2026-10-07/raw\n          key: bfg-eegmmidb-1.0.0-checksummed-v1\n      - name: Download original EEG measurements
+      - name: Cache checksum-verified original measurements
+        uses: actions/cache@v4
+        with:
+          path: experiments/real-eeg-covariance-2026-10-07/raw
+          key: bfg-eegmmidb-1.0.0-checksummed-v1
+      - name: Download original EEG measurements
         run: python experiment.py download
       - name: Evaluate frozen bridge on held-out subjects
         run: python experiment.py evaluate
