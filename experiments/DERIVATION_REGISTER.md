@@ -129,3 +129,10 @@ Known nonzero J and independently calibrated delta w imply I=J/delta w under ins
 
 ## P38 — Driven scalar regular-factor tangent obstruction
 Constantd scalar source has DU=diag(1,1,lambda),lambda<=16/27. For fixed passive targeta,b>0 and h>0, M=exp(hJ) has no eigenvalue1. Differentiated semiconjugacy gives BDU=MB; first two columns vanish, leaving rankB<=1. Nonresonant underdamped target forcesB=0. Thus no regular rank2 physical-state factor at the driven scalar fixed point under these premises. This does not rule out singular/orbit-specific readout, counter extension or matrix BFG. General proof and independent numerical Sylvester control pass. Evidence: FORCE_DERIVATION_AUDIT.md. Next dependency: matrix regular differential and internal force-selection constraints.
+
+
+## P39 — Full-persistence matrix quotient dynamics
+From active Dynamic Order84.1–84.4, P=I,0<Y<I,F>0 gives natural-frame Y+=R=alpha C²+beta B² and K+=R^-1/2(alpha C K C+beta B K B)R^-1/2, F/W/P unchanged. In Y eigenframe K entries attenuate by positive Gram correlations gamma<=1; HS norm nonincreases and phases unchanged in tracked frame. Exact derivation;30 independent complex Ambient controls agree to1.61e-15. Not a physical instrument/force derivation. Evidence bfg-matrix-tangent-2026-10-08.
+
+## P40 — Isotropic matrix-input tangent and oscillatory-factor obstruction
+Explicit additional input Y->Y+dI, not an undeclared canonical rule or scalar Theorem7 matrix extension. At isotropic fixed point derivative is H->sH+t tr(FH)/tr(F)I with real eigenvalues s and f'(x); other fixed-stratum directions neutral. Multiple internal evolving geometry directions exist. Under fixed nonresonant underdamped physical target and C1 factor, intertwining forces DPi=0 because source tangent eigenvalues are real, target eigenvalues nonreal. Conditional local proof, three-step independent numerical derivative checks pass. Does not cover anisotropic/periodic states, seeds, rank changes or all matrix BFG. Next dependency: anisotropic noncommuting instrument closure.

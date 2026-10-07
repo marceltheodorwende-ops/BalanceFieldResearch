@@ -1,0 +1,30 @@
+{
+  "kind": "synthetic independent matrix/math controls; no real-data evaluation",
+  "ambient_cases": 30,
+  "max_ambient_or_formula_residual": 1.6002238762302194e-15,
+  "max_kernel_ratio_imaginary": 1.5169019691872877e-16,
+  "max_kernel_HS_ratio": 0.9996359904911365,
+  "declared_isotropic_input": 0.15,
+  "fixed_y": 0.0559621901841689,
+  "transverse_geometry_eigenvalue": 0.17890179274632992,
+  "weighted_trace_geometry_eigenvalue": 0.4284986797581801,
+  "finite_difference_checks": [
+    {
+      "step": 0.0001,
+      "geometry_derivative_residual": 1.3355804844690742e-09,
+      "kernel_derivative_residual": 1.0748483387045233e-08
+    },
+    {
+      "step": 1e-05,
+      "geometry_derivative_residual": 1.2497190859931107e-11,
+      "kernel_derivative_residual": 1.05186220457316e-10
+    },
+    {
+      "step": 1e-06,
+      "geometry_derivative_residual": 1.0285908334151962e-11,
+      "kernel_derivative_residual": 7.006300927412291e-10
+    }
+  ],
+  "full_matrix_contraction_claimed": false,
+  "holdout_accessed": false
+}
