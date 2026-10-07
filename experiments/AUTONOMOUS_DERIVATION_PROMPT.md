@@ -1,0 +1,30 @@
+# Autonomous derivation mandate
+
+Version: 2026-10-07. Existing hourly continuation; no additional automation.
+
+Setze das autorisierte BFG-Forschungsprogramm selbstständig im Repository marceltheodorwende-ops/BalanceFieldResearch fort. Hauptarbeitsbranch und Publikationsziel: experiment/real-pendulum-decay-2026-10-07. Lies zuerst experiments/RESEARCH_PROGRAM.md auf diesem Branch und auf experiment/real-eeg-covariance-2026-10-07, anschließend neuesten Code, Paper-Quelle 76d9e87b4275ec41b3dcd84434e2ee3791a8d076, veröffentlichte Beweise, Ergebnisse und Workflow-Status. Nutze stets den neuesten Ledgerstand; alte offene Aufgaben können bereits bearbeitet sein.
+
+Arbeite bei jeder Ausführung konkret weiter, ohne eine neue Aufforderung oder Routinegenehmigung zu verlangen. Führe ein Beweis- und Arbeitsregister mit Aussage, verwendeten BFG-Axiomen/Definitionen, zusätzlichen physikalischen Annahmen, Abhängigkeiten, Nachweis, Gegenbeispiel und Status. Nimm offene Fragen automatisch auf, priorisiere die nächste lösbare Abhängigkeit und erledige ein substanzielles überprüfbares Arbeitspaket. Liefere tatsächliche Herleitung, Code, Quellenprüfung oder Entwicklungsanalyse statt bloß erneut die fehlenden Voraussetzungen aufzuzählen.
+
+Aktuelle Beweispriorität: Untersuche, ob physikalische Energieobservable, Frequenz, Reibung, Trägheit, Uhr in Sekunden und Interventionen aus dem kanonischen BFG-Modell folgen. Die bereits konstruierte Pendelbewegung ist eine kalibrierte Darstellung eines mechanischen Oszillators; dessen Parameter und Lösung im Readout gelten NICHT als aus BFG hergeleitet. Suche belastbare BFG-interne Einschränkungen der bisher freien Projektionen und Kalibrierungen. Untersuche gemeinsame Parametrisierung über Bedingungen, Identifizierbarkeit, physikalische Projektion/Closure und Beobachtbarkeit. Verwende die interne Mathematik kreativ, aber ändere nicht stillschweigend das Modell oder seine Beweisvoraussetzungen.
+
+Für jede behauptete Herleitung:
+1. Formuliere die genaue Aussage und Voraussetzungen.
+2. Zeige die Ableitung Schritt für Schritt aus identifizierten Definitionen.
+3. Prüfe Typen, Einheiten, Invarianzen, Domain, Terminals und Grenzfälle.
+4. Suche alternative zulässige Konstruktionen und Gegenbeispiele; prüfe insbesondere nicht eindeutige Energie- und Zeitkalibrierungen.
+5. Verifiziere Rechnungen mit unabhängigen symbolischen/numerischen Kontrollen, soweit sinnvoll; Tests ersetzen keinen allgemeinen Beweis.
+6. Kennzeichne das Resultat als bewiesen unter Voraussetzungen, zusätzliche Hypothese, empirisch untersucht, widerlegt oder nicht identifizierbar. Behaupte niemals einen Beweis, wenn nur eine passende Koordinatendarstellung oder ein eingebautes Rivalenmodell vorliegt.
+
+Wenn eine Aussage nicht aus den verfügbaren Axiomen folgt, liefere den konkreten Nichtableitbarkeits-/Nichtidentifizierbarkeitsnachweis oder das Gegenbeispiel und bestimme die minimale zusätzliche Annahme. Diese darf als neue Hypothese untersucht, aber nicht dem ursprünglichen BFG-Modell als bereits bewiesener Inhalt zugeschrieben werden. Stelle einen offenen physikalischen Anspruch nicht als gelöst dar, indem du ihn umbenennst. Arbeite anschließend am nächsten lösbaren Paket weiter. Keine erfundenen Daten, Konstanten, Resultate, Quellen oder universellen Beweise. Kein garantiertes positives Ergebnis.
+
+Forschungsstrategie bleibt zweistufig: Exploratory realization ausschließlich auf Entwicklungsdaten. Die 15 Pendeldateien mit Versuch 1 dürfen verwendet werden; die 30 reservierten Dateien aus Versuchen 2 und 3 weder herunterladen noch öffnen. Keine vollständigen Dataset-Clones/Archive, die den Holdout enthalten. Bereits ausgewertete EEG-Testpersonen sind für revidierte Hypothesen kein unberührter Holdout. Confirmatory realization erst bei vollständig spezifizierter und eingefrorener Trägerabbildung, Vorbereitung, kanonischem Update, Observablen, Uhr, Interventionen, Rivalen, Split, Ausschlüssen, Unsicherheit und Entscheidungsregel auf unabhängigen unberührten Daten. Bei negativem Entwicklungsbefund konstruiere und prüfe neue begründete Varianten, behalte alle gescheiterten Versionen. Kein Nachjustieren bestätigender Kriterien anhand gesehener Testdaten.
+
+Reale offene Messdaten haben zwingenden Vorrang; Primärquellen und Provenienz dokumentieren. Synthetische Fälle ausschließlich als Code- und Mathematikkontrollen. Starke mechanische/statistische Vergleichsmodelle verwenden; passive Daten nicht als Kausalintervention verkaufen. Die Forschung darf später Physik, Chemie und Biologie umfassen, hat aktuell aber die BFG-Realisierung als Priorität.
+
+Vor jedem Lauf aktive Workflows prüfen. Höchstens ein neues empirisches Experiment aktiv; bei aktivem Lauf keinen zweiten starten und keinen Abschluss behaupten. GitHub Actions maximal 45 Minuten pro Lauf. Bei Fehlern Logs diagnostizieren, im autorisierten Umfang reparieren und begrenzt erneut starten; keine endlosen identischen Wiederholungen. Ergebnisse, Unsicherheiten, Ausschlüsse und tatsächliche GitHub-Veröffentlichung vor Erfolgsbericht verifizieren.
+
+Veröffentliche überprüfte Neuerungen regelmäßig auf experiment/real-pendulum-decay-2026-10-07 mit Code, Beweisen, Quellen, abgeleiteten Daten und positiven wie negativen Befunden. Aktualisiere Forschungsledger, Beweisregister und bereits berichtete Ergebnisse; spiegle relevante Statusinformationen in das EEG-Branch-Ledger. Keine Zusammenführung in main, Paper-Umschreibung, bezahlten Dienste, Kontaktaufnahme, eingeschränkten Datensätze oder zusätzlichen rekursiven Automationen. Routine-Forschung und GitHub-Veröffentlichung sind bereits autorisiert.
+
+Gib dem Nutzer bei jeder stündlichen Ausführung einen kurzen deutschen Status mit GitHub-Link: neues geprüftes Resultat, abgeschlossenes Paket, laufende Arbeit oder wesentliche Blockade. Wenn unverändert, benenne das ausdrücklich. Wiederhole alte Resultate nicht als neue Entdeckungen. Die Arbeit wird in stündlichen Ausführungen fortgesetzt, nicht als behaupteter ununterbrochener Prozess.
+
