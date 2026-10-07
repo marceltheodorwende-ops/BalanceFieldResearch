@@ -1,0 +1,78 @@
+{
+  "stage": "exploratory coordinate-equivalence validation; no new fitting",
+  "recordings": 15,
+  "holdout_accessed": false,
+  "exclusions": 0,
+  "energy_dimensionless_range": [
+    0.0028053967128340296,
+    0.21007163313145186
+  ],
+  "max_chart_cartesian_absolute_discrepancy": 1.0266129073510655e-06,
+  "numerical_rule_passed": true,
+  "models_sha256": "93837f35366bc36a72adc778a78097b47816b2fdb5265896a5989cffeb7b8ef6",
+  "scores": [
+    {
+      "horizon": 0.1,
+      "model": "exact_energy_phase",
+      "pairs": 4485,
+      "angle_nrmse": 0.04002371919334917,
+      "velocity_nrmse": 0.12609442724317824
+    },
+    {
+      "horizon": 0.1,
+      "model": "sine_mechanics",
+      "pairs": 4485,
+      "angle_nrmse": 0.040023719084714006,
+      "velocity_nrmse": 0.12609442730787776
+    },
+    {
+      "horizon": 0.1,
+      "model": "persistence",
+      "pairs": 4485,
+      "angle_nrmse": 0.4881622810041728,
+      "velocity_nrmse": 0.5069919541899672
+    },
+    {
+      "horizon": 1.6,
+      "model": "exact_energy_phase",
+      "pairs": 4260,
+      "angle_nrmse": 0.06383636761231576,
+      "velocity_nrmse": 0.11780086498705887
+    },
+    {
+      "horizon": 1.6,
+      "model": "sine_mechanics",
+      "pairs": 4260,
+      "angle_nrmse": 0.06383636472242729,
+      "velocity_nrmse": 0.11780086330242448
+    },
+    {
+      "horizon": 1.6,
+      "model": "persistence",
+      "pairs": 4260,
+      "angle_nrmse": 1.1413071364046283,
+      "velocity_nrmse": 1.1513036519132127
+    },
+    {
+      "horizon": 6.4,
+      "model": "exact_energy_phase",
+      "pairs": 3540,
+      "angle_nrmse": 0.08829118460836229,
+      "velocity_nrmse": 0.12874471255105982
+    },
+    {
+      "horizon": 6.4,
+      "model": "sine_mechanics",
+      "pairs": 3540,
+      "angle_nrmse": 0.08829114711568384,
+      "velocity_nrmse": 0.12874468999746486
+    },
+    {
+      "horizon": 6.4,
+      "model": "persistence",
+      "pairs": 3540,
+      "angle_nrmse": 1.4991859289904979,
+      "velocity_nrmse": 1.5026815855602216
+    }
+  ]
+}
