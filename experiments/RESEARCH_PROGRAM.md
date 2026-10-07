@@ -175,3 +175,17 @@ Do not repeat these completion findings as new results. Next package remains
 shared observable calibration, identifiability/closure and intervention audit,
 with development-only code and regular GitHub checkpoints. Strong mathematical
 results are valuable even when no physical realization is yet justified.
+
+## Revision policy requested by owner
+
+At every poor development result, investigate mathematical restructuring of
+BFG carrier, preparation, observable, clock and intervention representation.
+Be creative with internally valid combinations, but preserve failed versions.
+Record failure mechanism, exact derivation, new assumptions, parameter freedom,
+comparison with rivals and remaining identifiability obligations for each version.
+Treat empirical universality as a hypothesis/aspiration, not an established fact.
+Do not rewrite negative findings, invent physical bridges or optimize an opened
+holdout. Revised hypotheses stay development-only until a new full protocol is
+frozen and untouched confirmation data are available. If a new construction
+merely encodes a rival, report that equivalence explicitly. Next meaningful
+updates should describe both constructive successes and unresolved obstacles.
