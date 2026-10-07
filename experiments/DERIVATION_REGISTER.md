@@ -96,3 +96,10 @@ N(f(y+d))=N(y+d)+1 generally differs from N(y)+1; measured code control incremen
 
 
 Current source policy: latest user instruction makes Dynamic Order the sole active paper, with its complete Part I and Part II. Earlier P26 source-pair references describe intake history; equations may now be cited directly from Dynamic Order84–90 and its appendices. Mathematical-control Action37698742480 and PDF checksum verified successfully. P27–P29 retain stated conditional scope; no new empirical force or universal stability claim.
+
+
+## P30 — Explicit augmented event representation
+Dynamic Order sections88–89 permit declared input models and separate event bookkeeping. Define (Xi,n) successor=(U_d Xi,n+1), outside canonical five-component state; a supplied Phi_(hn) decoder has exact closure for fixed physical h. Construction resolves geometry-only clock obstruction, not independent seconds or force calibration.
+
+## P31 — Driven scalar bounded-input robustness
+Using Theorem7 derivative L16/27 and input/output margins proves bound L^k e0+(L rho+eta)(1-L^k)/(1-L), limit16rho/11+27eta/11. Variable input generally has no fixed point. Five local controls pass; no empirical confirmation or full-state contraction claimed. See bfg-driven-clock package.
