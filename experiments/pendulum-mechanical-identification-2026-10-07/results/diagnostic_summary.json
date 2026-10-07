@@ -1,0 +1,375 @@
+{
+  "stage": "post-development diagnostic; no independent confirmation",
+  "recordings": 15,
+  "holdout_accessed": false,
+  "measurement_assumption": "theta_dot equals measured angular velocity",
+  "mean_fraction_balance_residual_beyond_rounding_only": 0.3664997217584863,
+  "mean_relative_angle_balance_rmse": 0.010657080235000085,
+  "rounding_bound_excludes_quadrature_and_sensor_error": true,
+  "mean_fraction_beyond_illustrative_encoder_plus_rounding": 0.00022259321090706735,
+  "encoder_assumption": "illustrative half step per angle endpoint; not calibrated accuracy or velocity uncertainty",
+  "validation_seconds": "40 to 60, common for all windows",
+  "model_window_horizon_scores": [
+    {
+      "fit_until_seconds": 20,
+      "horizon_seconds": 0.05,
+      "model": "gravity",
+      "mean_relative_increment_rmse": 0.4017960550501458
+    },
+    {
+      "fit_until_seconds": 20,
+      "horizon_seconds": 0.05,
+      "model": "viscous",
+      "mean_relative_increment_rmse": 0.4013063534683255
+    },
+    {
+      "fit_until_seconds": 20,
+      "horizon_seconds": 0.05,
+      "model": "quadratic",
+      "mean_relative_increment_rmse": 0.39991524715140353
+    },
+    {
+      "fit_until_seconds": 20,
+      "horizon_seconds": 0.05,
+      "model": "dry",
+      "mean_relative_increment_rmse": 0.4017960550501458
+    },
+    {
+      "fit_until_seconds": 20,
+      "horizon_seconds": 0.05,
+      "model": "mixed",
+      "mean_relative_increment_rmse": 0.39991524715140353
+    },
+    {
+      "fit_until_seconds": 20,
+      "horizon_seconds": 0.1,
+      "model": "gravity",
+      "mean_relative_increment_rmse": 0.2608387832840233
+    },
+    {
+      "fit_until_seconds": 20,
+      "horizon_seconds": 0.1,
+      "model": "viscous",
+      "mean_relative_increment_rmse": 0.26011887000313705
+    },
+    {
+      "fit_until_seconds": 20,
+      "horizon_seconds": 0.1,
+      "model": "quadratic",
+      "mean_relative_increment_rmse": 0.2586961510934023
+    },
+    {
+      "fit_until_seconds": 20,
+      "horizon_seconds": 0.1,
+      "model": "dry",
+      "mean_relative_increment_rmse": 0.2608387832840233
+    },
+    {
+      "fit_until_seconds": 20,
+      "horizon_seconds": 0.1,
+      "model": "mixed",
+      "mean_relative_increment_rmse": 0.2586961510934023
+    },
+    {
+      "fit_until_seconds": 20,
+      "horizon_seconds": 0.2,
+      "model": "gravity",
+      "mean_relative_increment_rmse": 0.13788410376706636
+    },
+    {
+      "fit_until_seconds": 20,
+      "horizon_seconds": 0.2,
+      "model": "viscous",
+      "mean_relative_increment_rmse": 0.137301263595238
+    },
+    {
+      "fit_until_seconds": 20,
+      "horizon_seconds": 0.2,
+      "model": "quadratic",
+      "mean_relative_increment_rmse": 0.13644855900584302
+    },
+    {
+      "fit_until_seconds": 20,
+      "horizon_seconds": 0.2,
+      "model": "dry",
+      "mean_relative_increment_rmse": 0.13797385041312474
+    },
+    {
+      "fit_until_seconds": 20,
+      "horizon_seconds": 0.2,
+      "model": "mixed",
+      "mean_relative_increment_rmse": 0.13644855900584302
+    },
+    {
+      "fit_until_seconds": 20,
+      "horizon_seconds": 0.5,
+      "model": "gravity",
+      "mean_relative_increment_rmse": 0.08741624959130721
+    },
+    {
+      "fit_until_seconds": 20,
+      "horizon_seconds": 0.5,
+      "model": "viscous",
+      "mean_relative_increment_rmse": 0.08723550970910704
+    },
+    {
+      "fit_until_seconds": 20,
+      "horizon_seconds": 0.5,
+      "model": "quadratic",
+      "mean_relative_increment_rmse": 0.08720758831802815
+    },
+    {
+      "fit_until_seconds": 20,
+      "horizon_seconds": 0.5,
+      "model": "dry",
+      "mean_relative_increment_rmse": 0.08798975185898682
+    },
+    {
+      "fit_until_seconds": 20,
+      "horizon_seconds": 0.5,
+      "model": "mixed",
+      "mean_relative_increment_rmse": 0.08727924800480462
+    },
+    {
+      "fit_until_seconds": 30,
+      "horizon_seconds": 0.05,
+      "model": "gravity",
+      "mean_relative_increment_rmse": 0.40179179635259193
+    },
+    {
+      "fit_until_seconds": 30,
+      "horizon_seconds": 0.05,
+      "model": "viscous",
+      "mean_relative_increment_rmse": 0.40132247209011873
+    },
+    {
+      "fit_until_seconds": 30,
+      "horizon_seconds": 0.05,
+      "model": "quadratic",
+      "mean_relative_increment_rmse": 0.3998592023431646
+    },
+    {
+      "fit_until_seconds": 30,
+      "horizon_seconds": 0.05,
+      "model": "dry",
+      "mean_relative_increment_rmse": 0.40179179635259193
+    },
+    {
+      "fit_until_seconds": 30,
+      "horizon_seconds": 0.05,
+      "model": "mixed",
+      "mean_relative_increment_rmse": 0.3998592023431646
+    },
+    {
+      "fit_until_seconds": 30,
+      "horizon_seconds": 0.1,
+      "model": "gravity",
+      "mean_relative_increment_rmse": 0.2608369339271084
+    },
+    {
+      "fit_until_seconds": 30,
+      "horizon_seconds": 0.1,
+      "model": "viscous",
+      "mean_relative_increment_rmse": 0.2601525369115082
+    },
+    {
+      "fit_until_seconds": 30,
+      "horizon_seconds": 0.1,
+      "model": "quadratic",
+      "mean_relative_increment_rmse": 0.25864503862461413
+    },
+    {
+      "fit_until_seconds": 30,
+      "horizon_seconds": 0.1,
+      "model": "dry",
+      "mean_relative_increment_rmse": 0.2608369339271084
+    },
+    {
+      "fit_until_seconds": 30,
+      "horizon_seconds": 0.1,
+      "model": "mixed",
+      "mean_relative_increment_rmse": 0.25864503862461413
+    },
+    {
+      "fit_until_seconds": 30,
+      "horizon_seconds": 0.2,
+      "model": "gravity",
+      "mean_relative_increment_rmse": 0.1378718131364406
+    },
+    {
+      "fit_until_seconds": 30,
+      "horizon_seconds": 0.2,
+      "model": "viscous",
+      "mean_relative_increment_rmse": 0.1372954277738379
+    },
+    {
+      "fit_until_seconds": 30,
+      "horizon_seconds": 0.2,
+      "model": "quadratic",
+      "mean_relative_increment_rmse": 0.13643045721959654
+    },
+    {
+      "fit_until_seconds": 30,
+      "horizon_seconds": 0.2,
+      "model": "dry",
+      "mean_relative_increment_rmse": 0.13791044451852055
+    },
+    {
+      "fit_until_seconds": 30,
+      "horizon_seconds": 0.2,
+      "model": "mixed",
+      "mean_relative_increment_rmse": 0.13643045721959654
+    },
+    {
+      "fit_until_seconds": 30,
+      "horizon_seconds": 0.5,
+      "model": "gravity",
+      "mean_relative_increment_rmse": 0.08591197587512842
+    },
+    {
+      "fit_until_seconds": 30,
+      "horizon_seconds": 0.5,
+      "model": "viscous",
+      "mean_relative_increment_rmse": 0.08574149308835753
+    },
+    {
+      "fit_until_seconds": 30,
+      "horizon_seconds": 0.5,
+      "model": "quadratic",
+      "mean_relative_increment_rmse": 0.08573186063229098
+    },
+    {
+      "fit_until_seconds": 30,
+      "horizon_seconds": 0.5,
+      "model": "dry",
+      "mean_relative_increment_rmse": 0.08623986227773324
+    },
+    {
+      "fit_until_seconds": 30,
+      "horizon_seconds": 0.5,
+      "model": "mixed",
+      "mean_relative_increment_rmse": 0.08590153122321384
+    },
+    {
+      "fit_until_seconds": 40,
+      "horizon_seconds": 0.05,
+      "model": "gravity",
+      "mean_relative_increment_rmse": 0.40179229961045543
+    },
+    {
+      "fit_until_seconds": 40,
+      "horizon_seconds": 0.05,
+      "model": "viscous",
+      "mean_relative_increment_rmse": 0.40133277197111444
+    },
+    {
+      "fit_until_seconds": 40,
+      "horizon_seconds": 0.05,
+      "model": "quadratic",
+      "mean_relative_increment_rmse": 0.39983547185477636
+    },
+    {
+      "fit_until_seconds": 40,
+      "horizon_seconds": 0.05,
+      "model": "dry",
+      "mean_relative_increment_rmse": 0.40179229961045543
+    },
+    {
+      "fit_until_seconds": 40,
+      "horizon_seconds": 0.05,
+      "model": "mixed",
+      "mean_relative_increment_rmse": 0.39983547185477636
+    },
+    {
+      "fit_until_seconds": 40,
+      "horizon_seconds": 0.1,
+      "model": "gravity",
+      "mean_relative_increment_rmse": 0.2608402575094739
+    },
+    {
+      "fit_until_seconds": 40,
+      "horizon_seconds": 0.1,
+      "model": "viscous",
+      "mean_relative_increment_rmse": 0.26015619945201623
+    },
+    {
+      "fit_until_seconds": 40,
+      "horizon_seconds": 0.1,
+      "model": "quadratic",
+      "mean_relative_increment_rmse": 0.2586187409442774
+    },
+    {
+      "fit_until_seconds": 40,
+      "horizon_seconds": 0.1,
+      "model": "dry",
+      "mean_relative_increment_rmse": 0.2608402575094739
+    },
+    {
+      "fit_until_seconds": 40,
+      "horizon_seconds": 0.1,
+      "model": "mixed",
+      "mean_relative_increment_rmse": 0.2586187409442774
+    },
+    {
+      "fit_until_seconds": 40,
+      "horizon_seconds": 0.2,
+      "model": "gravity",
+      "mean_relative_increment_rmse": 0.13785730103569402
+    },
+    {
+      "fit_until_seconds": 40,
+      "horizon_seconds": 0.2,
+      "model": "viscous",
+      "mean_relative_increment_rmse": 0.13723066915460158
+    },
+    {
+      "fit_until_seconds": 40,
+      "horizon_seconds": 0.2,
+      "model": "quadratic",
+      "mean_relative_increment_rmse": 0.1363343608857156
+    },
+    {
+      "fit_until_seconds": 40,
+      "horizon_seconds": 0.2,
+      "model": "dry",
+      "mean_relative_increment_rmse": 0.13785730103569402
+    },
+    {
+      "fit_until_seconds": 40,
+      "horizon_seconds": 0.2,
+      "model": "mixed",
+      "mean_relative_increment_rmse": 0.1363343608857156
+    },
+    {
+      "fit_until_seconds": 40,
+      "horizon_seconds": 0.5,
+      "model": "gravity",
+      "mean_relative_increment_rmse": 0.08598416167233523
+    },
+    {
+      "fit_until_seconds": 40,
+      "horizon_seconds": 0.5,
+      "model": "viscous",
+      "mean_relative_increment_rmse": 0.08579824558917294
+    },
+    {
+      "fit_until_seconds": 40,
+      "horizon_seconds": 0.5,
+      "model": "quadratic",
+      "mean_relative_increment_rmse": 0.08576850448053205
+    },
+    {
+      "fit_until_seconds": 40,
+      "horizon_seconds": 0.5,
+      "model": "dry",
+      "mean_relative_increment_rmse": 0.08625391670463316
+    },
+    {
+      "fit_until_seconds": 40,
+      "horizon_seconds": 0.5,
+      "model": "mixed",
+      "mean_relative_increment_rmse": 0.08593484115929535
+    }
+  ],
+  "no_best_configuration_selected": true
+}

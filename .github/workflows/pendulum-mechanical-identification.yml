@@ -33,6 +33,7 @@ jobs:
           sha256sum -c SHA256SUMS.txt
           python -m unittest -v test_identify.py
           python identify.py ../bfg-realization-development-2026-10-07/data results
+          python diagnostics.py ../bfg-realization-development-2026-10-07/data results
       - uses: actions/upload-artifact@v4
         with:
           name: Development-mechanical-identification

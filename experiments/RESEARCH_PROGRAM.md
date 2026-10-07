@@ -267,3 +267,26 @@ future status may repeat current state but must label it as unchanged.
 Mechanical identification reproduction run: 37686204956, observed in progress.
 Do not launch another empirical workflow while it is active. Local analysis
 and GitHub summary publication verified; remote completion not yet claimed.
+
+## Measurement, sensitivity and carrier checkpoint
+
+Previous mechanical run 37686204956 verified successful; logs match local scores,
+four controls and verified development downloads; artifact 11512175109 uploaded.
+MEASUREMENT_AND_STABILITY.md adds primary PASCO PS-3220 resolution evidence
+(0.18 degrees, 2000 divisions/revolution) and diagnostics on 15 attempt-1 records.
+Mean angle/velocity balance error ~1.07%. Rounding-only exceedance 36.65%; an
+illustrative half-encoder-step endpoint envelope reduces it to 0.0223%.
+This is not a calibrated sensor accuracy or complete velocity uncertainty model.
+900 window/horizon/model configurations are published, with common 40–60 second
+development validation; no best configuration selected. Gravity explains most
+short-horizon improvement; friction ranking differences remain small.
+REFERENCE_CARRIER.md and reference_carrier.py construct an anchored positive
+Gram carrier retaining signed angle and velocity with explicit instruments.
+200 reconstruction/joint-unitary controls passed (max residual 6.89e-15).
+Operator preparation is a hypothesis; physical transition closure is not proved.
+Next: test actual ambient update and instrument propagation for that candidate,
+with measurement-aware observables and strong mechanical rivals, development only.
+Keep 30 reserved recordings sealed. This package push starts one bounded updated
+mechanical diagnostic reproduction; verify status before another empirical run.
+Hourly status and regular publication remain on this existing branch. Report the
+checkpoint as exploratory; do not turn the representation into a physical proof.
