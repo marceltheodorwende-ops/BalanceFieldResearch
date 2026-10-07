@@ -263,3 +263,7 @@ Next: primary sensor/geometry calibration and measurement consistency, window
 and horizon sensitivity, then shared cross-condition BFG coupling constraints.
 Keep all reserved attempts 2 and 3 sealed. This local checkpoint is reported;
 future status may repeat current state but must label it as unchanged.
+
+Mechanical identification reproduction run: 37686204956, observed in progress.
+Do not launch another empirical workflow while it is active. Local analysis
+and GitHub summary publication verified; remote completion not yet claimed.
