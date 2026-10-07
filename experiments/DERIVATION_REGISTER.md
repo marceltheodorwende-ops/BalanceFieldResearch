@@ -93,3 +93,6 @@ Dynamic Order Theorems7–8: constant0<d<3/4 gives geometry contraction bound16/
 
 ## P29 — Old-clock incompatibility with driven fixed point
 N(f(y+d))=N(y+d)+1 generally differs from N(y)+1; measured code control increment .5296568030878593 at y=.25,d=.15. If yk converges to y*>0 and N is continuous there, N(yk+1)-N(yk) tends to0 and cannot identically equal1. New event bookkeeping or singular/augmented clock needs explicit declaration and physical calibration. Current pendulum readout cannot absorb the new input unchanged.
+
+
+Current source policy: latest user instruction makes Dynamic Order the sole active paper, with its complete Part I and Part II. Earlier P26 source-pair references describe intake history; equations may now be cited directly from Dynamic Order84–90 and its appendices. Mathematical-control Action37698742480 and PDF checksum verified successfully. P27–P29 retain stated conditional scope; no new empirical force or universal stability claim.
