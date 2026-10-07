@@ -1,0 +1,10 @@
+{
+  "kind": "hypothetical impulse code/domain controls anchored to real passive states; NOT intervention measurements",
+  "recordings": 15,
+  "unique_real_states": 4500,
+  "control_applications": 13500,
+  "chart_invalid": 0,
+  "maximum_work_residual": 1.5543122344752192e-15,
+  "holdout_accessed": false,
+  "models_sha256": "93837f35366bc36a72adc778a78097b47816b2fdb5265896a5989cffeb7b8ef6"
+}

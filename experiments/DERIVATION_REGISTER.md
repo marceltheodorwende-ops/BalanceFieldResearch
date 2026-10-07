@@ -119,3 +119,13 @@ Statement: for the additional passive sine generator, the punctured libration we
 
 ## P35 — Conditional positivity and observable conditioning
 Statement: e0 exp(-2bt)<=e(t)<=e0<2; angle inverse Jacobian bounded by1/sqrt(1-e_max/2), phase Jacobian norm1/sqrt(2e). Log-energy RK4 stages retain the upper energy domain because all log derivatives are nonpositive; accuracy separately controlled, no global floating-point guarantee. Dependencies P34. Counterexamples: rest phase undefined, separatrix conditioning diverges, phase need not increase under strong damping. Status: proved conditional invariant-region/conditioning statements; finite-horizon controls passed; absolute physical or predictive stability not claimed.
+
+
+## P36 — Exact signed mechanical input interface
+Active Dynamic Order88.2 and89(161)–(162), dependencies P30/P34. Under explicitly supplied torque/inertia, forced q,p chain yields e_dot=-bp²+pu and impulse e+=e-kappa sqrt(2e)sinphi+kappa²/2. Exact work, inverse/composition, translation nonexpansiveness and rest-safe q,p demonstrated; phase singularity and forced chart exits explicit. Positive d does not select signed j. Conditional derivation and code/domain audit passed; passive measurements supply no causal confirmation. Evidence: bfg-input-phase-2026-10-08/DERIVATION.md.
+
+## P37 — Calibrated impulse/inertia identification
+Known nonzero J and independently calibrated delta w imply I=J/delta w under instantaneous-kick premise; unknownJ leaves common scaling. Finite-pulse three-regressor integral system uniquely identifies(a,b,1/I) exactly when full column rank. Conditional linear-algebra derivation, no actual calibrated torque data or identified I claimed.
+
+## P38 — Driven scalar regular-factor tangent obstruction
+Constantd scalar source has DU=diag(1,1,lambda),lambda<=16/27. For fixed passive targeta,b>0 and h>0, M=exp(hJ) has no eigenvalue1. Differentiated semiconjugacy gives BDU=MB; first two columns vanish, leaving rankB<=1. Nonresonant underdamped target forcesB=0. Thus no regular rank2 physical-state factor at the driven scalar fixed point under these premises. This does not rule out singular/orbit-specific readout, counter extension or matrix BFG. General proof and independent numerical Sylvester control pass. Evidence: FORCE_DERIVATION_AUDIT.md. Next dependency: matrix regular differential and internal force-selection constraints.
