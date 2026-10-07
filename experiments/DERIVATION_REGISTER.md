@@ -33,3 +33,13 @@ mechanical flow. Existing nonidentifiability arguments constrain the current
 assumptions; they are not a universal impossibility theorem for every future BFG
 extension. Any additional axioms or coupling principles must be separately named,
 supported and tested. Update evidence and status after each substantive package.
+
+## Additional shared-calibration evidence
+
+P14: a(L)=gL/(L^2+I0/m) is derived conditional on a point bob and constant
+pivot inertia. Shared ratio fits 15 development records with nearly unchanged
+motion scores and fewer parameters; Action37689622515 verifies reproduction.
+This constrains P10 using an added mechanical hypothesis, not a BFG-only proof.
+P15: U_j=U^(2^j) implies U_(j+1)=U_j^2 and exact dyadic clock consistency.
+This is derived temporal hierarchy, not observed physical fractality. Three
+scalar controls pass. Fractal extensions are optional and require justification.
