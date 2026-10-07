@@ -1,0 +1,9 @@
+{
+  "kind": "post-development structural bound, not confirmation",
+  "max_scalar_energy_retention": 0.35629806077953297,
+  "maximizing_y": 0.46939642456999464,
+  "pairs_observed_retention_above_half": 1364,
+  "pairs_observed_retention_above_exact_max": 1364,
+  "pairs": 1364,
+  "fraction_above_exact_max": 1.0
+}

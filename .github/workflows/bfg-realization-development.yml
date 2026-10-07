@@ -1,0 +1,39 @@
+name: Development-only BFG realization
+on:
+  push:
+    branches: [experiment/real-pendulum-decay-2026-10-07]
+    paths:
+      - experiments/bfg-realization-development-2026-10-07/**
+      - .github/workflows/bfg-realization-development.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: bfg-realization-development
+  cancel-in-progress: false
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify and reproduce development-only diagnostics
+        shell: bash
+        working-directory: experiments/bfg-realization-development-2026-10-07
+        run: |
+          set -euo pipefail
+          sha256sum -c SHA256SUMS.txt
+          python -m unittest -v test_explore.py
+          python fetch_development.py
+          python explore.py .
+          python noise_stress.py
+          python compress_pairs.py
+          python structural_bound.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: BFG-development-only-realization
+          path: experiments/bfg-realization-development-2026-10-07/results/
+          retention-days: 30

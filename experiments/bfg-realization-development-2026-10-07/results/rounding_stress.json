@@ -1,0 +1,11 @@
+{
+  "kind": "exploratory uniform half-rounding-unit perturbations; not confidence intervals",
+  "seeds": 30,
+  "mean_record_bfg_error_range": [
+    0.7129221239669465,
+    0.7129709412520129
+  ],
+  "annotations_fixed": true,
+  "scale_fixed": true,
+  "holdout_accessed": false
+}

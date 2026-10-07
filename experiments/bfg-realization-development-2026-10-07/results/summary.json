@@ -1,0 +1,25 @@
+{
+  "stage": "exploratory; development only; in-sample rival fit",
+  "recordings": 15,
+  "pairs": 1364,
+  "holdout_files_accessed": 0,
+  "scale_J_per_kg": 1.224416203419127,
+  "mean_record_errors": {
+    "bfg_error": 0.7129425648155971,
+    "persistence_error": 0.06528828560164199,
+    "fitted_decay_error": 0.05407186347130753
+  },
+  "low_amplitude_pairs": 311,
+  "low_amplitude_median_observed_ratio": 0.967392023983118,
+  "low_amplitude_median_bfg_ratio": 0.061545160370376044,
+  "median_kinetic_fraction": 0.0,
+  "rejected_pairs": 0,
+  "confirmatory_ready": false,
+  "limitations": [
+    "Carrier map and clock are added hypotheses",
+    "No causal intervention identification",
+    "Peak annotations use future samples",
+    "Rival is fit and scored in-sample",
+    "No population uncertainty or holdout inference"
+  ]
+}
