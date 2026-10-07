@@ -189,3 +189,19 @@ holdout. Revised hypotheses stay development-only until a new full protocol is
 frozen and untouched confirmation data are available. If a new construction
 merely encodes a rival, report that equivalence explicitly. Next meaningful
 updates should describe both constructive successes and unresolved obstacles.
+
+## Physical calibration / intervention audit
+
+New development-only package: experiments/bfg-realization-theory-2026-10-07/
+PHYSICAL_CLOSURE_AUDIT.md, calibration_audit.py and calibration_result.json.
+A fixed inverse-log observable imposes constant event retention. Rounding-only
+feasibility intervals on existing 1,364 development pairs have empty intersection:
+lower 1.51589, upper 0.61761; conflicting witnesses are within the same recording.
+Not a full sensor-error model; apparent increases do not establish energy creation.
+A mathematically explicit continuous interpolation and rate intervention map is
+constructed, but reproduces an ordinary exponential decay rival in new coordinates.
+Physical observable, rate/intervention calibration, clock and full carrier closure
+remain unestablished. The user's request to close the point does not supply a
+physical derivation. Report this limitation honestly and continue the listed
+development tasks; never claim the physical bridge is completed or open holdout.
+This checkpoint's findings are reported to the user; no duplicate notification.

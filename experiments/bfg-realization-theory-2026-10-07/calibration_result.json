@@ -1,0 +1,31 @@
+{
+  "stage": "development-only physical calibration feasibility",
+  "pairs": 1364,
+  "holdout_accessed": false,
+  "rounding_half_width_rad": 0.0005,
+  "intersection_lower": 1.5158909135935055,
+  "intersection_upper": 0.6176081126281858,
+  "common_constant_retention_feasible": false,
+  "lower_bound_witness": {
+    "recording": "len3_cond2_1.csv",
+    "time": "58.27",
+    "angle": "-0.129",
+    "next_angle": "0.16",
+    "ratio_lo": 1.5158909135935055,
+    "ratio_hi": 1.5588667861874927
+  },
+  "upper_bound_witness": {
+    "recording": "len3_cond2_1.csv",
+    "time": "54.97",
+    "angle": "0.173",
+    "next_angle": "-0.135",
+    "ratio_lo": 0.601562165301081,
+    "ratio_hi": 0.6176081126281858
+  },
+  "condition_median_retention": {
+    "1": 1.0,
+    "2": 0.9772367928020137,
+    "3": 0.961897963033947
+  },
+  "limitation": "Only cleaned rounding uncertainty; not a full sensor-error model or causal confirmation"
+}
