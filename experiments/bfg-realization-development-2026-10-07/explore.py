@@ -35,7 +35,7 @@ def loss(xs, model):
 def write_csv(path, rows):
     if not rows: raise ValueError('empty output')
     with path.open('w', newline='') as f:
-        writer=csv.DictWriter(f,fieldnames=list(rows[0]));writer.writeheader();writer.writerows(rows)
+        writer=csv.DictWriter(f,fieldnames=list(rows[0]),lineterminator='\n');writer.writeheader();writer.writerows(rows)
 
 def main(root):
     root=Path(root); out=root/'results';out.mkdir(exist_ok=True)
