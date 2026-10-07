@@ -64,3 +64,10 @@ Rigid fixed-length arm, uniform gravity, linear-in-height potential and calibrat
 
 ## P21 — Harmonic development stress and identifiability
 Real15 attempt-1 recordings: adding nonnegative second-harmonic potential worsens6.4s forecasts, with scaled condition up to221.66. Near-rest Taylor expansion exposes combinations A+2C and A+8C; confounding is a plausible limitation, not a uniquely proved error cause. Preserve negative result, no holdout tuning. Three local independent controls pass; remote reproduction pending.
+
+
+## P22 — Conditional stability and global counterexample
+For supplied sine generator a,b>0, |theta0|<pi,E0<2a, energy invariance and LaSalle prove convergence to downward rest. At b=0 convergence not implied. Upright eigenvalue(-b+sqrt(b²+4a))/2>0 refutes absolute global stability. Weighted log-norm gives finite-horizon sensitivity bound, potentially loose. Two local controls pass; see stability package. P21 prior remote reproduction37691694923 verified successful in ledger.
+
+## P23 — Real-data robustness stress
+Fifteen development recordings;11 one-factor scenarios; clock/frequency sensitivity materially amplifies6.4s error for both better nonlinear realizations. No joint worst-case guarantee, no complete measurement uncertainty, no new force derivation. Preserve all failures and no exclusions. Remote reproduction pending.

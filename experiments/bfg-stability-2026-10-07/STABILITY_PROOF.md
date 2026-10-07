@@ -1,0 +1,13 @@
+# Conditional dynamical stability, distinct from forecast accuracy
+
+Assume the already declared mechanical sine generator, a>0,b>0, and calibrated seconds. The BFG scalar clock representation is unchanged. This proof concerns its supplied physical flow, not a derivation of a,b from BFG.
+
+E(theta,w)=w²/2+a(1-cos(theta)) has derivative E'=-b*w²<=0. For an initial unwrapped angle |theta0|<pi and E0<2a, choose c with E0<=c<2a. The connected sublevel set around zero, {E<=c, |theta|<pi}, is compact and positively invariant: at theta=+/-pi, E>=2a, so the solution cannot cross either boundary. E is positive definite there. Thus the downward equilibrium is Lyapunov stable. On E'=0, w=0; invariance also requires w'=-a*sin(theta)=0. Within the sublevel component only theta=0 satisfies this. LaSalle's invariance principle therefore gives convergence to (0,0). At b=0 this asymptotic conclusion does not hold; energy is conserved. No claim is made about rotations outside this basin.
+
+Absolute global stability is false for this physical flow: at the upright equilibrium(theta=pi,w=0), a perturbation eta has linear equation eta''+b*eta'-a*eta=0. The characteristic root (-b+sqrt(b²+4a))/2 is positive. This concrete instability remains even when the dynamics is encoded in BFG coordinates. A carrier coordinate change cannot turn the physical upright state into a robust attracting prediction.
+
+For finite-horizon sensitivity, let x=(theta,w/sqrt(a)) with a fixed reference a>0. The scaled vector field has Jacobian [[0,sqrt(a)],[-sqrt(a)*cos(theta),-b]]. Its symmetric part has maximal eigenvalue (-b+sqrt(b²+a*(1-cos(theta))²))/2 <= (-b+sqrt(b²+4a))/2 = L. For two solutions with identical a,b, the mean-value formula and Gronwall yield ||delta x(t)|| <= exp(L*t)||delta x(0)||. This is a valid but potentially very loose global perturbation bound; it is not contraction. It does not cover parameter changes without a separate forcing term. The empirical one-factor stress is descriptive sensitivity, not a rigorous joint uncertainty envelope.
+
+A sharper optional bound on any convex corridor |theta|<=r<pi uses 1-cos(theta)<=1-cos(r) in the same formula, provided both solutions stay in that corridor over the full horizon. This premise must be checked and cannot be inferred from nominal prediction accuracy alone.
+
+Consequently distinguish: (1) conditional asymptotic stability of a downward physical state; (2) numerical convergence of a solver; (3) robustness of forecast errors under declared perturbations. The basin certificate establishes (1) for qualifying inputs; independent numerical controls support(2); stress results investigate(3). None proves absolute stability against all data, parameters or horizons.

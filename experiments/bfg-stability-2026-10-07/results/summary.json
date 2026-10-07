@@ -1,0 +1,643 @@
+{
+  "stage": "exploratory deterministic one-factor stress on real development data",
+  "holdout_accessed": false,
+  "aggregate": [
+    {
+      "horizon_seconds": 0.1,
+      "model": "sine_flow",
+      "scenario": "nominal",
+      "pairs": 4485,
+      "angle": 0.040023719103834045,
+      "velocity": 0.12609442729680959
+    },
+    {
+      "horizon_seconds": 0.1,
+      "model": "sine_flow",
+      "scenario": "angle_minus",
+      "pairs": 4485,
+      "angle": 0.042584655517606006,
+      "velocity": 0.12599069894137468
+    },
+    {
+      "horizon_seconds": 0.1,
+      "model": "sine_flow",
+      "scenario": "angle_plus",
+      "pairs": 4485,
+      "angle": 0.041532536806228613,
+      "velocity": 0.1265980435631424
+    },
+    {
+      "horizon_seconds": 0.1,
+      "model": "sine_flow",
+      "scenario": "velocity_minus",
+      "pairs": 4485,
+      "angle": 0.04003964560425651,
+      "velocity": 0.1261307836052728
+    },
+    {
+      "horizon_seconds": 0.1,
+      "model": "sine_flow",
+      "scenario": "velocity_plus",
+      "pairs": 4485,
+      "angle": 0.04001068051487345,
+      "velocity": 0.1260614005531949
+    },
+    {
+      "horizon_seconds": 0.1,
+      "model": "sine_flow",
+      "scenario": "gravity_minus",
+      "pairs": 4485,
+      "angle": 0.040042288170097674,
+      "velocity": 0.12624097155384653
+    },
+    {
+      "horizon_seconds": 0.1,
+      "model": "sine_flow",
+      "scenario": "gravity_plus",
+      "pairs": 4485,
+      "angle": 0.04004415350930039,
+      "velocity": 0.1261329796332925
+    },
+    {
+      "horizon_seconds": 0.1,
+      "model": "sine_flow",
+      "scenario": "damping_minus",
+      "pairs": 4485,
+      "angle": 0.040024185868915645,
+      "velocity": 0.12609691549892724
+    },
+    {
+      "horizon_seconds": 0.1,
+      "model": "sine_flow",
+      "scenario": "damping_plus",
+      "pairs": 4485,
+      "angle": 0.04002325517326234,
+      "velocity": 0.12609195302640677
+    },
+    {
+      "horizon_seconds": 0.1,
+      "model": "sine_flow",
+      "scenario": "clock_minus",
+      "pairs": 4485,
+      "angle": 0.04010278065359958,
+      "velocity": 0.12633848853733143
+    },
+    {
+      "horizon_seconds": 0.1,
+      "model": "sine_flow",
+      "scenario": "clock_plus",
+      "pairs": 4485,
+      "angle": 0.04057031891717465,
+      "velocity": 0.1260568931115808
+    },
+    {
+      "horizon_seconds": 0.1,
+      "model": "phase_observable",
+      "scenario": "nominal",
+      "pairs": 4485,
+      "angle": 0.040097504938210446,
+      "velocity": 0.12633473821528016
+    },
+    {
+      "horizon_seconds": 0.1,
+      "model": "phase_observable",
+      "scenario": "angle_minus",
+      "pairs": 4485,
+      "angle": 0.04265680755403537,
+      "velocity": 0.12623071104414352
+    },
+    {
+      "horizon_seconds": 0.1,
+      "model": "phase_observable",
+      "scenario": "angle_plus",
+      "pairs": 4485,
+      "angle": 0.04160416645687812,
+      "velocity": 0.12683791909248807
+    },
+    {
+      "horizon_seconds": 0.1,
+      "model": "phase_observable",
+      "scenario": "velocity_minus",
+      "pairs": 4485,
+      "angle": 0.040113440763878815,
+      "velocity": 0.12637112604740863
+    },
+    {
+      "horizon_seconds": 0.1,
+      "model": "phase_observable",
+      "scenario": "velocity_plus",
+      "pairs": 4485,
+      "angle": 0.04008445422148824,
+      "velocity": 0.12630167623666805
+    },
+    {
+      "horizon_seconds": 0.1,
+      "model": "phase_observable",
+      "scenario": "gravity_minus",
+      "pairs": 4485,
+      "angle": 0.040115225334697156,
+      "velocity": 0.1264771464332983
+    },
+    {
+      "horizon_seconds": 0.1,
+      "model": "phase_observable",
+      "scenario": "gravity_plus",
+      "pairs": 4485,
+      "angle": 0.040118885093375016,
+      "velocity": 0.12637766714855064
+    },
+    {
+      "horizon_seconds": 0.1,
+      "model": "phase_observable",
+      "scenario": "damping_minus",
+      "pairs": 4485,
+      "angle": 0.040097972780505454,
+      "velocity": 0.1263372359840673
+    },
+    {
+      "horizon_seconds": 0.1,
+      "model": "phase_observable",
+      "scenario": "damping_plus",
+      "pairs": 4485,
+      "angle": 0.040097039908613234,
+      "velocity": 0.12633225427297437
+    },
+    {
+      "horizon_seconds": 0.1,
+      "model": "phase_observable",
+      "scenario": "clock_minus",
+      "pairs": 4485,
+      "angle": 0.04017601075669365,
+      "velocity": 0.12656877341967657
+    },
+    {
+      "horizon_seconds": 0.1,
+      "model": "phase_observable",
+      "scenario": "clock_plus",
+      "pairs": 4485,
+      "angle": 0.04064350896079871,
+      "velocity": 0.126306725975813
+    },
+    {
+      "horizon_seconds": 1.6,
+      "model": "sine_flow",
+      "scenario": "nominal",
+      "pairs": 4260,
+      "angle": 0.06383636475834226,
+      "velocity": 0.11780086332343499
+    },
+    {
+      "horizon_seconds": 1.6,
+      "model": "sine_flow",
+      "scenario": "angle_minus",
+      "pairs": 4260,
+      "angle": 0.0659864574237287,
+      "velocity": 0.11705232119334949
+    },
+    {
+      "horizon_seconds": 1.6,
+      "model": "sine_flow",
+      "scenario": "angle_plus",
+      "pairs": 4260,
+      "angle": 0.06467071314954057,
+      "velocity": 0.1192555512312119
+    },
+    {
+      "horizon_seconds": 1.6,
+      "model": "sine_flow",
+      "scenario": "velocity_minus",
+      "pairs": 4260,
+      "angle": 0.06391933850827186,
+      "velocity": 0.11781496122184312
+    },
+    {
+      "horizon_seconds": 1.6,
+      "model": "sine_flow",
+      "scenario": "velocity_plus",
+      "pairs": 4260,
+      "angle": 0.0637557295399099,
+      "velocity": 0.11778966646488381
+    },
+    {
+      "horizon_seconds": 1.6,
+      "model": "sine_flow",
+      "scenario": "gravity_minus",
+      "pairs": 4260,
+      "angle": 0.07288128893764757,
+      "velocity": 0.12287867598855226
+    },
+    {
+      "horizon_seconds": 1.6,
+      "model": "sine_flow",
+      "scenario": "gravity_plus",
+      "pairs": 4260,
+      "angle": 0.07993585904032045,
+      "velocity": 0.12692127196935052
+    },
+    {
+      "horizon_seconds": 1.6,
+      "model": "sine_flow",
+      "scenario": "damping_minus",
+      "pairs": 4260,
+      "angle": 0.06381121587239533,
+      "velocity": 0.11780085311688268
+    },
+    {
+      "horizon_seconds": 1.6,
+      "model": "sine_flow",
+      "scenario": "damping_plus",
+      "pairs": 4260,
+      "angle": 0.06386351548654193,
+      "velocity": 0.11780192195048908
+    },
+    {
+      "horizon_seconds": 1.6,
+      "model": "sine_flow",
+      "scenario": "clock_minus",
+      "pairs": 4260,
+      "angle": 0.09831374748036097,
+      "velocity": 0.1394560141985763
+    },
+    {
+      "horizon_seconds": 1.6,
+      "model": "sine_flow",
+      "scenario": "clock_plus",
+      "pairs": 4260,
+      "angle": 0.1092122016845293,
+      "velocity": 0.146077298538324
+    },
+    {
+      "horizon_seconds": 1.6,
+      "model": "phase_observable",
+      "scenario": "nominal",
+      "pairs": 4260,
+      "angle": 0.06395076129648045,
+      "velocity": 0.11817740723918717
+    },
+    {
+      "horizon_seconds": 1.6,
+      "model": "phase_observable",
+      "scenario": "angle_minus",
+      "pairs": 4260,
+      "angle": 0.0661009844198145,
+      "velocity": 0.11742724510456318
+    },
+    {
+      "horizon_seconds": 1.6,
+      "model": "phase_observable",
+      "scenario": "angle_plus",
+      "pairs": 4260,
+      "angle": 0.06478545812924517,
+      "velocity": 0.11963199251257148
+    },
+    {
+      "horizon_seconds": 1.6,
+      "model": "phase_observable",
+      "scenario": "velocity_minus",
+      "pairs": 4260,
+      "angle": 0.06403370603843427,
+      "velocity": 0.11819152452078167
+    },
+    {
+      "horizon_seconds": 1.6,
+      "model": "phase_observable",
+      "scenario": "velocity_plus",
+      "pairs": 4260,
+      "angle": 0.06387015232936648,
+      "velocity": 0.11816618862991497
+    },
+    {
+      "horizon_seconds": 1.6,
+      "model": "phase_observable",
+      "scenario": "gravity_minus",
+      "pairs": 4260,
+      "angle": 0.07307133142262659,
+      "velocity": 0.1232028099025127
+    },
+    {
+      "horizon_seconds": 1.6,
+      "model": "phase_observable",
+      "scenario": "gravity_plus",
+      "pairs": 4260,
+      "angle": 0.07996535159229154,
+      "velocity": 0.1272994161753776
+    },
+    {
+      "horizon_seconds": 1.6,
+      "model": "phase_observable",
+      "scenario": "damping_minus",
+      "pairs": 4260,
+      "angle": 0.06392608211361553,
+      "velocity": 0.11817777553826507
+    },
+    {
+      "horizon_seconds": 1.6,
+      "model": "phase_observable",
+      "scenario": "damping_plus",
+      "pairs": 4260,
+      "angle": 0.06397743547421235,
+      "velocity": 0.11817808144592507
+    },
+    {
+      "horizon_seconds": 1.6,
+      "model": "phase_observable",
+      "scenario": "clock_minus",
+      "pairs": 4260,
+      "angle": 0.0985152586451708,
+      "velocity": 0.1396975513565136
+    },
+    {
+      "horizon_seconds": 1.6,
+      "model": "phase_observable",
+      "scenario": "clock_plus",
+      "pairs": 4260,
+      "angle": 0.10919775499969754,
+      "velocity": 0.14642802488371354
+    },
+    {
+      "horizon_seconds": 6.4,
+      "model": "sine_flow",
+      "scenario": "nominal",
+      "pairs": 3540,
+      "angle": 0.08829114723244572,
+      "velocity": 0.12874469006772035
+    },
+    {
+      "horizon_seconds": 6.4,
+      "model": "sine_flow",
+      "scenario": "angle_minus",
+      "pairs": 3540,
+      "angle": 0.08850317586934767,
+      "velocity": 0.12845103073561487
+    },
+    {
+      "horizon_seconds": 6.4,
+      "model": "sine_flow",
+      "scenario": "angle_plus",
+      "pairs": 3540,
+      "angle": 0.08958498483923122,
+      "velocity": 0.12947127982234452
+    },
+    {
+      "horizon_seconds": 6.4,
+      "model": "sine_flow",
+      "scenario": "velocity_minus",
+      "pairs": 3540,
+      "angle": 0.08827681644329109,
+      "velocity": 0.12871766398909348
+    },
+    {
+      "horizon_seconds": 6.4,
+      "model": "sine_flow",
+      "scenario": "velocity_plus",
+      "pairs": 3540,
+      "angle": 0.08830693374108493,
+      "velocity": 0.12877429325132103
+    },
+    {
+      "horizon_seconds": 6.4,
+      "model": "sine_flow",
+      "scenario": "gravity_minus",
+      "pairs": 3540,
+      "angle": 0.1540025450960447,
+      "velocity": 0.18533098075306353
+    },
+    {
+      "horizon_seconds": 6.4,
+      "model": "sine_flow",
+      "scenario": "gravity_plus",
+      "pairs": 3540,
+      "angle": 0.2054933175743994,
+      "velocity": 0.2216842105393662
+    },
+    {
+      "horizon_seconds": 6.4,
+      "model": "sine_flow",
+      "scenario": "damping_minus",
+      "pairs": 3540,
+      "angle": 0.08793868135400965,
+      "velocity": 0.12853401649899798
+    },
+    {
+      "horizon_seconds": 6.4,
+      "model": "sine_flow",
+      "scenario": "damping_plus",
+      "pairs": 3540,
+      "angle": 0.0886605943128022,
+      "velocity": 0.12896745548695907
+    },
+    {
+      "horizon_seconds": 6.4,
+      "model": "sine_flow",
+      "scenario": "clock_minus",
+      "pairs": 3540,
+      "angle": 0.29487446377885007,
+      "velocity": 0.3163937117068496
+    },
+    {
+      "horizon_seconds": 6.4,
+      "model": "sine_flow",
+      "scenario": "clock_plus",
+      "pairs": 3540,
+      "angle": 0.3517889941916953,
+      "velocity": 0.360451996123313
+    },
+    {
+      "horizon_seconds": 6.4,
+      "model": "phase_observable",
+      "scenario": "nominal",
+      "pairs": 3540,
+      "angle": 0.08829706739009925,
+      "velocity": 0.12897420152899353
+    },
+    {
+      "horizon_seconds": 6.4,
+      "model": "phase_observable",
+      "scenario": "angle_minus",
+      "pairs": 3540,
+      "angle": 0.08850921806730426,
+      "velocity": 0.12867970757708003
+    },
+    {
+      "horizon_seconds": 6.4,
+      "model": "phase_observable",
+      "scenario": "angle_plus",
+      "pairs": 3540,
+      "angle": 0.08959326061661597,
+      "velocity": 0.12970166355877452
+    },
+    {
+      "horizon_seconds": 6.4,
+      "model": "phase_observable",
+      "scenario": "velocity_minus",
+      "pairs": 3540,
+      "angle": 0.08828270515354414,
+      "velocity": 0.12894700956492533
+    },
+    {
+      "horizon_seconds": 6.4,
+      "model": "phase_observable",
+      "scenario": "velocity_plus",
+      "pairs": 3540,
+      "angle": 0.08831288945843395,
+      "velocity": 0.12900397144575035
+    },
+    {
+      "horizon_seconds": 6.4,
+      "model": "phase_observable",
+      "scenario": "gravity_minus",
+      "pairs": 3540,
+      "angle": 0.1545577823943661,
+      "velocity": 0.18604079469626095
+    },
+    {
+      "horizon_seconds": 6.4,
+      "model": "phase_observable",
+      "scenario": "gravity_plus",
+      "pairs": 3540,
+      "angle": 0.20514478542014788,
+      "velocity": 0.22150136892401423
+    },
+    {
+      "horizon_seconds": 6.4,
+      "model": "phase_observable",
+      "scenario": "damping_minus",
+      "pairs": 3540,
+      "angle": 0.08794974980316914,
+      "velocity": 0.12876724243364163
+    },
+    {
+      "horizon_seconds": 6.4,
+      "model": "phase_observable",
+      "scenario": "damping_plus",
+      "pairs": 3540,
+      "angle": 0.08866139191753804,
+      "velocity": 0.12919324154192374
+    },
+    {
+      "horizon_seconds": 6.4,
+      "model": "phase_observable",
+      "scenario": "clock_minus",
+      "pairs": 3540,
+      "angle": 0.29531887506444304,
+      "velocity": 0.31712762573731007
+    },
+    {
+      "horizon_seconds": 6.4,
+      "model": "phase_observable",
+      "scenario": "clock_plus",
+      "pairs": 3540,
+      "angle": 0.35133751913951894,
+      "velocity": 0.3602008163196076
+    }
+  ],
+  "basins": [
+    {
+      "recording": "len1_cond1_1.csv",
+      "states": 300,
+      "certified": 300,
+      "max_energy_over_a": 0.21007163313145183,
+      "viscous": 0.009654817868988903
+    },
+    {
+      "recording": "len1_cond2_1.csv",
+      "states": 300,
+      "certified": 300,
+      "max_energy_over_a": 0.05607631114106626,
+      "viscous": 0.03452414035172715
+    },
+    {
+      "recording": "len1_cond3_1.csv",
+      "states": 300,
+      "certified": 300,
+      "max_energy_over_a": 0.02460869686861311,
+      "viscous": 0.06668301768676083
+    },
+    {
+      "recording": "len2_cond1_1.csv",
+      "states": 300,
+      "certified": 300,
+      "max_energy_over_a": 0.03472857769497395,
+      "viscous": 0.00495861119390856
+    },
+    {
+      "recording": "len2_cond2_1.csv",
+      "states": 300,
+      "certified": 300,
+      "max_energy_over_a": 0.04784661206853802,
+      "viscous": 0.05577156346408415
+    },
+    {
+      "recording": "len2_cond3_1.csv",
+      "states": 300,
+      "certified": 300,
+      "max_energy_over_a": 0.01673905414110699,
+      "viscous": 0.06270898987426844
+    },
+    {
+      "recording": "len3_cond1_1.csv",
+      "states": 300,
+      "certified": 300,
+      "max_energy_over_a": 0.07791535499573332,
+      "viscous": 0.009333909294735652
+    },
+    {
+      "recording": "len3_cond2_1.csv",
+      "states": 300,
+      "certified": 300,
+      "max_energy_over_a": 0.03638936064732767,
+      "viscous": 0.053603473165352404
+    },
+    {
+      "recording": "len3_cond3_1.csv",
+      "states": 300,
+      "certified": 300,
+      "max_energy_over_a": 0.02525006061483004,
+      "viscous": 0.06320501953513216
+    },
+    {
+      "recording": "len4_cond1_1.csv",
+      "states": 300,
+      "certified": 300,
+      "max_energy_over_a": 0.18891484935064162,
+      "viscous": 0.003048775844941486
+    },
+    {
+      "recording": "len4_cond2_1.csv",
+      "states": 300,
+      "certified": 300,
+      "max_energy_over_a": 0.04484838884224529,
+      "viscous": 0.031118325768059885
+    },
+    {
+      "recording": "len4_cond3_1.csv",
+      "states": 300,
+      "certified": 300,
+      "max_energy_over_a": 0.029761089264835117,
+      "viscous": 0.07249694922148674
+    },
+    {
+      "recording": "len5_cond1_1.csv",
+      "states": 300,
+      "certified": 0,
+      "max_energy_over_a": 0.07760784187142344,
+      "viscous": 0.0
+    },
+    {
+      "recording": "len5_cond2_1.csv",
+      "states": 300,
+      "certified": 300,
+      "max_energy_over_a": 0.04537087419491759,
+      "viscous": 0.030363579147137894
+    },
+    {
+      "recording": "len5_cond3_1.csv",
+      "states": 300,
+      "certified": 300,
+      "max_energy_over_a": 0.019951985963375662,
+      "viscous": 0.060295552652527167
+    }
+  ],
+  "total_basin_states": 4500,
+  "total_certified_states": 4200
+}
