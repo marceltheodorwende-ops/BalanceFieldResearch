@@ -21,27 +21,60 @@ CHANNELS = ['FC3', 'FC4', 'C3', 'C4', 'CP3', 'CP4', 'Cz', 'Pz']
 SEED = 20261007
 
 
+def retrieve(relative):
+    """Use the documented public AWS mirror; fall back to the canonical host."""
+    errors = []
+    for base in ('https://physionet-open.s3.amazonaws.com/eegmmidb/1.0.0/',
+                 'https://physionet.org/files/eegmmidb/1.0.0/'):
+        url = base + relative
+        for attempt in range(3):
+            try:
+                req = urllib.request.Request(url, headers={'User-Agent': 'BFG-EEG-reproducibility/1.0'})
+                with urllib.request.urlopen(req, timeout=20) as response:
+                    return response.read(), url
+            except OSError as error:
+                errors.append(str(error))
+                if attempt < 2: time.sleep(1)
+    raise OSError('Both official data endpoints failed: ' + '; '.join(errors))
+
+
+def expected_hashes():
+    path = ROOT / 'raw' / 'SOURCE_SHA256SUMS.txt'
+    path.parent.mkdir(exist_ok=True)
+    if not path.exists():
+        data, source = retrieve('SHA256SUMS.txt')
+        path.write_bytes(data)
+    entries = {}
+    for line in path.read_text().splitlines():
+        pieces = line.split()
+        if len(pieces) == 2 and len(pieces[0]) == 64:
+            entries[pieces[1].lstrip('*').removeprefix('./')] = pieces[0].lower()
+    if not entries: raise ValueError('No source checksums parsed')
+    return entries
+
+
 def download(subject):
     out = []
+    checks = expected_hashes()
     for run in (1, 2):
         name = f'S{subject:03d}R{run:02d}.edf'
-        url = f'https://physionet.org/files/eegmmidb/1.0.0/S{subject:03d}/{name}'
+        relative = f'S{subject:03d}/{name}'
+        expected = checks.get(relative) or checks.get(name)
+        if expected is None: raise ValueError(f'No official checksum for {relative}')
         target = ROOT / 'raw' / name
-        target.parent.mkdir(exist_ok=True)
+        sidecar = target.with_suffix('.source.json')
+        if target.exists() and hashlib.sha256(target.read_bytes()).hexdigest() != expected:
+            target.unlink()
         if not target.exists():
-            for attempt in range(3):
-                try:
-                    with urllib.request.urlopen(url, timeout=120) as response:
-                        data = response.read()
-                    break
-                except OSError:
-                    if attempt == 2: raise
-                    time.sleep(1)
+            data, source = retrieve(relative)
+            if hashlib.sha256(data).hexdigest() != expected:
+                raise ValueError(f'Official checksum mismatch: {relative}')
             temp = target.with_suffix('.partial')
             temp.write_bytes(data)
             temp.replace(target)
+            sidecar.write_text(json.dumps({'download_url': source, 'official_sha256': expected})+'\n')
         data = target.read_bytes()
-        out.append(dict(subject=subject, run=run, file=name, url=url,
+        out.append(dict(subject=subject, run=run, file=name,
                         bytes=len(data), sha256=hashlib.sha256(data).hexdigest()))
     return out
 
@@ -193,7 +226,8 @@ def evaluate():
                 data=(ROOT/'raw'/f'S{subject:03d}R{run:02d}.edf').read_bytes()
                 manifests.append(dict(subject=subject,run=run,file=f'S{subject:03d}R{run:02d}.edf',
                     url=f'https://physionet.org/files/eegmmidb/1.0.0/S{subject:03d}/S{subject:03d}R{run:02d}.edf',
-                    bytes=len(data),sha256=hashlib.sha256(data).hexdigest()))
+                    bytes=len(data),sha256=hashlib.sha256(data).hexdigest(),
+                    download_url=json.loads((ROOT/'raw'/f'S{subject:03d}R{run:02d}.source.json').read_text()).get('download_url','cached') if (ROOT/'raw'/f'S{subject:03d}R{run:02d}.source.json').exists() else 'cached'))
                 qc.append(dict(subject=subject,run=run,status='loaded',windows=len(windows),
                                valid=sum(v for _,v,_ in windows),error=''))
                 for start,valid,f in windows:
@@ -288,7 +322,8 @@ def main():
     parser.add_argument('--first',type=int,default=1); parser.add_argument('--last',type=int,default=109)
     args=parser.parse_args()
     if args.action=='download':
-        with ThreadPoolExecutor(max_workers=16) as pool:
+        expected_hashes()
+        with ThreadPoolExecutor(max_workers=8) as pool:
             for rows in pool.map(download,range(args.first,args.last+1)):
                 print('downloaded',rows[0]['subject'],flush=True)
     else: evaluate()

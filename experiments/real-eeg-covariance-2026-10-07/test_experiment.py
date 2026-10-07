@@ -1,11 +1,28 @@
 import tempfile
 import unittest
+from unittest.mock import patch
+import hashlib
+import experiment
 from pathlib import Path
 import numpy as np
 from experiment import update, read_edf, predict
 
 
 class Controls(unittest.TestCase):
+    def test_measurements_require_official_checksum(self):
+        payload=b'known measurement bytes'
+        sha=hashlib.sha256(payload).hexdigest()
+        with tempfile.TemporaryDirectory() as temp, patch.object(experiment,'ROOT',Path(temp)):
+            raw=Path(temp)/'raw';raw.mkdir()
+            (raw/'SOURCE_SHA256SUMS.txt').write_text(sha+'  S001/S001R01.edf\n'+sha+'  S001/S001R02.edf\n')
+            with patch.object(experiment,'retrieve',return_value=(payload,'official mirror')):
+                rows=experiment.download(1)
+                self.assertEqual(len(rows),2)
+                self.assertTrue(all(row['sha256']==sha for row in rows))
+            (raw/'S001R01.edf').write_bytes(b'corrupt')
+            with patch.object(experiment,'retrieve',return_value=(b'wrong bytes','official mirror')):
+                with self.assertRaisesRegex(ValueError,'checksum mismatch'):experiment.download(1)
+
     def test_scalar_independent_formula_and_neutral_directions(self):
         for y in np.linspace(.001,.999,1000):
             r=update(np.array([[-.7]]),np.array([[2.]]),np.ones((1,1)),np.array([[y]]),np.ones((1,1)))
