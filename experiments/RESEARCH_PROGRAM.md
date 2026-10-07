@@ -331,3 +331,23 @@ empirical run. Next developmental work: independent/shared clock and observable
 constraints, full-trajectory robustness and intervention calibration; compare
 nonlinear mechanical rivals rather than counting coordinate encoding as a win.
 Publish and report this as a constructive exploratory checkpoint.
+
+## Verified movement and extended-domain checkpoint
+
+Motion Action37688045722 completed success; six controls, 15-file source fetch,
+real development scores and artifact upload verified. Logs reproduce .082509
+angle and .255849 velocity increment-relative RMSE on 4,485 pairs.
+The calibrated movement representation is published and reproducible.
+GENERALIZED_MOTION.md and generalized_motion.py extend the readout to undamped,
+critical, overdamped and free linear motion. Shifted formation F=1+r^2 permits
+physical rest with positive BFG loads. Exact semiconjugacy follows from the
+geometry clock and matrix-exponential group property. 110 actual ambient checks
+and two analytic controls pass; largest residual 2.45e-15.
+These are valid mathematical representations with supplied mechanical generator,
+not force parameters derived from BFG alone. No physical universality or
+independent superiority is claimed. No reserved data were accessed; no empirical
+run active at this checkpoint. User asks to overcome limitations: address each
+specific coordinate/model restriction with verified extensions, preserve true
+scientific constraints and do not invent a universal proof. Next work concerns
+shared independent calibration, full-trajectory errors and intervention constraints.
+This checkpoint is reported to the user; hourly status should label it completed.
