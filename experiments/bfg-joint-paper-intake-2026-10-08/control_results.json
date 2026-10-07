@@ -1,0 +1,18 @@
+{
+  "stage": "synthetic mathematical controls only; no empirical data",
+  "matrix_controls": 40,
+  "max_R4_support_residual": 8.627092343494293e-16,
+  "max_R4_mass_residual": 8.881784197001252e-16,
+  "max_weighted_balance_residual": 4.440892098500626e-16,
+  "max_formation_balance_residual": 1.4210854715202004e-14,
+  "max_later_mass_residual": 2.220446049250313e-16,
+  "driven_input": 0.15,
+  "driven_fixed_point": 0.05596219018384207,
+  "driven_60_step_error": 2.0816681711721685e-17,
+  "max_sampled_scalar_derivative": 0.4491841580712142,
+  "theoretical_contraction_bound": 0.5925925925925926,
+  "tensor_lift_residual": 0.0,
+  "replicated_seed_terminal": "T_seeddeg",
+  "old_clock_increment_under_driven_step": 0.5296568030878593,
+  "full_differential_chain_audited": false
+}

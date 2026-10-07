@@ -31,3 +31,8 @@ These five earlier files remain unchanged for provenance and comparison; they ar
 - [Universal Structural Strong Form V2](BFG_Universal_Structural_Whitepaper_Strong_Form_V2.docx)
 
 The [historical manifest](manifest.json) records that earlier five-file intake, not the current complete library. The [current manifest](canonical-2026-09-22/manifest.json) records the new pair. See the [source-history clarification](../docs/SOURCE_HISTORY.md) for the withdrawal of the former V3 nonexistence assertion. Authorship, coauthor credits and rights follow the original documents.
+
+
+## Dynamic Order and Recursive Structure Formation —8October2026
+
+[New independent manuscript and unchanged original PDF](dynamic-order-2026-10-08/README.md). Research uses its mathematics jointly with [The Balance Field Equation as a Recursive World Formula](balance-field-equation/README.md). Overlapping material, added input/lift assumptions and fresh limited controls are documented in the linked joint-source audit.

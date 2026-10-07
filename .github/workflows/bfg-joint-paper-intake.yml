@@ -1,0 +1,31 @@
+name: Joint BFG paper mathematical controls
+on:
+  push:
+    branches: [experiment/real-pendulum-decay-2026-10-07]
+    paths: ['experiments/bfg-joint-paper-intake-2026-10-08/**', '.github/workflows/bfg-joint-paper-intake.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: bfg-joint-paper-intake
+  cancel-in-progress: false
+jobs:
+  controls:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r experiments/bfg-joint-paper-intake-2026-10-08/requirements.txt
+      - working-directory: papers/dynamic-order-2026-10-08
+        run: sha256sum -c SHA256SUMS
+      - working-directory: experiments/bfg-joint-paper-intake-2026-10-08
+        run: sha256sum -c SHA256SUMS
+      - working-directory: experiments/bfg-joint-paper-intake-2026-10-08
+        run: python audit.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bfg-joint-paper-controls
+          path: experiments/bfg-joint-paper-intake-2026-10-08/control_results.json

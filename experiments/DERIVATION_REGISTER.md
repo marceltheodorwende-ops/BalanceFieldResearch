@@ -80,3 +80,16 @@ For supplied passive sine generator a>0,b>=0, integrate |w|<=sqrt(2E0) and |w'|<
 
 ## P25 — Physical time calibration ambiguity
 With t=c*tau and u=cw, recorded dynamics have a_obs=c²a,b_obs=cb. If angular velocity shares the recorded clock, parameters and physical time scale cannot be independently separated from these trajectories alone. Independent physical velocity/frequency/time evidence could break the ambiguity. Explicit conditional obstruction; physical seconds coupling P09 remains unresolved.
+
+
+## P26 — Source-pair compatibility and exact balances
+World Formula sections7,12–13 and Dynamic Order84–86 agree on the autonomous ambient kernel. Fresh40complex controls corroborate weighted loads and Formation delta=seed-loss. Sources separately archived; overlapping Part I is not independent evidence. See joint-paper-intake package.
+
+## P27 — Finite autonomous seed capacity
+Dynamic Order Theorem6: after first event Q=I and p_next=p+delta; n nonincreases and each nonempty admissible complement adds one rank. At most n1-p1 further seeds on an infinite nonterminal autonomous orbit, then full persistence. Finite trajectories may terminate; environmental extensions not covered. Conditional proof reviewed, no empirical hierarchy claim.
+
+## P28 — Positive driven regime and conditional tensor lift
+Dynamic Order Theorems7–8: constant0<d<3/4 gives geometry contraction bound16/27 and one positive fixed point; full-persistence tensor lift commutes, seeded replication may terminate by degeneracy. Fresh numerical controls pass. Input and lift are additional declared models, not an autonomous physical forcing law or universal stability.
+
+## P29 — Old-clock incompatibility with driven fixed point
+N(f(y+d))=N(y+d)+1 generally differs from N(y)+1; measured code control increment .5296568030878593 at y=.25,d=.15. If yk converges to y*>0 and N is continuous there, N(yk+1)-N(yk) tends to0 and cannot identically equal1. New event bookkeeping or singular/augmented clock needs explicit declaration and physical calibration. Current pendulum readout cannot absorb the new input unchanged.
