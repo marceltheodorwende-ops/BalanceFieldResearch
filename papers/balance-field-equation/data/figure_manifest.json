@@ -1,0 +1,226 @@
+[
+  {
+    "number": 1,
+    "section": 3,
+    "kind": "CONDITIONAL READOUT",
+    "caption": "Figure 1. Dimensionless order readout. Conditional readout. phi_E=(E_exp/E_bind)(I/I_0); ratios are independent inputs, not identified Xi data. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_01.npz"
+  },
+  {
+    "number": 2,
+    "section": 4,
+    "kind": "COMPUTED MATRIX FAMILY",
+    "caption": "Figure 2. Positive internal geometry. Computed matrix family. Y=diag(y1,y2); G=I+Y; the positive metric is internal, not spacetime. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_02.npz"
+  },
+  {
+    "number": 3,
+    "section": 5,
+    "kind": "COMPUTED PROJECTOR",
+    "caption": "Figure 3. Spectral selection boundary. Computed projector. Q=1_[0,1)(Y); threshold 1 defines a discontinuous change of selected rank. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_03.npz"
+  },
+  {
+    "number": 4,
+    "section": 6,
+    "kind": "COMPUTED CONTROL FAMILY",
+    "caption": "Figure 4. Witness mass before normalization. Computed control family. Y=diag(1/2,2), P=vv^T and W=diag(p,1-p); polar selection has source P. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_04.npz"
+  },
+  {
+    "number": 5,
+    "section": 7,
+    "kind": "COMPUTED AMBIENT KERNEL",
+    "caption": "Figure 5. Endogenous formation loads. Computed ambient kernel. Y=diag(y1,0.72); P=F=W=vv^T; v=(cos theta,sin theta); formation unit E_F=1. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_05.npz"
+  },
+  {
+    "number": 6,
+    "section": 8,
+    "kind": "COMPUTED AMBIENT KERNEL",
+    "caption": "Figure 6. Full ambient analysis. Computed ambient kernel. A:H to H direct sum H; no restriction to the selected rank-one carrier. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_06.npz"
+  },
+  {
+    "number": 7,
+    "section": 9,
+    "kind": "COMPUTED AMBIENT KERNEL",
+    "caption": "Figure 7. Reduced singular spectrum. Computed ambient kernel. The second singular value can vanish on a rank boundary; an arbitrary full-SVD padding is excluded. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_07.npz"
+  },
+  {
+    "number": 8,
+    "section": 10,
+    "kind": "COMPUTED AMBIENT KERNEL",
+    "caption": "Figure 8. Successor Gram bound. Computed ambient kernel. Y=diag(y1,y2), P=F=I; coupled global formation loads determine alpha and beta. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_08.npz"
+  },
+  {
+    "number": 9,
+    "section": 11,
+    "kind": "COMPUTED AMBIENT KERNEL",
+    "caption": "Figure 9. R4 preserves selected witness mass. Computed ambient kernel. m4=1 to numerical precision; the exact proof uses Ran(P_sel) contained in Ran(A dagger). Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_09.npz"
+  },
+  {
+    "number": 10,
+    "section": 12,
+    "kind": "COMPUTED BOOKKEEPING",
+    "caption": "Figure 10. Original mass and conditioned trace. Computed bookkeeping. w_next=w*m_sel; conditioned witness trace remains one and cannot encode this product. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_10.npz"
+  },
+  {
+    "number": 11,
+    "section": 13,
+    "kind": "COMPUTED SPECTRAL CONTROL",
+    "caption": "Figure 11. Seed formation on a negative complement. Computed spectral control. A one-dimensional complement with lambda=-x gives seed trace kappa*x; each kappa is a separate fixed-unit model. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_11.npz"
+  },
+  {
+    "number": 12,
+    "section": 14,
+    "kind": "COMPUTED RULE",
+    "caption": "Figure 12. Terminal boundary of the seed rule. Computed rule. For a nonempty complement, lambda<0 and a simple minimum are required; lambda>=0 is terminal. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_12.npz"
+  },
+  {
+    "number": 13,
+    "section": 15,
+    "kind": "COMPUTED BOUND",
+    "caption": "Figure 13. Polar sensitivity bound. Computed bound. 3 times ||delta X||_2 divided by sigma_min,+; an upper bound is not an attained response. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_13.npz"
+  },
+  {
+    "number": 14,
+    "section": 16,
+    "kind": "CONDITIONAL PERTURBATION SCALE",
+    "caption": "Figure 14. Seed eigenprojector sensitivity. Conditional perturbation scale. Illustrates inverse-gap scaling of the reduced resolvent; not a full derivative of an arbitrary kernel. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_14.npz"
+  },
+  {
+    "number": 15,
+    "section": 17,
+    "kind": "EXACT SCALAR KERNEL",
+    "caption": "Figure 15. Geometric self feedback and damping. Exact scalar kernel. P=W=1 and F>0; f(y)=2y^2/[(1+y)^2(1+y^2)]; K and F remain neutral. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_15.npz"
+  },
+  {
+    "number": 16,
+    "section": 18,
+    "kind": "CONDITIONAL STABILITY MODEL",
+    "caption": "Figure 16. Conditional transverse Lyapunov decay. Conditional stability model. Assumes V=z^2 and V_next=(1-r)V; no such global BFG certificate is constructed here. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_16.npz"
+  },
+  {
+    "number": 17,
+    "section": 19,
+    "kind": "COMPUTED MEDIATOR CONTROL",
+    "caption": "Figure 17. Mediator amplitude and power. Computed mediator control. N_B R N_B dagger=n^2 R; amplitude mediation uses N_A=n^2, not N_A=n. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_17.npz"
+  },
+  {
+    "number": 18,
+    "section": 20,
+    "kind": "SCHEMATIC CONSTRAINT MODEL",
+    "caption": "Figure 18. Finite horizon viability gate. Schematic constraint model. A margin diagram only; actual viability requires the unique nonterminal BFG trajectory and specified gates. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_18.npz"
+  },
+  {
+    "number": 19,
+    "section": 21,
+    "kind": "COMPUTED CONDITIONAL ODE",
+    "caption": "Figure 19. Scalar normal form equilibrium. Computed conditional ode. a=1.5, mu>0, b<1; this positive branch exists because a>1-b. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_19.npz"
+  },
+  {
+    "number": 20,
+    "section": 22,
+    "kind": "SCHEMATIC COUNTERMODEL",
+    "caption": "Figure 20. A projection must close its fibers. Schematic countermodel. Projection Pi(x,h)=x with successor x+h is not closed; this is a fiber test, not a BFG bridge. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_20.npz"
+  },
+  {
+    "number": 21,
+    "section": 23,
+    "kind": "EXACT SCALAR KERNEL",
+    "caption": "Figure 21. Event count without calibrated seconds. Exact scalar kernel. One reclosure event is counted; no conversion to physical seconds is claimed. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_21.npz"
+  },
+  {
+    "number": 22,
+    "section": 24,
+    "kind": "SCHEMATIC EMBEDDING",
+    "caption": "Figure 22. A curved geometry bridge illustration. Schematic embedding. An illustrative surface is not a Lorentz metric, gravitational field equation or prediction. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_22.npz"
+  },
+  {
+    "number": 23,
+    "section": 25,
+    "kind": "ASSUMED POTENTIAL MODEL",
+    "caption": "Figure 23. Geometric feedback requires dynamics. Assumed potential model. V=x^2+y^2 is a pedagogical potential; stability of spacetime must follow from a specified action and bridge. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_23.npz"
+  },
+  {
+    "number": 24,
+    "section": 26,
+    "kind": "CONDITIONAL QUANTUM MODEL",
+    "caption": "Figure 24. Quantum state identification remains a bridge. Conditional quantum model. For a calibrated E0=|0><0|, p=tr(E0 rho); the state-identification map is additional physics. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_24.npz"
+  },
+  {
+    "number": 25,
+    "section": 27,
+    "kind": "COMPUTED BRIDGE COMPARISON",
+    "caption": "Figure 25. Competing quantum bridge predictions. Computed bridge comparison. At (0.75,0.25), hypotheses A and B differ by 0.5; no actual measured outcomes are used. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_25.npz"
+  },
+  {
+    "number": 26,
+    "section": 28,
+    "kind": "COMPUTED EFFECT TEST",
+    "caption": "Figure 26. A general effect need not be projective. Computed effect test. A direct R4 effect is a projector. Generic positive effects with interior eigenvalues fail that test. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_26.npz"
+  },
+  {
+    "number": 27,
+    "section": 29,
+    "kind": "SCHEMATIC DEPENDENCY",
+    "caption": "Figure 27. Particle hierarchy requires parameters. Schematic dependency. The surface labels a parameter dependency only; no Standard Model mass or coupling is derived. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_27.npz"
+  },
+  {
+    "number": 28,
+    "section": 30,
+    "kind": "CONVENTIONAL CONDITIONAL MODEL",
+    "caption": "Figure 28. Atomic localization and attraction. Conventional conditional model. E(r)=1/(2r^2)-a/r; ordinary quantum scaling, not a new BFG atomic spectrum. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_28.npz"
+  },
+  {
+    "number": 29,
+    "section": 31,
+    "kind": "SCHEMATIC BINDING LANDSCAPE",
+    "caption": "Figure 29. Molecular binding criterion. Schematic binding landscape. The illustrative energy x^2+y^2-1 marks a negative binding region; it is not a BFG molecular potential. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_29.npz"
+  },
+  {
+    "number": 30,
+    "section": 31,
+    "kind": "COMPUTED FLUX IDENTITY",
+    "caption": "Figure 30. Biological boundary and gross flux. Computed flux identity. J_net=J_out-J_in. Stationary net flux permits nonzero gross flows; no cell viability is inferred. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_30.npz"
+  },
+  {
+    "number": 31,
+    "section": 32,
+    "kind": "SCHEMATIC FUNCTIONAL MODEL",
+    "caption": "Figure 31. World and self require operational maps. Schematic functional model. A product is only a visual aid. Pi_W, Pi_S, lineage and causal closure must be independently defined. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_31.npz"
+  },
+  {
+    "number": 32,
+    "section": 33,
+    "kind": "SCHEMATIC STATUS PANEL",
+    "caption": "Figure 32. Phenomenality is not a matrix consequence. Schematic status panel. The zero sheet denotes absence of a derived prediction, not absence of subjective experience. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.",
+    "data": "figure_32.npz"
+  }
+]

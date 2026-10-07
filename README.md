@@ -1,5 +1,9 @@
 # Balance Field Framework
 
+## Balance Field Equation preprint
+
+[Read the recursive world-formula preprint and its GitHub documentation](papers/balance-field-equation/README.md), including the original PDF, mathematical status register and 32 illustrated panels. The finite ambient kernel is distinguished from its open physical measurement bridges.
+
 ## Completion boundary — 29 September 2026
 
 The [BFG completion dossier](research/completion-boundary-2026-09-29/README.md) gives an exact source-to-claim ledger and independently executable rational countermodels for the Gram, selection, recursion and mediation-identity gaps. The declared finite completion and its conditional theorems remain valid in their stated scope. Unconditional historical derivation and universal irreducible emergence are not established.

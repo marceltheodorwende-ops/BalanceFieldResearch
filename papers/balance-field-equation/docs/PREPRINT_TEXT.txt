@@ -1,0 +1,2446 @@
+PDF PAGE 1
+Balance Field Equation  •  Preprint  |  1
+The Balance Field Equation as a Recursive
+World Formula
+A finite operator model with geometric self feedback and explicit physical
+bridge requirements
+Marcel Theodor Wende
+Independent Researcher
+E-mail: marcel-wende@gmx.net
+ORCID: 0009-0007-4028-2208
+6 October 2026
+PREPRINT
+Abstract
+This preprint specifies the Balance–Field Equation (BFG) as a finite, stratified recursive operator dynamics on
+unitary equivalence classes. Its declared state is =(K,Ξ ρF,ρW,Y,P). Spectral selection, canonical polar transport,
+an endogenous positive metric, formation-dependent loads, an ambient reduced singular-value decomposition,
+R4 realignment, formation inheritance and a rank-one seed rule define a unique successor class or a named
+terminal outcome. The complete analysis operator acts on the ambient input space, not only on the selected
+carrier. This choice has restrictive consequences: R4 is isometric on the selected carrier, its witness mass is
+exactly one, every nonterminal successor satisfies 0<Y_+<I, and the ambient dimension cannot increase.
+Subsequent nonterminal events preserve witness mass. Geometric self feedback is explicit and produces strict
+damping on a scalar control branch, but neutral kernel and formation directions prevent a universal strict full-
+state contraction claim. The manuscript gives typed differentials, proof assumptions, event-time bookkeeping
+and independently reproducible numerical controls. Physical information, seconds, spacetime and gravity,
+quantum and particle observables, atoms, molecules, biology and experience require additional specified
+measurement bridges. These transitions are presented in dependency order and remain open where the finite
+kernel does not determine them. Computed 3D figures demonstrate declared mathematical families; physical-
+sector illustrations do not constitute empirical validation.
+Keywords: Balance–Field Equation; recursive dynamics; polar decomposition; singular-value decomposition;
+viability; endogenous geometry; quantum bridge; recursive closure; witness persistence; stratified dynamical
+systems.
+1 Introduction
+A candidate world formula must do more than compress many concepts into one symbolic expression. It must
+specify a state space, an evolution law, admissibility conditions, equivalence relations, regime boundaries, and
+a map from internal variables to measurable quantities. The present construction takes this requirement
+literally. The BFG is therefore formulated as a recursive operator system whose central object is an orbit of a
+finite state under a stratified update. The use of polar decomposition and singular-value structure places the
+mathematical core in a standard matrix-analytic setting [4–8], while viability and Lyapunov concepts provide
+the appropriate language for constrained persistence [9].
+Three co-authored precursor lines are retained as direct BFG provenance. The Level-0 foundation with Thomas
+W. Loker motivates a pre-informational admissibility layer [1]. The recursive conjugate-closure work with
+Luke Kenneth Casson Leighton motivates mediated conjugate recursion [2]. The no-supervenience bridge with
+Alfredo Pereira Jr. motivates the later distinction between functional closure and phenomenal interpretation
+[3]. No other BFG manuscript is included in the bibliography.
+
+PDF PAGE 2
+Balance Field Equation  •  Preprint  |  2
+The objective is to present one canonical finite model class, close its mathematical ambiguities, and expose the
+remaining physical bridge choices. The paper fixes: (i) a reduced-SVD convention and endogenous successor
+dimension; (ii) a unitary quotient removing common SVD-frame gauge freedom; (iii) Hermiticity and unit
+compatibility of the formation operator; (iv) normalized witness input and conditional survival masses; (v)
+named terminal states; and (vi) separate discrete and continuous stability statements.
+2 Claim-state hierarchy
+Label Meaning Use
+Definition Part of the canonical model class State spaces, update maps, supports,
+terminal codes
+Assumption Additional constitutive or physical
+choice
+Bridge laws, Lorentzian completion,
+quantum-state identification
+Theorem/Consequence Derived under stated hypotheses Gram positivity, scalar damping, gauge
+covariance
+Open bridge Not fixed by the finite kernel Physical clock, spacetime, Standard-
+Model parameters, phenomenality
+Empirical hypothesis Externally testable identification Quantum bridge A versus B
+Table 1. Canonical classification and definitions.
+The distinction is substantive. A polar factor is a standard matrix object [4,5], but identifying a BFG partial
+isometry with a physical quantum instrument is an additional physical statement. Likewise, a positive Gram
+operator is mathematically well defined but is not, by positivity alone, a Lorentzian spacetime metric.
+3 Level 0, information, and order
+Figure 1. Dimensionless order readout. Conditional readout. φE=(Eexp/Ebind)(I/I0); ratios are independent inputs,
+not identified  data. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is Ξ
+identified on the height axis. Surface colour follows height and has no additional physical meaning.
+
+PDF PAGE 3
+Balance Field Equation  •  Preprint  |  3
+3.1 Level-0 domain
+Φ0∈ X0 \(1\)
+Φ0 denotes a pre-operational Level-0 domain rather than the later measurable scalar order readout. The co-
+authored Level-0 construction motivates admissible difference, recurrence, and identity retention before
+coarse-grained information and physics [1].
+3.2 Information
+I = logb|Cθ \(X\)|    \(2\)
+Fix a finite nonempty configuration class with 1≤|Cθ(X)|<∞, a threshold or metric , logarithm base b>1, and θ
+reference I0>0. The object X and the counting procedure must be specified independently. This configuration-
+counting measure differs from Shannon entropy [10]. Neither the count nor its map from  is supplied by the Ξ
+finite kernel.
+3.3 Dimensionless order readouts
+φN= N+
+N-
+I
+I0
+\(3\)
+φE= Eexp
+Ebind
+I
+I0
+\(4\)
+Both readouts are dimensionless for matching numerator and denominator units, with N_→0, Ebind>0 and I0
+>0. They are alternative operational candidates. Φ0 is a Level-0 object, not a scalar multiplier. No equality
+between Φ0 and φN or φE is assumed.
+3.4 Stock and rate
+qinfo= φ I    \(5\)
+IB:= dqinfo /dt    \(6\)
+dqinfo /dt =ainfo- γ0 \(1- bfeedback \) qinfo \(7\)
+qinfo* =ainfo
+γ0 \(1- bfeedback \) \(8\)
+Here  denotes one explicitly chosen scalar readout, not φ Φ0. For constant coefficients, γ0>0 and bfeedback<1, the
+stated stock is attractive and IB*=0. At bfeedback=1, ainfo=0 every constant stock is stationary; ainfo≠0 gives linear
+change. For bfeedback>1 the homogeneous part amplifies. Time-dependent coefficients require the
+corresponding nonautonomous solution. qinfo, ainfo and bfeedback are distinct from the selection projector Q,
+analysis operator A and logarithm base b.
+
+PDF PAGE 4
+Balance Field Equation  •  Preprint  |  4
+4 Canonical finite state
+Figure 2. Positive internal geometry. Computed matrix family. Y=diag(y1,y2); G=I+Y; the positive metric is internal,
+not spacetime. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on
+the height axis. Surface colour follows height and has no additional physical meaning.
+Ξk =\( Kk ,ρF,k,ρW,k, Yk , Pk \)    \(9\)
+Kk = Kk † ;ρF,k≥0 ;ρW,k≥0 ; tr\( ρW,k\)=1 ; Yk = Yk †≥0 ; Pk = Pk †= Pk
+2
+\(10\)
+At event k, all operators act on a finite complex Hilbert space Hk of dimension nk. K is Hermitian. Formation
+ρF is positive and need not be normalized. Witness ρW is positive and normalized at every nonterminal input.
+Y is a positive semidefinite Gram/load operator and P an orthogonal persistence projector.
+The Level-0 interpretation motivates the model but does not determine its input tuple. A construction =Ξ J0(Φ0
+) remains an open bridge. The finite state starts only after its five operator components and carrier have been
+declared.
+K and ρF share a formation unit EF in the canonical dimensionally matched model. If a future physical
+interpretation assigns different units, a fixed positive conversion factor κF must enter the seed term; no state-
+dependent unit conversion is permitted.
+
+PDF PAGE 5
+Balance Field Equation  •  Preprint  |  5
+5 Spectral selection and first transport
+Figure 3. Spectral selection boundary. Computed projector. Q=1_[0,1)(Y); threshold 1 defines a discontinuous change
+of selected rank. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on
+the height axis. Surface colour follows height and has no additional physical meaning.
+Ck =\(I+ Yk \)-1
+\(11\)
+Bk = Yk Ck =I- Ck \(12\)
+Gk =I+ Yk \(13\)
+Because Yk is positive semidefinite, Gk is positive definite. This is the internal Gram geometry.
+Qk =1[0,1\) \( Yk \)    \(14\)
+Xsel,k =Qk Pk \(15\)
+Tsel,k =polar\( Xsel,k \)    \(16\)
+Ssel,k
+-
+= Tsel,k † Tsel,k ; Psel,k =Ssel,k
++
+= Tsel,k Tsel,k †    \(17\)
+The source and target supports are distinct. The polar factor is a partial isometry on the actual supports,
+consistent with standard polar-decomposition theory [4,5].
+
+PDF PAGE 6
+Balance Field Equation  •  Preprint  |  6
+6 Formation and witness after selection
+Figure 4. Witness mass before normalization. Computed control family. Y=diag(1/2,2), P=vv^T and W=diag(p,1-p);
+polar selection has source P. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is
+identified on the height axis. Surface colour follows height and has no additional physical meaning.
+ρF,k
+sel
+= Tsel,k ρF,k Tsel,k †    \(18\)
+ρun,k
+sel
+= Tsel,k ρW,k Tsel,k †    \(19\)
+msel,k =tr\( Ssel,k
+-
+ρW,k \)    \(20\)
+ρW,k
+sel
+=ρun,k
+sel
+/ msel,k , if msel,k >0    \(21\)
+Since ρW,k is normalized and 0≤Ssel^-≤I, 0≤msel≤1. Thus msel has a genuine conditional-survival interpretation
+inside the canonical kernel. This is not yet a physical Born probability.
+
+PDF PAGE 7
+Balance Field Equation  •  Preprint  |  7
+7 Metric projection and endogenous loads
+Figure 5. Endogenous formation loads. Computed ambient kernel. Y=diag(y1,0.72); P=F=W=vv^T; v=(cos ,sin ); θ θ
+formation unit EF=1. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is
+identified on the height axis. Surface colour follows height and has no additional physical meaning.
+Zk † Zk =I ;Zk Zk †= Psel,k \(22\)
+PG,k =Zk \( Zk † Gk Zk \)-1
+Zk † Gk \(23\)
+ΛC,k =tr\( Gk PG,k Ck ρF,k
+sel
+Ck PG,k †\)    \(24\)
+ΛB,k =tr\( Gk PG,k Bk ρF,k
+sel
+Bk PG,k †\)    \(25\)
+αk = ΛB,k
+ΛC,k + ΛB,k
+\(26\)
+βk = ΛC,k
+ΛC,k + ΛB,k
+\(27\)
+On the dual-load branch ΛC>0 and ΛB>0,  and  lie in (0,1) and sum to one.α β
+
+PDF PAGE 8
+Balance Field Equation  •  Preprint  |  8
+8 Analysis operator, reduced SVD, and endogenous dimension
+Figure 6. Full ambient analysis. Computed ambient kernel. A:H to H direct sum H; no restriction to the selected rank-
+one carrier. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on the
+height axis. Surface colour follows height and has no additional physical meaning.
+Ak =[
+√ αk PG,k Ck
+√βk PG,k Bk] \(28\)
+Let rk=rank(Ak)≥1. The canonical convention uses only the reduced rank-rk SVD:
+Ak = Uk Σk Vk †    \(29\)
+Uk :Crk
+→ Hk ⊕ Hk ; Vk :Crk
+→ Hk ;Σk =diag\( σ1,...,σr \),σi >0    \(30\)
+Hk+1:= Crk
+; nk+1= rk \(31\)
+The analysis domain is the full ambient Hk. No restriction Ak Zk is made. Its codomain is Hk⊕Hk; U and V
+are column isometries. The successor dimension satisfies rank(Psel)≤rk≤nk. It can exceed the selected-carrier
+dimension, but cannot exceed the ambient input dimension. Null singular directions are omitted. Restricting
+the domain would define a different kernel and can change the seed complement.
+
+PDF PAGE 9
+Balance Field Equation  •  Preprint  |  9
+9 SVD gauge and quotient-state dynamics
+Figure 7. Reduced singular spectrum. Computed ambient kernel. The second singular value can vanish on a rank
+boundary; an arbitrary full-SVD padding is excluded. Horizontal and vertical coordinate ranges are the sampled
+grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional
+physical meaning.
+For a simple positive singular value, a common phase remains free. For an exactly degenerate singular block, a
+unitary basis rotation inside that block remains free. These freedoms are treated as coordinate gauge rather
+than physical multiplicity.
+\(K,ρF,ρW ,Y ,P\) ~ \(W†KW,W†ρF W,W†ρW W,W†YW,W†PW\), W unitary    \(32\)
+For a block-unitary W satisfying W =  W:Σ Σ
+U'=UW ; V'=VW ; Σ'=W†Σ W=Σ    \(33\)
+K+'=W† K+ W ; Y+'=W† Y+ W    \(34\)
+The R4 overlap transforms as XR4'=W†XR4. Unitary covariance of the polar decomposition gives T4'=W†T4,
+and hence all target-space successor quantities transform by the same conjugation. The mathematical
+successor is therefore the equivalence class [Ξk+1], not a privileged matrix representation.
+Input covariance is separate from SVD-frame covariance. For a unitary L on H, simultaneous input conjugation
+gives A′=(L† L†) A L. Compatible SVD frames are U′=(L† L†)U and V′=L†V. K_+ and Y_+ then agree, and R4 ⊕ ⊕
+transforms consistently. This proves independence of the ambient input basis as well as of the allowed target
+SVD gauge.
+UbarBFG:[Ξk ] → [Ξk+1]    \(35\)
+This quotient construction solves the definition-level phase/basis ambiguity. It does not claim differentiability
+of individually sorted singular vectors at eigenvalue splitting. Kato and Davis–Kahan theory instead support
+the use of invariant subspaces and separated spectral clusters [6,7].
+For local differential work on a simple singular-value stratum, with M=U†(  A)V:δ
+
+PDF PAGE 10
+Balance Field Equation  •  Preprint  |  10
+δ σi =Re Mii \(36\)
+\(ΩU \)ii -\(ΩV \)ii =i Im\( Mii \)/ σi \(37\)
+Only the common phase is free; setting both diagonal gauge connections to zero is generally impossible.
+10 Successor geometry and kernel operator
+Figure 8. Successor Gram bound. Computed ambient kernel. Y=diag(y1,y2), P=F=I; coupled global formation loads
+determine  and . Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identifiedα β
+on the height axis. Surface colour follows height and has no additional physical meaning.
+Yk+1=Σk
+2
+\(38\)
+Kk+1= Uk †\( Kk ⊕ Kk \) Uk \(39\)
+Theorem 1. On the positive dual-load branch, the reduced successor satisfies 0<Yk+1<Irk
+. In particular Gk+1>I.
+A proof of this stronger bound, including its limits for full-state stability, follows in Section 17. The input class
+permits Y≥0; this is a declared model class, not an assertion that every precursor used the same domain.
+
+PDF PAGE 11
+Balance Field Equation  •  Preprint  |  11
+11 R4 transport
+Figure 9. R4 preserves selected witness mass. Computed ambient kernel. m4=1 to numerical precision; the exact
+proof uses Ran(Psel) contained in Ran(A dagger). Horizontal and vertical coordinate ranges are the sampled grids;
+the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical
+meaning.
+XR4,k = Vk † Psel,k \(40\)
+T4,k =polar\( XR4,k \)    \(41\)
+S4,k
+-
+= T4,k † T4,k ;S4,k
++
+= T4,k T4,k †    \(42\)
+For this ambient kernel, XR4 is already a partial isometry: T4=V†Psel, S4^-=Psel and S4^+=V†Psel V. The
+positive C-channel puts the entire selected carrier in Ran(A†). R4 therefore realigns that carrier without a
+second loss. General rank-loss sensitivity of polar maps remains relevant to selection and to other declared
+models.
+
+PDF PAGE 12
+Balance Field Equation  •  Preprint  |  12
+12 Second witness mass and formation inheritance
+Figure 10. Original mass and conditioned trace. Computed bookkeeping. wnext=w*msel; conditioned witness trace
+remains one and cannot encode this product. Horizontal and vertical coordinate ranges are the sampled grids; the
+plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical
+meaning.
+m4,k =tr\( S4,k
+-
+ρW,k
+sel
+\)    \(43\)
+ρW,k+1= T4,k ρW,k
+sel
+T4,k †/ m4,k , if m4,k >0    \(44\)
+mtot,k = msel,k m4,k \(45\)
+ρF,k
+inh
+= T4,k ρF,k
+sel
+T4,k †    \(46\)
+In the present kernel m4=1 exactly, hence mtot=msel. The normalized successor does not contain the historical
+mass. Record wk+1=wk msel,k, w0=1, as a separate trajectory output. It is not a sixth component silently
+inserted into . Directed transport history, when needed, is also recorded separately. Inherited formation Ξ
+satisfies tr(ρF
+inh)=tr(ρF
+sel).
+Historical-mass nonidentifiability from the successor: take Y=diag(1/2,2), P=I, K=-I, F=I and W=diag(p,1-p),
+0<p≤1. Selection gives msel=p, but every p yields the same one-dimensional normalized successor. Therefore
+_+ alone cannot recover w or the initial surviving mass.Ξ
+
+PDF PAGE 13
+Balance Field Equation  •  Preprint  |  13
+13 Seed rule
+Figure 11. Seed formation on a negative complement. Computed spectral control. A one-dimensional complement with
+=-x gives seed trace *x; each  is a separate fixed-unit model. Horizontal and vertical coordinate ranges are the λ κ κ
+sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no
+additional physical meaning.
+Ek = Irk
+-S4,k
++
+\(47\)
+If Ek=0, no seed is added. If Ek≠0, choose an orthonormal frame ZE for Ran(Ek) and define:
+HE,k =ZE,k † Kk+1 ZE,k \(48\)
+Because K is Hermitian, Kk+1 and HE are Hermitian, so the seed spectrum is real.
+If HE has a simple isolated negative minimum λk<0 with rank-one projector πk:
+Πseed,k =ZE,k πk ZE,k †    \(49\)
+ρseed,k =- κF λk Πseed,k \(50\)
+ρF,k+1=ρF,k
+inh
++ρseed,k \(51\)
+Pk+1=S4,k
++
++ Πseed,k \(52\)
+For the dimensionally matched canonical class κF=1. Orthogonality Πseed≤E implies S4^+Πseed=0 and Pk+1
+2=
+Pk+1.
+
+PDF PAGE 14
+Balance Field Equation  •  Preprint  |  14
+14 Total stratified update and terminal codes
+Figure 12. Terminal boundary of the seed rule. Computed rule. For a nonempty complement, <0 and a simple λ
+minimum are required; ≥0 is terminal. Horizontal and vertical coordinate ranges are the sampled grids; the plotted λ
+quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.
+The canonical dynamics is total only after adjoining explicit terminal outcomes.
+U~_BFG : XΞ→ \( XΞ /Unitary\) disjointunion Tterminal \(53\)
+Code Trigger Meaning
+T_sel0 rank(QP)=0 No selected persistent carrier
+T_w1 m_sel=0 First witness selection fails
+T_load _C≤0 or _B≤0Λ Λ Positive dual-load class not satisfied
+T_seednone E≠0 and _min≥0λ Required negative seed absent
+T_seeddeg E≠0 and negative lowest eigenvalue is
+multiple
+No unique rank-one seed
+Table 2. Canonical classification and definitions.
+The no-seed branch exists only when E=0. If E≠0, a simple strictly negative lowest eigenvalue is required;
+otherwise the event terminates.
+E=0:ρseed =0,Πseed =0    \(54a\)
+E≠0,λmin ≥0: Tseednone \(54b\)
+E≠0, λmin <0 multiple: Tseeddeg \(54c\)
+No arbitrary tie-break vector is introduced at a multiply degenerate negative minimum.
+
+PDF PAGE 15
+Balance Field Equation  •  Preprint  |  15
+15 Constant-rank polar differential
+Figure 13. Polar sensitivity bound. Computed bound. 3 times ||  X||_2 divided by δ σmin,+; an upper bound is not an
+attained response. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified
+on the height axis. Surface colour follows height and has no additional physical meaning.
+Let X=TH be a C1 curve on a constant-rank stratum. Choose the canonical polar factor with ker(T)=ker(X). Set
+EX=  X, H=(X†X)^(1/2), S_-=T†T and S_+=TT†. The following derivatives are tangent derivatives on that δ
+stratum:
+\(I-S+ \) EX \(I-S- \)=0    \(55\)
+The skew-Hermitian connection is supported inside the source: =S_-  S_-. On that support it is uniquely Ω Ω
+fixed by the Sylvester equation:
+H Ω+Ω H=S- \(T† EX - EX †T\)S- \(56\)
+The polar derivative is:
+δ T=T Ω+\(I- S+ \) EXH
++
++ T H+
+T† EX \(I-S- \)    \(57\)
+and the support derivatives are:
+δS+=\(I-S+ \) EXH
++
+T† + T H+
+EX †\(I-S+ \)    \(58\)
+δS-= H+
+T† EX \(I-S- \) + \(I- S- \) EX †T H+
+\(59\)
+A conservative bound is:
+||δ T||_2 ≤ 3|| EX ||_2/ σmin ,+ \(X\)    \(60\)
+This is consistent with the general sensitivity of polar factors to small singular values [4,5]. A diverging upper
+bound as σk→0 does not imply that every admissible curve diverges; it signals loss of a uniform local bound.
+
+PDF PAGE 16
+Balance Field Equation  •  Preprint  |  16
+16 Seed differential
+Figure 14. Seed eigenprojector sensitivity. Conditional perturbation scale. Illustrates inverse-gap scaling of the
+reduced resolvent; not a full derivative of an arbitrary kernel. Horizontal and vertical coordinate ranges are the
+sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no
+additional physical meaning.
+With E=I-S4^+, choose a horizontal orthonormal frame ZE:
+δZE=\(δ E\)ZE \(61\)
+Then:
+δ HE=ZE†[\(δ E\) K++ δ K++ K+ \(δ E\)]ZE \(62\)
+For a simple negative eigenvalue  with =vv†:λ π
+δ λ=tr\(π δ HE \)    \(63\)
+Rλ =\( HE-λ I \)+
+; Rλ v=0    \(64\)
+δ π=- Rλ \(δ HE \)π-π\(δ HE \) Rλ \(65\)
+δ Πseed =\(δ E\) Πseed + Πseed \(δ E\)+ZE \(δ π\)ZE†    \(66\)
+δρseed =- κF[\(δ λ\) Πseed +λ δ Πseed ]    \(67\)
+At complement dimension one, Rλ=0.
+
+PDF PAGE 17
+Balance Field Equation  •  Preprint  |  17
+17 Endogenous geometric feedback and stability
+Figure 15. Geometric self feedback and damping. Exact scalar kernel. P=W=1 and F>0; f(y)=2y^2/[(1+y)^2(1+y^2)]; K
+and F remain neutral. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is
+identified on the height axis. Surface colour follows height and has no additional physical meaning.
+The closed internal feedback loop is:
+Yk →Gk / PG,k → Loads →αk ,βk → Ak →Σk → Yk+1 \(68\)
+This is a genuine endogenous geometric feedback: the current Gram geometry changes the analysis that
+produces the next Gram geometry. It is not, by itself, a theorem of full-state contraction.
+Ambient bound. Let D=Z†GZ. Since GC=I and GB=Y, PG C=Z D^-1 Z† and PG B=Z D^-1 Z†Y. The first map has
+range exactly Ran(Psel). Positive  gives Ran(α Psel) subset Ran(A†), proving the R4 identities and m4=1.
+Let  be the largest selected Y eigenvalue; <1 and D≥I. Then ||η η PG C||_2≤1 and ||PG B||_2≤ . Hence ||A||η
+_2^2≤ +  ^2<1. All reduced singular values are positive, so 0<Y_+<I. This bounds the successor Gram α β η
+operator, not the full endogenous Jacobian.
+After a nonterminal event Q_+=I and the successor witness is supported on P_+. The following selection is Tsel
+=P_+ and has mass one. Thus every subsequent nonterminal event preserves original witness mass. The model
+cannot represent arbitrary repeated lossy disturbances without an additional declared perturbation or update
+rule.
+On the independently checked scalar full-persistence branch:
+f\(y\) =2 y2
+\(1+y \)2
+\(1+ y2
+\)
+\(69\)
+For y>0:
+y-f\(y\)=y[\(1+y \)2
+\(1+ y2
+\)-2y]/[\(1+y \)2
+\(1+ y2
+\)] > 0    \(70\)
+Hence, on the nonterminal selection-first branch 0<y<1:
+
+PDF PAGE 18
+Balance Field Equation  •  Preprint  |  18
+0<f\(y\)<y    \(71\)
+The same branch contains neutral K/F directions in which K_+=K and F_+=F. Therefore no strict contraction
+theorem for the complete tuple can hold in every fixed positive product norm on that branch. Positivity
+preservation, scalar damping, transverse contraction, and full-state contraction are distinct statements.
+18 Discrete and continuous Lyapunov formulations
+Figure 16. Conditional transverse Lyapunov decay. Conditional stability model. Assumes V=z^2 and Vnext=(1-r)V; no
+such global BFG certificate is constructed here. Horizontal and vertical coordinate ranges are the sampled grids; the
+plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical
+meaning.
+Let M be an invariant neutral set and ||z|| the quotient distance to M, or a specified transverse coordinate with
+equivalent distance bounds. On a forward-invariant, fixed-dimensional regular region R with all forward
+iterates defined, assume positive constants c1,c2,c3 and:
+c1||z||^2 ≤ V\(Ξ\) ≤c2||z||^2    \(72\)
+Δ V=V\(UBFG \(Ξ\)\)-V\(Ξ\) ≤ - c3||z||^2    \(73\)
+These are assumptions on a chosen V and region, not a constructed stability certificate for the BFG kernel. They
+imply exponential transverse decay in event count when the distance bounds hold uniformly: Vk+1≤ (1-c3/c2)
+Vk. The inequality requires a nonnegative compatible factor, with the zero-factor case giving immediate
+arrival. Existence, forward invariance and quotient regularity must be checked separately.
+A continuous projected model is a different object:
+dΨ/dt= FΨ \(Ψ\)    \(74\)
+for which:
+dV/dt=DV\(Ψ\) FΨ \(Ψ\)    \(75\)
+
+PDF PAGE 19
+Balance Field Equation  •  Preprint  |  19
+A clock does not by itself construct FΨ. Viability theory supplies the appropriate equation for state constraints
+and viable trajectories [9].
+19 Mediated recursive closure
+Figure 17. Mediator amplitude and power. Computed mediator control. NB R NB dagger=n^2 R; amplitude mediation
+uses NA=n^2, not NA=n. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is
+identified on the height axis. Surface colour follows height and has no additional physical meaning.
+For a positive semidefinite self-adjoint mediator NA on the declared operator space, its unique positive square
+root gives the amplitude-mediated class:
+RC
+A
+= NA
+1/2
+R NA
+1/2
+\(76\)
+The direct minimal class is:
+RC
+B
+= NB R NB †    \(77\)
+At R=I the second class gives NB NB†, not NB
+2 unless NB is self-adjoint. The two classes coincide under the
+explicit identification NB=NA^(1/2). The conjugate-closure source line is associated with the Wende–Leighton
+precursor [2].
+A spectral-radius condition is informative but not sufficient for existence by itself:
+ρ\( RC \)<1, ρ\( RC \)≈1, ρ\( RC \)>1    \(78\)
+These regimes respectively suggest subcritical damping, near-neutral persistence, and possible amplification
+only after the operator space, norm, Jordan structure, and admissibility conditions are specified.
+A fixed finite linear operator with spectral radius below one has powers tending to zero. This frozen-operator
+statement does not imply ||D UBFG||<1 for an endogenously changing nonlinear kernel. Norm bounds and
+Jordan structure determine quantitative transient estimates.
+
+PDF PAGE 20
+Balance Field Equation  •  Preprint  |  20
+20 Admissibility and viability
+Figure 18. Finite horizon viability gate. Schematic constraint model. A margin diagram only; actual viability requires
+the unique nonterminal BFG trajectory and specified gates. Horizontal and vertical coordinate ranges are the
+sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no
+additional physical meaning.
+Sadm=Sbalance∩Sfeedback∩Sspectral∩Sinterface∩Sregular∩Sstability \(79\)
+Static membership in Sadm is not identical to forward invariance. The viability kernel is:
+KV =\{ x0: UBFG
+k
+\( x0 \) lies in Sadm and is nonterminal for every k≥0\}    \(80\)
+This is the viability set of the deterministic kernel. Terminal outcomes count as failure to persist. For a finite
+horizon restrict k to that horizon. An existential choice among trajectories requires an explicitly controlled or
+set-valued extension. The gates in (79) are an organizational list; each application must specify the actual
+constraint sets [9].
+
+PDF PAGE 21
+Balance Field Equation  •  Preprint  |  21
+21 Scalar mediator normal form
+Figure 19. Scalar normal form equilibrium. Computed conditional ode. a=1.5, >0, b<1; this positive branch exists μ
+because a>1-b. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is identified on
+the height axis. Surface colour follows height and has no additional physical meaning.
+dq/dt=a-\(1-b+μ n\)q    \(81\)
+ε dn/dt=q-1-n    \(82\)
+At a positive fixed point q*=1+n* and r*=1-b+  n*=a/q*>0. The Jacobian has:μ
+tr J*= -r* - 1/ε < 0    \(83\)
+det J* = r*+μ q*
+ε > 0    \(84\)
+Conditional on existence of a positive fixed point, a, , >0 give negative trace and positive determinant and μ ε
+hence local asymptotic stability. For n*>0, existence requires a>1-b: the fixed-point equation a=(1+n*)(1-b+  μ
+n*) has a unique positive solution with r*>0 under this condition. In particular b<1 and small a need not admit
+a positive fixed point. Varying  does not create a Hopf threshold on this unchanged positive branch.ε
+For the additional quadratic overconstraint model d(n)=1-  n^2 in the overcritical regime:ζ
+nmin =\(b-1\)/μ ; nmax = √ \(1- dmin \)/ζ \(85\)
+with b>1, >0, >0 and μ ζ dmin<1. The open static corridor exists when nmin<nmax. This static corridor is not the
+viability kernel.
+
+PDF PAGE 22
+Balance Field Equation  •  Preprint  |  22
+22 Functional state Psi and factor dynamics
+Figure 20. A projection must close its fibers. Schematic countermodel. Projection (x,h)=x with successor x+h is not Π
+closed; this is a fiber test, not a BFG bridge. Horizontal and vertical coordinate ranges are the sampled grids; the
+plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical
+meaning.
+Ψ=\( φfun ,Ifun , Afun ,Gfun ,Ωfun , Tfun ,Sfun ,Mfun ,Cfun \)    \(86\)
+A closed discrete readout dynamics requires a typed projection :Π XΞ→XΨ satisfying:
+Π\(x\)=Π\(x'\) => Π\( UBFG x\)=Π\( UBFG x'\)    \(87\)
+The subscripts distinguish functional roles from kernel operators and from Φ0. φfun may equal a selected
+scalar order readout only under a specified bridge. The fiber criterion guarantees a well-defined discrete factor
+on (Π XΞ), not smoothness or physical identification. Terminality must also be constant on fibers. No such
+concrete  is constructed here.Π
+
+PDF PAGE 23
+Balance Field Equation  •  Preprint  |  23
+23 Event time, model time, and physical time
+Figure 21. Event count without calibrated seconds. Exact scalar kernel. One reclosure event is counted; no conversion
+to physical seconds is claimed. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity
+is identified on the height axis. Surface colour follows height and has no additional physical meaning.
+The kernel index k is an event/reclosure count:
+k in N0 \(88\)
+A physical clock is an additional positive map:
+Tclock : XΞ /Unitary → R>0 \(89\)
+tk = t0+∑_\{j<k\} Tclock \([Ξj]\)    \(90\)
+For a given autonomous continuous flow φF
+t, the correct compatibility condition is:
+Π\( UBFGΞ\)= ϕF
+Tclock\([Ξ]\)
+\(Π\(Ξ\)\)    \(91\)
+A clock is a quotient-invariant, independently calibrated extra map. Positive durations alone do not exclude
+Zeno accumulation: Tk=2^-k has finite sum. Unbounded physical continuation additionally requires sumk Tk
+=∞. A continuous generator and the endpoint-flow equality require independent construction. Clock constancy
+on -fibers is necessary only when a projected clock depending on  alone is demanded.Π Ψ
+
+PDF PAGE 24
+Balance Field Equation  •  Preprint  |  24
+24 From internal Gram geometry to spacetime
+Figure 22. A curved geometry bridge illustration. Schematic embedding. An illustrative surface is not a Lorentz
+metric, gravitational field equation or prediction. Horizontal and vertical coordinate ranges are the sampled grids;
+the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical
+meaning.
+The internal metric G=I+Y is positive definite. A Lorentzian spacetime metric belongs to a different type of
+object: it requires a manifold, dimension, signature, connection, and curvature. One possible additional
+completion is the rank-one disformal form studied in gravitational theory [13]:
+gμν= ημν+λ partialμφ partialν φ    \(92\)
+with  signature (-,+,+,+). Define η Xη= ^{  }η μ ν partialμ  φ partialν . Then:φ
+det g=det η \(1+λ Xη \)    \(93\)
+gμ ν
+= ημ ν
+-λ partialμ
+φ partialν
+φ/\(1+λ Xη \)    \(94\)
+The Lorentz-connected nondegeneracy condition is:
+1+λ Xη>0    \(95\)
+For =diag(-1,1,1,1) in Cartesian coordinates, det =-1. In natural units with [ ]=M and [partial ]=M^2, η η φ φ
+[ ]=M^-4. This rank-one completion is additional physics; it does not derive spacetime from the positive Gram λ
+operator.
+
+PDF PAGE 25
+Balance Field Equation  •  Preprint  |  25
+25 Gravitational completion
+Figure 23. Geometric feedback requires dynamics. Assumed potential model. V=x^2+y^2 is a pedagogical potential;
+stability of spacetime must follow from a specified action and bridge. Horizontal and vertical coordinate ranges are
+the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no
+additional physical meaning.
+A canonical real scalar field with (-+++) convention can be coupled through:
+S=integral √ -g [ MPl
+2
+R/2 - \(1/2\) gμ ν
+partialμφ partialν φ - V\(φ\)] d4x
++Sm \(96\)
+This is an assumed Einstein–scalar action. Its independent-field variation requires compactly supported
+variations or appropriate boundary data and gravitational boundary terms. Matter variation must be included
+when Sm depends on . Constraining g=g[ ] before variation gives a different chain-rule theory. The finite φ φ
+kernel supplies neither this action nor Newton’s constant, a Lorentz manifold or a physical scalar field.
+
+PDF PAGE 26
+Balance Field Equation  •  Preprint  |  26
+26 Quantum bridge
+Figure 24. Quantum state identification remains a bridge. Conditional quantum model. For a calibrated E0=|0><0|,
+p=tr(E0 ); the state-identification map is additional physics. Horizontal and vertical coordinate ranges are the ρ
+sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no
+additional physical meaning.
+A complete quantum bridge would be:
+ΠQ:Ξ → \( HQ ,ρQ , AQ ,Hhat \)    \(97\)
+where HQ is a Hilbert space, ρQ a density operator, AQ an observable algebra, and Hhat a Hamiltonian.
+Quantum operations are naturally represented by completely positive maps and instruments [11,12]. Therefore
+nonunitarity of the finite BFG kernel does not by itself exclude a quantum interpretation; actual instrument
+compatibility must be demonstrated.
+HA :ρQ
+A
+=ρW \(98\)
+HB:ρQ
+B
+=ρF /tr\( ρF \)    \(99\)
+Neither is a theorem of the finite kernel.
+
+PDF PAGE 27
+Balance Field Equation  •  Preprint  |  27
+27 Finite quantum discrimination example
+Figure 25. Competing quantum bridge predictions. Computed bridge comparison. At (0.75,0.25), hypotheses A and B
+differ by 0.5; no actual measured outcomes are used. Horizontal and vertical coordinate ranges are the sampled grids;
+the plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical
+meaning.
+K=- I2; Y=diag\(1/2,1/4\) ; P=I2 \(100\)
+ρF=diag\(1,3\) ;ρW =diag\(3/4,1/4\)    \(101\)
+Then Q=Tsel=Psel=I2 and msel=1.
+C=diag\(2/3,4/5\) ; B=diag\(1/3,1/5\) ; G=diag\(3/2,5/4\)    \(102\)
+ΛC=46/15 ; ΛB=19/60    \(103\)
+Both loads are positive, so the analysis operator has full column rank. V is unitary, XR4=V†, S4^-=S4^+=I2, m4
+=1, and E=0.
+For an externally fixed effect E0=|0><0|:
+pA =tr\( E0 ρW \)=3/4    \(104\)
+pB=tr\( E0 ρF \)/tr\( ρF \)=1/4    \(105\)
+The two bridge hypotheses are distinguishable in principle. E0 is not the actual R4 success effect of this
+example: here S4^-=I and the R4 success mass is one.
+
+PDF PAGE 28
+Balance Field Equation  •  Preprint  |  28
+28 R4 and quantum instruments
+Figure 26. A general effect need not be projective. Computed effect test. A direct R4 effect is a projector. Generic
+positive effects with interior eigenvalues fail that test. Horizontal and vertical coordinate ranges are the sampled
+grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional
+physical meaning.
+For a fixed independently specified T4,  → ρ T4  ρ T4† is completely positive, with effect T4†T4=S4^-. Direct
+identification with a measured Kraus success operator therefore requires a projective effect and compatible
+transport. A general POVM effect need not be a projector [11].
+Because T4 is endogenously state-dependent,
+T4 = T4 \(Ξ\)    \(106\)
+the family  → ρ T4( )  Ξ ρ T4( )† is not automatically one linear CP channel on arbitrary inputs. It can be a Ξ
+classically conditioned family only if  is independently identified.Ξ
+
+PDF PAGE 29
+Balance Field Equation  •  Preprint  |  29
+29 Gauge and particle sector
+Figure 27. Particle hierarchy requires parameters. Schematic dependency. The surface labels a parameter
+dependency only; no Standard Model mass or coupling is derived. Horizontal and vertical coordinate ranges are the
+sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no
+additional physical meaning.
+The Standard Model is experimentally organized around SU(3)_C x SU(2)_L x U(1)_Y and measured particle
+properties summarized by the Particle Data Group [14]. A BFG particle bridge must map the finite recursive
+state to field representations, charges, couplings, symmetry breaking, masses, and mixing data.
+ΠSM:Ξ → \{gauge fields, representations, couplings, masses, mixings\}    \(107\)
+The current finite core does not determine these numerical quantities.
+
+PDF PAGE 30
+Balance Field Equation  •  Preprint  |  30
+30 Atomic closure
+Figure 28. Atomic localization and attraction. Conventional conditional model. E(r)=1/(2r^2)-a/r; ordinary quantum
+scaling, not a new BFG atomic spectrum. Horizontal and vertical coordinate ranges are the sampled grids; the plotted
+quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.
+A structural atom-level closure can be denoted:
+Atom=ClN \(particles,interactions\)    \(108\)
+but ClN is not a complete transition law until its state space and dynamics are given. Quantitative atomic
+spectra currently require ordinary quantum mechanics and electrodynamics. A familiar scale argument,
+E\(r\) ~ ^2/\(2μℏ r2
+\) - e2
+/\(4π ε0 r\)    \(109\)
+shows why the positive r^-2 localization term can dominate the attractive r^-1 term at short distance. This is a
+quantum variational scaling argument, not a derivation of  or e from the finite kernel.ℏ
+
+PDF PAGE 31
+Balance Field Equation  •  Preprint  |  31
+31 Molecular and biological closure
+Figure 29. Molecular binding criterion. Schematic binding landscape. The illustrative energy x^2+y^2-1 marks a
+negative binding region; it is not a BFG molecular potential. Horizontal and vertical coordinate ranges are the
+sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no
+additional physical meaning.
+Figure 30. Biological boundary and gross flux. Computed flux identity. Jnet=Jout-Jin. Stationary net flux permits
+nonzero gross flows; no cell viability is inferred. Horizontal and vertical coordinate ranges are the sampled grids; the
+
+PDF PAGE 32
+Balance Field Equation  •  Preprint  |  32
+plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical
+meaning.
+A molecular stage may be schematically written:
+M=ClNM \( A1, A2 \)    \(110\)
+with a binding criterion E(M)<E(A1)+E(A2), but a genuine bridge requires a typed molecular state and
+update. Turing's reaction-diffusion work is a canonical example of local dynamics generating higher spatial
+organization [15], while autopoiesis supplies an influential organizational language for self-maintaining living
+systems [16].
+molecule → macromolecule → cell → tissue → organ → organism    \(111\)
+The ladder is not a proof merely because the labels are ordered. Each arrow requires a state space, transition
+rule, preservation/loss quantities, and causal/viability criterion.
+For an oriented biological boundary:
+Jnet = Jout - Jin \(112\)
+Stationary net flux Jnet=0 means gross inflow equals gross outflow, not that both vanish.
+32 Witness, world, self, and subject structure
+Figure 31. World and self require operational maps. Schematic functional model. A product is only a visual aid. ΠW,
+ΠS, lineage and causal closure must be independently defined. Horizontal and vertical coordinate ranges are the
+sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no
+additional physical meaning.
+Four notions are distinct: original witness mass w, carrier retention, formation retention and directed lineage.
+ρW is a kernel component; local msel and m4 are computed event outputs and w and the transport history are
+separate trajectory records. They cannot generally be reconstructed from a normalized successor alone.
+mtot = msel m4 \(113\)
+
+PDF PAGE 33
+Balance Field Equation  •  Preprint  |  33
+Conditional normalization alone never proves full original-mass survival. Here m4=1 is a theorem of the
+ambient analysis, whereas msel can be less than one at the initial event.
+World and self require additional readouts:
+W= ΠW \(Ξhistory \) ; S= ΠS \(Ξhistory \)    \(114\)
+and a closed update:
+\( Wk+1,Sk+1 \)= UWS \( Wk ,Sk , uk \)    \(115\)
+A subject criterion Γsubj can only become operational after these maps, their causal roles, and measurement
+rules are fixed. The Wende–Pereira precursor motivates the distinction between functional/computational
+description and the stronger question of subjectivity [3]. Predictive/free-energy formulations provide a
+comparison point for world-model and self-regulation ideas [17], but do not validate the BFG bridge.
+33 Phenomenal bridge
+Figure 32. Phenomenality is not a matrix consequence. Schematic status panel. The zero sheet denotes absence of a
+derived prediction, not absence of subjective experience. Horizontal and vertical coordinate ranges are the sampled
+grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional
+physical meaning.
+Even a fully operational Γsubj would not make phenomenality a mathematical theorem. The final identification
+would be an empirical-ontological hypothesis:
+Hphen: Γsubj=1 ⇔ phenomenal experience    \(116\)
+This hypothesis is separate from the finite-kernel mathematics and from the Level-0 ontological
+interpretation.
+34 Canonical world-formula statement
+The finite BFG world formula is the orbit of the quotient dynamics:
+
+PDF PAGE 34
+Balance Field Equation  •  Preprint  |  34
+WBFG=\{OrbUbar \([Ξ0 ]\) | each step is admissible or terminates by an explicit terminal code\}    \(117\)
+The nonterminal successor is:
+[Ξk ] → Selection → metric loads → ambient reduced SVD → [ K+, Y+]    \(118a\)
+[ K+, Y+] → isometric R4 → witness/formation inheritance → seed or terminal → [ Ξk+1]    \(118b\)
+This formulation is finite, stratified, gauge-covariant, and dimension-aware. It is a world formula in the
+mathematical sense of a state-plus-law architecture. The stronger statement that the physical universe is
+isomorphic to WBFG is a physical hypothesis supplied by bridge laws and measurements.
+35 Falsifiability and bridge discipline
+A physical BFG bridge must be fixed before the holdout observations it is meant to predict. For a bridge B and
+preparation data Dprep:
+Ξ= Mprep \( Dprep \)    \(119\)
+PBFG \( Dfuture|Dprep,B\)    \(120\)
+must be computed without refitting B to holdout outcomes. The quantum A/B example illustrates this
+requirement. A negative result first falsifies the tested bridge hypothesis, not every mathematical statement of
+the finite kernel.
+The same discipline applies to gravity, particle physics, biology, and subject structure. A bridge freely
+replaceable after every observation has no predictive content.
+Identifiability is a separate requirement. Full column rank of a sensitivity Jacobian can provide a sufficient
+regular local criterion under suitable assumptions, but is not necessary for structural local uniqueness. The
+map Y( )= ^3 is injective even though its derivative is zero at =0. State the relevant equivalence symmetries θ θ θ
+and test local uniqueness of the actual preparation or bridge map; do not infer it solely from a first-order rank
+test.
+36 Variable and operator register
+Symbol Type Role Canonical status
+_0Φ Level-0 object pre-operational domain bridge to  not fixedΞ
+Ξ five-component operator
+tuple
+finite complete state defined
+K Hermitian operator kernel/formation geometry defined
+_Fρ positive operator formation defined, not normalized
+_Wρ positive trace-one operator witness defined
+Y positive semidefinite
+operator
+Gram/load geometry defined
+P orthogonal projector persistent carrier defined
+Q spectral projector selection defined
+T_sel partial isometry first transport defined
+P_G G-orthogonal projector metric selection defined
+_C, _BΛ Λ nonnegative scalars endogenous loads defined
+,α β weights analysis balance dual-load branch
+A linear operator analysis map defined
+U, ,VΣ reduced SVD factors successor frame/spectrum defined modulo gauge
+T_4 partial isometry R4 transport defined
+
+PDF PAGE 35
+Balance Field Equation  •  Preprint  |  35
+Symbol Type Role Canonical status
+m_sel,m_4,m_tot [0,1] scalars witness survival defined
+E projector free target complement defined
+H_E Hermitian compression seed spectral problem defined
+Pi_seed projector seed support simple negative branch
+Ψ nine-role functional state readout architecture ( _fun,I_fun,A_fun,G_fun, _fφ Ω
+un,T_fun,S_fun,M_fun,C_fun)
+T_clock X_ /Unitary → R_{>0}Ξ physical step duration physical bridge
+g_ _μ ν Lorentz metric spacetime geometry physical completion
+_Qρ density operator quantum state competing bridge hypotheses
+_subjΓ future operational gate subject structure not yet fixed
+w trajectory scalar original witness mass separate record;
+w_next=w*m_sel
+q_info scalar stock  times Iφ not selection Q
+a_info scalar injection rate stock source not analysis A
+Table 3. Canonical classification and definitions.
+37 Scope of proved statements
+The following are mathematical consequences of the declared canonical class:
+1. G=I+Y is positive definite whenever Y≥0.
+2. The positive dual-load ambient kernel gives 0<Y_+<I and n_+≤n.
+3. The reduced-SVD convention fixes the active successor dimension r=rank(A).
+4. The unitary quotient removes common SVD phase and exactly degenerate block-basis ambiguity from the
+successor state.
+5. msel is a survival mass in [0,1]; ambient R4 has m4=1 and mtot=msel.
+6. Hermiticity of K makes the seed compression Hermitian.
+7. On the stated scalar full-persistence branch, 0<f(y)<y for 0<y<1.
+8. The same branch prevents a universal strict full-state contraction theorem in fixed positive product norms
+because neutral K/F directions exist.
+9. The positive fixed point of the scalar two-variable ODE is locally asymptotically stable for positive a, ,  μ ε
+under the stated branch conditions.
+The following are not consequences of the finite kernel alone: a unique physical information measure, SI time,
+Lorentzian spacetime, Einstein dynamics, the Born rule, Standard-Model parameters, quantitative
+atomic/molecular chemistry, organismal closure, or phenomenal experience.
+38 Discussion
+The canonicalization changes the status of the finite kernel in an important way. Its main ambiguities are no
+longer left as informal choices. The successor space is the active reduced-SVD space; SVD basis freedom is
+quotient gauge; witness masses have a normalized probabilistic kernel interpretation; K is Hermitian; the seed
+has compatible units; and failure modes are named terminal outcomes. This makes the finite dynamics a
+genuine mathematical model rather than a collection of mutually suggestive formulas.
+At the same time, the architecture remains layered. Internal Gram geometry is not silently promoted to
+spacetime. A kernel density operator is not silently promoted to a quantum state. A closure label is not silently
+promoted to a biological law. A world/self functional architecture is not silently promoted to phenomenality.
+Each promotion is an explicit bridge law that can be examined independently.
+
+PDF PAGE 36
+Balance Field Equation  •  Preprint  |  36
+39 Conclusion
+The Balance–Field Equation can be stated as a canonical stratified recursive dynamics:
+[Ξk+1]= UbarBFG \([Ξk ]\)    \(121\)
+The stated model has an ambient analysis, canonical polar factors, positive dual loads and a seed rule that
+terminates when a nonempty complement lacks a simple negative minimum. It is defined on unitary
+equivalence classes. General consequences include 0<Y_+<I, n_+≤n and m4=1; subsequent nonterminal events
+preserve witness mass. Scalar damping is a narrower geometric statement. Full regional contraction remains
+open and cannot hold on a region containing the neutral K/F control directions in a positive product norm.
+Physical universality requires additional fixed bridges and independent tests.
+40 The BFG as a Fundamental Recursive World Equation
+The canonical BFG world equation is not a shorthand for several unrelated laws. It is the single recursive
+evolution law on the quotient state space; spectral selection, metric projection, endogenous loading, reduced
+SVD, R4 transport, witness conditioning, formation inheritance, and seed formation are the explicit
+factorization of its evolution operator.
+[Ξk+1] = UbarBFG \([Ξk ]\)
+UbarBFG= Useed ∘ UR4 ∘ USVD∘ Uload ∘ Umetric∘ Uselection
+Its composite operator structure is therefore a strength rather than an incompleteness: the state carries the
+coupled structures required for recursive persistence, while the factorization exposes every internal operation
+that produces the successor. The remaining question is no longer whether the BFG has a world equation; it is
+whether the physical measurement maps below identify this mathematical orbit with the observed world.
+41 Physical Observables and Measurement Map
+A physical world equation must connect internal state variables to independently measured quantities. The
+canonical measurement layer is therefore a family Mphys of typed readout maps. SI units follow the
+International System of Units; particle observables are to be compared with independently tabulated
+experimental quantities rather than fitted labels.
+Ophys= Mphys \([Ξ], calibration, apparatus\)
+A BFG physical bridge is accepted only after the readout, calibration constants, preparation protocol, and
+uncertainty model are fixed independently of the holdout observations.
+Symbol or
+observable
+Complete specification
+Physical time tΔ SI / standard unit: s
+Experimental measurement: atomic/optical clock interval
+BFG readout target: T_clock( )Ξ
+Required bridge: M_t:  → R_+Ξ
+Calibration / nuisance: clock scale and synchronization
+Falsification criterion: predicted intervals inconsistent with calibrated clock data
+Length /
+displacement
+SI / standard unit: m
+Experimental measurement: interferometry, ranging
+BFG readout target: metric distance from g_ _μ ν
+Required bridge: M_g plus coordinate/rod prescription
+Calibration / nuisance: coordinate gauge, apparatus response
+Falsification criterion: predicted invariant distances disagree with measurements
+
+PDF PAGE 37
+Balance Field Equation  •  Preprint  |  37
+Symbol or
+observable
+Complete specification
+Proper time SI / standard unit: s
+Experimental measurement: clock comparison along worldlines
+BFG readout target: c^-1 ∫sqrt(-g_ _  dx^  dx^ )μ ν μ ν
+Required bridge: Lorentzian spacetime bridge
+Calibration / nuisance: worldline and clock model
+Falsification criterion: clock ratios/redshifts fail
+Energy SI / standard unit: J or eV
+Experimental measurement: calorimetry/spectroscopy
+BFG readout target: E_exp, E_bind; H_hat spectrum
+Required bridge: M_E and quantum bridge
+Calibration / nuisance: zero point, detector calibration
+Falsification criterion: spectral/energy differences fail
+Frequency SI / standard unit: Hz
+Experimental measurement: spectroscopy/clock counting
+BFG readout target: transition E/h after bridgeΔ
+Required bridge: M_Q plus h convention
+Calibration / nuisance: line shape, Doppler/systematics
+Falsification criterion: predicted line centers fail
+Mass SI / standard unit: kg; eV/c^2
+Experimental measurement: inertial/gravitational or particle reconstruction
+BFG readout target: particle/formation mass readout
+Required bridge: Pi_SM or gravitational bridge
+Calibration / nuisance: detector/model systematics
+Falsification criterion: mass predictions fail PDG/precision data
+Electric charge SI / standard unit: C or multiples of e
+Experimental measurement: charge/current standards, scattering
+BFG readout target: charge representation from Pi_SM
+Required bridge: gauge/representation bridge
+Calibration / nuisance: detector gain, e convention
+Falsification criterion: charge assignments or ratios fail
+Momentum SI / standard unit: kg m s^-1; eV/c
+Experimental measurement: tracking, recoil, scattering
+BFG readout target: generator/kinematic readout
+Required bridge: spacetime + quantum bridge
+Calibration / nuisance: field map, alignment
+Falsification criterion: kinematic distributions fail
+Angular
+momentum / spin
+SI / standard unit: J s; ħ units
+Experimental measurement: Stern–Gerlach, spectroscopy, collider angular analyses
+BFG readout target: representation label/operator
+Required bridge: quantum + particle bridge
+Calibration / nuisance: analyzer orientation
+Falsification criterion: spin/multiplicity predictions fail
+Cross section SI / standard unit: m^2; barn
+Experimental measurement: event rates with luminosity
+BFG readout target: scattering probability/amplitude
+Required bridge: quantum field bridge
+Calibration / nuisance: luminosity, efficiency
+Falsification criterion: predicted cross sections fail
+Decay rate /
+lifetime
+SI / standard unit: s^-1 / s
+Experimental measurement: time distributions
+BFG readout target: transition/decay generator
+Required bridge: particle quantum bridge
+Calibration / nuisance: acceptance/background
+Falsification criterion: lifetime/branching predictions fail
+
+PDF PAGE 38
+Balance Field Equation  •  Preprint  |  38
+Symbol or
+observable
+Complete specification
+Dimensionless
+couplings
+SI / standard unit: 1
+Experimental measurement: scattering/precision fits
+BFG readout target: g_i( )Ξ
+Required bridge: Pi_SM
+Calibration / nuisance: renormalization scale
+Falsification criterion: running/couplings fail independent fits
+Gravitational
+acceleration
+SI / standard unit: m s^-2
+Experimental measurement: free fall, gravimetry
+BFG readout target: geodesic/field prediction from g
+Required bridge: M_g + dynamics
+Calibration / nuisance: local environment
+Falsification criterion: acceleration/redshift/lensing fail
+Curvature / tidal
+field
+SI / standard unit: m^-2 or s^-2 forms
+Experimental measurement: geodesic deviation, gravitational observations
+BFG readout target: Riemann/Ricci tensors from g
+Required bridge: connection/curvature bridge
+Calibration / nuisance: source model
+Falsification criterion: tidal/lensing/wave observables fail
+Quantum outcome
+probability
+SI / standard unit: 1
+Experimental measurement: repeated POVM/instrument frequencies
+BFG readout target: tr(E_a _Q)ρ
+Required bridge: Pi_Q plus instrument map
+Calibration / nuisance: state preparation, detector tomography
+Falsification criterion: holdout frequencies reject predicted probabilities
+Witness survival
+mass
+SI / standard unit: 1
+Experimental measurement: kernel-internal; no established direct apparatus yet
+BFG readout target: m_sel, m_4, m_tot
+Required bridge: requires physical witness identification
+Calibration / nuisance: preparation/selection protocol
+Falsification criterion: bridge rejected if measured success statistics disagree
+Information I SI / standard unit: bit/nat or 1
+Experimental measurement: specified ensemble/configuration counting
+BFG readout target: log|C_ (X)|θ
+Required bridge: M_I fixes X,C_ , ,base,I_0θ θ
+Calibration / nuisance: coarse graining
+Falsification criterion: independent counts disagree
+Order parameter φ SI / standard unit: 1
+Experimental measurement: derived from independently measured energy/information ratios
+BFG readout target: _E or _Nφ φ
+Required bridge: M_φ
+Calibration / nuisance: reference I_0 and energy definitions
+Falsification criterion: derived observable disagrees
+Biological flux SI / standard unit: mol s^-1, kg s^-1, W as appropriate
+Experimental measurement: transport/metabolic assays
+BFG readout target: J_in,J_out,J_net
+Required bridge: Pi_bio
+Calibration / nuisance: boundary and species definitions
+Falsification criterion: flux/viability predictions fail
+World/Self
+functional
+readouts
+SI / standard unit: task-dependent
+Experimental measurement: behavioral/interventional assays
+BFG readout target: Pi_W, Pi_S, U_WS
+Required bridge: cognitive bridge
+Calibration / nuisance: task model and intervention class
+Falsification criterion: out-of-sample causal predictions fail
+
+PDF PAGE 39
+Balance Field Equation  •  Preprint  |  39
+Symbol or
+observable
+Complete specification
+Phenomenal report
+/ experience
+SI / standard unit: no single SI unit
+Experimental measurement: report, behavior, physiology under protocol
+BFG readout target: _subj only after definitionΓ
+Required bridge: H_phen
+Calibration / nuisance: report model and confounds
+Falsification criterion: pre-registered bridge predictions fail
+Table 4. Canonical physical-observable interface for the Balance–Field Equation. Entries marked as bridges are
+model commitments to be fixed before holdout testing.
+41.1 Metrological requirement
+The measurement map is not permitted to identify an internal variable with an SI observable merely because
+their dimensions can be made compatible. Each observable requires an apparatus model and a calibration
+chain. The SI provides the internationally agreed unit system, while precision particle properties are
+independently compiled by the Particle Data Group. In the quantum sector, electrical and quantum standards
+illustrate how physical laws become metrological realizations only after a concrete instrument and traceability
+chain are specified.
+41.2 Minimum empirical closure condition
+For a preparation Dprep, calibration C, bridge B, and holdout data Dtest, a physically closed BFG sector must
+provide a predictive distribution PBFG(Dtest | Dprep,C,B) before Dtest is observed. A sector is not physically
+closed by notation alone. This criterion applies independently to time, geometry, quantum outcomes, particle
+parameters, biological observables, and subject-level observables.
+42 Complete Canonical Mathematical Specification
+This section consolidates the complete finite Balance–Field Equation in one place. It is intended to remove the
+need to reconstruct types, dimensions, assumptions, and successor rules from separate passages.
+[Ξk+1] = UbarBFG \([Ξk ]\)
+The quotient operator factors into selection, first transport, endogenous metric projection, positive load
+weighting, ambient reduced SVD, successor geometry and kernel, isometric R4 realignment, formation
+inheritance, and the seed or terminal rule. The nominal second normalization has mass exactly one.
+42.1 Domain of one nonterminal step
+All input operators act on Hk. Tsel maps the selected source support to Psel. The analysis operator is A:Hk→Hk
+⊕Hk, without domain restriction. Its reduced SVD has U:C^r→Hk⊕Hk and V:C^r→Hk. The successor is C^r.
+Positive dual loads imply rank(Psel)≤r≤nk. Padding null directions or substituting A Z changes the model.
+42.2 Gauge-invariant successor
+The successor is an equivalence class under simultaneous unitary coordinate changes. A common phase of a
+simple singular-vector pair and a unitary rotation within an exactly degenerate singular block are not distinct
+physical or mathematical successors. Under U→UW and V→VW with W commuting with , K_+, Y_+, Σ S4^+, ρW
+,+, ρF,+ and P_+ all transform by the same target-space conjugation. Thus the quotient state [ _+] is unique Ξ
+even when a matrix representation is not.
+
+PDF PAGE 40
+Balance Field Equation  •  Preprint  |  40
+42.3 Regular strata and differentiability
+Regularity is assumed on fixed projector and matrix-rank strata: a gap to the threshold 1, positive msel and
+both loads, fixed positive rank of A, simple separated positive singular values for componentwise formulas, and
+a fixed seed branch. On E≠0 require a simple negative lowest eigenvalue separated from zero and the other
+eigenvalues; on E=0 keep complement dimension zero. Input tangent variations are Hermitian in K,F,W,Y,
+have tr(  W)=0, and satisfy P  P P=(I-P)  P(I-P)=0. Positivity/rank constraints also restrict allowed tangents.δ δ δ
+These are specified regularity assumptions, not universally necessary conditions for every possible proof. All
+polar norms here are operator 2-norms.
+42.4 Terminal and continuation semantics
+Apply terminal gates in order: zero selection rank, zero first witness mass, failure of positive dual loads, then
+seed failure on E≠0. Lack of a negative minimum gives Tseednone; a multiple negative minimum gives Tseeddeg.
+After positive loads, zero A/R4 rank and zero m4 are impossible and are only implementation consistency
+checks. E=0 is the sole no-seed continuation.
+42.5 Stability hierarchy
+Endogenous geometry is positive and the actual ambient update additionally gives 0<Y_+<I. Neither result
+bounds the derivative of the complete tuple by a constant below one. Regional full-kernel contraction remains
+open; rank, gap, load and mass margins only describe regions on which it can be investigated. The neutral K/F
+control branch excludes a universal strict product-norm theorem. Transverse stability requires a specified
+invariant set and a separate certificate.
+43 Complete Variable and Operator Dictionary
+Every symbol used in the canonical equation is listed below. 'Bridge' means that the finite mathematical kernel
+does not by itself determine the physical identification.
+Symbol or
+observable
+Complete specification
+_0Φ Domain / type: X_0
+Codomain / unit: ontological
+Exact definition: Level-0 object
+Mathematical role: pre-operational domain
+Conditions: no canonical  mapΞ
+Status: Definition/bridge
+_kΞ Domain / type: product operator space
+Codomain / unit: mixed
+Exact definition: (K, _F, _W,Y,P)ρ ρ
+Mathematical role: complete finite state
+Conditions: finite H_k
+Status: Definition
+H_k Domain / type: finite complex Hilbert space
+Codomain / unit: dim n_k
+Exact definition: active event space
+Mathematical role: carrier of _kΞ
+Conditions: finite
+Status: Definition
+K_k Domain / type: Herm(H_k)
+Codomain / unit: E_F
+Exact definition: K=K†
+Mathematical role: kernel/formation geometry
+Conditions: Hermitian
+Status: Definition
+
+PDF PAGE 41
+Balance Field Equation  •  Preprint  |  41
+Symbol or
+observable
+Complete specification
+_F,kρ Domain / type: Pos(H_k)
+Codomain / unit: E_F
+Exact definition: _F≥0ρ
+Mathematical role: formation
+Conditions: not necessarily trace-one
+Status: Definition
+_W,kρ Domain / type: Dens(H_k)
+Codomain / unit: 1
+Exact definition: _W≥0,tr=1ρ
+Mathematical role: witness
+Conditions: normalized input
+Status: Definition
+Y_k Domain / type: Herm_+(H_k)
+Codomain / unit: 1
+Exact definition: Y≥0
+Mathematical role: Gram/load geometry
+Conditions: positive semidefinite
+Status: Definition
+P_k Domain / type: Proj(H_k)
+Codomain / unit: 1
+Exact definition: P=P†=P^2
+Mathematical role: persistent carrier
+Conditions: orthogonal projector
+Status: Definition
+Q_k Domain / type: Proj(H_k)
+Codomain / unit: 1
+Exact definition: 1_[0,1)(Y)
+Mathematical role: spectral selection
+Conditions: gap to 1 for smoothness
+Status: Definition
+C_k Domain / type: End(H_k)
+Codomain / unit: 1
+Exact definition: (I+Y)^-1
+Mathematical role: neutral/complement channel
+Conditions: Y≥0
+Status: Definition
+B_k Domain / type: End(H_k)
+Codomain / unit: 1
+Exact definition: YC=I-C
+Mathematical role: balance channel
+Conditions: Y≥0
+Status: Definition
+G_k Domain / type: PosDef(H_k)
+Codomain / unit: 1
+Exact definition: I+Y
+Mathematical role: internal metric
+Conditions: Y≥0
+Status: Theorem/definition
+I and I_0 Domain / type: specified configuration count and reference
+Codomain / unit: bit/nat or dimensionless
+Exact definition: I=log_b |C_ (X)|θ
+Mathematical role: information readout
+Conditions: finite nonempty class, b>1, I_0>0
+Status: Open bridge
+
+PDF PAGE 42
+Balance Field Equation  •  Preprint  |  42
+Symbol or
+observable
+Complete specification
+_N or _Eφ φ Domain / type: scalar ratios
+Codomain / unit: dimensionless
+Exact definition: (N_+/N_-)(I/I_0) or (E_exp/E_bind)(I/I_0)
+Mathematical role: order readout
+Conditions: positive references; distinct from _0Φ
+Status: Open bridge
+Table 5. Complete Level-0 and finite-state variable dictionary.
+Symbol or
+observable
+Complete specification
+X_sel Domain / type: End(H_k)
+Codomain / unit: 1
+Exact definition: Q_k P_k
+Mathematical role: selection overlap
+Conditions: compatible source space
+Status: Definition
+T_sel Domain / type: partial isometry
+Codomain / unit: 1
+Exact definition: polar(X_sel)
+Mathematical role: first transport
+Conditions: rank>0
+Status: Definition
+S_sel^- Domain / type: projector
+Codomain / unit: 1
+Exact definition: T_sel†T_sel
+Mathematical role: source support
+Conditions: T_sel defined
+Status: Definition
+P_sel Domain / type: projector
+Codomain / unit: 1
+Exact definition: T_sel T_sel†
+Mathematical role: target support
+Conditions: T_sel defined
+Status: Definition
+_F^selρ Domain / type: positive operator
+Codomain / unit: E_F
+Exact definition: T_sel _F T_sel†ρ
+Mathematical role: selected formation
+Conditions: transport defined
+Status: Definition
+_un^selρ Domain / type: positive operator
+Codomain / unit: 1
+Exact definition: T_sel _W T_sel†ρ
+Mathematical role: unnormalized witness
+Conditions: transport defined
+Status: Definition
+m_sel Domain / type: [0,1]
+Codomain / unit: 1
+Exact definition: tr(S_sel^- _W)ρ
+Mathematical role: first survival mass
+Conditions: tr _W=1ρ
+Status: Theorem/definition
+_W^selρ Domain / type: density operator
+Codomain / unit: 1
+Exact definition: _un^sel/m_selρ
+Mathematical role: conditioned witness
+Conditions: m_sel>0
+Status: Definition
+
+PDF PAGE 43
+Balance Field Equation  •  Preprint  |  43
+Symbol or
+observable
+Complete specification
+Z Domain / type: isometry
+Codomain / unit: 1
+Exact definition: Z†Z=I,ZZ†=P_sel
+Mathematical role: target-support frame
+Conditions: local gauge
+Status: Definition
+P_G Domain / type: G-projector
+Codomain / unit: 1
+Exact definition: Z(Z†GZ)^-1Z†G
+Mathematical role: metric projection
+Conditions: invertible compression
+Status: Definition
+_CΛ Domain / type: R_+
+Codomain / unit: load unit
+Exact definition: trace formula
+Mathematical role: C-load
+Conditions: positive branch
+Status: Definition
+_BΛ Domain / type: R_+
+Codomain / unit: load unit
+Exact definition: trace formula
+Mathematical role: B-load
+Conditions: positive branch
+Status: Definition
+α Domain / type: (0,1)
+Codomain / unit: 1
+Exact definition: _B/( _C+ _B)Λ Λ Λ
+Mathematical role: C weight
+Conditions: dual-load branch
+Status: Definition
+β Domain / type: (0,1)
+Codomain / unit: 1
+Exact definition: _C/( _C+ _B)Λ Λ Λ
+Mathematical role: B weight
+Conditions: dual-load branch
+Status: Definition
+Table 6. Selection, transport, metric-projection, and load variables.
+Symbol or
+observable
+Complete specification
+A_k Domain / type: H_k → H_k H_k⊕
+Codomain / unit: analysis space
+Exact definition: vertical stack of weighted P_GC/P_GB
+Mathematical role: analysis operator
+Conditions: positive loads
+Status: Definition
+r_k Domain / type: N
+Codomain / unit: 1
+Exact definition: rank(A_k)
+Mathematical role: successor dimension
+Conditions: r_k≥1
+Status: Definition
+U_k Domain / type: isometry C^r→analysis
+Codomain / unit: 1
+Exact definition: left reduced SVD frame
+Mathematical role: successor kernel frame
+Conditions: modulo gauge
+Status: Definition
+
+PDF PAGE 44
+Balance Field Equation  •  Preprint  |  44
+Symbol or
+observable
+Complete specification
+_kΣ Domain / type: positive diagonal
+Codomain / unit: 1
+Exact definition: singular spectrum
+Mathematical role: sets Y_+
+Conditions: positive singular values
+Status: Definition
+V_k Domain / type: isometry C^r→source
+Codomain / unit: 1
+Exact definition: right reduced SVD frame
+Mathematical role: R4 source frame
+Conditions: modulo gauge
+Status: Definition
+_UΩ Domain / type: skew-Hermitian
+Codomain / unit: variation
+Exact definition: U†  Uδ
+Mathematical role: SVD connection
+Conditions: simple stratum
+Status: Derived
+_VΩ Domain / type: skew-Hermitian
+Codomain / unit: variation
+Exact definition: V†  Vδ
+Mathematical role: SVD connection
+Conditions: simple stratum
+Status: Derived
+K_+ Domain / type: Herm(C^r)
+Codomain / unit: E_F
+Exact definition: U†(K K)U⊕
+Mathematical role: successor kernel
+Conditions: K Hermitian
+Status: Definition
+Y_+ Domain / type: Herm_+(C^r)
+Codomain / unit: 1
+Exact definition: ^2Σ
+Mathematical role: successor Gram geometry
+Conditions: reduced SVD
+Status: Theorem/definition
+X_R4 Domain / type: linear map
+Codomain / unit: 1
+Exact definition: V†P_sel
+Mathematical role: R4 overlap
+Conditions: compatible frames
+Status: Definition
+T_4 Domain / type: partial isometry
+Codomain / unit: 1
+Exact definition: polar(X_R4)
+Mathematical role: R4 transport
+Conditions: rank>0
+Status: Definition
+S_4^- Domain / type: projector
+Codomain / unit: 1
+Exact definition: T_4†T_4
+Mathematical role: R4 source support
+Conditions: T_4 defined
+Status: Definition
+
+PDF PAGE 45
+Balance Field Equation  •  Preprint  |  45
+Symbol or
+observable
+Complete specification
+S_4^+ Domain / type: projector
+Codomain / unit: 1
+Exact definition: T_4T_4†
+Mathematical role: R4 target support
+Conditions: T_4 defined
+Status: Definition
+m_4 Domain / type: {1}
+Codomain / unit: 1
+Exact definition: tr(S_4^- _W^sel)ρ
+Mathematical role: second survival mass
+Conditions: identically one on positive dual-load branch
+Status: Definition/theorem
+m_tot Domain / type: [0,1]
+Codomain / unit: 1
+Exact definition: m_sel m_4
+Mathematical role: step survival mass
+Conditions: sequential conditioning
+Status: Definition
+Table 7. Reduced-SVD, successor, and R4 variables.
+Symbol or
+observable
+Complete specification
+E Domain / type: projector
+Codomain / unit: 1
+Exact definition: I-S_4^+
+Mathematical role: free target complement
+Conditions: successor space fixed
+Status: Definition
+Z_E Domain / type: isometry
+Codomain / unit: 1
+Exact definition: Z_EZ_E†=E
+Mathematical role: complement frame
+Conditions: horizontal gauge locally
+Status: Definition
+H_E Domain / type: Herm(Ran E)
+Codomain / unit: E_F
+Exact definition: Z_E†K_+Z_E
+Mathematical role: seed spectral operator
+Conditions: K_+ Hermitian
+Status: Definition
+λ Domain / type: R
+Codomain / unit: E_F
+Exact definition: simple negative minimum of H_E
+Mathematical role: seed amplitude
+Conditions: <0λ
+Status: Definition
+π Domain / type: rank-one projector
+Codomain / unit: 1
+Exact definition: vv†
+Mathematical role: reduced seed support
+Conditions: simple minimum
+Status: Definition
+Pi_seed Domain / type: projector
+Codomain / unit: 1
+Exact definition: Z_E  Z_E†π
+Mathematical role: embedded seed support
+Conditions: Pi_seed≤E
+Status: Definition
+
+PDF PAGE 46
+Balance Field Equation  •  Preprint  |  46
+Symbol or
+observable
+Complete specification
+_Fκ Domain / type: R_+
+Codomain / unit: conversion
+Exact definition: fixed unit factor
+Mathematical role: K-to-formation conversion
+Conditions: constant
+Status: Assumption if needed
+_seedρ Domain / type: positive operator
+Codomain / unit: E_F
+Exact definition: - _F  Pi_seedκ λ
+Mathematical role: new formation
+Conditions: negative λ
+Status: Definition
+_F,+ρ Domain / type: positive operator
+Codomain / unit: E_F
+Exact definition: _F,inh+ _seedρ ρ
+Mathematical role: successor formation
+Conditions: E=0 or simple negative seed; otherwise terminal
+Status: Definition
+P_+ Domain / type: projector
+Codomain / unit: 1
+Exact definition: S_4^++Pi_seed
+Mathematical role: successor carrier
+Conditions: orthogonal supports
+Status: Theorem/definition
+R_λ Domain / type: reduced resolvent
+Codomain / unit: E_F^-1
+Exact definition: (H_E-  I)^+λ
+Mathematical role: seed differential
+Conditions: simple eigenvalue
+Status: Derived
+Table 8. Seed, complement, and formation variables.
+Symbol or
+observable
+Complete specification
+Ψ Domain / type: 9-role state
+Codomain / unit: mixed
+Exact definition: ( _fun,I_fun,A_fun,G_fun, _fun,T_fun,S_fun,M_fun,C_fun)φ Ω
+Mathematical role: functional readout
+Conditions:  incompleteΠ
+Status: Bridge
+Π Domain / type: map
+Codomain / unit: -
+Exact definition: →Ξ Ψ
+Mathematical role: factor projection
+Conditions: fiber condition
+Status: Bridge
+T_clock Domain / type: X_ /Unitary → R_{>0}Ξ
+Codomain / unit: s
+Exact definition: physical step duration
+Mathematical role: event-to-time bridge
+Conditions: calibration
+Status: Bridge
+t_k Domain / type: R
+Codomain / unit: s
+Exact definition: t0+sum T_clock
+Mathematical role: physical time
+Conditions: clock fixed
+Status: Bridge
+
+PDF PAGE 47
+Balance Field Equation  •  Preprint  |  47
+Symbol or
+observable
+Complete specification
+g_ _μ ν Domain / type: Lorentz metric
+Codomain / unit: 1
+Exact definition: bridge-dependent
+Mathematical role: spacetime
+Conditions: manifold/signature
+Status: Bridge
+_Qρ Domain / type: density operator
+Codomain / unit: 1
+Exact definition: _W or _F/tr _F candidatesρ ρ ρ
+Mathematical role: quantum state
+Conditions: experiment selects bridge
+Status: Bridge
+H_hat Domain / type: self-adjoint operator
+Codomain / unit: J/eV
+Exact definition: quantum Hamiltonian
+Mathematical role: energy generator
+Conditions: Pi_Q
+Status: Bridge
+E_a Domain / type: POVM effect
+Codomain / unit: 1
+Exact definition: 0≤E_a≤I
+Mathematical role: quantum measurement
+Conditions: instrument fixed
+Status: External standard
+Pi_SM Domain / type: map
+Codomain / unit: -
+Exact definition: →particle/gauge dataΞ
+Mathematical role: particle bridge
+Conditions: representation/couplings
+Status: Bridge
+J_in/out/net Domain / type: fluxes
+Codomain / unit: system-dependent
+Exact definition: J_net=J_out-J_in
+Mathematical role: biological transport
+Conditions: boundary fixed
+Status: Bridge/readout
+W Domain / type: functional state
+Codomain / unit: task-dependent
+Exact definition: Pi_W(history)
+Mathematical role: world model
+Conditions: readout defined
+Status: Bridge
+S Domain / type: functional state
+Codomain / unit: task-dependent
+Exact definition: Pi_S(history)
+Mathematical role: self model
+Conditions: readout defined
+Status: Bridge
+_subjΓ Domain / type: gate/readout
+Codomain / unit: 1
+Exact definition: future explicit function
+Mathematical role: subject criterion
+Conditions: measurement map
+Status: Bridge
+Table 9. Functional, physical, biological, and subject-level bridge variables.
+
+PDF PAGE 48
+Balance Field Equation  •  Preprint  |  48
+44 Reader’s Guide to the Recursive Mechanism
+One recursive event begins with the declared five operators. Q selects the subthreshold spectral sector and QP
+defines the first directed polar transport. Formation retains its unnormalized magnitude; witness is
+conditioned and its initial mass is separately recorded. G and PG evaluate formation through complementary C
+and B channels, whose loads determine the weights. The full ambient A supplies the active successor rank,
+geometry and frames. R4 realigns the complete selected carrier without a second loss. A nonempty target
+complement requires a unique negative lowest seed mode. The whole event therefore specifies every
+intermediate type, transport, normalizing factor and terminal test.
+45 Detailed Selection Logic
+Selection is not deletion by a scalar threshold alone. Qk=1_[0,1)(Yk) is a spectral projector, so it selects
+invariant spectral subspaces of the Hermitian positive operator Yk. Pk is an independent persistence projector.
+The product QkPk need not itself be a projector, which is why its polar factor is used. Tsel,k retains the
+geometric relation between the selected Y-subspace and the persistent P-subspace. Its source projector Ssel^-
+and target projector Psel therefore carry different information. This distinction is also what makes the first
+witness mass msel=tr(Ssel^-ρW) mathematically meaningful: the mass is evaluated on the source before the
+state is transported and renormalized.
+46 Why the Metric Projector Is Endogenous
+PG is the G-orthogonal projector onto Ran(Psel). It equals the ordinary Euclidean projector Psel exactly when [
+Psel,G]=0; G need not equal I. It satisfies PG
+2=PG and PG†G=GPG. The current geometry affects selection,
+projection, loads and ultimately its own successor through A. This self feedback is explicit; its stabilizing effect
+is proved on the scalar branch and bounded generally by 0<Y_+<I, without a claim of universal full-state
+contraction.
+47 Load Weighting and Neutral Balance
+C=(I+Y)^(-1) and B=Y(I+Y)^(-1) satisfy C+B=I and commute with Y. In the eigenbasis of Y, an eigenvalue y≥0
+gives c=1/(1+y) and b=y/(1+y). Hence low-load directions are C-dominated, while high-load directions are B-
+dominated. The global weights  and  are not these eigenvalue-wise coefficients; they are formed from the α β
+metric formation loads ΛC and ΛB. The cross-definition =α ΛB/(ΛC+ΛB), =β ΛC/(ΛC+ΛB) makes each
+analysis branch sensitive to the strength of the complementary load. This is the finite-kernel realization of a
+balance-mediated analysis rather than a one-channel amplification rule.
+48 Reduced SVD as the Dimension-Formation Step
+The reduced SVD retains precisely the positive singular directions of the ambient A. Thus n_+=rank(A)≤n.
+Although r can exceed the selected-carrier rank, the finite ambient dimension cannot grow. Rank-loss
+boundaries change the active state space. Fixed-rank derivatives require the declared gaps; coordinate gauge
+and physical emergence are different issues.
+49 Gauge Freedom and Physical Equivalence
+An SVD is never a unique ordered list of vectors in an absolute sense. A simple singular pair can be multiplied
+by a common complex phase; a degenerate singular block can be rotated by a unitary matrix. If K_+, Y_+, R4,
+formation, and witness were read as absolute matrices without accounting for this freedom, the update would
+be representation-dependent. The canonical equation therefore defines the successor on a unitary quotient.
+Every target-space object is transformed by the same conjugation. Observable scalar invariants such as traces
+and spectra are unchanged, while coordinate matrices change covariantly. This is a mathematical gauge
+
+PDF PAGE 49
+Balance Field Equation  •  Preprint  |  49
+principle internal to the finite recursion; it should not be confused with the Standard Model gauge group,
+which is a separate physical bridge target.
+50 Polar Differential Interpretation of the Three Terms
+The constant-rank polar derivative  T=T +(I-S_+)δ Ω EXH^+ + T H^+T†EX(I-S_-) has three geometrically
+distinct pieces. T  rotates coordinates inside the active source support. The second term moves the target Ω
+support transversely. The third term moves the source support and transports that motion through T. Thus
+support motion is not an independent perturbation; it is determined by EX=  X. The 3||δ EX||/σk bound is
+deliberately conservative. Its dependence on the smallest positive singular value expresses a standard fact of
+rank-sensitive matrix geometry: near rank loss, the active support can become highly sensitive even when a
+particular path remains benign.
+51 R4 as Recursive Re-Alignment
+Because Ran(Psel) lies in Ran(A†), V V†Psel=Psel. Thus XR4†XR4=Psel and T4=V†Psel already is a partial
+isometry. R4 realigns the complete selected carrier, gives m4=1 and determines S4^+ and its complement. It is
+not a second lossy test in this class. A physical Kraus interpretation would require an independent instrument
+bridge.
+52 Formation, Witness, and the Meaning of Seed
+Inherited formation keeps its trace, whereas witness is normalized and original mass is kept in the separate
+record w. In this kernel m4=1, so R4 discards no mass. For E=0 no seed is needed. For E≠0 a simple negative
+minimum gives positive seed formation; no negative minimum or a multiple negative minimum is terminal.
+Orthogonality preserves the projector sum. Neither seed nor complement is automatically physical particle
+creation.
+53 Terminality as Part of the Equation
+Terminality is part of the definition. Selection failure, first witness failure, or nonpositive dual loads terminate
+before analysis. After positive loads A and R4 have nonzero rank and m4=1, so second-mass failure is
+unreachable. If E≠0 the unique rank-one seed requires a simple strictly negative minimum; its absence or
+degeneracy terminates. E=0 alone continues without a seed.
+54 What the Scalar Damping Result Does and Does Not Prove
+The exact scalar map f(y)=2y^2/[(1+y)^2(1+y^2)] provides a rare closed-form control branch of the finite
+recursion. Algebraically f(y)<y for every y>0, while the actual nonterminal selection-first realization under
+discussion is restricted to 0<y<1. The result proves monotone damping of that scalar geometric load on the
+stated branch. It does not prove that the complete tuple contracts because K and formation can remain neutral.
+This is why the appropriate general stability target is likely transverse: perturbations away from a persistent
+manifold may decay while coordinates along the persistent identity remain neutral.
+55 From Recursive Events to Measured Time
+The event index k orders recursive updates and nothing more. To compare the equation with clocks, one needs
+Tclock( ), a positive duration assigned to each event. Summing these durations produces physical time along a Ξ
+trajectory. If a continuous effective state  is desired, a separate flow Ψ FΨ must exist such that one discrete BFG
+step equals the flow evaluated at the assigned duration. The clock can vary even when the projected state is
+unchanged; only a clock required to be a function of  alone must be constant on -fibers. This distinction Ψ Π
+prevents event count, model time, physical seconds, and renormalization scale from being conflated.
+
+PDF PAGE 50
+Balance Field Equation  •  Preprint  |  50
+56 From Positive Gram Geometry to Lorentzian Spacetime
+The internal G=I+Y is positive definite because its role is to measure directions in the finite analysis space.
+Spacetime requires an indefinite Lorentzian metric. Therefore a physical geometry bridge must change
+mathematical type. A disformal ansatz can produce a Lorentzian metric only after a manifold, background , η
+scalar field, and nondegeneracy condition are supplied. An Einstein-scalar action can then generate field
+equations, but those equations follow from the added action. The finite BFG becomes a gravitational theory
+only when a map from recursive states to the spacetime fields and their calibrated constants is fixed and
+tested.
+57 Quantum Measurement as a Discriminating Bridge
+The two candidate identifications ρQ=ρW and ρQ=ρF/tr(ρF) are useful precisely because they are not
+equivalent. In the explicit two-dimensional control state they predict 3/4 and 1/4 for the same externally fixed
+effect. This turns a vague analogy between kernel matrices and density operators into a falsifiable bridge
+choice. To perform the test physically, the preparation must determine the relevant BFG state independently of
+the holdout outcomes, the effect must be calibrated, and the statistical rejection rule must be fixed in advance.
+The R4 success effect is not substituted for the external measurement unless instrument compatibility has
+separately been established.
+58 Particle, Atomic, Molecular, and Biological Ordering
+The hierarchy is constrained by dependence. A particle bridge must precede a quantitative atom bridge
+because atomic Hamiltonians require masses, charges, couplings, and quantum dynamics. A molecular bridge
+requires atomic degrees of freedom and interactions. A biological closure bridge then requires molecular
+transport, boundaries, energy/material fluxes, repair, and viable persistence. The notation ClN is therefore
+treated as a placeholder for a future typed closure operation, not as proof that a named level follows from the
+previous one. The ordering is a research dependency graph.
+59 Witness to Subject Structure
+The witness is already an internal mathematical object; world and self are not. A subject-level theory therefore
+cannot be obtained merely by renaming ρW. ΠW and ΠS must construct world- and self-related functional
+states from the physical/history state, and UWS must close their dynamics. A candidate Γsubj must then specify
+measurable criteria such as predictive sufficiency, self-indexing, directed lineage, and admissibility. Even if
+these conditions are operationally satisfied, the final equivalence with phenomenal experience remains an
+empirical-ontological bridge rather than a theorem of matrix recursion.
+60 How the Physical Measurement Layer Closes a Sector
+For each physical sector, the measurement interface has four layers: preparation, state identification,
+prediction, and comparison. Preparation produces Dprep. A fixed map Mprep identifies  or the relevant Ξ
+quotient class. A bridge B maps the state to the physical observable model and generates a predictive
+distribution. An independently calibrated apparatus produces Dtest. The bridge is rejected or retained
+according to a pre-registered uncertainty model and criterion. This architecture is what turns a
+mathematically closed recursive kernel into a potentially physical world equation.
+61 Canonical Theorem and Assumption Register
+Theorem A — Ambient Gram bound: positive dual loads imply 0<Y_+<I and n_+≤n; G=I+Y>0 for the declared
+input class.
+
+PDF PAGE 51
+Balance Field Equation  •  Preprint  |  51
+Theorem B — Witness transport: msel lies in [0,1], m4=1, mtot=msel; later nonterminal events preserve original
+witness mass.
+Theorem C — Gauge well-definedness: simultaneous unitary changes inside allowed SVD gauge blocks
+conjugate every target-space successor object and therefore leave [ _+] unchanged.Ξ
+Theorem D — Scalar damping: f(y)<y for y>0; the checked selection-first branch uses 0<y<1.
+Theorem E — Positive fixed-point stability of the scalar ODE: negative trace and positive determinant imply
+local asymptotic stability on the declared positive branch.
+Assumption A — Level-0 to finite-state formation is not fixed by the finite kernel.
+Assumption B — Physical time requires Tclock.
+Assumption C — Lorentzian geometry requires a physical geometry bridge.
+Assumption D — Quantum state identification requires ΠQ; ρW and normalized ρF are competing hypotheses.
+Assumption E — Standard-Model parameters require ΠSM and cannot be inferred from gauge labels alone.
+Assumption F — World/Self and phenomenality require additional functional and empirical bridges.
+62 Full Differential Chain Selection to the Analysis Operator
+62.1 Spectral projector variation
+On a fixed selection stratum the spectrum of Y remains separated from the threshold 1. The spectral projector
+Q=1_[0,1)(Y) is then differentiable as an invariant-subspace projector. In a contour representation enclosing
+the selected spectrum but not the excluded spectrum,  Q is determined by the resolvent of Y and  Y. The δ δ
+important structural point is that  Q is not an independent input: it is a linear function of  Y on the fixed-gapδ δ
+stratum. At a threshold crossing this derivative description ceases to be the correct model and the system
+changes stratum.
+62.2 Selection overlap and polar transport
+The selection overlap is Xsel=QP. Its variation is  δ Xsel=(  Q)P+Q(  P). The constant-rank polar theorem then δ δ
+determines  δ Tsel from  δ Xsel, including both source- and target-support motion. Consequently  δ Ssel^- and δ
+Psel are determined by the original five input variations; no additional support perturbation is introduced.
+62.3 Selected formation and witness
+The transported formation obeys  δ ρF
+sel=(  δ Tsel)ρF Tsel†+Tsel(  δ ρF)Tsel†+Tsel ρF(  δ Tsel)†. The unnormalized
+selected witness obeys the identical three-term transport rule with ρW. The first survival mass varies as  δ msel
+=tr[(  δ Ssel^-)ρW+Ssel^-(  δ ρW)]. The normalized selected witness therefore contains both direct transport
+variation and the normalization correction -ρW~^sel  δ msel/msel
+2.
+62.4 Neutral split and Gram metric
+Because C=(I+Y)^-1,  C=-C(  Y)C. Since B=I-C,  B=-  C=C(  Y)C. G=I+Y gives  G=  Y. These identities make δ δ δ δ δ δ δ
+the neutral/balance variations fully endogenous to  Y.δ
+62.5 Horizontal support frame
+Choose an orthonormal support frame Z with ZZ†=Psel and horizontal variation  Z=(  δ δ Psel)Z. Let HZ=Z†GZ.
+Then  δ HZ=(  Z)†GZ+Z†(  G)Z+Z†G(  Z), and  δ δ δ δ HZ^-1=-HZ^-1(  δ HZ)HZ^-1. Therefore every term in  δ PG
+follows by the product rule from  δ Psel and  Y.δ
+
+PDF PAGE 52
+Balance Field Equation  •  Preprint  |  52
+62.6 Load derivatives
+For ΛC=tr(G PG C ρF
+sel C PG†),  δ ΛC is the sum of the variations of its six nonconstant factors. Explicitly it
+contains  G,  δ δ PG on both sides, two  C terms, and  δ δ ρF
+sel. ΛB has the same structure with B. Hence   and δ α
+  are ordinary quotient-rule expressions in  δ β δ ΛC and  δ ΛB.
+62.7 Analysis derivative
+Write AC=sqrt( )α PGC and AB=sqrt( )β PGB. Then  δ AC=[  /(2sqrt( ))]δ α α PGC+sqrt( )(  α δ PG)C+sqrt( )α PG(  δ
+C), and analogously for AB. Stacking the two blocks gives  A. Thus the full analysis derivative is a closed δ
+function of the five original input variations on the declared regular stratum.
+63 SVD Differential in the Complex Case
+63.1 Tangent decomposition
+Let F=  A and M=U†FV. Define δ ΩU=U†  U and δ ΩV=V†  V. Orthonormality implies both are skew-Hermitian. δ
+Differentiating A=U  V† and compressing between U† and V gives M=Σ ΩU +  -  Σ δ Σ Σ ΩV.
+63.2 Diagonal phase equation
+The diagonal entry is Mii=  δ σi+σi[(ΩU)_ii-(ΩV)_ii]. Since the diagonal entries of a skew-Hermitian matrix are
+purely imaginary,  δ σi=Re Mii and (ΩU)_ii-(ΩV)_ii=i Im(Mii)/σi. Only the common phase remains free. This
+is why imposing both diagonal connections equal to zero is generally inconsistent.
+63.3 Off-diagonal equations
+For i≠j the pair Mij and conjugate Mji gives a two-by-two linear system for (ΩU)_ij and (ΩV)_ij. Its
+determinant is σj
+2-σi
+2. Therefore the componentwise frame derivative requires separated singular values. The
+resulting coefficients become large as a singular-value gap closes, while the invariant cluster subspace can
+remain smooth.
+For i≠j, (ΩU)_ij=(σj Mij+σi conjugate(Mji))/(σj
+2-σi
+2), and (ΩV)_ij=(σi Mij+σj conjugate(Mji))/(σj
+2-σi
+2).
+These coefficients solve the declared complex tangent system on a simple singular-value stratum.
+63.4 Normal support components
+The parts of  U and  V outside their current ranges are fixed by F and ^-1: (I-UU†)  U=(I-UU†)F V ^-1 δ δ Σ δ Σ
+and (I-VV†)  V=(I-VV†)F†U ^-1. These are essential because R4 depends directly on V and K_+ depends δ Σ
+directly on U.
+63.5 Successor derivatives
+ Y_+=   +   . For K_+=U†(K K)U,  K_+=(  U)†(K K)U+U†(  K  K)U+U†(K K)  U. Hence the δ δ Σ Σ Σ δ Σ δ δ δ δ δ ⊕ ⊕ ⊕ ⊕
+successor derivative contains both direct K variation and the endogenous frame response.
+64 R4, Witness, and Formation Differential
+64.1 R4 overlap
+XR4=V†Psel gives  δ XR4=(  V)†δ Psel+V†  δ Psel. The constant-rank polar derivative determines  δ T4,  δ S4^- and
+ δ S4^+ entirely from this overlap variation.
+
+PDF PAGE 53
+Balance Field Equation  •  Preprint  |  53
+64.2 Second survival mass
+The general product rule is  δ m4=tr[(  δ S4^-)ρW
+sel+S4^-  δ ρW
+sel]. Within this ambient kernel it simplifies to δ
+m4=0, because S4^-=Psel and the selected density is supported and normalized there. This does not set  δ T4 to
+zero.
+64.3 Successor witness
+The three product-rule terms in (δ T4 ρW
+sel T4†) remain necessary. Here m4=1 and  δ m4=0, so no second
+normalization correction survives. Direct frame and carrier variations still change the successor witness.
+64.4 Inherited formation
+ δ ρF,inh=(  δ T4)ρF
+sel T4†+T4(  δ ρF
+sel)T4†+T4 ρF
+sel(  δ T4)†. Formation has no witness-style normalization
+term.
+65 Seed Eigenprojector Derivation
+65.1 Moving complement
+E=I-S4^+ gives  E=-  δ δ S4^+. Choose ZE with ZEZE†=E and horizontal  δ ZE=(  E)δ ZE. The reduced Hermitian
+seed operator is HE=ZE†K_+ZE.
+65.2 Reduced operator variation
+Product differentiation gives  δ HE=(  δ ZE)†K_+ZE+ZE†  K_+δ ZE+ZE†K_+  δ ZE. With the horizontal frame this
+becomes the embedded formula already stated in the canonical section.
+65.3 Simple eigenvalue
+For HE v=  v, ||v||=1, =vv†, first-order perturbation theory gives  =v†  λ π δ λ δ HE v=tr(   π δ HE). Define Rλ as the
+inverse of HE-  I on v-perp and zero on span(v), equivalently the Moore–Penrose pseudoinverse for a simple λ
+eigenvalue.
+65.4 Projector derivative
+Differentiating the eigenvalue equation and fixing the phase horizontally gives  =-δ π Rλ(  δ HE) - (  π π δ HE)Rλ.
+Embedding into the moving complement adds the two outer frame terms:  δ Πseed=(  E)δ Πseed+Πseed(  E)+δ ZE
+(  )δ π ZE†.
+65.5 Seed derivative
+ρseed=-κF  λ Πseed therefore gives  δ ρseed=-κF[(  )δ λ Πseed+   λ δ Πseed]. This closes the seed derivative on the
+simple negative eigenvalue stratum.
+66 Algebraic Admissibility Checks
+66.1 Projector property
+Because S4^+ and Πseed are orthogonal projectors with Πseed≤I-S4^+, their product vanishes in both orders.
+Hence (S4^++Πseed)^2=S4^++Πseed=P_+.
+
+PDF PAGE 54
+Balance Field Equation  •  Preprint  |  54
+66.2 Positivity of formation
+Congruence by T4 preserves positivity, so ρF,inh≥0 whenever ρF
+sel≥0. If <0 and λ κF>0, -κF  λ Πseed≥0.
+Therefore ρF,+=ρF,inh+ρseed≥0.
+66.3 Witness trace
+tr(T4 ρW
+sel T4†)=tr(S4^-ρW
+sel)=m4. Dividing by m4 gives tr ρW,+=1 whenever m4>0.
+66.4 Hermiticity
+Hermiticity of K is preserved by K_+=U†(K K)U. Hermiticity and positivity of Y_+ follow from ^2. Thus the ⊕ Σ
+successor remains in the canonical state type on every nonterminal branch.
+67 Detailed Scalar Control Branch
+67.1 Setup
+On the full-persistence scalar branch P=W=1, F=f0>0 and 0<y<1. The neutral split gives =y^2/(1+y^2) and α
+=1/(1+y^2). The reduced analysis operator has one active column; U is its normalized two-component frame, β
+V=1, R4 is the identity, and the seed complement vanishes.
+67.2 Successor
+Direct substitution yields K_+=K, F_+=F, W_+=1 and P_+=1. The Gram successor is f(y)=2y^2/[(1+y)^2(1+y^2)].
+67.3 Damping proof
+For y>0, f(y)/y=2y/[(1+y)^2(1+y^2)]. The denominator minus the numerator equals (1+y)^2(1+y^2)-
+2y=1+2y^2+2y^3+y^4>0. Hence f(y)/y<1 and f(y)<y. Positivity is immediate.
+67.4 Consequence
+The branch demonstrates genuine geometric damping while K and F are neutral. Any theorem claiming strict
+contraction of the complete state in a fixed positive product norm would contradict these neutral directions.
+This control branch therefore fixes the correct scope of future stability claims.
+The scalar sequence decreases toward zero. A positive limit would satisfy f(y)=y, which the strict inequality
+excludes. Consequently positive load margins cannot be uniform along its infinite tail. Geometric damping
+alone is not a positive stability reserve against every disturbance.
+Numerical controls. Repeated double-precision checks with NumPy and random seed 20261007 used 40
+complex matrix preparations. The maximum ||S4^- - Psel|| was 2.47e-15, maximum |m4-1| was 1.67e-15 and
+maximum gauge residual was 2.18e-14. These are checks of the algebraic transport stage, not empirical
+validation or an assertion that every preparation passes the final seed gate.
+Independent central differences gave residuals 1.70e-9 for the polar differential, 1.10e-10 for the simple seed
+projector and 1.02e-10 for the full endogenous analysis derivative. Complex SVD tangent reconstruction had
+residual 2.17e-15. Scalar damping was checked on 1000 points in (0,1). Finite numerical tolerances do not
+replace the analytical proofs.
+The graphical calculations use 31-by-31 uniform parameter grids. Ambient panels use Y=diag(y1,0.72),
+P=F=W=vv†, v=(cos ,sin ), 0.08≤y1≤0.92 and 0.12≤ ≤1.45. Formation units are set to one. Other panels state θ θ θ
+their distinct formulas and ranges. Exactly zero singular values are not retained; numerical rank checks use a
+1e-12 threshold in the control family. The theoretical definition uses exact rank.
+
+PDF PAGE 55
+Balance Field Equation  •  Preprint  |  55
+68 Physical Measurement Equations
+68.1 Time
+The time bridge predicts  Δ tk=Tclock(Ξk). A calibrated clock yields  Δ tk
+obs with uncertainty σt. A basic residual
+is rt=(  Δ tpred-  Δ tobs)/σt. The bridge is empirically meaningful only if Tclock is fixed before the holdout interval.
+68.2 Energy and spectroscopy
+A quantum bridge supplies an energy-valued Hamiltonian. For an emission from Ea>Eb use  Δ Eab=Ea-Eb and
+νab=  Δ Eab/h; an unordered pair has positive line frequency |Ea-Eb|/h. Line centers and systematic
+uncertainties require independent calibration.
+68.3 Geometry
+A spacetime bridge supplies gμν(x; ). Proper time, invariant distance, redshift, lensing, or tidal observables Ξ
+must be calculated from that metric and compared with clock/interferometric/astronomical data. Internal G
+cannot be substituted directly because it has positive signature and different type.
+68.4 Quantum outcomes
+Given independently prepared , bridge Ξ ρQ( ), and calibrated POVM effect Ξ Ea, p(a| )=tr(Ξ Ea ρQ( )). Repeated Ξ
+outcomes define a binomial/multinomial likelihood. This gives an actual statistical test of the bridge.
+68.5 Particle observables
+ΠSM must output masses, charges, couplings, mixings, and decay/scattering parameters. Comparison targets
+include PDG values and cross sections. A group-theoretic resemblance without numerical predictions is not
+sufficient.
+68.6 Biological observables
+A biological bridge must define boundaries and species before Jin, Jout and Jnet can be measured. Viability
+predictions require a time horizon and perturbation class, not only an instantaneous flux balance.
+68.7 Subject-level observables
+World/Self variables require task-dependent operational readouts and interventions. Γsubj must predict
+independent behavioral/physiological/report data before any phenomenal interpretation is considered.
+69 Falsification Protocol for the World Equation
+69.1 Freeze the mathematical kernel
+No equation in the finite kernel is changed after observing the physical holdout data.
+69.2 Freeze the bridge
+The map from  to the tested observable, all calibration constants, nuisance parameters, and preprocessing areΞ
+specified on training/calibration data.
+69.3 Independent preparation
+The relevant  components are identified without using the same outcome that will test the prediction.Ξ
+
+PDF PAGE 56
+Balance Field Equation  •  Preprint  |  56
+69.4 Predict
+The BFG produces a point prediction or probability distribution with uncertainty.
+69.5 Compare
+A pre-specified statistic compares prediction and holdout data against strong baselines using the same inputs.
+69.6 Interpret failure locally
+A failed quantum bridge falsifies that quantum identification first; it does not logically falsify the matrix
+identities of the finite kernel. Repeated failures across bridge classes can, however, undermine the claim that
+the BFG describes physical reality.
+70 Dimensional-Consistency Handbook
+70.1 Dimensionless kernel sector
+The canonical finite kernel is most naturally formulated with Y, P, Q, C, B, G, the partial isometries, projectors,
+SVD frames, and witness density operators dimensionless. This is consistent because these objects encode
+geometry, support, relative weighting, or normalized state rather than an SI-valued physical observable.
+Singular values of the dimensionless analysis operator are then dimensionless and so is Y_+= ^2.Σ
+70.2 Formation sector
+K and ρF are assigned the common formation unit EF in the canonical mathematical class. This choice is not a
+claim that EF is joules. It is a type constraint ensuring that K_+=U†(K K)U and ⊕ ρF,+ can be compared inside
+the seed construction. If a physical bridge later identifies K with an energy-like operator while ρF is assigned a
+different physical dimension, the constant κF performs the one-time unit conversion in ρseed=-κF  λ Πseed.
+70.3 Witness sector
+ρW is normalized and dimensionless. Projector traces against ρW are therefore dimensionless probabilities
+inside the kernel. The product mtot=msel m4 is a conditional survival probability for the two-stage
+mathematical selection. Calling it a physical detection probability requires a separate instrument bridge.
+70.4 Time sector
+The event index k has no time dimension.  in the scalar normal form can be dimensionless if both equations ε
+use the same model-time parameter, or it can encode a ratio of time scales after nondimensionalization.
+Physical seconds enter only through Tclock. This prevents the common mistake of assigning SI seconds to a
+recursion count without calibration.
+70.5 Spacetime sector
+Use x^0=ct and all x^  in metres when g is dimensionless. SI proper time is d =c^-1 sqrt(-μ τ gμν dx^  dx^ ) for μ ν
+a timelike displacement. Natural units c=1 must be converted before reporting seconds. Coordinates mixing
+seconds and metres cannot have all metric components dimensionless. In the natural-unit disformal
+convention [ ]=M, [partial ]=M^2 and [ ]=M^-4.φ φ λ
+70.6 Quantum and particle sector
+ρQ and POVM effects are dimensionless. Hhat carries energy. Mass can be quoted in kg or energy units divided
+by c^2; cross sections carry area; decay widths carry energy and lifetimes time. A successful ΠSM must
+
+PDF PAGE 57
+Balance Field Equation  •  Preprint  |  57
+therefore output quantities with these physical dimensions or fixed conversion constants. Dimensional
+matching is necessary but not sufficient for a correct bridge.
+71 Stratum and Regime Manual
+71.1 Selection-gap stratum
+The selected spectral subspace remains fixed in dimension as long as no eigenvalue of Y crosses the threshold 1.
+Inside such a region Q varies smoothly as an invariant spectral projector. At a crossing, the selected rank
+changes. The event is not an infinitesimal perturbation inside the old stratum; it is a transition to a new active
+model stratum.
+71.2 Polar-rank stratum
+For Xsel or XR4, constant rank means the number of positive singular values remains fixed. The polar partial
+isometry and its source/target projectors then admit the constant-rank derivative used in this paper. When the
+smallest positive singular value reaches zero, the pseudoinverse loses a uniform bound and the support
+dimension changes.
+71.3 Dual-load stratum
+The formulas for  and  require α β ΛC+ΛB>0. The canonical dual-load analysis further assumes both loads
+positive. If one load vanishes, a one-channel limiting rule would constitute a different model branch unless
+explicitly included. The present canonical branch therefore treats failure of the required dual-load condition
+by its declared terminal semantics.
+71.4 Simple-SVD stratum
+The componentwise SVD derivative assumes positive simple singular values. At exact degeneracy, the singular
+subspace can remain well defined while individual vectors are gauge-dependent. The quotient state remains
+meaningful; the simple-frame differential is replaced by a block/subspace description if one wishes to cross
+the degeneracy smoothly.
+71.5 Seed stratum
+A simple strictly negative lowest complement eigenvalue defines the rank-one seed. Its sign and eigenvalue gap
+must remain separated on a regular seed stratum. If E≠0 with λmin≥0 the event is terminal; a multiple negative
+minimum is also terminal. The no-seed branch is E=0. Terminal surfaces do not inherit a nonterminal
+differentiability claim.
+72 Proof Appendix Core Invariants
+72.1 Positive Gram invariant
+ is a diagonal matrix of positive singular values in the reduced SVD. For any vector x, x†Y_+x=x† ^2x=||  x||Σ Σ Σ
+^2≥0. Hence Y_+ is positive semidefinite. Adding the identity gives x†G_+x=||x||^2+||  x||^2>0 for nonzero x.Σ
+The positive dual-load ambient analysis strengthens this positivity result to 0<Y_+<I by the bound proved in
+Section 17. The result is not monotone comparison with the old Y matrix, since the carrier and coordinates can
+change.
+72.2 Hermiticity of K_+
+If K=K† then K K is Hermitian. Therefore K_+†=[U†(K K)U]†=U†(K K)†U=K_+. This guarantees a real ⊕ ⊕ ⊕
+seed spectrum after compression.
+
+PDF PAGE 58
+Balance Field Equation  •  Preprint  |  58
+72.3 Positivity under transport
+For any positive  and arbitrary T, x†T  T†x=(T†x)† (T†x)≥0. Thus both selected and R4-transported ρ ρ ρ
+formation/witness numerators remain positive.
+72.4 Witness normalization
+Cyclicity of the trace gives tr(T4 ρW
+sel T4†)=tr(T4†T4 ρW
+sel)=tr(S4^-ρW
+sel)=m4. Division by positive m4 gives
+trace one.
+72.5 Projector successor
+S4^+ and Πseed are self-adjoint idempotents and Πseed≤E=I-S4^+. Therefore S4^+Πseed=ΠseedS4^+=0.
+Expanding P_+^2 leaves exactly S4^++Πseed.
+72.6 Gauge covariance
+Under an allowed target unitary W, every target operator O transforms to W†OW. Products, sums, spectra,
+traces, positivity, rank, and projector relations are preserved under unitary conjugation. Therefore the
+equivalence class, rather than any chosen matrix basis, is the canonical successor.
+72.7 Survival bounds
+For a density operator  and projector S, 0≤S≤I. Positivity gives tr(Srho)≥0, while tr[(I-S) ]≥0 gives ρ ρ
+tr(Srho)≤tr( )=1. Apply this to both conditioned stages to obtain ρ msel,m4 in [0,1].
+For this kernel the second bound sharpens to m4=1. Carrier dimension and mass must still be distinguished:
+the seed may enlarge P_+ within C^r while the witness remains on S4^+.
+73 Measurement Protocol Time and Geometry
+73.1 Clock calibration
+Select a physical preparation family and independently measured clock intervals. Fit or derive Tclock only on
+calibration data. Freeze the map. For each holdout BFG state, predict the next interval and compare with
+traceable SI clock measurements. A systematic state-dependent residual indicates failure of the clock bridge
+even if the event ordering remains correct.
+73.2 Metric calibration
+A spacetime bridge must specify coordinates or coordinate-invariant predictions, the relation between
+recursive state and matter/source variables, and any constants. The preferred tests are invariant or
+operational: proper-time ratios, frequency redshift, interferometric phase, geodesic deviation, lensing, or
+gravitational-wave propagation. Coordinate components alone are not observables.
+73.3 Separating internal and spacetime metrics
+No fit is allowed to set gμν numerically equal to the positive G matrix merely because both are called metrics.
+Their dimensions, signatures, domains, and transformation laws differ. A valid bridge is a typed map, not a
+relabeling.
+
+PDF PAGE 59
+Balance Field Equation  •  Preprint  |  59
+73.4 Gravitational falsification
+Once the bridge and source model are frozen, predictions can be compared with a standard gravitational
+baseline. A failure means that the chosen geometry/dynamics bridge is rejected. If every viable bridge requires
+post-hoc modification, the stronger claim that the BFG explains gravity loses empirical content.
+74 Measurement Protocol Quantum and Particle Physics
+74.1 State preparation
+A preparation protocol must determine the BFG state or the components needed by ΠQ without using the later
+measurement outcome. Tomographic data used to define ρQ cannot be reused as independent confirmation of
+the same bridge.
+74.2 Instrument specification
+The POVM or instrument is calibrated independently. For a fixed effect Ea, the bridge predicts pa=tr(Ea ρQ).
+Repetition produces a likelihood. Competing BFG bridges are compared on the same preparations and effects.
+74.3 R4 compatibility test
+If one proposes that an actual success Kraus operator is T4, then its effect must equal S4^-=T4†T4 and the
+physical output transport must match the R4 target coordinates. General nonprojective effects require
+additional channels and cannot be identified directly with a partial isometry.
+74.4 Particle parameter test
+A ΠSM bridge must output a finite vector of quantities such as masses, charge assignments, mixing parameters,
+couplings at a specified renormalization scale, widths, and branching fractions. These predictions are
+compared with independent PDG values and collider/precision measurements. Merely reproducing
+SU(3)xSU(2)xU(1) notation is not a numerical test.
+74.5 Holdout principle
+Calibration constants may be estimated on a declared training set. The test set must remain untouched until
+predictions are frozen. The same baselines and uncertainty treatment are applied to BFG and comparison
+models.
+75 Measurement Protocol Atomic, Molecular, and Biological Sectors
+75.1 Atomic closure
+A quantitative atom bridge must specify constituent degrees of freedom, Hamiltonian or open-system
+generator, charge/mass inputs, and the map from recursive state to these quantities. Spectral lines, ionization
+energies, transition rates, and scattering observables provide direct tests.
+75.2 Molecular closure
+A molecular bridge must define nuclear/electronic or effective degrees of freedom and predict binding
+energies, equilibrium geometries, vibrational spectra, or reaction observables. The symbolic ClNM becomes a
+real mathematical operator only when its input/output spaces and update are specified.
+
+PDF PAGE 60
+Balance Field Equation  •  Preprint  |  60
+75.3 Cellular closure
+For a cell-level bridge, define the physical boundary, transported species, energy carriers, internal formation
+variables, and repair variables. Measure gross influx and outflux separately. Viability is tested over a horizon
+under a specified perturbation class, not by one stationary snapshot.
+75.4 Causal minimality
+A claim nmin
+causal=3 requires an admissible three-role realization and exclusion of equivalent one- and two-role
+realizations inside the same declared equivalence class. Four-or-more-role realizations need not be excluded
+because they may simply be nonminimal.
+75.5 Multiscale closure
+Higher biological levels require a coarse-graining map and a test that the proposed macrostate captures future-
+relevant dynamics. Information synergy means that variables cannot be discarded merely because each is
+individually weak. Intervention tests are required for causal claims.
+76 Measurement Protocol World, Self, and Experience
+76.1 World readout
+A world variable W should predict externally oriented observations beyond what a chosen reduced baseline
+already predicts. Its definition must specify inputs, history dependence, horizon, and loss function.
+76.2 Self readout
+A self variable S should predict or causally regulate the system's own future state/action. Interventions on S
+must be defined within the admissible model class; destructive interventions do not establish the intended
+causal role.
+76.3 World/Self closure
+A closed UWS must reproduce the projected successor of the underlying BFG dynamics. If two underlying
+states share the same (W,S) but produce different projected successors, the proposed functional state is not
+closed.
+76.4 Witness integration
+The kernel witness must be linked to the functional World/Self variables by an explicit map. Equality of
+normalized matrices or norms is not a lineage criterion. Directed transport and unnormalized survival
+bookkeeping remain separate.
+76.5 Phenomenal hypothesis
+Only after functional criteria are operational and independently measured can Hphen be tested against report,
+behavior, physiology, perturbation, or other declared evidence. No purely mathematical definition can by itself
+supply empirical confirmation of phenomenality.
+77 Plain-Language Glossary for Readers
+77.1 Formation
+Formation is the positive operator ρF that carries the magnitude and structure of what is being recursively
+retained or newly seeded. It is intentionally not normalized like a probability distribution.
+
+PDF PAGE 61
+Balance Field Equation  •  Preprint  |  61
+77.2 Witness
+Witness is the positive trace-one ρW. The first selection can remove original witness mass. The present
+ambient R4 then transports its selected support isometrically, so m4=1. Historical mass is recorded separately
+from the five-component normalized state.
+77.3 Gram geometry
+Y and G describe an internal positive geometry used to select and measure active recursive directions. This
+geometry is endogenous because it is both an input to and an output of the update.
+77.4 Selection
+Selection means restriction to the subspace whose Y-spectrum lies in the declared interval and overlaps the
+current persistent carrier. Polar transport preserves the directed relation between source and target supports.
+77.5 Load
+A load is a scalar obtained by evaluating transported formation through one neutral/balance channel in the
+current internal metric. Loads determine the relative weights of the analysis branches.
+77.6 R4
+R4 is the second recursive re-alignment step. It compares the SVD source frame with the selected carrier and
+produces the partial isometry used for final witness/formation transport.
+77.7 Seed
+A seed is positive formation from a simple negative lowest complement mode. When E=0 no seed is required.
+When E≠0 without such a unique negative mode, this kernel terminates.
+77.8 Admissibility
+Admissibility is the conjunction of the gates required for a particular model class. It is not identical to stability
+or viability; a state can satisfy a static gate and still leave the admissible region on the next update.
+77.9 Persistence
+Persistence means continued admissible directed evolution of the relevant typed entity. Witness persistence,
+formation persistence, biological viability, and subject persistence are different typed predicates.
+77.10 Bridge law
+A bridge law maps the mathematical BFG state to a physical or functional observable. Bridge laws are where
+the world equation becomes experimentally vulnerable.
+78 Equation Roadmap Reading One Complete World-Equation Step
+78.1 Input
+Begin with the declared five-component finite state Ξk. This is the state chosen for the model; no absolute
+minimality theorem is claimed. The historical witness record is additional trajectory bookkeeping.
+
+PDF PAGE 62
+Balance Field Equation  •  Preprint  |  62
+78.2 Neutral decomposition
+Compute Ck=(I+Yk)^-1 and Bk=I-Ck. These operators divide the current Gram load into complementary
+channels without introducing an external parameter.
+78.3 Spectral admissibility
+Compute Qk=1_[0,1)(Yk). This selects the currently sub-threshold spectral sector. Intersect it with persistence
+through Xsel=QkPk.
+78.4 Directed selection transport
+Take Tsel=polar(Xsel). Read Ssel^- from Tsel†Tsel and Psel from TselTsel†. These projectors are the actual source
+and target supports of the first directed transport.
+78.5 First survival bookkeeping
+Transport formation and witness. Compute msel before normalizing the witness. If msel=0, terminate.
+Otherwise condition ρW
+sel while retaining msel as historical survival information.
+78.6 Endogenous metric
+Compute G=I+Y and the G-orthogonal projector PG onto the selected target support. The current geometry now
+directly controls how formation is evaluated.
+78.7 Endogenous loading
+Evaluate ΛC and ΛB and construct , . No free branch weight is introduced on the dual-load stratum.α β
+78.8 Recursive analysis
+Construct A from the weighted C/B branches. Its reduced SVD supplies the active rank r, the next dimension,
+the successor Gram spectrum, and the frames required by K_+ and R4.
+78.9 Successor geometry and kernel
+Set Y_+= ^2 and K_+=U†(K K)U. At this point the next active space is already fixed as C^r.Σ ⊕
+78.10 Recursive re-alignment
+Form XR4=V†Psel. The positive C-channel implies it is already a partial isometry, with source Psel. It realigns
+the selected carrier and fixes the free target complement.
+78.11 Second survival bookkeeping
+The nominal second mass is identically m4=1. Therefore mtot=msel. Update the separate original-mass record
+wk+1=wk msel,k before interpreting a normalized witness as retention.
+78.12 Formation inheritance
+Transport selected formation by T4 without normalization. This gives the inherited successor formation.
+
+PDF PAGE 63
+Balance Field Equation  •  Preprint  |  63
+78.13 Complement test
+Compute E=I-S4^+. If E=0 there is no free target complement. If E is nonzero, compress K_+ to Ran(E) and
+inspect its spectrum.
+78.14 Seed or no-seed
+If E=0 continue without seed. If E≠0 a simple strictly negative minimum produces the seed; otherwise
+terminate as Tseednone or Tseeddeg. No numerical tie-break replaces the rank-one rule.
+78.15 Output
+Assemble Ξk+1=(K_+,ρF,+,ρW,+,Y_+,P_+) and then pass to its unitary equivalence class. The next event repeats
+the same algorithm on the newly generated active space.
+79 Figure Companion What Each 3D Graphic Means
+Figure 1  Section 3  Conditional readout. Conditional readout. phi_E=(E_exp/E_bind)(I/I_0); ratios are
+independent inputs, not identified Xi data. Horizontal and vertical coordinate ranges are the sampled grids; the
+plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical
+meaning.
+Figure 2  Section 4  Computed matrix family. Computed matrix family. Y=diag(y1,y2); G=I+Y; the positive
+metric is internal, not spacetime. Horizontal and vertical coordinate ranges are the sampled grids; the plotted
+quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.
+Figure 3  Section 5  Computed projector. Computed projector. Q=1_[0,1)(Y); threshold 1 defines a discontinuous
+change of selected rank. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity
+is identified on the height axis. Surface colour follows height and has no additional physical meaning.
+Figure 4  Section 6  Computed control family. Computed control family. Y=diag(1/2,2), P=vv^T and W=diag(p,1-
+p); polar selection has source P. Horizontal and vertical coordinate ranges are the sampled grids; the plotted
+quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.
+Figure 5  Section 7  Computed ambient kernel. Computed ambient kernel. Y=diag(y1,0.72); P=F=W=vv^T;
+v=(cos theta,sin theta); formation unit E_F=1. Horizontal and vertical coordinate ranges are the sampled grids;
+the plotted quantity is identified on the height axis. Surface colour follows height and has no additional
+physical meaning.
+Figure 6  Section 8  Computed ambient kernel. Computed ambient kernel. A:H to H direct sum H; no restriction
+to the selected rank-one carrier. Horizontal and vertical coordinate ranges are the sampled grids; the plotted
+quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.
+Figure 7  Section 9  Computed ambient kernel. Computed ambient kernel. The second singular value can vanish
+on a rank boundary; an arbitrary full-SVD padding is excluded. Horizontal and vertical coordinate ranges are
+the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has
+no additional physical meaning.
+Figure 8  Section 10  Computed ambient kernel. Computed ambient kernel. Y=diag(y1,y2), P=F=I; coupled
+global formation loads determine alpha and beta. Horizontal and vertical coordinate ranges are the sampled
+grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional
+physical meaning.
+Figure 9  Section 11  Computed ambient kernel. Computed ambient kernel. m4=1 to numerical precision; the
+exact proof uses Ran(P_sel) contained in Ran(A dagger). Horizontal and vertical coordinate ranges are the
+sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no
+additional physical meaning.
+Figure 10  Section 12  Computed bookkeeping. Computed bookkeeping. w_next=w*m_sel; conditioned witness
+trace remains one and cannot encode this product. Horizontal and vertical coordinate ranges are the sampled
+
+PDF PAGE 64
+Balance Field Equation  •  Preprint  |  64
+grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional
+physical meaning.
+Figure 11  Section 13  Computed spectral control. Computed spectral control. A one-dimensional complement
+with lambda=-x gives seed trace kappa*x; each kappa is a separate fixed-unit model. Horizontal and vertical
+coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour
+follows height and has no additional physical meaning.
+Figure 12  Section 14  Computed rule. Computed rule. For a nonempty complement, lambda<0 and a simple
+minimum are required; lambda>=0 is terminal. Horizontal and vertical coordinate ranges are the sampled
+grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional
+physical meaning.
+Figure 13  Section 15  Computed bound. Computed bound. 3 times ||delta X||_2 divided by sigma_min,+; an
+upper bound is not an attained response. Horizontal and vertical coordinate ranges are the sampled grids; the
+plotted quantity is identified on the height axis. Surface colour follows height and has no additional physical
+meaning.
+Figure 14  Section 16  Conditional perturbation scale. Conditional perturbation scale. Illustrates inverse-gap
+scaling of the reduced resolvent; not a full derivative of an arbitrary kernel. Horizontal and vertical coordinate
+ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height
+and has no additional physical meaning.
+Figure 15  Section 17  Exact scalar kernel. Exact scalar kernel. P=W=1 and F>0; f(y)=2y^2/[(1+y)^2(1+y^2)]; K
+and F remain neutral. Horizontal and vertical coordinate ranges are the sampled grids; the plotted quantity is
+identified on the height axis. Surface colour follows height and has no additional physical meaning.
+Figure 16  Section 18  Conditional stability model. Conditional stability model. Assumes V=z^2 and V_next=(1-
+r)V; no such global BFG certificate is constructed here. Horizontal and vertical coordinate ranges are the
+sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no
+additional physical meaning.
+Figure 17  Section 19  Computed mediator control. Computed mediator control. N_B R N_B dagger=n^2 R;
+amplitude mediation uses N_A=n^2, not N_A=n. Horizontal and vertical coordinate ranges are the sampled
+grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional
+physical meaning.
+Figure 18  Section 20  Schematic constraint model. Schematic constraint model. A margin diagram only; actual
+viability requires the unique nonterminal BFG trajectory and specified gates. Horizontal and vertical
+coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour
+follows height and has no additional physical meaning.
+Figure 19  Section 21  Computed conditional ode. Computed conditional ode. a=1.5, mu>0, b<1; this positive
+branch exists because a>1-b. Horizontal and vertical coordinate ranges are the sampled grids; the plotted
+quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.
+Figure 20  Section 22  Schematic countermodel. Schematic countermodel. Projection Pi(x,h)=x with successor
+x+h is not closed; this is a fiber test, not a BFG bridge. Horizontal and vertical coordinate ranges are the
+sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no
+additional physical meaning.
+Figure 21  Section 23  Exact scalar kernel. Exact scalar kernel. One reclosure event is counted; no conversion to
+physical seconds is claimed. Horizontal and vertical coordinate ranges are the sampled grids; the plotted
+quantity is identified on the height axis. Surface colour follows height and has no additional physical meaning.
+Figure 22  Section 24  Schematic embedding. Schematic embedding. An illustrative surface is not a Lorentz
+metric, gravitational field equation or prediction. Horizontal and vertical coordinate ranges are the sampled
+grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no additional
+physical meaning.
+Figure 23  Section 25  Assumed potential model. Assumed potential model. V=x^2+y^2 is a pedagogical
+potential; stability of spacetime must follow from a specified action and bridge. Horizontal and vertical
+
+PDF PAGE 65
+Balance Field Equation  •  Preprint  |  65
+coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour
+follows height and has no additional physical meaning.
+Figure 24  Section 26  Conditional quantum model. Conditional quantum model. For a calibrated E0=|0><0|,
+p=tr(E0 rho); the state-identification map is additional physics. Horizontal and vertical coordinate ranges are
+the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has
+no additional physical meaning.
+Figure 25  Section 27  Computed bridge comparison. Computed bridge comparison. At (0.75,0.25), hypotheses A
+and B differ by 0.5; no actual measured outcomes are used. Horizontal and vertical coordinate ranges are the
+sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no
+additional physical meaning.
+Figure 26  Section 28  Computed effect test. Computed effect test. A direct R4 effect is a projector. Generic
+positive effects with interior eigenvalues fail that test. Horizontal and vertical coordinate ranges are the
+sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no
+additional physical meaning.
+Figure 27  Section 29  Schematic dependency. Schematic dependency. The surface labels a parameter
+dependency only; no Standard Model mass or coupling is derived. Horizontal and vertical coordinate ranges
+are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and
+has no additional physical meaning.
+Figure 28  Section 30  Conventional conditional model. Conventional conditional model. E(r)=1/(2r^2)-a/r;
+ordinary quantum scaling, not a new BFG atomic spectrum. Horizontal and vertical coordinate ranges are the
+sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no
+additional physical meaning.
+Figure 29  Section 31  Schematic binding landscape. Schematic binding landscape. The illustrative energy
+x^2+y^2-1 marks a negative binding region; it is not a BFG molecular potential. Horizontal and vertical
+coordinate ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour
+follows height and has no additional physical meaning.
+Figure 30  Section 31  Computed flux identity. Computed flux identity. J_net=J_out-J_in. Stationary net flux
+permits nonzero gross flows; no cell viability is inferred. Horizontal and vertical coordinate ranges are the
+sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no
+additional physical meaning.
+Figure 31  Section 32  Schematic functional model. Schematic functional model. A product is only a visual aid.
+Pi_W, Pi_S, lineage and causal closure must be independently defined. Horizontal and vertical coordinate
+ranges are the sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height
+and has no additional physical meaning.
+Figure 32  Section 33  Schematic status panel. Schematic status panel. The zero sheet denotes absence of a
+derived prediction, not absence of subjective experience. Horizontal and vertical coordinate ranges are the
+sampled grids; the plotted quantity is identified on the height axis. Surface colour follows height and has no
+additional physical meaning.
+80 Frequently Asked Technical Questions
+80.1 Is the BFG one equation or many
+It is one quotient evolution equation with an explicit factorization. The sub-operators are comparable to the
+factors of a numerical integrator or a structured map: they specify how the single successor is computed.
+80.2 Why not use a scalar state
+The five-component operator tuple is the declared state of this construction. It resolves spectra, magnitude,
+normalized witness and moving supports explicitly. This is not a proof that every alternative representation
+requires five components.
+
+PDF PAGE 66
+Balance Field Equation  •  Preprint  |  66
+80.3 Why is the successor dimension allowed to change
+Because the reduced SVD treats only active positive singular directions as successor coordinates. Rank is
+therefore a dynamical output. Fixed-dimensional padding would introduce null directions whose physical and
+seed status would be arbitrary.
+80.4 Does gauge quotienting hide physical information
+No information invariant under allowed coordinate changes is removed. Spectra, traces, positivity, rank,
+masses, and all simultaneously conjugated relations are preserved. The quotient removes only coordinate
+labels.
+80.5 Is m_tot a Born probability
+Not by definition. It is a mathematically normalized two-stage witness survival probability inside the kernel. A
+physical Born/instrument interpretation is a separate bridge hypothesis.
+80.6 Is G spacetime
+No. G is positive definite and internal. Spacetime is Lorentzian and requires a separate typed bridge.
+80.7 Does scalar damping prove stability of the universe
+No. It proves one scalar inequality on a declared branch. Full-state stability requires control of every
+endogenous derivative path and must account for neutral directions.
+80.8 Does the Standard Model follow already
+Not numerically. The BFG supplies a reconstruction program, but masses, charges, couplings, mixing
+parameters, and scattering observables must be generated by a fixed ΠSM and tested.
+80.9 Does witness mean consciousness
+No. Witness is a mathematical persistence role. World/Self and phenomenal experience require additional
+operational and empirical bridges.
+80.10 What would make the BFG a physical world equation
+A finite set of frozen measurement bridges that convert independently prepared BFG states into successful
+quantitative predictions across time, geometry, quantum/particle, and higher-level sectors without post-hoc
+remapping.
+81 Canonical BFG at a Glance
+[Ξk+1] = UbarBFG \([Ξk ]\)
+Selection → first transport → positive metric → endogenous dual loads → ambient reduced SVD → successor K
+and Y → isometric R4 → formation inheritance → E=0 continuation or negative seed or terminal outcome →
+quotient successor.
+Core invariants: Hermitian K; positive formation; trace-one witness with separately recorded original mass;
+0<Y_+<I; orthogonal P; n_+≤n. R4 gives m4=1. Nonterminal subsequent events preserve witness mass; seed
+termination remains possible.
+Core non-universalities: positive Gram geometry is not Lorentz spacetime; witness survival is not automatically
+a Born probability; scalar damping is not full-state contraction; recursive event count is not physical seconds;
+
+PDF PAGE 67
+Balance Field Equation  •  Preprint  |  67
+ClN labels are not transition laws until their operations are specified; functional subject structure is not by
+definition phenomenal experience.
+Physical closure targets: Tclock for seconds; Mφ for the order observable; Mg for Lorentzian geometry and
+gravity; ΠQ plus calibrated instruments for quantum outcomes; ΠSM for masses, charges, couplings and
+mixing; atom/molecule/biology transition maps; ΠW, ΠS, UWS and Γsubj for functional subject structure.
+Empirical rule: every bridge must be fixed before holdout testing. A successful prediction supports that bridge
+and its coupled kernel assumptions; a failed prediction rejects the tested bridge first. The Balance–Field
+Equation becomes a physical world equation only through a finite, frozen, independently testable
+measurement interface.
+Completion status. Level-0 to , scalar information/order to , a closed -to-  factor, calibrated physical time, Ξ Ξ Ξ Ψ
+Lorentzian dynamics, quantum instruments and particle parameters, quantitative atoms and molecules,
+biological viability and functional/phenomenal subject bridges are not constructed here. They remain explicit
+finite requirements, not consequences established by the illustrations.
+Declarations
+Author: Marcel Theodor Wende, Independent Researcher. E-mail: marcel-wende@gmx.net. ORCID: 0009-
+0007-4028-2208.
+Author contribution: Conceptualization, BFG synthesis, canonical finite-kernel formulation, interpretation,
+and manuscript responsibility: Marcel Theodor Wende. Co-authored precursor source lines are credited in
+References [1]–[3].
+Data availability: No external empirical dataset is analyzed. The 3D computational panels use explicitly stated
+synthetic matrix families and independently checked scalar formulas. Open physical transitions are schematic
+or show conventional conditional models and are not BFG predictions of measured systems. Numerical
+controls support calculations, not proofs or empirical identification.
+Funding: No funding source is asserted.
+Competing interests: No competing interest is asserted.
+Ethics: No human participants, animal experiments, or identifiable personal data were used.
+References
+[1] M. T. Wende and T. W. Loker, “A Constructive Level-0 Foundation of the Balance–Field Equation (BFG): A
+Pre-Mathematical Balance Substrate for Emergent Order, Information, Process Time and Physics,”
+independent research manuscript, 11 March 2026.
+[2] M. T. Wende and L. K. C. Leighton, “The Recursive Conjugate Closure Extension of the Balance–Field
+Equation (BFG): Holomorphic/Anti-Holomorphic Recursive Geometry, Lift-Invariant Closure, and Stable
+Conscious Regimes,” BFG manuscript, 16 May 2026.
+[3] M. T. Wende and A. Pereira Jr., “From No-Supervenience to Conscious Artificial Systems: A Level-0 Balance–
+Field Reconstruction of the Missing Mediating Structure Between Function, Information, and Experience,”
+independent research preprint, 2 June 2026.
+[4] N. J. Higham, “Computing the Polar Decomposition—with Applications,” SIAM Journal on Scientific and
+Statistical Computing 7(4), 1160–1174 (1986). doi:10.1137/0907079.
+[5] N. J. Higham, Functions of Matrices: Theory and Computation, SIAM, Philadelphia, 2008, Chapter 8.
+[6] C. Davis and W. M. Kahan, “The Rotation of Eigenvectors by a Perturbation. III,” SIAM Journal on
+Numerical Analysis 7(1), 1–46 (1970). doi:10.1137/0707001.
+[7] T. Kato, Perturbation Theory for Linear Operators, 2nd ed., Springer, 1995. doi:10.1007/978-3-642-66282-9.
+
+PDF PAGE 68
+Balance Field Equation  •  Preprint  |  68
+[8] R. A. Horn and C. R. Johnson, Matrix Analysis, 2nd ed., Cambridge University Press, 2013.
+doi:10.1017/CBO9781139020411.
+[9] J.-P. Aubin, Viability Theory, Birkhäuser, 2009. doi:10.1007/978-0-8176-4910-4.
+[10] C. E. Shannon, “A Mathematical Theory of Communication,” Bell System Technical Journal 27(3), 379–423
+and 27(4), 623–656 (1948). doi:10.1002/j.1538-7305.1948.tb01338.x; doi:10.1002/j.1538-7305.1948.tb00917.x.
+[11] K. Kraus, States, Effects, and Operations: Fundamental Notions of Quantum Theory, Lecture Notes in
+Physics 190, Springer, 1983. doi:10.1007/3-540-12732-1.
+[12] V. Gorini, A. Kossakowski, and E. C. G. Sudarshan, “Completely Positive Dynamical Semigroups of N-Level
+Systems,” Journal of Mathematical Physics 17, 821–825 (1976). doi:10.1063/1.522979.
+[13] J. D. Bekenstein, “Relation between Physical and Gravitational Geometry,” Physical Review D 48, 3641–3647
+(1993). doi:10.1103/PhysRevD.48.3641.
+[14] S. Navas et al. (Particle Data Group), Review of Particle Physics, Physical Review D 110, 030001 (2024), and
+2025 update. doi:10.1103/PhysRevD.110.030001. https://pdg.lbl.gov/2025/.
+[15] A. M. Turing, “The Chemical Basis of Morphogenesis,” Philosophical Transactions of the Royal Society B
+237, 37–72 (1952). doi:10.1098/rstb.1952.0012.
+[16] H. R. Maturana and F. J. Varela, Autopoiesis and Cognition: The Realization of the Living, D.
+Reidel/Springer, 1980. doi:10.1007/978-94-009-8947-4.
+[17] K. Friston, “The Free-Energy Principle: A Unified Brain Theory?” Nature Reviews Neuroscience 11, 127–138
+(2010). doi:10.1038/nrn2787.
+[18] Bureau International des Poids et Mesures (BIPM), The International System of Units (SI), 9th ed.,
+updated 2026. doi:10.59161/AUEZ1291.
+[19] National Institute of Standards and Technology, Quantum Measurement Division.
+https://www.nist.gov/pml/quantum-measurement. Accessed 7 October 2026.
+[20] Particle Data Group, 2025 Summary Tables. https://pdg.lbl.gov/2025/tables/contentstables.html. Accessed
+7 October 2026.
