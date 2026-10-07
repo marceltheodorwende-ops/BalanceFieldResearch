@@ -35,4 +35,4 @@ The [historical manifest](manifest.json) records that earlier five-file intake, 
 
 ## Dynamic Order and Recursive Structure Formation —8October2026
 
-[New independent manuscript and unchanged original PDF](dynamic-order-2026-10-08/README.md). Research uses its mathematics jointly with [The Balance Field Equation as a Recursive World Formula](balance-field-equation/README.md). Overlapping material, added input/lift assumptions and fresh limited controls are documented in the linked joint-source audit.
+[New independent manuscript and unchanged original PDF](dynamic-order-2026-10-08/README.md). The latest owner instruction makes the complete Dynamic Order manuscript the sole active mathematical source; [the earlier World Formula paper](balance-field-equation/README.md) remains archived. Overlapping material, added input/lift assumptions and fresh limited controls are documented in the linked joint-source audit.
