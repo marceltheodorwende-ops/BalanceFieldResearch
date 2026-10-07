@@ -205,3 +205,20 @@ remain unestablished. The user's request to close the point does not supply a
 physical derivation. Report this limitation honestly and continue the listed
 development tasks; never claim the physical bridge is completed or open holdout.
 This checkpoint's findings are reported to the user; no duplicate notification.
+
+## Conditional physical explanation checkpoint
+
+CONDITIONAL_PHYSICAL_EXPLANATION.md published on the pendulum branch.
+Derives passive torque power balance and weak-viscous exponential energy
+envelope kappa=b/I; adds explicit quadratic and dry-friction rivals and baffle
+drag scaling. These are declared mechanical assumptions, not derivations from
+BFG axioms. Connects their viscous envelope exactly to the scalar continuous
+BFG representation. Demonstrates nonuniqueness under free observable and clock:
+internal f does not determine C,p,kappa, energy units or seconds.
+Inspected source metadata lacks calibrated inertia, COM/mass, baffle geometry,
+drag coefficients and full uncertainty. Physical explanation is conditional;
+unconditional BFG coupling derivation remains open. User-facing report states
+this distinction. No holdout access or new active empirical run.
+Next development package: fit and compare physically motivated viscous,
+quadratic and dry-friction models on attempt-1 angle/velocity, audit state
+identifiability and sensor uncertainty, seek independent coupling constraints.
