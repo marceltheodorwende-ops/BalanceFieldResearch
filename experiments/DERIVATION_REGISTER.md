@@ -136,3 +136,13 @@ From active Dynamic Order84.1–84.4, P=I,0<Y<I,F>0 gives natural-frame Y+=R=alp
 
 ## P40 — Isotropic matrix-input tangent and oscillatory-factor obstruction
 Explicit additional input Y->Y+dI, not an undeclared canonical rule or scalar Theorem7 matrix extension. At isotropic fixed point derivative is H->sH+t tr(FH)/tr(F)I with real eigenvalues s and f'(x); other fixed-stratum directions neutral. Multiple internal evolving geometry directions exist. Under fixed nonresonant underdamped physical target and C1 factor, intertwining forces DPi=0 because source tangent eigenvalues are real, target eigenvalues nonreal. Conditional local proof, three-step independent numerical derivative checks pass. Does not cover anisotropic/periodic states, seeds, rank changes or all matrix BFG. Next dependency: anisotropic noncommuting instrument closure.
+
+
+## P41 — Exact anisotropic spectral/coherence observable factor — COMPLETED
+Active Dynamic Order84(129)–(138),89(161), dependencyP39. Full persistence,P=I,0<Y<I,F>0. Define mu=sum tr(FPi_a)/trF delta_y_a and nu_ab=tr(Pi_a K Pi_b F). Loads/alpha determined bymu; mu+ is r_alpha pushforward and nu+ product-map pushforward of gamma*nu. Group summed coefficients handle exact eigenvalue collisions and noncommuting formation/kernel without additional physical dynamics. Canonical terminality nonterminal on domain. General conditional proof completed, code and100 Ambient/100 gauge comparisons pass1e-10, collision handling checked. Evidence bfg-anisotropic-closure-2026-10-08. Not physical angle/velocity identification or force emergence.
+
+## P42 — Necessary information and chart-exit witnesses — COMPLETED
+Same Y spectrum/different formation weights yield distinct geometry successors; same(mu,trFK)/different coherence yields distinct kernel-trace successors. Both inadequate projection counterexamples established. An admissible event with eigenvalue collision is nonterminal; simple-spectrum chart exit is not canonical terminal. Global(mu,nu) factor resolves that exact collision. Numerical1e-12 grouping convention separately declared. Scope restricted full-persistence factor, no universal guarantee.
+
+## Next single active obligation after P41/P42 publication
+Determine whether a regular signed two-observable physical reduction of the derived factor satisfies a complete closed transition. Do not start independent experiments or treat internal factor closure as physical force-law proof. P09/P10/P12 and physical calibration remain open; preserve existing counterexamples and no holdout access.

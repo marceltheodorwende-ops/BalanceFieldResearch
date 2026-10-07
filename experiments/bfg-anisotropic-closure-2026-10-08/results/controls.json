@@ -1,0 +1,16 @@
+{
+  "kind": "synthetic mathematical/code controls; no empirical evaluation",
+  "ambient_factor_cases": 100,
+  "unitary_gauge_cases": 100,
+  "max_factor_residual": 7.105427357601002e-15,
+  "max_gauge_residual": 3.4017233474514796e-13,
+  "output_order_swaps": 2,
+  "max_spectral_factor_residual": 7.105427357601002e-15,
+  "collision_safe_factor_residual": 2.7755575615628914e-17,
+  "eigenvalue_only_counterexample_successor_gap": 0.12015726590684751,
+  "aggregate_kernel_counterexample_successor_gap": 0.09679045688185095,
+  "collision_formation_weight": 0.13784556720686372,
+  "collision_canonical_terminal": null,
+  "collision_chart_gate": true,
+  "holdout_accessed": false
+}
