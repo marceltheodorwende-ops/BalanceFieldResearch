@@ -73,3 +73,10 @@ For supplied sine generator a,b>0, |theta0|<pi,E0<2a, energy invariance and LaSa
 Fifteen development recordings;11 one-factor scenarios; clock/frequency sensitivity materially amplifies6.4s error for both better nonlinear realizations. No joint worst-case guarantee, no complete measurement uncertainty, no new force derivation. Preserve all failures and no exclusions. Remote reproduction pending.
 
 P23 remote verification: Action37692412238 completed success; nine controls and real-data stress scores verified. Conditional sensitivity evidence, not absolute stability or a completed forecast repair.
+
+
+## P24 — Forward clock-only energy error bound
+For supplied passive sine generator a>0,b>=0, integrate |w|<=sqrt(2E0) and |w'|<=a min(1,sqrt(2E0/a))+b sqrt(2E0) over the perturbed forward-time segment. Exact conditional bounds and real-state sufficient tolerances in experiments/bfg-clock-budget-2026-10-08. Three local code controls corroborate bounds/time rescaling; no joint uncertainty guarantee.
+
+## P25 — Physical time calibration ambiguity
+With t=c*tau and u=cw, recorded dynamics have a_obs=c²a,b_obs=cb. If angular velocity shares the recorded clock, parameters and physical time scale cannot be independently separated from these trajectories alone. Independent physical velocity/frequency/time evidence could break the ambiguity. Explicit conditional obstruction; physical seconds coupling P09 remains unresolved.
