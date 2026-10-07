@@ -1,0 +1,44 @@
+{
+  "stage": "exploratory shared mechanical constraints on BFG readout; not emergence proof",
+  "recordings": 15,
+  "holdout_accessed": false,
+  "fit_seconds": "0-30",
+  "validation_seconds": "30-60",
+  "global_inertia_ratio_m2": 0.0022888769594424643,
+  "condition_inertia_ratio_m2": {
+    "1": 0.001984853045039629,
+    "2": 0.0023464957215943334,
+    "3": 0.00252829223208832
+  },
+  "bounds_m2": [
+    0,
+    0.02
+  ],
+  "parameter_counts": {
+    "point_mass": 15,
+    "shared_inertia": 16,
+    "condition_inertia": 18,
+    "free_frequency": 30
+  },
+  "scores": {
+    "shared_inertia": {
+      "relative_angle_increment_rmse": 0.08251031414447617,
+      "relative_velocity_increment_rmse": 0.2557705510783553
+    },
+    "condition_inertia": {
+      "relative_angle_increment_rmse": 0.08251807560877804,
+      "relative_velocity_increment_rmse": 0.255834403052718
+    },
+    "point_mass": {
+      "relative_angle_increment_rmse": 0.08291722655365333,
+      "relative_velocity_increment_rmse": 0.2573361795782849
+    },
+    "free_frequency": {
+      "relative_angle_increment_rmse": 0.08250931865833105,
+      "relative_velocity_increment_rmse": 0.2558492709079619
+    }
+  },
+  "physical_hypothesis": "same bob mass; center at stated length; extra pivot inertia constant globally or by condition",
+  "absolute_inertia_identified": false,
+  "seconds_derived_from_BFG": false
+}

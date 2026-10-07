@@ -369,3 +369,24 @@ failed variants, sealed holdout, bounded runs and main/paper restrictions.
 Hourly German status and regular publication on the same pendulum branch remain.
 This automation/configuration checkpoint is reported; no new empirical proof
 or physical result is claimed merely from activating the mandate.
+
+## Shared calibration and optional hierarchy checkpoint
+
+New package experiments/bfg-shared-calibration-2026-10-07/ on pendulum branch.
+Exploratory apparatus hypothesis gives a(L)=gL/(L^2+lambda), lambda=I0/m.
+One global ratio .0022888769594424643 m^2 replaces 15 gravity coefficients:
+16 total fitted coefficients versus30 free, including15 viscous rates.
+On 15 development recordings, angle/velocity persistence-relative errors
+.082510/.255771 nearly match free-frequency .082509/.255849. This is not
+statistical superiority or a BFG-only gravity derivation. Three numerical
+controls passed; no reserved data accessed. A bounded reproduction starts
+on package push; check actual status before another empirical run.
+Mathematical dyadic levels U_j=U^(2^j) give exact shared clock increments and
+coarse/fine compatibility. Three scalar controls pass. This is temporal
+self-similarity, not a physical fractal-dimension claim.
+Owner clarification: apply fractal/hierarchical methods only where justified;
+no blanket fractal architecture and no extra fractal fitted parameters now.
+Next: test shared parameters at longer horizons, sensor-aware trajectory
+uncertainty and discriminating intervention constraints. Clock units and absolute
+inertia remain additional calibration/nonidentifiability obligations.
+This local checkpoint is reported; remote completion must be independently read.
