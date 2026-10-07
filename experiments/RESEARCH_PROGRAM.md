@@ -351,3 +351,21 @@ specific coordinate/model restriction with verified extensions, preserve true
 scientific constraints and do not invent a universal proof. Next work concerns
 shared independent calibration, full-trajectory errors and intervention constraints.
 This checkpoint is reported to the user; hourly status should label it completed.
+
+## Autonomous derivation mandate activated
+
+Owner explicitly requests automatic treatment of every open derivation without
+further prompting. Existing hourly continuation updated, no new automation.
+Exact mandate saved in experiments/AUTONOMOUS_DERIVATION_PROMPT.md; working
+proof obligations and evidence saved in experiments/DERIVATION_REGISTER.md.
+Prioritize independent energy/time coupling, frequency/drag derivation and
+intervention action. Each package must execute concrete derivation, controls,
+primary-source audit or allowed development analysis; no repeated wish list.
+A closed derivation requires stated premises and valid reasoning. If not implied,
+prove the specific obstruction/nonuniqueness, identify an additional hypothesis
+and continue with the next solvable dependency. No automatic guarantee of proofs.
+Keep calibrated representations distinct from physical emergence; retain all
+failed variants, sealed holdout, bounded runs and main/paper restrictions.
+Hourly German status and regular publication on the same pendulum branch remain.
+This automation/configuration checkpoint is reported; no new empirical proof
+or physical result is claimed merely from activating the mandate.
