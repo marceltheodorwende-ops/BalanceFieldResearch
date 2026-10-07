@@ -140,3 +140,21 @@ physical map is claimed. Continue development only. Preserve failed candidates.
 User requested regular GitHub checkpoints and occasional meaningful progress
 reports, including failures. Notify on completed work packages or important
 obstacles, without duplicating this reported checkpoint.
+
+## Internal mathematical construction and verification repair
+
+NONLINEAR_OBSERVABLE.md in experiments/bfg-realization-theory-2026-10-07/
+derives phi(f(y))=phi(y)^2 and H_p(f(y))=2^(-p) H_p(y) for an
+inverse-log observable. Numerical controls: 999 inputs and four powers,
+residuals below 1.8e-15. This constructs scalar decay equivalence but does
+not derive physical energy or establish independent predictive superiority.
+A fitted per-condition p simply encodes the fitted decay rival. Audit shared
+physical calibration and intervention constraints before promoting a bridge.
+User explicitly requests creative use of internal mathematics and authorizes
+routine GitHub work without repeated permission questions.
+First development verification run 37683972787 failed before download/evaluation
+because text publication normalized CRLF CSV files while manifest hashed CRLF.
+Repair canonicalizes CSV output to LF and regenerates affected hashes;
+numeric values and scientific design unchanged. A single repair push starts
+one bounded replacement run; check latest run before any further launch.
+Local tests remain passing. All holdout files remain sealed.
