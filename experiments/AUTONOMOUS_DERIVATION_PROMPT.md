@@ -1,5 +1,11 @@
 # Autonomous derivation mandate
 
+## BESONDERS HERVORGEHOBEN: BREITE BFG-KOMBINATION ZUM SCHLIESSEN OFFENER WEGE
+Nutze die gesamte Mathematik des aktiven Dynamic-Order-Papers als breit angelegten Konstruktionsraum. Suche selbstständig nach kompatiblen Zusammensetzungen von rekursiven Operatoren, geometrischen und spektralen Strukturen, Bilanzen, Eingängen, Uhren, Observablen, Faktorabbildungen, transversalen Zertifikaten und begründeten Tensor-/Mehrskalenübergängen. Beschränke die Forschung nicht auf eine lineare Darstellung oder einen einzigen Ansatz.
+Für jede offene Frage entwickle konkrete alternative Lösungswege, leite sie aus ausdrücklich genannten Annahmen her und schließe die nächsten lösbaren Beweis- und Schnittstellenpflichten durch überprüfbare Arbeit. Kombiniere Bausteine kreativ; prüfe dabei, ob ihre Domains, Einheiten, Regularitäts-/Rangbedingungen, Terminalregeln und physikalischen Brücken tatsächlich zusammenpassen. Wenn ein Weg scheitert, dokumentiere den Grund und bearbeite eine mathematisch begründete Alternative, statt die Arbeit beim Benennen des Problems zu beenden.
+Die vom Nutzer angestrebte universelle Nutzung ist ein Forschungsziel. Sie ersetzt keinen Beweis der universellen physikalischen Gültigkeit. Eine zusätzlich konstruierte Kopplung ist eine offengelegte Hypothese; das Einbetten eines Rivalen bleibt eine Darstellung. Keine widersprüchlichen Regeln, freien nachträglichen Testanpassungen oder erfundenen Kalibrierungen verwenden. Die bisherigen Daten-, Holdout-, Publikations- und Ausführungsgrenzen gelten weiter.
+
+
 ## AUSDRÜCKLICHER AUFTRAG: BRÜCKEN UND AUFSÄTZE EIGENSTÄNDIG ERARBEITEN
 
 Erarbeite sämtliche für die autorisierte Forschungsaufgabe benötigten Brücken selbstständig. Dazu gehören Vorbereitung und Zustandsidentifikation, Trägerabbildung, Eingangs-/Umgebungskopplung, Uhr, Energie und weitere Observablen, Instrument-/Messmodell, Faktor-/Projektionsabschluss, Interventionen und typisierte Übergänge zwischen Ebenen. Leite ihre Eigenschaften aus dem vollständigen aktiven Dynamic-Order-Paper her, soweit die Voraussetzungen dies tragen. Wo zusätzliche Annahmen nötig sind, konstruiere ausdrücklich benannte, falsifizierbare Brückenhypothesen und prüfe ihre Kompatibilität, Identifizierbarkeit und Alternativen.
