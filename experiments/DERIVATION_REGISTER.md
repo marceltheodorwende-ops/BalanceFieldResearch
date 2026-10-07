@@ -71,3 +71,5 @@ For supplied sine generator a,b>0, |theta0|<pi,E0<2a, energy invariance and LaSa
 
 ## P23 — Real-data robustness stress
 Fifteen development recordings;11 one-factor scenarios; clock/frequency sensitivity materially amplifies6.4s error for both better nonlinear realizations. No joint worst-case guarantee, no complete measurement uncertainty, no new force derivation. Preserve all failures and no exclusions. Remote reproduction pending.
+
+P23 remote verification: Action37692412238 completed success; nine controls and real-data stress scores verified. Conditional sensitivity evidence, not absolute stability or a completed forecast repair.
