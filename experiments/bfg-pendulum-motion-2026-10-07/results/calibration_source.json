@@ -1,0 +1,8 @@
+{
+  "primary_dataset": "EnzeXu/Damped_Pendulum_Dataset",
+  "source_commit": "cbf82673641ecd65e902ad5c38a048387649a2a0",
+  "calibration_file": "experiments/pendulum-mechanical-identification-2026-10-07/results/models.csv",
+  "calibration_sha256": "93837f35366bc36a72adc778a78097b47816b2fdb5265896a5989cffeb7b8ef6",
+  "fit": "viscous model; development seconds0-30",
+  "holdout_accessed": false
+}

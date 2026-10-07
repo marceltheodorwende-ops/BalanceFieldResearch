@@ -1,0 +1,40 @@
+name: Calibrated BFG pendulum motion
+on:
+  push:
+    branches: [experiment/real-pendulum-decay-2026-10-07]
+    paths:
+      - experiments/bfg-pendulum-motion-2026-10-07/**
+      - .github/workflows/bfg-pendulum-motion.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: bfg-pendulum-motion
+  cancel-in-progress: false
+jobs:
+  motion:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned numerical tools
+        run: python -m pip install -r experiments/bfg-pendulum-motion-2026-10-07/requirements.txt
+      - name: Fetch development data only
+        working-directory: experiments/bfg-realization-development-2026-10-07
+        run: python fetch_development.py
+      - name: Verify canonical state and evaluate calibrated motion
+        working-directory: experiments/bfg-pendulum-motion-2026-10-07
+        shell: bash
+        run: |
+          set -euo pipefail
+          sha256sum -c SHA256SUMS.txt
+          PYTHONPATH=../real-eeg-covariance-2026-10-07 python -m unittest -v test_motion.py
+          python evaluate.py ../bfg-realization-development-2026-10-07/data ../pendulum-mechanical-identification-2026-10-07/results/models.csv results
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Calibrated-BFG-pendulum-motion
+          path: experiments/bfg-pendulum-motion-2026-10-07/results/
+          retention-days: 30

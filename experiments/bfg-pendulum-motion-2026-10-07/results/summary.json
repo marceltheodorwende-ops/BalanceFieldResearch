@@ -1,0 +1,14 @@
+{
+  "stage": "exploratory calibrated BFG representation; mechanically equivalent linear oscillator",
+  "recordings": 15,
+  "pairs": 4485,
+  "holdout_accessed": false,
+  "mean_relative_angle_increment_rmse": 0.08250931865833107,
+  "mean_relative_velocity_increment_rmse": 0.25584927090796195,
+  "zero_amplitude_inputs": 0,
+  "calibration": "viscous mechanical coefficients fitted on development seconds 0-30",
+  "validation": "development seconds 30-60",
+  "horizon_seconds": 0.1,
+  "physical_coefficients_derived_from_BFG": false,
+  "independent_superiority_over_linear_oscillator": false
+}
