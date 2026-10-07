@@ -110,3 +110,5 @@ Dynamic Order scalar f is monotone on(0,1). Additional d_r(y)=f_inverse(r*y)-y r
 
 ## P33 — Energy-only physical closure obstruction and development comparison
 For supplied sine mechanics b>0, equalE states(theta0,w=sqrt2E) and(theta=acos(1-E/a),w0) have energy derivatives-2bE and0. Thus energy-only factor fails for short times under Dynamic Order section89. Real15-record test favors full phase-sensitive sine mechanics over scalar models; no exclusions/holdout, remote reproduction pending.
+
+P32/P33 remote verification: Action37699807418 success; source/hash verification, four controls and full real-development scores match local results. Negative scalar bridge and phase-sensitive mechanical comparison retained; no holdout accessed.
