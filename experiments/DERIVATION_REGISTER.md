@@ -50,3 +50,10 @@ Cubic sine expansion and fundamental-harmonic averaging give psi'=Omega-a A²/(1
 
 ## P17 — Long-horizon developmental stress
 The linear observable fails relative to the nonlinear mechanical rival at 6.4 s. The revised phase observable reduces angle error 59.6%, remains slightly worse than that rival, and supplies no independent confirmatory evidence. All 15 development recordings included; untouched attempts remain untouched. See package for normalization and dependence limits.
+
+
+## P18 — Exact conditional nonlinear realization
+Global Lipschitz flow and its composition law, together with the derived canonical scalar clock, prove Pi_alpha U = Phi_dt Pi_alpha. Full sine dynamics, rest, large amplitudes and rotations are represented without a small-angle approximation. Additional generator, physical units and clock calibration remain explicit. Six local implementation controls passed. See experiments/bfg-nonlinear-realization-2026-10-07.
+
+## P19 — Nonunique nonlinear force selection
+A passive alpha family with identical BFG map/encoding/clock and equilibrium linearization has distinct accelerations. A periodic second-harmonic family further shows that angle periodicity does not select sine uniquely. These are proved counterexamples under the stated current realization assumptions, not a universal impossibility claim for all future BFG extensions. P10 remains physically open; a rigid-arm uniform-gravity premise selects sine only conditionally.
