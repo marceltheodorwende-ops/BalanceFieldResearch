@@ -240,3 +240,26 @@ package. Retain negative findings and status: derived, hypothetical, empirically
 examined, rejected or nonidentifiable. No invented proof or guarantee of universal
 closure. Existing hourly background task updated; no additional automation.
 Notify on meaningful new completed packages or important obstacles; avoid repeats.
+
+## Immediate development mechanical identification
+
+New package: experiments/pendulum-mechanical-identification-2026-10-07/ on
+experiment/real-pendulum-decay-2026-10-07. The owner explicitly requests regular
+updates on this same branch and short German status every 60 minutes; this
+supersedes earlier no-routine-status language. Existing hourly task updated.
+Local completed analysis on 15 attempt-1 recordings: integral balance fitting
+in first 30 seconds, causal 0.1-second forecasts in second 30 seconds. Gravity,
+viscous, quadratic, dry and mixed rivals. Mean RMSE relative to velocity
+persistence: .255719, .255082, .253407, .255719, .253407 respectively.
+These are exploratory temporal development comparisons, not holdout results
+or BFG prediction success. Four meaningful controls passed. RK4 substep
+sensitivity <5.3e-8 rad/s. Full source provenance and model/prediction tables
+published. Only ratios mg*ell/I,b/I,c/I,tau_c/I are conditional estimands;
+common scaling proves absolute mass/inertia/torques unidentifiable from these
+angular trajectories alone. Mixed design condition reaches 38.57.
+A single bounded remote reproduction workflow starts with this package push.
+Check it before claiming remote success or launching another empirical run.
+Next: primary sensor/geometry calibration and measurement consistency, window
+and horizon sensitivity, then shared cross-condition BFG coupling constraints.
+Keep all reserved attempts 2 and 3 sealed. This local checkpoint is reported;
+future status may repeat current state but must label it as unchanged.
