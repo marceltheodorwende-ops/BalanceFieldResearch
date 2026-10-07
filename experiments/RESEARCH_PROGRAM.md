@@ -396,3 +396,11 @@ controls, development-only source fetch, calibration and artifact upload verifie
 Remote logs match the local shared ratio and all comparator scores. No active
 empirical run at this checkpoint. The user-facing report includes this success
 and the restriction of fractal approaches to justified applications.
+
+## Per-execution mandate reminder
+
+Every continuation first reads the saved autonomous derivation prompt, proof
+register and current ledger. Diagnose poor development results by cause, derive
+justified mathematical revisions and compare against previous versions/rivals.
+Preserve failures and additional assumptions; no holdout leakage or changed
+success criteria to conceal failure. Existing automation and saved prompt updated.
