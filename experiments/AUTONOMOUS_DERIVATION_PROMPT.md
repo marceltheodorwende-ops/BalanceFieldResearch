@@ -1,5 +1,18 @@
 # Autonomous derivation mandate
 
+## VERBINDLICHE AUSFÜHRUNGSPRIORITÄT: MATHEMATISCHE KONSTRUKTIONEN SELBSTSTÄNDIG ERARBEITEN
+
+Der Nutzer verlangt ausdrücklich: Erarbeite aus der gesamten Mathematik des aktiven Dynamic-Order-Papers alles, was für die nächste prüfbare Forschungsaufgabe benötigt wird, ohne erneut auf eine Einzelaufforderung oder Routinegenehmigung zu warten. Diese Regel gilt bei jeder Ausführung. Eine bloße Aufzählung offener Anforderungen erfüllt den Auftrag nicht.
+
+Wenn eine benötigte Konstruktion fehlt, nimm sie unmittelbar in das Beweisregister auf, zerlege sie in lösbare Abhängigkeiten und bearbeite die nächste davon konkret. Entwickle geeignete Zustandsräume, Kopplungen, Uhren, Observablen, Faktorabbildungen, Differentiale, Stabilitäts-/Viabilitätszertifikate, Fehlergrenzen und reproduzierbare Implementierungen, soweit die aktuelle Aufgabe sie verlangt. Kombiniere die mathematischen Bausteine des vollständigen neuen Papers kreativ und nachvollziehbar; prüfe zuerst Typen, Einheiten, Domains, Rang-/Gap-Bedingungen, Terminalregeln, Gauge-Kovarianz und Modellkompatibilität.
+
+Arbeitszyklus: genaue Aussage und Voraussetzungen formulieren → Konstruktion oder Herleitung ausführen → Gegenbeispiele und unabhängige Kontrollen suchen → gegebenenfalls auf erlaubten realen Entwicklungsdaten mit starken Rivalen prüfen → Code, Nachweise, Quellen und positive wie negative Befunde auf dem autorisierten Forschungsbranch veröffentlichen → Ledger und Beweisregister aktualisieren → nächste lösbare Abhängigkeit angehen. Benötigte Routineentscheidungen selbst treffen; Rückfragen nur bei tatsächlich fehlender Information, die aus Paper, Repository und Nutzerauftrag nicht geklärt werden kann.
+
+„Erarbeite alles, was benötigt wird“ bedeutet aktive Forschungsarbeit, nicht eine Garantie, dass jede gewünschte Behauptung wahr oder aus den vorhandenen Axiomen ableitbar ist. Unterscheide streng zwischen hergeleiteter Folge, zusätzlicher Hypothese, numerisch kontrollierter Konstruktion und empirischer Bestätigung. Wenn eine Konstruktion eine neue Annahme benötigt, formuliere und prüfe sie ausdrücklich. Wenn etwas nicht folgt, liefere einen konkreten Gegenbeweis oder Nichtidentifizierbarkeitsnachweis und arbeite am nächsten tragfähigen Ansatz weiter. Keine erfundenen physikalischen Vorhersagen, fehlenden Kalibrierungen oder universellen Beweise.
+
+Die Grenzen des bestehenden Auftrags bleiben verbindlich: alleinige aktive Quelle Dynamic Order; alte Ergebnisse bewahren; Holdout geschlossen bis zum eingefrorenen Protokoll; reale Daten vorrangig; höchstens ein neues empirisches Experiment aktiv; maximal45Minuten pro GitHub-Lauf; keine zusätzlichen Automationen, main-Merges, Paper-Umschreibungen, bezahlten Dienste oder Kontaktaufnahme.
+
+
 Version: 2026-10-07. Existing hourly continuation; no additional automation.
 
 STARTREGEL FÜR JEDE AUSFÜHRUNG: Lies zuerst experiments/AUTONOMOUS_DERIVATION_PROMPT.md, experiments/DERIVATION_REGISTER.md und experiments/RESEARCH_PROGRAM.md auf experiment/real-pendulum-decay-2026-10-07. Richte jeden Arbeitsschritt erneut an Nutzerauftrag, aktuellem Ledger und Beweisstatus aus. Prüfe vor Bearbeitung die neueste Nutzerpräferenz und vorhandene Arbeit, statt eine alte Annahme ungeprüft fortzuführen.
