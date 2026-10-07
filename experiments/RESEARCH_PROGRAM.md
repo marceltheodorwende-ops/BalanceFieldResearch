@@ -308,3 +308,26 @@ clock, physical identification and closure explicit. Development only.
 This checkpoint is reported to the user; hourly summaries can mention it as
 completed, but must not announce it as a new result again. All 30 reserved
 recordings remain unopened. Regular updates stay on the pendulum branch.
+
+## Constructive calibrated pendulum motion realization
+
+Package experiments/bfg-pendulum-motion-2026-10-07/ constructs motion from
+canonical scalar K,F,Y state: K stores phase, F amplitude squared, geometry
+Y supplies N(Y)=log2((-log(phi(Y)))/(-log(phi(0.25)))); N(f(Y))=N(Y)+1.
+Physical readout depends on Y as well as inherited K,F, removing the earlier
+formation-only stationary-readout obstruction. Physical frequency, damping
+and seconds per event are explicit additional calibrations, not BFG predictions.
+Six controls passed, including 100 actual ambient updates and an independent
+linear oscillator matrix-exponential check; stable coordinate covers 600 events.
+On 15 real development recordings and 4,485 0.1-second transitions, mean RMSE
+relative to angle/velocity persistence is .082509/.255849. Calibration uses
+viscous coefficients fitted in seconds0-30; evaluation seconds30-60 of attempt1.
+This is mathematically equivalent to a linear underdamped oscillator; no
+independent superiority, physical universality or causal emergence is claimed.
+The representation is movement-bearing but conditionally calibrated. Preserve
+prior failures. All 30 confirmation recordings remain sealed.
+This push starts one bounded reproduction workflow. Check status before another
+empirical run. Next developmental work: independent/shared clock and observable
+constraints, full-trajectory robustness and intervention calibration; compare
+nonlinear mechanical rivals rather than counting coordinate encoding as a win.
+Publish and report this as a constructive exploratory checkpoint.
