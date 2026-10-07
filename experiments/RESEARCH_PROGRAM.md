@@ -290,3 +290,21 @@ Keep 30 reserved recordings sealed. This package push starts one bounded updated
 mechanical diagnostic reproduction; verify status before another empirical run.
 Hourly status and regular publication remain on this existing branch. Report the
 checkpoint as exploratory; do not turn the representation into a physical proof.
+
+## Verified sensor/carrier checkpoint and next direction
+
+Diagnostic reproduction run 37687167706 completed success; steps, logs and
+upload verified. Remote measurements match local consistency and sensitivity
+statistics. No empirical workflow currently active at this checkpoint.
+Reference carrier encoding controls passed, but the inherited-formation readout
+has a proved stationarity obstruction under full selection/rank and no seed:
+F_plus=V_dagger F V and jointly inherited instruments preserve trace ratios.
+100 actual ambient-update controls match to 3.56e-15. Published proof and
+stationary_readout_control.py preserve the negative result.
+Next: construct and audit geometry-dependent observables involving Y or a
+physically justified instrument transition; do not retry the same inherited-F
+readout as if motion could appear from a coordinate change. Keep preparation,
+clock, physical identification and closure explicit. Development only.
+This checkpoint is reported to the user; hourly summaries can mention it as
+completed, but must not announce it as a new result again. All 30 reserved
+recordings remain unopened. Regular updates stay on the pendulum branch.
