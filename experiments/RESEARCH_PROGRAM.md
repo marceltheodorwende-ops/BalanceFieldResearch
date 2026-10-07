@@ -222,3 +222,21 @@ this distinction. No holdout access or new active empirical run.
 Next development package: fit and compare physically motivated viscous,
 quadratic and dry-friction models on attempt-1 angle/velocity, audit state
 identifiability and sensor uncertainty, seek independent coupling constraints.
+
+## Autonomous closure work queue
+
+Owner requests execution of open work packages in the existing background
+continuation, not repeated lists of missing assumptions. Work sequentially:
+1. Audit primary sensor/apparatus metadata and a defensible measurement model.
+2. Identify estimable parameter combinations; fit strong viscous/quadratic/dry
+   friction rivals on the 15 allowed development recordings and inspect residuals.
+3. Develop BFG carrier, observable, clock and projection, separating derivation,
+   assumptions and fitted conveniences; expose equivalence to mechanical rivals.
+4. Seek shared calibration and intervention transformations with discriminating
+   predictions across conditions. Keep all 30 reserved recordings sealed.
+Each continuation must deliver a concrete verified code/data/theory/source
+checkpoint, or demonstrate a specific obstruction and advance the next solvable
+package. Retain negative findings and status: derived, hypothetical, empirically
+examined, rejected or nonidentifiable. No invented proof or guarantee of universal
+closure. Existing hourly background task updated; no additional automation.
+Notify on meaningful new completed packages or important obstacles; avoid repeats.
