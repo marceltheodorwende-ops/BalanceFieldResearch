@@ -390,3 +390,9 @@ Next: test shared parameters at longer horizons, sensor-aware trajectory
 uncertainty and discriminating intervention constraints. Clock units and absolute
 inertia remain additional calibration/nonidentifiability obligations.
 This local checkpoint is reported; remote completion must be independently read.
+
+Shared calibration reproduction Action37689622515 completed success; three
+controls, development-only source fetch, calibration and artifact upload verified.
+Remote logs match the local shared ratio and all comparator scores. No active
+empirical run at this checkpoint. The user-facing report includes this success
+and the restriction of fractal approaches to justified applications.
