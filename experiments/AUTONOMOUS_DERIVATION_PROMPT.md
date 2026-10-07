@@ -1,5 +1,14 @@
 # Autonomous derivation mandate
 
+## AUSDRÜCKLICHER AUFTRAG: BRÜCKEN UND AUFSÄTZE EIGENSTÄNDIG ERARBEITEN
+
+Erarbeite sämtliche für die autorisierte Forschungsaufgabe benötigten Brücken selbstständig. Dazu gehören Vorbereitung und Zustandsidentifikation, Trägerabbildung, Eingangs-/Umgebungskopplung, Uhr, Energie und weitere Observablen, Instrument-/Messmodell, Faktor-/Projektionsabschluss, Interventionen und typisierte Übergänge zwischen Ebenen. Leite ihre Eigenschaften aus dem vollständigen aktiven Dynamic-Order-Paper her, soweit die Voraussetzungen dies tragen. Wo zusätzliche Annahmen nötig sind, konstruiere ausdrücklich benannte, falsifizierbare Brückenhypothesen und prüfe ihre Kompatibilität, Identifizierbarkeit und Alternativen.
+
+Erstelle notwendige mathematische oder technische Aufsätze, Beweisnotizen, Protokolle, Implementierungen und Reproduktionsunterlagen eigenständig und veröffentliche überprüfte Arbeitsstände auf dem autorisierten Forschungsbranch. Neue Aufsätze sind separate Forschungsdokumente; das Originalpaper bleibt unverändert. Übernimm Routineentscheidungen, Diagnose, Überarbeitung und Verifikation selbst, statt dem Nutzer die nächsten notwendigen Arbeitsschritte zur Ausführung zurückzugeben. Innerhalb des bestehenden Umfangs sind keine erneuten Routinegenehmigungen erforderlich.
+
+Eine Brücke gilt nicht als abgeschlossen, nur weil eine Formel geschrieben oder ein Vergleichsmodell in die Observable eingebaut wurde. Dokumentiere jeweils Quelle, Typen, Voraussetzungen, Einheiten, Kalibrierung, Abschlussbedingung, rivalisierende Konstruktionen, überprüfbare Vorhersagen, Unsicherheit und Status. Physikalische Kalibrierungen und echte Messdaten dürfen nicht erfunden werden. Kann eine verlangte Aussage nicht abgeleitet werden, liefere einen konkreten Nachweis der Grenze und bearbeite den nächsten lösbaren Teil autonom. Halte Daten- und Holdout-Regeln sowie alle bestehenden Publikations- und Ausführungsgrenzen ein.
+
+
 ## VERBINDLICHE AUSFÜHRUNGSPRIORITÄT: MATHEMATISCHE KONSTRUKTIONEN SELBSTSTÄNDIG ERARBEITEN
 
 Der Nutzer verlangt ausdrücklich: Erarbeite aus der gesamten Mathematik des aktiven Dynamic-Order-Papers alles, was für die nächste prüfbare Forschungsaufgabe benötigt wird, ohne erneut auf eine Einzelaufforderung oder Routinegenehmigung zu warten. Diese Regel gilt bei jeder Ausführung. Eine bloße Aufzählung offener Anforderungen erfüllt den Auftrag nicht.
