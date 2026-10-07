@@ -103,3 +103,10 @@ Dynamic Order sections88–89 permit declared input models and separate event bo
 
 ## P31 — Driven scalar bounded-input robustness
 Using Theorem7 derivative L16/27 and input/output margins proves bound L^k e0+(L rho+eta)(1-L^k)/(1-L), limit16rho/11+27eta/11. Variable input generally has no fixed point. Five local controls pass; no empirical confirmation or full-state contraction claimed. See bfg-driven-clock package.
+
+
+## P32 — Causal geometric retention feedback
+Dynamic Order scalar f is monotone on(0,1). Additional d_r(y)=f_inverse(r*y)-y realizes r*y whenever declared input domain holds. Exact equivalence to fitted retention; no independent physical forcing or prediction gain. Closed-loop derivative is r; input derivative becomes singular near zero and positive reserve is not maintained for r<1. Four local controls pass.
+
+## P33 — Energy-only physical closure obstruction and development comparison
+For supplied sine mechanics b>0, equalE states(theta0,w=sqrt2E) and(theta=acos(1-E/a),w0) have energy derivatives-2bE and0. Thus energy-only factor fails for short times under Dynamic Order section89. Real15-record test favors full phase-sensitive sine mechanics over scalar models; no exclusions/holdout, remote reproduction pending.

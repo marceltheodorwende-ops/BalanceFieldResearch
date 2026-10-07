@@ -1,0 +1,33 @@
+name: Real energy input feasibility
+on:
+  push:
+    branches: [experiment/real-pendulum-decay-2026-10-07]
+    paths: ['experiments/bfg-energy-input-2026-10-08/**', '.github/workflows/bfg-energy-input.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: bfg-energy-input
+  cancel-in-progress: false
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r experiments/bfg-energy-input-2026-10-08/requirements.txt
+      - working-directory: experiments/bfg-energy-input-2026-10-08
+        run: sha256sum -c SHA256SUMS
+      - working-directory: experiments/bfg-realization-development-2026-10-07
+        run: python fetch_development.py
+      - working-directory: experiments/bfg-energy-input-2026-10-08
+        run: python -m unittest -v test_energy_input.py
+      - working-directory: experiments/bfg-energy-input-2026-10-08
+        run: python energy_input.py ../bfg-realization-development-2026-10-07/data ../pendulum-mechanical-identification-2026-10-07/results/models.csv results
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bfg-energy-input-results
+          path: experiments/bfg-energy-input-2026-10-08/results

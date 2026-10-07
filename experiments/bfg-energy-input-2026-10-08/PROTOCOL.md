@@ -1,0 +1,11 @@
+# Exploratory energy/input feasibility — fixed before evaluation
+
+Only15 attempt-1 real recordings, exact allowlist. Active mathematics: Dynamic Order sections84,86,88–89. No holdout access. Conditional mechanical energy per inertia E=w²/2+a(1-cos(theta)), with published a fitted on0-30s; this is an additional observable assumption, not SI joules. Calibration scale s=8*max(E on t<30), y=E/s. No validation-based scale revision.
+
+One event=0.1 recorded seconds via explicitly declared separate event counter. Fit each recording on disjoint0.1s blocks ending before30s: positive constant geometric input d in[1e-8,0.74999999] minimizing mean squared normalized one-step residual; passive retention r in[0,1] by least squares E_next≈r E. Report exact fitted bounds, do not tune from validation.
+
+Models: persistence, autonomous f(y), constant-input f(y+d), fitted passive retention r*y, and a causal geometric feedback d_r(y)=f_inverse(r*y)-y where0<r*y<1/4 and0<d_r(y)<3/4. The latter is an explicitly designed extra input policy, mathematically equivalent to retention, not an independent rival. Nonadmissible forecasts remain recorded as failures with coverage, not dropped or scored as successful. Inverse input reconstructed using next measured y is an oracle diagnostic only and never used for forecasts.
+
+Forecast from every0.1s-spaced initial state in30–60s, horizons0.1,1.6,6.4s, with no future measurements used in updates. Report per-record RMSE divided by target energy RMS, equal-record means, coverage and oracle admissibility. Preserve all candidate outcomes. Overlapping forecasts and reused development data are not independent confirmation; no inferential significance claim. Synthetic cases only code controls. A single bounded GitHub reproduction, max45minutes, starts only after checking no active empirical workflow.
+
+Comparator completeness amendment before evaluating this comparator: include the full nonlinear sine mechanical forecast with identical published a,b, converted to the same energy observable. No score/split/scale changes. It supplies the strong physical rival. Autonomous scalar recursion uses log-state evaluation to preserve mathematically positive latent geometry when its displayed energy underflows; no zero-load canonical update is claimed.
