@@ -158,3 +158,20 @@ Repair canonicalizes CSV output to LF and regenerates affected hashes;
 numeric values and scientific design unchanged. A single repair push starts
 one bounded replacement run; check latest run before any further launch.
 Local tests remain passing. All holdout files remain sealed.
+
+## Verified publication checkpoint
+
+Replacement GitHub Action 37684530408 completed successfully.
+All five controls, 15-file source verification, development analysis,
+rounding stress, structural-bound calculation and artifact upload succeeded.
+Logs reproduce local counts and errors exactly. Artifact 11510835869,
+BFG-development-only-realization, 80,581 bytes, expires 2026-11-06.
+Audit and constructive theory published at commit
+ efa2e929ee9e15e496e8194163eb90af01530f53 (without leading whitespace).
+No active empirical run at this checkpoint. No holdout files accessed.
+The user-facing checkpoint reports completed development audit, failed linear
+bridge, constructive nonlinear observable and outstanding physical derivation.
+Do not repeat these completion findings as new results. Next package remains
+shared observable calibration, identifiability/closure and intervention audit,
+with development-only code and regular GitHub checkpoints. Strong mathematical
+results are valuable even when no physical realization is yet justified.
