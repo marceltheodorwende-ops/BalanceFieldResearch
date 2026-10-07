@@ -36,23 +36,55 @@ Reporting record: completed negative EEG result, independent verification and
 next frozen pendulum protocol are included in the current user-facing completion
 report on 2026-10-07. Do not send a duplicate EEG completion notification.
 
-## Current next experiment
+## Current priority: exploratory realization
 
-Branch: experiment/real-pendulum-decay-2026-10-07.
-Frozen protocol commit: 25855b7d44417ea7c23da62630a63290cf25a3d3.
-Path: experiments/real-pendulum-decay-2026-10-07/PROTOCOL.md.
-Primary data: EnzeXu/Damped_Pendulum_Dataset, pinned commit
-cbf82673641ecd65e902ad5c38a048387649a2a0, real sensor measurements.
-45 recordings: development attempt 1 (15), holdout attempts 2 and 3 (30).
-Hypothetical linear energy bridge to scalar BFG, consecutive peak event clock.
-Compare persistence, per-condition fitted exponential decay and affine decay.
-Status: protocol committed; measurement CSV contents and holdout unopened;
-implementation and bounded workflow still required. No active pendulum run.
-Next continuation must read this protocol, implement and verify it, then run
-one bounded GitHub Action. Do not restart EEG or treat protocol as a result.
-User requests stronger conclusions using mathematics: retain exact spectral
-checks and conditional theorems with explicit assumptions. Do not optimize
-toward positive results or alter criteria after holdout inspection.
+Strategy changed by the user on 2026-10-07. Prioritize the two-stage realization
+below before additional confirmatory experiments. The previous pendulum protocol
+25855b7d44417ea7c23da62630a63290cf25a3d3 remains an immutable historical proposal;
+its holdout evaluation is deferred and must not be launched automatically.
+
+### Stage 1: development-only exploration
+
+Use the current architecture only on development observations. Test feasibility,
+stress the carrier map and find failure modes. Track each mapping proposal and
+whether its structure is derived from BFG, independently motivated measurement
+assumptions, or a fitted convenience. Changing a bridge is allowed here but all
+results remain exploratory. Performance alone does not establish derivation.
+
+For the existing pendulum candidate on experiment/real-pendulum-decay-2026-10-07,
+only attempt 1 (15 recordings) may be downloaded or inspected. Attempts 2 and 3
+(30 recordings) remain sealed. Primary source and pinned commit:
+EnzeXu/Damped_Pendulum_Dataset, cbf82673641ecd65e902ad5c38a048387649a2a0.
+The linear energy bridge is a hypothesis, not an established BFG realization.
+Check carrier-state identifiability, preparation, units/scale, basis invariance,
+rank/gates/terminal behavior, clock, observables, noise robustness and forecast
+information availability. Report failures and missing physical identifications.
+
+Specify intervention logic and falsifiable response predictions, including what
+interventions the real dataset actually supports. Passive recordings cannot
+establish causal intervention effects. If intervention evidence is absent,
+document the missing dataset or design instead of claiming causal confirmation.
+
+Already inspected EEG holdout subjects cannot confirm any revised hypothesis.
+
+### Stage 2: frozen confirmatory realization
+
+Proceed only when a derivation dossier and reproducible implementation fully
+specify the claimed BFG-derived structure, with all additional empirical
+assumptions explicitly separated. Freeze carrier map, preparation, state update,
+observables and clock, intervention logic, rivals, preprocessing, exclusions,
+sample/split, uncertainty procedure and decision rule in a commit before
+accessing untouched subjects/data. Include strong physical/statistical rivals.
+If no testable bridge exists, document the open requirement and remain in Stage 1.
+Confirmatory claims are limited to the frozen realization and supported tests;
+prediction and intervention claims must be distinguished.
+
+Preserve independent test observations and prohibit development downloads that
+include holdout files. Do not tune scientific criteria using held-out outcomes.
+Current task: assemble the development-only realization/derivation dossier,
+then run bounded exploratory analyses; do not resume the old pendulum holdout
+instruction. Prefer mathematically justified conclusions over positive scores.
+Strategy update is reported to the user; no empirical result claimed.
 
 ## Rules for subsequent experiments
 
