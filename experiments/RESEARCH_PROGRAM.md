@@ -404,3 +404,7 @@ register and current ledger. Diagnose poor development results by cause, derive
 justified mathematical revisions and compare against previous versions/rivals.
 Preserve failures and additional assumptions; no holdout leakage or changed
 success criteria to conceal failure. Existing automation and saved prompt updated.
+
+
+### Long-horizon phase correction — local completion, remote reproduction pending
+15 real attempt-1 recordings; coefficients unchanged from development seconds 0–30; holdout untouched. Seven horizons 0.1–6.4 s. At 6.4 s (3540 overlapping pairs), target-RMS-normalized angle/velocity errors: free linear BFG 0.218393/0.249122; phase-corrected observable 0.088297/0.128974; nonlinear mechanical rival 0.088291/0.128745. Improvement is exploratory and conditional on a mechanically derived cubic phase approximation, not emergence of the force law. Four independent controls pass; halved RK4 step agrees within 1e-5 on a representative long-horizon recording. All 15 included, no amplitude-gate exclusions. Package experiments/bfg-long-horizon-2026-10-07 preserves full results and derivation. Remote completion/report status must be recorded after verification.

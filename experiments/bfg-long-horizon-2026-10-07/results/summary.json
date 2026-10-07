@@ -1,0 +1,298 @@
+{
+  "stage": "exploratory development-only horizon stress",
+  "holdout_accessed": false,
+  "calibration_seconds": "0-30",
+  "prediction_starts": "30 until 60 minus horizon",
+  "horizons": [
+    0.1,
+    0.2,
+    0.4,
+    0.8,
+    1.6,
+    3.2,
+    6.4
+  ],
+  "normalization": "per-record RMS of target, not persistence increment",
+  "aggregate": [
+    {
+      "horizon_seconds": 0.1,
+      "model": "persistence",
+      "recordings": 15,
+      "pairs": 4485,
+      "mean_relative_angle_rmse": 0.4881622810041728,
+      "mean_relative_velocity_rmse": 0.5069919541899672
+    },
+    {
+      "horizon_seconds": 0.1,
+      "model": "linear_BFG_free",
+      "recordings": 15,
+      "pairs": 4485,
+      "mean_relative_angle_rmse": 0.040133945707393905,
+      "mean_relative_velocity_rmse": 0.1265134561592634
+    },
+    {
+      "horizon_seconds": 0.1,
+      "model": "linear_BFG_shared",
+      "recordings": 15,
+      "pairs": 4485,
+      "mean_relative_angle_rmse": 0.04013242236884324,
+      "mean_relative_velocity_rmse": 0.12646940159168557
+    },
+    {
+      "horizon_seconds": 0.1,
+      "model": "phase_corrected_BFG",
+      "recordings": 15,
+      "pairs": 4485,
+      "mean_relative_angle_rmse": 0.04009750493821167,
+      "mean_relative_velocity_rmse": 0.12633473821528043
+    },
+    {
+      "horizon_seconds": 0.1,
+      "model": "nonlinear_mechanical",
+      "recordings": 15,
+      "pairs": 4485,
+      "mean_relative_angle_rmse": 0.04002371908471278,
+      "mean_relative_velocity_rmse": 0.12609442730787748
+    },
+    {
+      "horizon_seconds": 0.2,
+      "model": "persistence",
+      "recordings": 15,
+      "pairs": 4470,
+      "mean_relative_angle_rmse": 0.9436445281811758,
+      "mean_relative_velocity_rmse": 0.9543616218921602
+    },
+    {
+      "horizon_seconds": 0.2,
+      "model": "linear_BFG_free",
+      "recordings": 15,
+      "pairs": 4470,
+      "mean_relative_angle_rmse": 0.08285494319152563,
+      "mean_relative_velocity_rmse": 0.12191386915155193
+    },
+    {
+      "horizon_seconds": 0.2,
+      "model": "linear_BFG_shared",
+      "recordings": 15,
+      "pairs": 4470,
+      "mean_relative_angle_rmse": 0.08281255946955221,
+      "mean_relative_velocity_rmse": 0.12177205161620276
+    },
+    {
+      "horizon_seconds": 0.2,
+      "model": "phase_corrected_BFG",
+      "recordings": 15,
+      "pairs": 4470,
+      "mean_relative_angle_rmse": 0.08259706416871197,
+      "mean_relative_velocity_rmse": 0.12127099334708122
+    },
+    {
+      "horizon_seconds": 0.2,
+      "model": "nonlinear_mechanical",
+      "recordings": 15,
+      "pairs": 4470,
+      "mean_relative_angle_rmse": 0.08228813310843301,
+      "mean_relative_velocity_rmse": 0.12062178879761981
+    },
+    {
+      "horizon_seconds": 0.4,
+      "model": "persistence",
+      "recordings": 15,
+      "pairs": 4440,
+      "mean_relative_angle_rmse": 1.649163844424247,
+      "mean_relative_velocity_rmse": 1.6488322235169766
+    },
+    {
+      "horizon_seconds": 0.4,
+      "model": "linear_BFG_free",
+      "recordings": 15,
+      "pairs": 4440,
+      "mean_relative_angle_rmse": 0.10287904051896504,
+      "mean_relative_velocity_rmse": 0.11743624906359627
+    },
+    {
+      "horizon_seconds": 0.4,
+      "model": "linear_BFG_shared",
+      "recordings": 15,
+      "pairs": 4440,
+      "mean_relative_angle_rmse": 0.1026090789237348,
+      "mean_relative_velocity_rmse": 0.11721724153631576
+    },
+    {
+      "horizon_seconds": 0.4,
+      "model": "phase_corrected_BFG",
+      "recordings": 15,
+      "pairs": 4440,
+      "mean_relative_angle_rmse": 0.10112098572600603,
+      "mean_relative_velocity_rmse": 0.11566352518684106
+    },
+    {
+      "horizon_seconds": 0.4,
+      "model": "nonlinear_mechanical",
+      "recordings": 15,
+      "pairs": 4440,
+      "mean_relative_angle_rmse": 0.1007771842356368,
+      "mean_relative_velocity_rmse": 0.11499204388519851
+    },
+    {
+      "horizon_seconds": 0.8,
+      "model": "persistence",
+      "recordings": 15,
+      "pairs": 4380,
+      "mean_relative_angle_rmse": 1.757898113692194,
+      "mean_relative_velocity_rmse": 1.756244853055856
+    },
+    {
+      "horizon_seconds": 0.8,
+      "model": "linear_BFG_free",
+      "recordings": 15,
+      "pairs": 4380,
+      "mean_relative_angle_rmse": 0.08873412749794571,
+      "mean_relative_velocity_rmse": 0.11639251012637516
+    },
+    {
+      "horizon_seconds": 0.8,
+      "model": "linear_BFG_shared",
+      "recordings": 15,
+      "pairs": 4380,
+      "mean_relative_angle_rmse": 0.08794012529592829,
+      "mean_relative_velocity_rmse": 0.11561706163291745
+    },
+    {
+      "horizon_seconds": 0.8,
+      "model": "phase_corrected_BFG",
+      "recordings": 15,
+      "pairs": 4380,
+      "mean_relative_angle_rmse": 0.08197826550771127,
+      "mean_relative_velocity_rmse": 0.1111036286846561
+    },
+    {
+      "horizon_seconds": 0.8,
+      "model": "nonlinear_mechanical",
+      "recordings": 15,
+      "pairs": 4380,
+      "mean_relative_angle_rmse": 0.08173867585199639,
+      "mean_relative_velocity_rmse": 0.11071782944541377
+    },
+    {
+      "horizon_seconds": 1.6,
+      "model": "persistence",
+      "recordings": 15,
+      "pairs": 4260,
+      "mean_relative_angle_rmse": 1.1413071364046283,
+      "mean_relative_velocity_rmse": 1.1513036519132127
+    },
+    {
+      "horizon_seconds": 1.6,
+      "model": "linear_BFG_free",
+      "recordings": 15,
+      "pairs": 4260,
+      "mean_relative_angle_rmse": 0.0874435694642756,
+      "mean_relative_velocity_rmse": 0.1343085346401803
+    },
+    {
+      "horizon_seconds": 1.6,
+      "model": "linear_BFG_shared",
+      "recordings": 15,
+      "pairs": 4260,
+      "mean_relative_angle_rmse": 0.08637701467559553,
+      "mean_relative_velocity_rmse": 0.13202386620955797
+    },
+    {
+      "horizon_seconds": 1.6,
+      "model": "phase_corrected_BFG",
+      "recordings": 15,
+      "pairs": 4260,
+      "mean_relative_angle_rmse": 0.06395076129648153,
+      "mean_relative_velocity_rmse": 0.11817740723918743
+    },
+    {
+      "horizon_seconds": 1.6,
+      "model": "nonlinear_mechanical",
+      "recordings": 15,
+      "pairs": 4260,
+      "mean_relative_angle_rmse": 0.06383636472242618,
+      "mean_relative_velocity_rmse": 0.1178008633024242
+    },
+    {
+      "horizon_seconds": 3.2,
+      "model": "persistence",
+      "recordings": 15,
+      "pairs": 4020,
+      "mean_relative_angle_rmse": 1.2015032169378044,
+      "mean_relative_velocity_rmse": 1.2105421579284585
+    },
+    {
+      "horizon_seconds": 3.2,
+      "model": "linear_BFG_free",
+      "recordings": 15,
+      "pairs": 4020,
+      "mean_relative_angle_rmse": 0.14808035501672728,
+      "mean_relative_velocity_rmse": 0.16225532110826565
+    },
+    {
+      "horizon_seconds": 3.2,
+      "model": "linear_BFG_shared",
+      "recordings": 15,
+      "pairs": 4020,
+      "mean_relative_angle_rmse": 0.1454808822810274,
+      "mean_relative_velocity_rmse": 0.15887008739142272
+    },
+    {
+      "horizon_seconds": 3.2,
+      "model": "phase_corrected_BFG",
+      "recordings": 15,
+      "pairs": 4020,
+      "mean_relative_angle_rmse": 0.09058877060965806,
+      "mean_relative_velocity_rmse": 0.11670701590522681
+    },
+    {
+      "horizon_seconds": 3.2,
+      "model": "nonlinear_mechanical",
+      "recordings": 15,
+      "pairs": 4020,
+      "mean_relative_angle_rmse": 0.09027663198334303,
+      "mean_relative_velocity_rmse": 0.1161208568102068
+    },
+    {
+      "horizon_seconds": 6.4,
+      "model": "persistence",
+      "recordings": 15,
+      "pairs": 3540,
+      "mean_relative_angle_rmse": 1.4991859289904979,
+      "mean_relative_velocity_rmse": 1.5026815855602216
+    },
+    {
+      "horizon_seconds": 6.4,
+      "model": "linear_BFG_free",
+      "recordings": 15,
+      "pairs": 3540,
+      "mean_relative_angle_rmse": 0.21839312059635899,
+      "mean_relative_velocity_rmse": 0.2491224842329286
+    },
+    {
+      "horizon_seconds": 6.4,
+      "model": "linear_BFG_shared",
+      "recordings": 15,
+      "pairs": 3540,
+      "mean_relative_angle_rmse": 0.2182289571807509,
+      "mean_relative_velocity_rmse": 0.2455485247727547
+    },
+    {
+      "horizon_seconds": 6.4,
+      "model": "phase_corrected_BFG",
+      "recordings": 15,
+      "pairs": 3540,
+      "mean_relative_angle_rmse": 0.08829706739009943,
+      "mean_relative_velocity_rmse": 0.12897420152899491
+    },
+    {
+      "horizon_seconds": 6.4,
+      "model": "nonlinear_mechanical",
+      "recordings": 15,
+      "pairs": 3540,
+      "mean_relative_angle_rmse": 0.0882911471156843,
+      "mean_relative_velocity_rmse": 0.12874468999746408
+    }
+  ]
+}

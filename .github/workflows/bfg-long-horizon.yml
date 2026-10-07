@@ -1,0 +1,37 @@
+name: BFG development long horizon
+on:
+  push:
+    branches: [experiment/real-pendulum-decay-2026-10-07]
+    paths: ['experiments/bfg-long-horizon-2026-10-07/**', '.github/workflows/bfg-long-horizon.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: bfg-long-horizon
+  cancel-in-progress: false
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r experiments/bfg-long-horizon-2026-10-07/requirements.txt
+      - name: Verify published package
+        working-directory: experiments/bfg-long-horizon-2026-10-07
+        run: sha256sum -c SHA256SUMS
+      - name: Fetch only development measurements
+        working-directory: experiments/bfg-realization-development-2026-10-07
+        run: python fetch_development.py
+      - name: Independent mathematical controls
+        working-directory: experiments/bfg-long-horizon-2026-10-07
+        run: python -m unittest -v test_phase.py
+      - name: Reproduce real-data forecasts
+        working-directory: experiments/bfg-long-horizon-2026-10-07
+        run: python evaluate_long.py ../bfg-realization-development-2026-10-07/data ../pendulum-mechanical-identification-2026-10-07/results/models.csv ../bfg-shared-calibration-2026-10-07/results/models.csv results
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bfg-long-horizon-results
+          path: experiments/bfg-long-horizon-2026-10-07/results

@@ -43,3 +43,10 @@ This constrains P10 using an added mechanical hypothesis, not a BFG-only proof.
 P15: U_j=U^(2^j) implies U_(j+1)=U_j^2 and exact dyadic clock consistency.
 This is derived temporal hierarchy, not observed physical fractality. Three
 scalar controls pass. Fractal extensions are optional and require justification.
+
+
+## P16 — Weakly nonlinear phase observable (conditional approximation)
+Cubic sine expansion and fundamental-harmonic averaging give psi'=Omega-a A²/(16 Omega), with A=A0 exp(-bt/2); integrated closed form and initial-state preparation are implemented in experiments/bfg-long-horizon-2026-10-07. Additional mechanical law, calibration, small-amplitude and weak-damping assumptions are explicit. This is not an exact BFG-only pendulum derivation. Four independent controls passed.
+
+## P17 — Long-horizon developmental stress
+The linear observable fails relative to the nonlinear mechanical rival at 6.4 s. The revised phase observable reduces angle error 59.6%, remains slightly worse than that rival, and supplies no independent confirmatory evidence. All 15 development recordings included; untouched attempts remain untouched. See package for normalization and dependence limits.

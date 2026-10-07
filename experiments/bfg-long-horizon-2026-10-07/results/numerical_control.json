@@ -1,0 +1,5 @@
+{
+  "recording": "len1_cond1_1.csv",
+  "horizon_seconds": 6.4,
+  "max_state_difference_halved_rk4_step": 9.62532390569315e-07
+}
