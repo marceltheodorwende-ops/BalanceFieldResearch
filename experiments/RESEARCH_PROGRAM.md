@@ -115,3 +115,28 @@ On each completion report what was tested, how it finished, sample size,
 comparison results, uncertainty, limitations and GitHub links. If blocked, say
 what failed and whether any results exist. Continue with one justified next
 experiment after a completed result; avoid indefinite loops of identical retries.
+
+## Development audit checkpoint (2026-10-07)
+
+Published on experiment/real-pendulum-decay-2026-10-07 under
+experiments/bfg-realization-development-2026-10-07/.
+Local development analysis completed: 15 real recordings, 1,364 pairs,
+zero rejected pairs; no holdout files downloaded or inspected.
+Mean relative L2 errors: scalar BFG 0.712943, persistence 0.065288,
+in-sample fitted decay 0.054072. Five standalone controls passed;
+1,000 comparisons with the existing ambient update matched to 1.67e-16.
+Rounding stress did not repair the mismatch. INTERNAL_MATH.md derives a
+scale-independent 35.63% maximum energy retention; all development pairs
+retained more than 50%. This rejects this added linear scalar energy bridge
+as a feasible candidate, not the full BFG architecture.
+REALIZATION_DOSSIER.md states carrier, closure, reset, clock and intervention
+requirements. Confirmation gate remains unmet. The old holdout protocol is
+still deferred. A bounded development-only verification workflow accompanies
+publication; inspect actual status before reporting remote verification.
+Next: use internal mathematics to audit nonlinear observables, independent
+clock calibration and carriers retaining angle/velocity; label additional
+hypotheses and do not tune for positive holdout results. No justified full
+physical map is claimed. Continue development only. Preserve failed candidates.
+User requested regular GitHub checkpoints and occasional meaningful progress
+reports, including failures. Notify on completed work packages or important
+obstacles, without duplicating this reported checkpoint.
