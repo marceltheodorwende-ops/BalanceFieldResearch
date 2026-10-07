@@ -1,0 +1,12 @@
+test_complex_unitary_covariance_and_invariants (test_experiment.Controls.test_complex_unitary_covariance_and_invariants) ... ok
+test_diagonal_readout_independent_channels (test_experiment.Controls.test_diagonal_readout_independent_channels) ... ok
+test_known_edf_calibration_and_truncation (test_experiment.Controls.test_known_edf_calibration_and_truncation) ... ok
+test_measurements_require_official_checksum (test_experiment.Controls.test_measurements_require_official_checksum) ... ok
+test_scalar_independent_formula_and_neutral_directions (test_experiment.Controls.test_scalar_independent_formula_and_neutral_directions) ... ok
+test_seed_complement_branches (test_experiment.Controls.test_seed_complement_branches) ... ok
+test_terminal_gates (test_experiment.Controls.test_terminal_gates) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.279s
+
+OK

@@ -1,0 +1,94 @@
+{
+  "seed": 20261007,
+  "bootstrap_replicates": 10000,
+  "heldout_subjects": 69,
+  "eligible_holdout_pairs": 3685,
+  "common_pairs": 3685,
+  "models": {
+    "bfg": {
+      "mean_relative_frobenius_common": 0.8674037677791795,
+      "ci95": [
+        0.8507672611348471,
+        0.88430603963576
+      ],
+      "terminal_pairs": 0,
+      "coverage": 1.0,
+      "all_available_subject_mean": 0.8674037677791795
+    },
+    "persistence": {
+      "mean_relative_frobenius_common": 0.5864281525723477,
+      "ci95": [
+        0.5411013191302534,
+        0.6476560039995731
+      ],
+      "terminal_pairs": 0,
+      "coverage": 1.0,
+      "all_available_subject_mean": 0.5864281525723477
+    },
+    "linear": {
+      "mean_relative_frobenius_common": 0.6654984329512968,
+      "ci95": [
+        0.5551502791567539,
+        0.8261701989498114
+      ],
+      "terminal_pairs": 0,
+      "coverage": 1.0,
+      "all_available_subject_mean": 0.6654984329512968
+    },
+    "frozen_geometry": {
+      "mean_relative_frobenius_common": 1.2205814599236928,
+      "ci95": [
+        0.9207968733444586,
+        1.6860773785927885
+      ],
+      "terminal_pairs": 0,
+      "coverage": 1.0,
+      "all_available_subject_mean": 1.2205814599236928
+    }
+  },
+  "comparisons": {
+    "persistence": {
+      "bfg_minus_comparator": 0.2809756152068318,
+      "ci95": [
+        0.21926855458781588,
+        0.3298990404721693
+      ]
+    },
+    "linear": {
+      "bfg_minus_comparator": 0.20190533482788284,
+      "ci95": [
+        0.04283418083861945,
+        0.31339206008042114
+      ]
+    },
+    "frozen_geometry": {
+      "bfg_minus_comparator": -0.3531776921445131,
+      "ci95": [
+        -0.8149908045453572,
+        -0.053931546777457796
+      ]
+    }
+  },
+  "conditions": {
+    "eyes_open": {
+      "bfg": 0.8572859000668126,
+      "persistence": 0.6447828090691413,
+      "linear": 0.6927544044782932,
+      "frozen_geometry": 1.2017768179103678
+    },
+    "eyes_closed": {
+      "bfg": 0.8775216354915465,
+      "persistence": 0.5280734960755541,
+      "linear": 0.6382424614243001,
+      "frozen_geometry": 1.2393861019370176
+    }
+  },
+  "rank_sensitivity_changed_pairs": 76,
+  "practical_success": false,
+  "environment": {
+    "python": "3.12.14 (main, Aug 13 2026, 02:47:42) [GCC 13.3.0]",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39"
+  }
+}
