@@ -1,0 +1,51 @@
+{
+  "recordings": 15,
+  "holdout_accessed": false,
+  "stage": "exploratory force selection; externally assumed potential",
+  "normalization": "equal-record mean RMSE divided by target RMS",
+  "aggregate": [
+    {
+      "model": "linear",
+      "horizon_seconds": 0.1,
+      "pairs": 4485,
+      "angle": 0.040139275305967524,
+      "velocity": 0.12664445305855757
+    },
+    {
+      "model": "sine",
+      "horizon_seconds": 0.1,
+      "pairs": 4485,
+      "angle": 0.04002371908471278,
+      "velocity": 0.12609442730787748
+    },
+    {
+      "model": "sine_second_harmonic",
+      "horizon_seconds": 0.1,
+      "pairs": 4485,
+      "angle": 0.0400274594973996,
+      "velocity": 0.12612033524046407
+    },
+    {
+      "model": "linear",
+      "horizon_seconds": 6.4,
+      "pairs": 3540,
+      "angle": 0.2176908141956874,
+      "velocity": 0.23668633086933716
+    },
+    {
+      "model": "sine",
+      "horizon_seconds": 6.4,
+      "pairs": 3540,
+      "angle": 0.0882911471156843,
+      "velocity": 0.12874468999746408
+    },
+    {
+      "model": "sine_second_harmonic",
+      "horizon_seconds": 6.4,
+      "pairs": 3540,
+      "angle": 0.3452984533387629,
+      "velocity": 0.3574711210699224
+    }
+  ],
+  "max_harmonic_condition": 221.6560599232647
+}

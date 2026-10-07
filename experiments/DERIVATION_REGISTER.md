@@ -57,3 +57,10 @@ Global Lipschitz flow and its composition law, together with the derived canonic
 
 ## P19 — Nonunique nonlinear force selection
 A passive alpha family with identical BFG map/encoding/clock and equilibrium linearization has distinct accelerations. A periodic second-harmonic family further shows that angle periodicity does not select sine uniquely. These are proved counterexamples under the stated current realization assumptions, not a universal impossibility claim for all future BFG extensions. P10 remains physically open; a rigid-arm uniform-gravity premise selects sine only conditionally.
+
+
+## P20 — Conditional geometric selection of sine
+Rigid fixed-length arm, uniform gravity, linear-in-height potential and calibrated inertia imply V=mgL(1-cos theta), torque=-mgL sin theta. Derived under explicit additional physical coupling assumptions; not BFG-only selection. Package bfg-force-selection-2026-10-07.
+
+## P21 — Harmonic development stress and identifiability
+Real15 attempt-1 recordings: adding nonnegative second-harmonic potential worsens6.4s forecasts, with scaled condition up to221.66. Near-rest Taylor expansion exposes combinations A+2C and A+8C; confounding is a plausible limitation, not a uniquely proved error cause. Preserve negative result, no holdout tuning. Three local independent controls pass; remote reproduction pending.

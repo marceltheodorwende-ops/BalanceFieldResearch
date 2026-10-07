@@ -1,0 +1,33 @@
+name: Force selection development
+on:
+  push:
+    branches: [experiment/real-pendulum-decay-2026-10-07]
+    paths: ['experiments/bfg-force-selection-2026-10-07/**', '.github/workflows/bfg-force-selection.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: bfg-force-selection
+  cancel-in-progress: false
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r experiments/bfg-force-selection-2026-10-07/requirements.txt
+      - working-directory: experiments/bfg-force-selection-2026-10-07
+        run: sha256sum -c SHA256SUMS
+      - working-directory: experiments/bfg-realization-development-2026-10-07
+        run: python fetch_development.py
+      - working-directory: experiments/bfg-force-selection-2026-10-07
+        run: python -m unittest -v test_selection.py
+      - working-directory: experiments/bfg-force-selection-2026-10-07
+        run: python selection.py ../bfg-realization-development-2026-10-07/data results
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bfg-force-selection-results
+          path: experiments/bfg-force-selection-2026-10-07/results
