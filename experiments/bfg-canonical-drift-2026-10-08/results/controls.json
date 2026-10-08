@@ -1,0 +1,41 @@
+{
+  "sharp_bound_sequence": [
+    {
+      "epsilon": 0.001,
+      "norm_ratio": 0.4985034952592342
+    },
+    {
+      "epsilon": 0.0001,
+      "norm_ratio": 0.499850034995251
+    },
+    {
+      "epsilon": 1e-05,
+      "norm_ratio": 0.4999850003499951
+    }
+  ],
+  "kind": "synthetic mathematics/code controls only",
+  "canonical_bound": "norm(Y_next)<=norm(Y)/2 on full persistence",
+  "ambient_cases": 30,
+  "max_ambient_residual": 1.6653345369377348e-16,
+  "maximum_sampled_norm_ratio": 0.3208559401846373,
+  "exact_readout_determinant": "18076941875/236768239296",
+  "initial_drift_acceleration": -0.5180668730571788,
+  "acceleration_chain_difference_residual": 1.7387979944771814e-11,
+  "drift_canonical_endpoint": [
+    0.1829673985362608,
+    0.2106297785052732
+  ],
+  "drift_flow_at_one": [
+    0.14611480100106786,
+    0.35158432523115846
+  ],
+  "event_flow_defect": 0.1456924781441742,
+  "clock_rescaling_residual": 9.717227023031683e-14,
+  "min_tested_chart_determinant": -0.05461202303467916,
+  "max_tested_chart_determinant": 0.07634867720750692,
+  "sampled_positive_geometry": true,
+  "duration_seconds_calibrated": false,
+  "canonical_time_h_flow_claimed": false,
+  "physical_sine_force_derived": false,
+  "holdout_accessed": false
+}

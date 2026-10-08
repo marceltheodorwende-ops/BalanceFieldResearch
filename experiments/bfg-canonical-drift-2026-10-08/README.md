@@ -1,0 +1,2 @@
+# Canonical radial geometry bound and drift audit
+Both active BFG sources are cited in DERIVATION.md. The new operator-norm1/2 decay bound is a canonical full-persistence consequence in arbitrary finite dimension. A separate drift hypothesis yields a locally closed acceleration, but its flow does not equal the canonical event; that failed compatibility and chart singularity remain documented. Run `PYTHONPATH=<Ambient experiment.py directory> python check.py` with numpy scipy sympy. Synthetic controls only; no empirical data or holdout used.
