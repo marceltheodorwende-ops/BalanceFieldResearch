@@ -1,0 +1,34 @@
+{
+  "kind": "synthetic mathematics/code controls only",
+  "exact_determinant": "-321243859375/52720394616576",
+  "jacobian_difference": 4.6396525510417064e-11,
+  "inverse_condition_number": 21.215722229981253,
+  "inverse_norm": 59.00663098952915,
+  "max_inverse_residual": 2.7755575615628914e-17,
+  "max_ambient_residual": 8.326672684688674e-17,
+  "inputs": [
+    [
+      -0.0003303128494158425,
+      4.354538923567741e-05
+    ],
+    [
+      0.0004897370207165852,
+      -1.5193675635405413e-05
+    ],
+    [
+      0.0008284419808260446,
+      -5.993481348087748e-05
+    ],
+    [
+      -0.0011313222877825102,
+      9.957721178321943e-05
+    ]
+  ],
+  "scalar_unreachable_unit_direction": [
+    -0.5999792062150985,
+    0.8000155949164367
+  ],
+  "physical_input_calibrated": false,
+  "force_derived": false,
+  "holdout_accessed": false
+}
