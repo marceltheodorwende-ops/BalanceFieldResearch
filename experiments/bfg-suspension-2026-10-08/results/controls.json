@@ -1,0 +1,42 @@
+{
+  "triple_determinant_difference_residual": 2.0212634899152704e-09,
+  "exact_acceleration_fiber_rank_determinant": "-2724380862981372727879348896256078894997827355698976696079316020420414937552343973330804548402422108487539375/2873727173083173762304602479954592615115398898814982958646516816694142674130400665186574089671045664150585344",
+  "acceleration_fiber_rank_determinant": -0.9480304492713656,
+  "tensor_multiplicities": [
+    2,
+    3
+  ],
+  "max_tensor_geometry_residual": 5.551115123125783e-17,
+  "kind": "synthetic mathematics/code controls only",
+  "exact_bump_acceleration_gap": "1/32",
+  "max_seam_jet_residual": 6.217248937900877e-15,
+  "same_sampled_readout_midpoint": [
+    -0.1935947450854535,
+    0.668999665748335
+  ],
+  "base_midpoint_acceleration": -0.6742698710309054,
+  "alternative_midpoint_acceleration": -0.6430198710309054,
+  "within_model_fiber_witness": {
+    "first_geometry": [
+      0.2,
+      0.7
+    ],
+    "first_phase": 0.5,
+    "second_geometry": [
+      0.10090691298721222,
+      0.6110377386834029
+    ],
+    "second_phase": 0.51,
+    "observable_residual": 5.551115123125783e-17,
+    "acceleration_gap": -0.07119902235186992
+  },
+  "kinematic_difference_residuals": [
+    1.0967626806746011e-10,
+    7.148459602035473e-11
+  ],
+  "declared_extra_phase": true,
+  "seconds_calibrated": false,
+  "planar_factor_closed": false,
+  "physical_force_derived": false,
+  "holdout_accessed": false
+}

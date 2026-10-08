@@ -1,0 +1,2 @@
+# Explicit event-phase extension and tensor-level audit
+The canonical BFG event is retained; a separate phase, duration and Hermite observable are declared. DERIVATION.md proves the conditional construction and exact force/closure limits. Run `PYTHONPATH=<Ambient implementation directory> python check.py` with numpy scipy sympy and the existing experiment.py from experiments/real-eeg-covariance-2026-10-07. Controls are synthetic mathematics only. No measured physical force, improved prediction or holdout confirmation is claimed.
