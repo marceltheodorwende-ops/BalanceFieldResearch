@@ -1,0 +1,33 @@
+{
+  "kind": "synthetic proof/code controls only",
+  "initial_signed_pair": [
+    0.3,
+    0.12
+  ],
+  "geometry_cases": [
+    [
+      0.2,
+      0.7
+    ],
+    [
+      0.3,
+      0.8
+    ]
+  ],
+  "gamma": [
+    0.849474839042236,
+    0.8973655256796094
+  ],
+  "successor_pair_gap": 0.015473954416145368,
+  "max_ambient_residual": 5.551115123125783e-17,
+  "direct_pendulum_control": {
+    "a": 3.0,
+    "b": 0.1,
+    "h": 0.1,
+    "initial_angle": 0.3,
+    "initial_velocity": 0.0,
+    "physical_final_velocity": -0.08779331657087217,
+    "coherence_radial_final_velocity": 0.0
+  },
+  "holdout_accessed": false
+}

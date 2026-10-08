@@ -146,3 +146,7 @@ Same Y spectrum/different formation weights yield distinct geometry successors; 
 
 ## Next single active obligation after P41/P42 publication
 Determine whether a regular signed two-observable physical reduction of the derived factor satisfies a complete closed transition. Do not start independent experiments or treat internal factor closure as physical force-law proof. P09/P10/P12 and physical calibration remain open; preserve existing counterexamples and no holdout access.
+
+
+## P43 — Direct signed-coherence candidate — completed negatively
+Dynamic Order84/89(161), P41. Two admissible same(Re z,Im z) states have distinct successors. Adding mu repairs noncolliding chart closure but radial gamma damping fails direct theta=A Re z,w=B Im z force response from positive angle/zero velocity at sufficiently short positive steps. Restricted proofs and independent Ambient/DOP853 controls pass; not a rejection of all nonlinear geometry-mixing reductions. Evidence bfg-signed-readout-2026-10-08. Physical force question remains open. Next single dependency: regular geometry-retaining physical reduction and complete transition.
