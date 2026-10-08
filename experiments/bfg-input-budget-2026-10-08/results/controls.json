@@ -1,0 +1,41 @@
+{
+  "reserve_control": {
+    "events": 100,
+    "minimum_norm": 0.05596219,
+    "total_input": 15,
+    "required_lower": 5.5962190000000005
+  },
+  "kind": "synthetic mathematics/code controls only",
+  "matrix_controls": [
+    {
+      "n": 2,
+      "events": 4,
+      "total_input_norm": 0.03650741549952226,
+      "telescoping_lower": -0.2212710633454357,
+      "terminal_norm": 1.6514484917548165e-06,
+      "convolution_upper": 0.025786273401904133
+    },
+    {
+      "n": 3,
+      "events": 4,
+      "total_input_norm": 0.012808295576010674,
+      "telescoping_lower": -0.20788740673025372,
+      "terminal_norm": 3.9122827615602737e-10,
+      "convolution_upper": 0.017707507545441193
+    },
+    {
+      "n": 5,
+      "events": 4,
+      "total_input_norm": 0.023542226693253007,
+      "telescoping_lower": -0.24384356490293616,
+      "terminal_norm": 1.6890687419615807e-07,
+      "convolution_upper": 0.024541275225302667
+    }
+  ],
+  "same_cost_opposite_input_successor_gap": 0.0005623159370878894,
+  "scalar_budget_events": 4,
+  "scalar_remaining_budget": -5.551115123125783e-17,
+  "resource_units": "abstract; no joule calibration",
+  "force_selected": false,
+  "holdout_accessed": false
+}
