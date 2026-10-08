@@ -1,0 +1,8 @@
+{
+  "gauge_controls": 20,
+  "max_residual": 8.725343908120454e-19,
+  "forbidden_offdiagonal_stabilizer_defect": 0.0282842712474619,
+  "admissible_signed_commutator_norm": 0.0009999999999999998,
+  "kind": "synthetic math controls",
+  "physical_force_selected": false
+}
