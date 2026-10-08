@@ -1,0 +1,34 @@
+{
+  "fiber_derivative_difference_error": 6.416059090269544e-13,
+  "exact_readouts": [
+    [
+      "8/15",
+      "0",
+      "1049825/5212404"
+    ],
+    [
+      "8/15",
+      "0",
+      "67192573825000/333569890024821"
+    ]
+  ],
+  "exact_successor_gap": "4981197824177075/193189003227215231076",
+  "successor_gap": 2.578406503976079e-05,
+  "exact_fiber_derivative": "468887175530377750000/1818207943709187974573853",
+  "fiber_derivative": 0.0002578842409927198,
+  "prepared_eigenvalues": [
+    [
+      0.2,
+      0.7
+    ],
+    [
+      0.19980007993606397,
+      0.7001999200639359
+    ]
+  ],
+  "max_ambient_error": 8.326672684688674e-17,
+  "readout_rank": 2,
+  "kind": "synthetic mathematics/code controls",
+  "force_derived": false,
+  "holdout_accessed": false
+}
