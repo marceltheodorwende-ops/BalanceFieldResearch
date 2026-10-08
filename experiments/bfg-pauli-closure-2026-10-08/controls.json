@@ -1,0 +1,10 @@
+{
+  "ambient_cases": 30,
+  "max_ambient_error": 6.663073062121745e-16,
+  "max_gauge_invariant_error": 4.973799150320701e-14,
+  "max_pauli_cross_error": 8.673617379884035e-19,
+  "same_geometry_distinct_successor_spectrum_gap": 4.25640448168568e-05,
+  "kind": "synthetic mathematics/code controls",
+  "force_derived": false,
+  "holdout_accessed": false
+}
