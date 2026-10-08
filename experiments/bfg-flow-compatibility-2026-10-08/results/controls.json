@@ -1,0 +1,41 @@
+{
+  "kind": "synthetic mathematics/code controls only",
+  "exact_canonical_determinant": "-321243859375/52720394616576",
+  "canonical_determinant": -0.006093350812552465,
+  "successor_geometry": [
+    0.1829673985362608,
+    0.2106297785052732
+  ],
+  "successor_geometry_determinant": 0.07270162708142158,
+  "two_event_determinant": -0.0004429965184504662,
+  "source_chart_determinant": 0.07634867720750692,
+  "successor_chart_determinant": -0.00453561437519956,
+  "chart_transition_determinant": 0.00036198517838670265,
+  "finite_difference_controls": [
+    {
+      "step": 0.0001,
+      "error": 9.839157377733443e-09,
+      "determinant": -0.006093352689380592
+    },
+    {
+      "step": 1e-05,
+      "error": 9.625644725730353e-11,
+      "determinant": -0.0060933508305334155
+    },
+    {
+      "step": 1e-06,
+      "error": 3.251873770260261e-11,
+      "determinant": -0.006093350818661918
+    }
+  ],
+  "mechanical_variational_determinant": 0.9900498337491683,
+  "mechanical_liouville_residual": 3.3306690738754696e-16,
+  "positive_clock_counterexample": {
+    "x": 0.25,
+    "tau": 1.5,
+    "determinant": -1,
+    "ordering_factor": -1
+  },
+  "physical_calibration": false,
+  "holdout_accessed": false
+}
