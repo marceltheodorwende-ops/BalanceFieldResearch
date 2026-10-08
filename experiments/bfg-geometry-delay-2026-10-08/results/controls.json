@@ -1,0 +1,37 @@
+{
+  "kind": "synthetic mathematics/code controls only",
+  "weights": [
+    0.3333333333333333,
+    0.6666666666666666
+  ],
+  "initial_geometry": [
+    0.2,
+    0.7
+  ],
+  "exact_chart_determinant": "18076941875/236768239296",
+  "chart_determinant": 0.07634867720750667,
+  "exact_geometry_determinant": "-321243859375/52720394616576",
+  "geometry_determinant": -0.006093350812552465,
+  "chart_condition": 55.421167217508575,
+  "initial_chart": [
+    -0.49999999999999994,
+    0.47233762003098756
+  ],
+  "successor_geometry": [
+    0.1829673985362608,
+    0.2106297785052732
+  ],
+  "successor_chart": [
+    -0.027662379969012413,
+    0.022824372677050148
+  ],
+  "event_acceleration": -0.4495132473539374,
+  "successor_chart_determinant": -0.00453561437519956,
+  "max_ambient_residual": 1.3877787807814457e-16,
+  "max_derivative_residual": 8.853584532175773e-11,
+  "max_inverse_residual": 2.1371793224034263e-15,
+  "cases": 40,
+  "physical_seconds_calibrated": false,
+  "physical_force_derived": false,
+  "holdout_accessed": false
+}
