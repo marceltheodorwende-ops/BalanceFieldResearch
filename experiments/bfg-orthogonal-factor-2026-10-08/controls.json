@@ -1,0 +1,17 @@
+{
+  "cases": 60,
+  "max_ambient_error": 3.330698777060364e-15,
+  "max_orthogonality_error": 6.059828729173265e-17,
+  "max_gauge_factor_error": 4.440892098500626e-16,
+  "eta_sign_gap": 0.0,
+  "gated_synthetic_successor_steps": 240,
+  "exact_geometry_jacobian_det": "16612040859424200000000000000/391388234014522709947755054989",
+  "exact_trace_derivative_h": "65652575608417440000000/1117265711170774116416521",
+  "two_geometry_coordinate_same_fiber_successor_gap": 0.00016707476085215962,
+  "admissibility_counterexample_next_min": -0.03572365156306012,
+  "exact_next_prepared_squared_margin": "-38526715420760000/2289565056949920409",
+  "kind": "synthetic mathematics/code controls",
+  "force_derived": false,
+  "physical_phase_identified": false,
+  "holdout_accessed": false
+}
