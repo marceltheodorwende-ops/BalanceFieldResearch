@@ -1,0 +1,57 @@
+{
+  "kind": "synthetic measurement-selection controls",
+  "symbolic_checks": 3,
+  "finite_node_bump_nodes": 10,
+  "invisible_bump_second_derivative": -5000.000625754452,
+  "fourier_cases": [
+    {
+      "lag": 0.37,
+      "singular_value_error": 5.551115123125783e-16,
+      "sigma_min": 0.6774758404905823,
+      "condition_number": 2.946309429146784,
+      "exact_recovery_error": 9.877635183096256e-17,
+      "noise_mode": 3,
+      "noise_norm": 7.071067811865478e-05,
+      "coefficient_error": 0.00010437372654865002,
+      "coefficient_bound": 0.0001043737265486115,
+      "acceleration_error": 0.037084586072495526,
+      "acceleration_bound": 0.06592815301774549
+    },
+    {
+      "lag": 0.14285714285714285,
+      "singular_value_error": 6.661338147750939e-16,
+      "sigma_min": 0.8677674782351161,
+      "condition_number": 2.246979603717468,
+      "exact_recovery_error": 3.532519692800616e-17,
+      "noise_mode": 1,
+      "noise_norm": 7.071067811865475e-05,
+      "coefficient_error": 8.148574346491115e-05,
+      "coefficient_bound": 8.148574346490563e-05,
+      "acceleration_error": 0.0032169282093093016,
+      "acceleration_bound": 0.05147085134894534
+    },
+    {
+      "lag": 0.499999,
+      "singular_value_error": 1.1102230246251565e-15,
+      "sigma_min": 1.2566370614470897e-05,
+      "condition_number": 159154.94308946223,
+      "exact_recovery_error": 3.441703827632181e-12,
+      "noise_mode": 2,
+      "noise_norm": 7.071067811865477e-05,
+      "coefficient_error": 5.626976975932653,
+      "coefficient_bound": 5.626976975931886,
+      "acceleration_error": 888.5765876238945,
+      "acceleration_bound": 3554.3063504950933
+    }
+  ],
+  "half_lag_rank_H5": 6,
+  "full_column_count_H5": 10,
+  "combined_lag_rank": 10,
+  "combined_min_singular_value": 1.2247448713915887,
+  "combined_singular_value_error": 6.661338147750939e-16,
+  "bandwidth_is_additional_assumption": true,
+  "seconds_or_inertia_calibrated": false,
+  "empirical_experiment_started": false,
+  "real_measurements_used": false,
+  "holdout_accessed": false
+}
