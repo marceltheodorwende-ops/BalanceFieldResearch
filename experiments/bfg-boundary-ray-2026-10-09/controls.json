@@ -1,0 +1,13 @@
+{
+  "symbolic_checks": 5,
+  "ambient_cases": 40,
+  "max_ambient_defect_error": 1.1518563880486e-15,
+  "exact_interior_ray_defect": "-3599578559/286465800625",
+  "canonical_zero_terminal": "T_load",
+  "boundary_limit_error": "0.0000000000000000000038499718404222583112407775988823165249317288602465996182794438933026194019548399",
+  "boundary_rank2_physical_return_proved": false,
+  "positive_geometry_straight_ray_lift": "disproved on stated domain",
+  "kind": "synthetic mathematics/code controls",
+  "holdout_accessed": false,
+  "physical_force_derived": false
+}
