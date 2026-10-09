@@ -1,0 +1,25 @@
+{
+  "symbolic_checks": 5,
+  "asymptotic_cases": 5,
+  "max_asymptotic_error": "0.000000000013999999999966000000000077999999999814000000000445999999998966000000007852639902",
+  "analytic_graph_countercheck": [
+    {
+      "delta": "0.001",
+      "graph_T_successor_over_T": 0.999848954544082,
+      "canonical_T_successor_over_T": 0.001996005993243876
+    },
+    {
+      "delta": "0.00001",
+      "graph_T_successor_over_T": 0.99999849454946,
+      "canonical_T_successor_over_T": 1.999960000600706e-05
+    },
+    {
+      "delta": "0.0000001",
+      "graph_T_successor_over_T": 0.999999984945995,
+      "canonical_T_successor_over_T": 1.9999996000000601e-07
+    }
+  ],
+  "kind": "synthetic math/code only",
+  "holdout_accessed": false,
+  "physical_force_derived": false
+}
