@@ -1,0 +1,13 @@
+{
+  "cases": 60,
+  "max_phase_endpoint_error": 4.9404924595819466e-15,
+  "max_gauge_phase_error": 1.84297022087776e-14,
+  "max_witness_inheritance_error": 6.661906776529278e-16,
+  "exact_hidden_amplitude_derivative_gamma_squared": "-212767859808/180776990897",
+  "same_phase_kernel_pair_successor_gap": 0.019859813832745897,
+  "phase_increment_at_s_point": 0.05992815512120788,
+  "kind": "synthetic mathematics/code controls",
+  "physical_force_derived": false,
+  "seconds_calibrated": false,
+  "holdout_accessed": false
+}
