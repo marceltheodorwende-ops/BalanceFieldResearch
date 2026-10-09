@@ -1,0 +1,84 @@
+{
+  "kind": "synthetic general-construction controls; reference P=x/(1+x), not exact P62",
+  "symbolic_checks": 8,
+  "seed_endpoint_checks": 3,
+  "seams": [
+    {
+      "n": 1,
+      "value_difference_over_2e-9": 2.683277877668644e-09,
+      "derivative_difference_over_2e-9": 2.4407272689597193e-06
+    },
+    {
+      "n": 2,
+      "value_difference_over_2e-9": 6.509975669644064e-09,
+      "derivative_difference_over_2e-9": 4.521935312418179e-06
+    },
+    {
+      "n": 3,
+      "value_difference_over_2e-9": 1.1526538390427277e-08,
+      "derivative_difference_over_2e-9": 7.723289425776159e-06
+    },
+    {
+      "n": 4,
+      "value_difference_over_2e-9": 1.7770251714566143e-08,
+      "derivative_difference_over_2e-9": 1.2391510564313535e-05
+    },
+    {
+      "n": 5,
+      "value_difference_over_2e-9": 2.52719103421839e-08,
+      "derivative_difference_over_2e-9": 1.8920554898826936e-05
+    }
+  ],
+  "cases": [
+    {
+      "initial_Abel_coordinate": 0.13,
+      "x": 0.19493177387914232,
+      "intermediate_phase_difference": 0.021869058822642284,
+      "acceleration_difference": -0.8633558368145313,
+      "force_difference_FD_error": 3.2009950245992513e-12
+    },
+    {
+      "initial_Abel_coordinate": 0.43,
+      "x": 0.1841620626151013,
+      "intermediate_phase_difference": 0.04130507423580676,
+      "acceleration_difference": -0.5042727803908041,
+      "force_difference_FD_error": 1.3511858298898005e-11
+    },
+    {
+      "initial_Abel_coordinate": 1.37,
+      "x": 0.15698587127158556,
+      "intermediate_phase_difference": 0.05180986067549054,
+      "acceleration_difference": -0.8633558368145312,
+      "force_difference_FD_error": 1.0340006628695164e-10
+    },
+    {
+      "initial_Abel_coordinate": 3.19,
+      "x": 0.12210012210012211,
+      "intermediate_phase_difference": 0.03893703115718772,
+      "acceleration_difference": -1.1011831316582483,
+      "force_difference_FD_error": 1.6990586715337486e-10
+    },
+    {
+      "initial_Abel_coordinate": 10.41,
+      "x": 0.06489292667099286,
+      "intermediate_phase_difference": 0.04554342137123024,
+      "acceleration_difference": -0.6346078192735566,
+      "force_difference_FD_error": 2.5546393889186447e-09
+    }
+  ],
+  "max_unit_time_endpoint_error": 2.220446049250313e-15,
+  "max_unit_time_tangent_error": 1.354020207067208e-08,
+  "max_independent_ODE_endpoint_error": 1.0526605143112988e-09,
+  "max_acceleration_difference_FD_error": 2.5546393889186447e-09,
+  "max_between_event_phase_difference": 0.05180986067549054,
+  "ODE_tolerance": {
+    "rtol": 2e-11,
+    "atol": 2e-12,
+    "max_step": 0.01,
+    "endpoint_acceptance": 1e-07
+  },
+  "fixed_clock_force_identifiable": false,
+  "seconds_calibrated": false,
+  "real_measurements_used": false,
+  "holdout_accessed": false
+}
