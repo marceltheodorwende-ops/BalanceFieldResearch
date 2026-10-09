@@ -1,0 +1,10 @@
+{
+  "symbolic_checks": 7,
+  "ambient_cases": 40,
+  "max_relative_anisotropy_endpoint_error": 4.579669976578771e-16,
+  "positive_endpoint_multiplier": "1.0017983829094554891848211741230370725371177831289680418893310494763706956104366",
+  "multiplier_limit_error": "0.000000000000000000020036971253340741077787612682083270306525925101687922504275883137746160823838873",
+  "kind": "synthetic mathematics/code controls",
+  "holdout_accessed": false,
+  "physical_force_derived": false
+}
