@@ -1,0 +1,65 @@
+{
+  "kind": "independent synthetic controls; no instrument calibration",
+  "protocol_sha256": "b298843fa9952c7c6543b6d31e48048bca7dafc3392f5724eacb45170f153c00",
+  "reference_ode_controls": [
+    {
+      "omega": 2.0,
+      "ode_reference_inverse_error": 2.4424906541753444e-15,
+      "response_time": 0.11999999999999864,
+      "gain": 1.3000000000000025,
+      "offset": 0.02000000000000035
+    },
+    {
+      "omega": 5.0,
+      "ode_reference_inverse_error": 3.597122599785507e-14,
+      "response_time": 0.1199999999999979,
+      "gain": 1.300000000000036,
+      "offset": 0.019999999999987306
+    },
+    {
+      "omega": 11.0,
+      "ode_reference_inverse_error": 3.4208746946262636e-14,
+      "response_time": 0.11999999999996579,
+      "gain": 1.2999999999999763,
+      "offset": 0.020000000000005125
+    }
+  ],
+  "common_history_convolution_error": 4.440892098500626e-16,
+  "independent_jet_determinant_error": 1.2877698907232116e-09,
+  "singular_boundary_conditioning": [
+    {
+      "distance_to_pi": 0.1,
+      "determinant": 0.0049958347219742905,
+      "condition_number": 1243.0613665799606
+    },
+    {
+      "distance_to_pi": 0.01,
+      "determinant": 4.99995833346514e-05,
+      "condition_number": 124993.04186486828
+    },
+    {
+      "distance_to_pi": 0.001,
+      "determinant": 4.999999583476448e-07,
+      "condition_number": 12499993.035196032
+    }
+  ],
+  "commensurate_frequency_delay_alias_error": 1.3911054626160788e-15,
+  "preparation_reference_controls": [
+    {
+      "theta": 0.02,
+      "independent_initial_angle_inverse_error": 1.734723475976807e-17
+    },
+    {
+      "theta": 0.1,
+      "independent_initial_angle_inverse_error": 8.326672684688674e-17
+    },
+    {
+      "theta": 0.5,
+      "independent_initial_angle_inverse_error": 1.1102230246251565e-16
+    }
+  ],
+  "equilibrium_preparation_uninformative": true,
+  "physical_calibration": false,
+  "empirical_fit": false,
+  "holdout_accessed": false
+}

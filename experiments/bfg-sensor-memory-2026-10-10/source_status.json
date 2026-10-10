@@ -1,0 +1,27 @@
+{
+  "repository": "EnzeXu/Damped_Pendulum_Dataset",
+  "ref": "cbf82673641ecd65e902ad5c38a048387649a2a0",
+  "fresh_metadata_blobs": [
+    {
+      "path": "README.md",
+      "sha": "baf8f1eb4760df7c08820d3431b2fb44e4d3ad99"
+    },
+    {
+      "path": "process.py",
+      "sha": "9b7819d9728c10d1b6f595275a1852bb975063d4"
+    },
+    {
+      "path": "column_names.py",
+      "sha": "4fffaa58e3cdc304ae835cb23c8171e65f0ff63c"
+    },
+    {
+      "path": "pendulum_length.json",
+      "sha": "611bccadfa8c3336f5eba5e4dda4ece9f44f79a6"
+    }
+  ],
+  "conclusion": "Metadata/processing specifies sensor model and copied velocity, not a complete channel transfer function, calibrated response time, gains/delays/initial memory or independent reference. Scoped to inspected material.",
+  "active_paper_sha256": "1ad084a50c91a0827dd735d7cb8f666dc9e0c2552ed06b616cef28975babbdba",
+  "holdout_accessed": false,
+  "new_measurements": false,
+  "new_empirical_workflow": false
+}

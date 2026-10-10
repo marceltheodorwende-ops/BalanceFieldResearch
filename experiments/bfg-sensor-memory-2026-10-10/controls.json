@@ -1,0 +1,141 @@
+{
+  "kind": "synthetic mathematics/code controls only; no physical calibration",
+  "protocol_sha256": "b298843fa9952c7c6543b6d31e48048bca7dafc3392f5724eacb45170f153c00",
+  "symbolic_identities": [
+    "kinematic pushforward",
+    "general determinant",
+    "nonlinear acceleration",
+    "four-state jet determinant",
+    "compatibility defect equation",
+    "harmonic commutation",
+    "harmonic inverse determinant",
+    "fixed sine law nonpreservation coefficient",
+    "reference response-time inverse",
+    "reference gain inverse",
+    "singular chart counterexample"
+  ],
+  "harmonic_nonidentifiability": [
+    {
+      "theta": 0.02,
+      "output_error": 1.47182266374557e-12,
+      "true_state_error": 1.5767387395726473e-12,
+      "defect_error": 2.3636703523158994e-09,
+      "determinant": 0.9986
+    },
+    {
+      "theta": 0.1,
+      "output_error": 1.7962298315410408e-12,
+      "true_state_error": 1.8943735469179046e-12,
+      "defect_error": 5.210361516425153e-11,
+      "determinant": 1.025
+    },
+    {
+      "theta": 0.5,
+      "output_error": 1.4400702852412905e-12,
+      "true_state_error": 2.8924640460559203e-12,
+      "defect_error": 8.618131123145589e-16,
+      "determinant": 1.925
+    }
+  ],
+  "nonlinear_memory_and_tangent": [
+    {
+      "theta": 0.03,
+      "start": [
+        0.4,
+        0.2
+      ],
+      "endpoint_error": 5.723421736547607e-12,
+      "return_tangent_error": 1.6435963701155742e-11,
+      "omitted_clock_term_error": 0.04952122098222955,
+      "start_determinant": 0.9989028379421591,
+      "fixed_sine_acceleration_difference": -2.401486668945907e-05
+    },
+    {
+      "theta": 0.12,
+      "start": [
+        1.0,
+        -0.3
+      ],
+      "endpoint_error": 5.540012892879531e-13,
+      "return_tangent_error": 2.9280355917649104e-11,
+      "omitted_clock_term_error": 0.068542778325419,
+      "start_determinant": 1.0154802605784858,
+      "fixed_sine_acceleration_difference": -0.0026657958540248217
+    },
+    {
+      "theta": 0.25,
+      "start": [
+        2.2,
+        0.4
+      ],
+      "endpoint_error": 1.1222134332911082e-12,
+      "return_tangent_error": 2.035580592973929e-10,
+      "omitted_clock_term_error": 0.18561688499029283,
+      "start_determinant": 0.8341938523325891,
+      "fixed_sine_acceleration_difference": -0.010280649996118552
+    }
+  ],
+  "reference_calibration": [
+    {
+      "omega": 2.0,
+      "theta": 0.03,
+      "gain": 1.2,
+      "transfer": [
+        1.1956954962136308,
+        -0.07174172977281784
+      ],
+      "inverse_roundtrip_error": 2.220446049250313e-16,
+      "bounded_noise_max_theta_error": 0.1690719091020074,
+      "error_rectangle_halfwidth": 0.2989238740534077,
+      "alternative_delay": 2.955987360791006,
+      "alternative_theta": 0.23,
+      "alternative_gain": 1.318501268810509,
+      "unknown_delay_alias_error": 4.718447854656915e-16
+    },
+    {
+      "omega": 20.0,
+      "theta": 0.12,
+      "gain": 0.8,
+      "transfer": [
+        0.11834319526627221,
+        -0.2840236686390533
+      ],
+      "inverse_roundtrip_error": 1.1102230246251565e-16,
+      "bounded_noise_max_theta_error": 0.046260423010776874,
+      "error_rectangle_halfwidth": 0.029585798816568053,
+      "alternative_delay": 0.3021695464701883,
+      "alternative_theta": 0.32,
+      "alternative_gain": 1.993124275778665,
+      "unknown_delay_alias_error": 0.0
+    },
+    {
+      "omega": 100.0,
+      "theta": 10.0,
+      "gain": 1.0,
+      "transfer": [
+        9.99999000001e-07,
+        -0.000999999000001
+      ],
+      "inverse_roundtrip_error": 0.0,
+      "bounded_noise_max_theta_error": 3.1821752627866573,
+      "error_rectangle_halfwidth": 2.4999975000025e-07,
+      "alternative_delay": 0.06283165699355675,
+      "alternative_theta": 10.2,
+      "alternative_gain": 1.019999980196098,
+      "unknown_delay_alias_error": 5.378659215064807e-20
+    }
+  ],
+  "tolerances": {
+    "endpoint": 2e-08,
+    "tangent": 2e-06
+  },
+  "physical_calibration": false,
+  "empirical_fit": false,
+  "holdout_accessed": false,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "sympy": "1.14.0"
+  }
+}
