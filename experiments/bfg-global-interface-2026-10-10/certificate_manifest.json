@@ -1,0 +1,66 @@
+{
+  "status": "partial; all certificates retained locally",
+  "count": 12,
+  "certificates": [
+    {
+      "case": 2,
+      "kind": "inner",
+      "sha256_canonical_json": "e82a82cfc853ab519536608b7d553760e15c8a397694b3d3eb8aca8a81c103c1"
+    },
+    {
+      "case": 3,
+      "kind": "inner",
+      "sha256_canonical_json": "39bfaa2bd2d1518df35ab56201952087cd60801a5a385aefea70c1dd6b50cb2d"
+    },
+    {
+      "case": 10,
+      "kind": "inner",
+      "sha256_canonical_json": "b9a563fd4b02994a5541f2d26d1647b9f6a61223cd35fd0b9ead76255212f040"
+    },
+    {
+      "case": 11,
+      "kind": "inner",
+      "sha256_canonical_json": "eb85dae0293b3e16814d76a6b732df8b009d1f3e9a7c4f16411e98016905ede7"
+    },
+    {
+      "case": 18,
+      "kind": "inner",
+      "sha256_canonical_json": "6d48b0a66b0708272ba705c3e229b941a2d3c7fe3c3ac5817b71ee5324a5cbb1"
+    },
+    {
+      "case": 19,
+      "kind": "inner",
+      "sha256_canonical_json": "c64ab3641a38214bf0182ddfe846f85fc372fe982609ae5d50b46e7a8cb2db54"
+    },
+    {
+      "case": 26,
+      "kind": "inner",
+      "sha256_canonical_json": "a0382be66c969b55047b2e1718e3eaa69ac2fd4f33a76dc77bab49821438e009"
+    },
+    {
+      "case": 27,
+      "kind": "inner",
+      "sha256_canonical_json": "b61d49ef2fdbf5d55d8a3e2102497dcaa5b2fac50a0e8945e5f034dc983a9bb4"
+    },
+    {
+      "case": 34,
+      "kind": "inner",
+      "sha256_canonical_json": "9268db2709e701d6c56ababf75d9a9af84aa24769189fec02e6d1dde589e24e3"
+    },
+    {
+      "case": 35,
+      "kind": "inner",
+      "sha256_canonical_json": "6845c64b1129dae4885bba287e3b35ac123c6762e3e3a62faaff349ddc2d6be6"
+    },
+    {
+      "case": 42,
+      "kind": "inner",
+      "sha256_canonical_json": "97f0e10408070b68f1efce0992f16b0fa75b199020f7155e475b02777a8925d9"
+    },
+    {
+      "case": 43,
+      "kind": "inner",
+      "sha256_canonical_json": "619f24b62548fd98964074891ac9ebdcb198f282c3db42af57cf7209fc3e446c"
+    }
+  ]
+}

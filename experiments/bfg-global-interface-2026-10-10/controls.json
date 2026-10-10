@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "quadratic_outer_inner_controls": 40,
+  "canonical_controls": 400,
+  "max_tangent_fd_error": 6.911154981636969e-11,
+  "min_discriminant": 0.00031638423131888376,
+  "min_offdiagonal": 0.001103553492591062,
+  "global_fourpoint_outer_passes_inner_fails": true,
+  "max_ambient_svd_error": 2.220446049250313e-16,
+  "symmetric_eigenvalue_ratio_identity": true,
+  "known_impossible_exact_certificate": {
+    "margin": 38.996,
+    "positive": true,
+    "active_rows": 1,
+    "weights": [
+      [
+        10,
+        "4"
+      ]
+    ],
+    "exact_margin": "9749/250"
+  }
+}
