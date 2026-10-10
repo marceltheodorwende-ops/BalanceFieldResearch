@@ -101,7 +101,7 @@ The new script checks the isolated operator theorem; it is not an implementation
 Current primary sources are author-supplied theoretical preprints. Repository reviews are AI-assisted mathematical checks, not independent peer review. Earlier stages and negative findings remain available in their dated folders and Git history. The superseded V3 nonexistence erratum has been withdrawn at the author's request; V3 is not a prerequisite file for using the consolidated sources. Original authorship and rights remain with the respective authors.
 ## Copyright and permissions
 
-Copyright (c) 2026 Marcel Theodor Wende. All rights reserved for his original protected contributions throughout this repository. See [LICENSE](LICENSE) for the repository-wide rights reservation, third-party exclusions and applicable-law/GitHub exceptions. This is not an open-source license and does not revoke existing file-specific permissions.
+Copyright (c) 2026 Marcel Theodor Wende and Arturo Salazar Chon. All rights reserved for their respective original protected contributions throughout this repository. See [LICENSE](LICENSE) for the repository-wide rights reservation, third-party exclusions and applicable-law/GitHub exceptions. This is not an open-source license and does not revoke existing file-specific permissions.
 
 ## Archived Studio — first version (293 files)
 
