@@ -1,0 +1,135 @@
+{
+  "symbolic_checks": [
+    "general clock chain",
+    "general rank",
+    "cancel quadratic",
+    "arcsine rank",
+    "sine restoring",
+    "clock velocity",
+    "constant inertia energy",
+    "factor tangent",
+    "centered integrated force",
+    "impulse energy",
+    "damping angle derivative",
+    "transformed harmonic energy",
+    "Duffing rival force"
+  ],
+  "synthetic_cases": [
+    {
+      "k0": 2.3,
+      "g0": 0.4,
+      "kp": 1.7,
+      "C": 1.0,
+      "alpha": 0.5815799980377996,
+      "initial": [
+        0.3,
+        0.12
+      ],
+      "old_event_time": 0.2,
+      "rho": 0.8,
+      "new_event_time": 0.2364341727639616,
+      "duration_bounds": [
+        0.23263199921511984,
+        0.3877199986918665
+      ],
+      "quadrature_error": 2.7755575615628914e-16,
+      "DT": [
+        0.02498675761012449,
+        0.002465301190853938
+      ],
+      "DT_norm_bound": 0.49674851846921214,
+      "clock_gradient_error": 1.1179154824070281e-11,
+      "endpoint_error": 6.682154829462661e-15,
+      "tangent_error": 4.042322032660195e-13,
+      "wrong_fixed_duration_tangent_error": 0.012549738624585416,
+      "initial_energy": 0.11070000000000005,
+      "final_energy": 0.11038355625738819
+    },
+    {
+      "k0": 1.3,
+      "g0": 0.2,
+      "kp": 0.7,
+      "C": 0.8,
+      "alpha": 0.8517314298365587,
+      "initial": [
+        0.65,
+        -0.05
+      ],
+      "old_event_time": 0.4,
+      "rho": 0.8,
+      "new_event_time": 0.6417493183130216,
+      "duration_bounds": [
+        0.5451081150953976,
+        0.9085135251589962
+      ],
+      "quadrature_error": 1.2878587085651816e-14,
+      "DT": [
+        0.3876497068855179,
+        0.07305138260967922
+      ],
+      "DT_norm_bound": 1.704813583581279,
+      "clock_gradient_error": 5.99741367679485e-11,
+      "endpoint_error": 3.1730174043786974e-13,
+      "tangent_error": 1.688427175849938e-12,
+      "wrong_fixed_duration_tangent_error": 0.1013506626265834,
+      "initial_energy": 0.43105468750000003,
+      "final_energy": 0.4246619395797565
+    },
+    {
+      "k0": 1.3,
+      "g0": 0.2,
+      "kp": 1.3,
+      "C": 1.0,
+      "alpha": 0.5,
+      "initial": [
+        1.98,
+        0.0
+      ],
+      "old_event_time": 0.05,
+      "rho": 0.995,
+      "new_event_time": 0.3456329696368382,
+      "duration_bounds": [
+        0.05,
+        0.5006261743217599
+      ],
+      "quadrature_error": 1.8318679906315083e-15,
+      "DT": [
+        8.179067038216886,
+        0.19627223669788774
+      ],
+      "DT_norm_bound": 24.965410293570365,
+      "clock_gradient_error": 1.0896423319195492e-08,
+      "endpoint_error": 1.3322676295501878e-14,
+      "tangent_error": 1.709743457922741e-13,
+      "wrong_fixed_duration_tangent_error": 0.4458856671127306,
+      "initial_energy": 2.54826,
+      "final_energy": 2.5482052354460607
+    }
+  ],
+  "thresholds": {
+    "endpoint": 2e-08,
+    "tangent": 2e-07,
+    "clock_gradient": 2e-07,
+    "rtol": 2e-11,
+    "atol": 2e-12,
+    "quadrature_absolute": 2e-12
+  },
+  "conservative_exception_periods": [
+    {
+      "normalized_amplitude": 0.1,
+      "period": 7.528723790191592,
+      "elliptic_error": 8.881784197001252e-16
+    },
+    {
+      "normalized_amplitude": 0.7,
+      "period": 8.824105083736974,
+      "elliptic_error": 5.5067062021407764e-14
+    },
+    {
+      "normalized_amplitude": 0.95,
+      "period": 12.382622086554361,
+      "elliptic_error": 3.552713678800501e-15
+    }
+  ],
+  "scope": "Conditional position-clock representation; no physical calibration, measurements or holdout"
+}
