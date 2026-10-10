@@ -1,0 +1,1687 @@
+{
+  "stage": "P69 exploratory direct-instrument bridge; no BFG event calibration",
+  "protocol_sha256": "e4d43926cdc0282d9cc46f6432e61f23c91a861f41cc63ed336a733a4d0d327c",
+  "source_files": [
+    {
+      "file": "len1_cond1_1.csv",
+      "source_commit": "cbf82673641ecd65e902ad5c38a048387649a2a0",
+      "git_blob_sha": "0c5df15bb1f266e4002f648fed8920c75177c9a5",
+      "sha256": "febcfc04fc04da952f2ee7a1c6575590c5f1523835f0b089b8c8ad305706fa78"
+    },
+    {
+      "file": "len1_cond2_1.csv",
+      "source_commit": "cbf82673641ecd65e902ad5c38a048387649a2a0",
+      "git_blob_sha": "3133404d8baf5fde88516468eb5fb30cc6253d01",
+      "sha256": "ad643136bd777f65108a54a5329331f77a9f5d185f3e4cdccf0c2ee2199230a8"
+    },
+    {
+      "file": "len1_cond3_1.csv",
+      "source_commit": "cbf82673641ecd65e902ad5c38a048387649a2a0",
+      "git_blob_sha": "2701cc536ce6021e7859efd25adeaf8cb37d0912",
+      "sha256": "a8b9ac5cdc9020087e0f4736017204cb6aba558691ff894de9b68308ea451d2d"
+    },
+    {
+      "file": "len2_cond1_1.csv",
+      "source_commit": "cbf82673641ecd65e902ad5c38a048387649a2a0",
+      "git_blob_sha": "d2d3d631b219b16e816ca2c7f0119558ad861645",
+      "sha256": "a7ec3148ecdcb97e1d4d8b684a1ff9737f97301f532a7d5cd2ea706b60520757"
+    },
+    {
+      "file": "len2_cond2_1.csv",
+      "source_commit": "cbf82673641ecd65e902ad5c38a048387649a2a0",
+      "git_blob_sha": "02a70c9097bcc1fc238d404d175049c4819129b8",
+      "sha256": "c1068df3fb36d05690b6e65ff0236430e1f0c3eb5af20f5f48b8abd6bfdc4565"
+    },
+    {
+      "file": "len2_cond3_1.csv",
+      "source_commit": "cbf82673641ecd65e902ad5c38a048387649a2a0",
+      "git_blob_sha": "d394ef7d99433b3d2552191235ebfbeeeae886aa",
+      "sha256": "71d7676f3c34932113ff6b51e5d45f30cc460a444cd66679d3ba0917f0e3fc18"
+    },
+    {
+      "file": "len3_cond1_1.csv",
+      "source_commit": "cbf82673641ecd65e902ad5c38a048387649a2a0",
+      "git_blob_sha": "e97a1336c549b704b22421a2e9480732228f272d",
+      "sha256": "f391767b5b41a71ab541355d75d0d75be10e6849ae1117c58d0dd357add4d03b"
+    },
+    {
+      "file": "len3_cond2_1.csv",
+      "source_commit": "cbf82673641ecd65e902ad5c38a048387649a2a0",
+      "git_blob_sha": "08ba69d2ed6f7522651c13ef38e307c6a2b691c5",
+      "sha256": "ee0e86e727e023f98ba8505705059b9a5e747557daade7000e2e4c1924155dfb"
+    },
+    {
+      "file": "len3_cond3_1.csv",
+      "source_commit": "cbf82673641ecd65e902ad5c38a048387649a2a0",
+      "git_blob_sha": "56f6437c3473ded669083869d3b72c74942e1c03",
+      "sha256": "8a852921dbb64eaa75c61240a7076245186108a6c3b428fa11cc9507581f6dac"
+    },
+    {
+      "file": "len4_cond1_1.csv",
+      "source_commit": "cbf82673641ecd65e902ad5c38a048387649a2a0",
+      "git_blob_sha": "98f919b2e7e86fb164ea5b102bf8e393dabbf053",
+      "sha256": "aa7fe9b41ae53f81f6ce30b651b8664881be4a44f4c93919e8bd5c7b1ef41568"
+    },
+    {
+      "file": "len4_cond2_1.csv",
+      "source_commit": "cbf82673641ecd65e902ad5c38a048387649a2a0",
+      "git_blob_sha": "335c14267a16d430ff2adf55c5396976dda72aa5",
+      "sha256": "67a5ea8b718ba6093cd36c1b1acf09b9545f8df057eaef720a67cd401fe67b4e"
+    },
+    {
+      "file": "len4_cond3_1.csv",
+      "source_commit": "cbf82673641ecd65e902ad5c38a048387649a2a0",
+      "git_blob_sha": "240a12623f8e07b32e677757f0b2bf7a110ccc70",
+      "sha256": "de0591d9c642a73c11e871cf5c0458fb32529ac0fdceaba7f7cf6fe0ddf6cf74"
+    },
+    {
+      "file": "len5_cond1_1.csv",
+      "source_commit": "cbf82673641ecd65e902ad5c38a048387649a2a0",
+      "git_blob_sha": "3467ecc67c51007a9501e2c55dcb797a8b5b362f",
+      "sha256": "216c15dbfb4ef279240da8a5c2566e65c4a206fdcb0fe6f2b720e67b6313f560"
+    },
+    {
+      "file": "len5_cond2_1.csv",
+      "source_commit": "cbf82673641ecd65e902ad5c38a048387649a2a0",
+      "git_blob_sha": "2dcac7a81d54f941e67488642316c38067519c9e",
+      "sha256": "14ec2c588951f83b9ee2d1ead5b332a42fac5cc7e2b10deeda2145363316ecad"
+    },
+    {
+      "file": "len5_cond3_1.csv",
+      "source_commit": "cbf82673641ecd65e902ad5c38a048387649a2a0",
+      "git_blob_sha": "e8f2d42fd49a766af89fbbf55b37f861e20d6b8f",
+      "sha256": "2cf0f650c785ab4b2cf473f159eea019ec9aafe389a03c07b1b597680eab01de"
+    }
+  ],
+  "models": [
+    "clock_cos",
+    "viscous",
+    "mixed_drag"
+  ],
+  "fitted_coefficients": {
+    "clock_cos": 16,
+    "viscous": 16,
+    "mixed_drag": 31
+  },
+  "params": [
+    {
+      "model": "clock_cos",
+      "file": "len1_cond1_1.csv",
+      "kappa": 39.36498402823169,
+      "gamma": 0.02269790579733183,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.004066328768046295,
+      "lambda": 0.003050727760424865,
+      "temporal_weak_normalized_loss": 0.003136214882653411,
+      "coarse_gamma_change": 0.0019386610576974245,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.5584924657662743
+    },
+    {
+      "model": "clock_cos",
+      "file": "len1_cond2_1.csv",
+      "kappa": 39.36498402823169,
+      "gamma": 0.168199417543707,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.0015140277718073542,
+      "lambda": 0.003050727760424865,
+      "temporal_weak_normalized_loss": 0.00021773602358648094,
+      "coarse_gamma_change": -0.008992004918355057,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.305
+    },
+    {
+      "model": "clock_cos",
+      "file": "len1_cond3_1.csv",
+      "kappa": 39.36498402823169,
+      "gamma": 0.0,
+      "beta": 0.0,
+      "gamma_zero": true,
+      "train_normalized_loss": 0.0003356504905105929,
+      "lambda": 0.003050727760424865,
+      "temporal_weak_normalized_loss": 7.842424085798386e-05,
+      "coarse_gamma_change": 0.0,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 3.2318592246838307e-13,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.2090357124729953
+    },
+    {
+      "model": "clock_cos",
+      "file": "len2_cond1_1.csv",
+      "kappa": 28.88476086479822,
+      "gamma": 0.01008299487681341,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.00130252617530113,
+      "lambda": 0.003050727760424865,
+      "temporal_weak_normalized_loss": 0.0009750557252318118,
+      "coarse_gamma_change": -0.001196001714657783,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.24959685500957152
+    },
+    {
+      "model": "clock_cos",
+      "file": "len2_cond2_1.csv",
+      "kappa": 28.88476086479822,
+      "gamma": 0.035159644359061736,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.001176152236492358,
+      "lambda": 0.003050727760424865,
+      "temporal_weak_normalized_loss": 0.0005216006739951699,
+      "coarse_gamma_change": -0.00012564889535449791,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.2931473689997708
+    },
+    {
+      "model": "clock_cos",
+      "file": "len2_cond3_1.csv",
+      "kappa": 28.88476086479822,
+      "gamma": 0.05493272215307619,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.0016596368287383125,
+      "lambda": 0.003050727760424865,
+      "temporal_weak_normalized_loss": 0.0004730862814380919,
+      "coarse_gamma_change": -0.0008295918071645897,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.1788785523804544
+    },
+    {
+      "model": "clock_cos",
+      "file": "len3_cond1_1.csv",
+      "kappa": 22.622056168576737,
+      "gamma": 0.013661880776510125,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.00204003561190958,
+      "lambda": 0.003050727760424865,
+      "temporal_weak_normalized_loss": 0.0022918267175479692,
+      "coarse_gamma_change": 0.0006260213119579222,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.38552288327833506
+    },
+    {
+      "model": "clock_cos",
+      "file": "len3_cond2_1.csv",
+      "kappa": 22.622056168576737,
+      "gamma": 0.03473361736661618,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.00801382125566619,
+      "lambda": 0.003050727760424865,
+      "temporal_weak_normalized_loss": 0.006817607063197844,
+      "coarse_gamma_change": 0.0007833187330947775,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.26801440944134236
+    },
+    {
+      "model": "clock_cos",
+      "file": "len3_cond3_1.csv",
+      "kappa": 22.622056168576737,
+      "gamma": 0.087429354521372,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.002704756861308863,
+      "lambda": 0.003050727760424865,
+      "temporal_weak_normalized_loss": 0.00106603870594524,
+      "coarse_gamma_change": -0.00024255887853943947,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.20813977424877322
+    },
+    {
+      "model": "clock_cos",
+      "file": "len4_cond1_1.csv",
+      "kappa": 18.704328298695124,
+      "gamma": 0.0713531147095501,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.007622097024554775,
+      "lambda": 0.003050727760424865,
+      "temporal_weak_normalized_loss": 0.006495011754373706,
+      "coarse_gamma_change": 0.0003032537639701266,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.5563184714996968
+    },
+    {
+      "model": "clock_cos",
+      "file": "len4_cond2_1.csv",
+      "kappa": 18.704328298695124,
+      "gamma": 0.04291529128838411,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.00879987114929227,
+      "lambda": 0.003050727760424865,
+      "temporal_weak_normalized_loss": 0.004902986539851741,
+      "coarse_gamma_change": -2.9048519001054207e-05,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.2657529989377839
+    },
+    {
+      "model": "clock_cos",
+      "file": "len4_cond3_1.csv",
+      "kappa": 18.704328298695124,
+      "gamma": 0.056009111266444006,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.006051524133366068,
+      "lambda": 0.003050727760424865,
+      "temporal_weak_normalized_loss": 0.0024086609980942053,
+      "coarse_gamma_change": -0.0003069158513359857,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.2147496572894238
+    },
+    {
+      "model": "clock_cos",
+      "file": "len5_cond1_1.csv",
+      "kappa": 16.010760050504746,
+      "gamma": 6.534358988865514e-05,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.007333895132013452,
+      "lambda": 0.003050727760424865,
+      "temporal_weak_normalized_loss": 0.006084352648436932,
+      "coarse_gamma_change": 0.0006445307052933615,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.3523148085364379
+    },
+    {
+      "model": "clock_cos",
+      "file": "len5_cond2_1.csv",
+      "kappa": 16.010760050504746,
+      "gamma": 0.032346782698876676,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.006702855675382578,
+      "lambda": 0.003050727760424865,
+      "temporal_weak_normalized_loss": 0.004711193350861117,
+      "coarse_gamma_change": 0.000550938703424271,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.2759724588946614
+    },
+    {
+      "model": "clock_cos",
+      "file": "len5_cond3_1.csv",
+      "kappa": 16.010760050504746,
+      "gamma": 0.07278250485929813,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.005862464844838741,
+      "lambda": 0.003050727760424865,
+      "temporal_weak_normalized_loss": 0.0013948281796431086,
+      "coarse_gamma_change": -0.0004898488803728035,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.17255410506568297
+    },
+    {
+      "model": "viscous",
+      "file": "len1_cond1_1.csv",
+      "kappa": 39.36476083629783,
+      "gamma": 0.02176444595929536,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.004067521148284515,
+      "lambda": 0.0030510608450288993,
+      "temporal_weak_normalized_loss": 0.0031387234825149333,
+      "coarse_gamma_change": 0.0019091755126065396,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.5585035216072398
+    },
+    {
+      "model": "viscous",
+      "file": "len1_cond2_1.csv",
+      "kappa": 39.36476083629783,
+      "gamma": 0.1666179984166598,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.0015218274963999172,
+      "lambda": 0.0030510608450288993,
+      "temporal_weak_normalized_loss": 0.00022211771345890304,
+      "coarse_gamma_change": -0.008981204879012078,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.305
+    },
+    {
+      "model": "viscous",
+      "file": "len1_cond3_1.csv",
+      "kappa": 39.36476083629783,
+      "gamma": 0.0,
+      "beta": 0.0,
+      "gamma_zero": true,
+      "train_normalized_loss": 0.0003357551525241812,
+      "lambda": 0.0030510608450288993,
+      "temporal_weak_normalized_loss": 7.841607248531544e-05,
+      "coarse_gamma_change": 0.0,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 3.2385205628315816e-13,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.20903626569933834
+    },
+    {
+      "model": "viscous",
+      "file": "len2_cond1_1.csv",
+      "kappa": 28.884674924843182,
+      "gamma": 0.009942447421180299,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.0013026312930066077,
+      "lambda": 0.0030510608450288993,
+      "temporal_weak_normalized_loss": 0.000975162026134199,
+      "coarse_gamma_change": -0.001194631774027271,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.24960022482880437
+    },
+    {
+      "model": "viscous",
+      "file": "len2_cond2_1.csv",
+      "kappa": 28.884674924843182,
+      "gamma": 0.034565455656723164,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.0011770655939948456,
+      "lambda": 0.0030510608450288993,
+      "temporal_weak_normalized_loss": 0.0005217438369229527,
+      "coarse_gamma_change": -0.0001259222656748507,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.2931520672498658
+    },
+    {
+      "model": "viscous",
+      "file": "len2_cond3_1.csv",
+      "kappa": 28.884674924843182,
+      "gamma": 0.05460204339607385,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.0016602340213890813,
+      "lambda": 0.0030510608450288993,
+      "temporal_weak_normalized_loss": 0.00047307884077323596,
+      "coarse_gamma_change": -0.0008299717092037293,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.17888200042299818
+    },
+    {
+      "model": "viscous",
+      "file": "len3_cond1_1.csv",
+      "kappa": 22.622015334139842,
+      "gamma": 0.013197774743824242,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.002040525835110357,
+      "lambda": 0.0030510608450288993,
+      "temporal_weak_normalized_loss": 0.0022920042160614273,
+      "coarse_gamma_change": 0.0006213294005456439,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.38557345397065157
+    },
+    {
+      "model": "viscous",
+      "file": "len3_cond2_1.csv",
+      "kappa": 22.622015334139842,
+      "gamma": 0.034146405099956735,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.008015171793074715,
+      "lambda": 0.0030510608450288993,
+      "temporal_weak_normalized_loss": 0.006818164478992806,
+      "coarse_gamma_change": 0.0007805319353438242,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.2680570986619732
+    },
+    {
+      "model": "viscous",
+      "file": "len3_cond3_1.csv",
+      "kappa": 22.622015334139842,
+      "gamma": 0.08628321830357853,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.0027095250710761935,
+      "lambda": 0.0030510608450288993,
+      "temporal_weak_normalized_loss": 0.0010657516330388056,
+      "coarse_gamma_change": -0.00023689453853976972,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.20821041613584185
+    },
+    {
+      "model": "viscous",
+      "file": "len4_cond1_1.csv",
+      "kappa": 18.704305341081533,
+      "gamma": 0.06861790176403258,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.007636939987152287,
+      "lambda": 0.0030510608450288993,
+      "temporal_weak_normalized_loss": 0.006493219523120825,
+      "coarse_gamma_change": 0.000296627912201905,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.5563501410949744
+    },
+    {
+      "model": "viscous",
+      "file": "len4_cond2_1.csv",
+      "kappa": 18.704305341081533,
+      "gamma": 0.042064048159191465,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.008802848153865866,
+      "lambda": 0.0030510608450288993,
+      "temporal_weak_normalized_loss": 0.004903264534918275,
+      "coarse_gamma_change": -3.332061061314673e-05,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.26579382141487157
+    },
+    {
+      "model": "viscous",
+      "file": "len4_cond3_1.csv",
+      "kappa": 18.704305341081533,
+      "gamma": 0.05530073039411181,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.006054326918037465,
+      "lambda": 0.0030510608450288993,
+      "temporal_weak_normalized_loss": 0.002409221189047261,
+      "coarse_gamma_change": -0.0003070519820525877,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.21475982032913252
+    },
+    {
+      "model": "viscous",
+      "file": "len5_cond1_1.csv",
+      "kappa": 16.01074569535859,
+      "gamma": 0.0,
+      "beta": 0.0,
+      "gamma_zero": true,
+      "train_normalized_loss": 0.007333897488020156,
+      "lambda": 0.0030510608450288993,
+      "temporal_weak_normalized_loss": 0.006084446965679162,
+      "coarse_gamma_change": 0.0,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 2.9676261448230434e-13,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.3523562212254153
+    },
+    {
+      "model": "viscous",
+      "file": "len5_cond2_1.csv",
+      "kappa": 16.01074569535859,
+      "gamma": 0.03159694674173707,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.006705277482282569,
+      "lambda": 0.0030510608450288993,
+      "temporal_weak_normalized_loss": 0.004711480051028882,
+      "coarse_gamma_change": 0.0005520401117384832,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.2759818760415063
+    },
+    {
+      "model": "viscous",
+      "file": "len5_cond3_1.csv",
+      "kappa": 16.01074569535859,
+      "gamma": 0.07189159239011664,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.005867417879718415,
+      "lambda": 0.0030510608450288993,
+      "temporal_weak_normalized_loss": 0.0013943368374876365,
+      "coarse_gamma_change": -0.00048457601338841583,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.17255958430322413
+    },
+    {
+      "model": "mixed_drag",
+      "file": "len1_cond1_1.csv",
+      "kappa": 39.38158931413843,
+      "gamma": 0.0,
+      "beta": 0.007809498050301683,
+      "gamma_zero": true,
+      "train_normalized_loss": 0.0040393500035899015,
+      "lambda": 0.0030259571448266443,
+      "temporal_weak_normalized_loss": 0.003142205916547942,
+      "coarse_gamma_change": 0.0,
+      "coarse_beta_change": 0.000660690154620204,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.5585277850357611
+    },
+    {
+      "model": "mixed_drag",
+      "file": "len1_cond2_1.csv",
+      "kappa": 39.38158931413843,
+      "gamma": 0.16525469589635822,
+      "beta": 0.0,
+      "gamma_zero": false,
+      "train_normalized_loss": 0.0015434262060955277,
+      "lambda": 0.0030259571448266443,
+      "temporal_weak_normalized_loss": 0.0002260047930097673,
+      "coarse_gamma_change": -0.008981211786231152,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.305
+    },
+    {
+      "model": "mixed_drag",
+      "file": "len1_cond3_1.csv",
+      "kappa": 39.38158931413843,
+      "gamma": 0.0,
+      "beta": 0.0,
+      "gamma_zero": true,
+      "train_normalized_loss": 0.0003280406705706021,
+      "lambda": 0.0030259571448266443,
+      "temporal_weak_normalized_loss": 7.906395428014222e-05,
+      "coarse_gamma_change": 0.0,
+      "coarse_beta_change": 0.0,
+      "forecast_max_energy_increase": 3.239630785856207e-13,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.20899148555711794
+    },
+    {
+      "model": "mixed_drag",
+      "file": "len2_cond1_1.csv",
+      "kappa": 28.891153424006827,
+      "gamma": 0.0,
+      "beta": 0.01477151119546427,
+      "gamma_zero": true,
+      "train_normalized_loss": 0.0012918197028640704,
+      "lambda": 0.0030259571448266443,
+      "temporal_weak_normalized_loss": 0.0009655518551906177,
+      "coarse_gamma_change": 0.0,
+      "coarse_beta_change": -0.0006271128122435164,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.24942006374562348
+    },
+    {
+      "model": "mixed_drag",
+      "file": "len2_cond2_1.csv",
+      "kappa": 28.891153424006827,
+      "gamma": 0.0,
+      "beta": 0.021377489196666082,
+      "gamma_zero": true,
+      "train_normalized_loss": 0.001155541897827119,
+      "lambda": 0.0030259571448266443,
+      "temporal_weak_normalized_loss": 0.0005186981499950226,
+      "coarse_gamma_change": 0.0,
+      "coarse_beta_change": 0.0002052631483041717,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.2932953418439963
+    },
+    {
+      "model": "mixed_drag",
+      "file": "len2_cond3_1.csv",
+      "kappa": 28.891153424006827,
+      "gamma": 0.0,
+      "beta": 0.046853086745268585,
+      "gamma_zero": true,
+      "train_normalized_loss": 0.0016122672378474628,
+      "lambda": 0.0030259571448266443,
+      "temporal_weak_normalized_loss": 0.0004706578637581725,
+      "coarse_gamma_change": 0.0,
+      "coarse_beta_change": -0.00040622372808146734,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.17916081869646214
+    },
+    {
+      "model": "mixed_drag",
+      "file": "len3_cond1_1.csv",
+      "kappa": 22.62509333016605,
+      "gamma": 0.0,
+      "beta": 0.016401615146446256,
+      "gamma_zero": true,
+      "train_normalized_loss": 0.002013738077023051,
+      "lambda": 0.0030259571448266443,
+      "temporal_weak_normalized_loss": 0.0022715682779658425,
+      "coarse_gamma_change": 0.0,
+      "coarse_beta_change": 0.0006602003032401549,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.38399089387420493
+    },
+    {
+      "model": "mixed_drag",
+      "file": "len3_cond2_1.csv",
+      "kappa": 22.62509333016605,
+      "gamma": 0.0,
+      "beta": 0.036981644841822224,
+      "gamma_zero": true,
+      "train_normalized_loss": 0.007920193178454655,
+      "lambda": 0.0030259571448266443,
+      "temporal_weak_normalized_loss": 0.006804299306872684,
+      "coarse_gamma_change": 0.0,
+      "coarse_beta_change": 0.0009522462431118886,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.26745239815832517
+    },
+    {
+      "model": "mixed_drag",
+      "file": "len3_cond3_1.csv",
+      "kappa": 22.62509333016605,
+      "gamma": 0.0,
+      "beta": 0.05522128108877249,
+      "gamma_zero": true,
+      "train_normalized_loss": 0.002560708305719393,
+      "lambda": 0.0030259571448266443,
+      "temporal_weak_normalized_loss": 0.0010538991123688305,
+      "coarse_gamma_change": 0.0,
+      "coarse_beta_change": 0.00013568744413758327,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.21090340595580623
+    },
+    {
+      "model": "mixed_drag",
+      "file": "len4_cond1_1.csv",
+      "kappa": 18.70603575327218,
+      "gamma": 0.0,
+      "beta": 0.04583310895686742,
+      "gamma_zero": true,
+      "train_normalized_loss": 0.007292720762378697,
+      "lambda": 0.0030259571448266443,
+      "temporal_weak_normalized_loss": 0.0063545557597780595,
+      "coarse_gamma_change": 0.0,
+      "coarse_beta_change": 0.0004220503615798704,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.5563980170659193
+    },
+    {
+      "model": "mixed_drag",
+      "file": "len4_cond2_1.csv",
+      "kappa": 18.70603575327218,
+      "gamma": 0.0,
+      "beta": 0.04196267221789369,
+      "gamma_zero": true,
+      "train_normalized_loss": 0.008697530706485967,
+      "lambda": 0.0030259571448266443,
+      "temporal_weak_normalized_loss": 0.004859208166171615,
+      "coarse_gamma_change": 0.0,
+      "coarse_beta_change": 0.00018895788761796872,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.2657984483658749
+    },
+    {
+      "model": "mixed_drag",
+      "file": "len4_cond3_1.csv",
+      "kappa": 18.70603575327218,
+      "gamma": 0.0,
+      "beta": 0.06283432718861254,
+      "gamma_zero": true,
+      "train_normalized_loss": 0.005832961914249952,
+      "lambda": 0.0030259571448266443,
+      "temporal_weak_normalized_loss": 0.0023852359864677073,
+      "coarse_gamma_change": 0.0,
+      "coarse_beta_change": 9.208228781831806e-05,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.21500273758839183
+    },
+    {
+      "model": "mixed_drag",
+      "file": "len5_cond1_1.csv",
+      "kappa": 16.0118276766664,
+      "gamma": 0.0,
+      "beta": 0.02080732780166756,
+      "gamma_zero": true,
+      "train_normalized_loss": 0.00728610387329433,
+      "lambda": 0.0030259571448266443,
+      "temporal_weak_normalized_loss": 0.006000762483816525,
+      "coarse_gamma_change": 0.0,
+      "coarse_beta_change": 0.0007087048029554184,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.3514779800448089
+    },
+    {
+      "model": "mixed_drag",
+      "file": "len5_cond2_1.csv",
+      "kappa": 16.0118276766664,
+      "gamma": 0.0,
+      "beta": 0.04659232794145237,
+      "gamma_zero": true,
+      "train_normalized_loss": 0.006552345886699718,
+      "lambda": 0.0030259571448266443,
+      "temporal_weak_normalized_loss": 0.004649239948565803,
+      "coarse_gamma_change": 0.0,
+      "coarse_beta_change": 0.0006867155387370247,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.27596883501612535
+    },
+    {
+      "model": "mixed_drag",
+      "file": "len5_cond3_1.csv",
+      "kappa": 16.0118276766664,
+      "gamma": 0.0,
+      "beta": 0.07705778243039507,
+      "gamma_zero": true,
+      "train_normalized_loss": 0.005599053416719124,
+      "lambda": 0.0030259571448266443,
+      "temporal_weak_normalized_loss": 0.0013559478601255699,
+      "coarse_gamma_change": 0.0,
+      "coarse_beta_change": -0.00030880867211288687,
+      "forecast_max_energy_increase": 0.0,
+      "forecast_energy_corridor": true,
+      "forecast_max_abs_angle": 0.17286538066454069
+    }
+  ],
+  "profiles": [
+    {
+      "model": "clock_cos",
+      "lambda_best": 0.003050727760424865,
+      "loss": 0.004345709597281904,
+      "coarse_loss_at_same_lambda": 0.004367459946976928,
+      "sensitivity_1percent_range": [
+        0.003,
+        0.003050727760424865
+      ],
+      "profile": [
+        [
+          0.0,
+          0.005074613664305083
+        ],
+        [
+          0.001,
+          0.0046730895982310785
+        ],
+        [
+          0.002,
+          0.004430522696708459
+        ],
+        [
+          0.003,
+          0.004345901912274225
+        ],
+        [
+          0.004,
+          0.004411258155436042
+        ],
+        [
+          0.005,
+          0.0046148650874645375
+        ],
+        [
+          0.006,
+          0.004946349739983266
+        ],
+        [
+          0.007,
+          0.005396158871331412
+        ],
+        [
+          0.008,
+          0.005955268771077218
+        ],
+        [
+          0.009000000000000001,
+          0.006615405753248783
+        ],
+        [
+          0.01,
+          0.007368974336322353
+        ],
+        [
+          0.011,
+          0.008208993237613304
+        ],
+        [
+          0.012,
+          0.009129038232002925
+        ],
+        [
+          0.013000000000000001,
+          0.01012319105223073
+        ],
+        [
+          0.014,
+          0.011185993616687335
+        ],
+        [
+          0.015,
+          0.012312406963692318
+        ],
+        [
+          0.016,
+          0.013497774351068605
+        ],
+        [
+          0.017,
+          0.014737788048462808
+        ],
+        [
+          0.018000000000000002,
+          0.016028459409002268
+        ],
+        [
+          0.019,
+          0.017366091857946644
+        ],
+        [
+          0.02,
+          0.018747256480175244
+        ],
+        [
+          0.003050727760424865,
+          0.004345709597281904
+        ]
+      ]
+    },
+    {
+      "model": "viscous",
+      "lambda_best": 0.0030510608450288993,
+      "loss": 0.0043487310209291445,
+      "coarse_loss_at_same_lambda": 0.004370485821445689,
+      "sensitivity_1percent_range": [
+        0.003,
+        0.0030510608450288993
+      ],
+      "profile": [
+        [
+          0.0,
+          0.005077254945947709
+        ],
+        [
+          0.001,
+          0.00467595058057743
+        ],
+        [
+          0.002,
+          0.004433527331581002
+        ],
+        [
+          0.003,
+          0.004348925708807611
+        ],
+        [
+          0.004,
+          0.004414179849609113
+        ],
+        [
+          0.005,
+          0.004617577815863059
+        ],
+        [
+          0.006,
+          0.004948787005340127
+        ],
+        [
+          0.007,
+          0.005398231229679104
+        ],
+        [
+          0.008,
+          0.005956895532857999
+        ],
+        [
+          0.009000000000000001,
+          0.006616514165742372
+        ],
+        [
+          0.01,
+          0.0073694988490059675
+        ],
+        [
+          0.011,
+          0.00820887484115825
+        ],
+        [
+          0.012,
+          0.009128223862760139
+        ],
+        [
+          0.013000000000000001,
+          0.010121633055050682
+        ],
+        [
+          0.014,
+          0.011183649259780323
+        ],
+        [
+          0.015,
+          0.012309237999982623
+        ],
+        [
+          0.016,
+          0.01349374662114622
+        ],
+        [
+          0.017,
+          0.014732871120803435
+        ],
+        [
+          0.018000000000000002,
+          0.016022626253621487
+        ],
+        [
+          0.019,
+          0.017359318550087422
+        ],
+        [
+          0.02,
+          0.01873952193100761
+        ],
+        [
+          0.0030510608450288993,
+          0.0043487310209291445
+        ]
+      ]
+    },
+    {
+      "model": "mixed_drag",
+      "lambda_best": 0.0030259571448266443,
+      "loss": 0.004248386789321304,
+      "coarse_loss_at_same_lambda": 0.004268840821945744,
+      "sensitivity_1percent_range": [
+        0.003,
+        0.0030259571448266443
+      ],
+      "profile": [
+        [
+          0.0,
+          0.004961801168247831
+        ],
+        [
+          0.001,
+          0.004566445824295276
+        ],
+        [
+          0.002,
+          0.004329003311156023
+        ],
+        [
+          0.003,
+          0.004248436992089408
+        ],
+        [
+          0.004,
+          0.004317194532549506
+        ],
+        [
+          0.005,
+          0.004523605486388702
+        ],
+        [
+          0.006,
+          0.004857450638287383
+        ],
+        [
+          0.007,
+          0.005305264689398002
+        ],
+        [
+          0.008,
+          0.005857960718082992
+        ],
+        [
+          0.009000000000000001,
+          0.006510025195805195
+        ],
+        [
+          0.01,
+          0.007253916289579264
+        ],
+        [
+          0.011,
+          0.0080829197429739
+        ],
+        [
+          0.012,
+          0.008990756609333756
+        ],
+        [
+          0.013000000000000001,
+          0.009971626097763673
+        ],
+        [
+          0.014,
+          0.011020177137694886
+        ],
+        [
+          0.015,
+          0.012131445322894199
+        ],
+        [
+          0.016,
+          0.013300880719335245
+        ],
+        [
+          0.017,
+          0.014524265152160588
+        ],
+        [
+          0.018000000000000002,
+          0.0157976839989188
+        ],
+        [
+          0.019,
+          0.0171175083155853
+        ],
+        [
+          0.02,
+          0.018480371005487106
+        ],
+        [
+          0.0030259571448266443,
+          0.004248386789321304
+        ]
+      ]
+    }
+  ],
+  "prediction_summary": [
+    {
+      "model": "clock_cos",
+      "horizon": 0.1,
+      "median_angle_ratio": 0.028627932935362147,
+      "median_velocity_ratio": 0.21341477582101878,
+      "angle_rmse_range": [
+        0.000719069815992195,
+        0.006838970205554319
+      ],
+      "velocity_rmse_range": [
+        0.02526535241736093,
+        0.10631992395479706
+      ],
+      "angle_wins_vs_viscous": 5,
+      "velocity_wins_vs_viscous": 6
+    },
+    {
+      "model": "viscous",
+      "horizon": 0.1,
+      "median_angle_ratio": 0.028613399386197634,
+      "median_velocity_ratio": 0.21341355125402559,
+      "angle_rmse_range": [
+        0.0007189727708473094,
+        0.006838320228563893
+      ],
+      "velocity_rmse_range": [
+        0.02526933813293862,
+        0.1063047294697661
+      ],
+      "angle_wins_vs_viscous": 0,
+      "velocity_wins_vs_viscous": 0
+    },
+    {
+      "model": "mixed_drag",
+      "horizon": 0.1,
+      "median_angle_ratio": 0.02828530770220375,
+      "median_velocity_ratio": 0.21348596733586986,
+      "angle_rmse_range": [
+        0.0007259064238665923,
+        0.0067784354615800495
+      ],
+      "velocity_rmse_range": [
+        0.025032687647653342,
+        0.1049788357628354
+      ],
+      "angle_wins_vs_viscous": 10,
+      "velocity_wins_vs_viscous": 11
+    },
+    {
+      "model": "clock_cos",
+      "horizon": 0.5,
+      "median_angle_ratio": 0.061753890383895844,
+      "median_velocity_ratio": 0.07908329805012382,
+      "angle_rmse_range": [
+        0.002737249754389556,
+        0.022457577557802064
+      ],
+      "velocity_rmse_range": [
+        0.058360583312781496,
+        0.3135155099295502
+      ],
+      "angle_wins_vs_viscous": 4,
+      "velocity_wins_vs_viscous": 5
+    },
+    {
+      "model": "viscous",
+      "horizon": 0.5,
+      "median_angle_ratio": 0.06172157601689674,
+      "median_velocity_ratio": 0.07908065766346,
+      "angle_rmse_range": [
+        0.0027367283873142244,
+        0.02244430577092315
+      ],
+      "velocity_rmse_range": [
+        0.05843312818877327,
+        0.31340460654806584
+      ],
+      "angle_wins_vs_viscous": 0,
+      "velocity_wins_vs_viscous": 0
+    },
+    {
+      "model": "mixed_drag",
+      "horizon": 0.5,
+      "median_angle_ratio": 0.06116301233563294,
+      "median_velocity_ratio": 0.07978596275339342,
+      "angle_rmse_range": [
+        0.002765859232514273,
+        0.02234839973744375
+      ],
+      "velocity_rmse_range": [
+        0.056135174168492195,
+        0.31283766026204096
+      ],
+      "angle_wins_vs_viscous": 13,
+      "velocity_wins_vs_viscous": 11
+    },
+    {
+      "model": "clock_cos",
+      "horizon": 1.0,
+      "median_angle_ratio": 0.04491853771483252,
+      "median_velocity_ratio": 0.05707844003142021,
+      "angle_rmse_range": [
+        0.0035045243813726606,
+        0.03226630180301098
+      ],
+      "velocity_rmse_range": [
+        0.05135426731830439,
+        0.2963841446415023
+      ],
+      "angle_wins_vs_viscous": 6,
+      "velocity_wins_vs_viscous": 5
+    },
+    {
+      "model": "viscous",
+      "horizon": 1.0,
+      "median_angle_ratio": 0.044922583838192386,
+      "median_velocity_ratio": 0.05707835125160552,
+      "angle_rmse_range": [
+        0.0035079643589232155,
+        0.03221049356376818
+      ],
+      "velocity_rmse_range": [
+        0.05135117672454303,
+        0.2961528750333602
+      ],
+      "angle_wins_vs_viscous": 0,
+      "velocity_wins_vs_viscous": 0
+    },
+    {
+      "model": "mixed_drag",
+      "horizon": 1.0,
+      "median_angle_ratio": 0.04462501675193611,
+      "median_velocity_ratio": 0.05708674547121986,
+      "angle_rmse_range": [
+        0.003331181341708099,
+        0.03228239858298107
+      ],
+      "velocity_rmse_range": [
+        0.05109714292244348,
+        0.29567582038134765
+      ],
+      "angle_wins_vs_viscous": 10,
+      "velocity_wins_vs_viscous": 12
+    },
+    {
+      "model": "clock_cos",
+      "horizon": 2.0,
+      "median_angle_ratio": 0.061321909886316826,
+      "median_velocity_ratio": 0.06786697883920882,
+      "angle_rmse_range": [
+        0.003704770366605567,
+        0.033972196041166004
+      ],
+      "velocity_rmse_range": [
+        0.04763864203310015,
+        0.30355992631764617
+      ],
+      "angle_wins_vs_viscous": 6,
+      "velocity_wins_vs_viscous": 6
+    },
+    {
+      "model": "viscous",
+      "horizon": 2.0,
+      "median_angle_ratio": 0.0614480833852621,
+      "median_velocity_ratio": 0.06756954366635058,
+      "angle_rmse_range": [
+        0.0037113611188472387,
+        0.03386880339230838
+      ],
+      "velocity_rmse_range": [
+        0.04763371034232846,
+        0.3031110233724779
+      ],
+      "angle_wins_vs_viscous": 0,
+      "velocity_wins_vs_viscous": 0
+    },
+    {
+      "model": "mixed_drag",
+      "horizon": 2.0,
+      "median_angle_ratio": 0.061344243073992055,
+      "median_velocity_ratio": 0.0701523479290337,
+      "angle_rmse_range": [
+        0.0033824996472668276,
+        0.03386830428589435
+      ],
+      "velocity_rmse_range": [
+        0.04760615920950838,
+        0.3024038832140628
+      ],
+      "angle_wins_vs_viscous": 10,
+      "velocity_wins_vs_viscous": 11
+    },
+    {
+      "model": "clock_cos",
+      "horizon": 5.0,
+      "median_angle_ratio": 0.06619576504920423,
+      "median_velocity_ratio": 0.08000152379676341,
+      "angle_rmse_range": [
+        0.003854645055716686,
+        0.0462507328920915
+      ],
+      "velocity_rmse_range": [
+        0.04846580721221041,
+        0.3481936706960748
+      ],
+      "angle_wins_vs_viscous": 5,
+      "velocity_wins_vs_viscous": 5
+    },
+    {
+      "model": "viscous",
+      "horizon": 5.0,
+      "median_angle_ratio": 0.06599297549921093,
+      "median_velocity_ratio": 0.08035461573646284,
+      "angle_rmse_range": [
+        0.0038395004392951797,
+        0.046059814296618276
+      ],
+      "velocity_rmse_range": [
+        0.048439159638300776,
+        0.34773068929732476
+      ],
+      "angle_wins_vs_viscous": 0,
+      "velocity_wins_vs_viscous": 0
+    },
+    {
+      "model": "mixed_drag",
+      "horizon": 5.0,
+      "median_angle_ratio": 0.06405850808982044,
+      "median_velocity_ratio": 0.07664818878962804,
+      "angle_rmse_range": [
+        0.004147444504544923,
+        0.04865197386160653
+      ],
+      "velocity_rmse_range": [
+        0.04932659207673587,
+        0.34313399991109184
+      ],
+      "angle_wins_vs_viscous": 10,
+      "velocity_wins_vs_viscous": 11
+    },
+    {
+      "model": "clock_cos",
+      "horizon": 10.0,
+      "median_angle_ratio": 0.07059181620243811,
+      "median_velocity_ratio": 0.08659194195252144,
+      "angle_rmse_range": [
+        0.0040311820889121636,
+        0.07258161054800717
+      ],
+      "velocity_rmse_range": [
+        0.04797753249440237,
+        0.46362616376165655
+      ],
+      "angle_wins_vs_viscous": 5,
+      "velocity_wins_vs_viscous": 6
+    },
+    {
+      "model": "viscous",
+      "horizon": 10.0,
+      "median_angle_ratio": 0.06981282017346059,
+      "median_velocity_ratio": 0.08630369463854841,
+      "angle_rmse_range": [
+        0.00398906553457493,
+        0.0705290174384613
+      ],
+      "velocity_rmse_range": [
+        0.04787834865875648,
+        0.46541358516038567
+      ],
+      "angle_wins_vs_viscous": 0,
+      "velocity_wins_vs_viscous": 0
+    },
+    {
+      "model": "mixed_drag",
+      "horizon": 10.0,
+      "median_angle_ratio": 0.07587291060626966,
+      "median_velocity_ratio": 0.08333127244983421,
+      "angle_rmse_range": [
+        0.005108970505444754,
+        0.08161450661223572
+      ],
+      "velocity_rmse_range": [
+        0.05131006809004663,
+        0.45050752914710235
+      ],
+      "angle_wins_vs_viscous": 9,
+      "velocity_wins_vs_viscous": 9
+    },
+    {
+      "model": "clock_cos",
+      "horizon": 20.0,
+      "median_angle_ratio": 0.10107656585592933,
+      "median_velocity_ratio": 0.1068739193310772,
+      "angle_rmse_range": [
+        0.004910357181971412,
+        0.1319435860338456
+      ],
+      "velocity_rmse_range": [
+        0.04782084240083588,
+        0.6994580684061938
+      ],
+      "angle_wins_vs_viscous": 7,
+      "velocity_wins_vs_viscous": 7
+    },
+    {
+      "model": "viscous",
+      "horizon": 20.0,
+      "median_angle_ratio": 0.10008450809649581,
+      "median_velocity_ratio": 0.10820973710314874,
+      "angle_rmse_range": [
+        0.004862126790239994,
+        0.12857696662530324
+      ],
+      "velocity_rmse_range": [
+        0.04768644558023598,
+        0.7106075087915866
+      ],
+      "angle_wins_vs_viscous": 0,
+      "velocity_wins_vs_viscous": 0
+    },
+    {
+      "model": "mixed_drag",
+      "horizon": 20.0,
+      "median_angle_ratio": 0.10485621140159737,
+      "median_velocity_ratio": 0.08803507708736343,
+      "angle_rmse_range": [
+        0.010179691178791434,
+        0.1379584785531298
+      ],
+      "velocity_rmse_range": [
+        0.0686670916198756,
+        0.6824074323482145
+      ],
+      "angle_wins_vs_viscous": 10,
+      "velocity_wins_vs_viscous": 10
+    },
+    {
+      "model": "clock_cos",
+      "horizon": 29.99,
+      "median_angle_ratio": 0.12033311343078659,
+      "median_velocity_ratio": 0.134999802600621,
+      "angle_rmse_range": [
+        0.005355993883085433,
+        0.1880830962527848
+      ],
+      "velocity_rmse_range": [
+        0.04741265542512546,
+        0.9042217872246169
+      ],
+      "angle_wins_vs_viscous": 7,
+      "velocity_wins_vs_viscous": 7
+    },
+    {
+      "model": "viscous",
+      "horizon": 29.99,
+      "median_angle_ratio": 0.11903370177691903,
+      "median_velocity_ratio": 0.1367642143014175,
+      "angle_rmse_range": [
+        0.005326509685873773,
+        0.18434693436074184
+      ],
+      "velocity_rmse_range": [
+        0.04733617627873531,
+        0.927300761547963
+      ],
+      "angle_wins_vs_viscous": 0,
+      "velocity_wins_vs_viscous": 0
+    },
+    {
+      "model": "mixed_drag",
+      "horizon": 29.99,
+      "median_angle_ratio": 0.12444331986239754,
+      "median_velocity_ratio": 0.11190193017347938,
+      "angle_rmse_range": [
+        0.009661677383125882,
+        0.18996686366106197
+      ],
+      "velocity_rmse_range": [
+        0.06802827767418568,
+        0.9039822092038929
+      ],
+      "angle_wins_vs_viscous": 9,
+      "velocity_wins_vs_viscous": 9
+    }
+  ],
+  "identifiability": [
+    {
+      "file": "len1_cond1_1.csv",
+      "calibration_max_abs_angle": 0.767,
+      "normalized_clock_viscous_singular_values": [
+        1.4142112990684161,
+        0.0025301358113142577
+      ],
+      "condition": 558.9467935848929,
+      "relative_damping_column_difference": 0.014609366166090206
+    },
+    {
+      "file": "len1_cond2_1.csv",
+      "calibration_max_abs_angle": 0.584,
+      "normalized_clock_viscous_singular_values": [
+        1.41421153136968,
+        0.0023967772164110437
+      ],
+      "condition": 590.0471356646711,
+      "relative_damping_column_difference": 0.006829372315169024
+    },
+    {
+      "file": "len1_cond3_1.csv",
+      "calibration_max_abs_angle": 0.528,
+      "normalized_clock_viscous_singular_values": [
+        1.4142132939520722,
+        0.0008713261329950495
+      ],
+      "condition": 1623.058508633193,
+      "relative_damping_column_difference": 0.01013675569504617
+    },
+    {
+      "file": "len2_cond1_1.csv",
+      "calibration_max_abs_angle": 0.289,
+      "normalized_clock_viscous_singular_values": [
+        1.4142134462595635,
+        0.0005730782220510145
+      ],
+      "condition": 2467.7494133316977,
+      "relative_damping_column_difference": 0.0025013419118161445
+    },
+    {
+      "file": "len2_cond2_1.csv",
+      "calibration_max_abs_angle": 0.562,
+      "normalized_clock_viscous_singular_values": [
+        1.4142117940268049,
+        0.0022364336534391647
+      ],
+      "condition": 632.3513294713861,
+      "relative_damping_column_difference": 0.006875941166787162
+    },
+    {
+      "file": "len2_cond3_1.csv",
+      "calibration_max_abs_angle": 0.402,
+      "normalized_clock_viscous_singular_values": [
+        1.4142130701685824,
+        0.001179900145256742
+      ],
+      "condition": 1198.5870803167456,
+      "relative_damping_column_difference": 0.003419105544749418
+    },
+    {
+      "file": "len3_cond1_1.csv",
+      "calibration_max_abs_angle": 0.421,
+      "normalized_clock_viscous_singular_values": [
+        1.4142126195350753,
+        0.0016330179854185819
+      ],
+      "condition": 866.0116619429507,
+      "relative_damping_column_difference": 0.005632258259215124
+    },
+    {
+      "file": "len3_cond2_1.csv",
+      "calibration_max_abs_angle": 0.478,
+      "normalized_clock_viscous_singular_values": [
+        1.4142123574871266,
+        0.0018460581529419651
+      ],
+      "condition": 766.0714020483977,
+      "relative_damping_column_difference": 0.0050933532325985855
+    },
+    {
+      "file": "len3_cond3_1.csv",
+      "calibration_max_abs_angle": 0.603,
+      "normalized_clock_viscous_singular_values": [
+        1.4142101086199983,
+        0.0031254882839496703
+      ],
+      "condition": 452.47653490892793,
+      "relative_damping_column_difference": 0.00775197623802153
+    },
+    {
+      "file": "len4_cond1_1.csv",
+      "calibration_max_abs_angle": 0.679,
+      "normalized_clock_viscous_singular_values": [
+        1.4142071313100322,
+        0.0042649445306858925
+      ],
+      "condition": 331.58863406896364,
+      "relative_damping_column_difference": 0.013234459733235811
+    },
+    {
+      "file": "len4_cond2_1.csv",
+      "calibration_max_abs_angle": 0.509,
+      "normalized_clock_viscous_singular_values": [
+        1.41421220535233,
+        0.001959140755437351
+      ],
+      "condition": 721.8532927904033,
+      "relative_damping_column_difference": 0.005365340133750425
+    },
+    {
+      "file": "len4_cond3_1.csv",
+      "calibration_max_abs_angle": 0.462,
+      "normalized_clock_viscous_singular_values": [
+        1.4142123865487066,
+        0.0018236590170707207
+      ],
+      "condition": 775.4807084606782,
+      "relative_damping_column_difference": 0.004845039555794975
+    },
+    {
+      "file": "len5_cond1_1.csv",
+      "calibration_max_abs_angle": 0.402,
+      "normalized_clock_viscous_singular_values": [
+        1.414212406298334,
+        0.0018082787054658847
+      ],
+      "condition": 782.0765692940992,
+      "relative_damping_column_difference": 0.00527069125577721
+    },
+    {
+      "file": "len5_cond2_1.csv",
+      "calibration_max_abs_angle": 0.44,
+      "normalized_clock_viscous_singular_values": [
+        1.4142122901512213,
+        0.001896941021154309
+      ],
+      "condition": 745.5225409647464,
+      "relative_damping_column_difference": 0.005027427842081037
+    },
+    {
+      "file": "len5_cond3_1.csv",
+      "calibration_max_abs_angle": 0.506,
+      "normalized_clock_viscous_singular_values": [
+        1.4142113310158377,
+        0.0025122154392365997
+      ],
+      "condition": 562.9339382794262,
+      "relative_damping_column_difference": 0.005715921159611205
+    }
+  ],
+  "integration_steps": [
+    0.005,
+    0.0025
+  ],
+  "integration_max_discrepancy": [
+    5.13287469555701e-07,
+    3.132380497573861e-06
+  ],
+  "integration_repairs": [],
+  "kinematic_violations": {
+    "clock_cos": 500,
+    "viscous": 500,
+    "mixed_drag": 497
+  },
+  "family_clock_kinematic_violations": 35,
+  "family_unavailable_certificates": 0,
+  "holdout_accessed": false,
+  "canonical_events_identified": false,
+  "physical_uncertainty_certified": false
+}

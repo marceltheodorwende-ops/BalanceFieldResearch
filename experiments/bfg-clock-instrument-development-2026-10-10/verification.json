@@ -1,0 +1,138 @@
+{
+  "source_hashes_verified": 15,
+  "protocol_hash_unchanged": true,
+  "family_windows_verified": 1785,
+  "family_violation_count": 35,
+  "family_numeric_max_discrepancy": 1.5543122344752192e-15,
+  "high_precision_countercertificates": 35,
+  "high_precision_decimal_digits": 60,
+  "minimum_countercertificate_excess": 1.3319841843044785e-05,
+  "per_record_family_certificates": [
+    {
+      "file": "len1_cond1_1.csv",
+      "windows": 119,
+      "family_violations": 0,
+      "maximum_abs_residual": 0.005104999999999249,
+      "maximum_residual_bound_ratio": 0.6959545675116935
+    },
+    {
+      "file": "len1_cond2_1.csv",
+      "windows": 119,
+      "family_violations": 0,
+      "maximum_abs_residual": 0.004684999999999606,
+      "maximum_residual_bound_ratio": 0.6868133600786784
+    },
+    {
+      "file": "len1_cond3_1.csv",
+      "windows": 119,
+      "family_violations": 0,
+      "maximum_abs_residual": 0.003069999999999587,
+      "maximum_residual_bound_ratio": 0.67969657603867
+    },
+    {
+      "file": "len2_cond1_1.csv",
+      "windows": 119,
+      "family_violations": 1,
+      "maximum_abs_residual": 0.0036049999999999693,
+      "maximum_residual_bound_ratio": 1.0182980088278972
+    },
+    {
+      "file": "len2_cond2_1.csv",
+      "windows": 119,
+      "family_violations": 1,
+      "maximum_abs_residual": 0.004020000000000634,
+      "maximum_residual_bound_ratio": 1.1861795145365555
+    },
+    {
+      "file": "len2_cond3_1.csv",
+      "windows": 119,
+      "family_violations": 0,
+      "maximum_abs_residual": 0.003069999999999823,
+      "maximum_residual_bound_ratio": 0.923441766514695
+    },
+    {
+      "file": "len3_cond1_1.csv",
+      "windows": 119,
+      "family_violations": 0,
+      "maximum_abs_residual": 0.0028100000000003678,
+      "maximum_residual_bound_ratio": 0.898836684455679
+    },
+    {
+      "file": "len3_cond2_1.csv",
+      "windows": 119,
+      "family_violations": 3,
+      "maximum_abs_residual": 0.003614999999999924,
+      "maximum_residual_bound_ratio": 1.0826496329528197
+    },
+    {
+      "file": "len3_cond3_1.csv",
+      "windows": 119,
+      "family_violations": 0,
+      "maximum_abs_residual": 0.0029199999999998116,
+      "maximum_residual_bound_ratio": 0.9664256311301129
+    },
+    {
+      "file": "len4_cond1_1.csv",
+      "windows": 119,
+      "family_violations": 5,
+      "maximum_abs_residual": 0.0037399999999999656,
+      "maximum_residual_bound_ratio": 1.186850315261502
+    },
+    {
+      "file": "len4_cond2_1.csv",
+      "windows": 119,
+      "family_violations": 4,
+      "maximum_abs_residual": 0.0033250000000000224,
+      "maximum_residual_bound_ratio": 1.1843125614243526
+    },
+    {
+      "file": "len4_cond3_1.csv",
+      "windows": 119,
+      "family_violations": 3,
+      "maximum_abs_residual": 0.002714999999999912,
+      "maximum_residual_bound_ratio": 1.1193021140505306
+    },
+    {
+      "file": "len5_cond1_1.csv",
+      "windows": 119,
+      "family_violations": 3,
+      "maximum_abs_residual": 0.0028849999999999154,
+      "maximum_residual_bound_ratio": 1.2553905313902363
+    },
+    {
+      "file": "len5_cond2_1.csv",
+      "windows": 119,
+      "family_violations": 8,
+      "maximum_abs_residual": 0.0027800000000001157,
+      "maximum_residual_bound_ratio": 1.3432376797843424
+    },
+    {
+      "file": "len5_cond3_1.csv",
+      "windows": 119,
+      "family_violations": 7,
+      "maximum_abs_residual": 0.002674999999999872,
+      "maximum_residual_bound_ratio": 1.2400539086615945
+    }
+  ],
+  "independent_real_forecasts": [
+    {
+      "model": "clock_cos",
+      "file": "len1_cond1_1.csv",
+      "angle_error": 2.466628556963002e-08,
+      "velocity_error": 1.5288164746662947e-07
+    },
+    {
+      "model": "viscous",
+      "file": "len1_cond1_1.csv",
+      "angle_error": 2.554287154010737e-08,
+      "velocity_error": 1.538116674651424e-07
+    },
+    {
+      "model": "mixed_drag",
+      "file": "len1_cond1_1.csv",
+      "angle_error": 3.079288740659436e-08,
+      "velocity_error": 1.7481179459544194e-07
+    }
+  ],
+  "scope": "Conditional direct-instrument hypothesis, reused development records only"
+}

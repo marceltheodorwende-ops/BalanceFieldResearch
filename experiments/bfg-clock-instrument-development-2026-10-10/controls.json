@@ -1,0 +1,65 @@
+{
+  "symbolic_energy_identity": true,
+  "synthetic_ODE_controls": [
+    {
+      "model": "clock_cos",
+      "independent_DOP853_error": 3.893363409446238e-11,
+      "weak_identity_residual": -1.3768805789404759e-06
+    },
+    {
+      "model": "viscous",
+      "independent_DOP853_error": 3.885736177267063e-11,
+      "weak_identity_residual": -1.3720636641290085e-06
+    },
+    {
+      "model": "mixed_drag",
+      "independent_DOP853_error": 1.2430891559167545e-09,
+      "weak_identity_residual": -1.3323943287568696e-06
+    }
+  ],
+  "bounded_LS_controls": [
+    {
+      "own": [
+        0.4000000000000001,
+        0.19999999999999998
+      ],
+      "independent": [
+        0.4000000000000001,
+        0.19999999999999998
+      ],
+      "objective_discrepancy": 0.0
+    },
+    {
+      "own": [
+        0.0,
+        0.5714285714285714
+      ],
+      "independent": [
+        2.012908319532555e-16,
+        0.5714285714285713
+      ],
+      "objective_discrepancy": -1.1102230246251565e-16
+    },
+    {
+      "own": [
+        1.0,
+        0.657142857142857
+      ],
+      "independent": [
+        0.9999999999999997,
+        0.6571428571428573
+      ],
+      "objective_discrepancy": -1.7763568394002505e-15
+    }
+  ],
+  "adversarial_kinematic_residual": -0.001250833333333333,
+  "rigorous_kinematic_bound": 0.0012508333333333334,
+  "hidden_residual_moment": 2.0816681711721685e-17,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "sympy": "1.14.0"
+  },
+  "scope": "Implementation/mathematics controls only; no real measurements"
+}
