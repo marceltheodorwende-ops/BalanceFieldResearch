@@ -1,0 +1,72 @@
+{
+  "symbolic_checks": [
+    "general chain",
+    "point rank",
+    "arcsine velocity square",
+    "arcsine restoring",
+    "variable mass balance",
+    "energy",
+    "constant inertia obstruction coefficient",
+    "impulse energy",
+    "polynomial curvature",
+    "affine no curvature"
+  ],
+  "synthetic_ode_cases": [
+    {
+      "alpha": 0.5,
+      "initial": [
+        0.3,
+        0.12
+      ],
+      "clock": 0.2,
+      "domain_margin": 0.9775,
+      "forward_angle_gain": 1.0114434748483472,
+      "endpoint_error": 1.1997347559855598e-14,
+      "tangent_error": 2.5560109584432666e-13
+    },
+    {
+      "alpha": 0.8,
+      "initial": [
+        0.9,
+        -0.05
+      ],
+      "clock": 0.4,
+      "domain_margin": 0.4815999999999999,
+      "forward_angle_gain": 2.30556167081694,
+      "endpoint_error": 4.5852210917018965e-14,
+      "tangent_error": 3.7259084706420253e-13
+    },
+    {
+      "alpha": 0.5,
+      "initial": [
+        1.98,
+        0.0
+      ],
+      "clock": 0.05,
+      "domain_margin": 0.01990000000000003,
+      "forward_angle_gain": 7.088812050083354,
+      "endpoint_error": 1.0103029524088925e-14,
+      "tangent_error": 2.0516921495072893e-13
+    }
+  ],
+  "thresholds": {
+    "endpoint": 2e-08,
+    "tangent": 2e-07,
+    "rtol": 2e-11,
+    "atol": 2e-12
+  },
+  "perturbation": {
+    "rho": 0.8,
+    "Pmax": 0.5,
+    "alpha": 0.7,
+    "error": [
+      1.5426615029401347e-05,
+      2.9751906108377302e-05
+    ],
+    "bound": [
+      2.3333333333333343e-05,
+      6.481481481481484e-05
+    ]
+  },
+  "scope": "Exact transformed harmonic-readout control; no empirical pendulum confirmation or physical calibration"
+}
