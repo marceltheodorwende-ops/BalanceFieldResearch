@@ -1,0 +1,54 @@
+{
+  "endpoint_cases": [
+    {
+      "decay": 0.1,
+      "frequency": 0.7,
+      "clock": 0.03,
+      "matrix_exponential_discrepancy": 1.7763568394002505e-15
+    },
+    {
+      "decay": 0.4,
+      "frequency": 1.9,
+      "clock": 0.2,
+      "matrix_exponential_discrepancy": 1.7763568394002505e-15
+    }
+  ],
+  "symbolic_checks": [
+    "chain acceleration",
+    "observation determinant",
+    "force elimination",
+    "linear force coefficients",
+    "linear positive control",
+    "rank positive control",
+    "energy derivative",
+    "nonharmonic diagnostic"
+  ],
+  "synthetic_cases": [
+    {
+      "amplitude": 0.1,
+      "third_harmonic": -4.164063150952253e-05,
+      "bessel_expected": -4.1640631509512544e-05,
+      "quadrature_error": 9.98821251402271e-18,
+      "small_angle_max_error": 0.0001665833531718508,
+      "cubic_bound": 0.00016666666666666672
+    },
+    {
+      "amplitude": 0.7,
+      "third_harmonic": -0.013859309653501725,
+      "bessel_expected": -0.013859309653501668,
+      "quadrature_error": 5.724587470723463e-17,
+      "small_angle_max_error": 0.05578231276230894,
+      "cubic_bound": 0.05716666666666665
+    },
+    {
+      "amplitude": 1.5,
+      "third_harmonic": -0.12192790228227937,
+      "bessel_expected": -0.12192790228227927,
+      "quadrature_error": 9.71445146547012e-17,
+      "small_angle_max_error": 0.5025050133959456,
+      "cubic_bound": 0.5625
+    }
+  ],
+  "numerical_threshold": 1e-12,
+  "scope": "Algebra/synthetic controls only; conditional harmonic readout factor, no physical selection or empirical confirmation"
+}
