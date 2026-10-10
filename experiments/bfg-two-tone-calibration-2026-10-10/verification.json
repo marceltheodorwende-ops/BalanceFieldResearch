@@ -1,0 +1,48 @@
+{
+  "kind": "independent synthetic verification, not instrument calibration",
+  "protocol_sha256": "72cad34cab07f9777f03343ed0e1c7f02ffcbb261389b417ef7e19b3487c0c44",
+  "seventy_digit_inverse_controls": [
+    {
+      "theta": "0",
+      "error": "0.0"
+    },
+    {
+      "theta": ".03",
+      "error": "1.216856876217339474384037904713047020529215129749946694225163875835083e-71"
+    },
+    {
+      "theta": ".12",
+      "error": "1.8111358157653424735018238581775583561365062396278276379165229779871e-71"
+    },
+    {
+      "theta": "10",
+      "error": "2.289275671127392886506305356736433762156543886889574134326485044175695e-68"
+    }
+  ],
+  "seventy_digit_irrational_near_alias_phase_error": "0.000160277161995377202056606146726737405388595158008079418478206469308581",
+  "bounded_delay_inequality_checks": 300,
+  "maximum_bound_violation": 0.0,
+  "nonlinear_delay_endpoint_error": 1.4988010832439613e-15,
+  "nonlinear_delay_tangent_error": 2.3363089241001944e-11,
+  "omitted_clock_gradient_error": 0.05161520491112093,
+  "unrestricted_differentiation_instability": [
+    {
+      "frequency": 1001,
+      "output_sup_error": 0.000999000999000999,
+      "response_second_derivative_term": 92.39999999999999
+    },
+    {
+      "frequency": 10001,
+      "output_sup_error": 9.999000099990002e-05,
+      "response_second_derivative_term": 923.1692307692307
+    },
+    {
+      "frequency": 100001,
+      "output_sup_error": 9.99990000099999e-06,
+      "response_second_derivative_term": 9230.861538461537
+    }
+  ],
+  "physical_calibration": false,
+  "empirical_fit": false,
+  "holdout_accessed": false
+}
