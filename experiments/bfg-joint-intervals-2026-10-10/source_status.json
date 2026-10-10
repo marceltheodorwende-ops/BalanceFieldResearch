@@ -1,0 +1,16 @@
+{
+  "active_math_sha256": "1ad084a50c91a0827dd735d7cb8f666dc9e0c2552ed06b616cef28975babbdba",
+  "source_commit": "cbf82673641ecd65e902ad5c38a048387649a2a0",
+  "recordings_sha256_git_blob_verified": 15,
+  "allowed_attempt": 1,
+  "rows": 90000,
+  "source_metadata": "P65 pinned evidence reused",
+  "new_manufacturer_claims": false,
+  "holdout_access": false,
+  "eeg_access": false,
+  "workflow_queued": 0,
+  "workflow_in_progress": 0,
+  "empirical_workflow_started": false,
+  "local_development_analysis": "completed; one package",
+  "actual_device_calibration": false
+}

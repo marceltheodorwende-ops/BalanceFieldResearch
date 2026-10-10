@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "synthetic_cases": 1000,
+  "energy_identity": true,
+  "canonical_tangent_determinant": 0.030628639136540615,
+  "canonical_tangent": [
+    [
+      0.1638633166109837,
+      0.22386652841926666
+    ],
+    [
+      0.05302101988877368,
+      0.25935195058440946
+    ]
+  ],
+  "canonical_successor": [
+    0.12810140237324702,
+    0.17824635922330095
+  ],
+  "finite_difference_error": 1.4748147147969348e-11,
+  "ambient_svd_error": 1.1102230246251565e-16
+}
