@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "synthetic_only": true,
+  "endpoint_cases": 1000,
+  "maximum_interval_width": 0.4628874488735881,
+  "canonical_successors": [
+    0.004873404453754754,
+    0.005234458171130048
+  ],
+  "canonical_counts": [
+    0,
+    1
+  ],
+  "invalid_duration_cases": 3,
+  "acceleration_sequence": [
+    0.0625,
+    1.1363636363636365,
+    12.376237623762377,
+    124.87512487512487,
+    1249.87501249875
+  ]
+}

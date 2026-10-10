@@ -1,0 +1,16 @@
+{
+  "active_math_sha256": "1ad084a50c91a0827dd735d7cb8f666dc9e0c2552ed06b616cef28975babbdba",
+  "access_date": "2026-10-10",
+  "primary_product_url": "https://www.pasco.com/products/sensors/wireless/wireless-rotary-motion-sensor",
+  "operation_url": "https://www.pasco.com/support/knowledge-base/8",
+  "manual_url": "https://cdn.pasco.com/product_document/013-15949A_PS-3220_WI_RMS_REF_GUIDE_11-28-18.pdf",
+  "manual_byte_hash": null,
+  "manual_evidence": "browser extracted text; not visual verification",
+  "local_manual_fetch": "failed proxy connection, no bytes acquired",
+  "workflow_in_progress": 0,
+  "workflow_queued": 0,
+  "dataset_recordings_read": 0,
+  "holdout_access": false,
+  "dataset_metadata_provenance": "P65 pinned cbf82673641ecd65e902ad5c38a048387649a2a0 reused; not freshly hashed in P72",
+  "empirical_experiment_started": false
+}

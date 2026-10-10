@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "exact_vertex_cases": 200,
+  "symbolic_acceleration_identity": true,
+  "symbolic_unbounded_force_limit": true,
+  "symbolic_midpoint_bound": true,
+  "synthetic_only": true
+}
