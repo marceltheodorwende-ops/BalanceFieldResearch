@@ -16,7 +16,7 @@ def run(data):
     if (ROOT/'results.json').exists():
         old=json.loads((ROOT/'results.json').read_text());results=old['results'];resume=len(results)
         certs=json.loads((ROOT/'certificates.json').read_text())
-        print(json.dumps({'resume_cases':resume,'bounded_retry':'single native-solver thread'}),flush=True)
+        print(json.dumps({'resume_cases':resume,'bounded_retry':'explicit highs-ipm; single native-solver thread'}),flush=True)
     case_number=0
     for name in sorted(ALLOW):
         raw=(data/name).read_bytes();sha=hashlib.sha256(raw).hexdigest();blob=hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()
@@ -44,7 +44,7 @@ def run(data):
             if outer_state!='excluded_exact':
                 ri=inner.solve(q,w,e[0],ew,A[0]);ci=inner.inner_certificate(ri,q,w,e[0],ew,A[0])
             inner_state='strict_path_exact' if ci else 'not_constructed' if ri is None or ri.status==2 else 'inconclusive'
-            case={'file':name,'N':N,'ew':float(ew),'B':int(B),'eta':0,'angle_error_upper':float(e[1]),'acceleration_upper':float(A[1]),
+            case={'file':name,'solver_method':'highs-ipm','N':N,'ew':float(ew),'B':int(B),'eta':0,'angle_error_upper':float(e[1]),'acceleration_upper':float(A[1]),
                   'clock_cos_corridor':corridor,'outer_status':outer_state,'outer_solver_status':int(ro.status),'outer_phase1':float(ro.x[-1]) if ro.success else None,
                   'inner_status':inner_state,'inner_solver_status':int(ri.status) if ri is not None else None,'inner_sigma':float(ri.x[-1]) if ri is not None and ri.success else None,
                   'exact_outer_margin':co['margin'] if co and co['positive'] else None,'exact_inner_margin':ci['minimum_normalized_margin'] if ci else None}

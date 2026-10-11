@@ -75,7 +75,7 @@ class System:
     else:
         bounds=[(None,None)]*(2*self.K)+[(0,1)]
         c=np.r_[np.zeros(2*self.K),-1.];M=hstack([self.G,scale[:,None]],format='csr')
-    result=linprog(c,A_ub=M,b_ub=bfloat,bounds=bounds,method='highs',options={'time_limit':5.,'threads':1,'dual_feasibility_tolerance':1e-9,'primal_feasibility_tolerance':1e-9})
+    result=linprog(c,A_ub=M,b_ub=bfloat,bounds=bounds,method='highs-ipm',options={'time_limit':5.,'threads':1,'dual_feasibility_tolerance':1e-9,'primal_feasibility_tolerance':1e-9})
     return result
  def outer_certificate(self,result,q,w,e,ew,A):
     if not result.success:return None

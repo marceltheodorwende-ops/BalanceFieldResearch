@@ -1,66 +1,161 @@
 {
-  "status": "partial; all certificates retained locally",
-  "count": 12,
+  "status": "complete; all30 exact certificates included in compressed archive",
+  "count": 30,
+  "archive": "certificates.json.gz",
+  "sha256_archive": "3a01eaba3ab9678839523afc06f5163da1b11310c137c34889449f69b576b30d",
+  "sha256_uncompressed": "b9343472782543eed242c019dd5f31630310767eb3ba163fa92798601e41ea67",
+  "uncompressed_bytes": 3321199,
+  "archive_bytes": 607621,
   "certificates": [
     {
       "case": 2,
       "kind": "inner",
-      "sha256_canonical_json": "e82a82cfc853ab519536608b7d553760e15c8a397694b3d3eb8aca8a81c103c1"
+      "sha256_canonical_json": "6a36645fa372efda5eeed7c312d38a8cae601388ee1bd469b6b4d91effbacfd8"
     },
     {
       "case": 3,
       "kind": "inner",
-      "sha256_canonical_json": "39bfaa2bd2d1518df35ab56201952087cd60801a5a385aefea70c1dd6b50cb2d"
+      "sha256_canonical_json": "811f0433d457cdbe4d940306fdd2f43948d0ce0759f008d74a731cd4b398e289"
     },
     {
       "case": 10,
       "kind": "inner",
-      "sha256_canonical_json": "b9a563fd4b02994a5541f2d26d1647b9f6a61223cd35fd0b9ead76255212f040"
+      "sha256_canonical_json": "aea5c7aa2f6d7f485c5820cf14adac08d334e673a0eb4becac2953702572db25"
     },
     {
       "case": 11,
       "kind": "inner",
-      "sha256_canonical_json": "eb85dae0293b3e16814d76a6b732df8b009d1f3e9a7c4f16411e98016905ede7"
+      "sha256_canonical_json": "31cb992b4cde42f79284e56136f711e9d17823194851bc8c2551a340ae032014"
     },
     {
       "case": 18,
       "kind": "inner",
-      "sha256_canonical_json": "6d48b0a66b0708272ba705c3e229b941a2d3c7fe3c3ac5817b71ee5324a5cbb1"
+      "sha256_canonical_json": "bda20c00f397ff7155e0d9ce82ff6848e8ad8031729dac8bd1821fd856db72ee"
     },
     {
       "case": 19,
       "kind": "inner",
-      "sha256_canonical_json": "c64ab3641a38214bf0182ddfe846f85fc372fe982609ae5d50b46e7a8cb2db54"
+      "sha256_canonical_json": "cb00e4ec8c0e8d0cc7092a643644060aa811ae9777c4fe47c54c3ec41e01e343"
     },
     {
       "case": 26,
       "kind": "inner",
-      "sha256_canonical_json": "a0382be66c969b55047b2e1718e3eaa69ac2fd4f33a76dc77bab49821438e009"
+      "sha256_canonical_json": "7db2af8cd7f5f01329003ceb491d4a9c6a2b23d0c016264db85eb7831cd3fb67"
     },
     {
       "case": 27,
       "kind": "inner",
-      "sha256_canonical_json": "b61d49ef2fdbf5d55d8a3e2102497dcaa5b2fac50a0e8945e5f034dc983a9bb4"
+      "sha256_canonical_json": "5cad737fb032fb88c6686d68dfeeafbb2ef70a0133f850f421eb2fc4ad506b25"
     },
     {
       "case": 34,
       "kind": "inner",
-      "sha256_canonical_json": "9268db2709e701d6c56ababf75d9a9af84aa24769189fec02e6d1dde589e24e3"
+      "sha256_canonical_json": "fc0e33ab1196f7c61a0022b4d1834e58aaeb2032070bfe5a8210c09b609928c6"
     },
     {
       "case": 35,
       "kind": "inner",
-      "sha256_canonical_json": "6845c64b1129dae4885bba287e3b35ac123c6762e3e3a62faaff349ddc2d6be6"
+      "sha256_canonical_json": "6b342fafdf6418530b6aed7f132fa8a4d69a0d4215592b31f25bb681240dba65"
     },
     {
       "case": 42,
       "kind": "inner",
-      "sha256_canonical_json": "97f0e10408070b68f1efce0992f16b0fa75b199020f7155e475b02777a8925d9"
+      "sha256_canonical_json": "e0333e4cee37a4dc04685ec9a935080eb47de3dc32c68fc9dfa938b8b1906aff"
     },
     {
       "case": 43,
       "kind": "inner",
-      "sha256_canonical_json": "619f24b62548fd98964074891ac9ebdcb198f282c3db42af57cf7209fc3e446c"
+      "sha256_canonical_json": "339be7cfe61dc0a56028748c14724683c0c675c5f90f55e4f2dd2ed28c6fca4c"
+    },
+    {
+      "case": 50,
+      "kind": "inner",
+      "sha256_canonical_json": "3d99c5ad619b149bf7beabee4e2d95b2c903a839b02dc49e05467584df197d5e"
+    },
+    {
+      "case": 51,
+      "kind": "inner",
+      "sha256_canonical_json": "cdebcb1ff7c5913e3fef3682ed2bd230280930361e7bc80a477eb1177b5c88dd"
+    },
+    {
+      "case": 58,
+      "kind": "inner",
+      "sha256_canonical_json": "63c777fcfd58209cb95af65cc3ba5c34d81d9737d16ae4b936b89a0066aeaa86"
+    },
+    {
+      "case": 59,
+      "kind": "inner",
+      "sha256_canonical_json": "0424a9e9265fb73ba8bea34480f5711f7dab00169752dc9ca5dd83369f5a0538"
+    },
+    {
+      "case": 66,
+      "kind": "inner",
+      "sha256_canonical_json": "fc53d274ae9d958e87074d9ff505c5baaab55b3dd0e31942e82991d7f4df8244"
+    },
+    {
+      "case": 67,
+      "kind": "inner",
+      "sha256_canonical_json": "9163620c23c1351960fa7d1a8dfcbd2140211541803a01140db52f633028f21d"
+    },
+    {
+      "case": 74,
+      "kind": "inner",
+      "sha256_canonical_json": "7b44588003e6e84a97bbb715c617e0538ca71d4f75f9a0b0a54a2b8c1e8f7a7d"
+    },
+    {
+      "case": 75,
+      "kind": "inner",
+      "sha256_canonical_json": "e902e3e8f0c01358e8ffacc7b55ce8c74c05dabce13abda9dbec5a7828a520a7"
+    },
+    {
+      "case": 82,
+      "kind": "inner",
+      "sha256_canonical_json": "28fc42680e4ba82e9e7aaa8b4c4a19ab12a2cc1efb7fc0e99be2b22e81ce9b65"
+    },
+    {
+      "case": 83,
+      "kind": "inner",
+      "sha256_canonical_json": "74b2ede9008ca169135d80b096f27e308d85b89eb43001028d85f8c58ab66dab"
+    },
+    {
+      "case": 90,
+      "kind": "inner",
+      "sha256_canonical_json": "1a5c44a354bfb780ced2336c690a703e49f12015762494a3a62f5b11869b98e3"
+    },
+    {
+      "case": 91,
+      "kind": "inner",
+      "sha256_canonical_json": "0dac34989eb007ca0f674b0401f6cbcbb078eefa95a61de0a267d983c5cf9b8b"
+    },
+    {
+      "case": 98,
+      "kind": "inner",
+      "sha256_canonical_json": "c55edfdc905cd03b0ccb72b40eaedab1260cc7625f801515f4ddadc6ee53b101"
+    },
+    {
+      "case": 99,
+      "kind": "inner",
+      "sha256_canonical_json": "70beb64f6d02cc895b5a6f9b88450fc316e56fcaa6a99f4900cd8ea5baf72591"
+    },
+    {
+      "case": 106,
+      "kind": "inner",
+      "sha256_canonical_json": "4e029b2526e07d16c7f3a40b7449822f32a64acb99cc1294027adb504d2cf976"
+    },
+    {
+      "case": 107,
+      "kind": "inner",
+      "sha256_canonical_json": "38abd00f8900b3a685c02a877db2294f080043c95d326646ced4b6e3213833ac"
+    },
+    {
+      "case": 114,
+      "kind": "inner",
+      "sha256_canonical_json": "8f76a829fb622a693088761ce07a217d7b42df216a5c6248c9b4c41cc5670de1"
+    },
+    {
+      "case": 115,
+      "kind": "inner",
+      "sha256_canonical_json": "cf77137d2c079fdc872b3e9c83d07557e1e20d1a1cac75321d34637927cd2822"
     }
   ]
 }

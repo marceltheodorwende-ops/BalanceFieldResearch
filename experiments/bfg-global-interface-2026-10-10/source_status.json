@@ -1,0 +1,15 @@
+{
+  "active_paper_sha256": "1ad084a50c91a0827dd735d7cb8f666dc9e0c2552ed06b616cef28975babbdba",
+  "sole_active_source": "Dynamic Order8Oct2026",
+  "source_data_commit": "cbf82673641ecd65e902ad5c38a048387649a2a0",
+  "allowed_records": 15,
+  "holdout_accessed": false,
+  "scipy": "1.17.0",
+  "numpy": "2.3.5",
+  "final_solver": "highs-ipm",
+  "precise_native_defect_identified": false,
+  "native_boundary_reproduced": true,
+  "full_grid_and_all_certificates_verified": true,
+  "new_automation": false,
+  "new_actions_experiment": false
+}

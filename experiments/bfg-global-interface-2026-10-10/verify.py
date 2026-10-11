@@ -32,7 +32,8 @@ for j in range(K-1):
 assert maxq<e and maxw<ew and maxa<acc
 mq=e-maxq;mw=ew-maxw
 # Simple conservative mollifier radius: delta <= mq/A and mw/A, with tiny cap.
-delta=min(F(1,10**6),mw/(2*acc),mq/(2*acc))
+delta=F(1,10**6)
+while acc*delta>=mw or acc*delta*delta/2>=mq:delta/=2
 assert acc*delta<mw and acc*delta*delta/2<mq
 mp.mp.dps=80
 m=lambda f:mp.mpf(f.numerator)/f.denominator

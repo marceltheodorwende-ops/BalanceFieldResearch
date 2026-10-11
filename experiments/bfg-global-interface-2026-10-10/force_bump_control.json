@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "control": "symbolic compact C3 polynomial bump; smooth cutoff existence in proof",
+  "center_position_velocity": [
+    0,
+    0
+  ],
+  "center_acceleration": 2,
+  "endpoint_derivatives_order_0_through_3": 0,
+  "synthetic_only": true
+}

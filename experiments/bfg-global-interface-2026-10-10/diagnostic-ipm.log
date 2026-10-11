@@ -1,0 +1,10 @@
+{"case": 47, "file": "len2_cond3_1.csv", "N": 4000, "ew": 0.2, "B": 0, "method": "highs-ipm"}
+build outer
+native enter outer
+/workspace/bfg-global-interface/diagnose.py:17: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  def solver(*args,**kw):kw['method']=method;return base(*args,**kw)
+{"kind": "outer", "status": 0, "success": true, "elapsed": 0.18829727597767487}
+build inner
+native enter inner
+{"kind": "inner", "status": 2, "success": false, "elapsed": 0.6302596240420826}
+diagnostic completed
