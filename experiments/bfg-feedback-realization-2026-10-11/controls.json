@@ -1,0 +1,11 @@
+{
+  "kind": "synthetic mathematics control",
+  "long": "224/675",
+  "trans": "16/135",
+  "determinant": "3584/91125",
+  "baseline_input": "29/90",
+  "endogenous_fd_error": 3.371883328107117e-11,
+  "feedback_tangent_max_error": 3.3306690738754696e-16,
+  "rival_and_clock_cases": 6,
+  "empirical_confirmation": false
+}

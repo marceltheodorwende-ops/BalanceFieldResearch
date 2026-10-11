@@ -1,0 +1,42 @@
+# P75 — Local feedback realization and force-selection boundary
+
+## Frozen question and completion rule
+Dependency: P74's completed restricted commuting focus obstruction. Determine whether an explicitly declared state-dependent pre-input can remove that obstruction and realize a full nonlinear pendulum endpoint map. Require an analytic construction, full derivative, domain/gauge/unit checks, alternatives and independent controls before publication. This is a mathematical bridge investigation; no empirical fit or holdout access is permitted in this package.
+
+Sole source: Dynamic Order, 8 October 2026, SHA256 1ad084a50c91a0827dd735d7cb8f666dc9e0c2552ed06b616cef28975babbdba. Part I 22–23, 62–64 and Appendix A; Part II 83–85 (121–143), 88.1–88.3 (153–158), 89 (161–162), 90.1 (163–164). The variable two-component policy below is NEW, not Theorem 7's constant scalar input and not an autonomous canonical axiom.
+
+## Canonical local inverse
+Fix P=I, rhoW=I/2, rhoF=diag(F,F), F>0, and K with two distinct ordered eigenvalues. Let x_i=tr(P_i(K)Y), 0<x_i<1. All supports persist, complement is empty, dual loads are positive, and the canonical quotient successor has geometry
+
+L_C=sum_i F/(1+x_i), L_B=sum_i F*x_i^2/(1+x_i), alpha=L_B/(L_C+L_B), g_i(x)=(alpha+(1-alpha)*x_i^2)/(1+x_i)^2.
+
+These are quotient coordinates, including at equal geometry eigenvalues; no differentiability of a chosen degenerate SVD frame is asserted. K, formation and witness remain neutral on this family.
+
+At x0=(1/2,1/2), y0=g(x0)=(8/45,8/45). The endogenous derivative J=Dg(x0) has longitudinal eigenvalue 224/675 and transverse eigenvalue 16/135, hence determinant 3584/91125>0. These follow by differentiating all load terms: longitudinal f'(x), f=2x^2/((1+x)^2(1+x^2)); transverse 2x(1-x)/((1+x)^3(1+x^2)). The inverse function theorem supplies open neighborhoods U of x0 and V of y0 with a unique smooth inverse h:V->U. Shrink U within (0,1)^2. This is a local inverse, not a global controllability theorem.
+
+## Exact nonlinear construction
+Declare a linear physical chart Pi(y)=S(y-y0)=(q,w), S=diag(a,b), a>0 in radians per dimensionless geometry, b>0 in radians/second per dimensionless geometry. Declare a positive constant event duration tau in seconds. Declare a smooth target vector field H with H(0)=0 and local time-tau flow Phi. These are additional physical hypotheses. By continuity, shrink a neighborhood D of y0 so Z(y)=y0+S^-1 Phi(Pi(y)) belongs to V. Define
+
+d(y)=h(Z(y))-y, T(y)=g(y+d(y)).
+
+Then T(y)=Z(y), so Pi(T(y))=Phi(Pi(y)) EXACTLY, not merely to first order. At y0, d=(29/90,29/90)>0; continuity allows D to be shrunk so both input components remain positive, y remains in (0,1)^2 and y+d(y) in U. Thus every specified event is nonterminal. Policies are functions of the ordered spectral invariants, so simultaneous unitary changes preserve them. Neutral K/F labels are fixed preparation data; terminality is constant on these restricted fibers. The policy quantifier is this ONE specified feedback, not every admissible input.
+
+Differentiate the construction: Dd=Dh(Z) S^-1 DPhi(Pi(y)) S-I; Dg(y+d)(I+Dd)=S^-1 DPhi(Pi(y))S. At equilibrium, Dd(y0)=J^-1 S^-1 exp(tau DH(0))S-I. Consequently the full coupled Jacobian is similar to exp(tau DH(0)). Freezing d while differentiating would incorrectly restore P74's obstruction. Both observable directions have full rank because S is invertible. Nonlinearity is in the feedback, with a simple linear readout.
+
+For the additionally postulated sine pendulum H(q,w)=(w,-kappa sin(q)-gamma w), kappa>0 in second^-2, gamma>=0 in second^-1, the construction satisfies the full nonlinear sine law at event endpoints. It makes no claim about an internally defined between-event BFG flow: interpolation is the declared target flow. Under 0<=gamma<2 sqrt(kappa), eigenvalues at zero are complex off resonance and repeated scalar at resonance, now allowed by feedback.
+
+## Stability and units, with explicit range
+Stability means Lyapunov stability of this specified geometry feedback near y0, not full-state contraction or robustness to arbitrary policy errors. Choose a small target energy sublevel E=w^2/2+kappa(1-cos q), entirely inside Pi(D), with |q|<pi. E'= -gamma w^2<=0; such sublevels are forward invariant, giving indefinitely repeated nonterminal events with t_k=t_0+k tau and no finite-time event accumulation. For gamma>0 the only invariant subset of w=0 in this sublevel is (0,0); LaSalle gives local asymptotic convergence. For gamma=0 E is conserved and supplies Lyapunov stability without asymptotic convergence. K/F directions remain neutral. The sublevel exists by continuity and strict margins, but no numerical physical neighborhood radius is claimed.
+
+E has units radian^2/second^2 (radians conventionally dimensionless). Actual joules require independently calibrated inertia I, with energy I E; torque=-I kappa sin q-I gamma w. These constants, tau and chart gains are NOT derived by BFG. Resource accounting for d(y) is absent from the paper and remains an extra environmental assumption. The local feedback may be impractical or expensive; positivity does not certify an energy budget. No perturbation tolerance or instrument calibration is inferred.
+
+## Explicit rival and non-selection proof
+Repeat the identical inverse construction with H_c(q,w)=(w,-c*kappa sin q-gamma w), any c>0, using possibly a smaller common neighborhood for two fixed choices c=1 and c=2. Both policies have the same preparation y0, baseline positive input 29/90, chart and clock and use the identical canonical g; both close exactly. At q!=0 with sin q!=0 their accelerations differ by -kappa sin q. Therefore the canonical kernel plus permission to choose this feedback does NOT select c=1 or a unique force law. The force is embedded in the extra policy through Phi, rather than derived internally or merely hidden in a readout. Different known policies are distinguishable hypotheses, not an assertion that identical measured interventions produce both laws. A known physically constrained policy could remove this freedom; those constraints require independent evidence.
+
+Failure boundaries: inverse may fail away from U; load/selection boundaries excluded; F=0 fails the gate; K label collision removes this chart; singular a or b destroys rank two; tau=0 fails positive-clock premise. Constant input is a special constrained case for which P74 remains valid. The scalar constant-input 16/27 contraction theorem cannot be applied to this variable feedback. Undamped dynamics are not asymptotically stable. No universal force, stability, noncommuting no-go or physical confirmation is claimed.
+
+## Accompanying whole-paper and level search
+Ambient kernels, polar/inheritance differential chain and quotient provide g and its endogenous derivative; exact load/formation/witness balances and finite seed capacity (II86–87) constrain canonical events but do not specify this environment policy or SI gains. Spectral entropy/diversity add observables, not the missing force-selection rule. Independent mediator equations II88.4 are explicitly extra and cannot supply an internal generator. Factor/clock clauses II89 require the exact endpoint identity proved here. Full-persistence tensor lift II90 transports the SAME policy via spectral quotient and the SAME chart/clock on its image, preserving formation and witness normalization and multiplying ranks; by (164) it transports this endpoint identity but also the c=1/c=2 ambiguity. It creates no independent physical calibration or new force selection. Seed replication may terminate T_seeddeg. No hierarchy or fractality is needed for the construction.
+
+## Status and next necessary dependency
+PROVED UNDER DECLARED ASSUMPTIONS: local smooth positive feedback realization of a specified full nonlinear endpoint flow, tangent identity, conditional invariant energy corridor and explicit force-policy non-selection. EXTRA: the variable input rule, target mechanics/flow, chart, seconds, preparation and resource interpretation. No real-data claim. Parent BFG-internal pendulum force, physical calibration and interventions remain OPEN. Next necessary solvable dependency is an independently constrained coupling/preparation/measurement policy (or an autonomous noncommuting carrier) whose force-selection restriction is derived without supplying the desired mechanical flow. A fit to the constructed feedback alone cannot resolve this.
