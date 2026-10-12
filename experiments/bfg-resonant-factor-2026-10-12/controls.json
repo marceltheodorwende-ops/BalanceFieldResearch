@@ -1,0 +1,20 @@
+{
+  "kind": "synthetic_math_and_implementation_controls_only",
+  "precision_digits": 100,
+  "canonical_cases": 9,
+  "gauge_cases": 30,
+  "nonlinear_cases": 9,
+  "max_mp_tail": "0.0000000000000000000000000002385689934976336455899311234328457326803186166117762061991440995173680271675466587074831701898816065",
+  "max_mp_closure": "0.0000000000000000000000000003044026207840962967101597846535888677257745733352047366030872208550546158688107164720773149425746335",
+  "max_gauge_svd_error": 8.954478347457724e-16,
+  "max_five_event_readout_gauge_error": 3.883506363711042e-12,
+  "max_independent_spectral_error": 7.48102101100212e-13,
+  "max_expm_error": 1.2391592069660492e-14,
+  "max_nonlinear_endpoint_error": 8.120521399410108e-13,
+  "max_inverse_residual": 1.6046192152785466e-16,
+  "max_flow_tail_difference": 6.483763179132573e-13,
+  "same_clock_force_difference_at_synthetic_angle": -1.1843327890206166,
+  "empirical_confirmation": false,
+  "physical_calibration": false,
+  "holdout_accessed": false
+}
