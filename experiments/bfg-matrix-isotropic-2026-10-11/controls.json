@@ -1,0 +1,14 @@
+{
+  "kind": "synthetic independent matrix and SVD controls",
+  "cases": 60,
+  "dimensions": [
+    2,
+    3,
+    4
+  ],
+  "max_full_tangent_fd_error": 2.220446049250313e-09,
+  "max_ambient_svd_error": 9.970396181170113e-15,
+  "max_sampled_diameter_ratio": 0.16875568832262455,
+  "even_resonance_full_nonlinear_closure": "unresolved",
+  "empirical_confirmation": false
+}

@@ -1,0 +1,43 @@
+# P76 — Noncommuting full-persistence carrier with isotropic input
+
+## Contract and source
+Following P75, test an input constrained independently of a desired mechanical flow: a constant scalar geometric displacement dI. Determine all fixed geometry spectra, derive the full matrix tangent map and test necessary regular pendulum closure. Completion requires analytic proof, noncommuting numerical/SVD controls, explicit resonance limitations and verified publication/register/mirror. No empirical experiment is selected.
+
+Sole source: Dynamic Order, 8 October 2026, 144 pages, SHA256 1ad084a50c91a0827dd735d7cb8f666dc9e0c2552ed06b616cef28975babbdba. II83–85 (121–143), II88 (153–158), II89 (161–162), II90 (163–164), Part I22–23/62–64 and Appendix A (172–187). The constant matrix input is a declared extension patterned on (155), not an autonomous kernel theorem. No force is inserted in the input.
+
+Assume fixed finite n>=2, P=I, 0<X=Y+dI<I, formation R>0 and normalized witness W>=0, with K arbitrary Hermitian. K,R,Y need NOT commute. Fix d in (0,3/4); d=0 is a separately analyzed autonomous boundary. Geometry is dimensionless; K,R have the paper's formation unit. No SI clock or energy identification is assumed.
+
+## Smooth ambient representative, avoiding degenerate SVD derivatives
+All selection and polar supports equal I, both loads are positive, analysis has full column rank and seed complement is empty. Define C=(I+X)^-1, B=XC, alpha=tr(R X^2(I+X)^-1)/tr(R (I+X^2)(I+X)^-1), beta=1-alpha and M=alpha C^2+beta B^2. Let H=M^(1/2) and T_C=sqrt(alpha) C H^-1, T_B=sqrt(beta) B H^-1. Then T_C^2+T_B^2=I. The canonical quotient successor has the smooth representative
+
+Y'=M, K'=T_C K T_C+T_B K T_B, R'=R, W'=W, P'=I.
+
+Proof: A=[sqrt(alpha)C;sqrt(beta)B], A^*A=M. For an SVD A=U Sigma V^*, U=A V Sigma^-1. Conjugating every successor by V gives Y'=M and the displayed K'; inheritance becomes R,W. This uses the full ambient K transport, NOT the false assumption K stays fixed when it fails to commute with X. All expressions are matrix functions on a positive-definite open region, smooth even at repeated singular values. Simultaneous unitary covariance follows directly.
+
+## Fixed spectra collapse to scalar geometry
+In an eigenbasis of X, set r_i=<i|R|i>>0 and x_i in (0,1). Eigenvalues of M are g_alpha(x_i)=(alpha+(1-alpha)x_i^2)/(1+x_i)^2. Alpha is a positive weighted average of x_i^2/(1+x_i^2), with weights r_i(1+x_i^2)/(1+x_i); consequently 0<alpha<1/2. At FIXED alpha, g'_alpha(x)=2(x-alpha)/(1+x)^3. Its absolute value is strictly below 1 throughout (0,1): if x>=alpha, 2x/(1+x)^3<=8/27; otherwise 2alpha/(1+x)^3<1. On any compact spectral interval the maximum is a q<1. Thus spectral diameter of M is <=q times that of X. Since adding dI does not change diameter and unitary equivalence preserves it, every quotient fixed state must have Y=yI, X=xI. This proof permits eigenvalue reordering and noncommuting R,K; it does not assume g is monotone.
+
+The scalar equation is y=f(y+d), f(x)=2x^2/((1+x)^2(1+x^2)). II88.2 proves the unique positive y for each stated d. At scalar X, T_C,T_B are scalar multiples of I, so K'=K and every R,W is inherited: actual quotient fixed states exist with K,R noncommuting. For d=0 there is NO nonterminal fixed state in this full-persistence class: The diameter argument suffices: a fixed state must be scalar, and f(y)<y for y>0 by (154). No claim of monotonically decreasing largest eigenvalue on every nonscalar event is made.
+
+## Entire endogenous tangent at the scalar fixed point
+Let ell(E)=tr(R E)/tr R for Hermitian E; ell(I)=1. At X=xI, load differentiation (181–182) gives delta alpha=2x/(1+x^2)^2 ell(E), independently of delta R: alpha at scalar X is independent of R. Direct matrix product differentiation yields
+
+delta Y'=a E+b ell(E) I,
+a=2x(1-x)/((1+x)^3(1+x^2)), b=f'(x)-a,
+f'(x)=4x(1-x^3)/((1+x)^3(1+x^2)^2).
+
+Decompose E=ell(E)I+[E-ell(E)I]. The eigenvalue on I is f'(x)>0; on ker ell it is a>0 with real dimension n^2-1. Their ratio is 2(1+x+x^2)/(1+x^2)>2, so they are distinct. This includes two observable anisotropic directions when independently selected by K/R/W; existence of physical angle/velocity readouts is still unproved.
+
+For K transport, write T_j=t_j I+delta T_j. Differentiating sum T_j^2=I gives sum t_j delta T_j=0; hence delta K'=delta K+sum t_j(delta T_j K+K delta T_j)=delta K, even for noncommuting K,E. Delta R'=delta R, delta W'=delta W. Thus the full representative derivative is block diagonal with eigenvalues a, f'(x),1; neither missing load terms nor a frozen formation approximation is used. Smooth invariant factors, or a smooth regular quotient, inherit only these real positive eigenvalues through DPi DT=Mphys DPi. A singular quotient at enhanced symmetry is outside this differentiable assertion; no gauge-frame derivative is used there.
+
+## Pendulum tangent test and the unresolved resonant possibility
+Additional mechanical premise: an underdamped zero equilibrium with Aphys=[[0,1],[-kappa,-gamma]], kappa>0, 0<=gamma<2sqrt(kappa), independently calibrated positive C1 event clock tau*. At that equilibrium, the derivative of state-dependent time contributes F DC=0, so any C1 rank-two closed factor obeys DPi DT=exp(tau* Aphys)DPi. The return eigenvalues are exp(-gamma tau*/2) exp(+-i omega tau*), omega=sqrt(kappa-gamma^2/4). Nonreal pairs are impossible for this carrier. Odd resonances omega tau*=(2j+1)pi have negative eigenvalues and are also impossible. Even resonances omega tau*=2j pi, j>=1, have a POSITIVE repeated scalar return and are NOT ruled out: two directions in ker ell can carry the same eigenvalue a. Matching requires exp(-gamma tau*/2)=a, or possibly f'(x) with adequate multiplicity (its geometry multiplicity is only one), or neutral eigenvalue1 when gamma=0 and a readout uses neutral directions. Neutral directions alone do not prove an evolving physical factor.
+
+For gamma>0 the two-dimensional anisotropic tangent could match an even resonance when gamma/omega=-log(a)/(j pi). This is a necessary compatibility equation, not a calibrated physical prediction or proof of full nonlinear closure. Without independent seconds/damping/phase calibration it cannot be excluded or confirmed. Unlike P74's two distinct scalar eigenvalues, the larger matrix tangent has repeated a, so P74's all-clock obstruction DOES NOT extend here. The full sine law, amplitude-dependent phase, energy, observable chart and interventions remain open at this resonance. No force has been selected merely by the matrix tangent.
+
+## Scope, stability, alternatives and level transfer
+No robust focus realization follows. For geometry with fixed R near the fixed point the derivative has eigenvalues in (0,1), giving local asymptotic stability in a suitable equivalent norm by continuity; this is a local statement on the declared policy, not a uniform global matrix contraction. K/R/W remain neutral. As x approaches0 or1, a or the loads/gaps may degenerate; no uniform inverse/accuracy bound is claimed. F=0, selection crossing, changing rank, seed branches, anisotropic constant input and state-dependent input are outside this proof. R semidefinite can be considered by continuity where loads remain positive, but the stated open regular hypothesis R>0 is retained.
+
+Whole-paper supporting search: exact load/formation/witness balances and spectral entropy/diversity II86, finite seed capacity II87 and independent mediator II88.4 do not impose a physical clock/force selection. Appendix A's invariant-cluster requirement is met by the smooth ambient representative. Factor/clock II89 supplies the necessary endpoint condition; it supplies no generator. Full-persistence lift II90 maps M,K',R,W tensorially, preserving total formation/witness and multiplying ranks. On its image it transfers the same endpoint/tangent restrictions; new free perturbations off the lift image require separate analysis. Seed replication can terminate T_seeddeg. Hierarchy does not cure absent calibration, nor establish physical fractality.
+
+Status: fixed-spectrum classification and complete noncommuting matrix tangent PROVED UNDER stated assumptions; off-resonant and odd-resonant underdamped closure excluded in this class. EVEN RESONANCE remains an explicit unresolved nonlinear/physical question. Parent force law remains OPEN. Next necessary dependency is full nonlinear factor compatibility on the repeated anisotropic eigenspace, together with independently fixed clock/preparation/observable constraints; do not promote tangent compatibility to a solution. Alternative anisotropic inputs need their own policy/resource/source proof.
