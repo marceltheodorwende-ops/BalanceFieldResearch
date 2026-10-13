@@ -1,0 +1,15 @@
+{
+  "kind": "conditional_reused_development_complexity_certificates",
+  "files": 15,
+  "rows": 90000,
+  "scenarios": 120,
+  "minimum_certified_polynomial_degree": 77,
+  "maximum_certified_polynomial_degree": 121,
+  "minimum_log10_LR_cost_specific_a": 5504.584589051392,
+  "maximum_log10_LR_cost_specific_a": 5538.101708449419,
+  "optimal_chains_claimed": false,
+  "model_fitted": false,
+  "independent_confirmation": false,
+  "physical_calibration": false,
+  "holdout_accessed": false
+}

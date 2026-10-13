@@ -1,0 +1,19 @@
+{
+  "kind": "independent_synthetic_and_development_certificate_controls",
+  "rational_noisy_polynomial_cases": 200,
+  "positive_denominator_rational_cases": 200,
+  "exact_interpolation_cases": 7,
+  "principal_kinematic_rank_obstruction_symbolic": true,
+  "rotating_generator_force_identity_symbolic": true,
+  "max_expm_residual": 4.9682480351975755e-15,
+  "smooth_flat_sign_controls": 31,
+  "real_records_checked": 120,
+  "real_chain_edges_checked": 11360,
+  "precision_digits": 100,
+  "minimum_real_chain_margin_mp": "0.0008584073464102067615373566167204971158028306006248941790250554076921835937137910013719651746578829362",
+  "maximum_log_sensitivity_error": "0.00000000000185212212054896305898627314192737673459773531882403354054116189304120089035535026838779440132055691",
+  "skipped_event_denominator_counterexample_preserved": true,
+  "model_fitted": false,
+  "independent_confirmation": false,
+  "holdout_accessed": false
+}
