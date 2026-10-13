@@ -1,0 +1,18 @@
+{
+  "sole_active_source": "papers/dynamic-order-2026-10-08/Balance_Field_Equation_Dynamic_Order.pdf",
+  "sha256": "1ad084a50c91a0827dd735d7cb8f666dc9e0c2552ed06b616cef28975babbdba",
+  "source_sections": [
+    "II83\u201385(121\u2013143)",
+    "II86(144\u2013150)",
+    "II87(152)",
+    "II88(153\u2013159)",
+    "II89(160\u2013162)",
+    "II90(163\u2013164)",
+    "Part I22\u201323(89\u201395)",
+    "Part I62\u201365",
+    "Appendix A(172\u2013192)"
+  ],
+  "physical_calibration": false,
+  "real_data_access": false,
+  "holdout_access": false
+}
