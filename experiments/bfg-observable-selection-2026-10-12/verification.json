@@ -1,0 +1,54 @@
+{
+  "kind": "independent_synthetic_and_selected_development_arithmetic_controls",
+  "rational_monotone_cases": 200,
+  "precision_digits": 100,
+  "exhaustive_triple_oracle_cases": 50,
+  "real_margins_checked": 120,
+  "minimum_real_margin_mp": "0.5508584073464102067615373566167204971158028306006248941790250554076921835937137910013719651746578829",
+  "max_integral_error": "2.232397248598193324640202242783869061429511708638278635185792662553969992005348038428609417695648495e-103",
+  "max_cubic_coefficient_relative_error": 0.001063106652794045,
+  "max_expm_alias_error": 2.043411571127346e-14,
+  "extra_time_ratio_synthetic": 0.37,
+  "finite_alias_count_synthetic": 4,
+  "normalized_half_trace_min_gap": 0.3075675953857838,
+  "synthetic_ratio_interval": [
+    0.369,
+    0.371
+  ],
+  "synthetic_trace_error": 0.01,
+  "synthetic_expanded_trace_intervals": [
+    [
+      -0.6991138083883482,
+      -0.6699533787214192
+    ],
+    [
+      -0.08532680552893265,
+      -0.040244318178770166
+    ],
+    [
+      0.7483619152877219,
+      0.7923908105775883
+    ],
+    [
+      -1.0049510169823,
+      -0.9786517447369141
+    ]
+  ],
+  "synthetic_min_interval_separation": 0.27953793634856583,
+  "independent_mp_interval_containment_checks": 500,
+  "exact_rational_trace_alias_preserved": true,
+  "selected_real_witness": {
+    "file": "len1_cond1_1.csv",
+    "N": 4000,
+    "extra_angle_error": 0.0,
+    "indices": [
+      0,
+      47,
+      98
+    ],
+    "margin_mp": "1.524429203673205103380768678308360248557901415300312447089512527703846091796856895500685982587328941"
+  },
+  "independent_confirmation": false,
+  "physical_calibration": false,
+  "holdout_accessed": false
+}

@@ -1,0 +1,14 @@
+{
+  "kind": "reused_development_necessary_interface_test",
+  "files": 15,
+  "rows": 90000,
+  "scenarios": 120,
+  "affine_rejections": 120,
+  "fixed_a_rejections": 120,
+  "minimum_reversal_margin": 0.5508584073464101,
+  "maximum_reversal_margin": 1.5244292036732052,
+  "independent_confirmation": false,
+  "physical_calibration": false,
+  "canonical_event_alignment_assumed": true,
+  "holdout_accessed": false
+}
