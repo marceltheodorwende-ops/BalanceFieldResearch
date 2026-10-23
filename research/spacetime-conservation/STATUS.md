@@ -515,3 +515,12 @@ Exakte rationale Kanal-/Kommutator-/Rangidentitäten und acht Original-Quellaufr
 
 
 CI Runde 35: Beide Actions-Läufe zu Codecommit f8277d33b8dce8c98006327b92f205aaf7ee3aad vollständig erfolgreich. Alle 35 Audits, sieben Grenztests, Manuskript-Prüfsumme und Artefakte bestanden; exakte Nachweise und Code/Dokumentations-Trennung in CI_VALIDATION.md.
+
+
+## Runde 36: normierte Überlappungsbilanz
+
+[OVERLAP_BALANCE_DERIVATION.md](OVERLAP_BALANCE_DERIVATION.md) erweitert die frühere orthogonale Modenkontinuität auf beliebige feste positive Effekte E_a mit sum E_a=I. Aus demselben Hermiteschen BFG-Krauskanal folgt J_ab=sum Re tr(E_a T E_b[T,K]), J_ab=-J_ba und Delta tr(E_aK)+sum_b J_ab=0. Kohärenzen bleiben im Strom enthalten; keine q-Allein-Geschlossenheit oder physikalische Energie-Deutung behauptet.
+
+Die frühere P_tau-common-line-Familie lässt sich nicht mit endlichen skalaren Gewichten zu I normieren: e1-Erwartung verlangt Gewichtssumme1, Spur verlangt3/2. Alternative Koordinatenpaare erfüllen sum P_ij=(n-1)I und nach Normierung korrekte Gesamtspur; unnormiert würden Bestände n-1-fach gezählt.
+
+Exakte Cover-/Stromidentitäten, nichtkommutierender Effekt-Kontrollfall und acht Original-Quellaufrufe bestanden. Kontinuitätsrest <2.8e-16, Antisymmetrierest <3.7e-17, Eichrest <1.3e-15. Nächste Abhängigkeit: Zuordnung bei wechselnden Effekten und echte Auswahl-/Rangereignisse, anschließend räumliche/zeitliche Deutung. Vollständiger Viererstrom und Einstein bleiben offen. CI separat prüfen.

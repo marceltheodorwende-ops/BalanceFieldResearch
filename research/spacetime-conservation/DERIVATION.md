@@ -192,3 +192,6 @@ Runde 34: [Informationsgehalt beschrifteter Paarfamilien](PAIR_FAMILY_DERIVATION
 
 
 Runde 35: [Nichtskalare Paarfamilien-Nichtgeschlossenheit und native Ergänzung](PAIR_CLOSURE_DERIVATION.md) zeigt echte Fasertrennung nach dem vollen Update und die fehlende Kommutatorkoordinate; der skalare Vorbefund bleibt gültig.
+
+
+Runde 36: [Normierte interne Kontinuität über überlappende Effekte](OVERLAP_BALANCE_DERIVATION.md) korrigiert Doppeltzählung und leitet den antisymmetrischen Strom aus demselben vollen Kernelkanal ab; physikalische Viererbilanz bleibt offen.

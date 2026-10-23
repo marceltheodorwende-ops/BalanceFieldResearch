@@ -74,3 +74,6 @@ Runde 34: [Paarfamilien-Vorabprotokoll](PAIR_FAMILY_PROTOCOL.md), exakte lineare
 
 
 Runde 35: [Vorabprotokoll zur nichtskalaren Paar-Geschlossenheit](PAIR_CLOSURE_PROTOCOL.md), exaktes Kanal-Gegenbeispiel, native Rangergänzung und acht Original-Quellaufrufe.
+
+
+Runde 36: [Vorabprotokoll zur Überlappungsbilanz](OVERLAP_BALANCE_PROTOCOL.md), allgemeiner Hermitescher Strombeweis, exakte Cover und acht Original-Quellaufrufe.
