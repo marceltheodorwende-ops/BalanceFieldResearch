@@ -440,3 +440,6 @@ CI Runde 28: Beide Actions-Läufe zum Codecommit 128633e95ca2169c86afa285893b9c4
 Sechs frische Original-Quellaufrufe und exakte rationale Grenzwerte bestanden. Kernelrest <2.1e-15, Eichrest <8.4e-15, Lückenrest <5.7e-16. Der Gegenzeuge nutzt variierende, nicht gleichmäßig konditionierte Formation; keine Widerlegung formationsabhängiger oder gleichmäßig elliptischer Abschätzungen. Frühere Spezial-/Stoppresultate bleiben gültig.
 
 Nächste Abhängigkeit: nach-dem-Austritt-Kontrolle muss Mischung alpha, interne Paarbreite oder explizite Formationskondition einbeziehen. Allgemeine Trägerauswahl, Raumtransport, physikalische Uhr, vollständiger Viererstrom und Einstein bleiben offen. CI separat prüfen.
+
+
+CI Runde 29: Beide Actions-Läufe zum Codecommit 661e2131935ec6a23597747a131f126677813d2c vollständig erfolgreich. Alle 29 Audits, sieben Grenztests, Manuskript-Prüfsumme und Artefakte bestanden; negatives Forschungsresultat innerhalb des bestandenen Audits ausdrücklich beibehalten. Nachweise in CI_VALIDATION.md.
