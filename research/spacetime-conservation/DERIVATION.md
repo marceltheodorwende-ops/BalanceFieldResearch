@@ -174,3 +174,6 @@ Runde 28: [Endliche obere Aufspaltung und gestoppte untere Paar-Kontrolle](TWO_S
 
 
 Runde 29: [Geordnete Spektrallücke und formationsabhängiger Gegenzeuge](SPECTRAL_GAP_DERIVATION.md): geometrische Kontraktion ist kein formationsunabhängiger kleiner Kohärenzdefekt.
+
+
+Runde 30: [Formationsabhängige Defektschranke](FORMATION_BOUND_DERIVATION.md) ersetzt die widerlegte eta-Allein-Brücke durch aktuelle Mischung bzw. explizite Kondition; Einzelschritt und bedingte Historie werden von offener Summierbarkeit getrennt.

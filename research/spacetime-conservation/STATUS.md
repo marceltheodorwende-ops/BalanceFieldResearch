@@ -443,3 +443,12 @@ Nächste Abhängigkeit: nach-dem-Austritt-Kontrolle muss Mischung alpha, interne
 
 
 CI Runde 29: Beide Actions-Läufe zum Codecommit 661e2131935ec6a23597747a131f126677813d2c vollständig erfolgreich. Alle 29 Audits, sieben Grenztests, Manuskript-Prüfsumme und Artefakte bestanden; negatives Forschungsresultat innerhalb des bestandenen Audits ausdrücklich beibehalten. Nachweise in CI_VALIDATION.md.
+
+
+## Runde 30: formationsabhängige Einzelschrittbrücke
+
+[FORMATION_BOUND_DERIVATION.md](FORMATION_BOUND_DERIVATION.md) leitet mit ell²=alpha/(1-alpha),chi=(y_2-y_1)/ell exakt 1-h<=chi²/2 her. Für F>0, Konditionszahl kappa und volle Dimension n gilt ell²>=M²/[n kappa(1+M)], folglich bei M<=1/2 auch 1-h<=3n kappa eta²/4. Komplexe nichtkommutierende Formation ist eingeschlossen; eine uniforme Konditionsannahme wird nicht als Quellgesetz eingeführt.
+
+Endliche Historien sind durch die entsprechenden Defektsummen begrenzt. Deren allgemeine Summierbarkeit ist weiterhin offen und folgt nicht aus eta-Monotonie allein. Der Gegenzeuge aus Runde 29 bleibt erhalten: chi²->2/5 statt null, kappa ist unbeschränkt.
+
+Neun frische Original-Quellaufrufe n=3,4, kappa=1,4,16 einschließlich drei Eichkontrollen bestanden. Kernelrest <6.6e-16, Eichrest <1.1e-15, Lastrest <2.4e-17. Nächste Abhängigkeit: quantitative Kontrolle der formationsabhängigen Defektreihe aus der vollen Dynamik. Trägerauswahl, Raumtransport, physikalische Uhr, vollständiger Viererstrom und Einstein bleiben offen. CI separat prüfen.

@@ -56,3 +56,6 @@ Runde 28: [Vorabprotokoll für beidseitige Aufspaltung](TWO_SIDED_PAIR_PROTOCOL.
 
 
 Runde 29: [Spektrallücken-Vorabprotokoll](SPECTRAL_GAP_PROTOCOL.md), vorab benannte positive Gegenfamilie, exakte Grenzwerte und sechs Original-Quellaufrufe.
+
+
+Runde 30: [Vorabprotokoll zur formationsabhängigen Schranke](FORMATION_BOUND_PROTOCOL.md), exakte Identität/Grenzverträglichkeit und neun frische Original-Quellaufrufe.
