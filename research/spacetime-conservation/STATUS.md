@@ -381,3 +381,14 @@ Vier frische Randkontrollen à 2000 Ereignisse und zehn Original-Quellaufrufe be
 
 
 CI Runde 24: Beide Remote-Läufe zu Codecommit 7ff76ae4e2bf37d85dd1b1271fa8c3e4e1d44b7a vollständig erfolgreich, einschließlich aller 24 Audits, sieben Grenztests, Manuskript-Prüfsumme und Artefakte. Siehe CI_VALIDATION.md für exakte Runs und Trennung von geprüftem Code und späterer Dokumentation.
+
+
+## Runde 25: untere Gedächtnisschranke auf volle positive Last übertragen
+
+[LOWER_PAIR_LIFT_DERIVATION.md](LOWER_PAIR_LIFT_DERIVATION.md), [Vorabprotokoll](LOWER_PAIR_LIFT_PROTOCOL.md), lower_pair_lift_audit.py und lower_pair_lift_results.json.
+
+In der erklärten n=4-Familie (obere Zweifachentartung, ausgeglichene F-Diagonalblöcke) ist der Bereich s<=1/100,r<=1/4,q=b/r<=1/2 unter der vollständigen positiven-Last-Quelle invariant. Konvexität liefert r_+<=r; ein exaktes rationales Rechteckzertifikat liefert q_+<=q(1-r/2). Damit V=b²/r, V-V_+>=b²/2 und sum b_j²<=2b_0²/r_0. Die lokale transversale Kerneländerung bleibt für alle Ereigniszahlen durch (64/35)b_0²/r_0 mal anfänglichen Offdiagonalnorm beschränkt. Zwei Diagonalkomponenten sind exakt, zwei transversale näherungsweise erhalten.
+
+Vier positive-s-Präfixe mit je sechs Ereignissen bei 500 Dezimalstellen ohne Randersetzung und zehn Original-Quellaufrufe bestanden. Kernelrest <2e-14, Eichrest <1.8e-14, normierter Lastrest <3.7e-12. Hochpräzise skalare Lasten unter dem Original-Rangcutoff sind keine aufgelösten Original-Matrixtrajektorien. Die unendliche Restschranke stammt aus dem exakten Beweis.
+
+Die offene positive-s-Summierbarkeit aus Runde 24 ist für diese Familie geschlossen. Nächste Abhängigkeit: quellenbasierte Auswahl/Isolierung und Robustheit ohne obere Entartung bzw. ausgeglichene F-Blöcke. Frühere obere Verstärkung bleibt gültig. Räumlicher Transport, physikalische Uhr, vollständiger Energie-Impuls-Strom und Einstein-Herleitung bleiben offen. CI dieses neuen Codecommits separat prüfen.

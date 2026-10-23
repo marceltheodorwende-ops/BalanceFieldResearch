@@ -41,3 +41,6 @@ After the first control run passed, extend the investigation (C10) to the exact 
 
 
 Runde 24: [Vorabprotokoll für unteres Paar-Gedächtnis](LOWER_PAIR_MEMORY_PROTOCOL.md). Auswertung und Prüfkorrektur sind in LOWER_PAIR_MEMORY_DERIVATION.md festgehalten.
+
+
+Runde 25: [Vorabprotokoll für den unteren positive-s-Lift](LOWER_PAIR_LIFT_PROTOCOL.md). Exaktes rationales Zertifikat, vier 500-stellige Quellpräfixe ohne Randersetzung, zehn Original-Quellaufrufe; Reichweite in LOWER_PAIR_LIFT_DERIVATION.md.

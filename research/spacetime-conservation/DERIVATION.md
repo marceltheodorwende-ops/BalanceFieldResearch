@@ -159,3 +159,6 @@ No unique such selector, spatial current or source action has been identified in
 
 
 Runde 24: [Uniformes unteres Paar-Gedächtnis](LOWER_PAIR_MEMORY_DERIVATION.md) beweist am relativen Rand summierbare untere Aufspaltung und einen allzeitlich beschränkten lokalen Kerneldefekt. Die exakte positive-Last-Einzelschrittschranke wird von der noch offenen Quellen-Summierbarkeit getrennt.
+
+
+Runde 25: [Positive-Last-Lyapunov-Übertragung](LOWER_PAIR_LIFT_DERIVATION.md) schließt die untere Summierbarkeitslücke in der ausgewiesenen n=4-Familie. Uniforme lokale Kernel-Gedächtnisschranke für die volle Quelle; Auswahl, Transport und physikalischer Viererstrom weiterhin offen.
