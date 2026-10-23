@@ -162,3 +162,6 @@ Runde 24: [Uniformes unteres Paar-Gedächtnis](LOWER_PAIR_MEMORY_DERIVATION.md) 
 
 
 Runde 25: [Positive-Last-Lyapunov-Übertragung](LOWER_PAIR_LIFT_DERIVATION.md) schließt die untere Summierbarkeitslücke in der ausgewiesenen n=4-Familie. Uniforme lokale Kernel-Gedächtnisschranke für die volle Quelle; Auswahl, Transport und physikalischer Viererstrom weiterhin offen.
+
+
+Runde 26: [Einseitige Formationsrobustheit des unteren Paares](LOWER_PAIR_FORMATION_DERIVATION.md) lockert die Blockbalance; exakter negativer Randzeuge begrenzt die alte Hauptkontrast-Monotonie.

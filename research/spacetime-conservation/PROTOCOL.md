@@ -44,3 +44,6 @@ Runde 24: [Vorabprotokoll für unteres Paar-Gedächtnis](LOWER_PAIR_MEMORY_PROTO
 
 
 Runde 25: [Vorabprotokoll für den unteren positive-s-Lift](LOWER_PAIR_LIFT_PROTOCOL.md). Exaktes rationales Zertifikat, vier 500-stellige Quellpräfixe ohne Randersetzung, zehn Original-Quellaufrufe; Reichweite in LOWER_PAIR_LIFT_DERIVATION.md.
+
+
+Runde 26: [Vorabprotokoll zur Formationsrobustheit](LOWER_PAIR_FORMATION_PROTOCOL.md), mit unabhängigem rho-Zertifikat, signed Gegenbeispiel und 14 frischen Original-Quellaufrufen.
