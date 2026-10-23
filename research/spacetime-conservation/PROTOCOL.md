@@ -83,3 +83,16 @@ Runde 37: [Vorabprotokoll zur wechselnden Überdeckung](MOVING_COVER_PROTOCOL.md
 
 
 Runde 38: [Vorabprotokoll zur lokalen Rangereignisbilanz](RANK_LOCAL_BALANCE_PROTOCOL.md), exakter Seed-/Dimensionszeuge, aktive/ambiente Rückzüge und zehn Original-Quellaufrufe.
+
+
+## Runde 39 – Vorabprotokoll: physikalische Bestandsidentifikation
+
+Ausdrücklicher Nutzerauftrag: vorhandene BFG-Bestände auf physikalische Energie/Impuls prüfen. Ausgangs-Head 8189830b17da41e193b1caeb7f64cc16e1d5abc3. Quellenbindung unverändert.
+
+Vor Auswertung festgelegte Hypothesen und Kriterien:
+1. Die direkte Gleichsetzung von K-/Formationsbeständen mit Energie/Impuls muss die Typisierung und Messbrücken aus I41, I55–56, I68.2, I70.1–6 und II86 erfüllen; die bloße Erhaltung einer Spur genügt nicht. Quellenstellen und konkrete Kandidaten getrennt bilanzieren.
+2. Prüfe positive gemeinsame Skalierung S_lambda:(K,F,W,Y,P)->(lambda K,lambda F,W,Y,P). Erwartung: Lasten skalieren, alpha und Analyse bleiben gleich; auch ein eindeutiger Seed skaliert, so dass U_BFG S_lambda=S_lambda U_BFG auf nichtterminalen Strata gilt. Gegenkriterium: ein nichtlinearer Skalendefekt oder veränderte Seed-/Terminalentscheidung. Diese Homogenität wäre eine Kalibrierungsfreiheit, kein allgemeines Energie-No-Go.
+3. Frische proportionale Kontrolle: zwei originale Quellzustände (volle Persistenz und der bereits exakt belegte Rang-/Seedzeuge), jeweils lambda=1 und 3.7; vergleiche alle fünf Ausgangsfelder und Terminalstatus. Keine Wiederholung aller 38 Audits.
+4. Prüfe, welche zusätzlichen Voraussetzungen ein Energieoperator oder Viererstrom benötigt: kalibrierte M_E, Raum-/Uhrabbildung, Symmetrien/Generatoren, geschlossene Dynamik und Auswahl-/Seedbilanz; keine davon nachträglich auf Einstein fitten.
+
+Ergebnisformat: eigener Quellen-/Kandidatenbericht mit Beweis und frischer Kontrollausgabe. Dokumentationsrunde ohne Änderungen an Prüfcode, Workflow oder Quelldynamik; CI des bestehenden Codes bleibt separat ausgewiesen.
