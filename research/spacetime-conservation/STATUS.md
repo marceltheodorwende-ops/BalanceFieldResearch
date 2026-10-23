@@ -210,3 +210,6 @@ Für anfangs diagonale Formation-Populationen ist die ganze effektive Übergangs
 28 vollständige Quellaufrufe in n=3,4,5,6 einschließlich vier Basiswechselkontrollen bestanden; sämtliche Identitätsreste <9.1e-15. Sehr kleine Ferngewichte sind nur absolut kontrolliert. Keine unendliche numerische Fortsetzung oder physikalische Lokalität wird behauptet. CI separat prüfen.
 
 Nächster Schritt: kontrollierte mehrschrittige Reichweite gegenüber dem anfänglichen Referenzgraphen oder eine quellenbegründete räumliche Auswahl. Physikalische Uhr, vollständiger Energie-Impuls-Strom und Einstein bleiben offen.
+
+
+CI-Nachprüfung der Kanal-Komposition: Beide Actions-Jobs zu Codecommit 5aa2bdf8f1f590dda52abd7876a611118c04bbaa erfolgreich. Manuskript-Prüfsumme, alle dreizehn Audits, sieben Grenztests und Artefakt-Upload bestanden. Geprüfter Code und nachfolgende Dokumentation sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
