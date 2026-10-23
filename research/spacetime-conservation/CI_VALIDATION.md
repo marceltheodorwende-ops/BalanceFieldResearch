@@ -101,3 +101,12 @@ All steps passed: pinned manuscript checksum, all eleven research audits, seven 
 The new final audit has 12 path source events, four unitary checks and four disconnected-block source events (20 complete calls). It checks the exact operator cancellation, positive three-node distance-two witness, source population transfer, degree-0/1/2 norm tail bounds and disconnected component stocks. Maximum identity residual is below 2.6e-15.
 All six changed research/workflow files were read back at the tested code commit and matched prepared contents. Preregistered protocol commit: 754383dfef16586e3ebf4e26709e90dd37a66a51.
 Very small longer-path transition estimates are explicitly not exact support/relative-positivity certificates from floating-point source output. The exact theorem refutes only strict one-hop propagation on the declared internal adjacency; physical Lorentz causality, calibrated spatial range and Einstein dynamics are not determined. This later documentation-only record is distinct from the tested code commit.
+
+## Repeated current-Y adjacency evolution
+
+Verified 23 October 2026 for code commit [1c6bb478a2070018e34938ce2309aec6bb119603](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/commit/1c6bb478a2070018e34938ce2309aec6bb119603).
+Both [run 40021044402](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40021044402) and [run 40021037952](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40021037952) completed the finite-controls job successfully.
+Every step passed: pinned manuscript checksum, all twelve research audits, seven boundary tests and artifact upload.
+The new audit checks nine exact rational events with Gershgorin C certificates and exact commutation, nine successive full-source events and three unitary controls (twelve complete calls). Maximum source/rational load residual is below 1.5e-16 and gauge-load residual below 7.7e-16.
+All six changed research/workflow files were read back at the tested commit and matched prepared contents. Protocol commit: 65af91d4f6d78afcc6dec4f87bb5563cc2a4e8d2.
+The all-finite-event persistence of the created edge rests on the explicit endogenous-schedule spectral convexity proof, not on the finite audit or infinite numerical continuation. Current matrix support is not an identified physical metric or Lorentz cone. This later documentation-only record is distinct from the tested code commit.

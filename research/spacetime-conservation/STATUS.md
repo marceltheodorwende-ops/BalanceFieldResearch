@@ -195,3 +195,5 @@ Dabei bleiben alle Spektralprojektoren fest, weil Y_k=phi_k(Y0). Feste Spektrala
 Neun exakte rationale Ereignisse sowie zwölf vollständige Quellaufrufe inklusive Basiswechselkontrollen bestanden; größter Rest <7.7e-16. C-Mitgliedschaft wurde mit rationalen Gershgorin-Schranken kontrolliert. CI separat prüfen.
 
 Ein initialer Referenzgraph kann als deklarierte Historienauslese geprüft werden; das Löschen neu erzeugter Y-Kanten wäre dagegen eine Modelländerung. Nächste Abhängigkeit: kontrollierte mehrfache Kanal-Komposition relativ zu einem solchen Referenzgraphen, ohne aktuelle Matrixsparsamkeit als physikalische Lokalität auszugeben. Raumzeit, physikalischer Viererstrom und Einstein bleiben offen.
+
+CI-Nachprüfung der wiederholten Nachbarschaftsentwicklung: Beide Actions-Jobs zu Codecommit 1c6bb478a2070018e34938ce2309aec6bb119603 erfolgreich. Manuskript-Prüfsumme, alle zwölf Audits, sieben Grenztests und Artefakt-Upload bestanden. Der geprüfte Codestand ist vom späteren Dokumentationscommit in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
