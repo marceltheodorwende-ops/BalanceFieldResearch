@@ -76,8 +76,9 @@ def source_controls():
             f=u@(np.diag(1+delta*eig)+cross)@u.conj().T
             assert abs(np.trace(f@a).real/np.trace(f).real-delta)<TOL
             scale=.001; r=.05; k=initial.copy()
+            y=scale*(np.eye(n)+r*a)
             for event in range(2 if delta==.025 else 1):
-                y=scale*(np.eye(n)+r*a); out=pair_audit.source_aligned(update,k,f,w,y); calls+=1
+                out=pair_audit.source_aligned(update,k,f,w,y); calls+=1
                 sn,rn,h=recurrence(scale,r,delta)
                 predicted=(k+a@k@a)/2+h*(k-a@k@a)/2
                 maximum=max(maximum,float(np.linalg.norm(out['k']-predicted)),float(np.linalg.norm(out['y']-sn*(np.eye(n)+rn*a))))
@@ -85,7 +86,7 @@ def source_controls():
                     g=audit.complex_unitary(rng,n); conj=lambda x:g@x@g.conj().T
                     gout=pair_audit.source_aligned(update,conj(k),conj(f),conj(w),conj(y)); calls+=1
                     gauge=max(gauge,float(np.linalg.norm(gout['k']-conj(out['k']))))
-                scale,r,k=sn,rn,out['k']
+                scale,r,k=sn,rn,out['k']; y=out['y']
     assert calls==12 and max(maximum,gauge)<TOL
     return dict(full_source_calls=calls,maximum_source_recurrence_residual=maximum,maximum_gauge_residual=gauge)
 

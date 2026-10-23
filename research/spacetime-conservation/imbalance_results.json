@@ -161,7 +161,7 @@
   ],
   "source": {
     "full_source_calls": 12,
-    "maximum_source_recurrence_residual": 1.650756557315734e-12,
+    "maximum_source_recurrence_residual": 1.6508222468138163e-12,
     "maximum_gauge_residual": 4.354248909456869e-15
   },
   "scope": "Imbalanced long-time conclusions are boundary-map statements; balanced positive-load lifting is not extended here"
