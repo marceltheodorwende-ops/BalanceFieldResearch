@@ -55,3 +55,5 @@ Geprüfte Fortsetzung vom 23. Oktober 2026: [Herleitung](PAIR_DERIVATION.md), [v
 Damit ist ein konkreter umgebungsabhängiger Zwei-Moden-Faktor vorhanden. Die eindeutige physikalische Auswahl, Uhr, räumlicher Transport und lokale vollständige Energie-Impuls-Erhaltung bleiben offen. Nächster Schritt ist eine begründete, dynamisch erhaltene Paar-/Historienklasse oder eine Herleitung der Übergangs-/Stromregeln für diesen konkreten Faktor. GitHub-CI dieses neuen Codes ist getrennt vom bisherigen ersten Rundencode zu prüfen.
 
 
+
+CI-Nachprüfung der Fortsetzung: Beide Actions-Jobs für Codecommit 73c4035e4e8da390e99f65463596f286a3b8a8b8 erfolgreich; PDF-Prüfsumme, beide Audits und sieben Tests bestanden. Details in [CI_VALIDATION.md](CI_VALIDATION.md).
