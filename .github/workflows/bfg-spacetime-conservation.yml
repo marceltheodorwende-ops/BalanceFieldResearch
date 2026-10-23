@@ -30,11 +30,14 @@ jobs:
       - working-directory: papers/dynamic-order-2026-10-08
         run: sha256sum -c SHA256SUMS
       - run: python research/spacetime-conservation/audit.py
+      - run: python research/spacetime-conservation/pair_audit.py
       - working-directory: research/spacetime-conservation
         run: python -m unittest -v test_audit
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: bfg-spacetime-finite-controls
-          path: research/spacetime-conservation/results.json
+          path: |
+            research/spacetime-conservation/results.json
+            research/spacetime-conservation/pair_results.json
 

@@ -13,6 +13,13 @@ This is the BFG-only research packet authorized by Marcel Theodor Wende on 23 Oc
 - [audit.py](audit.py), [test_audit.py](test_audit.py), [results.json](results.json): executable finite controls.
 - [REVIEW.md](REVIEW.md): verification scope and retained failures.
 
+## Two-mode/environment continuation
+
+[Exact pair-selection limits and environment-assisted factor](PAIR_DERIVATION.md), with [preregistered checks](PAIR_PROTOCOL.md) and [new source controls](pair_results.json). A pure pair and pair-plus-alpha fail autonomous closure; a complementary formation-weighted spectral measure supplies a sufficient closed factor on the full-persistence history domain. No physical clock/current or Einstein completion is claimed.
+
+Run the additional controls with:
+    python research/spacetime-conservation/pair_audit.py
+
 ## Reproduce
 Use Python 3.12 and the adjacent requirements.txt. From the repository root:
     python -m pip install -r research/spacetime-conservation/requirements.txt

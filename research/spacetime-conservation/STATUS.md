@@ -41,3 +41,17 @@ Ein aus BFG ausgewählter **lokaler Zwei-Moden-Ereignisträger mit räumlichem T
 
 Der BFG-Quelltext bestimmt bislang keine eindeutige solche Regel. Eine eingesetzte Lorentz-Signatur, eine per Definition ausgleichende Reservoirvariable oder eine Wirkung mit frei gewählten Zwangsmultiplikatoren schließt diese Lücke nicht. Eine spätere Quelle oder konkrete Auswahlregel kann gezielt gegen die hier veröffentlichten Zeugen geprüft werden.
 
+## Fortsetzung: Zwei-Moden-Träger und geschlossener Umgebungsfaktor
+
+Geprüfte Fortsetzung vom 23. Oktober 2026: [Herleitung](PAIR_DERIVATION.md), [vorab festgelegtes Protokoll](PAIR_PROTOCOL.md), [Prüfcode](pair_audit.py), [Resultate](pair_results.json).
+
+- **Auswahlgrenze:** Das jeweils neu gewählte Paar der zwei kleinsten Y-Eigenwerte muss nach einem BFG-Ereignis ein anderes sein. Ein exakter einfacher-Spektrum-Zeuge zeigt den Wechsel {1,2}->{2,3}.
+- **Lokales Paar allein nicht geschlossen:** Identische komprimierte K,F,W,Y können verschiedene Folgewertе liefern, weil die globalen Formationslasten das Mischgewicht alpha bestimmen. Exakter Unterschied der ersten lokalen Folge-Y-Komponente: 18396/788237.
+- **Paar plus aktuelles alpha ebenfalls nicht autonom:** Ein zweiter rationaler Zeuge hat identisches Paar und alpha=169/723, aber unterschiedliche nächste alpha-Werte und unterschiedliche lokale Y nach zwei Ereignissen.
+- **Konstruktiver Fortschritt:** Paar plus die formationsgewichtete Spektralverteilung des Komplements besitzt eine exakt aus dem vorhandenen BFG-Update abgeleitete geschlossene Folgedynamik auf dem Vollpersistenz-/Historienbereich. Nichtdiagonale Kopplungen von K,F,W zwischen Paar und Rest dürfen dabei vorhanden sein. Die Verteilung liefert alpha und wird durch dieselbe g_alpha-Abbildung fortgeschoben.
+- **Frische Kontrolle:** 12 komplexe Präparationen, 36 Folgeereignisse, vier unitäre Projektionskontrollen; größter Rest <3e-15. Beide Faser-Gegenbeispiele gegen das vollständige Quell-Update geprüft.
+- **Retained correction:** Eine anfänglich zu starke Erwartung an die vollständige Eigenwertreihenfolge wurde durch exakte Rechnung verworfen; die festgelegten Eingaben blieben gleich. Die tatsächlich bewiesene Paarwechsel-Aussage ist in der Herleitung abgegrenzt.
+
+Damit ist ein konkreter umgebungsabhängiger Zwei-Moden-Faktor vorhanden. Die eindeutige physikalische Auswahl, Uhr, räumlicher Transport und lokale vollständige Energie-Impuls-Erhaltung bleiben offen. Nächster Schritt ist eine begründete, dynamisch erhaltene Paar-/Historienklasse oder eine Herleitung der Übergangs-/Stromregeln für diesen konkreten Faktor. GitHub-CI dieses neuen Codes ist getrennt vom bisherigen ersten Rundencode zu prüfen.
+
+
