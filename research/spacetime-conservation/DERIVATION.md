@@ -168,3 +168,6 @@ Runde 26: [Einseitige Formationsrobustheit des unteren Paares](LOWER_PAIR_FORMAT
 
 
 Runde 27: [Negative Formationsrichtung mit anderer Lyapunov-Funktion](LOWER_PAIR_SIGNED_DERIVATION.md): U=q² kontrolliert das untere Paar ohne r-Monotonie; obere Entartung und erklärte Blockform bleiben vorausgesetzt.
+
+
+Runde 28: [Endliche obere Aufspaltung und gestoppte untere Paar-Kontrolle](TWO_SIDED_PAIR_DERIVATION.md), mit allgemeinem positivem F im lokalen Zertifikat und exaktem positiven Bereichsaustritt; keine unbedingte Zukunftsschranke.

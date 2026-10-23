@@ -419,3 +419,12 @@ Zusammen gilt nun eine uniforme lokale Gedächtnisschranke für delta in [-1/8,1
 
 
 CI Runde 27: Beide Actions-Läufe zu Codecommit 1497d48857398607074527a4c2593628f46ffbde vollständig erfolgreich; alle 27 Audits, sieben Grenztests, Manuskript-Prüfsumme und Artefakte bestanden. Exakte Nachweise und Trennung Code/Dokumentation in CI_VALIDATION.md.
+
+
+## Runde 28: endliche obere Aufspaltung, gestoppte untere Kontrolle
+
+[TWO_SIDED_PAIR_DERIVATION.md](TWO_SIDED_PAIR_DERIVATION.md) lockert die obere Lastentartung: vier Lasten 1+r±a und 1-r±b. Für s<=.01,r<=.25,p=a/r<=.5,q=b/r<=.5 zertifiziert eine exakte rationale rho-Hülle auch bei beliebigem F>0 die untere Kontraktion q_+<=q(1-r/2). U=q² kontrolliert sum b_j²<=q_0²/2 und den lokalen Kohärenzverlust <=16q_0²/35 bis einschließlich des ersten Bereichsaustritts. Keine allzeitliche Schranke nach Austritt behauptet.
+
+Exakte volle positive-Last-Quelle r=.1,p=.5,q=.1,s=.001 liefert p_+=.5466189288623009>.5; der Bereich ist nicht invariant. Zwei von vier gestoppten 500-stelligen Präfixen verlassen ihn nach einem Ereignis, zwei bleiben sechs geprüfte Ereignisse darin. Zehn frische Original-Quellaufrufe bestanden: Kernelrest <4.1e-15, Eichrest <3.5e-15, normierter Lastrest <3.5e-13. Allgemeines F stammt aus dem symbolischen rho-Beweis, Originalkontrollen nutzen ausdrücklich die erklärte Kreuzblockfamilie.
+
+Nächste Abhängigkeit: untere Kontrolle nach oberem Bereichsaustritt bzw. andere spektral-geometrische Schranke. Allgemeine Trägerauswahl, Raumtransport, physikalische Uhr, vollständiger Viererstrom und Einstein bleiben offen. CI separat prüfen.

@@ -50,3 +50,6 @@ Runde 26: [Vorabprotokoll zur Formationsrobustheit](LOWER_PAIR_FORMATION_PROTOCO
 
 
 Runde 27: [Vorabprotokoll für signed Formation](LOWER_PAIR_SIGNED_PROTOCOL.md), exakter Zweiniveauvergleich, vier hochpräzise positive-s-Präfixe und acht frische Original-Quellaufrufe.
+
+
+Runde 28: [Vorabprotokoll für beidseitige Aufspaltung](TWO_SIDED_PAIR_PROTOCOL.md), rationales rho-Zertifikat, explizite Stoppregel, exakter Austrittszeuge und zehn frische Original-Quellaufrufe.
