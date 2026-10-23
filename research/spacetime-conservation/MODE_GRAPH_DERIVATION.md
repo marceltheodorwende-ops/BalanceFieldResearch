@@ -117,10 +117,10 @@ Final mode_graph_audit.py run:
 - Two opposite-current graph-fiber witnesses, two triangle events and one nonzero source-current witness: 33 full source calls overall.
 - Exact two-node coefficients, current/stock balance, positivity and chain/triangle incidence kernels.
 - Maximum source-current continuity residual <7.6e-15 and antisymmetry residual <1.1e-15; gauge-current residual <6.2e-16.
-- All other recorded identity residuals <8e-14, below the predeclared 1e-10.
+- All other recorded identity residuals <9e-14, below the predeclared 1e-10.
 - Actual formation-node transfer reaches about 0.03084 in the complex controls. Guessed-current continuity defects are retained as EXPECTED negative results, not hidden as passing currents.
 
-The initial audit passed. Explicit positive-principal-minor and source-current gauge checks were added to document the preregistered positivity/covariance scope, followed by the fresh final run. No source coefficients, inputs or acceptance bounds changed.
+The initial audit passed. Explicit positive-principal-minor, source-current gauge, and independent graph-alpha/load checks were added to document the preregistered scope, followed by the fresh final run. Recomputing the graph alpha independently gives a largest norm-budget residual of about 8.04e-14; the initially rounded documentation bound <8e-14 is corrected to <9e-14 here. The predeclared 1e-10 acceptance criterion is unchanged. No source coefficients, inputs or acceptance bounds changed.
 GitHub CI is recorded separately for the published code commit.
 
 Advanced: a closed internal coherence graph, precise failure of guessed phase currents on its retained mode stocks, and a nonzero antisymmetric source-channel current with exact internal continuity on formation nodes.

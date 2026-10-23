@@ -150,6 +150,8 @@ Konstruktive Alternative direkt aus denselben Quelloperatoren:
 J^Phi_ij=sum_a Re tr(P_i T_a P_j [T_a,K]).
 Dieser Strom ist antisymmetrisch und erfüllt exakt Delta tr(P_i K)+sum_j J^Phi_ij=0 für erhaltene orthogonale Knotenprojektoren. Auf Y-Knoten verschwindet er; auf nichtkommutierenden Formationseigenknoten kann er einen nichtverschwindenden Bestandsaustausch tragen. Ein exakter positiver Zwei-Knoten-Zeuge hat den Fluss 1-31/sqrt(1001)≈0.0201837, ohne erfundene Reservoirvariable.
 
-33 vollständige Quellaufrufe im finalen Audit bestanden; größter Strom-Bilanzrest <7.6e-15, übrige Identitätsreste <8e-14. Algebraische Ketten-/Zyklusgrenzen, Phasen-Faserverlust und die negativen Stromkandidaten bleiben sichtbar. CI separat prüfen.
+33 vollständige Quellaufrufe im finalen Audit bestanden; größter Strom-Bilanzrest <7.6e-15, übrige Identitätsreste <9e-14. Algebraische Ketten-/Zyklusgrenzen, Phasen-Faserverlust und die negativen Stromkandidaten bleiben sichtbar. CI separat prüfen.
 
 Dies ist eine interne Kernel-Kontinuitätsgleichung, noch keine physikalische Energie-Impuls-Erhaltung im Raum. Formationseigenmoden sind bislang keine belegten räumlichen Orte. Nächste Abhängigkeit: notwendige Kohärenzdaten für die Geschlossenheit des Formation-Knotenstroms und eine quellenbasierte, auf Lokalität geprüfte Kanal-Nachbarschaft; physikalische Kalibrierung, Viererstrom und Einstein bleiben offen.
+
+CI-Nachprüfung der Kanal-Kontinuität: Beide Actions-Jobs zu Codecommit c51eb79911c9818002115d8ef5455d38b79dae37 erfolgreich. Manuskript-Prüfsumme, alle neun Audits, sieben Grenztests und Artefakt-Upload bestanden. Die Dokumentationsschranke für den maximalen Normbudget-Rest ist auf <9e-14 präzisiert (final ca. 8.04e-14), unverändert unter 1e-10. Geprüfter Code und spätere Dokumentation sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.

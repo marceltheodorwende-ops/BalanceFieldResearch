@@ -72,3 +72,13 @@ The new final audit includes 24 degenerate-spectrum complex source events, four 
 Numerical spectral grouping is explicitly separated from exact degeneracy. Resolved test gaps exceed grouping tolerance by over 2.3 million; the largest projector residual is below 2e-13.
 All six changed research/workflow files were read back at the tested code commit and matched prepared contents. Preregistered protocol commit: 245be121eeed23028d894cce9ef73c5d715354c4.
 The selector is partial and the four-charge result is sectorial; neither establishes physical event adjacency, spatial transport, calibrated energy-momentum or Einstein dynamics. This later documentation-only verification record is distinct from the tested code commit.
+
+## Internal graph and source-channel continuity
+
+Verified 23 October 2026 for code commit [c51eb79911c9818002115d8ef5455d38b79dae37](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/commit/c51eb79911c9818002115d8ef5455d38b79dae37).
+Both [run 40018200946](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40018200946) and [run 40018190107](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40018190107) completed the finite-controls job successfully.
+All steps passed: pinned manuscript checksum, all nine research audits, seven boundary tests and artifact upload.
+The new audit has 24 complex source events, four extra unitary controls and five prescribed witness events (33 complete calls). It checks closed graph alpha/load evolution, coherence attenuation, exact counterexamples to guessed mode currents, and antisymmetric source-channel current balances on formation nodes. The maximum local source-current continuity residual is below 7.6e-15.
+All six changed research/workflow files were read back at the tested code commit and matched prepared contents. Both protocol commits preceded evaluation; the extended preregistration is 708313be37f6f6935b03020e1790442a8cbac45e.
+The later documentation corrects its rounded overall residual bound to <9e-14, consistent with the final independent graph-alpha norm-budget check (~8.04e-14); no test tolerance or source law changed.
+This is an internal kernel-stock continuity identity, not a spatial energy-momentum current or Einstein derivation. Retained-node/full-persistence assumptions, unknown reduced closure and physical calibration remain explicit. This documentation-only record is distinct from the tested code commit.
