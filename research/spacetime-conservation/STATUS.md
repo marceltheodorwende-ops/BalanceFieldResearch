@@ -551,3 +551,14 @@ Zehn frische Original-Quellaufrufe einschließlich sechs nichtterminaler Teiltr�
 
 
 CI Runde 38: Beide Actions-Läufe zu Codecommit 7d0cc91bf7d1023a9c3cd32f127e52ef5d8722f9 vollständig erfolgreich. Alle 38 Audits, sieben Grenztests, Manuskript-Prüfsumme und Artefakte bestanden; exakte Nachweise und Code/Dokumentations-Trennung in CI_VALIDATION.md.
+
+
+## Runde 39: konkrete physikalische Energie-/Impulsidentifikation
+
+[PHYSICAL_IDENTIFICATION.md](PHYSICAL_IDENTIFICATION.md) prüft die bisherigen Bestände ausdrücklich gegen die eigenen physikalischen Messanforderungen I41/I55–56/I68/I70/II86. Ergebnis: noch keine hergeleitete physikalische Identifikation; Formationseinheit EF, interne Austauschbilanz und algebraischer Lorentzträger reichen nicht aus. M_E, Uhr-/Raum-/Quantenabbildung und unabhängig kalibrierte Messprüfung bleiben notwendig.
+
+Neue exakte Aussage: Für den natürlichen Kandidaten E_act=tr(PK)+tr F heben sich explizite Seedterme auf, aber Delta E_act=tr[K(B4-P)]-ell_F bleibt, B4=sum U_r S4 U_r†. Beim einfachen Rang-eins-Zeugen null, in zwei neuen Originalfällen numerisch -0.01348060647 und +0.02959852861. Diese Gegenkontrollen sind nicht intervallzertifiziert. Der ambiente Kandidat tr K+tr F hat bereits am exakten bisherigen Seedzeugen Defekt31/4. Keine allgemeine Energie-No-Go-Behauptung.
+
+Gemeinsame positive Skalierung von K,F kommutiert exakt mit dem mathematischen Update einschließlich Seed; vier frische Originalaufrufe bestätigen dies bis6.7e-16. Dies zeigt keine vom Kernel gewählte Joule/EF-Kalibrierung, keine physikalische Unmöglichkeit einer Kalibrierung. Insgesamt sieben unterschiedliche neue Quellaufrufe; Fixture-Erfassungswiederholungen getrennt. Nächster physikalischer Schritt: konkrete, vorab festgelegte Energie-/Impuls-Messbrücke und vollständige Bilanz der Auswahl-/Transportreste; mathematisch kann B4-P weiter exakt untersucht werden.
+
+Reine Dokumentationsrunde; kein Audit-/Workflow-/Quellcode verändert und kein neuer Remote-Pass behauptet. CI-Stand des bisherigen Codes bleibt Runde38, separat in CI_VALIDATION.md.

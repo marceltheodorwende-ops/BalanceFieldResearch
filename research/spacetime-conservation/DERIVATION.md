@@ -201,3 +201,8 @@ Runde 37: [Wechselnde Effekte und Zuordnungsbilanz](MOVING_COVER_DERIVATION.md) 
 
 
 Runde 38: [Lokale rechteckige Rangereignisbilanz](RANK_LOCAL_BALANCE_DERIVATION.md) typisiert unterschiedliche Räume und trennt ambiente Kernelspur vom aktiven Bestand; der globale Spurdefekt wird ausdrücklich als bereits bekannt eingeordnet.
+
+
+## Physikalische Bestandsidentifikation (Runde 39)
+
+Siehe [PHYSICAL_IDENTIFICATION.md](PHYSICAL_IDENTIFICATION.md): quellenbasierte Kandidatenmatrix, exakte Seed-Kompensation mit verbleibendem aktiven Transportrest, numerische Gegenkontrollen additiver Gesamtbestände und exakte gemeinsame K/F-Skalierung. Formationseinheiten sind nicht als Joule hergeleitet; M_E, Raum-/Uhr-/Quantenbrücke und vollständiger physikalischer Viererstrom bleiben offen. Keine zusätzliche physikalische Grundgleichung eingeführt.
