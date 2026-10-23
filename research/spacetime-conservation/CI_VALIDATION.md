@@ -126,3 +126,12 @@ Beide [Actions-Läufe 40022721959](https://github.com/marceltheodorwende-ops/Bal
 Der neue lokale Audit prüfte eine exakte symbolische Tensornormidentität, 21 vollständige Quellaufrufe und 27 Bernstein-/Graph-/Tail-Kontrollen. Quellrest <6.5e-15, Kovarianzrest <3.1e-15, kein Schrankenverstoß bei vorab unverändertem 1e-10. Alle sechs geänderten Dateien am obigen Codecommit zurückgelesen und textgleich geprüft. Protokollcommit 8afbb4169cf8b60ee1b67b17f8448ed5a3cc09c1.
 
 Der Tail-Satz betrifft positive unterstützte Kernel auf einem deklarierten internen Graphen. Konservative, zustandsabhängige Schranken begründen keine physikalische Geschwindigkeit oder Einstein-Herleitung. Dieser spätere Dokumentationseintrag ist ausdrücklich vom erfolgreich geprüften Codecommit getrennt.
+
+
+## Eingefrorene Kanal-Interpolation — Code d137dfc1654acde0b7bf0b45c8872b706faf264d
+
+Beide [Actions-Läufe 40023335908](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40023335908) und [40023344779](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40023344779) abgeschlossen mit success. Beide Jobs und sämtliche Schritte erfolgreich: gepinnte Manuskript-Prüfsumme, alle fünfzehn Forschungs-Audits, sieben Grenztests und Artefakt-Upload. Die Jobschritte wurden separat gelesen.
+
+Neuer Audit: exaktes alpha=1/26, exakter negativer Determinant des Halbpotenzzeugen, 16 vollständige Quellaufrufe und positive Zwischenzeit-Gramkontrollen. Lokaler Quellrest <3.5e-15, Kovarianzrest <1.2e-15. Die sechs geänderten Dateien wurden am obigen Codecommit zurückgelesen und textgleich geprüft. Protokollcommit 7b84bfad2026730079567068576d83f815193cfe.
+
+Der negative Halbpotenzbefund ist ein bestandenes Gegenbeispiel gegen den benannten Ansatz, kein Fehler der CI und kein generelles Verbot kontinuierlicher Einbettungen. Positive alternative Pfade wählen keine physikalische Zeit. Dieser spätere Dokumentationscommit ist vom getesteten Codecommit getrennt.

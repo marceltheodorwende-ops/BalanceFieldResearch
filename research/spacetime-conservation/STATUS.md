@@ -240,3 +240,6 @@ Der homogene Schur-Ansatz h_ab(t)=h_ab^t ist nicht allgemein positiv: Ein exakt 
 Zwei explizite positive Alternativen — konvexer Kanalpfad und Winkel-Gram-Pfad — besitzen denselben BFG-Endpunkt, unterscheiden sich aber zu Zwischenzeiten und erfüllen am Zeugen keine homogene Semigruppengleichung. Eine diskrete Kernelabbildung bestimmt dadurch noch keine eindeutige physikalische Zeitinterpolation; keine Alternative wird als zusätzliche Grundgleichung ausgewählt.
 
 Exakte algebraische Zertifikate, 16 vollständige Quellaufrufe und Zwischenzeit-PSD-Kontrollen bestanden; Quellrest <3.5e-15, Kovarianzrest <1.2e-15. CI separat prüfen. Die gemeinsame kontinuierliche Entwicklung von Geometrie und Kernel, die physikalische Uhrkalibrierung und räumliche Interpretation bleiben offen. Nächster konstruktiver Ansatz ist ein begründeter gemeinsamer Grenzbereich oder eine direkte diskrete Zeit-/Stromauswahl aus BFG; eine frei eingesetzte Interpolation schließt diese Lücke nicht.
+
+
+CI-Nachprüfung der Kanal-Interpolation: Beide Actions-Jobs zu Codecommit d137dfc1654acde0b7bf0b45c8872b706faf264d erfolgreich. Manuskript-Prüfsumme, alle fünfzehn Audits, sieben Grenztests und Artefakt-Upload bestanden. Geprüfter Code und nachfolgende Dokumentation sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
