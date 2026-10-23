@@ -44,3 +44,12 @@ Checks include the pinned manuscript SHA256, all five audits, seven boundary tes
 The new clock audit covers 24 complex and three scalar full-source events, exact rational identities and separate 48-step log-domain evaluations. Analytic series truncation bounds are distinguished from floating-point error and source rank limitations.
 All six changed research/workflow files were read back at the tested code commit and matched the prepared contents. Preregistered protocol commit: ea73835d3903d91bd700f94c725cc6e7c2aa2915.
 The scalar Abel coordinate and duration-sum theorems have explicit mathematical proofs; CI success does not supply physical calibration, a continuous spacetime flow or a conserved stress tensor. This later documentation-only record does not change the tested code scope.
+
+## Relational reference frames and quotient-coordinate closure
+
+Verified 23 October 2026 for code commit [1392c40e0e5bf13e83b7af93df6cb181ec8b42a9](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/commit/1392c40e0e5bf13e83b7af93df6cb181ec8b42a9).
+Both [run 40014671628](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40014671628) and [run 40014664143](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40014664143) completed the finite-controls job successfully.
+All steps passed: pinned manuscript SHA256, all six audits, seven boundary tests and artifact upload.
+The new audit covers 24 complex source events, eight additional unitary controls and two prescribed source examples, including Witness fallback (34 full source calls overall). Exact checks cover the Pauli algebra, reference rotation and phase-boundary witness. Largest recorded numerical residual is below 1.5e-13.
+All six changed research/workflow files were read back at the tested commit and matched prepared contents. Preregistered protocol commit: 6b63bb62376cee9b2b1391af8b855c56375bdc3a.
+These checks concern a closed internal relational frame and coordinate factor on the declared class. Physical positions, translation/current maps and Einstein dynamics are not established. This later documentation record does not claim an additional code change was tested.
