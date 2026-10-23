@@ -35,3 +35,12 @@ Every step succeeded: pinned PDF SHA256, all four audits, seven boundary tests a
 The new audit checks exact algebraic certificates and 24 paired events from 12 complex preparations (48 full source calls); maximum numerical residual is below 4e-15.
 All seven changed files were read back from the published code commit and matched prepared contents. The protocol preceded evaluation at d66fe83ee178f525eafc3e94e65e34535cf52d31; its E6 extension transparently records the transported-observable check before the final run.
 The additive-complement obstruction has its stated fixed-linear-charge scope. History-dependent transported charges are retained as a mathematical alternative, without claiming a physical clock, stress current or Einstein derivation. This later documentation record does not extend the tested code scope.
+
+## Positive state durations and scalar unit-tick coordinate
+
+Verified 23 October 2026 for code commit [fe718cde8e7d0eca5eb70cfa82b663a9bcfe2a63](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/commit/fe718cde8e7d0eca5eb70cfa82b663a9bcfe2a63).
+Both [run 40013614105](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40013614105) and [run 40013604909](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40013604909) completed the finite-controls job successfully.
+Checks include the pinned manuscript SHA256, all five audits, seven boundary tests and artifact upload.
+The new clock audit covers 24 complex and three scalar full-source events, exact rational identities and separate 48-step log-domain evaluations. Analytic series truncation bounds are distinguished from floating-point error and source rank limitations.
+All six changed research/workflow files were read back at the tested code commit and matched the prepared contents. Preregistered protocol commit: ea73835d3903d91bd700f94c725cc6e7c2aa2915.
+The scalar Abel coordinate and duration-sum theorems have explicit mathematical proofs; CI success does not supply physical calibration, a continuous spacetime flow or a conserved stress tensor. This later documentation-only record does not change the tested code scope.
