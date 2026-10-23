@@ -55,6 +55,7 @@ jobs:
       - run: python research/spacetime-conservation/lower_pair_memory_audit.py
       - run: python research/spacetime-conservation/lower_pair_lift_audit.py
       - run: python research/spacetime-conservation/lower_pair_formation_audit.py
+      - run: python research/spacetime-conservation/lower_pair_signed_audit.py
       - working-directory: research/spacetime-conservation
         run: python -m unittest -v test_audit
       - uses: actions/upload-artifact@v4
@@ -89,3 +90,4 @@ jobs:
             research/spacetime-conservation/lower_pair_memory_results.json
             research/spacetime-conservation/lower_pair_lift_results.json
             research/spacetime-conservation/lower_pair_formation_results.json
+            research/spacetime-conservation/lower_pair_signed_results.json

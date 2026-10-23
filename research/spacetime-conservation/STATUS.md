@@ -407,3 +407,12 @@ Sechs 500-stellige positive-s-Präfixe à sechs Ereignisse, rationales Zertifika
 
 
 CI Runde 26: Beide Actions-Läufe zum Codecommit 7d160a7e9e804d413cbc24e4d97e343a24ad2319 vollständig erfolgreich. Alle 26 Audits, sieben Grenztests, Manuskript-Prüfsumme und Artefakte bestanden; exakte Laufnachweise in CI_VALIDATION.md.
+
+
+## Runde 27: negative Gewichtsrichtung ohne Hauptkontrast-Monotonie
+
+[LOWER_PAIR_SIGNED_DERIVATION.md](LOWER_PAIR_SIGNED_DERIVATION.md) schließt die bisher offene kleine negative Formationsrichtung -1/8<=delta<=0 in derselben oberen-entarteten Familie. Ein exaktes positives rationales Zweiniveau-Vergleichszertifikat hält r<=1/4 invariant, obwohl r wachsen darf. Die alternative Funktion U=q² liefert U-U_+>=2b² und damit sum b_j²<=q_0²/2. Der lokale transversale Kerneldefekt bleibt für alle Ereigniszahlen <=(16/35)q_0² mal Anfangs-Offdiagonalnorm. Diese Schranke ist schwächer, benötigt aber keine r-Monotonie; die engere nichtnegative Schranke bleibt erhalten.
+
+Vier neue 500-stellige positive-s-Präfixe und acht vollständige Original-Quellaufrufe bestanden. Kernelrest <7.1e-16, Eichrest <2e-15, normierte Last <2.9e-13. Im Originalfall r=.05,delta=-.125,q=.1,s=.001 wächst r auf .05008176369701517, während q fällt. Das alte Gegenbeispiel bleibt bestehen; es wird durch die andere Lyapunov-Funktion umgangen.
+
+Zusammen gilt nun eine uniforme lokale Gedächtnisschranke für delta in [-1/8,1/2] unter den erklärten F-Block- und oberen Entartungsannahmen. Nächste Abhängigkeit: endliche obere Lastaufspaltung und Trägerauswahl. Allgemeines F, Raumtransport, physikalische Uhr, vollständiger Viererstrom und Einstein bleiben offen. CI separat prüfen.

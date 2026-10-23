@@ -1,0 +1,120 @@
+{
+  "status": "PASS",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "seed": 20261118,
+  "certificate": {
+    "numerator_lower": "286991699/163840000",
+    "numerator_mass": "368368301/163840000",
+    "denominator_lower": "201827867821/262144000000",
+    "denominator_mass": "322460132179/262144000000"
+  },
+  "positive_load_prefixes": [
+    {
+      "r0": ".05",
+      "delta": "-.125",
+      "events": 6,
+      "precision_digits": 500,
+      "r_grew": true,
+      "final_s": "6.83008083252869796e-174",
+      "final_r": "0.0510076112322267377",
+      "final_q": "0.073386410541680603",
+      "prefix_sum_b2": "0.000119379480746900095",
+      "remaining_sum_b2_bound": "0.00269278262609604497",
+      "coherence_product": "0.999933961150985703",
+      "all_event_loss_bound": "0.00457142857142857143"
+    },
+    {
+      "r0": ".05",
+      "delta": "-.0625",
+      "events": 6,
+      "precision_digits": 500,
+      "r_grew": true,
+      "final_s": "8.32057785707063413e-174",
+      "final_r": "0.0500555479703244525",
+      "final_q": "0.0735691344735376092",
+      "prefix_sum_b2": "0.0001178420347226791",
+      "remaining_sum_b2_bound": "0.00270620877359272994",
+      "coherence_product": "0.999934877197631929",
+      "all_event_loss_bound": "0.00457142857142857143"
+    },
+    {
+      "r0": ".2",
+      "delta": "-.125",
+      "events": 6,
+      "precision_digits": 500,
+      "r_grew": false,
+      "final_s": "2.1215167056177012e-173",
+      "final_r": "0.184311452072398619",
+      "final_q": "0.0277161328414742869",
+      "prefix_sum_b2": "0.00100453886574044754",
+      "remaining_sum_b2_bound": "0.000384092009843124764",
+      "coherence_product": "0.999257266310752857",
+      "all_event_loss_bound": "0.00457142857142857143"
+    },
+    {
+      "r0": ".2",
+      "delta": "-.0625",
+      "events": 6,
+      "precision_digits": 500,
+      "r_grew": false,
+      "final_s": "4.36466077705141233e-173",
+      "final_r": "0.173312946443896583",
+      "final_q": "0.028790641690254525",
+      "prefix_sum_b2": "0.000981965518027654027",
+      "remaining_sum_b2_bound": "0.000414450524468310967",
+      "coherence_product": "0.999281355971467224",
+      "all_event_loss_bound": "0.00457142857142857143"
+    }
+  ],
+  "source": {
+    "calls": 8,
+    "kernel_residual": 7.038446774289103e-16,
+    "gauge_residual": 1.938199254140863e-15,
+    "normalized_load_residual": 2.849592454037321e-13,
+    "cases": [
+      {
+        "r": 0.05,
+        "delta": -0.125,
+        "r_next": 0.05008176369701517,
+        "q_next": 0.09502137347590724,
+        "r_grew": true
+      },
+      {
+        "r": 0.05,
+        "delta": -0.0625,
+        "r_next": 0.04992486981566522,
+        "q_next": 0.09502134223514108,
+        "r_grew": false
+      },
+      {
+        "r": 0.05,
+        "delta": 0.0,
+        "r_next": 0.049768952969223394,
+        "q_next": 0.09502131099378895,
+        "r_grew": false
+      },
+      {
+        "r": 0.2,
+        "delta": -0.125,
+        "r_next": 0.19652848958116184,
+        "q_next": 0.08007129656230343,
+        "r_grew": false
+      },
+      {
+        "r": 0.2,
+        "delta": -0.0625,
+        "r_next": 0.1941342570780396,
+        "q_next": 0.08007079633956139,
+        "r_grew": false
+      },
+      {
+        "r": 0.2,
+        "delta": 0.0,
+        "r_next": 0.19179748530360113,
+        "q_next": 0.08007029607928805,
+        "r_grew": false
+      }
+    ]
+  },
+  "scope": "Negative block imbalance delta in [-1/8,0], upper degeneracy retained; weaker all-event loss <=16q0\u00b2/35 despite possible r growth."
+}

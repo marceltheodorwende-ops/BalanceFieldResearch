@@ -47,3 +47,6 @@ Runde 25: [Vorabprotokoll für den unteren positive-s-Lift](LOWER_PAIR_LIFT_PROT
 
 
 Runde 26: [Vorabprotokoll zur Formationsrobustheit](LOWER_PAIR_FORMATION_PROTOCOL.md), mit unabhängigem rho-Zertifikat, signed Gegenbeispiel und 14 frischen Original-Quellaufrufen.
+
+
+Runde 27: [Vorabprotokoll für signed Formation](LOWER_PAIR_SIGNED_PROTOCOL.md), exakter Zweiniveauvergleich, vier hochpräzise positive-s-Präfixe und acht frische Original-Quellaufrufe.

@@ -165,3 +165,6 @@ Runde 25: [Positive-Last-Lyapunov-Übertragung](LOWER_PAIR_LIFT_DERIVATION.md) s
 
 
 Runde 26: [Einseitige Formationsrobustheit des unteren Paares](LOWER_PAIR_FORMATION_DERIVATION.md) lockert die Blockbalance; exakter negativer Randzeuge begrenzt die alte Hauptkontrast-Monotonie.
+
+
+Runde 27: [Negative Formationsrichtung mit anderer Lyapunov-Funktion](LOWER_PAIR_SIGNED_DERIVATION.md): U=q² kontrolliert das untere Paar ohne r-Monotonie; obere Entartung und erklärte Blockform bleiben vorausgesetzt.
