@@ -96,3 +96,5 @@ Vor Auswertung festgelegte Hypothesen und Kriterien:
 4. Prüfe, welche zusätzlichen Voraussetzungen ein Energieoperator oder Viererstrom benötigt: kalibrierte M_E, Raum-/Uhrabbildung, Symmetrien/Generatoren, geschlossene Dynamik und Auswahl-/Seedbilanz; keine davon nachträglich auf Einstein fitten.
 
 Ergebnisformat: eigener Quellen-/Kandidatenbericht mit Beweis und frischer Kontrollausgabe. Dokumentationsrunde ohne Änderungen an Prüfcode, Workflow oder Quelldynamik; CI des bestehenden Codes bleibt separat ausgewiesen.
+
+Vor zusätzlicher Kandidatenauswertung: Weil K und F dieselbe Formationseinheit tragen und der bekannte Seedzeuge Delta tr(PK)=-9/4, Delta tr F=9/4 hat, prüfe auch E_act=tr(PK)+tr F und E_amb=tr K+tr F als natürliche ungewichtete Gesamtbestände. Drei neue feste synthetische nichtterminale Teilträgerfälle n=3,4,5, Zufallsseed20261024; keine Parameteranpassung. Ein robuster von null verschiedener Defekt widerlegt universelle Erhaltung dieses Kandidaten, nicht mögliche andere physikalische Brücken. Die zufällige Kompensation im bisherigen Einzelzeugen wird ausdrücklich nicht als allgemeines Gesetz übernommen.
