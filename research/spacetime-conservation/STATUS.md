@@ -323,3 +323,16 @@ Nächste Abhängigkeit: uniforme positive-s-Übertragung der kritischen Familie 
 
 
 CI-Nachprüfung des Formations-Ungleichgewichts: Beide Actions-Jobs zu finalem Codecommit 9db5364c87d760c1b9cbf262ae0a268988fe1341 erfolgreich. Manuskript-Prüfsumme, alle zwanzig Audits, sieben Grenztests und Artefakt-Upload bestanden. Die Zweitereigniskontrolle reicht die tatsächlich zurückgegebene Quellenlast weiter. Geprüfter Code und spätere Dokumentation sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
+
+
+## Fortsetzung: uniforme positive-Last-Übertragung der kritischen Familie
+
+[Herleitung](CRITICAL_LIFT_DERIVATION.md), [Vorabprotokoll](CRITICAL_LIFT_PROTOCOL.md), [Prüfcode](critical_lift_audit.py), [Resultate](critical_lift_results.json).
+
+Die zuvor offene Übertragung für delta=kappa epsilon ist jetzt für |kappa|<=1/2 kontrolliert. Exakte rationale Rechteckzertifikate liefern C_R=3 und C_L=2. Ein Bootstrap ergibt |r_j-rbar_j|/epsilon<=C_T s0, C_T=9 exp(3T), sofern C_T s0<=1/2; der kumulative Log-Kernelfehler ist durch [17epsilon²+2 C_L C_T T]s0 begrenzt.
+
+Damit folgt die kritische gekoppelte Familie u'=-u²(kappa+u), (log d)'=-u²/2 aus der exakten mathematischen positiven-Last-Quelle im ausgewiesenen Zwei-Niveau-Sektor, mit Fehler O_T(s0+epsilon²). Eine unbegrenzt numerisch erfolgreiche Originaltrajektorie oder physikalische Uhr wird nicht behauptet.
+
+Symbolische Zertifikate, zwölf analytisch begrenzte lange Rekurrenzfolgen und 14 vollständige kurze Original-Quellaufrufe bestanden. Original-Quellrest <1.9e-13, Kovarianzrest <2.3e-14, unter unverändertem 1e-10. Die Bootstrapbedingung ist in allen Präparationen erfüllt; Mehrpräzisionswerte und analytische Tailgrenzen bleiben getrennt. CI separat prüfen.
+
+Offen bleiben Auswahl und Stabilität gegenüber zusätzlichen Lastniveaus, physikalische Uhr-/Raumauslese und vollständiger Energie-Impuls-Strom. Nächster konkreter Reichweitentest ist eine zusätzliche Lastaufspaltung innerhalb der beiden Blöcke. Keine vollständige physikalische Lorentz-/Einstein-Herleitung.

@@ -167,3 +167,11 @@ Additional controls:
 
 Additional controls:
     python research/spacetime-conservation/imbalance_audit.py
+
+
+## Uniform critical-imbalance lifting
+
+[Exact rectangle certificates and positive-load bootstrap theorem](CRITICAL_LIFT_DERIVATION.md), [protocol](CRITICAL_LIFT_PROTOCOL.md), [fresh results](critical_lift_results.json). Rational coefficient bounds lift the critical imbalance family to exact positive-load two-level dynamics on fixed scaled-time intervals. Declared sector preparation, additional-level stability and physical clock/space remain open. Short original-source calls and long bounded recurrence calculations stay distinct.
+
+Additional controls:
+    python research/spacetime-conservation/critical_lift_audit.py
