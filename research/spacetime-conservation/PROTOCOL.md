@@ -62,3 +62,6 @@ Runde 30: [Vorabprotokoll zur formationsabhängigen Schranke](FORMATION_BOUND_PR
 
 
 Runde 31: [Teleskop-Vorabprotokoll](TELESCOPING_MEMORY_PROTOCOL.md), quantitative Sekantenabnahme, sechs hochpräzise positive Präfixe und neun Original-Quellaufrufe.
+
+
+Runde 32: [Selektorstabilitäts-Vorabprotokoll](SELECTOR_STABILITY_PROTOCOL.md), Sylvesterbeweis, sechs Störungskontrollen und acht frische Original-Quellaufrufe.

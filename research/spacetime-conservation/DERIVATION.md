@@ -180,3 +180,6 @@ Runde 30: [Formationsabhängige Defektschranke](FORMATION_BOUND_DERIVATION.md) e
 
 
 Runde 31: [Konditionierter allzeitlicher Teleskopvergleich](TELESCOPING_MEMORY_DERIVATION.md) kontrolliert die formationsabhängige Defektreihe ohne obere Blockentartung im festen C-Sektor. Auswahl-/Rangereignisse und physikalische Bilanz bleiben getrennte offene Aufgaben.
+
+
+Runde 32: [Lückenabhängige Stabilität und Entartungsgrenze der Trägerwahl](SELECTOR_STABILITY_DERIVATION.md) ergänzt die feste-Sektor-Kontrolle um einen quantitativen Projektorstörungssatz und einen exakten symmetrischen Grenzzeugen.

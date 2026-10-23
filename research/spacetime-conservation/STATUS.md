@@ -467,3 +467,12 @@ Neun frische Original-Quellaufrufe sowie sechs 500-stellige positive-s-Präfixe 
 
 
 CI Runde 31: Beide Actions-Läufe zu Codecommit 0a5361ac15ccafb25100eef9c049407767c11397 vollständig erfolgreich. Alle 31 Audits, sieben Grenztests, Manuskript-Prüfsumme und Artefakte bestanden; exakte Nachweise und Trennung von geprüftem Code und Dokumentation in CI_VALIDATION.md.
+
+
+## Runde 32: lückenabhängige Stabilität der spektralen Trägerwahl
+
+[SELECTOR_STABILITY_DERIVATION.md](SELECTOR_STABILITY_DERIVATION.md) beweist für P_2(Y) bei äußerer Lücke g=lambda_3-lambda_2 und epsilon=||E||_2<g/2 die Schranke ||P_2(Y+E)-P_2(Y)||_F<=2epsilon/(g-epsilon). Innere Paarentartung ist zulässig; kritisch ist die äußere Lücke. Die exakte BFG-Familie Y_t=diag(.1,.1+t,.1+2t), F=I,W=K=I/3 und feste Rotation pi/12 in Moden 2,3 zeigt ||Delta Y||_2->0 bei konstantem Projektorabstand (sqrt(3)-1)/2. Diese Grenze bleibt unter einem vollständigen Quellereignis sichtbar.
+
+Am vollständig isotropen Grenzzustand existiert kein einzelner aus dem gesamten Zustand unitär kovariant bestimmter Rang-zwei-Projektor. Dies betrifft weder Auswahl mit tatsächlich nichtisotropen Zusatzdaten noch mengenwertige Beschreibungen. Die feste-Sektor-Gedächtnisschranke aus Runde 31 bleibt gültig.
+
+Sechs unabhängige Hermitesche Störungskontrollen und acht frische Original-Quellaufrufe bestanden. Projektorrest <1.7e-14, Eichrest <4.6e-14, Last-Kovarianzrest <3e-17. Nächste Abhängigkeit: vorhandene Witness-/Formationsdaten bei lückenschließender Wahl und dynamische Geschlossenheit; räumlicher Transport, physikalische Uhr und vollständiger Viererstrom bleiben offen. CI separat prüfen.
