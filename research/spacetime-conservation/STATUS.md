@@ -452,3 +452,6 @@ CI Runde 29: Beide Actions-Läufe zum Codecommit 661e2131935ec6a23597747a131f126
 Endliche Historien sind durch die entsprechenden Defektsummen begrenzt. Deren allgemeine Summierbarkeit ist weiterhin offen und folgt nicht aus eta-Monotonie allein. Der Gegenzeuge aus Runde 29 bleibt erhalten: chi²->2/5 statt null, kappa ist unbeschränkt.
 
 Neun frische Original-Quellaufrufe n=3,4, kappa=1,4,16 einschließlich drei Eichkontrollen bestanden. Kernelrest <6.6e-16, Eichrest <1.1e-15, Lastrest <2.4e-17. Nächste Abhängigkeit: quantitative Kontrolle der formationsabhängigen Defektreihe aus der vollen Dynamik. Trägerauswahl, Raumtransport, physikalische Uhr, vollständiger Viererstrom und Einstein bleiben offen. CI separat prüfen.
+
+
+CI Runde 30: Beide Actions-Läufe zu Codecommit a4f2c299fbfff1aea0cc71d9b709e4ecde83228b vollständig erfolgreich. Alle 30 Audits, sieben Grenztests, Manuskript-Prüfsumme und Artefakte bestanden; exakte Nachweise und Code/Dokumentations-Trennung in CI_VALIDATION.md.
