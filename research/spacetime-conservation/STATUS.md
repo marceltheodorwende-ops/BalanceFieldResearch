@@ -378,3 +378,6 @@ CI-Nachprüfung der endlichen Aufspaltung: Beide Actions-Jobs zu Codecommit bbec
 [LOWER_PAIR_MEMORY_DERIVATION.md](LOWER_PAIR_MEMORY_DERIVATION.md): V=b²/r liefert am unteren relativen Rand V-V_+>=b² und damit sum b_j²<=b_0²/r_0. Der exakte Paarfaktor erfüllt auch bei positiver Last 1-h<=32b²/35. Zusammen ergibt sich am Rand für beliebig viele Ereignisse ein lokaler transversaler Kerneldefekt <=(32/35)b_0²/r_0, insbesondere O(epsilon^5) bei b_0=epsilon³,r_0=epsilon. Zwei diagonale Komponenten bleiben exakt, zwei transversale nur näherungsweise erhalten.
 
 Vier frische Randkontrollen à 2000 Ereignisse und zehn Original-Quellaufrufe bestanden; Kernelrest <1.5e-14, Eichrest <4.6e-14. Positiv-Last-Summierbarkeit und vollständiger physikalischer Strom bleiben offen. Nächster Schritt ist die positive-s-Lyapunov-Abschätzung des unteren Kegels. CI dieses Codecommits separat prüfen.
+
+
+CI Runde 24: Beide Remote-Läufe zu Codecommit 7ff76ae4e2bf37d85dd1b1271fa8c3e4e1d44b7a vollständig erfolgreich, einschließlich aller 24 Audits, sieben Grenztests, Manuskript-Prüfsumme und Artefakte. Siehe CI_VALIDATION.md für exakte Runs und Trennung von geprüftem Code und späterer Dokumentation.
