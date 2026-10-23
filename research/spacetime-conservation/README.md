@@ -111,3 +111,11 @@ Additional controls:
 
 Additional controls:
     python research/spacetime-conservation/composition_audit.py
+
+
+## Controlled multi-event range in the initial graph
+
+[Vector-Bernstein tail bound including coherent initial states](MULTIEVENT_RANGE_DERIVATION.md), [protocol](MULTIEVENT_RANGE_PROTOCOL.md), [fresh results](multievent_range_results.json). A polynomial approximation of the full Kraus vector controls total population beyond an initial-graph ball without changing the source. Bounds are conservative and depend on the actual geometry schedule; no physical speed or spatial calibration is inferred.
+
+Additional controls:
+    python research/spacetime-conservation/multievent_range_audit.py

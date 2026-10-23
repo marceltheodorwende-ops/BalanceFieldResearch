@@ -213,3 +213,16 @@ Nächster Schritt: kontrollierte mehrschrittige Reichweite gegenüber dem anfän
 
 
 CI-Nachprüfung der Kanal-Komposition: Beide Actions-Jobs zu Codecommit 5aa2bdf8f1f590dda52abd7876a611118c04bbaa erfolgreich. Manuskript-Prüfsumme, alle dreizehn Audits, sieben Grenztests und Artefakt-Upload bestanden. Geprüfter Code und nachfolgende Dokumentation sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
+
+
+## Fortsetzung: bewiesener Mehrereignis-Tail im anfänglichen Graphen
+
+[Herleitung](MULTIEVENT_RANGE_DERIVATION.md), [Vorabprotokoll](MULTIEVENT_RANGE_PROTOCOL.md), [Prüfcode](multievent_range_audit.py), [Resultate](multievent_range_results.json).
+
+Eine Vektor-Bernsteinapproximation des vollständigen Kraus-Tensorprodukts liefert jetzt die kontrollierte Schranke tr(Q_außerhalb K_N)<=min(1,L_N²(M0-m0)²/(4d)) tr(K0) jenseits des d-Balls im anfänglichen Y0-Graphen. Sie gilt für positive, anfangs auf S unterstützte Kernel einschließlich Kohärenzen. L_N ist explizit aus den tatsächlichen endogenen alpha- und Spektralintervallfolgen beschränkt. Weder wiederholte Dephasierung noch Kantentrunkierung wird eingesetzt.
+
+Der Beweis verbindet Polynome in Y0 mit Graphdistanz und kontrolliert den gesamten entfernten Bestand, nicht nur einzelne Übergänge. Die Schranke ist konservativ und zustands-/folgenabhängig; keine universelle Geschwindigkeit oder strikte endliche Reichweite wird behauptet. Physikalische Orte und Sekunden sind weiterhin nicht ausgewählt.
+
+21 vollständige Quellaufrufe auf Pfaden n=6,10,14, symbolische Tensornormkontrolle und 27 Grad-/Tail-Kontrollen bestanden. Quellrest <6.5e-15, Kovarianzrest <3.1e-15, kein Schrankenverstoß. Für n=14,N=3,d=3 liegt die Schranke bei ca. 0.01016, die gemessene entfernte Punktmassenpopulation bei ca. 1.65e-10; die konservative Lücke bleibt sichtbar. CI separat prüfen.
+
+Nächste Abhängigkeit: langfristiges Wachstum der Schranken und BFG-interne Auswahl von Raummaß und physikalischer Uhr. Vollständiger Energie-Impuls-Strom, Lorentz-Dynamik und Einstein bleiben offen.
