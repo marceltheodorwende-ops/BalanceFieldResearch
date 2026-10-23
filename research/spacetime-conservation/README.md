@@ -61,3 +61,10 @@ Additional controls:
 
 Additional controls:
     python research/spacetime-conservation/relational_frame_audit.py
+
+## Eventual stable-class entry and collision limits
+
+[Global positive-persistence envelope and finite C-entry theorem](EVENTUAL_CLASS_DERIVATION.md), [protocol](EVENTUAL_CLASS_PROTOCOL.md), [fresh results](eventual_class_results.json). Every autonomous full-persistence state with F>0 and 0<Y<I eventually reaches C. Initially simple eigenvalues can nevertheless collide across the two-mode selection boundary. A trace-increase counterexample limits the trace-log clock to its original domain.
+
+Additional controls:
+    python research/spacetime-conservation/eventual_class_audit.py

@@ -111,3 +111,15 @@ Der Witness liefert eine alternative Referenz, auch bei verschwindender Formatio
 Damit ist die interne relationale Referenz konstruktiv geklärt, räumliche Bewegung und physikalischer Viererstrom bleiben offen. Die Dämpfung der zwei transversalen Komponenten bleibt auch in den quotient-invarianten Koordinaten bestehen. Nächste mathematische Reichweitenfrage: Eintritt allgemeinerer Vollpersistenzdaten in die stabile Klasse und Verhalten der Referenzkarten bei Auswahl/Seed; für physikalischen Transport fehlen weiterhin Ereignisnachbarschaft und eine quellenbegründete Verschiebungs-/Stromabbildung.
 
 CI-Nachprüfung der relationalen Rahmen: Beide Actions-Jobs zu Codecommit 1392c40e0e5bf13e83b7af93df6cb181ec8b42a9 erfolgreich. Manuskript-Prüfsumme, alle sechs Audits, sieben Grenztests und Artefakt-Upload bestanden. Geprüfter Codecommit und späterer Dokumentationsstand sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
+
+## Fortsetzung: endlicher Eintritt aus dem gesamten positiven Vollpersistenzsektor
+
+[Herleitung](EVENTUAL_CLASS_DERIVATION.md), [vorab festgelegtes Protokoll](EVENTUAL_CLASS_PROTOCOL.md), [Prüfcode](eventual_class_audit.py), [Resultate](eventual_class_results.json).
+
+Für P=I, F>0 und 0<Y<I ist jetzt ohne anfängliche C-Einschränkung bewiesen: M_k<=2^-k M_0. Mit delta=lambda_min(F)/tr(F)>0 folgen m_+>=delta M²/16 und M_+<=2M². Sobald M²<=delta/128, liegt der Folgezustand in C; eine explizite endliche Ereignisschranke ist angegeben. Der stabile Bereich ist damit für diesen ganzen autonomen Vollpersistenzsektor nach endlich vielen Ereignissen erreichbar.
+
+Die einfache Spektralstruktur folgt daraus ausdrücklich NICHT: Ein exakter anfangs einfacher n=3-Zeuge kollidiert an der Grenze der Zwei-Moden-Auswahl, obwohl der Folgezustand schon in C liegt. Ein Y-only-Rang-zwei-Selektor ist dort mehrdeutig. Die Formation löst diesen konkreten Gleichstand auf; eine allgemeine Y/F/W-Auswahlregel ist als nächster Kandidat zu prüfen. Symmetrische Gegenfälle bleiben erhalten.
+
+Ein weiterer exakter Zeuge erhöht tr(Y) um ca. 0.168954 trotz Halbierungsschranke für M. Der bisherige positive Trace-Log-Uhrkandidat gilt daher weiterhin nur auf seinem bewiesenen C-Bereich, nicht allgemein. Die summierbare Lastdauer tr(Y)/n hat dagegen auf dem größeren Sektor die Schranke 2M_0.
+
+Frische Evidenz: 12 exakte Präparationen mit insgesamt 20 rationalen Ereignissen bis zum C-Eintritt; 24 komplexe und zwei vorgeschriebene vollständige Quellaufrufe bestanden. Ein nachträglicher algebraischer Diagnoseschritt prüft die Formationsauflösung des einzelnen Kollisionszeugen, ohne ihn als vorab geplantes allgemeines Auswahltheorem auszugeben. CI separat prüfen. Physikalische Lokalität, Uhrkalibrierung, vollständiger Viererstrom und Einstein bleiben offen.
