@@ -71,3 +71,15 @@ Die positive Schranke jedes endlichen Spektrallückenschritts ist explizit bewie
 Frische Kontrollen: 48 exakte rationale Ereignisse, 36 komplexe Quellereignisse und drei zusätzliche Ableitungsvergleiche. Projektorrest <3e-13, lokaler Kernelrest <4e-15, Momentgegenbeispielrest ~1.1e-17. Physikalische Uhr, räumlicher Transport, vollständiger lokaler Viererstrom und Einstein bleiben offen. Der nächste konkrete Ansatz ist die quellenbasierte komponentenweise Austauschbilanz dieses nun aktuell auswählbaren Faktors. CI für den neuen Code ist separat zu prüfen.
 
 CI-Nachprüfung der invarianten Klasse: Beide Actions-Jobs zu Codecommit fb034641f3e0c0344d24b66fee03cfa215b23bd2 erfolgreich; PDF-Prüfsumme, alle drei Audits und sieben Tests bestanden. Die frühere Formulierung zur allgemeinen Auswahlgrenze wurde präzisiert: Das Paar *kann* wechseln, nicht *muss* wechseln; die neu bewiesene invariante Klasse ist damit vereinbar. Details in [CI_VALIDATION.md](CI_VALIDATION.md).
+
+## Fortsetzung: Komponentenbilanz und Grenzen einer Ausgleichsladung
+
+[Herleitung](COMPONENT_EXCHANGE_DERIVATION.md), [Protokoll](COMPONENT_EXCHANGE_PROTOCOL.md), [Prüfcode](component_exchange_audit.py), [Resultate](component_exchange_results.json).
+
+Im stabilen Zwei-Moden-Eigenrahmen gilt exakt **(p0,p1,p2,p3)_+=(p0,h p1,h p2,p3), 0<h<1**. Zwei feste lineare Ladungsrichtungen bleiben erhalten, zwei werden gedämpft. Der Defekt ist als Doppelkommutator aus den vorhandenen Kanaloperatoren hergeleitet; er besitzt eine ereignisweise mathematische Gradientenform, keine nachgewiesene physikalische Energie oder Lorentz-Wirkung.
+
+Für jede additive Kandidatenladung aus fester linearer Paarladung plus beliebiger Funktion der übrigen aktuellen BFG-Daten gilt ein begrenztes Hindernis: Die übrigen Daten entwickeln sich unabhängig vom Paar-Kernelblock. Ein exakter +/-Zeuge hat identische Umgebungsfolgen, aber entgegengesetzte erforderliche Ausgleichsterme. Auch die reine Zweig-Marginale der beiden Quelle-Analysekanäle unterscheidet diese Eingaben nicht. Gemeinsame, gemischte Ladungen und andere physikalische Ergänzungen sind damit nicht allgemein widerlegt.
+
+Die Ereignisabbildung bleibt als reelle lineare Abbildung invertierbar, ihre Inverse erhält aber nicht den gesamten positiven Kegel. Mit **historisch invers mitgeführten Observablen** lassen sich vier konstante mathematische Größen konstruieren. Dieser formale Ausweg und eine mittransportierte quadratische Form sind explizit dokumentiert; sie liefern ohne quellenbasierte Auswahl, Uhr und räumliche Interpretation keinen physikalischen Viererstrom.
+
+Frische Prüfung: exakte algebraische Zertifikate sowie 24 gepaarte Ereignisse aus 12 komplexen Präparationen (48 vollständige Quellaufrufe); alle Reste <4e-15 bei vorab festgelegtem 1e-10. Grundcode und Manuskript unverändert. Nächste Abhängigkeit ist die quellenbasierte Auswahl einer relationalen Observablen-/Transport-/Uhrregel oder einer gemeinsamen Wechselwirkungsfunktion, nicht ein nachträglich passend gewählter Kompensator. CI des neuen Codes wird separat geprüft.

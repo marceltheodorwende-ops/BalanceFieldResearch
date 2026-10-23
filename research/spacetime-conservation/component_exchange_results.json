@@ -1,0 +1,403 @@
+{
+  "scope": "Stable full-persistence BFG pair; fixed linear local charges and independent complement compensation",
+  "seed": 20261026,
+  "tolerance": 1e-10,
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "runtime": {
+    "python": "3.12.8",
+    "numpy": "2.2.5",
+    "sympy": "1.14.0"
+  },
+  "exact": {
+    "alpha": "119/1993",
+    "h_squared": "9048258/9159761",
+    "h": "2127*sqrt(18319522)/9159761",
+    "h_float": 0.9938947961370511,
+    "plus_components_before": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "plus_components_after": [
+      "1",
+      "2127*sqrt(18319522)/9159761",
+      "0",
+      "0"
+    ],
+    "null_to_timelike_defect": "111503/9159761",
+    "opposite_transverse_defect_difference": "2 - 4254*sqrt(18319522)/9159761",
+    "inverse_cone_determinant": "-111503/9048258",
+    "branch_marginal_difference": "zero matrix",
+    "double_commutator_identity": "exactly zero",
+    "pairing_identity": "exactly zero"
+  },
+  "source_witness": {
+    "plus_components": [
+      1.0000000000000002,
+      0.9938947961370512,
+      0.0,
+      -2.7755575615628914e-16
+    ],
+    "minus_components": [
+      1.0000000000000002,
+      -0.9938947961370512,
+      0.0,
+      -2.7755575615628914e-16
+    ],
+    "outside_successor_difference": 0.0,
+    "incompatible_required_compensator_increments": [
+      0.0061052038629488825,
+      -0.0061052038629488825
+    ]
+  },
+  "full_source": {
+    "preparations": 12,
+    "events_per_preparation": 2,
+    "paired_events": 24,
+    "full_source_calls": 48,
+    "maximum_residuals": {
+      "pauli_map": 2.605931191968591e-15,
+      "double_commutator": 3.6771514926346755e-15,
+      "pairing": 1.6307206613297872e-15,
+      "complement_successor": 9.824941143268486e-16,
+      "isometry": 8.117301858050006e-16,
+      "lift_recovery": 9.846913517232154e-16,
+      "partial_trace": 3.696203177590727e-15,
+      "branch_insensitivity": 2.624973394685175e-15,
+      "inverse_map": 8.961267012641991e-16,
+      "history_dual_charges": 3.4695722037308972e-15
+    },
+    "minimum_transverse_loss_fraction": 0.00023217281751120034,
+    "most_negative_inverse_eigenvalue": -0.006172996745602344,
+    "offblock_inputs": [
+      {
+        "n": 3,
+        "case": 0,
+        "k": 0.9447667913894192,
+        "f": 4.302573128173081,
+        "w": 0.14738793504491135
+      },
+      {
+        "n": 3,
+        "case": 1,
+        "k": 0.8112552217362599,
+        "f": 4.694949152660638,
+        "w": 0.3333525437509088
+      },
+      {
+        "n": 3,
+        "case": 2,
+        "k": 1.588001888361067,
+        "f": 8.358134396634393,
+        "w": 0.4034666904533701
+      },
+      {
+        "n": 4,
+        "case": 0,
+        "k": 1.295042663222426,
+        "f": 16.62078096988134,
+        "w": 0.22235938565426402
+      },
+      {
+        "n": 4,
+        "case": 1,
+        "k": 1.7109610512628224,
+        "f": 9.367713390023054,
+        "w": 0.2603250894470687
+      },
+      {
+        "n": 4,
+        "case": 2,
+        "k": 2.7127404403852,
+        "f": 5.40754502649297,
+        "w": 0.25543247682416453
+      },
+      {
+        "n": 5,
+        "case": 0,
+        "k": 2.823811295334079,
+        "f": 9.896866485466449,
+        "w": 0.1595888559196742
+      },
+      {
+        "n": 5,
+        "case": 1,
+        "k": 2.834520329639564,
+        "f": 10.22645646265364,
+        "w": 0.3092579131807156
+      },
+      {
+        "n": 5,
+        "case": 2,
+        "k": 2.0972086829058383,
+        "f": 9.563138519472954,
+        "w": 0.30767077923609903
+      },
+      {
+        "n": 6,
+        "case": 0,
+        "k": 3.2871762059611287,
+        "f": 11.83211091242206,
+        "w": 0.17413753047826872
+      },
+      {
+        "n": 6,
+        "case": 1,
+        "k": 3.034518180544024,
+        "f": 12.851410200670552,
+        "w": 0.18212966750833876
+      },
+      {
+        "n": 6,
+        "case": 2,
+        "k": 3.3486229756734414,
+        "f": 15.138103370280994,
+        "w": 0.23745775994568422
+      }
+    ],
+    "cases": [
+      {
+        "n": 3,
+        "case": 0,
+        "event": 1,
+        "alpha": 0.0634324433917326,
+        "damping_factor": 0.9939471341987778,
+        "transverse_loss_fraction": 0.006052865801222218,
+        "inverse_minimum_eigenvalue": -0.006089726096047687,
+        "complement_difference": 8.539069486454643e-16
+      },
+      {
+        "n": 3,
+        "case": 0,
+        "event": 2,
+        "alpha": 0.006387685597798557,
+        "damping_factor": 0.9985523555098784,
+        "transverse_loss_fraction": 0.0014476444901215801,
+        "inverse_minimum_eigenvalue": -0.0014497432028813262,
+        "complement_difference": 5.246097492926871e-16
+      },
+      {
+        "n": 3,
+        "case": 1,
+        "event": 1,
+        "alpha": 0.057484982517523625,
+        "damping_factor": 0.9938681530021659,
+        "transverse_loss_fraction": 0.0061318469978340895,
+        "inverse_minimum_eigenvalue": -0.006169678522560285,
+        "complement_difference": 5.782642878427077e-16
+      },
+      {
+        "n": 3,
+        "case": 1,
+        "event": 2,
+        "alpha": 0.005508531999572104,
+        "damping_factor": 0.9982239778910811,
+        "transverse_loss_fraction": 0.0017760221089189177,
+        "inverse_minimum_eigenvalue": -0.0017791819754431892,
+        "complement_difference": 2.918333348888149e-16
+      },
+      {
+        "n": 3,
+        "case": 2,
+        "event": 1,
+        "alpha": 0.05718649305552669,
+        "damping_factor": 0.9938648753588415,
+        "transverse_loss_fraction": 0.006135124641158507,
+        "inverse_minimum_eigenvalue": -0.006172996745602344,
+        "complement_difference": 4.710277376051325e-16
+      },
+      {
+        "n": 3,
+        "case": 2,
+        "event": 2,
+        "alpha": 0.0054530458482658015,
+        "damping_factor": 0.9982053996682996,
+        "transverse_loss_fraction": 0.0017946003317004244,
+        "inverse_minimum_eigenvalue": -0.0017978267121143143,
+        "complement_difference": 5.36049202688126e-16
+      },
+      {
+        "n": 4,
+        "case": 0,
+        "event": 1,
+        "alpha": 0.05930442251652302,
+        "damping_factor": 0.9971027642635023,
+        "transverse_loss_fraction": 0.002897235736497694,
+        "inverse_minimum_eigenvalue": -0.0029056541013981474,
+        "complement_difference": 8.697731210811853e-16
+      },
+      {
+        "n": 4,
+        "case": 0,
+        "event": 2,
+        "alpha": 0.005740939695095981,
+        "damping_factor": 0.9992760660036321,
+        "transverse_loss_fraction": 0.0007239339963679425,
+        "inverse_minimum_eigenvalue": -0.0007244584564736201,
+        "complement_difference": 1.1841746461178548e-15
+      },
+      {
+        "n": 4,
+        "case": 1,
+        "event": 1,
+        "alpha": 0.05505327096421308,
+        "damping_factor": 0.9970730477770968,
+        "transverse_loss_fraction": 0.0029269522229031786,
+        "inverse_minimum_eigenvalue": -0.0029355444211719983,
+        "complement_difference": 1.810931668866218e-15
+      },
+      {
+        "n": 4,
+        "case": 1,
+        "event": 2,
+        "alpha": 0.005131483975869476,
+        "damping_factor": 0.999156591062179,
+        "transverse_loss_fraction": 0.0008434089378209775,
+        "inverse_minimum_eigenvalue": -0.000844120876913157,
+        "complement_difference": 1.7691866339134874e-15
+      },
+      {
+        "n": 4,
+        "case": 2,
+        "event": 1,
+        "alpha": 0.05952282657290089,
+        "damping_factor": 0.9971044573905684,
+        "transverse_loss_fraction": 0.0028955426094315895,
+        "inverse_minimum_eigenvalue": -0.0029039511236457205,
+        "complement_difference": 9.895407682228563e-16
+      },
+      {
+        "n": 4,
+        "case": 2,
+        "event": 2,
+        "alpha": 0.005792814525017124,
+        "damping_factor": 0.9992819251482004,
+        "transverse_loss_fraction": 0.0007180748517996438,
+        "inverse_minimum_eigenvalue": -0.0007185908538205332,
+        "complement_difference": 1.0000677077679748e-15
+      },
+      {
+        "n": 5,
+        "case": 0,
+        "event": 1,
+        "alpha": 0.06023880400510558,
+        "damping_factor": 0.9983213359660879,
+        "transverse_loss_fraction": 0.0016786640339121472,
+        "inverse_minimum_eigenvalue": -0.0016814866851339594,
+        "complement_difference": 1.195827321860277e-15
+      },
+      {
+        "n": 5,
+        "case": 0,
+        "event": 2,
+        "alpha": 0.005894182024786341,
+        "damping_factor": 0.9996125396789716,
+        "transverse_loss_fraction": 0.0003874603210284322,
+        "inverse_minimum_eigenvalue": -0.000387610504718916,
+        "complement_difference": 1.1687042040479822e-15
+      },
+      {
+        "n": 5,
+        "case": 1,
+        "event": 1,
+        "alpha": 0.067030101044104,
+        "damping_factor": 0.9983595789464004,
+        "transverse_loss_fraction": 0.0016404210535996278,
+        "inverse_minimum_eigenvalue": -0.0016431164564283396,
+        "complement_difference": 1.2873518377690572e-15
+      },
+      {
+        "n": 5,
+        "case": 1,
+        "event": 2,
+        "alpha": 0.006947164401625851,
+        "damping_factor": 0.9996979111258617,
+        "transverse_loss_fraction": 0.00030208887413829544,
+        "inverse_minimum_eigenvalue": -0.00030218015940253196,
+        "complement_difference": 1.5044933780695902e-15
+      },
+      {
+        "n": 5,
+        "case": 2,
+        "event": 1,
+        "alpha": 0.06011881293840667,
+        "damping_factor": 0.9983207157499038,
+        "transverse_loss_fraction": 0.0016792842500962246,
+        "inverse_minimum_eigenvalue": -0.0016821089892287144,
+        "complement_difference": 4.239766738507579e-15
+      },
+      {
+        "n": 5,
+        "case": 2,
+        "event": 2,
+        "alpha": 0.005877479100599283,
+        "damping_factor": 0.999610839003523,
+        "transverse_loss_fraction": 0.0003891609964770115,
+        "inverse_minimum_eigenvalue": -0.000389312501718031,
+        "complement_difference": 1.0128527331266703e-15
+      },
+      {
+        "n": 6,
+        "case": 0,
+        "event": 1,
+        "alpha": 0.06172426028422581,
+        "damping_factor": 0.9989101650311022,
+        "transverse_loss_fraction": 0.001089834968897807,
+        "inverse_minimum_eigenvalue": -0.0010910240050103215,
+        "complement_difference": 1.2993391498419508e-15
+      },
+      {
+        "n": 6,
+        "case": 0,
+        "event": 2,
+        "alpha": 0.006119103467155899,
+        "damping_factor": 0.9997678271824888,
+        "transverse_loss_fraction": 0.00023217281751120034,
+        "inverse_minimum_eigenvalue": -0.00023222673424649898,
+        "complement_difference": 1.5577890344121836e-15
+      },
+      {
+        "n": 6,
+        "case": 1,
+        "event": 1,
+        "alpha": 0.05805072809178924,
+        "damping_factor": 0.9988971138578184,
+        "transverse_loss_fraction": 0.0011028861421815694,
+        "inverse_minimum_eigenvalue": -0.001104103843009574,
+        "complement_difference": 2.508118159471718e-15
+      },
+      {
+        "n": 6,
+        "case": 1,
+        "event": 2,
+        "alpha": 0.005557599577516045,
+        "damping_factor": 0.9997338069207045,
+        "transverse_loss_fraction": 0.00026619307929554026,
+        "inverse_minimum_eigenvalue": -0.00026626395691825566,
+        "complement_difference": 2.083446406720591e-15
+      },
+      {
+        "n": 6,
+        "case": 2,
+        "event": 1,
+        "alpha": 0.05464453099178383,
+        "damping_factor": 0.9988863899590156,
+        "transverse_loss_fraction": 0.0011136100409844252,
+        "inverse_minimum_eigenvalue": -0.0011148515508656587,
+        "complement_difference": 2.122416981515302e-15
+      },
+      {
+        "n": 6,
+        "case": 2,
+        "event": 2,
+        "alpha": 0.00506718787438905,
+        "damping_factor": 0.9996977801202457,
+        "transverse_loss_fraction": 0.0003022198797543174,
+        "inverse_minimum_eigenvalue": -0.0003023112442222531,
+        "complement_difference": 1.9252898658292713e-15
+      }
+    ]
+  },
+  "status": "PASS for scoped identities/obstructions; nonlinear joint current and physical conservation OPEN"
+}

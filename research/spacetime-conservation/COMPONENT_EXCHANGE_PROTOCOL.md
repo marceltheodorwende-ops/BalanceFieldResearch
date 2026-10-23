@@ -19,3 +19,8 @@ For each event independently check the Pauli map, double commutator, pairing ide
 No claim is made about nonlinear local charge identifications, charges mixing pair/complement data, explicitly historical inverse readouts, state-dependent transported charge operators or general selection/seed events.
 
 Outputs: COMPONENT_EXCHANGE_DERIVATION.md, component_exchange_audit.py, component_exchange_results.json; update status, README and narrow CI. Keep all previous physical gates open unless actually established.
+
+## Scope-preserving extension after the first component controls
+Add E6 before a final new run: distinguish fixed-charge obstruction from transported observables. Because h>0, the event map is invertible as a real linear map. Test H_0=1, H_(k+1)=h_k H_k along each unperturbed source trajectory, and the exact constancy of (p0,p1/H_k,p2/H_k,p3) in the fixed retained pair frame. This is a derived HISTORY readout, not a source-selected physical four-momentum. It prevents the fixed-identification obstruction from being overstated as a no-go for every possible charge definition. Require normalized residual <1e-10 across the same two-event controls. No new state law or physical input is introduced.
+
+

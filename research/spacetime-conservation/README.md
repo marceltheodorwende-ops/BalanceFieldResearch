@@ -27,6 +27,13 @@ Run the additional controls with:
 Additional controls:
     python research/spacetime-conservation/stable_pair_audit.py
 
+## Component balance and compensation limits
+
+[Exact component balance and scoped compensation theorem](COMPONENT_EXCHANGE_DERIVATION.md), [protocol](COMPONENT_EXCHANGE_PROTOCOL.md), [fresh controls](component_exchange_results.json). Independent complementary source data and the branch marginal do not compensate fixed transverse pair charges. Inverse-transported history observables give formal conserved coordinates, without selecting a physical current.
+
+Additional controls:
+    python research/spacetime-conservation/component_exchange_audit.py
+
 ## Reproduce
 Use Python 3.12 and the adjacent requirements.txt. From the repository root:
     python -m pip install -r research/spacetime-conservation/requirements.txt
