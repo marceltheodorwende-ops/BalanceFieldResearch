@@ -1,0 +1,9 @@
+# Vorabprotokoll: schwache Lastaufspaltung und gemeinsame Kleinschrittgrenze
+
+Ausgangspunkt 60c5f95860340cf4dc023bd8cde62828ce313588; unveränderte BFG-Vollpersistenz. Untersuche Y_epsilon=y I+epsilon A bei festem y=1/4, Hermiteschem A, F>0. Prüfe zuerst symbolisch die Cosinus-Kanalform und den zweiten Koeffizienten -[A,[A,K]]/(8y²) einschließlich der gemeinsamen endogenen alpha-Änderung, die in Winkeldifferenzen erster Ordnung wegfällt.
+
+Hypothese: Der eingefrorene Kernelkanal besitzt bei kleiner Aufspaltung einen dissipativen zweiten Koeffizienten und bei wiederholter Anwendung DESSELBEN Kanals eine mathematische diffusive Grenze. Dies ist eine ausdrücklich eingefrorene Vergleichsdynamik. Die tatsächliche Geometrie hat dagegen schon bei epsilon=0 den endlichen Sprung f(y)-y, sodass delta t=epsilon² bei festem y keinen regulären Euler-Grenzfall des vollständigen Tupels liefert.
+
+Kontrollen vor Auswertung: n=2,3,4, pro Dimension eine komplexe Präparation, ||A||=1, positiver Kernel mit trace1; epsilon=1/100,1/200,1/400,1/800, zwölf vollständige Quellaufrufe plus drei unitäre Kontrollen, insgesamt15. Seed20261107. Vergleiche exakte Zwei-Unitär-Mittelung mit Quelle (<1e-10). Erfasse ((Kplus-K)/epsilon²)-G(K); verlange letzten Fehler <0.02 und <0.6 des ersten, sofern erster >1e-10. Geometriesprung muss gegen ||(f(1/4)-1/4)I|| konvergieren, letzter Abstandsfehler <0.01. Prüfe eingefrorenes iteriertes Schur-H bei N=floor(0.1/epsilon²) gegen exp[-0.1 ad_A²/(8y²)] spektral, mit gleicher Konvergenzprüfung (<0.02 und <0.6 erster). Dies sind keine N vollständigen Quellereignisse; Quelle wird nur für den jeweiligen einzelnen Ereignisaufruf ausgewertet.
+
+Keine nachträgliche Dauerwahl, keine Geometrie-Rücksetzung als autonome BFG ausgeben. Keine Hamilton-/Energie-Impuls-/Einstein-Interpretation. Ein gleichzeitiger Rand-/Renormierungsgrenzfall bleibt außerhalb dieser Prüfung.
