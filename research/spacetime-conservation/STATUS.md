@@ -368,3 +368,6 @@ Für die vollständige positive-Last-Quelle auf C liefern geordnete Lücken und 
 Symbolische Identitäten, vier obere Austrittskontrollen, vier untere lange Kontraktionskontrollen und 18 vollständige Original-Quellaufrufe bestanden. Obere Austritte nach 50,124,295,684 Randschritten liegen unter den bewiesenen Schranken 120,321,806,1942. Original-Lastrest <1.4e-18, normierter r/b-Rest <7.2e-13. Sehr kleine untere Randbreiten sind nicht als entsprechend aufgelöste Original-Matrixtrajektorien ausgegeben. CI separat prüfen.
 
 Nächste Abhängigkeit: quantitative nichtlineare positive-s-Übertragung und quellenbasierte Auswahl/Isolierung des lokalen Trägers, einschließlich des konstruktiven unteren Kontraktionsbereichs. Physikalische Uhr, Raummaß, vollständiger Viererstrom und Einstein bleiben offen.
+
+
+CI-Nachprüfung der endlichen Aufspaltung: Beide Actions-Jobs zu Codecommit bbecf2ed3a0f3563cd271a61eea3d3a543311121 erfolgreich. Manuskript-Prüfsumme, alle dreiundzwanzig Audits, sieben Grenztests und Artefakt-Upload bestanden. Geprüfter Code und spätere Dokumentation sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
