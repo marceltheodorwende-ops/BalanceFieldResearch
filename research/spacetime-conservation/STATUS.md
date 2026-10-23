@@ -404,3 +404,6 @@ CI Runde 25: Beide Actions-Läufe zu Codecommit b9a916f73d539bbc1342c89f46d4905b
 Exakte signed Randrekurrenz zeigt die Grenze: r=1/20,q=1/10,delta=-1/2 ergibt r_+=15998/312805>r. Die alte Hauptkontrast-Monotonie lässt sich nicht pauschal auf negative Gewichtsverschiebung übertragen; andere Lyapunov-Kandidaten bleiben offen.
 
 Sechs 500-stellige positive-s-Präfixe à sechs Ereignisse, rationales Zertifikat und 14 Original-Quellaufrufe bestanden. Kernelrest <2.2e-15, Eichrest <3e-15, normierte Last <2.4e-13. Nächste Abhängigkeit: zusätzliche obere Aufspaltung und allgemeinere Formation; räumlicher Transport, physikalische Uhr, vollständiger Energie-Impuls-Strom bleiben offen. CI separat prüfen.
+
+
+CI Runde 26: Beide Actions-Läufe zum Codecommit 7d160a7e9e804d413cbc24e4d97e343a24ad2319 vollständig erfolgreich. Alle 26 Audits, sieben Grenztests, Manuskript-Prüfsumme und Artefakte bestanden; exakte Laufnachweise in CI_VALIDATION.md.
