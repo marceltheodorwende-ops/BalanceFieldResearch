@@ -206,3 +206,6 @@ Runde 38: [Lokale rechteckige Rangereignisbilanz](RANK_LOCAL_BALANCE_DERIVATION.
 ## Physikalische Bestandsidentifikation (Runde 39)
 
 Siehe [PHYSICAL_IDENTIFICATION.md](PHYSICAL_IDENTIFICATION.md): quellenbasierte Kandidatenmatrix, exakte Seed-Kompensation mit verbleibendem aktiven Transportrest, numerische Gegenkontrollen additiver Gesamtbestände und exakte gemeinsame K/F-Skalierung. Formationseinheiten sind nicht als Joule hergeleitet; M_E, Raum-/Uhr-/Quantenbrücke und vollständiger physikalischer Viererstrom bleiben offen. Keine zusätzliche physikalische Grundgleichung eingeführt.
+
+
+Runde40: [Rational zertifizierter aktiver Gesamtbestandsdefekt](ACTIVE_STOCK_DEFECT.md) schließt die numerische Kandidatenlücke aus Runde39 durch einen einfachen exakten Eingabezeugen und eine rationale Polarwurzel-Fehlerschranke. Seed-Kompensation allein erzwingt keinen verschwindenden Transportrest. Physikalische Identifikation bleibt getrennt offen.

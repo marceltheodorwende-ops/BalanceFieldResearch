@@ -562,3 +562,12 @@ Neue exakte Aussage: Für den natürlichen Kandidaten E_act=tr(PK)+tr F heben si
 Gemeinsame positive Skalierung von K,F kommutiert exakt mit dem mathematischen Update einschließlich Seed; vier frische Originalaufrufe bestätigen dies bis6.7e-16. Dies zeigt keine vom Kernel gewählte Joule/EF-Kalibrierung, keine physikalische Unmöglichkeit einer Kalibrierung. Insgesamt sieben unterschiedliche neue Quellaufrufe; Fixture-Erfassungswiederholungen getrennt. Nächster physikalischer Schritt: konkrete, vorab festgelegte Energie-/Impuls-Messbrücke und vollständige Bilanz der Auswahl-/Transportreste; mathematisch kann B4-P weiter exakt untersucht werden.
 
 Reine Dokumentationsrunde; kein Audit-/Workflow-/Quellcode verändert und kein neuer Remote-Pass behauptet. CI-Stand des bisherigen Codes bleibt Runde38, separat in CI_VALIDATION.md.
+
+
+## Runde 40: rational zertifizierter Defekt des kombinierten aktiven Bestands
+
+[ACTIVE_STOCK_DEFECT.md](ACTIVE_STOCK_DEFECT.md) liefert einen einfachen rationalen zulässigen n=3-Zustand mit aktivem Rang2->3 und eindeutigem Seed. Alpha=1/10, ell_F=0. Die expliziten Seedbeiträge kompensieren exakt, dennoch gilt 6599430384017/10^15 < Delta[tr(PK)+tr F] < 6599430384019/10^15. Allgemeine Erhaltung dieses ungewichteten Kandidaten damit durch rationales Zertifikat widerlegt; keine allgemeine Widerlegung physikalischer BFG-Brücken.
+
+Exakte Residuen und positive Sylvester-Abschätzung zertifizieren die inverse Gramwurzel unabhängig von numerischer SVD. Zwei Originalkontrollen im finalen Lauf, einschließlich komplexer Eichkontrolle, bestätigen den Defekt; zuvor ein explorativer Originalaufruf. Eichrest<2e-15. Ein anfangs fehlerhafter symbolischer Last-Hilfsterm (Y² statt Y P Y) wurde nach Assertion-Abbruch korrigiert; danach frischer vollständiger Pass. Quellgleichung unverändert.
+
+Nächste mathematische Abhängigkeit: Bedingungen für B4=P bzw. quelleninterne Struktur des aktiven Transportrests. Energieablesung, räumliche Relation, Uhr und physikalischer Viererstrom bleiben offen. Reine Dokumentations-/Zertifikatsrunde, keine Code-/Workflowänderung und kein neuer Remote-Pass behauptet.
