@@ -304,3 +304,6 @@ Damit folgt bei gemeinsamem s0(epsilon)->0 der vorherige gekoppelte langsame Gre
 Symbolische Faktorisierungen, exakte Bereichsabschätzungen, Mehrpräzisions-Präfixe und analytisch begrenzte lange Rekurrenzfortsetzungen sowie 12 vollständige kurze Original-Quellaufrufe bestanden. Größter Originalquell-/Rekurrenzrest <1.3e-14, Kovarianzrest <1.4e-15. Lange reduzierte Folgen bis 3200 Schritte sind keine entsprechenden Original-Quellaufrufe; mathematische Tailgrenzen sind kein Intervall-Rundungszertifikat. CI separat prüfen.
 
 Offen bleiben Auswahl und Robustheit des ausgeglichenen Sektors, physikalische Uhr, Raummaß und Energie-Impuls-Zuordnung. Nächster konkreter Test ist ein kleines Formations-Ungleichgewicht auf derselben gemeinsamen Skala. Eine vollständige physikalische Lorentz-/Einstein-Herleitung bleibt offen.
+
+
+CI-Nachprüfung der uniformen Übertragung: Beide Actions-Jobs zu Codecommit e7584d66a1e24ca6631479b1b2809ee060849d42 erfolgreich. Manuskript-Prüfsumme, alle neunzehn Audits, sieben Grenztests und Artefakt-Upload bestanden. Geprüfter Code und spätere Dokumentation sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
