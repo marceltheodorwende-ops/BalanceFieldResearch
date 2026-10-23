@@ -68,3 +68,10 @@ Additional controls:
 
 Additional controls:
     python research/spacetime-conservation/eventual_class_audit.py
+
+## Retained-data tie resolution and equal-load charges
+
+[Partial Y/F/W selector, closed factor and equal-load four-charge sector](LEX_SELECTOR_DERIVATION.md), [protocol](LEX_SELECTOR_PROTOCOL.md), [fresh results](lex_selector_results.json). Formation/Witness can resolve degenerate Y blocks and retain the chosen pair on C. Unresolved symmetry and discontinuity are explicit. Equal selected Y loads give four constant relational kernel coordinates in a reference-supported example; no physical spatial four-current is claimed.
+
+Additional controls:
+    python research/spacetime-conservation/lex_selector_audit.py

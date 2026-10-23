@@ -36,6 +36,7 @@ jobs:
       - run: python research/spacetime-conservation/clock_audit.py
       - run: python research/spacetime-conservation/relational_frame_audit.py
       - run: python research/spacetime-conservation/eventual_class_audit.py
+      - run: python research/spacetime-conservation/lex_selector_audit.py
       - working-directory: research/spacetime-conservation
         run: python -m unittest -v test_audit
       - uses: actions/upload-artifact@v4
@@ -50,4 +51,5 @@ jobs:
             research/spacetime-conservation/clock_results.json
             research/spacetime-conservation/relational_frame_results.json
             research/spacetime-conservation/eventual_class_results.json
+            research/spacetime-conservation/lex_selector_results.json
 

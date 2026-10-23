@@ -125,3 +125,15 @@ Ein weiterer exakter Zeuge erhöht tr(Y) um ca. 0.168954 trotz Halbierungsschran
 Frische Evidenz: 12 exakte Präparationen mit insgesamt 20 rationalen Ereignissen bis zum C-Eintritt; 24 komplexe und zwei vorgeschriebene vollständige Quellaufrufe bestanden. Ein nachträglicher algebraischer Diagnoseschritt prüft die Formationsauflösung des einzelnen Kollisionszeugen, ohne ihn als vorab geplantes allgemeines Auswahltheorem auszugeben. CI separat prüfen. Physikalische Lokalität, Uhrkalibrierung, vollständiger Viererstrom und Einstein bleiben offen.
 
 CI-Nachprüfung des Eintrittssatzes: Beide Actions-Jobs zu Codecommit b972c74aa61fcc57304ccbe3856544e6e8edac82 erfolgreich. Manuskript-Prüfsumme, alle sieben Audits, sieben Grenztests und Artefakt-Upload bestanden. Geprüfter Code und späterer Dokumentationsstand sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
+
+## Fortsetzung: Y/F/W-Gleichstandsauflösung und vier erhaltene Paar-Koordinaten
+
+[Herleitung](LEX_SELECTOR_DERIVATION.md), [vorab festgelegtes Protokoll](LEX_SELECTOR_PROTOCOL.md), [Prüfcode](lex_selector_audit.py), [Resultate](lex_selector_results.json).
+
+Die deklarierte lexikografische Auswahl verfeinert Y-Eigenräume zunächst durch komprimierte Formation, danach durch komprimierten Witness. Sie ist kovariant und auf C erhalten, sofern kein verbleibender unaufgelöster Block die Rang-zwei-Grenze schneidet. Der Paar-/Spektralumgebungsfaktor bleibt dabei exakt geschlossen; einfaches Y-Spektrum ist nicht mehr nötig. Sowohl der vorige Kollisionszeuge als auch ein eigener Witness-Ausweichfall werden aufgelöst.
+
+Die Auswahl ist ausdrücklich partiell: Vollsymmetrie bleibt unaufgelöst, und ein exakter Pfad zeigt einen Sprung beim Übergang zu einer Spektralentartung. Keine globale glatte oder physikalisch eindeutige Auswahl wird behauptet.
+
+Konstruktiver Sonderfall: Liegt das ausgewählte Paar in EINEM Y-Eigenraum, gilt K_S,+=K_S. Mit stabilen Formations-Eigenlinien und nichtverschwindender Witness-Referenz sind damit vier quotient-invariante relationale Kernelkoordinaten erhalten, ohne inverse Historiengewichte. Ein nichttrivialer vollständiger n=4-Zeuge erhält alle vier lokalen Komponenten, während sich der globale Kernel um ca. 0.01548 ändert. Das widerspricht der früheren Dämpfung bei ungleichen Paarlasten nicht und liefert allein keinen physikalischen Viererstrom.
+
+31 vollständige Quellaufrufe im finalen Audit, exakte Auswahl-/Positivitäts-/Entartungskontrollen und Basiswechseltests bestanden; größter Rest <2e-13. Numerische Gruppierungsschwellen sind von exakter Entartung getrennt, aufgelöste Testlücken liegen mehr als 2.3 Millionen Schwellen auseinander. CI separat prüfen. Nächste physikalische Abhängigkeit: eine BFG-interne Ereignisnachbarschaft oder räumliche Observable samt geprüfter Transport-/Kontinuitätsregel. Auswahl/Seed und Kartenwechsel bleiben zusätzliche mathematische Grenzen.
