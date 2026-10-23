@@ -177,3 +177,6 @@ Runde 29: [Geordnete Spektrallücke und formationsabhängiger Gegenzeuge](SPECTR
 
 
 Runde 30: [Formationsabhängige Defektschranke](FORMATION_BOUND_DERIVATION.md) ersetzt die widerlegte eta-Allein-Brücke durch aktuelle Mischung bzw. explizite Kondition; Einzelschritt und bedingte Historie werden von offener Summierbarkeit getrennt.
+
+
+Runde 31: [Konditionierter allzeitlicher Teleskopvergleich](TELESCOPING_MEMORY_DERIVATION.md) kontrolliert die formationsabhängige Defektreihe ohne obere Blockentartung im festen C-Sektor. Auswahl-/Rangereignisse und physikalische Bilanz bleiben getrennte offene Aufgaben.

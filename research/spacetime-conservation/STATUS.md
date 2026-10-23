@@ -455,3 +455,12 @@ Neun frische Original-Quellaufrufe n=3,4, kappa=1,4,16 einschließlich drei Eich
 
 
 CI Runde 30: Beide Actions-Läufe zu Codecommit a4f2c299fbfff1aea0cc71d9b709e4ecde83228b vollständig erfolgreich. Alle 30 Audits, sieben Grenztests, Manuskript-Prüfsumme und Artefakte bestanden; exakte Nachweise und Code/Dokumentations-Trennung in CI_VALIDATION.md.
+
+
+## Runde 31: allzeitliche konditionierte Paar-Kontrolle durch Teleskopieren
+
+[TELESCOPING_MEMORY_DERIVATION.md](TELESCOPING_MEMORY_DERIVATION.md) schließt die formationsabhängige Defektsumme im festen vollen Persistenzsektor: n>=3, F>0 mit kappa, Y in C mit M<=1/4 und y_1<y_2<y_3. Explizite Quellkrümmung liefert 1-eta_+/eta>=64(y_3-y_2)/(625M). Damit chi_j²/2<=C_0(eta_j²-eta_(j+1)²), C_0=3125 n kappa/[512(1-eta_0)]. Die Summe ist endlich, der lokale transversale Gesamtdefekt bleibt für alle Ereignisse <=min(1,C_0 eta_0²) mal Anfangs-Offdiagonalnorm. Das positive Kohärenzprodukt hat einen nichtverschwindenden Grenzwert.
+
+Keine obere Blockentartung oder obere Breiten-Stoppgrenze nötig. Der frühere formationsfreie Gegenzeuge bleibt gültig, da seine Kondition unbeschränkt wird. Die Schranke kann bei großem kappa nur den trivialen Wert 1 liefern. Keine Endlichkeit von sum eta_j² behauptet; die gewichtete chi-Defektreihe wird direkt kontrolliert.
+
+Neun frische Original-Quellaufrufe sowie sechs 500-stellige positive-s-Präfixe à sechs Ereignisse mit expliziter Restabschätzung bestanden. Kernelrest <9.8e-16, Eichrest <1.7e-15, Lastrest <5.2e-17. Die unendliche Kontrolle folgt aus dem Beweis. Nächste Abhängigkeit: quellenbasierte lokale Auswahl und Fortsetzung über Auswahl-/Rangereignisse sowie räumlicher Transport. Physikalische Uhr, vollständiger Viererstrom und Einstein bleiben offen. CI separat prüfen.

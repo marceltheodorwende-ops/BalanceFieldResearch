@@ -59,3 +59,6 @@ Runde 29: [Spektrallücken-Vorabprotokoll](SPECTRAL_GAP_PROTOCOL.md), vorab bena
 
 
 Runde 30: [Vorabprotokoll zur formationsabhängigen Schranke](FORMATION_BOUND_PROTOCOL.md), exakte Identität/Grenzverträglichkeit und neun frische Original-Quellaufrufe.
+
+
+Runde 31: [Teleskop-Vorabprotokoll](TELESCOPING_MEMORY_PROTOCOL.md), quantitative Sekantenabnahme, sechs hochpräzise positive Präfixe und neun Original-Quellaufrufe.
