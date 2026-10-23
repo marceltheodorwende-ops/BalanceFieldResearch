@@ -1,0 +1,7 @@
+# Round 33 preregistration: competing retained-data resolutions at scalar load
+
+Build on (do not repeat as new) the existing lexicographic Y/F/W selector. New test: whether covariance, exact source persistence and four local kernel constants distinguish formation-first from Witness-first tie resolution. Fix n=3, Y=yI, F=diag(1,2,4), W=diag(1/9,4/9,4/9) with W23=W32=-1/9, K=diag(1,2,3)/6. Compare rank-two lowest spectral projectors PF of F and PW of W; both are postprocessing observables, not the original full rank-three carrier. Test PF!=PW, both unchanged under full scalar-load update, different local trace charges, and exact constancy of both compressed kernels.
+
+Natural alternative family H_tau=F+tau W, tau>=0, is explicitly an additional mathematical selector parameter, not a BFG coupling or physical law. Test continuous candidate family via exact 2x2 diagonalization, no fit to an Einstein target. Do not claim absence of all possible source selectors; only insufficiency of the stated invariance/covariance/conservation criteria to choose one.
+
+Fresh exact checks: commutator F,W, projector distance, local charges, scalar full-source alpha/Y/K laws and candidate ordering for tau>=0. Fresh source y=.05,.1,.2, three calls plus three simultaneous complex unitary gauges: six total. For each output evaluate candidate projectors for tau=0,1,9,90 and pure W, require projector/compression/field covariance residuals<1e-10. Preserve full original source carrier rank3; no new physical units or rank change. Physics gates remain open.
