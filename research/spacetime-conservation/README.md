@@ -54,3 +54,10 @@ This research branch starts from the active manuscript branch, not the older mai
 
 Additional controls:
     python research/spacetime-conservation/clock_audit.py
+
+## Relational frame and quotient coordinates
+
+[Formation/Witness reference frames and closed invariant coordinates](RELATIONAL_FRAME_DERIVATION.md), [protocol](RELATIONAL_FRAME_PROTOCOL.md), [fresh results](relational_frame_results.json). Nonzero pair reference coherence supplies a persistent covariant Pauli frame; its kernel coordinates are gauge invariant. The alternative Witness chart, overlap rotation and symmetric-state obstruction are explicit. Internal frame transport is not yet spatial propagation.
+
+Additional controls:
+    python research/spacetime-conservation/relational_frame_audit.py

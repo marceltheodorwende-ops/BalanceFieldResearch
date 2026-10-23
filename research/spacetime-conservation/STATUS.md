@@ -97,3 +97,15 @@ Konstruktiv existiert auf dem skalaren Zweig 0<y<=3/10 eine stetige Zustandskoor
 Frische Prüfung: 24 komplexe und drei skalare vollständige Quellereignisse. Alle Kriterien bestanden; skalare Quellreste <1e-16, Tickreste <3e-16. Die 48 analytischen Log-Rekurrenzen sind ausdrücklich keine 48 erfolgreichen Quellereignisse. Ein anfänglicher struktureller SymPy-Vergleich wurde durch exakte rationale Differenzprüfung berichtigt; die mathematische Identität blieb unverändert. CI des neuen Codes separat prüfen. Nächste eigenständige Abhängigkeit: geschlossene relationale Raumobservablen und ihr Transport aus den vorhandenen Paar-/Formations-/Witness-Daten.
 
 CI-Nachprüfung der Uhrenkonstruktion: Beide Actions-Jobs zu Codecommit fe718cde8e7d0eca5eb70cfa82b663a9bcfe2a63 erfolgreich. Manuskript-Prüfsumme, alle fünf Audits, sieben Grenztests und Artefakt-Upload bestanden. Der spätere Dokumentationscommit beansprucht keine zusätzliche geprüfte Codeänderung; Details in [CI_VALIDATION.md](CI_VALIDATION.md).
+
+## Fortsetzung: relationaler Paarrahmen und quotient-invariante Koordinaten
+
+[Herleitung](RELATIONAL_FRAME_DERIVATION.md), [vorab festgelegtes Protokoll](RELATIONAL_FRAME_PROTOCOL.md), [Prüfcode](relational_frame_audit.py), [Resultate](relational_frame_results.json).
+
+Eine nichtverschwindende Formations-Querverbindung zwischen den stabil ausgewählten Eigenlinien definiert einen kovarianten Pauli-Rahmen. Seine Kernelkoordinaten sind unter den zulässigen Basiswechseln invariant. Rahmen und Referenzamplitude bleiben unter dem vollständigen Vollpersistenz-Update erhalten. Zusammen mit den bisherigen Paar-/Umgebungsdaten entsteht ein explizit geschlossener reeller Koordinatenfaktor auf dem Quotienten.
+
+Der Witness liefert eine alternative Referenz, auch bei verschwindender Formations-Querverbindung. Auf der Überlappung unterscheiden sich beide durch eine exakt berechnete konstante SO(2)-Drehung. An vollständig diagonalen symmetrischen Zuständen verbietet der Phasenstabilisator einen natürlichen transversalen Pauli-Rahmen; die Formationskarte lässt sich dort nicht stetig fortsetzen. Diese Grenze widerlegt keine anderen Referenzen an unsymmetrischen Zuständen.
+
+34 vollständige Quellaufrufe, einschließlich acht Basiswechselkontrollen und eines Witness-Ausweichfalls, bestanden. Größter Rest <1.5e-13 bei vorgegebenem 1e-10. Ein struktureller symbolischer Hermitizitätsvergleich wurde durch exakte Differenzvereinfachung korrigiert; keine mathematische Formel oder Schwelle wurde angepasst. CI separat prüfen.
+
+Damit ist die interne relationale Referenz konstruktiv geklärt, räumliche Bewegung und physikalischer Viererstrom bleiben offen. Die Dämpfung der zwei transversalen Komponenten bleibt auch in den quotient-invarianten Koordinaten bestehen. Nächste mathematische Reichweitenfrage: Eintritt allgemeinerer Vollpersistenzdaten in die stabile Klasse und Verhalten der Referenzkarten bei Auswahl/Seed; für physikalischen Transport fehlen weiterhin Ereignisnachbarschaft und eine quellenbegründete Verschiebungs-/Stromabbildung.
