@@ -307,3 +307,16 @@ Offen bleiben Auswahl und Robustheit des ausgeglichenen Sektors, physikalische U
 
 
 CI-Nachprüfung der uniformen Übertragung: Beide Actions-Jobs zu Codecommit e7584d66a1e24ca6631479b1b2809ee060849d42 erfolgreich. Manuskript-Prüfsumme, alle neunzehn Audits, sieben Grenztests und Artefakt-Upload bestanden. Geprüfter Code und spätere Dokumentation sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
+
+
+## Fortsetzung: Formations-Ungleichgewicht und Robustheitsgrenze
+
+[Herleitung](IMBALANCE_DERIVATION.md), [Vorabprotokoll](IMBALANCE_PROTOCOL.md), [Prüfcode](imbalance_audit.py), [Resultate](imbalance_results.json).
+
+Die exakte Zwei-Niveau-Formel ist jetzt für delta=tr(FA)/trF!=0 hergeleitet; s bezeichnet hier ausdrücklich den spektralen Mittelpunkt. Auf der Randkarte gilt r_+=r/(1+delta r+r²). Ein festes positives delta führt zu schnellerem Kontrastabbau und einem bei epsilon->0 trivialen kumulativen Rand-Kernel; negatives delta hat den stabilen relativen Fixpunkt r*=-delta mit h*=sqrt(1-delta²). Kleine feste Ungleichgewichte sind somit auf der bisherigen langsamen Skala nicht allgemein vernachlässigbar.
+
+Die kritische Skala delta=kappa epsilon besitzt eine kontrollierte Randgrenzfamilie u'=-u²(kappa+u), (log d)'=-u²/2. Der bisherige ausgeglichene Verlauf ist kappa=0; delta=o(epsilon) erhält diesen Randgrenzwert. Die uniforme positive-s-Übertragung wurde bisher nur bei delta=0 bewiesen und wird hier nicht ungeprüft erweitert.
+
+Symbolische Identitäten, zwölf kritische Rand-Konvergenzfolgen und feste-delta-Schranken sowie 12 vollständige kurze Original-Quellaufrufe bestanden. Maximaler Quell-/Rekurrenzrest ca. 1.66e-12, Kovarianzrest <4.4e-15, unverändert unter 1e-10. Bis 3200 Randschritte bleiben von den Originalaufrufen getrennt. CI separat prüfen.
+
+Nächste Abhängigkeit: uniforme positive-s-Übertragung der kritischen Familie und BFG-interne Auswahl/Stabilisierung der Formations-/Lastrelation. Physikalische Uhr, Raummaß, vollständiger Energie-Impuls-Strom und Einstein bleiben offen.

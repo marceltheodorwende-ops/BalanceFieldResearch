@@ -159,3 +159,11 @@ Additional controls:
 
 Additional controls:
     python research/spacetime-conservation/uniform_lift_audit.py
+
+
+## Formation imbalance and critical scaling
+
+[Exact imbalanced recurrences, boundary regimes and critical family](IMBALANCE_DERIVATION.md), [protocol](IMBALANCE_PROTOCOL.md), [fresh results](imbalance_results.json). Fixed imbalance changes the relative boundary dynamics. Imbalance proportional to initial splitting yields a controlled family of coupled slow limits; smaller imbalance recovers the balanced boundary limit. Uniform positive-load lifting remains proved only for the balanced case, and physical clock/space are open.
+
+Additional controls:
+    python research/spacetime-conservation/imbalance_audit.py

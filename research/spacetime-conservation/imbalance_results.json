@@ -1,0 +1,168 @@
+{
+  "status": "PASS: imbalance changes boundary scaling; critical imbalance family derived",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "tolerance": 1e-10,
+  "seed": 20261111,
+  "symbolic": {
+    "boundary_amplitude": "r/(d*r + r**2 + 1)",
+    "boundary_h_squared": "(d*r + 1)**2/(-r**2 + (d*r + r**2 + 1)**2)",
+    "reciprocal_increment": "delta+r",
+    "negative_imbalance_fixed_h_squared": "1-delta**2",
+    "critical_h_second_coefficient": "-u**2/2"
+  },
+  "critical_boundary": [
+    {
+      "kappa": -0.5,
+      "reference_u": 0.8316223380367921,
+      "reference_decay": 0.8143983522046101,
+      "cases": [
+        {
+          "epsilon": 0.1,
+          "boundary_steps": 50,
+          "scaled_amplitude": 0.8311491901388219,
+          "kernel_decay": 0.8131842278519859,
+          "amplitude_error": 0.0004731478979701498,
+          "decay_error": 0.0012141243526242462
+        },
+        {
+          "epsilon": 0.05,
+          "boundary_steps": 200,
+          "scaled_amplitude": 0.8315044796308405,
+          "kernel_decay": 0.8140963303808635,
+          "amplitude_error": 0.00011785840595157637,
+          "decay_error": 0.00030202182374661213
+        },
+        {
+          "epsilon": 0.025,
+          "boundary_steps": 800,
+          "scaled_amplitude": 0.8315929000703165,
+          "kernel_decay": 0.8143229405956948,
+          "amplitude_error": 2.9437966475587274e-05,
+          "decay_error": 7.541160891533227e-05
+        },
+        {
+          "epsilon": 0.0125,
+          "boundary_steps": 3200,
+          "scaled_amplitude": 0.8316149802075236,
+          "kernel_decay": 0.8143795051603175,
+          "amplitude_error": 7.357829268528349e-06,
+          "decay_error": 1.8847044292558124e-05
+        }
+      ]
+    },
+    {
+      "kappa": 0.0,
+      "reference_u": 0.7071067811865476,
+      "reference_decay": 0.8408964152537145,
+      "cases": [
+        {
+          "epsilon": 0.1,
+          "boundary_steps": 50,
+          "scaled_amplitude": 0.706491157559563,
+          "kernel_decay": 0.8394745268414728,
+          "amplitude_error": 0.0006156236269845294,
+          "decay_error": 0.0014218884122416675
+        },
+        {
+          "epsilon": 0.05,
+          "boundary_steps": 200,
+          "scaled_amplitude": 0.7069534315145105,
+          "kernel_decay": 0.8405421574657309,
+          "amplitude_error": 0.00015334967203706196,
+          "decay_error": 0.00035425778798359175
+        },
+        {
+          "epsilon": 0.025,
+          "boundary_steps": 800,
+          "scaled_amplitude": 0.707068478344286,
+          "kernel_decay": 0.840807926742703,
+          "amplitude_error": 3.830284226158387e-05,
+          "decay_error": 8.848851101150856e-05
+        },
+        {
+          "epsilon": 0.0125,
+          "boundary_steps": 3200,
+          "scaled_amplitude": 0.7070972076340287,
+          "kernel_decay": 0.840874297872539,
+          "amplitude_error": 9.573552518848949e-06,
+          "decay_error": 2.2117381175523754e-05
+        }
+      ]
+    },
+    {
+      "kappa": 0.5,
+      "reference_u": 0.6124592140715888,
+      "reference_decay": 0.8611849255808685,
+      "cases": [
+        {
+          "epsilon": 0.1,
+          "boundary_steps": 50,
+          "scaled_amplitude": 0.6118323669592852,
+          "kernel_decay": 0.859594877563346,
+          "amplitude_error": 0.0006268471123035413,
+          "decay_error": 0.001590048017522494
+        },
+        {
+          "epsilon": 0.05,
+          "boundary_steps": 200,
+          "scaled_amplitude": 0.6123031074687242,
+          "kernel_decay": 0.860788028290827,
+          "amplitude_error": 0.00015610660286458078,
+          "decay_error": 0.0003968972900414425
+        },
+        {
+          "epsilon": 0.025,
+          "boundary_steps": 800,
+          "scaled_amplitude": 0.6124202250489961,
+          "kernel_decay": 0.8610857403288712,
+          "amplitude_error": 3.8989022592694766e-05,
+          "decay_error": 9.918525199725803e-05
+        },
+        {
+          "epsilon": 0.0125,
+          "boundary_steps": 3200,
+          "scaled_amplitude": 0.6124494691646506,
+          "kernel_decay": 0.8611601317198343,
+          "amplitude_error": 9.744906938169429e-06,
+          "decay_error": 2.4793861034155817e-05
+        }
+      ]
+    }
+  ],
+  "fixed_positive_imbalance": [
+    {
+      "epsilon": 0.1,
+      "boundary_steps": 50,
+      "r": 0.061183236695928525,
+      "upper_bound": 0.08,
+      "scaled_amplitude": 0.6118323669592852
+    },
+    {
+      "epsilon": 0.05,
+      "boundary_steps": 200,
+      "r": 0.026926189901751364,
+      "upper_bound": 0.03333333333333333,
+      "scaled_amplitude": 0.5385237980350273
+    },
+    {
+      "epsilon": 0.025,
+      "boundary_steps": 800,
+      "r": 0.01079981779313469,
+      "upper_bound": 0.0125,
+      "scaled_amplitude": 0.43199271172538756
+    },
+    {
+      "epsilon": 0.0125,
+      "boundary_steps": 3200,
+      "r": 0.0038366814032540254,
+      "upper_bound": 0.004166666666666667,
+      "scaled_amplitude": 0.30693451226032203
+    }
+  ],
+  "source": {
+    "full_source_calls": 12,
+    "maximum_source_recurrence_residual": 1.650756557315734e-12,
+    "maximum_gauge_residual": 4.354248909456869e-15
+  },
+  "scope": "Imbalanced long-time conclusions are boundary-map statements; balanced positive-load lifting is not extended here"
+}
