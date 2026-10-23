@@ -53,3 +53,12 @@ All steps passed: pinned manuscript SHA256, all six audits, seven boundary tests
 The new audit covers 24 complex source events, eight additional unitary controls and two prescribed source examples, including Witness fallback (34 full source calls overall). Exact checks cover the Pauli algebra, reference rotation and phase-boundary witness. Largest recorded numerical residual is below 1.5e-13.
 All six changed research/workflow files were read back at the tested commit and matched prepared contents. Preregistered protocol commit: 6b63bb62376cee9b2b1391af8b855c56375bdc3a.
 These checks concern a closed internal relational frame and coordinate factor on the declared class. Physical positions, translation/current maps and Einstein dynamics are not established. This later documentation record does not claim an additional code change was tested.
+
+## Eventual stable-class entry and pre-entry collision limits
+
+Verified 23 October 2026 for code commit [b972c74aa61fcc57304ccbe3856544e6e8edac82](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/commit/b972c74aa61fcc57304ccbe3856544e6e8edac82).
+Both [run 40015676767](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40015676767) and [run 40015671847](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40015671847) completed the finite-controls job successfully.
+Every step passed: pinned manuscript checksum, all seven research audits, seven boundary tests and artifact upload.
+The new audit checks 12 independent rational preparations (20 exact events until first C entry), 24 complex full-source events and two prescribed source witnesses. All numerical bound violations were zero at recorded precision. Exact arithmetic, not numerical eigenvalue tolerance, establishes the selection-boundary collision and trace increase.
+All six changed research/workflow files were read back at the tested code commit and matched prepared contents. Protocol commit: 2e03f863f0d1dfc42bb9bfda688221ccba39f222.
+The theorem is restricted to autonomous P=I, F>0, 0<Y<I. It proves eventual extrema-class entry, not universal simple spectrum, a unique physical rank-two selector or clock/current/Einstein completion. The exact entry bound is not a floating-point continuation guarantee. This later documentation-only record does not claim extra code was tested.
