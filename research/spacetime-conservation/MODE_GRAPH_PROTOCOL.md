@@ -18,3 +18,11 @@ Exact symbolic two-node alpha/h/stock/current/readout identities and exact incid
 Four additional simultaneous-unitary source controls (case 0, first event each n), two source calls for K_± and two consecutive triangle source calls: 32 full source calls in the final audit.
 Record current-continuity DEFECTS as expected negative results, not test failure; the exact two-node defect must be nonzero and agree with the formula. If a candidate unexpectedly passes, analyze rather than change its input.
 Publish protocol first, proof/audit/results and status next; extend research CI, distinguish local and GitHub evidence, no original source or empirical changes.
+
+## Pre-evaluation extension: source-channel alternative, G7
+Before any audit evaluation, add the alternative obtained from the actual double-commutator identity, rather than keeping only the guessed J^R:
+For a retained orthogonal node decomposition P_i, define
+J^Phi_ij=sum_a Re tr(P_i T_a P_j [T_a,K]).
+Derive antisymmetry and Delta tr(P_i K)=-sum_j J^Phi_ij. It should vanish on Y-eigenmode nodes but may be nonzero on noncommuting formation-eigenmode nodes. This is an internal kernel continuity identity, not a physical spatial interpretation.
+Check it on formation eigenprojectors in all 24 complex events (same source calls), and on an additional exact/source example using the G4 Y,F,W but K=I+sigma_y. In the ascending F eigenbasis the expected stock change is (h-1,1-h) and the integrated edge flux is 1-h, h=31/sqrt(1001). This adds one source call: final total 33.
+Keep full K,Y,F data for this flux. Do not claim closure of a formation-node population-only projection or that this choice of nodes is physical.
