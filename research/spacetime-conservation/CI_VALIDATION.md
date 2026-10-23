@@ -135,3 +135,12 @@ Beide [Actions-Läufe 40023335908](https://github.com/marceltheodorwende-ops/Bal
 Neuer Audit: exaktes alpha=1/26, exakter negativer Determinant des Halbpotenzzeugen, 16 vollständige Quellaufrufe und positive Zwischenzeit-Gramkontrollen. Lokaler Quellrest <3.5e-15, Kovarianzrest <1.2e-15. Die sechs geänderten Dateien wurden am obigen Codecommit zurückgelesen und textgleich geprüft. Protokollcommit 7b84bfad2026730079567068576d83f815193cfe.
 
 Der negative Halbpotenzbefund ist ein bestandenes Gegenbeispiel gegen den benannten Ansatz, kein Fehler der CI und kein generelles Verbot kontinuierlicher Einbettungen. Positive alternative Pfade wählen keine physikalische Zeit. Dieser spätere Dokumentationscommit ist vom getesteten Codecommit getrennt.
+
+
+## Schwache Lastaufspaltung — Code 865d7f3b909676714d4404907c573e1105f64fbc
+
+Beide [Actions-Läufe 40023930332](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40023930332) und [40023937700](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40023937700) abgeschlossen mit success. Beide Jobs und sämtliche Schritte separat gelesen und erfolgreich: Manuskript-Prüfsumme, alle sechzehn Forschungs-Audits, sieben Grenztests und Artefakt-Upload.
+
+Der neue Audit prüft symbolische Winkel-/Koeffizientenidentitäten und 15 vollständige Quellaufrufe. Lokaler Zwei-Unitär-/Quellrest <1.5e-15, Kovarianzrest <1.9e-15; sämtliche vorab festgelegten Konvergenz- und Geometriesprungkontrollen bestanden. Alle sechs geänderten Dateien am obigen Codecommit textgleich zurückgelesen. Protokollcommit ffa002cbde3bd3c06cced4a25d2537a18f9f77ec.
+
+Eingefrorene Potenzen bis 64000 sind spektrale Vergleichsauswertungen, keine autonomen Quelltrajektorien. Die feste positive Hintergrundskalierung scheitert am endlichen Geometriesprung; alternative gemeinsame Grenzen bleiben offen. Dieser nachfolgende reine Dokumentationseintrag beansprucht keine weitere geprüfte Codeänderung oder physikalische Zeit-/Einstein-Herleitung.

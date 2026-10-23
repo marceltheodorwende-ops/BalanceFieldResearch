@@ -256,3 +256,6 @@ Die gemeinsame Euler-Skalierung delta t=epsilon² scheitert dagegen bei festem y
 Symbolische Koeffizientenrechnung und 15 vollständige Quellaufrufe bestanden; exakter Zwei-Unitär-Rest <1.5e-15, Kovarianzrest <1.9e-15. Die vorab festgelegten Generator-/Vergleichs-Konvergenzkontrollen bestanden. Bis 64000 eingefrorene Kanalpotenzen sind analytisch-spektrale Vergleichsauswertungen, keine entsprechend vielen Quellereignisse. CI separat prüfen.
 
 Der Gegenbefund betrifft diese feste-Hintergrund-Skalierung. Gemeinsame Rand-/relative-Last-Grenzen oder eine direkte diskrete Zeitregel bleiben konkrete nächste Alternativen. Physikalisches Raummaß, Uhr, vollständiger Energie-Impuls-Strom, Wirkung und Einstein bleiben offen.
+
+
+CI-Nachprüfung der schwachen Lastaufspaltung: Beide Actions-Jobs zu Codecommit 865d7f3b909676714d4404907c573e1105f64fbc erfolgreich. Manuskript-Prüfsumme, alle sechzehn Audits, sieben Grenztests und Artefakt-Upload bestanden. Geprüfter Code und spätere Dokumentation sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
