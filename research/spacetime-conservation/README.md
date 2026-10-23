@@ -96,3 +96,10 @@ Additional controls:
 
 Additional controls:
     python research/spacetime-conservation/channel_range_audit.py
+
+## Repeated adjacency evolution
+
+[Persistent creation of an endpoint Y edge](ADJACENCY_EVOLUTION_DERIVATION.md), [protocol](ADJACENCY_EVOLUTION_PROTOCOL.md), [fresh results](adjacency_evolution_results.json). The declared three-node current-Y path becomes a triangle. A proof using the actual endogenous alpha schedule retains the new edge at every finite event, while spectral projectors stay fixed and weights shrink. Physical locality is not inferred from either support or fixed spectral algebra.
+
+Additional controls:
+    python research/spacetime-conservation/adjacency_evolution_audit.py

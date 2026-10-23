@@ -183,3 +183,15 @@ Konstruktiv liefert eine normkonvergente Binomialentwicklung kontrollierte endli
 Dies widerlegt nur die geprüfte strikte Ein-Kanten-Regel auf der gewählten internen Nachbarschaft. Keine Aussage über eine verletzte physikalische Lorentz-Kausalität oder universell ausgeschlossene endliche Reichweiten. Nächste Abhängigkeit: Erhaltung/Veränderung der Lokalitätsbeschreibung unter wiederholten Y-Ereignissen und globalem alpha-Rückkopplung; räumliche Auswahl, Kalibrierung, Viererstrom und Einstein bleiben offen.
 
 CI-Nachprüfung der Kanalreichweite: Beide Actions-Jobs zu Codecommit 37d45d42422ccf8b704410519f2a1eb6eee2ea19 erfolgreich. Manuskript-Prüfsumme, alle elf Audits, sieben Grenztests und Artefakt-Upload bestanden. Geprüfter Code und späterer Dokumentationsstand sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
+
+## Fortsetzung: wiederholte Veränderung der aktuellen Y-Nachbarschaft
+
+[Herleitung](ADJACENCY_EVOLUTION_DERIVATION.md), [vorab festgelegtes Protokoll](ADJACENCY_EVOLUTION_PROTOCOL.md), [Prüfcode](adjacency_evolution_audit.py), [Resultate](adjacency_evolution_results.json).
+
+Nicht nur der Kernelkanal reicht über die anfängliche Kette hinaus: Das echte Y-Update erzeugt selbst eine neue direkte Kante. Für den Drei-Knoten-Zeugen ist Y1,13=413979576/2486758594075≈0.000166474 exakt positiv. Ein neuer Beweis über die tatsächliche endogene alpha-Folge zeigt: Diese Kante bleibt nach JEDEM endlichen weiteren Ereignis strikt vorhanden. Die beiden ursprünglichen Kanten bleiben ebenfalls positiv; die Kette wird zum Dreieck.
+
+Dabei bleiben alle Spektralprojektoren fest, weil Y_k=phi_k(Y0). Feste Spektralalgebra ist also keine feste dünn besetzte Formation-Knoten-Nachbarschaft. Gewichte schrumpfen gegen null; eine endliche physikalische Zeit oder unbegrenzt fortsetzbare Gleitkommarechnung folgt daraus nicht. Die Konvexitätsrechnung friert alpha nur im Hilfsargument der einzelnen spektralen Funktion ein und variiert nicht die vollständige endogene Zustandsableitung.
+
+Neun exakte rationale Ereignisse sowie zwölf vollständige Quellaufrufe inklusive Basiswechselkontrollen bestanden; größter Rest <7.7e-16. C-Mitgliedschaft wurde mit rationalen Gershgorin-Schranken kontrolliert. CI separat prüfen.
+
+Ein initialer Referenzgraph kann als deklarierte Historienauslese geprüft werden; das Löschen neu erzeugter Y-Kanten wäre dagegen eine Modelländerung. Nächste Abhängigkeit: kontrollierte mehrfache Kanal-Komposition relativ zu einem solchen Referenzgraphen, ohne aktuelle Matrixsparsamkeit als physikalische Lokalität auszugeben. Raumzeit, physikalischer Viererstrom und Einstein bleiben offen.
