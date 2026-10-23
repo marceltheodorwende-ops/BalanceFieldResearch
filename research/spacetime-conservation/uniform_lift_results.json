@@ -1,0 +1,80 @@
+{
+  "status": "PASS: uniform lifting in exact balanced positive-load sector; physical spacetime OPEN",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "tolerance": 1e-10,
+  "seed": 20261110,
+  "symbolic": {
+    "relative_denominator": "r**4*s**2 + r**2*(-s**3 - 2*s**2 + 1) + (s + 1)**3",
+    "positive_difference_factor": "r**4*(-s**2 + 2*s + 2) + r**2*(1 - s**2) + 2*(s + 1)**2",
+    "exact_factor_upper_bound": "675389/320000"
+  },
+  "long_recurrence": [
+    {
+      "epsilon": 0.1,
+      "initial_scale": 0.01,
+      "derived_recurrence_steps": 50,
+      "positive_scale_prefix": 6,
+      "cutoff_scale": "8.76271419904e-110",
+      "analytic_remaining_amplitude_bound": "3.50508567962e-109",
+      "analytic_remaining_log_bound": "3.54889925061e-109",
+      "normalized_amplitude_difference": 0.007322649475161229,
+      "normalized_amplitude_bound": 0.04,
+      "log_kernel_difference": 0.005013077248824725,
+      "log_kernel_bound": 0.0405,
+      "continuum_amplitude_error": 0.007938273102145697,
+      "continuum_decay_error": 0.0027970282814382833
+    },
+    {
+      "epsilon": 0.05,
+      "initial_scale": 0.0025,
+      "derived_recurrence_steps": 200,
+      "positive_scale_prefix": 5,
+      "cutoff_scale": "1.15975609993e-74",
+      "analytic_remaining_amplitude_bound": "4.63902439971e-74",
+      "analytic_remaining_log_bound": "4.65352135096e-74",
+      "normalized_amplitude_difference": 0.001783267899206359,
+      "normalized_amplitude_bound": 0.01,
+      "log_kernel_difference": 0.001251196322684932,
+      "log_kernel_bound": 0.01003125,
+      "continuum_amplitude_error": 0.0019366175712430208,
+      "continuum_decay_error": 0.0006980836740974105
+    },
+    {
+      "epsilon": 0.025,
+      "initial_scale": 0.000625,
+      "derived_recurrence_steps": 800,
+      "positive_scale_prefix": 5,
+      "cutoff_scale": "6.30643424043e-94",
+      "analytic_remaining_amplitude_bound": "2.52257369617e-93",
+      "analytic_remaining_log_bound": "2.52454445687e-93",
+      "normalized_amplitude_difference": 0.0004429069514228897,
+      "normalized_amplitude_bound": 0.0025,
+      "log_kernel_difference": 0.00031258069736422053,
+      "log_kernel_bound": 0.002501953125,
+      "continuum_amplitude_error": 0.0004812097936858928,
+      "continuum_decay_error": 0.00017437289764129452
+    },
+    {
+      "epsilon": 0.0125,
+      "initial_scale": 0.00015625,
+      "derived_recurrence_steps": 3200,
+      "positive_scale_prefix": 5,
+      "cutoff_scale": "3.42058699996e-113",
+      "analytic_remaining_amplitude_bound": "1.36823479999e-112",
+      "analytic_remaining_log_bound": "1.36850203335e-112",
+      "normalized_amplitude_difference": 0.00011054570376524139,
+      "normalized_amplitude_bound": 0.000625,
+      "log_kernel_difference": 7.813013620262403e-05,
+      "log_kernel_bound": 0.0006251220703125,
+      "continuum_amplitude_error": 0.00012011925628524844,
+      "continuum_decay_error": 4.3582808801524016e-05
+    }
+  ],
+  "source": {
+    "full_source_calls": 12,
+    "maximum_source_recurrence_residual": 1.2184417147372626e-14,
+    "maximum_gauge_residual": 1.3999042223141357e-15
+  },
+  "precision_decimal_digits": 80,
+  "scope": "Analytic uniform theorem plus high-precision reduced recurrence prefixes and bounded boundary tails; not long original-source runs"
+}

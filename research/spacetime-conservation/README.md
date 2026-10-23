@@ -151,3 +151,11 @@ Additional controls:
 
 Additional controls:
     python research/spacetime-conservation/relative_slow_audit.py
+
+
+## Uniform lifting to positive-load source dynamics
+
+[Exact balanced-sector recurrences and uniform error theorem](UNIFORM_LIFT_DERIVATION.md), [protocol](UNIFORM_LIFT_PROTOCOL.md), [fresh results](uniform_lift_results.json). Summable total-load errors lift the coupled boundary limit to the exact positive-load persistence dynamics on the declared balanced sector. Short original-source checks, long reduced recurrence controls and analytic tails are distinguished. Sector selection/robustness and physical time/space remain open.
+
+Additional controls:
+    python research/spacetime-conservation/uniform_lift_audit.py

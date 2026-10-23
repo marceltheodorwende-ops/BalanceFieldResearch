@@ -291,3 +291,16 @@ Offen bleibt die uniforme Übertragung auf lange autonome positive-s-Quellfolgen
 
 
 CI-Nachprüfung der langsamen relativen Randdynamik: Beide Actions-Jobs zu Codecommit ddc022162009f033161e3825db49d6215e4cf8f4 erfolgreich. Manuskript-Prüfsumme, alle achtzehn Audits, sieben Grenztests und Artefakt-Upload bestanden. Geprüfter Code und nachfolgende Dokumentation sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
+
+
+## Fortsetzung: uniforme positive-Last-Übertragung im ausgeglichenen Sektor
+
+[Herleitung](UNIFORM_LIFT_DERIVATION.md), [Vorabprotokoll](UNIFORM_LIFT_PROTOCOL.md), [Prüfcode](uniform_lift_audit.py), [Resultate](uniform_lift_results.json).
+
+Die bislang offene Übertragung des Randgrenzwerts ist im exakten ausgeglichenen Zwei-Niveau-Sektor jetzt analytisch kontrolliert. Für 0<s0<=1/100, r0=epsilon<=1/4 liefern die unveränderten mathematischen Quellrekurrenzen s_+<=s/32 und |r_j-rbar_j|/epsilon<4s0 für alle j. Der kumulative Log-Kernelfehler ist bei N epsilon²<=T höchstens (8T+5epsilon²)s0.
+
+Damit folgt bei gemeinsamem s0(epsilon)->0 der vorherige gekoppelte langsame Grenzwert nun aus der exakten positiven-Last-Vollpersistenzregel, mit Fehler O_T(s0+epsilon²). Keine Geometrie-Rücksetzung oder erfundene Zeitgleichung. Die Aussage bleibt auf diesen mathematischen Sektor und feste skalierte Zeitintervalle begrenzt.
+
+Symbolische Faktorisierungen, exakte Bereichsabschätzungen, Mehrpräzisions-Präfixe und analytisch begrenzte lange Rekurrenzfortsetzungen sowie 12 vollständige kurze Original-Quellaufrufe bestanden. Größter Originalquell-/Rekurrenzrest <1.3e-14, Kovarianzrest <1.4e-15. Lange reduzierte Folgen bis 3200 Schritte sind keine entsprechenden Original-Quellaufrufe; mathematische Tailgrenzen sind kein Intervall-Rundungszertifikat. CI separat prüfen.
+
+Offen bleiben Auswahl und Robustheit des ausgeglichenen Sektors, physikalische Uhr, Raummaß und Energie-Impuls-Zuordnung. Nächster konkreter Test ist ein kleines Formations-Ungleichgewicht auf derselben gemeinsamen Skala. Eine vollständige physikalische Lorentz-/Einstein-Herleitung bleibt offen.
