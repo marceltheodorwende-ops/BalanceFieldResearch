@@ -1,0 +1,40 @@
+name: BFG spacetime and conservation controls
+on:
+  push:
+    branches: [research/bfg-spacetime-conservation]
+    paths:
+      - 'research/spacetime-conservation/**'
+      - 'experiments/real-eeg-covariance-2026-10-07/experiment.py'
+      - '.github/workflows/bfg-spacetime-conservation.yml'
+  pull_request:
+    paths:
+      - 'research/spacetime-conservation/**'
+      - 'experiments/real-eeg-covariance-2026-10-07/experiment.py'
+      - '.github/workflows/bfg-spacetime-conservation.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: bfg-spacetime-conservation-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  finite-controls:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r research/spacetime-conservation/requirements.txt
+      - working-directory: papers/dynamic-order-2026-10-08
+        run: sha256sum -c SHA256SUMS
+      - run: python research/spacetime-conservation/audit.py
+      - working-directory: research/spacetime-conservation
+        run: python -m unittest -v test_audit
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: bfg-spacetime-finite-controls
+          path: research/spacetime-conservation/results.json
+

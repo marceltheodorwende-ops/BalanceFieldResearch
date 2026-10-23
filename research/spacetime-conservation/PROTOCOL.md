@@ -32,3 +32,9 @@ DERIVATION.md: explicit propositions, proofs, assumptions, counterexamples and b
 audit.py + test_audit.py + results.json: fresh reproducible checks and failures if any.
 STATUS.md + README.md: question-to-evidence ledger, exact remaining dependency, and reproduction instructions.
 A completed first round is a checked research result with open gates, not a completed physical Einstein derivation.
+
+## Pre-execution source-algebra amendment and additional exact balance check
+Before new audit execution, direct rank analysis corrected the original C3 seed expectation: P=diag(1,0), Y=I/2 has analysis rank one and no seed complement. Keep that rank-drop witness. Add C3b: v=(sqrt(3)/2,1/2), P=vv^dagger, F=W=P, Y=diag(1/4,1/2), K=diag(-1,-2); analysis rank two and a one-dimensional negative seed complement. Both are documented in DERIVATION.md.
+After the first control run passed, extend the investigation (C10) to the exact complete-event trace defect: with U_C,U_B the two blocks of the actual analysis isometry, D=U_C U_C^dagger+U_B U_B^dagger, test tr K_+-tr K=tr[K(D-I)]. Use 24 predeclared random partial-carrier cases (6 each at n=2,3,4,5), K negative definite with nondegenerate compressed eigenvalues, mixed Y in (.15,.8), F,W supported on P. Record terminal cases rather than dropping them; require all nonterminal residuals <1e-10 and report the number. A telescoping signed history ledger follows algebraically; do not call it a positive physical reservoir or local stress.
+
+

@@ -1,5 +1,9 @@
 # Balance Field Framework
 
+## BFG-only spacetime and conservation investigation — 23 October 2026
+
+[Binding research mandate and checked results](research/spacetime-conservation/README.md). The first round derives finite kernel balances, tests conservation candidates and a Hermitian two-mode Lorentz carrier, and records the missing physical current/action bridge. The complete active source is [Dynamic Order](papers/dynamic-order-2026-10-08/README.md). Physical Einstein dynamics remains open.
+
 ## Balance Field Equation preprint
 
 [Read the recursive world-formula preprint and its GitHub documentation](papers/balance-field-equation/README.md), including the original PDF, mathematical status register and 32 illustrated panels. The finite ambient kernel is distinguished from its open physical measurement bridges.
@@ -123,3 +127,4 @@ The [current 404-file Studio version](research/emergence-studio-2026-09-23-r3/RE
 ## Fundamental Closure research stage — 25 September 2026
 
 The new [Fundamental Closure package and intake review](research/fundamental-closure-2026-09-25/README.md) preserves all 44 supplied files separately from the Emergence Studio master. Fresh verification reproduced 174 passing tests and both 1,000-case synthetic stress reports. [The review](research/fundamental-closure-2026-09-25/review/REVIEW.md) preserves numerical ambiguities and distinguishes declared completion rules from historically derived and empirically established claims.
+
