@@ -320,3 +320,6 @@ Die kritische Skala delta=kappa epsilon besitzt eine kontrollierte Randgrenzfami
 Symbolische Identitäten, zwölf kritische Rand-Konvergenzfolgen und feste-delta-Schranken sowie 12 vollständige kurze Original-Quellaufrufe bestanden. Maximaler Quell-/Rekurrenzrest ca. 1.66e-12, Kovarianzrest <4.4e-15, unverändert unter 1e-10. Bis 3200 Randschritte bleiben von den Originalaufrufen getrennt. CI separat prüfen.
 
 Nächste Abhängigkeit: uniforme positive-s-Übertragung der kritischen Familie und BFG-interne Auswahl/Stabilisierung der Formations-/Lastrelation. Physikalische Uhr, Raummaß, vollständiger Energie-Impuls-Strom und Einstein bleiben offen.
+
+
+CI-Nachprüfung des Formations-Ungleichgewichts: Beide Actions-Jobs zu finalem Codecommit 9db5364c87d760c1b9cbf262ae0a268988fe1341 erfolgreich. Manuskript-Prüfsumme, alle zwanzig Audits, sieben Grenztests und Artefakt-Upload bestanden. Die Zweitereigniskontrolle reicht die tatsächlich zurückgegebene Quellenlast weiter. Geprüfter Code und spätere Dokumentation sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
