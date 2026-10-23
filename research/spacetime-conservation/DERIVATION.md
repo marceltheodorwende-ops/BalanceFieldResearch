@@ -186,3 +186,6 @@ Runde 32: [Lückenabhängige Stabilität und Entartungsgrenze der Trägerwahl](S
 
 
 Runde 33: [Konkurrierende retained-data-Auswahlen](TIE_AMBIGUITY_DERIVATION.md) besitzen dieselbe exakte Persistenz, aber verschiedene lokale Bestände; die geprüften Kriterien erzwingen keine F-/W-Priorität.
+
+
+Runde 34: [Informationsgehalt beschrifteter Paarfamilien](PAIR_FAMILY_DERIVATION.md): exakter Rang 8 der Kandidatenfamilie, erhaltener positiver unsichtbarer Faserzeuge und vollständige Kernelinformation aus allen Paarflächen; keine automatische Vierdimensionalität.

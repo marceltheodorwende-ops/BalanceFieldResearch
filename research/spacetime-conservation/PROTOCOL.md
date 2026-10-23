@@ -68,3 +68,6 @@ Runde 32: [Selektorstabilitäts-Vorabprotokoll](SELECTOR_STABILITY_PROTOCOL.md),
 
 
 Runde 33: [Vorabprotokoll zur F-/W-Auswahlambiguität](TIE_AMBIGUITY_PROTOCOL.md), exakte skalare Quell-/Projektoridentitäten und sechs Original-Quellaufrufe.
+
+
+Runde 34: [Paarfamilien-Vorabprotokoll](PAIR_FAMILY_PROTOCOL.md), exakte lineare Ränge/Nullräume, positive Faser und acht Original-Quellaufrufe.

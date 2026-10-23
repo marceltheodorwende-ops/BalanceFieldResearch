@@ -491,3 +491,12 @@ Sechs frische Original-Quellaufrufe und exakte Block-/Spuridentitäten bestanden
 
 
 CI Runde 33: Beide Actions-Läufe zu Codecommit 7c8cf8a1f2250d73407df3772796c10d0c28a9be vollständig erfolgreich. Alle 33 Audits, sieben Grenztests, Manuskript-Prüfsumme und Artefakte bestanden; exakte Nachweise und Code/Dokumentations-Trennung in CI_VALIDATION.md.
+
+
+## Runde 34: Informationsdimension beschrifteter Paarfamilien
+
+[PAIR_FAMILY_DERIVATION.md](PAIR_FAMILY_DERIVATION.md) untersucht die Alternative, konkurrierende F-/W-Paarsektoren gemeinsam zu behalten. Die beschriftete P_tau-Kompressionsfamilie aus Runde 33 hat auf Herm(C³) exakt reellen Rang 8 und Kern J=i(|2><3|-|3><2|); drei rationale Mitglieder genügen. Bei Spur eins sind sieben sichtbare affine Parameter vorhanden. Eine positive Faser K±=I/3±J/12 besitzt gleiche Familienbilder; im skalaren Lastsektor bleiben sie auch künftig gleich, daher hier ausdrücklich kein Faser-Geschlossenheitsgegenbeispiel.
+
+Alle beschrifteten Rang-zwei-Flächen zusammen bestimmen hingegen den gesamten Herm(C^n)-Kernel mit n² reellen Parametern. Das bloße Sammeln der Paarsektoren erzeugt deshalb keinen automatisch vierdimensionalen lokalen Träger. Labels werden nicht stillschweigend wegquotientiert; physikalische Raumzeitdimension wird nicht aus diesem Rang abgelesen.
+
+Exakte Ränge/Nullraum/Positivität und acht frische Original-Quellaufrufe bestanden. Kompressionsrest <1.8e-16, verborgener Kernelrest <2e-16, Eichrest <5.7e-16. Nächste Abhängigkeit: quellengestützte geschlossene Reduktion und Bilanz über überlappende/wechselnde Sektoren. Trägerauswahl, Raumtransport, physikalische Uhr, vollständiger Viererstrom und Einstein bleiben offen. CI separat prüfen.
