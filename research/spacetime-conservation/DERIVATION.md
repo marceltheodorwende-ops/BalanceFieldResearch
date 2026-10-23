@@ -209,3 +209,6 @@ Siehe [PHYSICAL_IDENTIFICATION.md](PHYSICAL_IDENTIFICATION.md): quellenbasierte 
 
 
 Runde40: [Rational zertifizierter aktiver Gesamtbestandsdefekt](ACTIVE_STOCK_DEFECT.md) schließt die numerische Kandidatenlücke aus Runde39 durch einen einfachen exakten Eingabezeugen und eine rationale Polarwurzel-Fehlerschranke. Seed-Kompensation allein erzwingt keinen verschwindenden Transportrest. Physikalische Identifikation bleibt getrennt offen.
+
+
+Runde41: [Grenze fester linearer Bestandsgewichte](LINEAR_STOCK_LIMIT.md) beweist den Ausschluss aller nichttrivialen festen Kombinationen aus aktivem Kernelbestand und Formation, charakterisiert den spurfrei gestützten Rückzugsrest und hinreichende erhaltene Teilklassen. Vier Originalkontrollen ergänzen die exakten Zwei-Zeugen-/Vorzeichenbeweise.

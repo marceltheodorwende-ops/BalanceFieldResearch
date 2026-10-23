@@ -571,3 +571,12 @@ Reine Dokumentationsrunde; kein Audit-/Workflow-/Quellcode verändert und kein n
 Exakte Residuen und positive Sylvester-Abschätzung zertifizieren die inverse Gramwurzel unabhängig von numerischer SVD. Zwei Originalkontrollen im finalen Lauf, einschließlich komplexer Eichkontrolle, bestätigen den Defekt; zuvor ein explorativer Originalaufruf. Eichrest<2e-15. Ein anfangs fehlerhafter symbolischer Last-Hilfsterm (Y² statt Y P Y) wurde nach Assertion-Abbruch korrigiert; danach frischer vollständiger Pass. Quellgleichung unverändert.
 
 Nächste mathematische Abhängigkeit: Bedingungen für B4=P bzw. quelleninterne Struktur des aktiven Transportrests. Energieablesung, räumliche Relation, Uhr und physikalischer Viererstrom bleiben offen. Reine Dokumentations-/Zertifikatsrunde, keine Code-/Workflowänderung und kein neuer Remote-Pass behauptet.
+
+
+## Runde41: feste lineare Bestandsgewichte und erhaltene Teilklassen
+
+[LINEAR_STOCK_LIMIT.md](LINEAR_STOCK_LIMIT.md) zeigt: Kein nichttriviales festes reelles a,b macht a tr(PK)+b tr F auf allen zulässigen nichtterminalen Ereignissen erhalten. Exakter Rang1-Zeuge erzwingt a=b; rational zertifizierter Rang2-Defekt d!=0 erzwingt dann a=b=0. Det der Änderungsmatrix=-9d/4. Keine Verallgemeinerung auf jede physikalische Energieabbildung.
+
+Positiv abgegrenzt: Bei Q_selection=I, unterstütztem F/W und Rang r gilt B4>=0, B4<=2P, supp B4<=P und tr B4=r; X=B4-P ist spurfrei. Rang1, skalares PKP oder reduzierender P-Y-Sektor geben hinreichende Einzelschritt-Erhaltung. Am selben Rang2-Kanal kehrt Vertauschen der ersten zwei K-Eigenwerte das Defektvorzeichen exakt um; K=-I hat Defekt0 trotz X!=0. Kein allgemeiner Dissipationsterm.
+
+Vier vorab bestimmte frische Originalaufrufe bestanden; exakte symbolische Gewichtselimination bestätigt. Dokumentationsrunde, Quell-/Audit-/Workflowdateien unverändert, kein neuer Remote-Pass. Nächste Abhängigkeit: source-selected Zusatzbestand oder unabhängig begründete geschlossene Zustandsklasse; M_E, Raumrelation, Uhr und Impulsstrom weiter offen.
