@@ -1,0 +1,18 @@
+{
+  "status": "PASS: entrywise-power candidate refuted by exact witness; two nonunique CP interpolations established",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "tolerance": 1e-10,
+  "seed": 20261106,
+  "full_source_calls": 16,
+  "exact_alpha": "1/26",
+  "half_power_determinant": "-7*sqrt(2)/5 + 1/25 + 28*sqrt(3)/25",
+  "half_power_determinant_float": -2.0828451904995716e-06,
+  "half_power_minimum_eigenvalue": -3.459599775900716e-05,
+  "half_time_interpolation_difference": 0.014939024264816947,
+  "convex_half_composition_defect": 0.0005679356391901153,
+  "angular_half_composition_defect": 0.03001687321602537,
+  "maximum_source_residual": 3.4847098376164404e-15,
+  "maximum_gauge_residual": 1.183458945995522e-15,
+  "minimum_alternative_gram_eigenvalue": -8.892244324530565e-16,
+  "physical_clock": "OPEN; frozen kernel channels only"
+}

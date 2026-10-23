@@ -43,6 +43,7 @@ jobs:
       - run: python research/spacetime-conservation/adjacency_evolution_audit.py
       - run: python research/spacetime-conservation/composition_audit.py
       - run: python research/spacetime-conservation/multievent_range_audit.py
+      - run: python research/spacetime-conservation/interpolation_audit.py
       - working-directory: research/spacetime-conservation
         run: python -m unittest -v test_audit
       - uses: actions/upload-artifact@v4
@@ -64,4 +65,5 @@ jobs:
             research/spacetime-conservation/adjacency_evolution_results.json
             research/spacetime-conservation/composition_results.json
             research/spacetime-conservation/multievent_range_results.json
+            research/spacetime-conservation/interpolation_results.json
 

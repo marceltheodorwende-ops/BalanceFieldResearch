@@ -229,3 +229,14 @@ Nächste Abhängigkeit: langfristiges Wachstum der Schranken und BFG-interne Aus
 
 
 CI-Nachprüfung der Mehrereignis-Reichweite: Beide Actions-Jobs zu Codecommit 8d4e1ba9c3efab03749ed06d1fe3414e25dde559 erfolgreich. Manuskript-Prüfsumme, alle vierzehn Audits, sieben Grenztests und Artefakt-Upload bestanden. Der geprüfte Codestand und die spätere Dokumentation sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
+
+
+## Fortsetzung: kontinuierliche Kanal-Interpolation und Zeitmehrdeutigkeit
+
+[Herleitung](INTERPOLATION_DERIVATION.md), [Vorabprotokoll](INTERPOLATION_PROTOCOL.md), [Prüfcode](interpolation_audit.py), [Resultate](interpolation_results.json).
+
+Der homogene Schur-Ansatz h_ab(t)=h_ab^t ist nicht allgemein positiv: Ein exakt vorab benannter Drei-Moden-Zeuge auf C mit alpha=1/26 hat für den Halbzeitschritt det≈-2.08285e-6 und kleinsten Eigenwert≈-3.45960e-5. Ein positiver Kernel wird damit auf einen indefiniten Kernel abgebildet. Nur dieser Ansatz ist widerlegt, keine allgemeine kontinuierliche BFG-Einbettung.
+
+Zwei explizite positive Alternativen — konvexer Kanalpfad und Winkel-Gram-Pfad — besitzen denselben BFG-Endpunkt, unterscheiden sich aber zu Zwischenzeiten und erfüllen am Zeugen keine homogene Semigruppengleichung. Eine diskrete Kernelabbildung bestimmt dadurch noch keine eindeutige physikalische Zeitinterpolation; keine Alternative wird als zusätzliche Grundgleichung ausgewählt.
+
+Exakte algebraische Zertifikate, 16 vollständige Quellaufrufe und Zwischenzeit-PSD-Kontrollen bestanden; Quellrest <3.5e-15, Kovarianzrest <1.2e-15. CI separat prüfen. Die gemeinsame kontinuierliche Entwicklung von Geometrie und Kernel, die physikalische Uhrkalibrierung und räumliche Interpretation bleiben offen. Nächster konstruktiver Ansatz ist ein begründeter gemeinsamer Grenzbereich oder eine direkte diskrete Zeit-/Stromauswahl aus BFG; eine frei eingesetzte Interpolation schließt diese Lücke nicht.

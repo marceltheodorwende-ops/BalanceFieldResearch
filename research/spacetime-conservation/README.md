@@ -119,3 +119,11 @@ Additional controls:
 
 Additional controls:
     python research/spacetime-conservation/multievent_range_audit.py
+
+
+## Frozen-channel continuous interpolation
+
+[Exact entrywise-power obstruction and two positive alternatives](INTERPOLATION_DERIVATION.md), [protocol](INTERPOLATION_PROTOCOL.md), [fresh results](interpolation_results.json). A three-mode C-sector witness refutes positivity of the naive homogeneous fractional Schur-power path. Convex and angular Gram paths preserve positivity and endpoints but differ between events. Neither is selected as physical time or a continuous geometry equation.
+
+Additional controls:
+    python research/spacetime-conservation/interpolation_audit.py
