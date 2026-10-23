@@ -62,3 +62,13 @@ Every step passed: pinned manuscript checksum, all seven research audits, seven 
 The new audit checks 12 independent rational preparations (20 exact events until first C entry), 24 complex full-source events and two prescribed source witnesses. All numerical bound violations were zero at recorded precision. Exact arithmetic, not numerical eigenvalue tolerance, establishes the selection-boundary collision and trace increase.
 All six changed research/workflow files were read back at the tested code commit and matched prepared contents. Protocol commit: 2e03f863f0d1dfc42bb9bfda688221ccba39f222.
 The theorem is restricted to autonomous P=I, F>0, 0<Y<I. It proves eventual extrema-class entry, not universal simple spectrum, a unique physical rank-two selector or clock/current/Einstein completion. The exact entry bound is not a floating-point continuation guarantee. This later documentation-only record does not claim extra code was tested.
+
+## Y/F/W tie resolution and the equal-load charge sector
+
+Verified 23 October 2026 for code commit [f6a00b8fa6d388dd5b9eb0afb209f31fb7545a97](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/commit/f6a00b8fa6d388dd5b9eb0afb209f31fb7545a97).
+Both [run 40016812544](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40016812544) and [run 40016802920](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40016802920) completed the finite-controls job successfully.
+All steps passed: pinned manuscript checksum, all eight research audits, seven boundary tests and artifact upload.
+The new final audit includes 24 degenerate-spectrum complex source events, four extra unitary controls and three prescribed source witnesses (31 complete calls). It retains unresolved symmetry and exact discontinuity, verifies closed factor updates using the complementary spectral weights, and checks four constant relational kernel coordinates in the equal-load witness with nonzero global kernel change.
+Numerical spectral grouping is explicitly separated from exact degeneracy. Resolved test gaps exceed grouping tolerance by over 2.3 million; the largest projector residual is below 2e-13.
+All six changed research/workflow files were read back at the tested code commit and matched prepared contents. Preregistered protocol commit: 245be121eeed23028d894cce9ef73c5d715354c4.
+The selector is partial and the four-charge result is sectorial; neither establishes physical event adjacency, spatial transport, calibrated energy-momentum or Einstein dynamics. This later documentation-only verification record is distinct from the tested code commit.
