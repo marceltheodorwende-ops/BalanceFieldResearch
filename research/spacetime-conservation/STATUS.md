@@ -536,3 +536,6 @@ CI Runde 36: Beide Actions-Läufe zu Codecommit c669138d11d44992d1ec519ffac7cefa
 Ein exakter Originalzeuge hat K_+=K und dynamischen Strom0, aber durch manuelle Coverrotation lokale Änderung (0,1/40,-1/40). Eine lokale Bestandsänderung allein belegt daher keinen dynamischen Transport. Allgemeine numerische Kontrollen nutzen wohldefinierte eigenwertgeordnete K-/K_+-Paarcovers mit geprüften Lücken; keine globale Kollisionsfortsetzung unterstellt.
 
 Neun Original-Quellaufrufe und exakte Spur-/Rotationsidentitäten bestanden. Bilanzrest <9.7e-16, Eichrest <1.7e-15, reiner Zuordnungsrest <1.4e-16. Nächste Abhängigkeit: echte Auswahl-/Seed-/Rangereignisse mit wechselnden Trägerräumen. Physikalische Raum-/Zeitdeutung, vollständiger Viererstrom und Einstein bleiben offen. CI separat prüfen.
+
+
+CI Runde 37: Beide Actions-Läufe zu Codecommit 4c1cab945632a740157890ba15067a2320ebf8c6 vollständig erfolgreich. Alle 37 Audits, sieben Grenztests, Manuskript-Prüfsumme und Artefakte bestanden; exakte Nachweise und Code/Dokumentations-Trennung in CI_VALIDATION.md.
