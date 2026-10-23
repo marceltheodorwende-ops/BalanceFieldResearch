@@ -503,3 +503,12 @@ Exakte Ränge/Nullraum/Positivität und acht frische Original-Quellaufrufe besta
 
 
 CI Runde 34: Beide Actions-Läufe zu Codecommit b07c18e54dbe7d29f783d5be5fe84a28b8612ad2 vollständig erfolgreich. Alle 34 Audits, sieben Grenztests, Manuskript-Prüfsumme und Artefakte bestanden; exakte Nachweise und Code/Dokumentations-Trennung in CI_VALIDATION.md.
+
+
+## Runde 35: echte Faser-Nichtgeschlossenheit der Paarfamilie
+
+[PAIR_CLOSURE_DERIVATION.md](PAIR_CLOSURE_DERIVATION.md) erweitert den vorigen skalaren Test auf Y mit Kopplung zwischen Moden 1/2. Dieselben positiven K±-Fasermitglieder haben identische behaltene Y,F,W und sämtliche P_tau-Bilder, aber nach dem vollständigen Quellereignis verschiedene Witness-Paarbilder. Exakt Phi(J)=(h_plus-h_minus)J13/2+(h_plus+h_minus)J23/2; Ausgangstrennung (h_plus-h_minus)/12>0. Dies verletzt II89 für diese Reduktion außerhalb skalarer Last, nicht BFG oder jede Reduktion.
+
+Eine native Ergänzung ist i[F,W]=(2/9)J. Der zusätzliche Skalar tr(i[F,W]K) löst die Faser auf und erhöht den Bildrang von 8 auf 9, stellt also den ganzen Kernel wieder her statt vier physikalische Komponenten zu liefern. Er ist keine erhaltene Energie-/Impulsgröße. Der alte skalare Geschlossenheitsbefund bleibt ausdrücklich gültig.
+
+Exakte rationale Kanal-/Kommutator-/Rangidentitäten und acht Original-Quellaufrufe bestanden. Kernelrest <3.1e-16, Feldrest <7.5e-16, Eichrest <6.3e-16. Nächste Abhängigkeit: quellengestützte geschlossene Reduktion oder vollständige Mehrsektor-Bilanz mit Kohärenzen, Überlappungen und Wechseln. Raumtransport, physikalische Uhr, vollständiger Viererstrom und Einstein bleiben offen. CI separat prüfen.

@@ -71,3 +71,6 @@ Runde 33: [Vorabprotokoll zur F-/W-Auswahlambiguität](TIE_AMBIGUITY_PROTOCOL.md
 
 
 Runde 34: [Paarfamilien-Vorabprotokoll](PAIR_FAMILY_PROTOCOL.md), exakte lineare Ränge/Nullräume, positive Faser und acht Original-Quellaufrufe.
+
+
+Runde 35: [Vorabprotokoll zur nichtskalaren Paar-Geschlossenheit](PAIR_CLOSURE_PROTOCOL.md), exaktes Kanal-Gegenbeispiel, native Rangergänzung und acht Original-Quellaufrufe.

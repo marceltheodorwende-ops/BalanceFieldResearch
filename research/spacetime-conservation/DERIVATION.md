@@ -189,3 +189,6 @@ Runde 33: [Konkurrierende retained-data-Auswahlen](TIE_AMBIGUITY_DERIVATION.md) 
 
 
 Runde 34: [Informationsgehalt beschrifteter Paarfamilien](PAIR_FAMILY_DERIVATION.md): exakter Rang 8 der Kandidatenfamilie, erhaltener positiver unsichtbarer Faserzeuge und vollständige Kernelinformation aus allen Paarflächen; keine automatische Vierdimensionalität.
+
+
+Runde 35: [Nichtskalare Paarfamilien-Nichtgeschlossenheit und native Ergänzung](PAIR_CLOSURE_DERIVATION.md) zeigt echte Fasertrennung nach dem vollen Update und die fehlende Kommutatorkoordinate; der skalare Vorbefund bleibt gültig.
