@@ -197,3 +197,16 @@ Neun exakte rationale Ereignisse sowie zwölf vollständige Quellaufrufe inklusi
 Ein initialer Referenzgraph kann als deklarierte Historienauslese geprüft werden; das Löschen neu erzeugter Y-Kanten wäre dagegen eine Modelländerung. Nächste Abhängigkeit: kontrollierte mehrfache Kanal-Komposition relativ zu einem solchen Referenzgraphen, ohne aktuelle Matrixsparsamkeit als physikalische Lokalität auszugeben. Raumzeit, physikalischer Viererstrom und Einstein bleiben offen.
 
 CI-Nachprüfung der wiederholten Nachbarschaftsentwicklung: Beide Actions-Jobs zu Codecommit 1c6bb478a2070018e34938ce2309aec6bb119603 erfolgreich. Manuskript-Prüfsumme, alle zwölf Audits, sieben Grenztests und Artefakt-Upload bestanden. Der geprüfte Codestand ist vom späteren Dokumentationscommit in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
+
+
+## Fortsetzung: exakte mehrfache Kanal-Komposition
+
+[Herleitung](COMPOSITION_DERIVATION.md), [Vorabprotokoll](COMPOSITION_PROTOCOL.md), [Prüfcode](composition_audit.py), [Resultate](composition_results.json).
+
+Im erhaltenen anfänglichen Y-Spektralrahmen ist der vollständige N-Ereignis-Kanal exakt ein Schur-Multiplikator mit H_ab=Produkt_k h_ab(k). Eine Tensorprodukt-Gram-Darstellung beweist vollständige Positivität, Unitalität und Spurtreue. Die tatsächliche endogene Geometriefolge wird unverändert mitgeführt; keine Umordnung der nichtlinearen Ereignisse wird behauptet.
+
+Für anfangs diagonale Formation-Populationen ist die ganze effektive Übergangsmatrix aus dieser Form oder sämtlichen Kraus-Wörtern berechenbar, symmetrisch und doppelt-stochastisch. Sie weicht entlang der neuen geprüften Pfadfolgen vom Produkt einzelner Populationsmatrizen ab: Kohärenzen dürfen nicht zwischen den Ereignissen gelöscht werden. Nach drei Ereignissen liegen die vier Matrixabweichungen zwischen 1.31e-5 und 3.36e-5.
+
+28 vollständige Quellaufrufe in n=3,4,5,6 einschließlich vier Basiswechselkontrollen bestanden; sämtliche Identitätsreste <9.1e-15. Sehr kleine Ferngewichte sind nur absolut kontrolliert. Keine unendliche numerische Fortsetzung oder physikalische Lokalität wird behauptet. CI separat prüfen.
+
+Nächster Schritt: kontrollierte mehrschrittige Reichweite gegenüber dem anfänglichen Referenzgraphen oder eine quellenbegründete räumliche Auswahl. Physikalische Uhr, vollständiger Energie-Impuls-Strom und Einstein bleiben offen.

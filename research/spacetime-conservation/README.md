@@ -103,3 +103,11 @@ Additional controls:
 
 Additional controls:
     python research/spacetime-conservation/adjacency_evolution_audit.py
+
+
+## Exact multi-event channel composition
+
+[Fixed spectral-frame composition and effective population matrices](COMPOSITION_DERIVATION.md), [protocol](COMPOSITION_PROTOCOL.md), [fresh results](composition_results.json). A tensor-product Gram formula composes the actual channels without intermediate dephasing. Effective finite-horizon population matrices are symmetric and doubly stochastic, but generally differ from products of one-event population matrices. Physical space, clock and energy-momentum remain open.
+
+Additional controls:
+    python research/spacetime-conservation/composition_audit.py
