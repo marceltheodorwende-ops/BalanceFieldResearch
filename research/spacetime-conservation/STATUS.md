@@ -288,3 +288,6 @@ Konstruktiver Sondersektor: A²=I und <A>_F=0 bleiben auf der Randkarte exakt er
 Symbolische Identitäten, Randschritt-Konvergenzkontrollen und 14 vollständige einereignisweise Quellaufrufe bestanden; exakter Quellrest <3.4e-15, Kovarianzrest <4.2e-15, endlicher Quellen-/Randformabstand bis ca. 0.00039374. Bis 3200 Randschritte sind ausdrücklich keine 3200 vollständigen Quellevents. CI separat prüfen.
 
 Offen bleibt die uniforme Übertragung auf lange autonome positive-s-Quellfolgen, die Auswahl des ausgeglichenen Sektors und physikalische Uhr-/Raumkalibrierung. Der konstruktive Randgrenzwert liefert allein keine vollständige Energie-Impuls- oder Einstein-Herleitung.
+
+
+CI-Nachprüfung der langsamen relativen Randdynamik: Beide Actions-Jobs zu Codecommit ddc022162009f033161e3825db49d6215e4cf8f4 erfolgreich. Manuskript-Prüfsumme, alle achtzehn Audits, sieben Grenztests und Artefakt-Upload bestanden. Geprüfter Code und nachfolgende Dokumentation sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.

@@ -153,3 +153,12 @@ Beide [Actions-Läufe 40024637901](https://github.com/marceltheodorwende-ops/Bal
 Der finale neue Audit umfasst 19 vollständige Quellaufrufe sowie exakte rationale Grenzrechnungen. Endliche Quellen-/Koordinatenreste <3e-15, Kovarianzrest <1.6e-15, skalarer Kernelrest <6.7e-16. Vorab festgelegte Asymptotik-Konvergenzgrenzen bestanden; die wesentlich größeren endlichen Grenzfehler bleiben in den Resultaten sichtbar. Alle sechs geänderten Dateien am obigen Codecommit textgleich zurückgelesen. Protokollcommit d27a6eeb8dadc68f978975da50458a19265e232f.
 
 Die relative s=0-Karte ist eine mathematische Grenzkonstruktion, kein Quellenaufruf oder physikalischer Zeitbeweis. Unterschiedliche relative Formen liefern unterschiedliche Kernelgrenzen am selben rohen Null-Lastpunkt. Der spätere reine Dokumentationseintrag ist vom geprüften Codecommit getrennt; keine vollständige Energie-Impuls-/Einstein-Herleitung wird behauptet.
+
+
+## Langsame gekoppelte relative Randdynamik — Code ddc022162009f033161e3825db49d6215e4cf8f4
+
+Beide [Actions-Läufe 40025246938](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40025246938) und [40025255149](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40025255149) abgeschlossen mit success. Beide Jobs und sämtliche Schritte separat gelesen und erfolgreich: Manuskript-Prüfsumme, alle achtzehn Forschungs-Audits, sieben Grenztests und Artefakt-Upload.
+
+Neue Evidenz: exakte Normalform-/Rekurrenz-/Kernelfaktoridentitäten, feste-T-Randkonvergenzkontrollen bis 3200 Randschritte und 14 vollständige einereignisweise Quellaufrufe. Lokaler exakter Quellrest <3.4e-15, Kovarianzrest <4.2e-15; endlicher Quellen-/Randformfehler maximal ca. 0.00039374. Alle sechs geänderten Dateien am obigen Codecommit textgleich zurückgelesen. Protokollcommit 7a7cd1692a3f28f1655591da44725d6cb0bf93e9.
+
+Die feste-T-Konvergenz der Randkarte ist analytisch kontrolliert. Die uniforme Übertragung auf lange autonome positive-s-Quellfolgen ist ausdrücklich offen; 3200 Randschritte sind keine 3200 Quellenereignisse. Keine physikalische Zeit- oder Einstein-Herleitung. Dieser spätere reine Dokumentationseintrag ist vom erfolgreich geprüften Code getrennt.
