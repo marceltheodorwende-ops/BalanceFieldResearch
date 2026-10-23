@@ -18,3 +18,11 @@ Steps include the original PDF SHA256, first audit, new pair_audit.py (exact fib
 The six changed files in the continuation were read back byte-for-text from the published code commit and matched the prepared contents. Protocol was committed separately first at 67edd7837f0414c27e0550c71393ad576d24fd69.
 The initial ordering assertion correction is retained in PAIR_DERIVATION.md. No input/coefficients were changed to obtain the pair-switch counterexample.
 These checks cover the source-derived full-persistence history factor. Physical current/clock and general selection/seed extension remain open.
+
+## Invariant spectral-pair class and derivative correction
+
+Verified 23 October 2026 for code commit [fb034641f3e0c0344d24b66fee03cfa215b23bd2](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/commit/fb034641f3e0c0344d24b66fee03cfa215b23bd2).
+Both [run 40010920890](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40010920890) and [run 40010911638](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40010911638) completed the finite-controls job successfully.
+Checks include PDF SHA256, all three finite audits, the seven boundary tests and all result artifacts. New checks cover 48 exact rational events, 36 source events, three derivative regressions and the low-moment witness.
+All eight changed research/workflow files were read back from the published code commit and matched prepared contents.
+The general derivative documentation error is corrected transparently. The finite invariant-class proof is algebraic; CI success alone is not its proof and establishes no physical clock/current or Einstein limit.
