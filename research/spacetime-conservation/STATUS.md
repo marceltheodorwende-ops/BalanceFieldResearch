@@ -524,3 +524,6 @@ CI Runde 35: Beide Actions-Läufe zu Codecommit f8277d33b8dce8c98006327b92f205aa
 Die frühere P_tau-common-line-Familie lässt sich nicht mit endlichen skalaren Gewichten zu I normieren: e1-Erwartung verlangt Gewichtssumme1, Spur verlangt3/2. Alternative Koordinatenpaare erfüllen sum P_ij=(n-1)I und nach Normierung korrekte Gesamtspur; unnormiert würden Bestände n-1-fach gezählt.
 
 Exakte Cover-/Stromidentitäten, nichtkommutierender Effekt-Kontrollfall und acht Original-Quellaufrufe bestanden. Kontinuitätsrest <2.8e-16, Antisymmetrierest <3.7e-17, Eichrest <1.3e-15. Nächste Abhängigkeit: Zuordnung bei wechselnden Effekten und echte Auswahl-/Rangereignisse, anschließend räumliche/zeitliche Deutung. Vollständiger Viererstrom und Einstein bleiben offen. CI separat prüfen.
+
+
+CI Runde 36: Beide Actions-Läufe zu Codecommit c669138d11d44992d1ec519ffac7cefa3842ae8f vollständig erfolgreich. Alle 36 Audits, sieben Grenztests, Manuskript-Prüfsumme und Artefakte bestanden; exakte Nachweise und Code/Dokumentations-Trennung in CI_VALIDATION.md.
