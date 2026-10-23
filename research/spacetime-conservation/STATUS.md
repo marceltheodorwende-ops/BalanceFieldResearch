@@ -479,3 +479,12 @@ Sechs unabhängige Hermitesche Störungskontrollen und acht frische Original-Que
 
 
 CI Runde 32: Beide Actions-Läufe zu Codecommit 7be75f5b6898aaf13dc5e34e810574ed4ad7b6dc vollständig erfolgreich. Alle 32 Audits, sieben Grenztests, Manuskript-Prüfsumme und Artefakte bestanden; exakte Nachweise und Code/Dokumentations-Trennung in CI_VALIDATION.md.
+
+
+## Runde 33: konkurrierende Auflösung mit vorhandenen F-/W-Daten
+
+[TIE_AMBIGUITY_DERIVATION.md](TIE_AMBIGUITY_DERIVATION.md) zeigt am vollständig positiven skalaren Lastsektor Y=yI,F=diag(1,2,4), W mit nichtkommutierendem 2/3-Block, K=diag(1,2,3)/6: Formation zuerst und Witness zuerst bestimmen verschiedene kovariante Rang-zwei-Beobachtungsflächen. Beide Flächen und beide komprimierten Kernel bleiben exakt konstant; lokale Spuren 1/2 bzw. 7/12. Kovarianz, Persistenz und vier konstante lokale Komponenten allein wählen daher keinen eindeutigen Träger.
+
+Eine kontinuierliche mathematische Kandidatenfamilie aus F+tau W interpoliert zwischen ihnen; tau ist ausdrücklich zusätzliche Selektorwahl, kein Quellgesetz. Der originale BFG-Träger bleibt Rang drei. Frühere lexikographische Konstruktion, Stabilitäts- und Gedächtnissätze bleiben gültig; kein allgemeines Selektor-No-Go behauptet.
+
+Sechs frische Original-Quellaufrufe und exakte Block-/Spuridentitäten bestanden. Feldrest <1.7e-16, Kompressionsrest <1.3e-16, Eichrest <3.7e-15. Nächste Abhängigkeit: quellengestütztes Auswahlkriterium oder mengenwertige Sektorbeschreibung statt willkürlicher Priorität; echte Auswahl-/Rangbilanz und räumlicher Transport offen. Physikalische Uhr, vollständiger Viererstrom und Einstein bleiben offen. CI separat prüfen.

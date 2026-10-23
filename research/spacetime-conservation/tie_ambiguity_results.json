@@ -1,0 +1,120 @@
+{
+  "status": "PASS: competing persistent pair choices explicitly retained",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "seed": 20261125,
+  "symbolic": {
+    "formation_witness_commutator_nonzero": true,
+    "projector_distance_squared": "1",
+    "formation_pair_trace": "1/2",
+    "witness_pair_trace": "7/12",
+    "trace_difference": "1/12",
+    "scalar_alpha": "y\u00b2/(1+y\u00b2)",
+    "scalar_output_load": "2y\u00b2/[(1+y)\u00b2(1+y\u00b2)]",
+    "candidate_H": "F+tau*W",
+    "candidate_projector_distance_squared": "1-1/sqrt(1+tau\u00b2/81)",
+    "scope": "selector tau is added mathematical choice, not a source coupling"
+  },
+  "source": {
+    "calls": 6,
+    "field_residual": 1.6653345369377348e-16,
+    "projector_residual": 0.0,
+    "compressed_kernel_residual": 1.2451418823608528e-16,
+    "gauge_residual": 3.656632498885118e-15,
+    "cases": [
+      {
+        "input_y": 0.05,
+        "candidate_pairs": [
+          {
+            "tau": 0.0,
+            "local_trace": 0.5,
+            "distance_to_formation": 0.0
+          },
+          {
+            "tau": 1.0,
+            "local_trace": 0.5005096887771984,
+            "distance_to_formation": 0.07820655552050035
+          },
+          {
+            "tau": 9.0,
+            "local_trace": 0.5244077682344543,
+            "distance_to_formation": 0.541196100146197
+          },
+          {
+            "tau": 90.0,
+            "local_trace": 0.57504135674825,
+            "distance_to_formation": 0.9489448250446392
+          },
+          {
+            "tau": null,
+            "local_trace": 0.5833333333333333,
+            "distance_to_formation": 0.9999999999999999
+          }
+        ],
+        "original_carrier_rank": 3
+      },
+      {
+        "input_y": 0.1,
+        "candidate_pairs": [
+          {
+            "tau": 0.0,
+            "local_trace": 0.5,
+            "distance_to_formation": 0.0
+          },
+          {
+            "tau": 1.0,
+            "local_trace": 0.5005096887771984,
+            "distance_to_formation": 0.07820655552050035
+          },
+          {
+            "tau": 9.0,
+            "local_trace": 0.5244077682344543,
+            "distance_to_formation": 0.541196100146197
+          },
+          {
+            "tau": 90.0,
+            "local_trace": 0.57504135674825,
+            "distance_to_formation": 0.9489448250446392
+          },
+          {
+            "tau": null,
+            "local_trace": 0.5833333333333333,
+            "distance_to_formation": 0.9999999999999999
+          }
+        ],
+        "original_carrier_rank": 3
+      },
+      {
+        "input_y": 0.2,
+        "candidate_pairs": [
+          {
+            "tau": 0.0,
+            "local_trace": 0.5,
+            "distance_to_formation": 0.0
+          },
+          {
+            "tau": 1.0,
+            "local_trace": 0.5005096887771984,
+            "distance_to_formation": 0.07820655552050035
+          },
+          {
+            "tau": 9.0,
+            "local_trace": 0.5244077682344543,
+            "distance_to_formation": 0.541196100146197
+          },
+          {
+            "tau": 90.0,
+            "local_trace": 0.57504135674825,
+            "distance_to_formation": 0.9489448250446392
+          },
+          {
+            "tau": null,
+            "local_trace": 0.5833333333333333,
+            "distance_to_formation": 0.9999999999999999
+          }
+        ],
+        "original_carrier_rank": 3
+      }
+    ]
+  },
+  "scope": "Covariance, scalar-load persistence and four local kernel constants do not uniquely select a rank-two observable sector. No impossibility of other source selection criteria claimed."
+}

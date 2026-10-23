@@ -65,3 +65,6 @@ Runde 31: [Teleskop-Vorabprotokoll](TELESCOPING_MEMORY_PROTOCOL.md), quantitativ
 
 
 Runde 32: [Selektorstabilitäts-Vorabprotokoll](SELECTOR_STABILITY_PROTOCOL.md), Sylvesterbeweis, sechs Störungskontrollen und acht frische Original-Quellaufrufe.
+
+
+Runde 33: [Vorabprotokoll zur F-/W-Auswahlambiguität](TIE_AMBIGUITY_PROTOCOL.md), exakte skalare Quell-/Projektoridentitäten und sechs Original-Quellaufrufe.

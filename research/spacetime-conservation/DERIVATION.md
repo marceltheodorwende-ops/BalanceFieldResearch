@@ -183,3 +183,6 @@ Runde 31: [Konditionierter allzeitlicher Teleskopvergleich](TELESCOPING_MEMORY_D
 
 
 Runde 32: [Lückenabhängige Stabilität und Entartungsgrenze der Trägerwahl](SELECTOR_STABILITY_DERIVATION.md) ergänzt die feste-Sektor-Kontrolle um einen quantitativen Projektorstörungssatz und einen exakten symmetrischen Grenzzeugen.
+
+
+Runde 33: [Konkurrierende retained-data-Auswahlen](TIE_AMBIGUITY_DERIVATION.md) besitzen dieselbe exakte Persistenz, aber verschiedene lokale Bestände; die geprüften Kriterien erzwingen keine F-/W-Priorität.
