@@ -135,3 +135,11 @@ Additional controls:
 
 Additional controls:
     python research/spacetime-conservation/weak_splitting_audit.py
+
+
+## Joint small-load boundary chart
+
+[Exact scale/shape equations and nontrivial boundary kernel channel](SMALL_LOAD_DERIVATION.md), [protocol](SMALL_LOAD_PROTOCOL.md), [fresh results](small_load_results.json). Formation-normalized relative load retains a closed boundary map as total load vanishes. A two-mode witness retains finite kernel change, while a scalar path to the same raw zero-load point has the identity channel. The relative chart is not a physical clock or a source call at zero load.
+
+Additional controls:
+    python research/spacetime-conservation/small_load_audit.py

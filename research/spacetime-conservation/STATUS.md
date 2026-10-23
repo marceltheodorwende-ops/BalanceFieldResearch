@@ -259,3 +259,16 @@ Der Gegenbefund betrifft diese feste-Hintergrund-Skalierung. Gemeinsame Rand-/re
 
 
 CI-Nachprüfung der schwachen Lastaufspaltung: Beide Actions-Jobs zu Codecommit 865d7f3b909676714d4404907c573e1105f64fbc erfolgreich. Manuskript-Prüfsumme, alle sechzehn Audits, sieben Grenztests und Artefakt-Upload bestanden. Geprüfter Code und spätere Dokumentation sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
+
+
+## Fortsetzung: gemeinsame Kleinlastgrenze und relative Randdynamik
+
+[Herleitung](SMALL_LOAD_DERIVATION.md), [Vorabprotokoll](SMALL_LOAD_PROTOCOL.md), [Prüfcode](small_load_audit.py), [Resultate](small_load_results.json).
+
+Mit s=tr(FY)/trF und Z=Y/s liefert der unveränderte BFG-Update eine exakte endliche Koordinatenform. Für s->0 bei fester relativer Form folgt s_+~2mu2 s² und Z_+->(mu2 I+Z²)/(2mu2), mu2=tr(FZ²)/trF. Gleichzeitig besitzt der Kernel einen expliziten positiven spurtreuen Grenzkanal, der im Allgemeinen NICHT die Identität ist.
+
+Ein exakter Zwei-Moden-Zeuge hat Grenz-h12=4/sqrt(21) und Kernelsprung≈0.0898934. Ein anderer Pfad mit demselben F,W,K und ebenfalls Y->0 hat dagegen den Identitätskanal. Der rohe Null-Lastpunkt allein bestimmt deshalb keine eindeutige stetige Kernel-Fortsetzung; die relative Form muss mitgeführt werden. s=0 wird nur als mathematische Randkarte behandelt, nie als Quellenaufruf.
+
+19 vollständige Quellaufrufe im finalen Audit sowie exakte rationale Grenzrechnungen bestanden. Endliche Quell-/Koordinatenreste <3e-15, Kovarianzrest <1.6e-15. Asymptotikfehler bleiben ausdrücklich größer: beim kleinsten Zeugen-s etwa 0.04021 für den skalierten Folgelastwert und 0.00669 für die relative Form. CI separat prüfen.
+
+Die gemeinsame Randkarte ist konstruktiv gewonnen; ein physikalischer Kleinschritt folgt daraus noch nicht. Nächste konkrete Prüfung ist die gekoppelte nahezu isotrope relative Formdynamik, einschließlich verbleibender Kernelwirkung. Physikalische Uhr, Raummaß, vollständiger Energie-Impuls-Strom und Einstein bleiben offen.

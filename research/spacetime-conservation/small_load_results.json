@@ -1,0 +1,136 @@
+{
+  "status": "PASS: normalized boundary map; vanishing raw load alone does not ensure small kernel step",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "tolerance": 1e-10,
+  "seed": 20261108,
+  "full_source_calls": 19,
+  "exact_witness_alpha": "(3*s**3 + 5*s**2)/(3*s**3 + 5*s**2 + 4*s + 4)",
+  "exact_witness_scaled_load_limit": [
+    "3/2",
+    "7/2"
+  ],
+  "exact_witness_h": "4*sqrt(21)/21",
+  "maximum_source_residual": 2.9115585591251392e-15,
+  "maximum_gauge_residual": 1.592232756918411e-15,
+  "maximum_scalar_kernel_residual": 6.661338147750939e-16,
+  "cases": [
+    {
+      "n": 2,
+      "mu2": 1.25,
+      "boundary_kernel_jump": 0.0898933813381797,
+      "cases": [
+        {
+          "s": 0.05,
+          "alpha_error": 0.02755689404504147,
+          "scale_error": 0.30018331960380884,
+          "shape_error": 0.05199296084382121,
+          "kernel_error": 0.0003474166848706072,
+          "kernel_jump": 0.09024079802305031
+        },
+        {
+          "s": 0.025,
+          "alpha_error": 0.013151982269808071,
+          "scale_error": 0.1560499955471939,
+          "shape_error": 0.02642887408995744,
+          "kernel_error": 0.00017857672645815666,
+          "kernel_jump": 0.09007195806463786
+        },
+        {
+          "s": 0.0125,
+          "alpha_error": 0.006414527847832474,
+          "scale_error": 0.07960466980355285,
+          "shape_error": 0.013324192644088193,
+          "kernel_error": 9.055165713262099e-05,
+          "kernel_jump": 0.08998393299531232
+        },
+        {
+          "s": 0.00625,
+          "alpha_error": 0.003166319356925573,
+          "scale_error": 0.040209422160587316,
+          "shape_error": 0.006689738493200393,
+          "kernel_error": 4.5597668598648794e-05,
+          "kernel_jump": 0.08993897900677836
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "mu2": 1.0734356117327315,
+      "boundary_kernel_jump": 0.02162295464806026,
+      "cases": [
+        {
+          "s": 0.05,
+          "alpha_error": 0.009997366791603568,
+          "scale_error": 0.2232319065162529,
+          "shape_error": 0.041120299326582205,
+          "kernel_error": 7.093510068711819e-06,
+          "kernel_jump": 0.02162972471005741
+        },
+        {
+          "s": 0.025,
+          "alpha_error": 0.004388802638477518,
+          "scale_error": 0.11502604839204889,
+          "shape_error": 0.021074928795785906,
+          "kernel_error": 3.6861431141161084e-06,
+          "kernel_jump": 0.02162647769961417
+        },
+        {
+          "s": 0.0125,
+          "alpha_error": 0.0020405222347894547,
+          "scale_error": 0.05840646195439625,
+          "shape_error": 0.010671091220144927,
+          "kernel_error": 1.8797267332318753e-06,
+          "kernel_jump": 0.021624752482586426
+        },
+        {
+          "s": 0.00625,
+          "alpha_error": 0.0009816481269104838,
+          "scale_error": 0.029432081380639463,
+          "shape_error": 0.005369596656621803,
+          "kernel_error": 9.49266023233355e-07,
+          "kernel_jump": 0.021623862880794556
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "mu2": 1.03363782701562,
+      "boundary_kernel_jump": 0.01007896570420507,
+      "cases": [
+        {
+          "s": 0.05,
+          "alpha_error": 0.005759175101565761,
+          "scale_error": 0.20503595122537432,
+          "shape_error": 0.044053229923374466,
+          "kernel_error": 1.9036446803226477e-06,
+          "kernel_jump": 0.010080406225667228
+        },
+        {
+          "s": 0.025,
+          "alpha_error": 0.0022569677215051875,
+          "scale_error": 0.10530702230759181,
+          "shape_error": 0.02261853346019934,
+          "kernel_error": 9.771940881448512e-07,
+          "kernel_jump": 0.010079707445781702
+        },
+        {
+          "s": 0.0125,
+          "alpha_error": 0.0009718769262254678,
+          "scale_error": 0.05337958218133787,
+          "shape_error": 0.011463822804407638,
+          "kernel_error": 4.952004332499303e-07,
+          "kernel_jump": 0.01007934217958834
+        },
+        {
+          "s": 0.00625,
+          "alpha_error": 0.000446700286898416,
+          "scale_error": 0.02687515936756002,
+          "shape_error": 0.005771417889837483,
+          "kernel_error": 2.4928521372681857e-07,
+          "kernel_jump": 0.010079155373826027
+        }
+      ]
+    }
+  ],
+  "boundary_scope": "s=0 is a mathematical relative-load chart, never a source call"
+}
