@@ -127,3 +127,11 @@ Additional controls:
 
 Additional controls:
     python research/spacetime-conservation/interpolation_audit.py
+
+
+## Weak splitting and joint scaling limit
+
+[Exact random-unitary form, dissipative coefficient and finite geometry drift](WEAK_SPLITTING_DERIVATION.md), [protocol](WEAK_SPLITTING_PROTOCOL.md), [fresh results](weak_splitting_results.json). A nearly scalar load gives a double-commutator kernel coefficient and a frozen-channel comparison limit. The actual geometry retains a finite jump at fixed positive scalar load, obstructing that full-state Euler scaling. Frozen powers are not autonomous source trajectories.
+
+Additional controls:
+    python research/spacetime-conservation/weak_splitting_audit.py

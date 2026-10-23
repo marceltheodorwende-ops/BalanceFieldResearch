@@ -243,3 +243,16 @@ Exakte algebraische Zertifikate, 16 vollständige Quellaufrufe und Zwischenzeit-
 
 
 CI-Nachprüfung der Kanal-Interpolation: Beide Actions-Jobs zu Codecommit d137dfc1654acde0b7bf0b45c8872b706faf264d erfolgreich. Manuskript-Prüfsumme, alle fünfzehn Audits, sieben Grenztests und Artefakt-Upload bestanden. Geprüfter Code und nachfolgende Dokumentation sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
+
+
+## Fortsetzung: schwache Aufspaltung und gemeinsame Kleinschrittgrenze
+
+[Herleitung](WEAK_SPLITTING_DERIVATION.md), [Vorabprotokoll](WEAK_SPLITTING_PROTOCOL.md), [Prüfcode](weak_splitting_audit.py), [Resultate](weak_splitting_results.json).
+
+Der echte Kernelkanal ist exakt das symmetrische Mittel zweier unitärer Konjugationen. Für Y=yI+epsilon A ergibt die vollständige endogene Rechnung den zweiten Koeffizienten -[A,[A,K]]/(8y²). Wiederholte Anwendung DESSELBEN eingefrorenen Kanals besitzt einen mathematischen dissipativen Grenzwert; sie wird ausdrücklich nicht als autonome BFG-Trajektorie ausgegeben.
+
+Die gemeinsame Euler-Skalierung delta t=epsilon² scheitert dagegen bei festem y>0 an einem endlichen Geometriesprung. Am geprüften y=1/4 ist y_+=32/425, also y_+-y=-297/1700 auch im Grenzfall verschwindender Aufspaltung. Der kleine Kerneldefekt allein liefert somit keine kleine vollständige Zustandsänderung und keine kontinuierliche BFG-Zeit.
+
+Symbolische Koeffizientenrechnung und 15 vollständige Quellaufrufe bestanden; exakter Zwei-Unitär-Rest <1.5e-15, Kovarianzrest <1.9e-15. Die vorab festgelegten Generator-/Vergleichs-Konvergenzkontrollen bestanden. Bis 64000 eingefrorene Kanalpotenzen sind analytisch-spektrale Vergleichsauswertungen, keine entsprechend vielen Quellereignisse. CI separat prüfen.
+
+Der Gegenbefund betrifft diese feste-Hintergrund-Skalierung. Gemeinsame Rand-/relative-Last-Grenzen oder eine direkte diskrete Zeitregel bleiben konkrete nächste Alternativen. Physikalisches Raummaß, Uhr, vollständiger Energie-Impuls-Strom, Wirkung und Einstein bleiben offen.

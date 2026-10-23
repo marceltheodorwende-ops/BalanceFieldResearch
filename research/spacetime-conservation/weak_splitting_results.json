@@ -1,0 +1,126 @@
+{
+  "status": "PASS: frozen diffusive channel limit; full fixed-y Euler scaling obstructed",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "tolerance": 1e-10,
+  "seed": 20261107,
+  "full_source_calls": 15,
+  "symbolic_angle_difference_derivative": "(a - b)/(2*y)",
+  "symbolic_second_coefficient": "-(a - b)**2/(8*y**2)",
+  "scalar_successor": "32/425",
+  "maximum_random_unitary_residual": 1.4064806355907764e-15,
+  "maximum_gauge_residual": 1.8417717718782763e-15,
+  "cases": [
+    {
+      "n": 2,
+      "cases": [
+        {
+          "epsilon": 0.01,
+          "scaled_kernel_error": 0.02443530044187569,
+          "frozen_comparison_iterations": 1000,
+          "frozen_limit_error": 0.0011881076582813074,
+          "geometry_jump": 0.2467226934741268,
+          "geometry_jump_limit": 0.24707142824988781
+        },
+        {
+          "epsilon": 0.005,
+          "scaled_kernel_error": 0.012382768214820343,
+          "frozen_comparison_iterations": 4000,
+          "frozen_limit_error": 0.0006176576393871257,
+          "geometry_jump": 0.24685728401274806,
+          "geometry_jump_limit": 0.24707142824988781
+        },
+        {
+          "epsilon": 0.0025,
+          "scaled_kernel_error": 0.00623721238618241,
+          "frozen_comparison_iterations": 16000,
+          "frozen_limit_error": 0.00031497962135421635,
+          "geometry_jump": 0.2469544955874213,
+          "geometry_jump_limit": 0.24707142824988781
+        },
+        {
+          "epsilon": 0.00125,
+          "scaled_kernel_error": 0.0031306346703501584,
+          "frozen_comparison_iterations": 64000,
+          "frozen_limit_error": 0.00015905894059930667,
+          "geometry_jump": 0.24701050718671297,
+          "geometry_jump_limit": 0.24707142824988781
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "cases": [
+        {
+          "epsilon": 0.01,
+          "scaled_kernel_error": 0.012733987313714131,
+          "frozen_comparison_iterations": 1000,
+          "frozen_limit_error": 0.0010021921961733773,
+          "geometry_jump": 0.30312359289499247,
+          "geometry_jump_limit": 0.30259946461644505
+        },
+        {
+          "epsilon": 0.005,
+          "scaled_kernel_error": 0.0063018762058741715,
+          "frozen_comparison_iterations": 4000,
+          "frozen_limit_error": 0.0004964226391420146,
+          "geometry_jump": 0.30282760054274965,
+          "geometry_jump_limit": 0.30259946461644505
+        },
+        {
+          "epsilon": 0.0025,
+          "scaled_kernel_error": 0.0031350706445554925,
+          "frozen_comparison_iterations": 16000,
+          "frozen_limit_error": 0.0002470725094386696,
+          "geometry_jump": 0.30270501061049016,
+          "geometry_jump_limit": 0.30259946461644505
+        },
+        {
+          "epsilon": 0.00125,
+          "scaled_kernel_error": 0.0015636187732847547,
+          "frozen_comparison_iterations": 64000,
+          "frozen_limit_error": 0.00012325512985349047,
+          "geometry_jump": 0.30265010212943055,
+          "geometry_jump_limit": 0.30259946461644505
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "cases": [
+        {
+          "epsilon": 0.01,
+          "scaled_kernel_error": 0.022999026858969412,
+          "frozen_comparison_iterations": 1000,
+          "frozen_limit_error": 0.0016266230487752417,
+          "geometry_jump": 0.35013914001798224,
+          "geometry_jump_limit": 0.34941176470588237
+        },
+        {
+          "epsilon": 0.005,
+          "scaled_kernel_error": 0.011625775994660978,
+          "frozen_comparison_iterations": 4000,
+          "frozen_limit_error": 0.0008221859202290709,
+          "geometry_jump": 0.3497396917216899,
+          "geometry_jump_limit": 0.34941176470588237
+        },
+        {
+          "epsilon": 0.0025,
+          "scaled_kernel_error": 0.005844853280289726,
+          "frozen_comparison_iterations": 16000,
+          "frozen_limit_error": 0.0004133582168657198,
+          "geometry_jump": 0.3495668016064931,
+          "geometry_jump_limit": 0.34941176470588237
+        },
+        {
+          "epsilon": 0.00125,
+          "scaled_kernel_error": 0.0029304689847402376,
+          "frozen_comparison_iterations": 64000,
+          "frozen_limit_error": 0.00020725135196649752,
+          "geometry_jump": 0.3494870531874308,
+          "geometry_jump_limit": 0.34941176470588237
+        }
+      ]
+    }
+  ],
+  "physical_time": "OPEN; frozen powers are not autonomous source trajectories"
+}
