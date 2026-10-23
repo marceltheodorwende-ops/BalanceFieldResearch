@@ -336,3 +336,6 @@ Damit folgt die kritische gekoppelte Familie u'=-u²(kappa+u), (log d)'=-u²/2 a
 Symbolische Zertifikate, zwölf analytisch begrenzte lange Rekurrenzfolgen und 14 vollständige kurze Original-Quellaufrufe bestanden. Original-Quellrest <1.9e-13, Kovarianzrest <2.3e-14, unter unverändertem 1e-10. Die Bootstrapbedingung ist in allen Präparationen erfüllt; Mehrpräzisionswerte und analytische Tailgrenzen bleiben getrennt. CI separat prüfen.
 
 Offen bleiben Auswahl und Stabilität gegenüber zusätzlichen Lastniveaus, physikalische Uhr-/Raumauslese und vollständiger Energie-Impuls-Strom. Nächster konkreter Reichweitentest ist eine zusätzliche Lastaufspaltung innerhalb der beiden Blöcke. Keine vollständige physikalische Lorentz-/Einstein-Herleitung.
+
+
+CI-Nachprüfung der kritischen positiven-Last-Übertragung: Beide Actions-Jobs zu Codecommit 2bd809551e10ef0ac2436fd8a7417523e2882b48 erfolgreich. Manuskript-Prüfsumme, alle einundzwanzig Audits, sieben Grenztests und Artefakt-Upload bestanden. Geprüfter Code und spätere Dokumentation sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
