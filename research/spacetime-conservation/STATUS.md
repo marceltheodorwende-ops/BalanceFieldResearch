@@ -464,3 +464,6 @@ CI Runde 30: Beide Actions-Läufe zu Codecommit a4f2c299fbfff1aea0cc71d9b709e4ec
 Keine obere Blockentartung oder obere Breiten-Stoppgrenze nötig. Der frühere formationsfreie Gegenzeuge bleibt gültig, da seine Kondition unbeschränkt wird. Die Schranke kann bei großem kappa nur den trivialen Wert 1 liefern. Keine Endlichkeit von sum eta_j² behauptet; die gewichtete chi-Defektreihe wird direkt kontrolliert.
 
 Neun frische Original-Quellaufrufe sowie sechs 500-stellige positive-s-Präfixe à sechs Ereignisse mit expliziter Restabschätzung bestanden. Kernelrest <9.8e-16, Eichrest <1.7e-15, Lastrest <5.2e-17. Die unendliche Kontrolle folgt aus dem Beweis. Nächste Abhängigkeit: quellenbasierte lokale Auswahl und Fortsetzung über Auswahl-/Rangereignisse sowie räumlicher Transport. Physikalische Uhr, vollständiger Viererstrom und Einstein bleiben offen. CI separat prüfen.
+
+
+CI Runde 31: Beide Actions-Läufe zu Codecommit 0a5361ac15ccafb25100eef9c049407767c11397 vollständig erfolgreich. Alle 31 Audits, sieben Grenztests, Manuskript-Prüfsumme und Artefakte bestanden; exakte Nachweise und Trennung von geprüftem Code und Dokumentation in CI_VALIDATION.md.
