@@ -275,3 +275,16 @@ Die gemeinsame Randkarte ist konstruktiv gewonnen; ein physikalischer Kleinschri
 
 
 CI-Nachprüfung der relativen Kleinlast-Randkarte: Beide Actions-Jobs zu Codecommit e80f76593b32439454df5887e375700eaab3c1fa erfolgreich. Manuskript-Prüfsumme, alle siebzehn Audits, sieben Grenztests und Artefakt-Upload bestanden. Geprüfter Code und spätere Dokumentation sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
+
+
+## Fortsetzung: gekoppelter langsamer Grenzwert im ausgeglichenen Randsektor
+
+[Herleitung](RELATIVE_SLOW_DERIVATION.md), [Vorabprotokoll](RELATIVE_SLOW_PROTOCOL.md), [Prüfcode](relative_slow_audit.py), [Resultate](relative_slow_results.json).
+
+Die allgemeine relative Randkarte erzeugt für Z=I+rA einen quadratischen Formterm A²-<A²>_F I. Ein exakter Drei-Niveau-Zeuge zeigt, dass dieser Term nicht allgemein verschwindet und die reguläre epsilon²-Zeitskalierung in den gewählten relativen Koordinaten behindert.
+
+Konstruktiver Sondersektor: A²=I und <A>_F=0 bleiben auf der Randkarte exakt erhalten; r_+=r/(1+r²), h(r)=1/sqrt(1+r²+r^4). Für r0=epsilon und t=N epsilon² folgen gemeinsam u(t)=(1+2t)^(-1/2) und blockübergreifende Kerneldämpfung d(t)=(1+2t)^(-1/4). Ein expliziter Euler-/Grönwall-Beweis kontrolliert die feste-T-Grenze mit O_T(epsilon²). Die Randform wird dabei tatsächlich mitgeführt.
+
+Symbolische Identitäten, Randschritt-Konvergenzkontrollen und 14 vollständige einereignisweise Quellaufrufe bestanden; exakter Quellrest <3.4e-15, Kovarianzrest <4.2e-15, endlicher Quellen-/Randformabstand bis ca. 0.00039374. Bis 3200 Randschritte sind ausdrücklich keine 3200 vollständigen Quellevents. CI separat prüfen.
+
+Offen bleibt die uniforme Übertragung auf lange autonome positive-s-Quellfolgen, die Auswahl des ausgeglichenen Sektors und physikalische Uhr-/Raumkalibrierung. Der konstruktive Randgrenzwert liefert allein keine vollständige Energie-Impuls- oder Einstein-Herleitung.

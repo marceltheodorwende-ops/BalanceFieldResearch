@@ -143,3 +143,11 @@ Additional controls:
 
 Additional controls:
     python research/spacetime-conservation/small_load_audit.py
+
+
+## Coupled nearly-isotropic boundary dynamics
+
+[Exact two-level recurrence and joint slow boundary limit](RELATIVE_SLOW_DERIVATION.md), [protocol](RELATIVE_SLOW_PROTOCOL.md), [fresh results](relative_slow_results.json). A balanced two-level relative shape evolves together with its kernel and admits a proved fixed-horizon slow limit. A generic three-level quadratic term limits that sector. Long boundary iterations are separated from single-event source checks; uniform lifting to positive-load source trajectories remains open.
+
+Additional controls:
+    python research/spacetime-conservation/relative_slow_audit.py
