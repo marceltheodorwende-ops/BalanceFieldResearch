@@ -144,3 +144,12 @@ Beide [Actions-Läufe 40023930332](https://github.com/marceltheodorwende-ops/Bal
 Der neue Audit prüft symbolische Winkel-/Koeffizientenidentitäten und 15 vollständige Quellaufrufe. Lokaler Zwei-Unitär-/Quellrest <1.5e-15, Kovarianzrest <1.9e-15; sämtliche vorab festgelegten Konvergenz- und Geometriesprungkontrollen bestanden. Alle sechs geänderten Dateien am obigen Codecommit textgleich zurückgelesen. Protokollcommit ffa002cbde3bd3c06cced4a25d2537a18f9f77ec.
 
 Eingefrorene Potenzen bis 64000 sind spektrale Vergleichsauswertungen, keine autonomen Quelltrajektorien. Die feste positive Hintergrundskalierung scheitert am endlichen Geometriesprung; alternative gemeinsame Grenzen bleiben offen. Dieser nachfolgende reine Dokumentationseintrag beansprucht keine weitere geprüfte Codeänderung oder physikalische Zeit-/Einstein-Herleitung.
+
+
+## Relative Kleinlast-Randkarte — Code e80f76593b32439454df5887e375700eaab3c1fa
+
+Beide [Actions-Läufe 40024637901](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40024637901) und [40024645090](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40024645090) abgeschlossen mit success. Jobs und sämtliche Schritte separat gelesen und erfolgreich: Manuskript-Prüfsumme, alle siebzehn Forschungs-Audits, sieben Grenztests und Artefakt-Upload.
+
+Der finale neue Audit umfasst 19 vollständige Quellaufrufe sowie exakte rationale Grenzrechnungen. Endliche Quellen-/Koordinatenreste <3e-15, Kovarianzrest <1.6e-15, skalarer Kernelrest <6.7e-16. Vorab festgelegte Asymptotik-Konvergenzgrenzen bestanden; die wesentlich größeren endlichen Grenzfehler bleiben in den Resultaten sichtbar. Alle sechs geänderten Dateien am obigen Codecommit textgleich zurückgelesen. Protokollcommit d27a6eeb8dadc68f978975da50458a19265e232f.
+
+Die relative s=0-Karte ist eine mathematische Grenzkonstruktion, kein Quellenaufruf oder physikalischer Zeitbeweis. Unterschiedliche relative Formen liefern unterschiedliche Kernelgrenzen am selben rohen Null-Lastpunkt. Der spätere reine Dokumentationseintrag ist vom geprüften Codecommit getrennt; keine vollständige Energie-Impuls-/Einstein-Herleitung wird behauptet.

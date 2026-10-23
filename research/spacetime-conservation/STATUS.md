@@ -272,3 +272,6 @@ Ein exakter Zwei-Moden-Zeuge hat Grenz-h12=4/sqrt(21) und Kernelsprung≈0.08989
 19 vollständige Quellaufrufe im finalen Audit sowie exakte rationale Grenzrechnungen bestanden. Endliche Quell-/Koordinatenreste <3e-15, Kovarianzrest <1.6e-15. Asymptotikfehler bleiben ausdrücklich größer: beim kleinsten Zeugen-s etwa 0.04021 für den skalierten Folgelastwert und 0.00669 für die relative Form. CI separat prüfen.
 
 Die gemeinsame Randkarte ist konstruktiv gewonnen; ein physikalischer Kleinschritt folgt daraus noch nicht. Nächste konkrete Prüfung ist die gekoppelte nahezu isotrope relative Formdynamik, einschließlich verbleibender Kernelwirkung. Physikalische Uhr, Raummaß, vollständiger Energie-Impuls-Strom und Einstein bleiben offen.
+
+
+CI-Nachprüfung der relativen Kleinlast-Randkarte: Beide Actions-Jobs zu Codecommit e80f76593b32439454df5887e375700eaab3c1fa erfolgreich. Manuskript-Prüfsumme, alle siebzehn Audits, sieben Grenztests und Artefakt-Upload bestanden. Geprüfter Code und spätere Dokumentation sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
