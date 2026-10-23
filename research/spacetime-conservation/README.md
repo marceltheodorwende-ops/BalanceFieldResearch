@@ -47,3 +47,10 @@ The six-event trajectory reaches a recorded numerical rank cutoff at event six; 
 
 This research branch starts from the active manuscript branch, not the older main. Original manuscripts, kernel, licenses and empirical artifacts remain unchanged.
 
+
+## State-clock constructions and ambiguity
+
+[Positive durations, scalar unit-tick coordinate and limits](CLOCK_DERIVATION.md), [protocol](CLOCK_PROTOCOL.md), [fresh results](clock_results.json). The same source trajectories admit both summable and nonsummable positive mathematical durations. An exact scalar Abel coordinate exists, with explicit optional asymptotic normalization; physical calibration and spatial flow remain open.
+
+Additional controls:
+    python research/spacetime-conservation/clock_audit.py

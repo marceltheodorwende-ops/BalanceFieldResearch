@@ -85,3 +85,13 @@ Die Ereignisabbildung bleibt als reelle lineare Abbildung invertierbar, ihre Inv
 Frische Prüfung: exakte algebraische Zertifikate sowie 24 gepaarte Ereignisse aus 12 komplexen Präparationen (48 vollständige Quellaufrufe); alle Reste <4e-15 bei vorab festgelegtem 1e-10. Grundcode und Manuskript unverändert. Nächste Abhängigkeit ist die quellenbasierte Auswahl einer relationalen Observablen-/Transport-/Uhrregel oder einer gemeinsamen Wechselwirkungsfunktion, nicht ein nachträglich passend gewählter Kompensator. CI des neuen Codes wird separat geprüft.
 
 CI-Nachprüfung der Komponentenbilanz: Beide Actions-Jobs zu Codecommit 1e9d068e12c2ff371bbad3afc34aa329f67b2d82 erfolgreich. PDF-Prüfsumme, alle vier Audits, sieben Grenztests und Artefakt-Upload bestanden. Lokale Resultate und GitHub-Prüfung sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt belegt. Die physikalischen Abhängigkeiten bleiben offen.
+
+## Fortsetzung: Zustandsuhren und exakte skalare Ereigniskoordinate
+
+[Herleitung](CLOCK_DERIVATION.md), [vorab festgelegtes Protokoll](CLOCK_PROTOCOL.md), [Prüfcode](clock_audit.py), [Resultate](clock_results.json).
+
+Auf der invarianten Klasse C gilt die neue gleichmäßige Schranke M_k <= (4/9)^k M_0. Daraus folgen drei konkrete positive, quotient-invariante Dauerkandidaten: konstante Dauer hat unendliche Summe, tr(Y)/n eine endliche Summe <=9M_0/5, und ln[tr(Y)/tr(Y_+)] eine teleskopisch unendliche Summe. Die gleiche BFG-Ereignisfolge bestimmt damit noch keine eindeutige physikalische Zeit oder Zeno-Aussage.
+
+Konstruktiv existiert auf dem skalaren Zweig 0<y<=3/10 eine stetige Zustandskoordinate tau(y)=log_2 A(y), mit A(f(y))=2A(y), also exakt einem Tick je Ereignis. Eine konvergente Reihe samt expliziter Restschranke wurde hergeleitet. Periodische monotone Umparametrisierungen erhalten die Tickgleichung; eine zusätzliche asymptotische Normierung wählt diese mathematische Koordinate eindeutig, liefert aber noch keine physikalischen Sekunden oder räumlichen Fluss.
+
+Frische Prüfung: 24 komplexe und drei skalare vollständige Quellereignisse. Alle Kriterien bestanden; skalare Quellreste <1e-16, Tickreste <3e-16. Die 48 analytischen Log-Rekurrenzen sind ausdrücklich keine 48 erfolgreichen Quellereignisse. Ein anfänglicher struktureller SymPy-Vergleich wurde durch exakte rationale Differenzprüfung berichtigt; die mathematische Identität blieb unverändert. CI des neuen Codes separat prüfen. Nächste eigenständige Abhängigkeit: geschlossene relationale Raumobservablen und ihr Transport aus den vorhandenen Paar-/Formations-/Witness-Daten.

@@ -1,0 +1,377 @@
+{
+  "scope": "Full-persistence C and scalar y<=3/10; mathematical clocks only",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "seed": 20261027,
+  "tolerance": 1e-10,
+  "runtime": {
+    "python": "3.12.8",
+    "numpy": "2.2.5",
+    "sympy": "1.14.0"
+  },
+  "exact": {
+    "envelope": "f(y)/y <= 2y/(1+y)^2 <= 4/9 on 0<y<=1/2",
+    "rational_scalar_witnesses": [
+      {
+        "y": "1/5",
+        "successor": "25/468"
+      },
+      {
+        "y": "1/4",
+        "successor": "32/425"
+      },
+      {
+        "y": "3/10",
+        "successor": "1800/18421"
+      }
+    ],
+    "load_duration_sum_bound": "sum tr(Y_k)/n <= 9 M_0/5",
+    "scalar_clock": "A(f(y))=2 A(y); tau=log_2 A"
+  },
+  "scalar": {
+    "full_source_calls": 3,
+    "log_recurrence_steps": 48,
+    "analytic_A_truncation_bound": 2.170374902647276e-15,
+    "truncation_bound_is_not_a_machine_roundoff_bound": true,
+    "epsilon": 0.039788735772973836,
+    "phase_reparametrization_derivative_lower_bound": 0.75,
+    "max_source_residual": 9.813077866773594e-17,
+    "max_unit_tick_residual": 2.220446049250313e-16,
+    "max_perturbed_tick_residual": 2.220446049250313e-16,
+    "cases": [
+      {
+        "y": 0.2,
+        "source_successor": 0.05341880341880343,
+        "source_residual": 2.943923360032078e-17,
+        "A_N": 1.1462440703753238,
+        "tau_N": 0.19691427064716366,
+        "A_successor_N": 2.292488140750647,
+        "unit_tick_residual": 2.220446049250313e-16,
+        "perturbed_tau_N": 0.2345101242046293,
+        "perturbed_tick_residual": 2.220446049250313e-16,
+        "nonuniqueness_difference": 0.03759585355746564
+      },
+      {
+        "y": 0.25,
+        "source_successor": 0.07529411764705882,
+        "source_residual": 1.962615573354719e-17,
+        "A_N": 0.9867745556864433,
+        "tau_N": -0.019207579146217246,
+        "A_successor_N": 1.973549111372887,
+        "unit_tick_residual": 2.220446049250313e-16,
+        "perturbed_tau_N": -0.02399782596627538,
+        "perturbed_tick_residual": 2.220446049250313e-16,
+        "nonuniqueness_difference": -0.004790246820058134
+      },
+      {
+        "y": 0.3,
+        "source_successor": 0.09771456489875684,
+        "source_residual": 9.813077866773594e-17,
+        "A_N": 0.8692541524884044,
+        "tau_N": -0.20215004106201823,
+        "A_successor_N": 1.738508304976809,
+        "unit_tick_residual": 2.220446049250313e-16,
+        "perturbed_tau_N": -0.2401540193557761,
+        "perturbed_tick_residual": 2.220446049250313e-16,
+        "nonuniqueness_difference": -0.03800397829375787
+      }
+    ]
+  },
+  "full_source": {
+    "preparations": 12,
+    "full_source_events": 24,
+    "maximum_envelope_violation": 0.0,
+    "maximum_log_telescoping_residual": 0.0,
+    "minimum_log_duration": 1.1439779691005958,
+    "cases": [
+      {
+        "n": 3,
+        "case": 0,
+        "event": 1,
+        "load_duration": 0.25000000000000006,
+        "log_duration": 1.1923728244350649,
+        "partial_load_sum": 0.25000000000000006,
+        "infinite_load_sum_upper_bound": 0.54,
+        "partial_log_sum": 1.1923728244350649,
+        "telescoping_residual": 0.0,
+        "envelope_violation": 0.0
+      },
+      {
+        "n": 3,
+        "case": 0,
+        "event": 2,
+        "load_duration": 0.07587506404213257,
+        "log_duration": 2.034210641927646,
+        "partial_load_sum": 0.3258750640421326,
+        "infinite_load_sum_upper_bound": 0.54,
+        "partial_log_sum": 3.226583466362711,
+        "telescoping_residual": 0.0,
+        "envelope_violation": 0.0
+      },
+      {
+        "n": 3,
+        "case": 1,
+        "event": 1,
+        "load_duration": 0.25,
+        "log_duration": 1.2181452920403344,
+        "partial_load_sum": 0.25,
+        "infinite_load_sum_upper_bound": 0.5400000000000004,
+        "partial_log_sum": 1.2181452920403344,
+        "telescoping_residual": 0.0,
+        "envelope_violation": 0.0
+      },
+      {
+        "n": 3,
+        "case": 1,
+        "event": 2,
+        "load_duration": 0.07394456019147207,
+        "log_duration": 2.0733558177776192,
+        "partial_load_sum": 0.32394456019147205,
+        "infinite_load_sum_upper_bound": 0.5400000000000004,
+        "partial_log_sum": 3.2915011098179536,
+        "telescoping_residual": 0.0,
+        "envelope_violation": 0.0
+      },
+      {
+        "n": 3,
+        "case": 2,
+        "event": 1,
+        "load_duration": 0.25000000000000006,
+        "log_duration": 1.219066284179065,
+        "partial_load_sum": 0.25000000000000006,
+        "infinite_load_sum_upper_bound": 0.5399999999999999,
+        "partial_log_sum": 1.219066284179065,
+        "telescoping_residual": 0.0,
+        "envelope_violation": 0.0
+      },
+      {
+        "n": 3,
+        "case": 2,
+        "event": 2,
+        "load_duration": 0.07387648918407681,
+        "log_duration": 2.0761113988521323,
+        "partial_load_sum": 0.32387648918407685,
+        "infinite_load_sum_upper_bound": 0.5399999999999999,
+        "partial_log_sum": 3.295177683031197,
+        "telescoping_residual": 0.0,
+        "envelope_violation": 0.0
+      },
+      {
+        "n": 4,
+        "case": 0,
+        "event": 1,
+        "load_duration": 0.24999999999999994,
+        "log_duration": 1.1990849786472912,
+        "partial_load_sum": 0.24999999999999994,
+        "infinite_load_sum_upper_bound": 0.5399999999999997,
+        "partial_log_sum": 1.1990849786472912,
+        "telescoping_residual": 0.0,
+        "envelope_violation": 0.0
+      },
+      {
+        "n": 4,
+        "case": 0,
+        "event": 2,
+        "load_duration": 0.07536748429385694,
+        "log_duration": 2.0426159273892637,
+        "partial_load_sum": 0.32536748429385687,
+        "infinite_load_sum_upper_bound": 0.5399999999999997,
+        "partial_log_sum": 3.241700906036555,
+        "telescoping_residual": 0.0,
+        "envelope_violation": 0.0
+      },
+      {
+        "n": 4,
+        "case": 1,
+        "event": 1,
+        "load_duration": 0.25,
+        "log_duration": 1.1462846607326707,
+        "partial_load_sum": 0.25,
+        "infinite_load_sum_upper_bound": 0.5399999999999998,
+        "partial_log_sum": 1.1462846607326707,
+        "telescoping_residual": 0.0,
+        "envelope_violation": 0.0
+      },
+      {
+        "n": 4,
+        "case": 1,
+        "event": 2,
+        "load_duration": 0.07945384262438918,
+        "log_duration": 1.9682298618803833,
+        "partial_load_sum": 0.32945384262438915,
+        "infinite_load_sum_upper_bound": 0.5399999999999998,
+        "partial_log_sum": 3.114514522613054,
+        "telescoping_residual": 0.0,
+        "envelope_violation": 0.0
+      },
+      {
+        "n": 4,
+        "case": 2,
+        "event": 1,
+        "load_duration": 0.25,
+        "log_duration": 1.2075554577808374,
+        "partial_load_sum": 0.25,
+        "infinite_load_sum_upper_bound": 0.5400000000000003,
+        "partial_log_sum": 1.2075554577808374,
+        "telescoping_residual": 0.0,
+        "envelope_violation": 0.0
+      },
+      {
+        "n": 4,
+        "case": 2,
+        "event": 2,
+        "load_duration": 0.0747317817443034,
+        "log_duration": 2.055538603802204,
+        "partial_load_sum": 0.3247317817443034,
+        "infinite_load_sum_upper_bound": 0.5400000000000003,
+        "partial_log_sum": 3.2630940615830415,
+        "telescoping_residual": 0.0,
+        "envelope_violation": 0.0
+      },
+      {
+        "n": 5,
+        "case": 0,
+        "event": 1,
+        "load_duration": 0.25,
+        "log_duration": 1.193854939346961,
+        "partial_load_sum": 0.25,
+        "infinite_load_sum_upper_bound": 0.5400000000000004,
+        "partial_log_sum": 1.193854939346961,
+        "telescoping_residual": 0.0,
+        "envelope_violation": 0.0
+      },
+      {
+        "n": 5,
+        "case": 0,
+        "event": 2,
+        "load_duration": 0.07576269177315273,
+        "log_duration": 2.0351483594357376,
+        "partial_load_sum": 0.32576269177315276,
+        "infinite_load_sum_upper_bound": 0.5400000000000004,
+        "partial_log_sum": 3.2290032987826986,
+        "telescoping_residual": 0.0,
+        "envelope_violation": 0.0
+      },
+      {
+        "n": 5,
+        "case": 1,
+        "event": 1,
+        "load_duration": 0.25,
+        "log_duration": 1.1877946920142461,
+        "partial_load_sum": 0.25,
+        "infinite_load_sum_upper_bound": 0.54,
+        "partial_log_sum": 1.1877946920142461,
+        "telescoping_residual": 0.0,
+        "envelope_violation": 0.0
+      },
+      {
+        "n": 5,
+        "case": 1,
+        "event": 2,
+        "load_duration": 0.07622322649155111,
+        "log_duration": 2.0267610790889012,
+        "partial_load_sum": 0.3262232264915511,
+        "infinite_load_sum_upper_bound": 0.54,
+        "partial_log_sum": 3.2145557711031474,
+        "telescoping_residual": 0.0,
+        "envelope_violation": 0.0
+      },
+      {
+        "n": 5,
+        "case": 2,
+        "event": 1,
+        "load_duration": 0.25,
+        "log_duration": 1.2174033131678352,
+        "partial_load_sum": 0.25,
+        "infinite_load_sum_upper_bound": 0.5399999999999999,
+        "partial_log_sum": 1.2174033131678352,
+        "telescoping_residual": 0.0,
+        "envelope_violation": 0.0
+      },
+      {
+        "n": 5,
+        "case": 2,
+        "event": 2,
+        "load_duration": 0.07399944585235274,
+        "log_duration": 2.0712672961748355,
+        "partial_load_sum": 0.32399944585235274,
+        "infinite_load_sum_upper_bound": 0.5399999999999999,
+        "partial_log_sum": 3.2886706093426707,
+        "telescoping_residual": 0.0,
+        "envelope_violation": 0.0
+      },
+      {
+        "n": 6,
+        "case": 0,
+        "event": 1,
+        "load_duration": 0.25000000000000006,
+        "log_duration": 1.210299088665177,
+        "partial_load_sum": 0.25000000000000006,
+        "infinite_load_sum_upper_bound": 0.5399999999999999,
+        "partial_log_sum": 1.210299088665177,
+        "telescoping_residual": 0.0,
+        "envelope_violation": 0.0
+      },
+      {
+        "n": 6,
+        "case": 0,
+        "event": 2,
+        "load_duration": 0.07452702633494196,
+        "log_duration": 2.059806591603546,
+        "partial_load_sum": 0.324527026334942,
+        "infinite_load_sum_upper_bound": 0.5399999999999999,
+        "partial_log_sum": 3.270105680268723,
+        "telescoping_residual": 0.0,
+        "envelope_violation": 0.0
+      },
+      {
+        "n": 6,
+        "case": 1,
+        "event": 1,
+        "load_duration": 0.25,
+        "log_duration": 1.1439779691005958,
+        "partial_load_sum": 0.25,
+        "infinite_load_sum_upper_bound": 0.5399999999999998,
+        "partial_log_sum": 1.1439779691005958,
+        "telescoping_residual": 0.0,
+        "envelope_violation": 0.0
+      },
+      {
+        "n": 6,
+        "case": 1,
+        "event": 2,
+        "load_duration": 0.07963732968097749,
+        "log_duration": 1.9631460693459937,
+        "partial_load_sum": 0.3296373296809775,
+        "infinite_load_sum_upper_bound": 0.5399999999999998,
+        "partial_log_sum": 3.1071240384465897,
+        "telescoping_residual": 0.0,
+        "envelope_violation": 0.0
+      },
+      {
+        "n": 6,
+        "case": 2,
+        "event": 1,
+        "load_duration": 0.25,
+        "log_duration": 1.2040228489793048,
+        "partial_load_sum": 0.25,
+        "infinite_load_sum_upper_bound": 0.5399999999999998,
+        "partial_log_sum": 1.2040228489793048,
+        "telescoping_residual": 0.0,
+        "envelope_violation": 0.0
+      },
+      {
+        "n": 6,
+        "case": 2,
+        "event": 2,
+        "load_duration": 0.0749962467449133,
+        "log_duration": 2.0510509358627464,
+        "partial_load_sum": 0.3249962467449133,
+        "infinite_load_sum_upper_bound": 0.5399999999999998,
+        "partial_log_sum": 3.2550737848420512,
+        "telescoping_residual": 0.0,
+        "envelope_violation": 0.0
+      }
+    ]
+  },
+  "status": "PASS for constructions and scoped ambiguity; physical clock/current/Einstein OPEN"
+}
