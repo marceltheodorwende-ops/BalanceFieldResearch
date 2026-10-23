@@ -1,0 +1,7 @@
+# Round 36 preregistration: normalized overlapping pair balance
+
+Full positive-persistence source with Hermitian Kraus T_r and sum T_r²=I. Test effects E_a>=0, sum E_a=I, q_a=tr(E_a K), and outgoing J_ab=sum_r Re tr(E_a T_r E_b [T_r,K]). Derive J_ab=-J_ba and Delta q_a+sum_b J_ab=0 without assuming effects orthogonal or commuting. This is source-based internal kernel accounting, not physical energy-momentum or spatial transport.
+
+Overlap obstruction: all P_tau candidates of round33 contain e1 and have rank2 in n=3. Test impossibility of sum_a w_a P_tau_a=I using common-line expectation and trace, even for signed finite scalar weights. Natural alternative: coordinate pair projectors P_ij relative to a retained orthonormal basis, E_ij=P_ij/(n-1), yielding sum E=I. Test naive pair trace sum=(n-1)trK, normalized charges sum=trK. The basis/cover is an explicit mathematical choice, no unique physical partition claimed.
+
+Fresh exact evidence: n=3,4 cover identities and common-line obstruction, plus general Hermitian/anti-Hermitian current proof. Fresh original-source n=3,4 crossed three random positive preparations in F eigenbasis (six calls), plus one simultaneous complex gauge per n (eight total). Noncommuting complex Y, positive K, diagonal positive F, W=I/n. Use exact source T from existing aligned formula, but compare continuity to original full update. Tolerance1e-10 antisymmetry, continuity, cover, trace/covariance. Record nonzero currents; retain K coherences in current, no false charge-only closure.
