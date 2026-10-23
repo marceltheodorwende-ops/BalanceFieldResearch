@@ -476,3 +476,6 @@ CI Runde 31: Beide Actions-Läufe zu Codecommit 0a5361ac15ccafb25100eef9c0494077
 Am vollständig isotropen Grenzzustand existiert kein einzelner aus dem gesamten Zustand unitär kovariant bestimmter Rang-zwei-Projektor. Dies betrifft weder Auswahl mit tatsächlich nichtisotropen Zusatzdaten noch mengenwertige Beschreibungen. Die feste-Sektor-Gedächtnisschranke aus Runde 31 bleibt gültig.
 
 Sechs unabhängige Hermitesche Störungskontrollen und acht frische Original-Quellaufrufe bestanden. Projektorrest <1.7e-14, Eichrest <4.6e-14, Last-Kovarianzrest <3e-17. Nächste Abhängigkeit: vorhandene Witness-/Formationsdaten bei lückenschließender Wahl und dynamische Geschlossenheit; räumlicher Transport, physikalische Uhr und vollständiger Viererstrom bleiben offen. CI separat prüfen.
+
+
+CI Runde 32: Beide Actions-Läufe zu Codecommit 7be75f5b6898aaf13dc5e34e810574ed4ad7b6dc vollständig erfolgreich. Alle 32 Audits, sieben Grenztests, Manuskript-Prüfsumme und Artefakte bestanden; exakte Nachweise und Code/Dokumentations-Trennung in CI_VALIDATION.md.
