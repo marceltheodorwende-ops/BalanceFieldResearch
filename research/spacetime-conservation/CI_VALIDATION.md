@@ -189,3 +189,12 @@ Beide [Actions-Läufe 40028068340](https://github.com/marceltheodorwende-ops/Bal
 Neue Evidenz: exakte rationale Rechteckzertifikate mit C_R=3 und C_L=2, Teilbarkeit und q_s-Identität, Bootstrap- und kumulative Kernelkontrollen für zwölf analytisch begrenzte lange Rekurrenzfolgen. Zusätzlich 14 vollständige kurze Original-Quellaufrufe; lokaler exakter Quellrest <1.9e-13, Kovarianzrest <2.3e-14, unter unverändertem 1e-10. Alle sechs geänderten Dateien am obigen Codecommit textgleich zurückgelesen. Protokollcommit 6d1deb41ccc6d06fbcfb9e608403b1e1dbe8a054.
 
 Die uniforme Übertragung betrifft die erklärte kritische Zwei-Niveau-Familie auf festen skalierten Zeitintervallen und hinreichend kleine positive Anfangslast. Originalcode-Ranggrenzen, Mehrpräzisions-Rundung und analytische Tailgrenzen bleiben getrennt. Physikalische Uhr, räumliche Auslese und Energie-Impuls-Viererstrom sind weiterhin offen. Dieser spätere reine Dokumentationseintrag ist vom geprüften Code getrennt.
+
+
+## Zusätzliche Lastniveaus und Tangentenempfindlichkeit — Code 6404d74f3cb7533bf4a2e1c60ede8098c8d0b72d
+
+Beide [Actions-Läufe 40028870219](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40028870219) und [40028875916](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40028875916) abgeschlossen mit success. Beide Jobs und sämtliche Schritte separat gelesen und erfolgreich: Manuskript-Prüfsumme, alle zweiundzwanzig Forschungs-Audits, sieben Grenztests und Artefakt-Upload.
+
+Neue Evidenz: exakte Randrichtungsableitungen, positive-s-Tangentenquotienten und rationale Log-Ableitungsschranken, vier lange skalierte Rand-Logkontrollen und 38 vollständige Original-Quellaufrufe. Lokaler Basis-Identitätsrest <1.3e-14, Last-Kovarianzrest <1e-18, schlechtester bester zentraler Richtungsfehler ca. 2.28e-8 unter vorab 1e-6. Alle Schrittweitenfehler werden separat behalten. Alle sechs geänderten Dateien am obigen Codecommit textgleich zurückgelesen. Protokollcommit 4897b53b850c3f3862fce64445a9d675ac328cb2.
+
+Die obere Verstärkung und untere Kontraktion betreffen innere infinitesimale Blockaufspaltungen im ausgewiesenen ausgeglichenen Unterbereich. Die übertragene logarithmische Wachstumsgrenze ist kein nichtlineares Fluchttheorem endlicher Störungen und keine physikalische Instabilitätsbehauptung. Physikalische Uhr, Raummaß und vollständiger Viererstrom bleiben offen. Dieser spätere reine Dokumentationseintrag ist vom geprüften Code getrennt.

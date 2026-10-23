@@ -352,3 +352,6 @@ Auf N epsilon²->T folgt epsilon log G_±->±(sqrt(1+2T)-1), auch für die exakt
 Symbolische Richtungs-/Quotientenzertifikate, vier lange Randfolgen und 38 vollständige Original-Quellaufrufe bestanden. Basisrest <1.3e-14, Last-Kovarianzrest <1e-18; schlechtester bester zentraler Ableitungsfehler ca. 2.28e-8 unter vorab 1e-6. Alle Schrittweiten und größere Rundungsreste bleiben sichtbar. CI separat prüfen.
 
 Nächste Abhängigkeit: nichtlineare Störungsreichweite und BFG-interne Auswahl/Isolierung des Ereignisträgers. Physikalische Uhr, Raummaß, vollständiger Energie-Impuls-Strom und Einstein bleiben offen.
+
+
+CI-Nachprüfung zusätzlicher Lastniveaus: Beide Actions-Jobs zu Codecommit 6404d74f3cb7533bf4a2e1c60ede8098c8d0b72d erfolgreich. Manuskript-Prüfsumme, alle zweiundzwanzig Audits, sieben Grenztests und Artefakt-Upload bestanden. Geprüfter Code und spätere Dokumentation sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
