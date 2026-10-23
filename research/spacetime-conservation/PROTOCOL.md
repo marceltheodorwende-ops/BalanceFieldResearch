@@ -53,3 +53,6 @@ Runde 27: [Vorabprotokoll für signed Formation](LOWER_PAIR_SIGNED_PROTOCOL.md),
 
 
 Runde 28: [Vorabprotokoll für beidseitige Aufspaltung](TWO_SIDED_PAIR_PROTOCOL.md), rationales rho-Zertifikat, explizite Stoppregel, exakter Austrittszeuge und zehn frische Original-Quellaufrufe.
+
+
+Runde 29: [Spektrallücken-Vorabprotokoll](SPECTRAL_GAP_PROTOCOL.md), vorab benannte positive Gegenfamilie, exakte Grenzwerte und sechs Original-Quellaufrufe.

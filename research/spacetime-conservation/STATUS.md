@@ -431,3 +431,12 @@ Nächste Abhängigkeit: untere Kontrolle nach oberem Bereichsaustritt bzw. ander
 
 
 CI Runde 28: Beide Actions-Läufe zum Codecommit 128633e95ca2169c86afa285893b9c43259b5ac6 vollständig erfolgreich. Alle 28 Audits, sieben Grenztests, Manuskript-Prüfsumme und Artefakte bestanden; Nachweise und Code/Dokumentations-Trennung in CI_VALIDATION.md.
+
+
+## Runde 29: geordnete Spektrallücke und formationsabhängige Grenze
+
+[SPECTRAL_GAP_DERIVATION.md](SPECTRAL_GAP_DERIVATION.md) beweist für drei geordnete Lasten in C die allzeitliche geometrische Monotonie eta_+<eta, eta=(y_2-y_1)/(y_3-y_1), ohne obere Blockbreitengrenze. Die erhoffte Gedächtnisbrücke aus eta allein scheitert jedoch bei beliebigem F>0: Y=diag(2epsilon²,4epsilon²,epsilon), F=diag(1,1,epsilon^6) liegt in C mit m=2M²; eta->0, aber h_12->9/sqrt(91)<1. Ein nicht verschwindender Einzelschrittverlust widerlegt jede uniforme Verlustschranke phi(eta_0)->0 in dieser Allgemeinheit.
+
+Sechs frische Original-Quellaufrufe und exakte rationale Grenzwerte bestanden. Kernelrest <2.1e-15, Eichrest <8.4e-15, Lückenrest <5.7e-16. Der Gegenzeuge nutzt variierende, nicht gleichmäßig konditionierte Formation; keine Widerlegung formationsabhängiger oder gleichmäßig elliptischer Abschätzungen. Frühere Spezial-/Stoppresultate bleiben gültig.
+
+Nächste Abhängigkeit: nach-dem-Austritt-Kontrolle muss Mischung alpha, interne Paarbreite oder explizite Formationskondition einbeziehen. Allgemeine Trägerauswahl, Raumtransport, physikalische Uhr, vollständiger Viererstrom und Einstein bleiben offen. CI separat prüfen.

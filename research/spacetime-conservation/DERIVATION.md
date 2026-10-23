@@ -171,3 +171,6 @@ Runde 27: [Negative Formationsrichtung mit anderer Lyapunov-Funktion](LOWER_PAIR
 
 
 Runde 28: [Endliche obere Aufspaltung und gestoppte untere Paar-Kontrolle](TWO_SIDED_PAIR_DERIVATION.md), mit allgemeinem positivem F im lokalen Zertifikat und exaktem positiven Bereichsaustritt; keine unbedingte Zukunftsschranke.
+
+
+Runde 29: [Geordnete Spektrallücke und formationsabhängiger Gegenzeuge](SPECTRAL_GAP_DERIVATION.md): geometrische Kontraktion ist kein formationsunabhängiger kleiner Kohärenzdefekt.
