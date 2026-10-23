@@ -512,3 +512,6 @@ CI Runde 34: Beide Actions-Läufe zu Codecommit b07c18e54dbe7d29f783d5be5fe84a28
 Eine native Ergänzung ist i[F,W]=(2/9)J. Der zusätzliche Skalar tr(i[F,W]K) löst die Faser auf und erhöht den Bildrang von 8 auf 9, stellt also den ganzen Kernel wieder her statt vier physikalische Komponenten zu liefern. Er ist keine erhaltene Energie-/Impulsgröße. Der alte skalare Geschlossenheitsbefund bleibt ausdrücklich gültig.
 
 Exakte rationale Kanal-/Kommutator-/Rangidentitäten und acht Original-Quellaufrufe bestanden. Kernelrest <3.1e-16, Feldrest <7.5e-16, Eichrest <6.3e-16. Nächste Abhängigkeit: quellengestützte geschlossene Reduktion oder vollständige Mehrsektor-Bilanz mit Kohärenzen, Überlappungen und Wechseln. Raumtransport, physikalische Uhr, vollständiger Viererstrom und Einstein bleiben offen. CI separat prüfen.
+
+
+CI Runde 35: Beide Actions-Läufe zu Codecommit f8277d33b8dce8c98006327b92f205aaf7ee3aad vollständig erfolgreich. Alle 35 Audits, sieben Grenztests, Manuskript-Prüfsumme und Artefakte bestanden; exakte Nachweise und Code/Dokumentations-Trennung in CI_VALIDATION.md.
