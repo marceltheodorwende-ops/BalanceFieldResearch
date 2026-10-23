@@ -539,3 +539,12 @@ Neun Original-Quellaufrufe und exakte Spur-/Rotationsidentitäten bestanden. Bil
 
 
 CI Runde 37: Beide Actions-Läufe zu Codecommit 4c1cab945632a740157890ba15067a2320ebf8c6 vollständig erfolgreich. Alle 37 Audits, sieben Grenztests, Manuskript-Prüfsumme und Artefakte bestanden; exakte Nachweise und Code/Dokumentations-Trennung in CI_VALIDATION.md.
+
+
+## Runde 38: lokale Bilanz über echte Auswahl-/Seed-/Rangereignisse
+
+[RANK_LOCAL_BALANCE_DERIVATION.md](RANK_LOCAL_BALANCE_DERIVATION.md) leitet aus den tatsächlichen rechteckigen Analyseblöcken U_C,U_B den positiven Beobachtungsrückzug B_a=sum U_r Eout_a U_r† und Delta q_a=tr[K(B_a-Ein_a)] her. Ganze Raumüberdeckungen ergeben die bekannte signed Spurdefektbilanz tr K(D-I); aktive Trägerüberdeckungen dagegen tr K(sum U_r P_+ U_r†-P). Diese Bestände dürfen außerhalb voller Persistenz nicht gleichgesetzt werden.
+
+Ein exakter Seedzeuge hat Dimension3->2 und aktiven Rang1->2, D=2P. Seine ambiente Kernelspur ändert sich um11/2, der aktive Bestand um-9/4; I-D besitzt Eigenwerte(-1,1,1). Das ist keine positive Export-/Energiereserve. Terminale Nachfolger werden nicht erfunden.
+
+Zehn frische Original-Quellaufrufe einschließlich sechs nichtterminaler Teilträgerfälle und drei Eichkontrollen bestanden. Normierter lokaler Rest <1.5e-16, Eichrest <5.4e-14, Zeugenrest <1.8e-15. Ein vor Auswertung abgebrochener Syntaxlauf ist in der Herleitung erhalten. Nächste Abhängigkeit: physikalische Identifikation von Bestand, Zuordnung und Transport samt signed Seed-/Auswahltermen. Raumrelation, Uhr, vollständiger Viererstrom und Einstein bleiben offen. CI separat prüfen.

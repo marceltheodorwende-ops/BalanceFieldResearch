@@ -80,3 +80,6 @@ Runde 36: [Vorabprotokoll zur Überlappungsbilanz](OVERLAP_BALANCE_PROTOCOL.md),
 
 
 Runde 37: [Vorabprotokoll zur wechselnden Überdeckung](MOVING_COVER_PROTOCOL.md), exakte Zuordnungs-/Kreuztermidentitäten, reiner Rotationszeuge und neun Original-Quellaufrufe.
+
+
+Runde 38: [Vorabprotokoll zur lokalen Rangereignisbilanz](RANK_LOCAL_BALANCE_PROTOCOL.md), exakter Seed-/Dimensionszeuge, aktive/ambiente Rückzüge und zehn Original-Quellaufrufe.

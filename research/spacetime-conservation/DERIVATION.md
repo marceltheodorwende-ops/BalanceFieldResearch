@@ -198,3 +198,6 @@ Runde 36: [Normierte interne Kontinuität über überlappende Effekte](OVERLAP_B
 
 
 Runde 37: [Wechselnde Effekte und Zuordnungsbilanz](MOVING_COVER_DERIVATION.md) trennt exakten Quellstrom von Änderungen der lokalen Beobachtungszuordnung; reine Umzuordnung kann Bestände bei konstantem K verändern.
+
+
+Runde 38: [Lokale rechteckige Rangereignisbilanz](RANK_LOCAL_BALANCE_DERIVATION.md) typisiert unterschiedliche Räume und trennt ambiente Kernelspur vom aktiven Bestand; der globale Spurdefekt wird ausdrücklich als bereits bekannt eingeordnet.
