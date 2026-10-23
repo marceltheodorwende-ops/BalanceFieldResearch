@@ -117,3 +117,12 @@ The all-finite-event persistence of the created edge rests on the explicit endog
 Beide GitHub-Actions-Läufe [40022099992](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40022099992) und [40022109004](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40022109004) abgeschlossen mit success. Job und alle Schritte separat gelesen: gepinnte Manuskript-Prüfsumme, alle dreizehn Audits, sieben Grenztests und Artefakt-Upload erfolgreich. Der neue Audit umfasst 28 vollständige Quellaufrufe; lokale Identitätsreste <9.1e-15. Alle sechs publizierten Änderungsdateien am exakten Codecommit zurückgelesen und textgleich geprüft.
 
 Dieser Eintrag ist ein nachfolgender reiner Dokumentationscommit. Die obige CI-Evidenz bezieht sich ausdrücklich auf 5aa2bdf8f1f590dda52abd7876a611118c04bbaa; sie behauptet keine zusätzliche Codeänderung und keine physikalische Einstein-Herleitung.
+
+
+## Mehrereignis-Reichweite — Code 8d4e1ba9c3efab03749ed06d1fe3414e25dde559
+
+Beide [Actions-Läufe 40022721959](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40022721959) und [40022733208](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40022733208) abgeschlossen mit success. Beide Jobs und sämtliche Schritte gelesen: gepinnte Manuskript-Prüfsumme, alle vierzehn Forschungs-Audits, sieben Grenztests und Artefakt-Upload erfolgreich.
+
+Der neue lokale Audit prüfte eine exakte symbolische Tensornormidentität, 21 vollständige Quellaufrufe und 27 Bernstein-/Graph-/Tail-Kontrollen. Quellrest <6.5e-15, Kovarianzrest <3.1e-15, kein Schrankenverstoß bei vorab unverändertem 1e-10. Alle sechs geänderten Dateien am obigen Codecommit zurückgelesen und textgleich geprüft. Protokollcommit 8afbb4169cf8b60ee1b67b17f8448ed5a3cc09c1.
+
+Der Tail-Satz betrifft positive unterstützte Kernel auf einem deklarierten internen Graphen. Konservative, zustandsabhängige Schranken begründen keine physikalische Geschwindigkeit oder Einstein-Herleitung. Dieser spätere Dokumentationseintrag ist ausdrücklich vom erfolgreich geprüften Codecommit getrennt.

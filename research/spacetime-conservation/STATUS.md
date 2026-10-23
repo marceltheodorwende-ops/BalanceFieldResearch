@@ -226,3 +226,6 @@ Der Beweis verbindet Polynome in Y0 mit Graphdistanz und kontrolliert den gesamt
 21 vollständige Quellaufrufe auf Pfaden n=6,10,14, symbolische Tensornormkontrolle und 27 Grad-/Tail-Kontrollen bestanden. Quellrest <6.5e-15, Kovarianzrest <3.1e-15, kein Schrankenverstoß. Für n=14,N=3,d=3 liegt die Schranke bei ca. 0.01016, die gemessene entfernte Punktmassenpopulation bei ca. 1.65e-10; die konservative Lücke bleibt sichtbar. CI separat prüfen.
 
 Nächste Abhängigkeit: langfristiges Wachstum der Schranken und BFG-interne Auswahl von Raummaß und physikalischer Uhr. Vollständiger Energie-Impuls-Strom, Lorentz-Dynamik und Einstein bleiben offen.
+
+
+CI-Nachprüfung der Mehrereignis-Reichweite: Beide Actions-Jobs zu Codecommit 8d4e1ba9c3efab03749ed06d1fe3414e25dde559 erfolgreich. Manuskript-Prüfsumme, alle vierzehn Audits, sieben Grenztests und Artefakt-Upload bestanden. Der geprüfte Codestand und die spätere Dokumentation sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
