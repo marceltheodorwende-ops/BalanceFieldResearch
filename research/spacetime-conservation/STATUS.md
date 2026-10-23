@@ -169,3 +169,15 @@ Konstruktive Ausnahme: Ein zur Y-Basis unvoreingenommener Formation-Zwei-Moden-S
 36 vollständige Quellaufrufe im finalen Audit bestanden; Populations-/Gedächtnisreste <8.3e-15. Der erste Lauf scheiterte erst beim JSON-Export symbolischer Brüche; nach Stringserialisierung frisch wiederholt, ohne veränderte Gleichung oder Schranke. CI separat prüfen. Nächste Abhängigkeit: Kanal-Nachbarschaft, Reichweite und räumliche Lokalität samt physikalischer Auswahl/Kalibrierung. Vollständiger Energie-Impuls-Strom, Raumzeitwirkung und Einstein bleiben offen.
 
 CI-Nachprüfung der Populations-Geschlossenheit: Beide Actions-Jobs zu Codecommit 4bbdc990e264721bbd03333f895f4ddc963fac4a erfolgreich. Manuskript-Prüfsumme, alle zehn Audits, sieben Grenztests und Artefakt-Upload bestanden. Geprüfter Codecommit und spätere Dokumentation sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
+
+## Fortsetzung: Kanalreichweite auf einer deklarierten internen Kette
+
+[Herleitung](CHANNEL_RANGE_DERIVATION.md), [vorab festgelegtes Protokoll](CHANNEL_RANGE_PROTOCOL.md), [Prüfcode](channel_range_audit.py), [Resultate](channel_range_results.json).
+
+Die echten Kanaloperatoren sind T_C=sqrt(alpha)(alpha I+beta Y²)^-1/2 und T_B=sqrt(beta)Y(alpha I+beta Y²)^-1/2. Eine tridiagonale Y-Kette erzwingt daher keinen strikt nächsten-Nachbar-Kanal. Ein exakter positiver Drei-Knoten-Zeuge hat Y13=0, aber einen direkten Übergang P31≈7.76536e-6 im vollständigen Quellereignis. Strikte Positivität ist durch ein Konvexitätszertifikat bewiesen, nicht nur numerisch geschätzt.
+
+Konstruktiv liefert eine normkonvergente Binomialentwicklung kontrollierte endliche Bandapproximationen und eine geometrische, zustandsabhängige Abschätzung entfernter Kanalgewichte. Sie wird nicht als veränderte Quellendynamik eingesetzt. Vollständig getrennte Y-reduzierende Blöcke besitzen dagegen exakt keine kreuzenden Kanalströme; ihre Kernelbestände bleiben erhalten. Globales alpha verhindert dennoch die unbegründete Behauptung autonomer Teilsysteme.
+
+20 vollständige Quellaufrufe im finalen Audit bestanden, einschließlich vier Basiswechsel- und vier Blockkontrollen; größte Identitätsreste <2.6e-15. Sehr kleine Ferngewichte (~2.69e-19) sind als Matrixfunktionsschätzungen ohne relative Positivitätszertifizierung durch den Quellcode gekennzeichnet. CI separat prüfen.
+
+Dies widerlegt nur die geprüfte strikte Ein-Kanten-Regel auf der gewählten internen Nachbarschaft. Keine Aussage über eine verletzte physikalische Lorentz-Kausalität oder universell ausgeschlossene endliche Reichweiten. Nächste Abhängigkeit: Erhaltung/Veränderung der Lokalitätsbeschreibung unter wiederholten Y-Ereignissen und globalem alpha-Rückkopplung; räumliche Auswahl, Kalibrierung, Viererstrom und Einstein bleiben offen.

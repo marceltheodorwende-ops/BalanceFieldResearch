@@ -89,3 +89,10 @@ Additional controls:
 
 Additional controls:
     python research/spacetime-conservation/population_closure_audit.py
+
+## Channel range and controlled tails
+
+[Internal-path two-hop transfer, norm tail bounds and disconnected blocks](CHANNEL_RANGE_DERIVATION.md), [protocol](CHANNEL_RANGE_PROTOCOL.md), [fresh results](channel_range_results.json). A nearest-neighbor Y matrix does not force a nearest-neighbor source channel. An exact witness has nonzero distance-two transfer; state-dependent finite-band approximation bounds are proved. This is not a physical Lorentz-causality test.
+
+Additional controls:
+    python research/spacetime-conservation/channel_range_audit.py
