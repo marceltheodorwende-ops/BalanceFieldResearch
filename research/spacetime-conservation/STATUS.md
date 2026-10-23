@@ -416,3 +416,6 @@ CI Runde 26: Beide Actions-Läufe zum Codecommit 7d160a7e9e804d413cbc24e4d97e343
 Vier neue 500-stellige positive-s-Präfixe und acht vollständige Original-Quellaufrufe bestanden. Kernelrest <7.1e-16, Eichrest <2e-15, normierte Last <2.9e-13. Im Originalfall r=.05,delta=-.125,q=.1,s=.001 wächst r auf .05008176369701517, während q fällt. Das alte Gegenbeispiel bleibt bestehen; es wird durch die andere Lyapunov-Funktion umgangen.
 
 Zusammen gilt nun eine uniforme lokale Gedächtnisschranke für delta in [-1/8,1/2] unter den erklärten F-Block- und oberen Entartungsannahmen. Nächste Abhängigkeit: endliche obere Lastaufspaltung und Trägerauswahl. Allgemeines F, Raumtransport, physikalische Uhr, vollständiger Viererstrom und Einstein bleiben offen. CI separat prüfen.
+
+
+CI Runde 27: Beide Actions-Läufe zu Codecommit 1497d48857398607074527a4c2593628f46ffbde vollständig erfolgreich; alle 27 Audits, sieben Grenztests, Manuskript-Prüfsumme und Artefakte bestanden. Exakte Nachweise und Trennung Code/Dokumentation in CI_VALIDATION.md.
