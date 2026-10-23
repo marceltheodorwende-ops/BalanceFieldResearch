@@ -339,3 +339,16 @@ Offen bleiben Auswahl und Stabilität gegenüber zusätzlichen Lastniveaus, phys
 
 
 CI-Nachprüfung der kritischen positiven-Last-Übertragung: Beide Actions-Jobs zu Codecommit 2bd809551e10ef0ac2436fd8a7417523e2882b48 erfolgreich. Manuskript-Prüfsumme, alle einundzwanzig Audits, sieben Grenztests und Artefakt-Upload bestanden. Geprüfter Code und spätere Dokumentation sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
+
+
+## Fortsetzung: zusätzliche Lastniveaus und transversale Empfindlichkeit
+
+[Herleitung](EXTRA_LEVEL_DERIVATION.md), [Vorabprotokoll](EXTRA_LEVEL_PROTOCOL.md), [Prüfcode](extra_level_audit.py), [Resultate](extra_level_results.json).
+
+Im ausgeglichenen Zwei-Niveau-Unterbereich besitzen innere formationszentrierte Lastaufspaltungen relative Tangentenfaktoren 1+r im höheren und 1-r im niedrigeren Block. Die exakte positive-Last-Quelle hat entsprechende Faktoren H_+>1 und 0<H_-<1; rationale Zertifikate kontrollieren ihren Abstand zur Randform.
+
+Auf N epsilon²->T folgt epsilon log G_±->±(sqrt(1+2T)-1), auch für die exakte mathematische positive-Last-Basis bei s0(epsilon)->0. Damit wächst die obere relative Tangentenverstärkung wie exp(c(T)/epsilon). Es besteht keine epsilon-uniform begrenzte lineare Empfindlichkeit in dieser Richtung, sofern der jeweilige Block innere Dimension hat. Das widerlegt weder den exakten Sektorgrenzwert noch beweist es schon eine nichtlineare Flucht endlicher Störungen.
+
+Symbolische Richtungs-/Quotientenzertifikate, vier lange Randfolgen und 38 vollständige Original-Quellaufrufe bestanden. Basisrest <1.3e-14, Last-Kovarianzrest <1e-18; schlechtester bester zentraler Ableitungsfehler ca. 2.28e-8 unter vorab 1e-6. Alle Schrittweiten und größere Rundungsreste bleiben sichtbar. CI separat prüfen.
+
+Nächste Abhängigkeit: nichtlineare Störungsreichweite und BFG-interne Auswahl/Isolierung des Ereignisträgers. Physikalische Uhr, Raummaß, vollständiger Energie-Impuls-Strom und Einstein bleiben offen.

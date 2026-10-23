@@ -175,3 +175,11 @@ Additional controls:
 
 Additional controls:
     python research/spacetime-conservation/critical_lift_audit.py
+
+
+## Additional load levels and transverse sensitivity
+
+[Exact within-block tangent factors and slow-scale amplification](EXTRA_LEVEL_DERIVATION.md), [protocol](EXTRA_LEVEL_PROTOCOL.md), [fresh results](extra_level_results.json). Upper-load internal splitting is relatively amplified and lower-load splitting contracts. An exact positive-load transfer controls the scaled logarithmic tangent growth. This is a variational sensitivity result, not a nonlinear finite-perturbation escape theorem; block dimension and physical selection remain explicit limits.
+
+Additional controls:
+    python research/spacetime-conservation/extra_level_audit.py

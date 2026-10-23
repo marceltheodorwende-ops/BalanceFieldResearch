@@ -1,0 +1,203 @@
+{
+  "status": "PASS: upper-block tangent amplification and lower-block contraction; nonlinear stability OPEN",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "tolerance": 1e-10,
+  "seed": 20261113,
+  "certificates": {
+    "plus": {
+      "exact_relative_tangent": "(r**4*s**4 - r**4*s**3 - 2*r**3*s**4 + r**3*s**3 + 3*r**3*s**2 - r**2*s**3 - 4*r**2*s**2 - 3*r**2*s + 2*r*s**4 + 3*r*s**3 + r*s**2 + r*s + r - s**4 - 2*s**3 + 2*s + 1)/(r**3*s**4 - r**3*s**3 - 2*r**3*s**2 + r**2*s**4 - 3*r**2*s**2 - 2*r**2*s - r*s**4 - r*s**3 + r*s**2 + r*s - s**4 - 2*s**3 + 2*s + 1)",
+      "numerator_mass": "3411425438039/5120000000000",
+      "denominator_lower": "289799743064696487/409600000000000000",
+      "rational_log_s_derivative_bound": "272914035043120000/289799743064696487",
+      "integer_bound": 1
+    },
+    "minus": {
+      "exact_relative_tangent": "(-r**4*s**4 + r**4*s**3 - 2*r**3*s**4 + r**3*s**3 + 3*r**3*s**2 + r**2*s**3 + 4*r**2*s**2 + 3*r**2*s + 2*r*s**4 + 3*r*s**3 + r*s**2 + r*s + r + s**4 + 2*s**3 - 2*s - 1)/(r**3*s**4 - r**3*s**3 - 2*r**3*s**2 - r**2*s**4 + 3*r**2*s**2 + 2*r**2*s - r*s**4 - r*s**3 + r*s**2 + r*s + s**4 + 2*s**3 - 2*s - 1)",
+      "numerator_mass": "3411425438039/5120000000000",
+      "denominator_lower": "289799743064696487/409600000000000000",
+      "rational_log_s_derivative_bound": "272914035043120000/289799743064696487",
+      "integer_bound": 1
+    }
+  },
+  "boundary_growth": {
+    "limit_magnitude": 0.41421356237309515,
+    "cases": [
+      {
+        "epsilon": 0.1,
+        "boundary_steps": 50,
+        "scaled_log_plus": 0.3989370285382243,
+        "scaled_log_minus": -0.43393477187478235,
+        "plus_error": 0.01527653383487082,
+        "minus_error": 0.01972120950168721,
+        "log_plus": 3.9893702853822433,
+        "log_minus": -4.339347718747823
+      },
+      {
+        "epsilon": 0.05,
+        "boundary_steps": 200,
+        "scaled_log_plus": 0.4060798165720958,
+        "scaled_log_minus": -0.4234506924473099,
+        "plus_error": 0.008133745800999348,
+        "minus_error": 0.009237130074214728,
+        "log_plus": 8.121596331441916,
+        "log_minus": -8.469013848946197
+      },
+      {
+        "epsilon": 0.025,
+        "boundary_steps": 800,
+        "scaled_log_plus": 0.4100164428263522,
+        "scaled_log_minus": -0.41868604625197064,
+        "plus_error": 0.004197119546742956,
+        "minus_error": 0.0044724838788754995,
+        "log_plus": 16.400657713054088,
+        "log_minus": -16.747441850078825
+      },
+      {
+        "epsilon": 0.0125,
+        "boundary_steps": 3200,
+        "scaled_log_plus": 0.41208155414848113,
+        "scaled_log_minus": -0.4164143816465427,
+        "plus_error": 0.0021320082246140126,
+        "minus_error": 0.002200819273447563,
+        "log_plus": 32.96652433187849,
+        "log_minus": -33.313150531723416
+      }
+    ]
+  },
+  "source": {
+    "full_source_calls": 38,
+    "maximum_base_identity_residual": 1.2416403903925816e-14,
+    "maximum_gauge_load_residual": 9.577836118475707e-19,
+    "cases": [
+      {
+        "r": 0.1,
+        "s": 0.001,
+        "block": "plus",
+        "exact_relative_factor": 1.0997824413387483,
+        "finite_difference": [
+          {
+            "eta": 0.0001,
+            "relative_tangent_error": 7.683198358374346e-09
+          },
+          {
+            "eta": 1e-05,
+            "relative_tangent_error": 1.65186466967886e-08
+          }
+        ]
+      },
+      {
+        "r": 0.1,
+        "s": 0.001,
+        "block": "minus",
+        "exact_relative_factor": 0.9001776376618748,
+        "finite_difference": [
+          {
+            "eta": 0.0001,
+            "relative_tangent_error": 6.866655397039301e-09
+          },
+          {
+            "eta": 1e-05,
+            "relative_tangent_error": 7.456993517418536e-09
+          }
+        ]
+      },
+      {
+        "r": 0.1,
+        "s": 0.0001,
+        "block": "plus",
+        "exact_relative_factor": 1.0999782044160984,
+        "finite_difference": [
+          {
+            "eta": 0.0001,
+            "relative_tangent_error": 1.720299023985286e-08
+          },
+          {
+            "eta": 1e-05,
+            "relative_tangent_error": 9.119032052351714e-08
+          }
+        ]
+      },
+      {
+        "r": 0.1,
+        "s": 0.0001,
+        "block": "minus",
+        "exact_relative_factor": 0.9000177963757022,
+        "finite_difference": [
+          {
+            "eta": 0.0001,
+            "relative_tangent_error": 7.528126209719596e-09
+          },
+          {
+            "eta": 1e-05,
+            "relative_tangent_error": 1.1818037101526815e-07
+          }
+        ]
+      },
+      {
+        "r": 0.05,
+        "s": 0.001,
+        "block": "plus",
+        "exact_relative_factor": 1.0498954601012447,
+        "finite_difference": [
+          {
+            "eta": 0.0001,
+            "relative_tangent_error": 7.489135220092685e-09
+          },
+          {
+            "eta": 1e-05,
+            "relative_tangent_error": 8.965245412446446e-09
+          }
+        ]
+      },
+      {
+        "r": 0.05,
+        "s": 0.001,
+        "block": "minus",
+        "exact_relative_factor": 0.9500945597988398,
+        "finite_difference": [
+          {
+            "eta": 0.0001,
+            "relative_tangent_error": 7.078769884447578e-09
+          },
+          {
+            "eta": 1e-05,
+            "relative_tangent_error": 2.3470380069747747e-08
+          }
+        ]
+      },
+      {
+        "r": 0.05,
+        "s": 0.0001,
+        "block": "plus",
+        "exact_relative_factor": 1.0499895271021373,
+        "finite_difference": [
+          {
+            "eta": 0.0001,
+            "relative_tangent_error": 1.0317502659071345e-08
+          },
+          {
+            "eta": 1e-05,
+            "relative_tangent_error": 1.270284993695495e-07
+          }
+        ]
+      },
+      {
+        "r": 0.05,
+        "s": 0.0001,
+        "block": "minus",
+        "exact_relative_factor": 0.9500094730973128,
+        "finite_difference": [
+          {
+            "eta": 0.0001,
+            "relative_tangent_error": 2.2781563317348816e-08
+          },
+          {
+            "eta": 1e-05,
+            "relative_tangent_error": 1.4278439282240947e-07
+          }
+        ]
+      }
+    ]
+  },
+  "scope": "Infinitesimal within-block load directions; no finite-perturbation nonlinear escape claim"
+}
