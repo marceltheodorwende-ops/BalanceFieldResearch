@@ -155,3 +155,15 @@ Dieser Strom ist antisymmetrisch und erfüllt exakt Delta tr(P_i K)+sum_j J^Phi_
 Dies ist eine interne Kernel-Kontinuitätsgleichung, noch keine physikalische Energie-Impuls-Erhaltung im Raum. Formationseigenmoden sind bislang keine belegten räumlichen Orte. Nächste Abhängigkeit: notwendige Kohärenzdaten für die Geschlossenheit des Formation-Knotenstroms und eine quellenbasierte, auf Lokalität geprüfte Kanal-Nachbarschaft; physikalische Kalibrierung, Viererstrom und Einstein bleiben offen.
 
 CI-Nachprüfung der Kanal-Kontinuität: Beide Actions-Jobs zu Codecommit c51eb79911c9818002115d8ef5455d38b79dae37 erfolgreich. Manuskript-Prüfsumme, alle neun Audits, sieben Grenztests und Artefakt-Upload bestanden. Die Dokumentationsschranke für den maximalen Normbudget-Rest ist auf <9e-14 präzisiert (final ca. 8.04e-14), unverändert unter 1e-10. Geprüfter Code und spätere Dokumentation sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
+
+## Fortsetzung: Populations-Geschlossenheit und exaktes Kohärenzgedächtnis
+
+[Herleitung](POPULATION_CLOSURE_DERIVATION.md), [vorab festgelegtes Protokoll](POPULATION_CLOSURE_PROTOCOL.md), [Prüfcode](population_closure_audit.py), [Resultate](population_closure_results.json).
+
+Die positiven symmetrischen Kanalgewichte P_ij=sum_a |(T_a)_ij|² bilden eine doppelt-stochastische Matrix. Für diagonalen Kernel gilt q_+=Pq und der vorige Quellenstrom reduziert sich auf P_ij(q_i-q_j). Allgemein tritt jedoch diag Phi(O K) hinzu. Exakte Geschlossenheit für alle K erfordert D Phi O=0, äquivalent zur Invarianz der Formation-Diagonalalgebra. Populations-Geschlossenheit allein entscheidet auf Graphen mit Zyklen noch nicht jeden Kantenstrom.
+
+Ein positiver Zwei-Moden-Faserzeuge mit identischen Populationen, Kohärenzbeträgen und Kanalgewichten liefert unterschiedliche Folgebestände (erste Komponentendifferenz ca. 0.00542986). Auch anfangs diagonale Zustände erzeugen Kohärenz; die Quelle weicht im zweiten Schritt um ca. +/-5.21695e-6 vom wiederholt dephasierten Markovmodell ab. Eine exakte, aus der Quelle eliminierte Gedächtnisformel beschreibt diesen Beitrag ohne neue Reservoirvariable.
+
+Konstruktive Ausnahme: Ein zur Y-Basis unvoreingenommener Formation-Zwei-Moden-Sektor besitzt trotz [F,Y]!=0 eine geschlossene Population-/Lastdynamik mit nichtverschwindendem Kanalstrom. Die Y-Eigenwerte müssen als Geometriedaten mitgeführt werden; q allein bestimmt den zeitabhängigen Kanal nicht. Keine physikalische Auswahl oder Robustheit dieses Sonderbereichs wird behauptet.
+
+36 vollständige Quellaufrufe im finalen Audit bestanden; Populations-/Gedächtnisreste <8.3e-15. Der erste Lauf scheiterte erst beim JSON-Export symbolischer Brüche; nach Stringserialisierung frisch wiederholt, ohne veränderte Gleichung oder Schranke. CI separat prüfen. Nächste Abhängigkeit: Kanal-Nachbarschaft, Reichweite und räumliche Lokalität samt physikalischer Auswahl/Kalibrierung. Vollständiger Energie-Impuls-Strom, Raumzeitwirkung und Einstein bleiben offen.

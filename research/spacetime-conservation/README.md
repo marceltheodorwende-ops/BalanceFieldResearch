@@ -82,3 +82,10 @@ Additional controls:
 
 Additional controls:
     python research/spacetime-conservation/mode_graph_audit.py
+
+## Population closure and coherence memory
+
+[Formation-node populations, conditional classical sector and exact memory](POPULATION_CLOSURE_DERIVATION.md), [protocol](POPULATION_CLOSURE_PROTOCOL.md), [fresh results](population_closure_results.json). Generic populations/channel magnitudes do not close; source-generated coherences contribute. An unbiased two-mode sector has a closed population/load factor and nonzero flux. General finite-horizon coherence memory is explicit. Physical locality is still open.
+
+Additional controls:
+    python research/spacetime-conservation/population_closure_audit.py
