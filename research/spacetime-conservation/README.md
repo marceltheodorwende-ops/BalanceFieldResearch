@@ -183,3 +183,11 @@ Additional controls:
 
 Additional controls:
     python research/spacetime-conservation/extra_level_audit.py
+
+
+## Finite splitting and nonlinear relative bounds
+
+[Exact finite three-level recurrence, upper relative exit and lower contraction cone](FINITE_SPLITTING_DERIVATION.md), [protocol](FINITE_SPLITTING_PROTOCOL.md), [fresh results](finite_splitting_results.json). Polynomially small upper internal splitting has a proved nonlinear boundary exit time, while the lower cone contracts. Convexity establishes the corresponding monotone directions in the exact positive-load source; quantitative long-source exit remains open. Relative exit is not an order-one raw-load or physical-instability claim.
+
+Additional controls:
+    python research/spacetime-conservation/finite_splitting_audit.py

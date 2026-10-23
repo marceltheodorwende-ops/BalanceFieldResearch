@@ -355,3 +355,16 @@ Nächste Abhängigkeit: nichtlineare Störungsreichweite und BFG-interne Auswahl
 
 
 CI-Nachprüfung zusätzlicher Lastniveaus: Beide Actions-Jobs zu Codecommit 6404d74f3cb7533bf4a2e1c60ede8098c8d0b72d erfolgreich. Manuskript-Prüfsumme, alle zweiundzwanzig Audits, sieben Grenztests und Artefakt-Upload bestanden. Geprüfter Code und spätere Dokumentation sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
+
+
+## Fortsetzung: endliche zusätzliche Aufspaltung und nichtlineare relative Grenze
+
+[Herleitung](FINITE_SPLITTING_DERIVATION.md), [Vorabprotokoll](FINITE_SPLITTING_PROTOCOL.md), [Prüfcode](finite_splitting_audit.py), [Resultate](finite_splitting_results.json).
+
+Eine erklärte n=4-Dreiniveau-Familie besitzt exakte endliche Randrekurrenzen für Hauptaufspaltung r und innere Breite b. Oberhalb wächst q=b/r; unterhalb bildet r<=1/4,q<=1/2 einen invarianten relativen Kontraktionsbereich. Für obere Anfangsdaten r0=epsilon,q0=epsilon² (b0=epsilon³) ist ein nichtlinearer Austritt aus r<1/4,q<1/2 spätestens nach O(epsilon^-1 log(1/epsilon)) Randschritten bewiesen. Der Austritt ist relativ und behauptet keine rohe Y-Abweichung von Ordnung eins.
+
+Für die vollständige positive-Last-Quelle auf C liefern geordnete Lücken und strikte Konvexität exakt q_+>q im oberen und q_+<q im unteren Fall. Eine quantitative lange Quellen-Austrittszeit bleibt ohne zusätzliche uniforme nichtlineare Fehlerkontrolle offen.
+
+Symbolische Identitäten, vier obere Austrittskontrollen, vier untere lange Kontraktionskontrollen und 18 vollständige Original-Quellaufrufe bestanden. Obere Austritte nach 50,124,295,684 Randschritten liegen unter den bewiesenen Schranken 120,321,806,1942. Original-Lastrest <1.4e-18, normierter r/b-Rest <7.2e-13. Sehr kleine untere Randbreiten sind nicht als entsprechend aufgelöste Original-Matrixtrajektorien ausgegeben. CI separat prüfen.
+
+Nächste Abhängigkeit: quantitative nichtlineare positive-s-Übertragung und quellenbasierte Auswahl/Isolierung des lokalen Trägers, einschließlich des konstruktiven unteren Kontraktionsbereichs. Physikalische Uhr, Raummaß, vollständiger Viererstrom und Einstein bleiben offen.
