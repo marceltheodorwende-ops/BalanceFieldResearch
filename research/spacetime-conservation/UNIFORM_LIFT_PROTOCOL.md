@@ -1,0 +1,11 @@
+# Vorabprotokoll: uniforme positive-Last-Übertragung des Randgrenzwerts
+
+Ausgangscommit 553f5707c6644be233fab3194ea5f016dce62ff1. Ausgeglichener Zwei-Niveau-Sektor A²=I, <A>_F=0, Y=s(I+rA), F>0, Vollpersistenz. Bereich 0<s<=1/100, 0<r<=1/4. Exakte symbolische Voranalyse liefert den relativen Lastquotienten q=1+r²(1-s)/(1+s) und rationale Folgeregeln; keine Quelle wird geändert.
+
+Prüfe folgende Kandidatenschranken vor numerischer Auswertung: positive Sektorinvarianz, s_+<=(25/8)s²<=s/32; für b(r)=r/(1+r²) gilt 0<r_+<=b(r) und |r_+-b(r)|<=3sr. Daraus sollen für die tatsächliche positive-s-Folge und die Randfolge mit gleichem r0=epsilon folgen: |r_j-rbar_j|/epsilon<=4s0 für alle j. Für die kumulativen Kernelfaktoren soll bei N epsilon²<=T gelten |log d_N-log dbar_N|<=(8T+5epsilon²)s0. Prüfe die erforderlichen Ableitungsabschätzungen und nicht nur einzelne Trajektorien.
+
+Frische Kontrolle: symbolische rationale Identitäten und exakte Bereichsabschätzungen; epsilon=1/10,1/20,1/40,1/80, s0=epsilon², T=1/2. Positive-s-Rekurrenz mit 80 Dezimalstellen bis s<1e-60, danach Randrekurrenz mit analytischer Restfehlerschranke aus dem gleichen Satz. Diese Langfolgen sind aus der Quelle hergeleitete reduzierte Rekurrenzen und analytisch begrenzte Fortsetzungen, keine vollständigen Original-Quellaufrufe. Keine Null-/Underflow-Last als Quelle auswerten. Numerische Mehrpräzision ist kein Intervallbeweis; der allgemeine Satz und die exakten Konstanten tragen die Aussage.
+
+Verlange normalisierten Formfehler <=4s0+1e-10 und Log-Kernelfehler <=(8T+5epsilon²)s0+1e-10. Zu den vorher bewiesenen u(T),d(T) sollen die letzten Fehler <0.01 und <0.4 erster sein. Erhalte die exakte positive-s-Entwicklung in den Präfixen und dokumentiere Abbruchskala, Präfixlänge und Restschranke.
+
+Originalquelle: n=2,4, komplexe ausgeglichene F/A-Präparationen und positive K; je vier Start-epsilon, beim größten epsilon zwei aufeinanderfolgende Ereignisse statt einem, sowie je eine weitere unitäre Kontrolle: insgesamt12 vollständige Quellaufrufe. Quell-/Rekurrenz-/Kovarianzreste <1e-10. Seed20261110. Keine Rangschwelle ändern. Physikalische Uhr, Sektorauswahl, Raummaß und Energie-Impuls-/Einstein-Brücke bleiben offen.
