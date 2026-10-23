@@ -392,3 +392,6 @@ In der erklärten n=4-Familie (obere Zweifachentartung, ausgeglichene F-Diagonal
 Vier positive-s-Präfixe mit je sechs Ereignissen bei 500 Dezimalstellen ohne Randersetzung und zehn Original-Quellaufrufe bestanden. Kernelrest <2e-14, Eichrest <1.8e-14, normierter Lastrest <3.7e-12. Hochpräzise skalare Lasten unter dem Original-Rangcutoff sind keine aufgelösten Original-Matrixtrajektorien. Die unendliche Restschranke stammt aus dem exakten Beweis.
 
 Die offene positive-s-Summierbarkeit aus Runde 24 ist für diese Familie geschlossen. Nächste Abhängigkeit: quellenbasierte Auswahl/Isolierung und Robustheit ohne obere Entartung bzw. ausgeglichene F-Blöcke. Frühere obere Verstärkung bleibt gültig. Räumlicher Transport, physikalische Uhr, vollständiger Energie-Impuls-Strom und Einstein-Herleitung bleiben offen. CI dieses neuen Codecommits separat prüfen.
+
+
+CI Runde 25: Beide Actions-Läufe zu Codecommit b9a916f73d539bbc1342c89f46d4905b8d3468b8 vollständig erfolgreich, einschließlich aller 25 Audits, sieben Grenztests, Prüfsumme und Artefakte. Exakte Runs und Trennung von Code-/Dokumentationsstand in CI_VALIDATION.md.
