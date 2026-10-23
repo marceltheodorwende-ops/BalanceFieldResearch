@@ -82,3 +82,13 @@ The new audit has 24 complex source events, four extra unitary controls and five
 All six changed research/workflow files were read back at the tested code commit and matched prepared contents. Both protocol commits preceded evaluation; the extended preregistration is 708313be37f6f6935b03020e1790442a8cbac45e.
 The later documentation corrects its rounded overall residual bound to <9e-14, consistent with the final independent graph-alpha norm-budget check (~8.04e-14); no test tolerance or source law changed.
 This is an internal kernel-stock continuity identity, not a spatial energy-momentum current or Einstein derivation. Retained-node/full-persistence assumptions, unknown reduced closure and physical calibration remain explicit. This documentation-only record is distinct from the tested code commit.
+
+## Formation populations, conditional closure and exact coherence memory
+
+Verified 23 October 2026 for code commit [4bbdc990e264721bbd03333f895f4ddc963fac4a](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/commit/4bbdc990e264721bbd03333f895f4ddc963fac4a).
+Both [run 40019252156](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40019252156) and [run 40019248547](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40019248547) completed the finite-controls job successfully.
+All steps passed: pinned manuscript checksum, all ten research audits, seven boundary tests and artifact upload.
+The new final audit has 24 complex source events, four further unitary controls and eight prescribed witness events (36 complete calls). It checks stochastic weights, coherent population corrections, exact current decomposition, two-event memory and the unbiased two-mode population/load sector. The maximum population-plus-coherence residual is below 8.3e-15.
+All six changed research/workflow files were read back at the tested code commit and matched prepared contents. Preregistered protocol: 80fc67463bc7e2ba77f39d0120ce5afaae21ef39.
+The initial JSON serialization failure after mathematical checks is retained in the derivation. Exact Rational matrix entries are now exported as strings; no physical/source law or test tolerance changed.
+Population-only closure is conditional; the broader reduction retains coherence or memory. Channel geometry/load data must also be retained, and cycle-current closure is a separate requirement. Physical locality, calibrated energy-momentum and Einstein dynamics remain open. This later documentation-only record is distinct from the tested code commit.
