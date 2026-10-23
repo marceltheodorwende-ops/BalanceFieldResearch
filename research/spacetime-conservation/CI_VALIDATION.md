@@ -92,3 +92,12 @@ The new final audit has 24 complex source events, four further unitary controls 
 All six changed research/workflow files were read back at the tested code commit and matched prepared contents. Preregistered protocol: 80fc67463bc7e2ba77f39d0120ce5afaae21ef39.
 The initial JSON serialization failure after mathematical checks is retained in the derivation. Exact Rational matrix entries are now exported as strings; no physical/source law or test tolerance changed.
 Population-only closure is conditional; the broader reduction retains coherence or memory. Channel geometry/load data must also be retained, and cycle-current closure is a separate requirement. Physical locality, calibrated energy-momentum and Einstein dynamics remain open. This later documentation-only record is distinct from the tested code commit.
+
+## Channel range on a declared internal path
+
+Verified 23 October 2026 for code commit [37d45d42422ccf8b704410519f2a1eb6eee2ea19](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/commit/37d45d42422ccf8b704410519f2a1eb6eee2ea19).
+Both [run 40020264234](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40020264234) and [run 40020254324](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40020254324) completed the finite-controls job successfully.
+All steps passed: pinned manuscript checksum, all eleven research audits, seven boundary tests and artifact upload.
+The new final audit has 12 path source events, four unitary checks and four disconnected-block source events (20 complete calls). It checks the exact operator cancellation, positive three-node distance-two witness, source population transfer, degree-0/1/2 norm tail bounds and disconnected component stocks. Maximum identity residual is below 2.6e-15.
+All six changed research/workflow files were read back at the tested code commit and matched prepared contents. Preregistered protocol commit: 754383dfef16586e3ebf4e26709e90dd37a66a51.
+Very small longer-path transition estimates are explicitly not exact support/relative-positivity certificates from floating-point source output. The exact theorem refutes only strict one-hop propagation on the declared internal adjacency; physical Lorentz causality, calibrated spatial range and Einstein dynamics are not determined. This later documentation-only record is distinct from the tested code commit.

@@ -181,3 +181,5 @@ Konstruktiv liefert eine normkonvergente Binomialentwicklung kontrollierte endli
 20 vollständige Quellaufrufe im finalen Audit bestanden, einschließlich vier Basiswechsel- und vier Blockkontrollen; größte Identitätsreste <2.6e-15. Sehr kleine Ferngewichte (~2.69e-19) sind als Matrixfunktionsschätzungen ohne relative Positivitätszertifizierung durch den Quellcode gekennzeichnet. CI separat prüfen.
 
 Dies widerlegt nur die geprüfte strikte Ein-Kanten-Regel auf der gewählten internen Nachbarschaft. Keine Aussage über eine verletzte physikalische Lorentz-Kausalität oder universell ausgeschlossene endliche Reichweiten. Nächste Abhängigkeit: Erhaltung/Veränderung der Lokalitätsbeschreibung unter wiederholten Y-Ereignissen und globalem alpha-Rückkopplung; räumliche Auswahl, Kalibrierung, Viererstrom und Einstein bleiben offen.
+
+CI-Nachprüfung der Kanalreichweite: Beide Actions-Jobs zu Codecommit 37d45d42422ccf8b704410519f2a1eb6eee2ea19 erfolgreich. Manuskript-Prüfsumme, alle elf Audits, sieben Grenztests und Artefakt-Upload bestanden. Geprüfter Code und späterer Dokumentationsstand sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
