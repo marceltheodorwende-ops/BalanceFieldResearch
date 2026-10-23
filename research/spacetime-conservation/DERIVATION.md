@@ -156,3 +156,6 @@ A valid candidate must specify domain/codomain, units and quotient covariance BE
 
 No unique such selector, spatial current or source action has been identified in the inspected source. This first round ends with those OPEN dependencies, not a fitted Lorentz sign, invented reservoir, or claim of completed gravity. A future proposal may overcome these scoped obstructions and must be tested against the same witnesses.
 
+
+
+Runde 24: [Uniformes unteres Paar-Gedächtnis](LOWER_PAIR_MEMORY_DERIVATION.md) beweist am relativen Rand summierbare untere Aufspaltung und einen allzeitlich beschränkten lokalen Kerneldefekt. Die exakte positive-Last-Einzelschrittschranke wird von der noch offenen Quellen-Summierbarkeit getrennt.

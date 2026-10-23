@@ -371,3 +371,10 @@ Nächste Abhängigkeit: quantitative nichtlineare positive-s-Übertragung und qu
 
 
 CI-Nachprüfung der endlichen Aufspaltung: Beide Actions-Jobs zu Codecommit bbecf2ed3a0f3563cd271a61eea3d3a543311121 erfolgreich. Manuskript-Prüfsumme, alle dreiundzwanzig Audits, sieben Grenztests und Artefakt-Upload bestanden. Geprüfter Code und spätere Dokumentation sind in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
+
+
+## Runde 24: unteres Paar mit uniformem Rand-Gedächtnis
+
+[LOWER_PAIR_MEMORY_DERIVATION.md](LOWER_PAIR_MEMORY_DERIVATION.md): V=b²/r liefert am unteren relativen Rand V-V_+>=b² und damit sum b_j²<=b_0²/r_0. Der exakte Paarfaktor erfüllt auch bei positiver Last 1-h<=32b²/35. Zusammen ergibt sich am Rand für beliebig viele Ereignisse ein lokaler transversaler Kerneldefekt <=(32/35)b_0²/r_0, insbesondere O(epsilon^5) bei b_0=epsilon³,r_0=epsilon. Zwei diagonale Komponenten bleiben exakt, zwei transversale nur näherungsweise erhalten.
+
+Vier frische Randkontrollen à 2000 Ereignisse und zehn Original-Quellaufrufe bestanden; Kernelrest <1.5e-14, Eichrest <4.6e-14. Positiv-Last-Summierbarkeit und vollständiger physikalischer Strom bleiben offen. Nächster Schritt ist die positive-s-Lyapunov-Abschätzung des unteren Kegels. CI dieses Codecommits separat prüfen.
