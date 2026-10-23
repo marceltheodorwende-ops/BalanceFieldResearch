@@ -26,3 +26,12 @@ Both [run 40010920890](https://github.com/marceltheodorwende-ops/BalanceFieldRes
 Checks include PDF SHA256, all three finite audits, the seven boundary tests and all result artifacts. New checks cover 48 exact rational events, 36 source events, three derivative regressions and the low-moment witness.
 All eight changed research/workflow files were read back from the published code commit and matched prepared contents.
 The general derivative documentation error is corrected transparently. The finite invariant-class proof is algebraic; CI success alone is not its proof and establishes no physical clock/current or Einstein limit.
+
+## Component exchange and additive-complement obstruction
+
+Verified 23 October 2026 for code commit [1e9d068e12c2ff371bbad3afc34aa329f67b2d82](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/commit/1e9d068e12c2ff371bbad3afc34aa329f67b2d82).
+Both [run 40012534813](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40012534813) and [run 40012529376](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40012529376) completed the finite-controls job successfully.
+Every step succeeded: pinned PDF SHA256, all four audits, seven boundary tests and artifact upload.
+The new audit checks exact algebraic certificates and 24 paired events from 12 complex preparations (48 full source calls); maximum numerical residual is below 4e-15.
+All seven changed files were read back from the published code commit and matched prepared contents. The protocol preceded evaluation at d66fe83ee178f525eafc3e94e65e34535cf52d31; its E6 extension transparently records the transported-observable check before the final run.
+The additive-complement obstruction has its stated fixed-linear-charge scope. History-dependent transported charges are retained as a mathematical alternative, without claiming a physical clock, stress current or Einstein derivation. This later documentation record does not extend the tested code scope.
