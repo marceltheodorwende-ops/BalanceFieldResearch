@@ -195,3 +195,6 @@ Runde 35: [Nichtskalare Paarfamilien-Nichtgeschlossenheit und native Ergänzung]
 
 
 Runde 36: [Normierte interne Kontinuität über überlappende Effekte](OVERLAP_BALANCE_DERIVATION.md) korrigiert Doppeltzählung und leitet den antisymmetrischen Strom aus demselben vollen Kernelkanal ab; physikalische Viererbilanz bleibt offen.
+
+
+Runde 37: [Wechselnde Effekte und Zuordnungsbilanz](MOVING_COVER_DERIVATION.md) trennt exakten Quellstrom von Änderungen der lokalen Beobachtungszuordnung; reine Umzuordnung kann Bestände bei konstantem K verändern.

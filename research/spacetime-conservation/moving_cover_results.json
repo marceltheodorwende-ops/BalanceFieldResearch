@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "seed": 20261129,
+  "symbolic": {
+    "moving_continuity": "Delta qa+sum_b Jab(E,K)=tr[(Enew-Eold)Kplus]",
+    "reassignment_total": "0 for normalized old/new covers",
+    "ordering_cross_term": "R_after-R_before=tr[(Enew-Eold)(Kplus-K)]",
+    "pure_reassignment": [
+      "0",
+      "1/40",
+      "-1/40"
+    ],
+    "pure_source_kernel_change": "0"
+  },
+  "source": {
+    "calls": 9,
+    "moving_balance_residual": 9.696223316445207e-16,
+    "gauge_residual": 1.6855774988216096e-15,
+    "pure_reassignment_residual": 1.391243901732968e-16,
+    "pure_reassignment_observed": [
+      5.5511151231257815e-17,
+      0.025000000000000015,
+      -0.02499999999999996
+    ],
+    "pure_dynamical_current_norm": 0.0,
+    "cases": [
+      {
+        "n": 3,
+        "case": 0,
+        "input_kernel_gap": 0.22172355292744803,
+        "output_kernel_gap": 0.2145087787292373,
+        "stock_change_norm": 0.006924923861864124,
+        "reassignment_after_norm": 5.517802308515027e-05,
+        "cross_term_norm": 0.00011216250767993966
+      },
+      {
+        "n": 3,
+        "case": 1,
+        "input_kernel_gap": 0.10612726033094538,
+        "output_kernel_gap": 0.10045632628923643,
+        "stock_change_norm": 0.004725141924471593,
+        "reassignment_after_norm": 5.853175276493621e-05,
+        "cross_term_norm": 0.00012075292188360271
+      },
+      {
+        "n": 3,
+        "case": 2,
+        "input_kernel_gap": 0.1994267687619076,
+        "output_kernel_gap": 0.20148560564785184,
+        "stock_change_norm": 0.002445366120952516,
+        "reassignment_after_norm": 8.58645591173824e-06,
+        "cross_term_norm": 1.7100184585924927e-05
+      },
+      {
+        "n": 4,
+        "case": 0,
+        "input_kernel_gap": 0.11510457959920388,
+        "output_kernel_gap": 0.11218569086645987,
+        "stock_change_norm": 0.0031060784915488402,
+        "reassignment_after_norm": 2.123745191658149e-05,
+        "cross_term_norm": 4.277770013433632e-05
+      },
+      {
+        "n": 4,
+        "case": 1,
+        "input_kernel_gap": 0.15176324023733134,
+        "output_kernel_gap": 0.15348701974458662,
+        "stock_change_norm": 0.0013321439850751619,
+        "reassignment_after_norm": 2.0874923868967043e-06,
+        "cross_term_norm": 4.2080527039844705e-06
+      },
+      {
+        "n": 4,
+        "case": 2,
+        "input_kernel_gap": 0.039955666649318794,
+        "output_kernel_gap": 0.03393331708409107,
+        "stock_change_norm": 0.005330082600060612,
+        "reassignment_after_norm": 0.00017444129778485632,
+        "cross_term_norm": 0.0003826802777554069
+      }
+    ]
+  },
+  "scope": "Fixed ambient dimension, matched moving-effect labels. Reassignment separated from source current; no physical cover ordering, rank-event law, or spacetime transport selected."
+}

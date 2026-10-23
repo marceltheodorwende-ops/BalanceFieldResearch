@@ -527,3 +527,12 @@ Exakte Cover-/Stromidentitäten, nichtkommutierender Effekt-Kontrollfall und ach
 
 
 CI Runde 36: Beide Actions-Läufe zu Codecommit c669138d11d44992d1ec519ffac7cefa3842ae8f vollständig erfolgreich. Alle 36 Audits, sieben Grenztests, Manuskript-Prüfsumme und Artefakte bestanden; exakte Nachweise und Code/Dokumentations-Trennung in CI_VALIDATION.md.
+
+
+## Runde 37: wechselnde Sektoren und Zuordnungsbilanz
+
+[MOVING_COVER_DERIVATION.md](MOVING_COVER_DERIVATION.md) ergänzt die feste-Effekt-Kontinuität um R_after,a=tr[(E'_a-E_a)K_+]: Delta q_a+sum_b J_ab(E,K)=R_after,a, sum R_after=0. Die alternative cover-first-Zerlegung verwendet R_before=tr[(E'-E)K]; ihre Differenz ist der exakt berechnete Kreuzterm tr[(E'-E)(K_+-K)]. Keine physikalische Zeitordnung oder neue Reserve wird daraus behauptet.
+
+Ein exakter Originalzeuge hat K_+=K und dynamischen Strom0, aber durch manuelle Coverrotation lokale Änderung (0,1/40,-1/40). Eine lokale Bestandsänderung allein belegt daher keinen dynamischen Transport. Allgemeine numerische Kontrollen nutzen wohldefinierte eigenwertgeordnete K-/K_+-Paarcovers mit geprüften Lücken; keine globale Kollisionsfortsetzung unterstellt.
+
+Neun Original-Quellaufrufe und exakte Spur-/Rotationsidentitäten bestanden. Bilanzrest <9.7e-16, Eichrest <1.7e-15, reiner Zuordnungsrest <1.4e-16. Nächste Abhängigkeit: echte Auswahl-/Seed-/Rangereignisse mit wechselnden Trägerräumen. Physikalische Raum-/Zeitdeutung, vollständiger Viererstrom und Einstein bleiben offen. CI separat prüfen.

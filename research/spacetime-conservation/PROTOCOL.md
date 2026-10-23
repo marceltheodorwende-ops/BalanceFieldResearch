@@ -77,3 +77,6 @@ Runde 35: [Vorabprotokoll zur nichtskalaren Paar-Geschlossenheit](PAIR_CLOSURE_P
 
 
 Runde 36: [Vorabprotokoll zur Überlappungsbilanz](OVERLAP_BALANCE_PROTOCOL.md), allgemeiner Hermitescher Strombeweis, exakte Cover und acht Original-Quellaufrufe.
+
+
+Runde 37: [Vorabprotokoll zur wechselnden Überdeckung](MOVING_COVER_PROTOCOL.md), exakte Zuordnungs-/Kreuztermidentitäten, reiner Rotationszeuge und neun Original-Quellaufrufe.
