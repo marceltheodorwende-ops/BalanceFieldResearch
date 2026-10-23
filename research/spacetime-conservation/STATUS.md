@@ -428,3 +428,6 @@ CI Runde 27: Beide Actions-Läufe zu Codecommit 1497d48857398607074527a4c2593628
 Exakte volle positive-Last-Quelle r=.1,p=.5,q=.1,s=.001 liefert p_+=.5466189288623009>.5; der Bereich ist nicht invariant. Zwei von vier gestoppten 500-stelligen Präfixen verlassen ihn nach einem Ereignis, zwei bleiben sechs geprüfte Ereignisse darin. Zehn frische Original-Quellaufrufe bestanden: Kernelrest <4.1e-15, Eichrest <3.5e-15, normierter Lastrest <3.5e-13. Allgemeines F stammt aus dem symbolischen rho-Beweis, Originalkontrollen nutzen ausdrücklich die erklärte Kreuzblockfamilie.
 
 Nächste Abhängigkeit: untere Kontrolle nach oberem Bereichsaustritt bzw. andere spektral-geometrische Schranke. Allgemeine Trägerauswahl, Raumtransport, physikalische Uhr, vollständiger Viererstrom und Einstein bleiben offen. CI separat prüfen.
+
+
+CI Runde 28: Beide Actions-Läufe zum Codecommit 128633e95ca2169c86afa285893b9c43259b5ac6 vollständig erfolgreich. Alle 28 Audits, sieben Grenztests, Manuskript-Prüfsumme und Artefakte bestanden; Nachweise und Code/Dokumentations-Trennung in CI_VALIDATION.md.
