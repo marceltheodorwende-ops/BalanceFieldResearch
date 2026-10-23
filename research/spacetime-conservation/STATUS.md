@@ -57,3 +57,15 @@ Damit ist ein konkreter umgebungsabhängiger Zwei-Moden-Faktor vorhanden. Die ei
 
 
 CI-Nachprüfung der Fortsetzung: Beide Actions-Jobs für Codecommit 73c4035e4e8da390e99f65463596f286a3b8a8b8 erfolgreich; PDF-Prüfsumme, beide Audits und sieben Tests bestanden. Details in [CI_VALIDATION.md](CI_VALIDATION.md).
+
+## Fortsetzung: invariant gewählte Zwei-Moden-Klasse
+
+[Neue Herleitung](STABLE_PAIR_DERIVATION.md), [vorab festgelegtes Protokoll samt offener Korrektur](STABLE_PAIR_PROTOCOL.md), [Prüfcode](stable_pair_audit.py), [Resultate](stable_pair_results.json).
+
+Für Vollpersistenz und spektrale Extrema m,M mit **0<m<=M<=1/2 und m>=2M²** wurde eine nichtleere invariant erhaltene BFG-Klasse bewiesen. Bei einfachem Spektrum bleibt die Reihenfolge aller Y-Moden erhalten. Deshalb ist das Paar der zwei kleinsten Eigenwerte dort aus dem aktuellen Zustand wiedergewinnbar; die zusätzliche Paar-Historienmarkierung des vorigen allgemeinen Faktors ist auf dieser Klasse nicht mehr nötig. Die Wahl dieser Klasse und der Zwei-Moden-Ausleseregel ist weiterhin kein physikalisches Auswahltheorem.
+
+Die positive Schranke jedes endlichen Spektrallückenschritts ist explizit bewiesen. Eine gleichmäßige unendliche numerische Lücke wird nicht behauptet: die Spektren konvergieren gegen null. Der geschlossene Paar-/Spektralumgebungsfaktor bleibt gültig. Nur Masse und erster Moment der Umgebung reichen nach einem weiteren exakten Gegenbeispiel auch hier nicht.
+
+**Wichtige Dokumentkorrektur:** Die allgemeine Ableitungsformel in DERIVATION.md Abschnitt 8 war falsch gedruckt. Richtig ist g'_alpha(y)=2[(1-alpha)y-alpha]/(1+y)^3 und damit a(y)=2y(1-y)/[(1+y²)(1+y)^3]. Die zuvor numerisch geprüften Spezialwerte bei y=1/2 bleiben richtig. Die Formel und die neue Lückenschranke wurden korrigiert; zusätzliche symbolische und Drei-Punkt-Quellkontrollen bestanden. Anfangs passende numerische Stichproben allein hätten den Formeldefekt nicht aufgedeckt.
+
+Frische Kontrollen: 48 exakte rationale Ereignisse, 36 komplexe Quellereignisse und drei zusätzliche Ableitungsvergleiche. Projektorrest <3e-13, lokaler Kernelrest <4e-15, Momentgegenbeispielrest ~1.1e-17. Physikalische Uhr, räumlicher Transport, vollständiger lokaler Viererstrom und Einstein bleiben offen. Der nächste konkrete Ansatz ist die quellenbasierte komponentenweise Austauschbilanz dieses nun aktuell auswählbaren Faktors. CI für den neuen Code ist separat zu prüfen.

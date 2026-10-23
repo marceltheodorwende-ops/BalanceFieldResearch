@@ -124,9 +124,11 @@ This does not refute Lorentz-covariant dissipative physics with additional matte
 
 At Y=yI, F=I, P=I in n=2, differentiate the ACTUAL aligned Y update M(Y), including alpha(Y):
 DM_y(E)=a E+(lambda-a)(tr E/2)I,
-a=2[y-y^2/(1+y^2)]/(1+y)^3, lambda=f'(y).
+a=2y(1-y)/[(1+y^2)(1+y)^3], lambda=f'(y).
 At y=1/2, a=16/135 and lambda=224/675.
-Proof: dalpha=(2y/(1+y^2)^2)(tr E/2); at scalar Y the fixed-alpha derivative is aE and the scalar-sector derivative must be f'(y). Substitution gives the stated trace correction.
+Proof: dalpha=(2y/(1+y^2)^2)(tr E/2); the correct fixed-alpha derivative is 2[(1-alpha)y-alpha]/(1+y)^3. At scalar Y it gives aE, and the scalar-sector derivative must be f'(y). Substitution gives the stated trace correction.
+
+Correction, 23 October 2026: the earlier printed general expression for a omitted the beta factor on y. The numerical audit already used the correct special value 16/135 at y=1/2. The general formula above is corrected; the original checked point values and determinant defect are unchanged. STABLE_PAIR_DERIVATION.md and stable_pair_audit.py add a symbolic derivative identity and full-source checks at three scalar points.
 The null tangent E=I+sigma_x is sent to lambda I+a sigma_x, with
 q(DM(E))=lambda^2-a^2=43776/455625>0.
 The temporal/spatial scale ratio lambda/a=14/5 is not one. The determinant form alone therefore does not make the canonical Y step a Lorentz/conformal transformation. This is a derivative at a scalar state, not a stationary physical vacuum or a proof against every Lorentzian dynamics. A state-dependent conformal metric would be an additional selection problem and is not fitted here.

@@ -20,6 +20,13 @@ This is the BFG-only research packet authorized by Marcel Theodor Wende on 23 Oc
 Run the additional controls with:
     python research/spacetime-conservation/pair_audit.py
 
+## Stable current-state pair selection
+
+[Invariant spectral class and derivative correction](STABLE_PAIR_DERIVATION.md), [protocol](STABLE_PAIR_PROTOCOL.md), [fresh results](stable_pair_results.json). On the stated full-persistence class, the two-smallest selector is retained and the environment-assisted factor needs no extra pair-history label. Complementary mass and first moment still do not close it. Physical selection/clock/current remain open.
+
+Additional controls:
+    python research/spacetime-conservation/stable_pair_audit.py
+
 ## Reproduce
 Use Python 3.12 and the adjacent requirements.txt. From the repository root:
     python -m pip install -r research/spacetime-conservation/requirements.txt

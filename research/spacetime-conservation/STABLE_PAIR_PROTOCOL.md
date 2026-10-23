@@ -20,3 +20,12 @@ S6. Test whether complementary zeroth and first formation-weighted spectral mome
 - Use the two exact S6 inputs against the complete pinned source update. No empirical data.
 
 Outputs: STABLE_PAIR_DERIVATION.md, stable_pair_audit.py, stable_pair_results.json; update STATUS.md, README.md and narrow CI. Record the code commit and CI result separately.
+
+## Symbolic-review amendment after the first finite control run
+Independent differentiation found that the fixed-alpha derivative is
+d g_alpha(y)/dy = 2[(1-alpha)y-alpha]/(1+y)^3,
+not 2(y-alpha)/(1+y)^3. The original numerical audit at y=1/2 used the correct numerical coefficient 16/135, but DERIVATION.md printed an incorrect GENERAL expression for a. Correct that expression transparently.
+The candidate class m>=2M^2 is unchanged: alpha/(1-alpha)<=M^2<m ensures order. The valid gap multiplier is 2(m-M^2)/[(1+M^2)(1+M)^3]. The first finite controls also happened to satisfy the initial over-optimistic bound, illustrating why they do not replace symbolic proof.
+Before rerunning, add a symbolic derivative identity and three full-source derivative comparisons at y=1/4,1/3,1/2, direction I+sigma_x, h=1e-5, tolerance 1e-7. This amendment changes no source update, class, or witness inputs.
+
+

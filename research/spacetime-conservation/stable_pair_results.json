@@ -1,0 +1,1028 @@
+{
+  "scope": "Invariant full-persistence spectral class; no physical sector selection",
+  "seed": 20261025,
+  "tolerance": 1e-10,
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "runtime": {
+    "python": "3.12.8",
+    "numpy": "2.2.5",
+    "sympy": "1.14.0"
+  },
+  "polynomial": {
+    "identity": "f(2x^2)-2f(x)^2=8x^5 P(x)/D(x)",
+    "P": "-15*x**7 + 4*x**6 - 8*x**5 + 12*x**4 + 6*x**3 + 12*x**2 + 4*x + 4",
+    "positive_lower_polynomial": "4*x**6 + 49*x**4/8 + 6*x**3 + 12*x**2 + 4*x + 4",
+    "nonnegative_remainder": "x**4*(1/2 - x)*(15*x**2 + 15*x/2 + 47/4)",
+    "D": "(x + 1)**4*(x**2 + 1)**2*(2*x**2 + 1)**2*(4*x**4 + 1)",
+    "domain": "0<x<=1/2",
+    "fixed_alpha_derivative": "(-2*alpha + 2*x*(1 - alpha))/(x + 1)**3",
+    "conclusion": "strictly positive on the declared domain"
+  },
+  "exact_class": {
+    "preparations": 16,
+    "exact_events": 48,
+    "cases": [
+      {
+        "n": 2,
+        "case": 0,
+        "event": 1,
+        "current_minimum": 0.2,
+        "current_maximum": 0.3,
+        "alpha": 0.06330749354005168,
+        "gap_multiplier_lower_bound": 0.09186839434925859,
+        "successor_minimum": 0.06998277347114557,
+        "successor_maximum": 0.08734308823754262,
+        "successor_class_margin": 0.05472514334540325
+      },
+      {
+        "n": 2,
+        "case": 0,
+        "event": 2,
+        "current_minimum": 0.06998277347114557,
+        "current_maximum": 0.08734308823754262,
+        "alpha": 0.00640620791928125,
+        "gap_multiplier_lower_bound": 0.09627059401637131,
+        "successor_minimum": 0.00984608655956218,
+        "successor_maximum": 0.011829462796956259,
+        "successor_class_margin": 0.009566214179433034
+      },
+      {
+        "n": 2,
+        "case": 0,
+        "event": 3,
+        "current_minimum": 0.00984608655956218,
+        "current_maximum": 0.011829462796956259,
+        "alpha": 0.00012147615561052044,
+        "gap_multiplier_lower_bound": 0.018736750685394953,
+        "successor_minimum": 0.00021417153372324963,
+        "successor_maximum": 0.0002553190441227972,
+        "successor_class_margin": 0.00021404115809466607
+      },
+      {
+        "n": 2,
+        "case": 1,
+        "event": 1,
+        "current_minimum": 0.201,
+        "current_maximum": 0.301,
+        "alpha": 0.06305161976487597,
+        "gap_multiplier_lower_bound": 0.09193848732232307,
+        "successor_minimum": 0.06995646236709155,
+        "successor_maximum": 0.08740398945915691,
+        "successor_class_margin": 0.054677547620338725
+      },
+      {
+        "n": 2,
+        "case": 1,
+        "event": 2,
+        "current_minimum": 0.06995646236709155,
+        "current_maximum": 0.08740398945915691,
+        "alpha": 0.006367433532009563,
+        "gap_multiplier_lower_bound": 0.0961963595446312,
+        "successor_minimum": 0.009809671139380902,
+        "successor_maximum": 0.01180453924625628,
+        "successor_class_margin": 0.009530976845748093
+      },
+      {
+        "n": 2,
+        "case": 1,
+        "event": 3,
+        "current_minimum": 0.009809671139380902,
+        "current_maximum": 0.01180453924625628,
+        "alpha": 0.00012014836339084724,
+        "gap_multiplier_lower_bound": 0.01866898198756321,
+        "successor_minimum": 0.00021218313750975893,
+        "successor_maximum": 0.0002534595036994317,
+        "successor_class_margin": 0.0002120546540697278
+      },
+      {
+        "n": 2,
+        "case": 2,
+        "event": 1,
+        "current_minimum": 0.202,
+        "current_maximum": 0.302,
+        "alpha": 0.06305034065252733,
+        "gap_multiplier_lower_bound": 0.09200579350896047,
+        "successor_minimum": 0.0701006050319224,
+        "successor_maximum": 0.08760237551566315,
+        "successor_class_margin": 0.05475225263994788
+      },
+      {
+        "n": 2,
+        "case": 2,
+        "event": 2,
+        "current_minimum": 0.0701006050319224,
+        "current_maximum": 0.08760237551566315,
+        "alpha": 0.006367676997137215,
+        "gap_multiplier_lower_bound": 0.09630923109979807,
+        "successor_minimum": 0.009824757739552124,
+        "successor_maximum": 0.01182960165727957,
+        "successor_class_margin": 0.009544878788812302
+      },
+      {
+        "n": 2,
+        "case": 2,
+        "event": 3,
+        "current_minimum": 0.009824757739552124,
+        "current_maximum": 0.01182960165727957,
+        "alpha": 0.000120170222999005,
+        "gap_multiplier_lower_bound": 0.018695563435087298,
+        "successor_minimum": 0.00021248867788658897,
+        "successor_maximum": 0.0002540467860738606,
+        "successor_class_margin": 0.00021235959834756005
+      },
+      {
+        "n": 2,
+        "case": 3,
+        "event": 1,
+        "current_minimum": 0.203,
+        "current_maximum": 0.303,
+        "alpha": 0.06318662029140339,
+        "gap_multiplier_lower_bound": 0.09207033315790245,
+        "successor_minimum": 0.07033660159369859,
+        "successor_maximum": 0.08787473730500306,
+        "successor_class_margin": 0.054892662680852
+      },
+      {
+        "n": 2,
+        "case": 3,
+        "event": 2,
+        "current_minimum": 0.07033660159369859,
+        "current_maximum": 0.08787473730500306,
+        "alpha": 0.0063890274389272125,
+        "gap_multiplier_lower_bound": 0.0965224700943237,
+        "successor_minimum": 0.009867715802429605,
+        "successor_maximum": 0.011881707067045688,
+        "successor_class_margin": 0.009585365876775437
+      },
+      {
+        "n": 2,
+        "case": 3,
+        "event": 3,
+        "current_minimum": 0.009867715802429605,
+        "current_maximum": 0.011881707067045688,
+        "alpha": 0.00012092181149418534,
+        "gap_multiplier_lower_bound": 0.018773181064844754,
+        "successor_minimum": 0.00021403690050311893,
+        "successor_maximum": 0.00025596105924301,
+        "successor_class_margin": 0.0002139058683754213
+      },
+      {
+        "n": 3,
+        "case": 0,
+        "event": 1,
+        "current_minimum": 0.2,
+        "current_maximum": 0.3,
+        "alpha": 0.06265714573066479,
+        "gap_multiplier_lower_bound": 0.09186839434925859,
+        "successor_minimum": 0.06954920826488764,
+        "successor_maximum": 0.08699290095556507,
+        "successor_class_margin": 0.05441367863155813
+      },
+      {
+        "n": 3,
+        "case": 0,
+        "event": 2,
+        "current_minimum": 0.06954920826488764,
+        "current_maximum": 0.08699290095556507,
+        "alpha": 0.006277010469595438,
+        "gap_multiplier_lower_bound": 0.09579377625742802,
+        "successor_minimum": 0.009689130439770271,
+        "successor_maximum": 0.011677229654077251,
+        "successor_class_margin": 0.009416415054982148
+      },
+      {
+        "n": 3,
+        "case": 0,
+        "event": 3,
+        "current_minimum": 0.009689130439770271,
+        "current_maximum": 0.011677229654077251,
+        "alpha": 0.0001167073625168805,
+        "gap_multiplier_lower_bound": 0.018449062453506027,
+        "successor_minimum": 0.0002065536138827401,
+        "successor_maximum": 0.00024724124218905206,
+        "successor_class_margin": 0.00020643135741906174
+      },
+      {
+        "n": 3,
+        "case": 1,
+        "event": 1,
+        "current_minimum": 0.201,
+        "current_maximum": 0.301,
+        "alpha": 0.06261324214404347,
+        "gap_multiplier_lower_bound": 0.09193848732232307,
+        "successor_minimum": 0.06966481897071755,
+        "successor_maximum": 0.0871684583623376,
+        "successor_class_margin": 0.054468138704184384
+      },
+      {
+        "n": 3,
+        "case": 1,
+        "event": 2,
+        "current_minimum": 0.06966481897071755,
+        "current_maximum": 0.0871684583623376,
+        "alpha": 0.00627076107121892,
+        "gap_multiplier_lower_bound": 0.09587582814953247,
+        "successor_minimum": 0.009695578936751784,
+        "successor_maximum": 0.011693917876445201,
+        "successor_class_margin": 0.009422083506149695
+      },
+      {
+        "n": 3,
+        "case": 1,
+        "event": 3,
+        "current_minimum": 0.009695578936751784,
+        "current_maximum": 0.011693917876445201,
+        "alpha": 0.00011650345736079012,
+        "gap_multiplier_lower_bound": 0.018459842320153033,
+        "successor_minimum": 0.00020647358517773736,
+        "successor_maximum": 0.00024741490841591096,
+        "successor_class_margin": 0.00020635115690392447
+      },
+      {
+        "n": 3,
+        "case": 2,
+        "event": 1,
+        "current_minimum": 0.202,
+        "current_maximum": 0.302,
+        "alpha": 0.06270940391290106,
+        "gap_multiplier_lower_bound": 0.09200579350896047,
+        "successor_minimum": 0.06987425934288598,
+        "successor_maximum": 0.08741959990563308,
+        "successor_class_margin": 0.05458988644756405
+      },
+      {
+        "n": 3,
+        "case": 2,
+        "event": 2,
+        "current_minimum": 0.06987425934288598,
+        "current_maximum": 0.08741959990563308,
+        "alpha": 0.006285908870271582,
+        "gap_multiplier_lower_bound": 0.0960608558336042,
+        "successor_minimum": 0.00973032467636985,
+        "successor_maximum": 0.011738076718709226,
+        "successor_class_margin": 0.009454759786261242
+      },
+      {
+        "n": 3,
+        "case": 2,
+        "event": 3,
+        "current_minimum": 0.00973032467636985,
+        "current_maximum": 0.011738076718709226,
+        "alpha": 0.00011703005972023846,
+        "gap_multiplier_lower_bound": 0.018522499708782083,
+        "successor_minimum": 0.0002076377728415605,
+        "successor_maximum": 0.0002489184360968134,
+        "successor_class_margin": 0.00020751385206590271
+      },
+      {
+        "n": 3,
+        "case": 3,
+        "event": 1,
+        "current_minimum": 0.203,
+        "current_maximum": 0.303,
+        "alpha": 0.06289353574856664,
+        "gap_multiplier_lower_bound": 0.09207033315790245,
+        "successor_minimum": 0.07014243003871863,
+        "successor_maximum": 0.08771796069229607,
+        "successor_class_margin": 0.05475354878268824
+      },
+      {
+        "n": 3,
+        "case": 3,
+        "event": 2,
+        "current_minimum": 0.07014243003871863,
+        "current_maximum": 0.08771796069229607,
+        "alpha": 0.006314538840294026,
+        "gap_multiplier_lower_bound": 0.09630984724162571,
+        "successor_minimum": 0.009782906820846779,
+        "successor_maximum": 0.011799538810213143,
+        "successor_class_margin": 0.009504448588579326
+      },
+      {
+        "n": 3,
+        "case": 3,
+        "event": 3,
+        "current_minimum": 0.009782906820846779,
+        "current_maximum": 0.011799538810213143,
+        "alpha": 0.00011801999372646817,
+        "gap_multiplier_lower_bound": 0.018617818396337273,
+        "successor_minimum": 0.00020959304680432547,
+        "successor_maximum": 0.00025126800115625225,
+        "successor_class_margin": 0.00020946677558751533
+      },
+      {
+        "n": 4,
+        "case": 0,
+        "event": 1,
+        "current_minimum": 0.2,
+        "current_maximum": 0.3,
+        "alpha": 0.062397319873258666,
+        "gap_multiplier_lower_bound": 0.09186839434925859,
+        "successor_minimum": 0.06937599102661689,
+        "successor_maximum": 0.08685299472465408,
+        "successor_class_margin": 0.054289105641335315
+      },
+      {
+        "n": 4,
+        "case": 0,
+        "event": 2,
+        "current_minimum": 0.06937599102661689,
+        "current_maximum": 0.08685299472465408,
+        "alpha": 0.006227449124929727,
+        "gap_multiplier_lower_bound": 0.09560287249218961,
+        "successor_minimum": 0.009628227752665882,
+        "successor_maximum": 0.011618135034435378,
+        "successor_class_margin": 0.009358265629309132
+      },
+      {
+        "n": 4,
+        "case": 0,
+        "event": 3,
+        "current_minimum": 0.009628227752665882,
+        "current_maximum": 0.011618135034435378,
+        "alpha": 0.00011490878662797805,
+        "gap_multiplier_lower_bound": 0.018337339513118275,
+        "successor_minimum": 0.0002036602495201167,
+        "successor_maximum": 0.00024416783012058804,
+        "successor_class_margin": 0.0002035410136615851
+      },
+      {
+        "n": 4,
+        "case": 1,
+        "event": 1,
+        "current_minimum": 0.201,
+        "current_maximum": 0.301,
+        "alpha": 0.06246733689940403,
+        "gap_multiplier_lower_bound": 0.09193848732232307,
+        "successor_minimum": 0.0695677512850665,
+        "successor_maximum": 0.08709006653604785,
+        "successor_class_margin": 0.05439839190656002
+      },
+      {
+        "n": 4,
+        "case": 1,
+        "event": 2,
+        "current_minimum": 0.0695677512850665,
+        "current_maximum": 0.08709006653604785,
+        "alpha": 0.006238612152067479,
+        "gap_multiplier_lower_bound": 0.09576899993371331,
+        "successor_minimum": 0.009657632070756091,
+        "successor_maximum": 0.011657119773478811,
+        "successor_class_margin": 0.009385855187929629
+      },
+      {
+        "n": 4,
+        "case": 1,
+        "event": 3,
+        "current_minimum": 0.009657632070756091,
+        "current_maximum": 0.011657119773478811,
+        "alpha": 0.00011529634132989424,
+        "gap_multiplier_lower_bound": 0.018390241868797598,
+        "successor_minimum": 0.00020458475470341535,
+        "successor_maximum": 0.00024541412271517635,
+        "successor_class_margin": 0.00020446429852015923
+      },
+      {
+        "n": 4,
+        "case": 2,
+        "event": 1,
+        "current_minimum": 0.202,
+        "current_maximum": 0.302,
+        "alpha": 0.06262619946918165,
+        "gap_multiplier_lower_bound": 0.09200579350896047,
+        "successor_minimum": 0.06981902045262967,
+        "successor_maximum": 0.08737499414394634,
+        "successor_class_margin": 0.054550241249320355
+      },
+      {
+        "n": 4,
+        "case": 2,
+        "event": 2,
+        "current_minimum": 0.06981902045262967,
+        "current_maximum": 0.08737499414394634,
+        "alpha": 0.00626334697033582,
+        "gap_multiplier_lower_bound": 0.09600018070775446,
+        "successor_minimum": 0.009705012729721624,
+        "successor_maximum": 0.011713551024523415,
+        "successor_class_margin": 0.009430598174513397
+      },
+      {
+        "n": 4,
+        "case": 2,
+        "event": 3,
+        "current_minimum": 0.009705012729721624,
+        "current_maximum": 0.011713551024523415,
+        "alpha": 0.00011614664895477244,
+        "gap_multiplier_lower_bound": 0.01847608902853193,
+        "successor_minimum": 0.00020629927652706048,
+        "successor_maximum": 0.00024750568975977466,
+        "successor_class_margin": 0.00020617675839413354
+      },
+      {
+        "n": 4,
+        "case": 3,
+        "event": 1,
+        "current_minimum": 0.203,
+        "current_maximum": 0.303,
+        "alpha": 0.06284623224213147,
+        "gap_multiplier_lower_bound": 0.09207033315790245,
+        "successor_minimum": 0.07011109097418927,
+        "successor_maximum": 0.08769265712822445,
+        "successor_class_margin": 0.0547310867457726
+      },
+      {
+        "n": 4,
+        "case": 3,
+        "event": 2,
+        "current_minimum": 0.07011109097418927,
+        "current_maximum": 0.08769265712822445,
+        "alpha": 0.006297471654438936,
+        "gap_multiplier_lower_bound": 0.09627550294785092,
+        "successor_minimum": 0.009764834954859549,
+        "successor_maximum": 0.011782044647057252,
+        "successor_class_margin": 0.009487201802729049
+      },
+      {
+        "n": 4,
+        "case": 3,
+        "event": 3,
+        "current_minimum": 0.009764834954859549,
+        "current_maximum": 0.011782044647057252,
+        "alpha": 0.00011732106840188408,
+        "gap_multiplier_lower_bound": 0.018584697433684086,
+        "successor_minimum": 0.000208568717644999,
+        "successor_maximum": 0.00025019110221281187,
+        "successor_class_margin": 0.00020844352646974608
+      },
+      {
+        "n": 5,
+        "case": 0,
+        "event": 1,
+        "current_minimum": 0.2,
+        "current_maximum": 0.3,
+        "alpha": 0.06225323792738406,
+        "gap_multiplier_lower_bound": 0.09186839434925859,
+        "successor_minimum": 0.06927993639603382,
+        "successor_maximum": 0.0867754121384139,
+        "successor_class_margin": 0.05421999209245064
+      },
+      {
+        "n": 5,
+        "case": 0,
+        "event": 2,
+        "current_minimum": 0.06927993639603382,
+        "current_maximum": 0.0867754121384139,
+        "alpha": 0.006200525647679946,
+        "gap_multiplier_lower_bound": 0.0954969099984661,
+        "successor_minimum": 0.009594946927803057,
+        "successor_maximum": 0.011585835664584055,
+        "successor_class_margin": 0.009326483751709561
+      },
+      {
+        "n": 5,
+        "case": 0,
+        "event": 3,
+        "current_minimum": 0.009594946927803057,
+        "current_maximum": 0.011585835664584055,
+        "alpha": 0.00011394030666543013,
+        "gap_multiplier_lower_bound": 0.018276265559285673,
+        "successor_minimum": 0.00020209601684673708,
+        "successor_maximum": 0.00024250480683873034,
+        "successor_class_margin": 0.0002019783996840573
+      },
+      {
+        "n": 5,
+        "case": 1,
+        "event": 1,
+        "current_minimum": 0.201,
+        "current_maximum": 0.301,
+        "alpha": 0.0623944435294714,
+        "gap_multiplier_lower_bound": 0.09193848732232307,
+        "successor_minimum": 0.06951925686160591,
+        "successor_maximum": 0.0870509024579672,
+        "successor_class_margin": 0.05436353762411286
+      },
+      {
+        "n": 5,
+        "case": 1,
+        "event": 2,
+        "current_minimum": 0.06951925686160591,
+        "current_maximum": 0.0870509024579672,
+        "alpha": 0.006222552682131882,
+        "gap_multiplier_lower_bound": 0.09571560192516888,
+        "successor_minimum": 0.009638676358334056,
+        "successor_maximum": 0.011638736861566185,
+        "successor_class_margin": 0.009367755966868497
+      },
+      {
+        "n": 5,
+        "case": 1,
+        "event": 3,
+        "current_minimum": 0.009638676358334056,
+        "current_maximum": 0.011638736861566185,
+        "alpha": 0.00011469436839305934,
+        "gap_multiplier_lower_bound": 0.018355466481607303,
+        "successor_minimum": 0.0002036431741796247,
+        "successor_maximum": 0.0002444165197780054,
+        "successor_class_margin": 0.00020352369530934392
+      },
+      {
+        "n": 5,
+        "case": 2,
+        "event": 1,
+        "current_minimum": 0.202,
+        "current_maximum": 0.302,
+        "alpha": 0.062597153405826,
+        "gap_multiplier_lower_bound": 0.09200579350896047,
+        "successor_minimum": 0.06979973695965314,
+        "successor_maximum": 0.08735942259846075,
+        "successor_class_margin": 0.054536399526180224
+      },
+      {
+        "n": 5,
+        "case": 2,
+        "event": 2,
+        "current_minimum": 0.06979973695965314,
+        "current_maximum": 0.08735942259846075,
+        "alpha": 0.006253990796608575,
+        "gap_multiplier_lower_bound": 0.09597899391938346,
+        "successor_minimum": 0.00969488959194456,
+        "successor_maximum": 0.011703746870818647,
+        "successor_class_margin": 0.009420934210312164
+      },
+      {
+        "n": 5,
+        "case": 2,
+        "event": 3,
+        "current_minimum": 0.00969488959194456,
+        "current_maximum": 0.011703746870818647,
+        "alpha": 0.0001157708112166424,
+        "gap_multiplier_lower_bound": 0.01845752472999898,
+        "successor_minimum": 0.00020574218067416389,
+        "successor_maximum": 0.0002469190651391583,
+        "successor_class_margin": 0.00020562024262470548
+      },
+      {
+        "n": 5,
+        "case": 3,
+        "event": 1,
+        "current_minimum": 0.203,
+        "current_maximum": 0.303,
+        "alpha": 0.06284493230032069,
+        "gap_multiplier_lower_bound": 0.09207033315790245,
+        "successor_minimum": 0.07011022974923234,
+        "successor_maximum": 0.08769196176410925,
+        "successor_class_margin": 0.05473046943315634
+      },
+      {
+        "n": 5,
+        "case": 3,
+        "event": 2,
+        "current_minimum": 0.07011022974923234,
+        "current_maximum": 0.08769196176410925,
+        "alpha": 0.006292369019087667,
+        "gap_multiplier_lower_bound": 0.09627455902974766,
+        "successor_minimum": 0.009760311861523667,
+        "successor_maximum": 0.011777677411200543,
+        "successor_class_margin": 0.00948288449111906
+      },
+      {
+        "n": 5,
+        "case": 3,
+        "event": 3,
+        "current_minimum": 0.009760311861523667,
+        "current_maximum": 0.011777677411200543,
+        "alpha": 0.00011708907574443486,
+        "gap_multiplier_lower_bound": 0.018576405924937214,
+        "successor_minimum": 0.0002082564735046839,
+        "successor_maximum": 0.00024986617287178813,
+        "successor_class_margin": 0.00020813160729599273
+      }
+    ]
+  },
+  "derivative_regressions": [
+    {
+      "y": "1/4",
+      "traceless_derivative": "384/2125",
+      "scalar_derivative": "16128/36125",
+      "finite_difference_step": 1e-05,
+      "norm_error": 7.121177302219495e-10
+    },
+    {
+      "y": "1/3",
+      "traceless_derivative": "27/160",
+      "scalar_derivative": "351/800",
+      "finite_difference_step": 1e-05,
+      "norm_error": 4.467181741758993e-10
+    },
+    {
+      "y": "1/2",
+      "traceless_derivative": "16/135",
+      "scalar_derivative": "224/675",
+      "finite_difference_step": 1e-05,
+      "norm_error": 1.3133821540898973e-10
+    }
+  ],
+  "moment_witness": {
+    "pair": [
+      "1/5",
+      "9/40"
+    ],
+    "complement_a": [
+      "1/4",
+      "3/10"
+    ],
+    "complement_b": [
+      "13/50",
+      "29/100"
+    ],
+    "complement_m0": "2",
+    "complement_m1": "11/20",
+    "alphas": [
+      "14821/260873",
+      "146777/2588077"
+    ],
+    "first_pair_successor_gap": "45155264/675159411221",
+    "gap_float": 6.688089249668968e-05
+  },
+  "source_moment": {
+    "source_successor_gap": 6.688089249667906e-05,
+    "exact_comparison_residual": 1.0625181290357943e-17
+  },
+  "full_source": {
+    "preparations": 12,
+    "source_events": 36,
+    "events_per_preparation": 3,
+    "maximum_residuals": {
+      "pair_projector": 2.5405887824690114e-13,
+      "pair_y": 1.7917691621072868e-16,
+      "pair_k": 3.4477148731897903e-15,
+      "global_alpha": 6.245004513516506e-17,
+      "class_violation": 0.0,
+      "gap_bound_violation": 0.0
+    },
+    "cases": [
+      {
+        "n": 3,
+        "case": 0,
+        "event": 1,
+        "source_min": 0.06456894497620548,
+        "source_max": 0.08297038060701423,
+        "successor_class_margin": 0.050800776860059876,
+        "minimum_gap": 0.00854310550237955,
+        "predicted_gap_lower_bound": 0.004593419717462927
+      },
+      {
+        "n": 3,
+        "case": 0,
+        "event": 2,
+        "source_min": 0.008211601753509247,
+        "source_max": 0.010237842576745322,
+        "successor_class_margin": 0.008001974912256809,
+        "minimum_gap": 0.0008859141913688251,
+        "predicted_gap_lower_bound": 0.0007706876558459809
+      },
+      {
+        "n": 3,
+        "case": 0,
+        "event": 3,
+        "source_min": 0.00014629176101357708,
+        "source_max": 0.0001823317062708046,
+        "successor_class_margin": 0.00014622527131135383,
+        "minimum_gap": 1.4801166734641525e-05,
+        "predicted_gap_lower_bound": 1.393009481204373e-05
+      },
+      {
+        "n": 3,
+        "case": 1,
+        "event": 1,
+        "source_min": 0.0657667036128311,
+        "source_max": 0.08393780104428876,
+        "successor_class_margin": 0.05167559472452989,
+        "minimum_gap": 0.008423329638717017,
+        "predicted_gap_lower_bound": 0.004593419717462924
+      },
+      {
+        "n": 3,
+        "case": 1,
+        "event": 2,
+        "source_min": 0.008546767874980269,
+        "source_max": 0.010565397855439048,
+        "successor_class_margin": 0.008323512611292837,
+        "minimum_gap": 0.0008826433584660683,
+        "predicted_gap_lower_bound": 0.0007713405011669642
+      },
+      {
+        "n": 3,
+        "case": 1,
+        "event": 3,
+        "source_min": 0.0001587508582938612,
+        "source_max": 0.0001958918297673638,
+        "successor_class_margin": 0.00015867411107592198,
+        "minimum_gap": 1.5292631576723295e-05,
+        "predicted_gap_lower_bound": 1.4426660545828118e-05
+      },
+      {
+        "n": 3,
+        "case": 2,
+        "event": 1,
+        "source_min": 0.06988312753144503,
+        "source_max": 0.08726260497855381,
+        "successor_class_margin": 0.05465360307615878,
+        "minimum_gap": 0.008011687246855304,
+        "predicted_gap_lower_bound": 0.0045934197174629255
+      },
+      {
+        "n": 3,
+        "case": 2,
+        "event": 2,
+        "source_min": 0.00979232172248226,
+        "source_max": 0.011777396740329122,
+        "successor_class_margin": 0.009514907574524029,
+        "minimum_gap": 0.0008675124385501415,
+        "predicted_gap_lower_bound": 0.0007704129462315532
+      },
+      {
+        "n": 3,
+        "case": 2,
+        "event": 3,
+        "source_min": 0.0002111730591929456,
+        "source_max": 0.00025216673944474714,
+        "successor_class_margin": 0.00021104588306398121,
+        "minimum_gap": 1.7005753591711932e-05,
+        "predicted_gap_lower_bound": 1.616890131662723e-05
+      },
+      {
+        "n": 4,
+        "case": 0,
+        "event": 1,
+        "source_min": 0.0726235196207681,
+        "source_max": 0.08947599858916078,
+        "successor_class_margin": 0.0566116109737131,
+        "minimum_gap": 0.004984653836191025,
+        "predicted_gap_lower_bound": 0.0030622798116419453
+      },
+      {
+        "n": 4,
+        "case": 0,
+        "event": 2,
+        "source_min": 0.010614276442678145,
+        "source_max": 0.01257388770708544,
+        "successor_class_margin": 0.010298071138537356,
+        "minimum_gap": 0.0005424071543675742,
+        "predicted_gap_lower_bound": 0.0004941963016404081
+      },
+      {
+        "n": 4,
+        "case": 0,
+        "event": 3,
+        "source_min": 0.0002487312901612576,
+        "source_max": 0.00029208150222735966,
+        "successor_class_margin": 0.00024856066695337083,
+        "minimum_gap": 1.1281165384868428e-05,
+        "predicted_gap_lower_bound": 1.0923941593126235e-05
+      },
+      {
+        "n": 4,
+        "case": 1,
+        "event": 1,
+        "source_min": 0.06667059855453467,
+        "source_max": 0.08466787003566464,
+        "successor_class_margin": 0.05233330212178227,
+        "minimum_gap": 0.0053868782325583175,
+        "predicted_gap_lower_bound": 0.00306227981164195
+      },
+      {
+        "n": 4,
+        "case": 1,
+        "event": 2,
+        "source_min": 0.008827262814731578,
+        "source_max": 0.010838803794204212,
+        "successor_class_margin": 0.008592303479353067,
+        "minimum_gap": 0.0005580833255904617,
+        "predicted_gap_lower_bound": 0.0004987763239062437
+      },
+      {
+        "n": 4,
+        "case": 1,
+        "event": 3,
+        "source_min": 0.00017021062536872367,
+        "source_max": 0.00020824547608777909,
+        "successor_class_margin": 0.00017012389301210163,
+        "minimum_gap": 9.786902094801518e-06,
+        "predicted_gap_lower_bound": 9.41108403842272e-06
+      },
+      {
+        "n": 4,
+        "case": 2,
+        "event": 1,
+        "source_min": 0.0715890107784214,
+        "source_max": 0.08864043375495767,
+        "successor_class_margin": 0.055874757785887325,
+        "minimum_gap": 0.005054553082295729,
+        "predicted_gap_lower_bound": 0.003062279811641945
+      },
+      {
+        "n": 4,
+        "case": 2,
+        "event": 2,
+        "source_min": 0.01031279080111446,
+        "source_max": 0.012282031182542579,
+        "successor_class_margin": 0.010011094221176563,
+        "minimum_gap": 0.000545403501361022,
+        "predicted_gap_lower_bound": 0.0004954697715483128
+      },
+      {
+        "n": 4,
+        "case": 2,
+        "event": 3,
+        "source_min": 0.00023490820251281032,
+        "source_max": 0.00027741081909845195,
+        "successor_class_margin": 0.00023475428898770458,
+        "minimum_gap": 1.1045075320373853e-05,
+        "predicted_gap_lower_bound": 1.068450876916099e-05
+      },
+      {
+        "n": 5,
+        "case": 0,
+        "event": 1,
+        "source_min": 0.0679311013815352,
+        "source_max": 0.08568596847285738,
+        "successor_class_margin": 0.05324693099527218,
+        "minimum_gap": 0.003909526619781459,
+        "predicted_gap_lower_bound": 0.002296709858731455
+      },
+      {
+        "n": 5,
+        "case": 0,
+        "event": 2,
+        "source_min": 0.009194177441263144,
+        "source_max": 0.01119619298207723,
+        "successor_class_margin": 0.008943467966679313,
+        "minimum_gap": 0.00040589065293699864,
+        "predicted_gap_lower_bound": 0.0003675009088739811
+      },
+      {
+        "n": 5,
+        "case": 0,
+        "event": 3,
+        "source_min": 0.00018508698609892343,
+        "source_max": 0.00022427353759258033,
+        "successor_class_margin": 0.00018498638885959485,
+        "minimum_gap": 7.334454816192366e-06,
+        "predicted_gap_lower_bound": 7.119168011103305e-06
+      },
+      {
+        "n": 5,
+        "case": 1,
+        "event": 1,
+        "source_min": 0.06809126799732346,
+        "source_max": 0.08581533381637863,
+        "successor_class_margin": 0.053362724961290464,
+        "minimum_gap": 0.0039013548536697557,
+        "predicted_gap_lower_bound": 0.00229670985873146
+      },
+      {
+        "n": 5,
+        "case": 1,
+        "event": 2,
+        "source_min": 0.00923212138554354,
+        "source_max": 0.01123318830827853,
+        "successor_class_margin": 0.008979752346405048,
+        "minimum_gap": 0.0004056836582849773,
+        "predicted_gap_lower_bound": 0.0003674284633785521
+      },
+      {
+        "n": 5,
+        "case": 1,
+        "event": 3,
+        "source_min": 0.0001864090953431818,
+        "source_max": 0.000225715562397538,
+        "successor_class_margin": 0.00018630720031296492,
+        "minimum_gap": 7.359209631823072e-06,
+        "predicted_gap_lower_bound": 7.143867697509234e-06
+      },
+      {
+        "n": 5,
+        "case": 2,
+        "event": 1,
+        "source_min": 0.0649833090927047,
+        "source_max": 0.08330505931649423,
+        "successor_class_margin": 0.05110384327725545,
+        "minimum_gap": 0.004059924185538091,
+        "predicted_gap_lower_bound": 0.002296709858731446
+      },
+      {
+        "n": 5,
+        "case": 2,
+        "event": 2,
+        "source_min": 0.008309874595172753,
+        "source_max": 0.010334184668762852,
+        "successor_class_margin": 0.008096283849636567,
+        "minimum_gap": 0.0004106373264489097,
+        "predicted_gap_lower_bound": 0.0003681682128846867
+      },
+      {
+        "n": 5,
+        "case": 2,
+        "event": 3,
+        "source_min": 0.00014945509266324088,
+        "source_max": 0.00018582696173841915,
+        "successor_class_margin": 0.00014938602934382302,
+        "minimum_gap": 6.7506914271734655e-06,
+        "predicted_gap_lower_bound": 6.531663525356707e-06
+      },
+      {
+        "n": 6,
+        "case": 0,
+        "event": 1,
+        "source_min": 0.0692161098993345,
+        "source_max": 0.08672385996800291,
+        "successor_class_margin": 0.054174054123834935,
+        "minimum_gap": 0.0030420702070279443,
+        "predicted_gap_lower_bound": 0.001837367886985164
+      },
+      {
+        "n": 6,
+        "case": 0,
+        "event": 2,
+        "source_min": 0.00957956024150683,
+        "source_max": 0.011570866574052015,
+        "successor_class_margin": 0.009311790334957801,
+        "minimum_gap": 0.00031772845883982354,
+        "predicted_gap_lower_bound": 0.0002902939921361025
+      },
+      {
+        "n": 6,
+        "case": 0,
+        "event": 3,
+        "source_min": 0.0002015312073887366,
+        "source_max": 0.0002418928487337744,
+        "successor_class_margin": 0.00020141418308819952,
+        "minimum_gap": 5.940169307312596e-06,
+        "predicted_gap_lower_bound": 5.79791765290781e-06
+      },
+      {
+        "n": 6,
+        "case": 1,
+        "event": 1,
+        "source_min": 0.06751041074743605,
+        "source_max": 0.08534617988377724,
+        "successor_class_margin": 0.05294246990592792,
+        "minimum_gap": 0.003111975909974765,
+        "predicted_gap_lower_bound": 0.0018373678869851471
+      },
+      {
+        "n": 6,
+        "case": 1,
+        "event": 2,
+        "source_min": 0.009059358104236952,
+        "source_max": 0.011065054196924556,
+        "successor_class_margin": 0.008814487255475198,
+        "minimum_gap": 0.00032026368705727684,
+        "predicted_gap_lower_bound": 0.00029106946547869875
+      },
+      {
+        "n": 6,
+        "case": 1,
+        "event": 3,
+        "source_min": 0.00017923574830936047,
+        "source_max": 0.00021800618916769496,
+        "successor_class_margin": 0.00017914069491232963,
+        "minimum_gap": 5.681792735733477e-06,
+        "predicted_gap_lower_bound": 5.537773971339583e-06
+      },
+      {
+        "n": 6,
+        "case": 2,
+        "event": 1,
+        "source_min": 0.06686139815097493,
+        "source_max": 0.08482197740202031,
+        "successor_class_margin": 0.05247186245019724,
+        "minimum_gap": 0.0031385747868788866,
+        "predicted_gap_lower_bound": 0.001837367886985162
+      },
+      {
+        "n": 6,
+        "case": 2,
+        "event": 2,
+        "source_min": 0.008866961878687506,
+        "source_max": 0.010877661128620196,
+        "successor_class_margin": 0.008630314855429316,
+        "minimum_gap": 0.0003211249058796394,
+        "predicted_gap_lower_bound": 0.0002912762688823467
+      },
+      {
+        "n": 6,
+        "case": 2,
+        "event": 3,
+        "source_min": 0.0001713891264539156,
+        "source_max": 0.00020955496648890714,
+        "successor_class_margin": 0.00017130129988595527,
+        "minimum_gap": 5.583232088295147e-06,
+        "predicted_gap_lower_bound": 5.438727106296833e-06
+      }
+    ]
+  },
+  "status": "PASS: class and finite selection/factor controls; physical current and clock remain OPEN"
+}

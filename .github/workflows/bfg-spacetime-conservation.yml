@@ -31,6 +31,7 @@ jobs:
         run: sha256sum -c SHA256SUMS
       - run: python research/spacetime-conservation/audit.py
       - run: python research/spacetime-conservation/pair_audit.py
+      - run: python research/spacetime-conservation/stable_pair_audit.py
       - working-directory: research/spacetime-conservation
         run: python -m unittest -v test_audit
       - uses: actions/upload-artifact@v4
@@ -40,4 +41,5 @@ jobs:
           path: |
             research/spacetime-conservation/results.json
             research/spacetime-conservation/pair_results.json
+            research/spacetime-conservation/stable_pair_results.json
 
