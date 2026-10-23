@@ -488,3 +488,6 @@ CI Runde 32: Beide Actions-Läufe zu Codecommit 7be75f5b6898aaf13dc5e34e810574ed
 Eine kontinuierliche mathematische Kandidatenfamilie aus F+tau W interpoliert zwischen ihnen; tau ist ausdrücklich zusätzliche Selektorwahl, kein Quellgesetz. Der originale BFG-Träger bleibt Rang drei. Frühere lexikographische Konstruktion, Stabilitäts- und Gedächtnissätze bleiben gültig; kein allgemeines Selektor-No-Go behauptet.
 
 Sechs frische Original-Quellaufrufe und exakte Block-/Spuridentitäten bestanden. Feldrest <1.7e-16, Kompressionsrest <1.3e-16, Eichrest <3.7e-15. Nächste Abhängigkeit: quellengestütztes Auswahlkriterium oder mengenwertige Sektorbeschreibung statt willkürlicher Priorität; echte Auswahl-/Rangbilanz und räumlicher Transport offen. Physikalische Uhr, vollständiger Viererstrom und Einstein bleiben offen. CI separat prüfen.
+
+
+CI Runde 33: Beide Actions-Läufe zu Codecommit 7c8cf8a1f2250d73407df3772796c10d0c28a9be vollständig erfolgreich. Alle 33 Audits, sieben Grenztests, Manuskript-Prüfsumme und Artefakte bestanden; exakte Nachweise und Code/Dokumentations-Trennung in CI_VALIDATION.md.
