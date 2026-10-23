@@ -139,3 +139,17 @@ Konstruktiver Sonderfall: Liegt das ausgewählte Paar in EINEM Y-Eigenraum, gilt
 31 vollständige Quellaufrufe im finalen Audit, exakte Auswahl-/Positivitäts-/Entartungskontrollen und Basiswechseltests bestanden; größter Rest <2e-13. Numerische Gruppierungsschwellen sind von exakter Entartung getrennt, aufgelöste Testlücken liegen mehr als 2.3 Millionen Schwellen auseinander. CI separat prüfen. Nächste physikalische Abhängigkeit: eine BFG-interne Ereignisnachbarschaft oder räumliche Observable samt geprüfter Transport-/Kontinuitätsregel. Auswahl/Seed und Kartenwechsel bleiben zusätzliche mathematische Grenzen.
 
 CI-Nachprüfung der Y/F/W-Auswahl: Beide Actions-Jobs zu Codecommit f6a00b8fa6d388dd5b9eb0afb209f31fb7545a97 erfolgreich. Manuskript-Prüfsumme, alle acht Audits, sieben Grenztests und Artefakt-Upload bestanden. Der spätere Dokumentationscommit ist vom geprüften Codestand in [CI_VALIDATION.md](CI_VALIDATION.md) getrennt ausgewiesen.
+
+## Fortsetzung: interne Graphen und exakter kanalbasierter Kernelstrom
+
+[Herleitung](MODE_GRAPH_DERIVATION.md), [vorab festgelegtes Protokoll](MODE_GRAPH_PROTOCOL.md), [Prüfcode](mode_graph_audit.py), [Resultate](mode_graph_results.json).
+
+Ein Graph aus normierten Formations-/Witness-Kanten und Kernel-Kohärenzbeträgen besitzt auf den erhaltenen Y-Moden eine geschlossene Abschwächungsdynamik. Die Knotenbestände bleiben dort fest. Die naheliegende Formel 2 Im tr(Q_i R Q_j K) ist dagegen kein universeller Kontinuitätsstrom: Ein exakter +/-Zeuge hat identische Graphdaten, entgegengesetzte Ströme und Bilanzdefekte +/-1/2. Auch eine anfangs geschlossene Dreieckszirkulation wird nicht allgemein erhalten.
+
+Konstruktive Alternative direkt aus denselben Quelloperatoren:
+J^Phi_ij=sum_a Re tr(P_i T_a P_j [T_a,K]).
+Dieser Strom ist antisymmetrisch und erfüllt exakt Delta tr(P_i K)+sum_j J^Phi_ij=0 für erhaltene orthogonale Knotenprojektoren. Auf Y-Knoten verschwindet er; auf nichtkommutierenden Formationseigenknoten kann er einen nichtverschwindenden Bestandsaustausch tragen. Ein exakter positiver Zwei-Knoten-Zeuge hat den Fluss 1-31/sqrt(1001)≈0.0201837, ohne erfundene Reservoirvariable.
+
+33 vollständige Quellaufrufe im finalen Audit bestanden; größter Strom-Bilanzrest <7.6e-15, übrige Identitätsreste <8e-14. Algebraische Ketten-/Zyklusgrenzen, Phasen-Faserverlust und die negativen Stromkandidaten bleiben sichtbar. CI separat prüfen.
+
+Dies ist eine interne Kernel-Kontinuitätsgleichung, noch keine physikalische Energie-Impuls-Erhaltung im Raum. Formationseigenmoden sind bislang keine belegten räumlichen Orte. Nächste Abhängigkeit: notwendige Kohärenzdaten für die Geschlossenheit des Formation-Knotenstroms und eine quellenbasierte, auf Lokalität geprüfte Kanal-Nachbarschaft; physikalische Kalibrierung, Viererstrom und Einstein bleiben offen.

@@ -75,3 +75,10 @@ Additional controls:
 
 Additional controls:
     python research/spacetime-conservation/lex_selector_audit.py
+
+## Internal graph and source-channel continuity
+
+[Mode graphs, failed phase-current candidates and exact channel current](MODE_GRAPH_DERIVATION.md), [protocol](MODE_GRAPH_PROTOCOL.md), [fresh results](mode_graph_results.json). Retained Y-mode stocks do not flow, though coherence magnitudes attenuate. The actual source channel yields an antisymmetric current with exact internal continuity on noncommuting formation nodes, including a nonzero exact witness. Spatial interpretation, reduced closure and physical energy-momentum remain open.
+
+Additional controls:
+    python research/spacetime-conservation/mode_graph_audit.py
