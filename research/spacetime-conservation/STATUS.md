@@ -616,3 +616,12 @@ Fünf frische Originalaufrufe alle nichtterminal; gleich ausgewählte K-Blöcke 
 Für r_sel=2 spätestens zwei Ereignisse: entweder der Raum wird vollständig zweidimensional, oder der aktive Rang wächst auf3/4. Der ursprüngliche Quellträger liefert so keine dauerhafte echte lokale Paarfläche in einem größeren Matrixraum. Dies schließt zusätzliche Beobachtungs-Paarflächen nicht pauschal aus. Ereigniszahl ist keine physikalische Zeit; ambiente Dimension wächst nicht.
 
 Vier exakte Blockrankkontrollen und sieben frische Originalereignisse bestanden; komplexe Rang2-/Rang3-Folgen erreichen volle Aktivität in2/3 Ereignissen. Dokumentationsrunde ohne Audit-/Workflow-/Quellcodeänderung oder neuen Remote-Pass. Nächste Abhängigkeit: zusätzliche quelleninterne lokale Paarbeobachtung mit geschlossener Fortsetzung oder physikalische Deutung des vollen Matrixträgers; Raum/Uhr/Energie-Impuls-Brücke offen.
+
+
+## Runde46: Energieerwartung der manuskriptinternen Quantenkandidaten
+
+[QUANTUM_ENERGY_READOUT.md](QUANTUM_ENERGY_READOUT.md) prüft I57/I68/I70-Hypothesen rho_Q=W bzw.F/tr F und H=epsilon_E K+E0 I. Im vollen Persistenzsektor gilt Delta tr(rho K)=tr[(Phi(rho)-rho)K]; Erhaltung für jedes K genau dann, wenn [rho,Y]=0. Feste Energieumrechnung/Nullpunkt heben einen Defekt nicht auf. Keine allgemeine Widerlegung eines physikalischen, gegebenenfalls angetriebenen/offenen Energieoperators.
+
+Exakter positiver n2-Zeuge: Y=diag(1/5,3/10),F=I,W=(I+sigma_x/2)/2,K±=2I±sigma_x. Alpha8/133,h31/sqrt(1001). Kernelspur4 und Formationsablesung2 bleiben konstant, Witnesserwartung ändert sich um±0.0100918555382141. Beide K strikt positiv; kein Seed/Rangwechsel. Ein K-blinder additiver Zustandskorrekturterm kann die entgegengesetzten Reste nicht zugleich ausgleichen. Relative Spektrallücke schrumpft umh als bedingter Brückenprüfwert, keine reale Atomvorhersage ohne M_prep/Quantenbrücke.
+
+Vier frische Originalaufrufe und exakte Symbolkontrollen bestanden; Eichrest<2.1e-15. Dokumentation ohne Code-/Workflowänderung oder neuen Remote-Pass. Nächster physikalischer Schritt: unabhängig festgelegte Präparation, rho_Q-/H-Abbildung und Messkalibrierung sowie vollständige K-abhängige Austauschbilanz; Impuls-/Raum-/Uhrbrücke offen.

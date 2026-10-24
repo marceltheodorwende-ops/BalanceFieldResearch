@@ -224,3 +224,6 @@ Runde44: [Ausgewählte Kernelreduktion bei Anfangsselektion](SELECTED_KERNEL_QUO
 
 
 Runde45: [Leckagerang und endliche aktive Trägerfüllung](CARRIER_FILLING.md) schärft die Quellen-Rangstruktur zu einer endlichen Ereignisschranke: m=r_sel+ell, d_out=max(ell-1,0), nach Q=I strikte Abnahme jedes positiven Defizits. Ausgewählter Rang2 wird bei nichtterminaler Fortsetzung spätestens nach zwei Ereignissen voll aktiv; keine automatisch dauerhafte lokale Paarfläche. Vier symbolische und sieben Originalkontrollen.
+
+
+Runde46: [Energieerwartung der Quantenkandidaten](QUANTUM_ENERGY_READOUT.md) wendet die vorhandene Kanal-Fixpunktklassifikation auf I57/I68 an: rho_Q=W oder F/tr F, H proportionalK. Exakter positiver Gegenzeuge trennt erhaltene Kernelspur von veränderlicher Witnessenergie; Kommutantenbedingung, feste Kalibrierungsgrenze und bedingter Spektrallückentest. Vier Originalkontrollen.
