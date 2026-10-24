@@ -420,3 +420,8 @@ Frischer lokaler PASS ohne Fehler/Korrektur,6 Originalereignisse: je2 kommutiere
 ## Runde60 – rationale Auswahlgrenze und vier Originalereignisse
 
 Ein frischer lokaler PASS ohne Fehler/Korrektur, vier Originalereignisse. Exakte Symbolidentitäten und Zahlen: oblique m2/3, Kommutatornorm²1/294, Energie18/7->16/7; geschützte Selektion m5/14, Norm0, Energie9/5. Retentionsnachfolger erhält1/294, komplexer Eichnormrest2.00e-17, maximaler Kommutatortransportrest4.09e-16. Y-Ausgang in beiden ersten Auswahlfällen8/45 I2, Degeneration ausdrücklich erlaubt. Reproduktion COMMUTING_SECTOR_SELECTION_CHECKS.md. Keine Audit-/Workflow-/Quelländerung, kein neuer Remote-CI-Pass. Letzter remote-geprüfter Code bleibt7d0cc91bf7d1023a9c3cd32f127e52ef5d8722f9 mit Actions40040857072/40040862094; diese prüfen neue Dokumente nicht.
+
+
+## Runde61 – exakte Vergleichsbilanz und vier behaltene Originalereignisse
+
+Ein frischer lokaler PASS ohne Fehler/Korrektur: vier Originalereignisse nur für die behaltene Quelle. Zusätzliche binäre Vergleichs-Ergänzung rein algebraisch, kein BFG-Komplementnachfolger. Exakte Hauptwerte Ein18/7,Es16/7,Er2,m2/3,Summe46/21,Cross8/21; beide positiven KontrollalternativenCross0. Quellen-Es-Rest<=8.89e-16, Vergleichsbilanzrest<=5.00e-16, Cross-Eichrest2.23e-16. Reproduktion SELECTION_ENERGY_COMPLETION_CHECKS.md. Keine Audit-/Workflow-/Quelländerung, kein neuer Remote-CI-Pass. Letzter remote-geprüfter Code bleibt7d0cc91bf7d1023a9c3cd32f127e52ef5d8722f9 mit Actions40040857072/40040862094; diese prüfen neue Dokumente nicht.

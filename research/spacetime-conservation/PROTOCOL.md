@@ -333,3 +333,6 @@ Prüfe als ausdrücklich zusätzliche mathematische Vergleichsergänzung (kein v
 Exakte Hauptkontrolle Runde60Fdiag1,2,3,W=F²/14,S=I-ones/3: m2/3,Es16/7,Er2, gewichteteSumme46/21 gegenüberEin18/7, Cross8/21. Geschützte Selektion S0diag1,1,0: gewichteteSummeEin; obliqueSelektion mit W=I/3 ebenfalls Cross0. Diese dritte Kontrolle trennt Hintergrundeinschränkung von Präparationseinschränkung.
 
 Vier frische Originalereignisse für die jeweils behaltene Quelle: obliquer Hauptfall, geschützter Fall, obliquer gemischterWitness und komplexe Eichversion des Hauptfalls Seed20261111. Quellen-Es gegenSymbol-/Kompressionsformel, Vergleichs-Zweiggewichte positiv/Summen1, gesamtePinching-Energie und Cross getrennt erfassen; keine Originalfortsetzung des verworfenen Zweigs behaupten. Toleranz1e-10. Keine Quell-/Audit-/Workflowänderung.
+
+
+Auswertung Runde61: Exakte Zweigvergleichsbilanz mit Kreuzterm und universelle Bedingung[S,F]=0 bewiesen. Hauptfall gewichteteSumme46/21 stattEin18/7,Cross8/21; geschützter Hintergrund und blockdiagonaler gemischterWitness als positive Alternativen. Vier frische Originalereignisse der behaltenen Quelle PASS ohne Fehler/Korrektur, kein komplementärer Quellenzweig behauptet. SELECTION_ENERGY_COMPLETION.md und SELECTION_ENERGY_COMPLETION_CHECKS.md. Keine Quell-/Audit-/Workflowänderung.
