@@ -324,3 +324,12 @@ Vier Originalereignisse: oblique Anfangsselektion plus ein folgendes Retentionse
 
 
 Auswertung Runde60: Exakte Auswahl-/Kreuzblockidentität und rationaler Gegenzeuge zeigen Kommutationsverlust durch oblique Originalselektion, Norm²0->1/294, Energie18/7->16/7 bei m2/3. Positive [S,F]=0-Kontrolle schützt Kommutation, nicht unbedingte Energie (m5/14,E9/5). Vier Originalereignisse in einem frischen Lauf PASS ohne Fehlvorlauf/Korrektur. COMMUTING_SECTOR_SELECTION.md und COMMUTING_SECTOR_SELECTION_CHECKS.md. Keine Quell-/Audit-/Workflowänderung.
+
+
+## Runde61 – vorab: verworfene Auswahlmasse und Energie-Kreuzblock
+
+Prüfe als ausdrücklich zusätzliche mathematische Vergleichsergänzung (kein vom BFG spezifizierter verworfener physikalischer Zweig) das binäre Lüders-Instrument S,R=I-S am Runde60-Anfangszustand. Gewichte m=trSW und1-m, komprimierte Zweigenergie Es=tr(W SFS)/m, Er=tr(W RFR)/(1-m). Erwartete exakte Gesamtidentität mEs+(1-m)Er=tr(WF)-tr[W(SFR+RFS)]. Das bloße Ergänzen verworfener Masse schließt bei obliquer Selektion nicht allgemein die F-Erwartungsenergie. Universelle Erhaltung für alleW genau bei[S,F]=0, da Offdiagonaloperator SFR+RFS dann/erst dann0. Einzelzustände mit[W,S]=0 als positive Alternative, ohne universelle Aussage.
+
+Exakte Hauptkontrolle Runde60Fdiag1,2,3,W=F²/14,S=I-ones/3: m2/3,Es16/7,Er2, gewichteteSumme46/21 gegenüberEin18/7, Cross8/21. Geschützte Selektion S0diag1,1,0: gewichteteSummeEin; obliqueSelektion mit W=I/3 ebenfalls Cross0. Diese dritte Kontrolle trennt Hintergrundeinschränkung von Präparationseinschränkung.
+
+Vier frische Originalereignisse für die jeweils behaltene Quelle: obliquer Hauptfall, geschützter Fall, obliquer gemischterWitness und komplexe Eichversion des Hauptfalls Seed20261111. Quellen-Es gegenSymbol-/Kompressionsformel, Vergleichs-Zweiggewichte positiv/Summen1, gesamtePinching-Energie und Cross getrennt erfassen; keine Originalfortsetzung des verworfenen Zweigs behaupten. Toleranz1e-10. Keine Quell-/Audit-/Workflowänderung.
