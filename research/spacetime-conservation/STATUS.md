@@ -580,3 +580,12 @@ Nächste mathematische Abhängigkeit: Bedingungen für B4=P bzw. quelleninterne 
 Positiv abgegrenzt: Bei Q_selection=I, unterstütztem F/W und Rang r gilt B4>=0, B4<=2P, supp B4<=P und tr B4=r; X=B4-P ist spurfrei. Rang1, skalares PKP oder reduzierender P-Y-Sektor geben hinreichende Einzelschritt-Erhaltung. Am selben Rang2-Kanal kehrt Vertauschen der ersten zwei K-Eigenwerte das Defektvorzeichen exakt um; K=-I hat Defekt0 trotz X!=0. Kein allgemeiner Dissipationsterm.
 
 Vier vorab bestimmte frische Originalaufrufe bestanden; exakte symbolische Gewichtselimination bestätigt. Dokumentationsrunde, Quell-/Audit-/Workflowdateien unverändert, kein neuer Remote-Pass. Nächste Abhängigkeit: source-selected Zusatzbestand oder unabhängig begründete geschlossene Zustandsklasse; M_E, Raumrelation, Uhr und Impulsstrom weiter offen.
+
+
+## Runde42: gleiche Bestände und gleicher Seed, verschiedene Ausgänge
+
+[SEED_STOCK_CLOSURE.md](SEED_STOCK_CLOSURE.md) konstruiert zwei zulässige K± bei identischen vollen Y,F,W,P, tr K=-6, tr(PK)=-4, Rangdaten und exakt gleichem Seedwert-2. Auch die vollen Nicht-Kernel-Ausgangsfelder sind gleich, die aktiven Ausgangsbestände unterscheiden sich jedoch um4w. Neues rationales Zertifikat: 6541042265093/10^15<w<6541042265096/10^15. Damit scheitert II89-Geschlossenheit dieser konkreten Bestandsreduktion selbst bei bekanntem aktuellem Seedbetrag.
+
+Folgerung: Eine universelle additive Korrektur R(Y,F,W,P) zu tr(PK)+tr F kann die entgegengesetzten Reste±2w nicht ausgleichen; ebenso wenig eine direkte Gegenbuchung allein aus gleichem aktuellem Seedbetrag und gleichen Ereignisrängen. Zusätzliche K-abhängige Richtungsinformation bleibt notwendig für diese Reduktion; keine allgemeine physikalische Energie-No-Go-Behauptung.
+
+Zwei frische Originalaufrufe bestanden; Nicht-Kernel-Feldrest<4.7e-16. Zertifikat/Prüftext vollständig dokumentiert. Keine Quell-/Audit-/Workflowänderung, kein neuer Remote-Pass behauptet. Nächste Abhängigkeit: quellengestützte Auswahl und Geschlossenheit zusätzlicher K-Matrixinformation; Raum/Uhr/physikalischer Viererstrom bleiben offen.

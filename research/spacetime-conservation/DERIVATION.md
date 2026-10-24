@@ -212,3 +212,6 @@ Runde40: [Rational zertifizierter aktiver Gesamtbestandsdefekt](ACTIVE_STOCK_DEF
 
 
 Runde41: [Grenze fester linearer Bestandsgewichte](LINEAR_STOCK_LIMIT.md) beweist den Ausschluss aller nichttrivialen festen Kombinationen aus aktivem Kernelbestand und Formation, charakterisiert den spurfrei gestützten Rückzugsrest und hinreichende erhaltene Teilklassen. Vier Originalkontrollen ergänzen die exakten Zwei-Zeugen-/Vorzeichenbeweise.
+
+
+Runde42: [Gleiche Bestände und gleicher Seed schließen die Dynamik nicht](SEED_STOCK_CLOSURE.md) liefert einen rational zertifizierten Faserzeugen mit gleichen vollen Nicht-Kernel-Feldern, beiden Kernelspuren und aktuellem Seedbetrag, aber verschiedenen Ausgangsbeständen. K-blinde additive Zustandskorrekturen genügen damit nicht; zusätzliche K-abhängige Information bleibt gezielt zu prüfen.
