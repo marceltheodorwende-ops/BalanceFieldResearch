@@ -425,3 +425,8 @@ Ein frischer lokaler PASS ohne Fehler/Korrektur, vier Originalereignisse. Exakte
 ## Runde61 – exakte Vergleichsbilanz und vier behaltene Originalereignisse
 
 Ein frischer lokaler PASS ohne Fehler/Korrektur: vier Originalereignisse nur für die behaltene Quelle. Zusätzliche binäre Vergleichs-Ergänzung rein algebraisch, kein BFG-Komplementnachfolger. Exakte Hauptwerte Ein18/7,Es16/7,Er2,m2/3,Summe46/21,Cross8/21; beide positiven KontrollalternativenCross0. Quellen-Es-Rest<=8.89e-16, Vergleichsbilanzrest<=5.00e-16, Cross-Eichrest2.23e-16. Reproduktion SELECTION_ENERGY_COMPLETION_CHECKS.md. Keine Audit-/Workflow-/Quelländerung, kein neuer Remote-CI-Pass. Letzter remote-geprüfter Code bleibt7d0cc91bf7d1023a9c3cd32f127e52ef5d8722f9 mit Actions40040857072/40040862094; diese prüfen neue Dokumente nicht.
+
+
+## Runde62 – exakter CP-Stützraumsatz und drei behaltene Originalereignisse
+
+Ein frischer lokaler PASS ohne Fehler/Korrektur, drei Originalereignisse nur für die behaltene Quelle. Vergleichs-CP-Failurekraus und kohärente Erweiterung explizit keine BFG-Komplementfortsetzung. Symbolischer Kreuzoperatornorm²4/3, Erwartung8/21; beliebiges klassisches Komplement behält Offdiagonalnormsqrt(2/3) im obliquen Fall. Maximaler Isometrierest5.36e-16, gehaltene Dichte5.30e-16, Failure-Effekt2.62e-16, Pullbackstützung9.66e-16, Offdiagonalidentität1.06e-15. Vollständige Reproduktion GENERAL_SELECTION_COMPLETION_CHECKS.md. Keine Audit-/Workflow-/Quelländerung, kein neuer Remote-CI-Pass. Letzter remote-geprüfter Code bleibt7d0cc91bf7d1023a9c3cd32f127e52ef5d8722f9 mit Actions40040857072/40040862094; diese prüfen neue Dokumente nicht.
