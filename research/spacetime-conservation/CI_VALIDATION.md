@@ -410,3 +410,8 @@ Frischer lokaler PASS ohne Fehlvorlauf/Korrektur, drei Originalereignisse: Drei-
 ## Runde58 – exakter Instrumentsatz plus fünf Originalereignisse
 
 Ein frischer lokaler Lauf PASS ohne Fehler/Korrektur: fünf Originalereignisse, Choi-Rang1 mit Spektrumrest<=1.42e-15, Isometrierest<=1.18e-15, Witness-Quellrest<=6.03e-16, Zufallsinstrumentrest<=5.57e-16. Projektive Pinching-Kohärenzstörung² exakt1/8; positive diagonale Alternativen Störung0 und unterschiedliche Ergebniswahrscheinlichkeiten. Seed-/Eichfall-Pinchingrest1.12e-16. Allgemeiner Rang1-Instrumentsatz exakt aus Positivität, nicht aus diesen Toleranzen. Reproduktion WITNESS_INSTRUMENT_CHECKS.md. Keine Audit-/Workflow-/Quelländerung, kein neuer Remote-CI-Pass; letzter remote-geprüfter Code bleibt7d0cc91bf7d1023a9c3cd32f127e52ef5d8722f9 mit Actions40040857072/40040862094, diese prüfen neue Dokumente nicht.
+
+
+## Runde59 – Kommutator-/Spektraltransport und sechs Originalereignisse
+
+Frischer lokaler PASS ohne Fehler/Korrektur,6 Originalereignisse: je2 kommutierender/kohärenter/komplexer Eichfall mit tatsächlichem ersten Seed. Exakte Symbolkontrolle qubit-Kommutatornorm²1/2; allgemeine Isometrie-/Pinchingidentitäten algebraisch. Kohärente Norm²0.006728 bleibt erhalten, Messabweichung0.1414213562; kommutierender Fall Messabweichung<=1.90e-15. Maximaler Kommutatortransportrest4.11e-16, Eichnormrest6.94e-18, F-Momentrest1.23e-15. Spektralclustertoleranz1e-9 nur numerisch, keine Nahentartungszertifizierung. Reproduktion COMMUTING_FORMATION_SECTOR_CHECKS.md. Keine Audit-/Workflow-/Quelländerung, kein neuer Remote-CI-Pass. Letzter remote-geprüfter Code bleibt7d0cc91bf7d1023a9c3cd32f127e52ef5d8722f9 mit Actions40040857072/40040862094; diese prüfen neue Dokumente nicht.
