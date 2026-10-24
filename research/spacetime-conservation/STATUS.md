@@ -598,3 +598,12 @@ Zwei frische Originalaufrufe bestanden; Nicht-Kernel-Feldrest<4.7e-16. Zertifika
 Bei festgehaltener Geometrie ist k->vollständiges K_+ injektiv. Exakte inverse Formel über Hp Z Hp=alpha k+beta Yp k Yp und positive Divisoren alpha+beta mu_i mu_j. Die unital vollständig positive K-Abbildung hat reellen Rang r²; bei aktivem Rang2 vier Kernelparameter. Das ist weder physikalischer Viererimpuls noch autonome vierdimensionale Gesamtzustandsdynamik; sämtliche Nicht-Kernel-Felder bleiben behalten, Ausgangsränge können wechseln.
 
 Drei frische Originalaufrufe alle nichtterminal: zwei bei identischem PKP und verschiedenen äußeren K-Blöcken ergeben volle Nachfolgerdifferenz<7e-17, komplexer n=4-Kontrollfall bestätigt Rekonstruktion bis3.3e-14, Abbildungsrang4. Keine Audit-/Workflow-/Quellcodeänderung oder neuer Remote-Pass. Nächste Abhängigkeit: quellenbasierte lokale Rang-zwei-Auswahl und rangwechselnde Fortsetzung; Raum/Uhr/physikalische Energie-Impuls-Brücke bleiben offen.
+
+
+## Runde44: ausgewählter Kernelquotient auch bei Q!=I
+
+[SELECTED_KERNEL_QUOTIENT.md](SELECTED_KERNEL_QUOTIENT.md) erweitert die aktive Reduktion auf die tatsächliche Anfangsselektion: (P_sel K P_sel,F,W,Y,P) bestimmt den vollständigen nächsten Ausgang einschließlich Terminal-/Seedentscheidung. Inversion/Rang r_sel² übertragen sich mit dem ausgewählten Träger. Kein Transport von K bei der Selektion in die Quelle hineingeschrieben.
+
+Ein exakter n=2-Zeuge hat identisches PKP=-2P und ambiente Spur-4, aber K-Ausgänge-1/-3. Grund: P_sel ist gegenüber P gedreht; die Quelle benutzt ursprüngliches ambientes K, während Formation/Witness transportiert werden. Ein vorab transportierter Kernel würde eine andere Dynamik liefern. Alpha1/5, Y_+=8/45 und Nichtterminalität exakt belegt.
+
+Fünf frische Originalaufrufe alle nichtterminal; gleich ausgewählte K-Blöcke liefern identische vollständige Nachfolger, komplexe Anfangsselektion bestätigt Rekonstruktion bis1.9e-14. Dokumentation ohne Code-/Workflowänderung oder neuen Remote-Pass. Nächste Abhängigkeit: lokale Rang-zwei-Unterstruktur und rangvariable Fortsetzung bei erhaltener ausgewählter K-Information; physikalische Raum-/Uhr-/Energie-Impuls-Brücke weiter offen.

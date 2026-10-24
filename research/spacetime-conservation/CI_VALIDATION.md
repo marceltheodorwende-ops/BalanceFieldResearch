@@ -335,3 +335,8 @@ Frischer lokaler Zertifikatslauf PASS: rationaler D-Rückzug, exakte positive Q_
 ## Runde43: aktive Kernelreduktion und Rekonstruktion (Dokumentation)
 
 Drei frische vollständige Originalereignisse alle nichtterminal. Identische-PKP-Nachfolgerrest6.982695313449726e-17 bei entfernten Kernelblöcken mit Norm0.6480740698407861; Rekonstruktionsrest maximal3.219336860413571e-14, Unitalitätsrest maximal1.1356245773426213e-15, Stützrest maximal5.0815081593400575e-15. Reeller K-Abbildungsrang4 in allen r=2-Fällen, Divisoren strikt positiv. Exakter allgemeiner Quotienten-/Inversionsbeweis getrennt von Kontrollzahlen. Vollständiger Prüftext/Ausgabe in ACTIVE_KERNEL_CHECKS.md. Keine Audit-/Workflow-/Originalcodeänderung und kein neuer Remote-CI-Pass behauptet. Letzter Remote-geprüfter Code bleibt7d0cc91bf7d1023a9c3cd32f127e52ef5d8722f9, beide Runde38-Läufe oben. Publikationsdateien am exakten Commit textgleich zurücklesen.
+
+
+## Runde44: ausgewählter Kernelquotient (Dokumentation)
+
+Fünf frische Originalereignisse alle nichtterminal; symbolische Zeugenprüfungen PLP=0, QLQ=Q, alpha1/5 und Y_+=8/45 exakt. Zwei gleiche ursprüngliche PKP liefern Ausgänge~ -3/-1; gleich ausgewählte K-Blöcke dagegen volle Nachfolgergleichheit mit Rest0. Komplexer n=4-Q!=I-Fall: Projektorabstand0.5879532154901501, Rekonstruktionsrest1.8099701721069553e-14, Stützrest9.55213790351541e-16, Unitalitätsrest1.1369878428188828e-15. Vollständiger Prüftext in SELECTED_KERNEL_CHECKS.md; allgemeine Quellbeweise getrennt von Kontrollzahlen. Keine Audit-/Workflow-/Originalcodeänderung und kein neuer Remote-CI-Pass behauptet; letzter Remote-geprüfter Code unverändert7d0cc91bf7d1023a9c3cd32f127e52ef5d8722f9, beide Runde38-Läufe oben. Publikationsdateien am exakten Commit textgleich zurücklesen.

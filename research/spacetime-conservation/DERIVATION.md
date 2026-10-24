@@ -218,3 +218,6 @@ Runde42: [Gleiche Bestände und gleicher Seed schließen die Dynamik nicht](SEED
 
 
 Runde43: [Geschlossene aktive Kernelreduktion](ACTIVE_KERNEL_QUOTIENT.md) liefert die konstruktive Ergänzung zur skalaren Faserlücke: PKP mit voller Geometrie/F/W/P genügt nach Q=I. Explizite inverse Formel rekonstruiert den aktiven K-Block aus der vollständigen Kernel-Ausgabe; Rang r² der linearen K-Abbildung. Drei Originalkontrollen; keine automatische physikalische Viererinterpretation.
+
+
+Runde44: [Ausgewählte Kernelreduktion bei Anfangsselektion](SELECTED_KERNEL_QUOTIENT.md) ersetzt im allgemeinen Ereignis den ursprünglichen Träger durch P_sel. Exakter Gegenzeuge zeigt die Notwendigkeit außerhalb Q=I; positive Rekonstruktionsformel und vollständige Faser-Geschlossenheit samt Terminalstatus bleiben mit dem ausgewählten Block erhalten. Fünf Originalkontrollen.
