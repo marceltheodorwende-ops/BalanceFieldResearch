@@ -138,3 +138,12 @@ Zusätzlich prüfe bei festem Nicht-Kernel-Zustand die Injektivität k=PKP -> K_
 Frische Kontrollen: rationale n=3/r=2-Geometrie aus Runde40 mit zwei K, die sich ausschließlich in P-Kreuz-/Komplementblöcken unterscheiden (zwei Originalaufrufe), plus ein fest generierter komplexer n=4/r=2-Fall, Seed20261026 (ein Originalaufruf). Vergleiche volle Nachfolger/Terminalstatus, Rekonstruktion, Unitalität und reellen Rang4; Toleranz1e-10. Terminalfälle dokumentieren, keine Nachfolger erfinden. Exakter allgemeiner Beweis getrennt von numerischer Kontrolle. Dokumentationsrunde ohne Quell-/Audit-/Workflowänderung.
 
 Auswertung Runde43: ACTIVE_KERNEL_QUOTIENT.md und ACTIVE_KERNEL_CHECKS.md. Exakte Faser-Geschlossenheit der aktiven Matrixreduktion unter Q=I, explizite Inversion und Unitalität/Rang r² bewiesen. Drei vorab festgelegte Originalereignisse alle nichtterminal und Prüfassertionen bestanden. Die Aussage betrifft vollständiges K_+ bei voller behaltenen Nicht-Kernel-Struktur, nicht nur aktive Ausgangskompression oder physikalischen Viererimpuls. Dokumentation ohne Code-/Workflowänderung.
+
+
+## Runde44 – vorab: ausgewählter Kernelblock bei echter Anfangsselektion
+
+Prüfe allgemeine ereignisbezogene Reduktion Pi_sel=(Psel K Psel,F,W,Y,P), Psel=Tsel Tsel† aus der unveränderten Quelle. Erwartung: Psel U_t=U_t, daher vollständiger K-Nachfolger/Seed durch diesen Block bestimmt; Rekonstruktion aus Runde43 mit Psel statt P überträgt sich bei festem ausgewähltem Rang. Frühe Terminalfälle bleiben K-unabhängig bzw. werden mit Status behandelt. Keine pauschale Reduktion auf ursprüngliches PKP bei Q!=I.
+
+Exakter vorab benannter Gegenzeuge für ursprüngliches PKP: n=2,Y=diag(1/2,2),v=(1,1)/sqrt2,P=F=W=vv†,K±=-2I±diag(1,-1). Gleiche ursprüngliche aktive Kompression und ambiente Spur, aber erwartete ausgewählte Kompressionen-1/-3; vollständige Originalereignisse sollen dies entscheiden. Alpha-Kandidat1/5, Ausgangslast8/45, kein Seed bei m=1.
+
+Frische Kontrollen: diese zwei Fälle; dieselbe Geometrie K=-2I und K+H mit H=[[0,.2],[.2,.4]], ausgewählter H-Block0, zur vollen Nachfolgergleichheit (zwei weitere Aufrufe); ein komplexer n=4/r=2-Fall, Seed20261027,Y=diag(.2,.4,.7,1.4), für ausgewählte Rekonstruktion und Unitalität (ein Aufruf). Insgesamt5, keine Parametersuche; Terminalfälle nicht wegfiltern. Toleranz1e-10. Exakte Quelle/Beweis und lokale Kontrollzahlen dokumentieren, keine neue physikalische Brücke. Dokumentation ohne Audit-/Workflow-/Quellcodeänderung.
