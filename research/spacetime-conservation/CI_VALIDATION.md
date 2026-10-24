@@ -405,3 +405,8 @@ Rationale Rangfolge4,5,6,6 und nichtverschwindende6x6-Determinante zertifiziert.
 ## Runde57 – exakter Endpointsatz und drei Originalkontrollen
 
 Frischer lokaler PASS ohne Fehlvorlauf/Korrektur, drei Originalereignisse: Drei-Moden-Irrationalitätszeuge, komplexe Eichversion, Zweimoden-Resonanz. Minimalpolynom x^4+4x^3-16x²+8x+4 irreduzibelGrad4; allgemeiner Ausschluss sigma!=0 per exaktem Kohärenzargument. Illustrativer Ansatzdefekt0.07356721246 bei sigma0.7, Eichrest8.33e-17; Quellen-F-Transportrest<=1.17e-15; pi-Resonanz8.66e-17, pi/2-Defekt0.7071067812. Reproduktion FORMATION_GENERATOR_CHECKS.md. Keine Audit-/Workflow-/Quelländerung, kein neuer Remote-CI-Pass. Letzter remote-geprüfter Code bleibt7d0cc91bf7d1023a9c3cd32f127e52ef5d8722f9 mit Actions40040857072/40040862094; diese prüfen neue Dokumente nicht.
+
+
+## Runde58 – exakter Instrumentsatz plus fünf Originalereignisse
+
+Ein frischer lokaler Lauf PASS ohne Fehler/Korrektur: fünf Originalereignisse, Choi-Rang1 mit Spektrumrest<=1.42e-15, Isometrierest<=1.18e-15, Witness-Quellrest<=6.03e-16, Zufallsinstrumentrest<=5.57e-16. Projektive Pinching-Kohärenzstörung² exakt1/8; positive diagonale Alternativen Störung0 und unterschiedliche Ergebniswahrscheinlichkeiten. Seed-/Eichfall-Pinchingrest1.12e-16. Allgemeiner Rang1-Instrumentsatz exakt aus Positivität, nicht aus diesen Toleranzen. Reproduktion WITNESS_INSTRUMENT_CHECKS.md. Keine Audit-/Workflow-/Quelländerung, kein neuer Remote-CI-Pass; letzter remote-geprüfter Code bleibt7d0cc91bf7d1023a9c3cd32f127e52ef5d8722f9 mit Actions40040857072/40040862094, diese prüfen neue Dokumente nicht.
