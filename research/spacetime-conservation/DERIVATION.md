@@ -236,3 +236,6 @@ Runde48: [Positivität alternativer Energie-Zustandskompensation](ENERGY_STATE_P
 
 
 Runde49: [Momentan kommutierende Hamiltonian-Kandidaten](COMMUTING_ENERGY_READOUT.md) liefern eine erhaltene kollisionsfreie Teilklasse, aber einen exakten Spektralverschmelzungsdefekt bei aktueller Y-Projektion. F-Projektion löst die allgemeine Erhaltung nicht; historische Spektralprojektoren sind als zusätzliche Daten zu deklarieren. Vier Originalkontrollen.
+
+
+Runde50: [Nur-K-Energieoperator-Klassifikation](K_ONLY_ENERGY_CLASSIFICATION.md) schließt unter ausgewiesener Kovarianz/Stetigkeit und universeller Witness-Erwartungserhaltung alle nichtskalaren Nur-K-Ablesungen im positiven Zwei-Moden-Sektor aus. Schräge Kanalorientierung und transversale Kontrastkontraktion liefern einen allgemeinen Beweis; drei Originalkontrollen. Volle Zustands-/Historienablesungen bleiben außerhalb der Klasse.

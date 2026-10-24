@@ -652,3 +652,12 @@ Vier frische Originalereignisse und symbolischer Quadratvergleich bestanden, Eic
 Exakter positiver n2-Zeuge Y=diag(1/5,4/5),F=diag(1,3),K=2I+sigma_x,W=(I+sigma_x/2)/2: alpha11/36, Y_out=(25/108)I, h5/6. H_Y ändert sich von2I auf2I+(5/6)sigma_x, Witnesserwartung um5/12. Die Kollision ist rational bewiesen, keine numerische Clusterannahme. H_F-Projektion ist ebenfalls nicht allgemein erhalten; F=I+sigma_x/2 liefert bei niedrigem Y einen festen F-Rahmen, aber gedämpfte H_F-Spektrallücke.
 
 Kollisionsfreie H_Y-Teilklasse und historisch festgehaltene Y_0-Projektoren bleiben mathematisch positive Alternativen; letztere sind zusätzliche retained data, keine automatisch physikalische Auswahl. Vier frische Originalereignisse und exakte Symbolkontrollen bestanden, Eichrest<1e-15. Dokumentation ohne Code-/Workflowänderung oder neuen Remote-Pass. Nächste Abhängigkeit: begründete Kollisions-/Labelregel oder eingeschränkte physikalische Präparationsklasse; Energie-/Raum-/Uhr-/Impulsbrücke offen.
+
+
+## Runde50: Klassifikation universell erhaltener Nur-K-Operatoren
+
+[K_ONLY_ENERGY_CLASSIFICATION.md](K_ONLY_ENERGY_CLASSIFICATION.md) beweist unter ausdrücklich zusätzlichen Voraussetzungen: Ein nur von positivem Zwei-Moden-K abhängiger, unitär kovarianter und bei skalarem K stetiger H(K), dessen Witness-Erwartung für alle vollen Persistenzzustände erhalten sein soll, hat notwendig die Form g(tr K/2)I. Umgekehrt sind diese skalaren Spurfunktionen dort erhalten, aber ohne spektrale Energielücken. Keine Aussage über volle Zustands-/Historienenergie oder eingeschränkte physikalische Präparationen.
+
+Beweis: Kovarianz erzwingt Kommutation mit K; ein tatsächlich hergeleiteter schräger Quellkanal produziert nichtkommutierendes K_out, gemeinsamer Kommutant nur skalare I. Transversale Kontrastkontraktion und Stetigkeit entfernen verbleibende Radiusabhängigkeit. Iterierte Funktionsgleichung ist kein eingefrorener tatsächlicher Y-Verlauf.
+
+Drei frische Originalereignisse und exakter Kommutantenbeweis bestanden; illustrative K,K² und normierte traceless-Ablesung ändern Operator/Erwartung, tr(K)I bleibt erhalten. Initialer algebraischer Solverabbruch dokumentiert, danach transparenter frischer Pass. Dokumentation ohne Audit-/Workflow-/Quellcodeänderung oder neuen Remote-Pass. Nächste Abhängigkeit: zusätzliche Zustands-/Rahmen-/Historiendaten oder physikalisch eingeschränkte Präparation/gekoppelter Austausch; Raum/Uhr/Impulsbrücke offen.
