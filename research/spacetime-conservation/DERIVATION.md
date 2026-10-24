@@ -221,3 +221,6 @@ Runde43: [Geschlossene aktive Kernelreduktion](ACTIVE_KERNEL_QUOTIENT.md) liefer
 
 
 Runde44: [Ausgewählte Kernelreduktion bei Anfangsselektion](SELECTED_KERNEL_QUOTIENT.md) ersetzt im allgemeinen Ereignis den ursprünglichen Träger durch P_sel. Exakter Gegenzeuge zeigt die Notwendigkeit außerhalb Q=I; positive Rekonstruktionsformel und vollständige Faser-Geschlossenheit samt Terminalstatus bleiben mit dem ausgewählten Block erhalten. Fünf Originalkontrollen.
+
+
+Runde45: [Leckagerang und endliche aktive Trägerfüllung](CARRIER_FILLING.md) schärft die Quellen-Rangstruktur zu einer endlichen Ereignisschranke: m=r_sel+ell, d_out=max(ell-1,0), nach Q=I strikte Abnahme jedes positiven Defizits. Ausgewählter Rang2 wird bei nichtterminaler Fortsetzung spätestens nach zwei Ereignissen voll aktiv; keine automatisch dauerhafte lokale Paarfläche. Vier symbolische und sieben Originalkontrollen.

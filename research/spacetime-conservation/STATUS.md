@@ -607,3 +607,12 @@ Drei frische Originalaufrufe alle nichtterminal: zwei bei identischem PKP und ve
 Ein exakter n=2-Zeuge hat identisches PKP=-2P und ambiente Spur-4, aber K-Ausgänge-1/-3. Grund: P_sel ist gegenüber P gedreht; die Quelle benutzt ursprüngliches ambientes K, während Formation/Witness transportiert werden. Ein vorab transportierter Kernel würde eine andere Dynamik liefern. Alpha1/5, Y_+=8/45 und Nichtterminalität exakt belegt.
 
 Fünf frische Originalaufrufe alle nichtterminal; gleich ausgewählte K-Blöcke liefern identische vollständige Nachfolger, komplexe Anfangsselektion bestätigt Rekonstruktion bis1.9e-14. Dokumentation ohne Code-/Workflowänderung oder neuen Remote-Pass. Nächste Abhängigkeit: lokale Rang-zwei-Unterstruktur und rangvariable Fortsetzung bei erhaltener ausgewählter K-Information; physikalische Raum-/Uhr-/Energie-Impuls-Brücke weiter offen.
+
+
+## Runde45: exakter Leckagerang und endliche aktive Trägerfüllung
+
+[CARRIER_FILLING.md](CARRIER_FILLING.md) leitet m=r_sel+ell mit ell=rank[(I-P_sel)Y P_sel] her. Nichtterminal ergänzt ein nichtleeres Seedkomplement genau einen aktiven Rang; daher d_out=max(ell-1,0). Nach Q=I sinkt jedes positive inaktive Defizit d=n-r pro vollständigem Ereignis mindestens um1. Vom ausgewählten Rang r_sel aus erreicht jede entsprechend nichtterminal fortgesetzte Bahn innerhalb höchstens r_sel Ereignissen P=I; andernfalls endet sie vorher terminal.
+
+Für r_sel=2 spätestens zwei Ereignisse: entweder der Raum wird vollständig zweidimensional, oder der aktive Rang wächst auf3/4. Der ursprüngliche Quellträger liefert so keine dauerhafte echte lokale Paarfläche in einem größeren Matrixraum. Dies schließt zusätzliche Beobachtungs-Paarflächen nicht pauschal aus. Ereigniszahl ist keine physikalische Zeit; ambiente Dimension wächst nicht.
+
+Vier exakte Blockrankkontrollen und sieben frische Originalereignisse bestanden; komplexe Rang2-/Rang3-Folgen erreichen volle Aktivität in2/3 Ereignissen. Dokumentationsrunde ohne Audit-/Workflow-/Quellcodeänderung oder neuen Remote-Pass. Nächste Abhängigkeit: zusätzliche quelleninterne lokale Paarbeobachtung mit geschlossener Fortsetzung oder physikalische Deutung des vollen Matrixträgers; Raum/Uhr/Energie-Impuls-Brücke offen.
