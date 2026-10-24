@@ -661,3 +661,12 @@ Kollisionsfreie H_Y-Teilklasse und historisch festgehaltene Y_0-Projektoren blei
 Beweis: Kovarianz erzwingt Kommutation mit K; ein tatsächlich hergeleiteter schräger Quellkanal produziert nichtkommutierendes K_out, gemeinsamer Kommutant nur skalare I. Transversale Kontrastkontraktion und Stetigkeit entfernen verbleibende Radiusabhängigkeit. Iterierte Funktionsgleichung ist kein eingefrorener tatsächlicher Y-Verlauf.
 
 Drei frische Originalereignisse und exakter Kommutantenbeweis bestanden; illustrative K,K² und normierte traceless-Ablesung ändern Operator/Erwartung, tr(K)I bleibt erhalten. Initialer algebraischer Solverabbruch dokumentiert, danach transparenter frischer Pass. Dokumentation ohne Audit-/Workflow-/Quellcodeänderung oder neuen Remote-Pass. Nächste Abhängigkeit: zusätzliche Zustands-/Rahmen-/Historiendaten oder physikalisch eingeschränkte Präparation/gekoppelter Austausch; Raum/Uhr/Impulsbrücke offen.
+
+
+## Runde51: positiver Witness-Formationsinvariant über Seeds
+
+[WITNESS_FORMATION_ENERGY.md](WITNESS_FORMATION_ENERGY.md) beweist E_WF=tr(WF) als erhaltene Paarung bei gemeinsam behaltenem W/F-Träger, einschließlich nichtterminaler Seed-/Rangereignisse. R4 transportiert beide isometrisch, der Seed ist Witness-orthogonal. Stärker bleiben die gesamte Witness-gewichtete F-Spektralverteilung und tr(W F^p) erhalten. Nach dem ersten vollständigen nichtterminalen Ereignis gelten die gemeinsamen Retentionsbedingungen für die Fortsetzung.
+
+Allgemeine Anfangsselektion: E_out=tr(S W S F)/tr(SW), S=Tsel†Tsel. Exakter Rangverlustzeuge E2->1 bei Witnessmasse1/2 zeigt die klare Grenze globaler Erhaltung. Höhere Momente erfordern gemeinsame F/W-Retention, nicht bloß Witnessmasse1. Direkter H=epsilon_F F+E0 I,rho_Q=W ist damit ein mathematischer Energiekandidat, noch keine physikalisch kalibrierte Generator-/Viererstromidentifikation.
+
+Natürliche Alternativen: H2=(trF)W hat Seeddefekt s trW²; rho_Q=F/trF,H=F ist ebenfalls nicht allgemein erhalten. Fünf unterschiedliche Originalzustände final bestanden, inklusive zweier Seed-/Eichfälle und echter Anfangsselektion; normierter Momentrest<2.5e-15. Vorläufe/JSON-Bool-Korrektur und insgesamt15 Aufrufe transparent dokumentiert. Keine Audit-/Workflow-/Quellcodeänderung oder neuer Remote-Pass. Nächste positive Abhängigkeit: unabhängig bestimmte Präparation/ρW-/F-Energieablesung, initiale Auswahlbilanz und Uhr-/Generatorrolle; Raum-/Impulsbrücke offen.

@@ -239,3 +239,6 @@ Runde49: [Momentan kommutierende Hamiltonian-Kandidaten](COMMUTING_ENERGY_READOU
 
 
 Runde50: [Nur-K-Energieoperator-Klassifikation](K_ONLY_ENERGY_CLASSIFICATION.md) schließt unter ausgewiesener Kovarianz/Stetigkeit und universeller Witness-Erwartungserhaltung alle nichtskalaren Nur-K-Ablesungen im positiven Zwei-Moden-Sektor aus. Schräge Kanalorientierung und transversale Kontrastkontraktion liefern einen allgemeinen Beweis; drei Originalkontrollen. Volle Zustands-/Historienablesungen bleiben außerhalb der Klasse.
+
+
+Runde51: [Witness-gewichtete Formationsenergie](WITNESS_FORMATION_ENERGY.md) liefert eine konstruktiv erhaltene Paarung tr(WF) und ganze gewichtete F-Spektralverteilung durch gemeinsame R4-Isometrie und Witness-orthogonale Seeds. Allgemeine Anfangsselektion bleibt konditionierend; direkte F-Energiehypothese von physikalischer Identifikation getrennt. Fünf finale Originalkontrollen samt Alternativen.
