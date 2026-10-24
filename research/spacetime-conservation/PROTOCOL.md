@@ -300,3 +300,12 @@ Fünf Originalkontrollen: voller n2-Kohärenzzeuge; zwei volle diagonale Witness
 
 
 Auswertung Runde58: Rang1-Choi-/Instrumentbeweis bestätigt universell nur W-unabhängige Ergebnisse bei unverändertem Witnesskanal; projektive F-Messung auf kohärentem W energieerhaltend, aber mit exaktem Defekt²1/8. F-diagonale Präparation als positive eingeschränkte Alternative getrennt. Fünf Originalereignisse in einem frischen Lauf PASS ohne Fehlvorläufe/Korrektur. WITNESS_INSTRUMENT_INFORMATION.md und WITNESS_INSTRUMENT_CHECKS.md. Keine Quell-/Audit-/Workflowänderung.
+
+
+## Runde59 – vorab: Stabilität der eingeschränkten messbaren F-Sektoren
+
+Untersuche die in Runde58 positive eingeschränkte Alternative [W,F]=0 auf dynamische Invarianz unter tatsächlicher gemeinsamer Retention. Erwartete exakte Identität einschließlich Witness-orthogonalem Seed: [W_out,F_out]=V[W,F]V†; daher Frobeniusnorm² des Kommutators erhalten. Kommutierende Präparationen bleiben kommutierend, aber vorhandene Nichtkommutation wird in dieser Größe nicht dissipiert. Kein allgemeiner Dekohärenz-/Anfangsselektionsausschluss.
+
+Konstruiere F-Spektralinstrument K_a=V Pi_a. Für [W,F]=0 stimmt dessen unbeobachteter Ausgang mit Original-W_out überein; Outcomegewichte und bedingte W_a=Pi_a W Pi_a/p_a werden durch die Quelle transportiert, alte F-Werte erhalten, neue Seedrichtungen haben Witnessgewicht0. Entartete F-Blöcke ausdrücklich als ganze Spektralräume behandeln; bei Seed-Eigenwertkollision nur derselbe Wert zusammengefasst. Dies liefert einen mathematisch nondemolitionartigen Energiesektor, aber keine ausgewählte physikalische Präparation, Uhr, räumlichen Strom oder Übergangs-/Interaktionsdynamik.
+
+Exakte Symbolkontrolle: Fdiag(1,3), W=(I+sigma_x/2)/2, ||[W,F]||_F²=1/2. Frische Originalkontrollen in rationalem n3/r2-Seedhintergrund Fdiag1,.42,0, Pdiag1,1,0, Y[[.25,0,.1],[0,.5,.1],[.1,.1,.5]],K-diag1,2,3: Wdiag(.6,.4,0) und W mit offdiag±.1i, je zwei Ereignisse; komplexe simultane Eichversion des kohärenten Falls ebenfalls zwei Ereignisse, insgesamt6. Prüfe transportierte Kommutatoren, ihre Normen, nichtterminal, spektrales Pinching mit ganzen numerischen Clustern (Abstandtoleranz1e-9), Source-Abweichung der Messinstrumente und Witness-gewichtete F-Momente1..3. Toleranz1e-10; keine Wiederholung älterer Gesamtchecks ohne neuen Anlass. Nur Forschungsdokumentation, keine Quell-/Audit-/Workflowänderung.
