@@ -185,3 +185,12 @@ Untersuche als Alternative zur ausgeschlossenen additiven Registerenergie eine v
 Exakter Zeuge wie Runde46, Y=diag(1/5,3/10),F=I,h31/sqrt(1001). Dichten rho_r=(I+r sigma_x)/2 mit r=1,99/100,1/2 und positive K=2I+sigma_x. Prüfe inverse Eigenwerte(1±r/h)/2 und Spektralbedingung: Eingangserwartung2+r liegt für r>h über dem maximalen Ausgangseigenwert2+h. Dann ist selbst für diesen einzelnen K keine positive Spur-eins-Ausgangsdichte energieerhaltend möglich. Symbolisch r=99/100>h durch rationalen Quadratvergleich, nicht numerisches Runden. Komplexe Eichkontrolle des r=.99-Falls, Seed20261030; insgesamt4 Originalaufrufe. Quelle/Alternativhypothese getrennt, kein neues W-Update, kein Reservoir erfinden. Dokumentation ohne Audit-/Workflow-/Quellcodeänderung.
 
 Auswertung Runde48: ENERGY_STATE_POSITIVITY.md und ENERGY_STATE_CHECKS.md. Inverse-Zustandsbedingung/Positivitätsgrenze und stärkeres Einzel-K-Spektralhindernis exakt bewiesen; vier Originalereignisse bestanden. W-Quellupdate unverändert, keine neue Zustandsdynamik oder Reservoirenergie eingeführt; r=.5-Einzelkompensation ausdrücklich positiv erhalten. Dokumentation ohne Code-/Workflowänderung.
+
+
+## Runde49 – vorab: instantaneous kommutierende Hamiltonian-Kandidaten
+
+Prüfe neue ausdrücklich zusätzliche Energieablesung H_Y=D_Y(K)=sum_lambda P_lambda(Y) K P_lambda(Y), also Projektion auf den aktuellen Y-Kommutanten, statt H=K. Erwartung: Im vollen Persistenzsektor bei unveränderter Y-Spektralpartition gilt D_Yout(Phi K)=D_Y K; bei neuer Eigenwertkollision kann die Projektionsalgebra wachsen und die Erhaltung scheitern. Keine physikalische Auswahl dieses Kandidaten behaupten.
+
+Exakter vorab Zeuge: P=I2,Y=diag(1/5,4/5),F=diag(1,3),K=2I+sigma_x,W=(I+sigma_x/2)/2. Erwartung alpha11/36, g(y1)=g(y2)=25/108, h5/6; dadurch H_Y vorher2I, nachher2I+(5/6)sigma_x. Prüfe dieses Ergebnis exakt, nicht durch Zusammenfassen nur ungefähr gleicher Eigenwerte.
+
+Naheliegende Alternative H_F=D_F K: prüfe F=I+sigma_x/2,Y=diag(1/5,3/10),K=2I+sigma_x,W=(I+sigma_x/2)/2; erwartet unverändertes F-Spektrum, aber H_F folgt der K-Kohärenzdämpfung und ist nicht erhalten. Positive Kontrolle H_Y ohne neue Kollision bei F=I, demselben niedrigeren Y. Komplexe Eichkontrolle des Kollisionszeugen, Seed20261031. Insgesamt4 Originalaufrufe, Toleranz1e-12; dokumentiere eine exakt fixierte Kollisionspartition gegenüber numerischen Cluster-Toleranzen. Historische Spektralprojektoren als zusätzliche retained data, nicht nachträglich als Quellgesetz einsetzen. Dokumentation ohne Audit-/Workflow-/Quellcodeänderung.
