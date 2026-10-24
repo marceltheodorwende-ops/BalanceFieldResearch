@@ -1,0 +1,139 @@
+{
+  "status": "PASS",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "seed": 20261130,
+  "symbolic": {
+    "local_pullback": "B_a=sum U_r Eout_a U_r\u2020; Delta q_a=tr K(B_a-Ein_a)",
+    "ambient_total": "tr K(D-I)",
+    "active_total": "tr K(sum U_r Pplus U_r\u2020-P)",
+    "witness_analysis_rank": 2,
+    "witness_D": "2P",
+    "witness_export_eigenvalues": [
+      "-1",
+      "1",
+      "1"
+    ],
+    "witness_ambient_change": "11/2",
+    "witness_active_change": "-9/4"
+  },
+  "source": {
+    "calls": 10,
+    "nonterminal_random": 6,
+    "terminal_random": 0,
+    "local_residual": 1.4858424106801035e-16,
+    "gauge_residual": 5.376349109788741e-14,
+    "witness_residual": 1.7763568394002505e-15,
+    "witness": {
+      "input_dimension": 3,
+      "input_carrier_rank": 1,
+      "output_dimension": 2,
+      "output_carrier_rank": 2,
+      "ambient_change": 5.5,
+      "active_change": -2.2499999999999982,
+      "export_eigenvalues": [
+        -0.9999999999999999,
+        0.9999999999999999,
+        1.0
+      ]
+    },
+    "cases": [
+      {
+        "n": 3,
+        "case": 0,
+        "input_carrier_rank": 1,
+        "terminal": null,
+        "output_dimension": 2,
+        "output_carrier_rank": 2,
+        "ambient_change": 10.527470695329225,
+        "active_change": -3.1465340195644673,
+        "export_eigenvalues": [
+          -0.9999999999999993,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "n": 3,
+        "case": 1,
+        "input_carrier_rank": 1,
+        "terminal": null,
+        "output_dimension": 2,
+        "output_carrier_rank": 2,
+        "ambient_change": -0.6881134322662987,
+        "active_change": -8.420628204295156,
+        "export_eigenvalues": [
+          -1.0000000000000004,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "n": 4,
+        "case": 0,
+        "input_carrier_rank": 2,
+        "terminal": null,
+        "output_dimension": 4,
+        "output_carrier_rank": 3,
+        "ambient_change": -10.20380737657296,
+        "active_change": -19.747110255977333,
+        "export_eigenvalues": [
+          -1.0000000000000004,
+          -1.0000000000000004,
+          1.0,
+          1.0000000000000002
+        ]
+      },
+      {
+        "n": 4,
+        "case": 1,
+        "input_carrier_rank": 2,
+        "terminal": null,
+        "output_dimension": 4,
+        "output_carrier_rank": 3,
+        "ambient_change": 9.180799435868387,
+        "active_change": -8.911225323211617,
+        "export_eigenvalues": [
+          -1.0000000000000013,
+          -1.0000000000000004,
+          0.9999999999999996,
+          1.0000000000000004
+        ]
+      },
+      {
+        "n": 5,
+        "case": 0,
+        "input_carrier_rank": 2,
+        "terminal": null,
+        "output_dimension": 4,
+        "output_carrier_rank": 3,
+        "ambient_change": 3.384219706978797,
+        "active_change": -12.65843600228364,
+        "export_eigenvalues": [
+          -1.000000000000001,
+          -0.9999999999999998,
+          0.9999999999999996,
+          0.9999999999999998,
+          1.000000000000001
+        ]
+      },
+      {
+        "n": 5,
+        "case": 1,
+        "input_carrier_rank": 2,
+        "terminal": null,
+        "output_dimension": 4,
+        "output_carrier_rank": 3,
+        "ambient_change": 12.496926933012645,
+        "active_change": -10.379284168465848,
+        "export_eigenvalues": [
+          -1.0000000000000002,
+          -0.9999999999999998,
+          0.9999999999999998,
+          1.0,
+          1.0000000000000009
+        ]
+      }
+    ]
+  },
+  "scope": "Exact local rectangular pullback balances for complete nonterminal source events, distinguishing ambient kernel and active carrier. No terminal successor, positive energy reservoir, or full four-current invented."
+}

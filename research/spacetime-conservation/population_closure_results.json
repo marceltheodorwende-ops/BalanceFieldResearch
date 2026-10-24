@@ -1,0 +1,314 @@
+{
+  "scope": "Formation-node population projection and exact coherence memory; no physical space identification",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "seed": 20261101,
+  "tolerance": 1e-10,
+  "runtime": {
+    "python": "3.12.8",
+    "numpy": "2.2.5",
+    "sympy": "1.14.0"
+  },
+  "exact": {
+    "tilted_F": [
+      [
+        "41/25",
+        "-12/25"
+      ],
+      [
+        "-12/25",
+        "34/25"
+      ]
+    ],
+    "tilted_alpha": "1451/24976",
+    "tilted_h_squared": "32775625/34141016",
+    "population_coherence_coupling": "168/625 - 168*h/625",
+    "generated_coherence": "84/625 - 84*h/625",
+    "tilted_population_fiber_gap": "168/625 - 168*h/625",
+    "unbiased_h_squared": "961/1001",
+    "unbiased_closure": "Phi_F(sigma_z)=h sigma_z; offdiagonal Hermitian directions have zero diagonal"
+  },
+  "witnesses": {
+    "full_source_calls": 8,
+    "tilted_fiber_examples": [
+      {
+        "sign": 1,
+        "input_population": [
+          1.0,
+          1.0
+        ],
+        "coherence_magnitude": 0.5,
+        "successor_population": [
+          1.0027149299284093,
+          0.9972850700715905
+        ],
+        "markov_prediction": [
+          1.0000000000000002,
+          1.0000000000000002
+        ]
+      },
+      {
+        "sign": -1,
+        "input_population": [
+          1.0,
+          1.0
+        ],
+        "coherence_magnitude": 0.5,
+        "successor_population": [
+          0.9972850700715904,
+          1.0027149299284093
+        ],
+        "markov_prediction": [
+          1.0000000000000002,
+          1.0000000000000002
+        ]
+      }
+    ],
+    "tilted_fiber_successor_gap": [
+      0.005429859856818875,
+      -0.005429859856818764
+    ],
+    "diagonal_preparation_history": [
+      {
+        "event": 1,
+        "actual": [
+          1.990691668816882,
+          1.0093083311831177
+        ],
+        "repeated_markov": [
+          1.9906916688168825,
+          1.009308331183118
+        ]
+      },
+      {
+        "event": 2,
+        "actual": [
+          1.98746407992637,
+          1.0125359200736308
+        ],
+        "repeated_markov": [
+          1.9874588629801409,
+          1.0125411370198598
+        ]
+      }
+    ],
+    "two_event_memory_defect": [
+      5.216946229236186e-06,
+      -5.216946229014141e-06
+    ],
+    "two_event_predicted_memory": [
+      5.216946229228021e-06,
+      -5.216946229228021e-06
+    ],
+    "unbiased_population_histories": [
+      [
+        [
+          1.989908144461785,
+          1.0100918555382137
+        ],
+        [
+          1.9866175303851732,
+          1.0133824696148261
+        ]
+      ],
+      [
+        [
+          1.989908144461785,
+          1.010091855538214
+        ],
+        [
+          1.986617530385173,
+          1.0133824696148257
+        ]
+      ]
+    ],
+    "unbiased_maximum_markov_residual": 1.1102230246251565e-15
+  },
+  "full_source": {
+    "preparations": 12,
+    "source_events": 24,
+    "additional_gauge_source_calls": 4,
+    "full_source_calls": 28,
+    "maximum_residuals": {
+      "stochastic": 5.630483782817371e-15,
+      "symmetry": 2.0174319419219794e-17,
+      "population_with_coherence": 8.247537405206237e-15,
+      "diffusive_current": 3.212286301858187e-17,
+      "current_decomposition": 2.400145623411283e-16,
+      "two_event_memory": 5.463433077358645e-15,
+      "gauge_population": 4.519985049760651e-15
+    },
+    "maximum_markov_only_error": 0.019311604420843852,
+    "maximum_diagonal_algebra_leakage": 0.012034797199855063,
+    "cases": [
+      {
+        "n": 3,
+        "case": 0,
+        "event": 1,
+        "markov_only_population_error": 0.019311604420843852,
+        "diagonal_algebra_leakage": 0.00786224590294869
+      },
+      {
+        "n": 3,
+        "case": 0,
+        "event": 2,
+        "markov_only_population_error": 0.006977780016513511,
+        "diagonal_algebra_leakage": 0.002878200265938189
+      },
+      {
+        "n": 3,
+        "case": 1,
+        "event": 1,
+        "markov_only_population_error": 0.008535674510576447,
+        "diagonal_algebra_leakage": 0.008127073939908238
+      },
+      {
+        "n": 3,
+        "case": 1,
+        "event": 2,
+        "markov_only_population_error": 0.0036818869469695146,
+        "diagonal_algebra_leakage": 0.0036621680369498177
+      },
+      {
+        "n": 3,
+        "case": 2,
+        "event": 1,
+        "markov_only_population_error": 0.0012843390857741597,
+        "diagonal_algebra_leakage": 0.005760837303953599
+      },
+      {
+        "n": 3,
+        "case": 2,
+        "event": 2,
+        "markov_only_population_error": 0.0004792664818098378,
+        "diagonal_algebra_leakage": 0.002099465620269299
+      },
+      {
+        "n": 4,
+        "case": 0,
+        "event": 1,
+        "markov_only_population_error": 0.012624019694603505,
+        "diagonal_algebra_leakage": 0.009838144195142446
+      },
+      {
+        "n": 4,
+        "case": 0,
+        "event": 2,
+        "markov_only_population_error": 0.004405943065002161,
+        "diagonal_algebra_leakage": 0.0033208930667883844
+      },
+      {
+        "n": 4,
+        "case": 1,
+        "event": 1,
+        "markov_only_population_error": 0.007183390460015071,
+        "diagonal_algebra_leakage": 0.009453258885544148
+      },
+      {
+        "n": 4,
+        "case": 1,
+        "event": 2,
+        "markov_only_population_error": 0.0019247063323754097,
+        "diagonal_algebra_leakage": 0.0027691558451665137
+      },
+      {
+        "n": 4,
+        "case": 2,
+        "event": 1,
+        "markov_only_population_error": 0.012156620636313084,
+        "diagonal_algebra_leakage": 0.01055668981877313
+      },
+      {
+        "n": 4,
+        "case": 2,
+        "event": 2,
+        "markov_only_population_error": 0.003533032707768519,
+        "diagonal_algebra_leakage": 0.003180903051524869
+      },
+      {
+        "n": 5,
+        "case": 0,
+        "event": 1,
+        "markov_only_population_error": 0.0032873768779496447,
+        "diagonal_algebra_leakage": 0.010472195254642606
+      },
+      {
+        "n": 5,
+        "case": 0,
+        "event": 2,
+        "markov_only_population_error": 0.0010434806459085702,
+        "diagonal_algebra_leakage": 0.0035160969216284583
+      },
+      {
+        "n": 5,
+        "case": 1,
+        "event": 1,
+        "markov_only_population_error": 0.007684261375266313,
+        "diagonal_algebra_leakage": 0.009489745332996367
+      },
+      {
+        "n": 5,
+        "case": 1,
+        "event": 2,
+        "markov_only_population_error": 0.0024112318796391413,
+        "diagonal_algebra_leakage": 0.003217175645517603
+      },
+      {
+        "n": 5,
+        "case": 2,
+        "event": 1,
+        "markov_only_population_error": 0.006179400688570738,
+        "diagonal_algebra_leakage": 0.00955698905777278
+      },
+      {
+        "n": 5,
+        "case": 2,
+        "event": 2,
+        "markov_only_population_error": 0.002300966265393962,
+        "diagonal_algebra_leakage": 0.002908775479927153
+      },
+      {
+        "n": 6,
+        "case": 0,
+        "event": 1,
+        "markov_only_population_error": 0.01340596368950752,
+        "diagonal_algebra_leakage": 0.011523130973487596
+      },
+      {
+        "n": 6,
+        "case": 0,
+        "event": 2,
+        "markov_only_population_error": 0.004265417058730065,
+        "diagonal_algebra_leakage": 0.003581148217054194
+      },
+      {
+        "n": 6,
+        "case": 1,
+        "event": 1,
+        "markov_only_population_error": 0.009675847288495486,
+        "diagonal_algebra_leakage": 0.011755355133440042
+      },
+      {
+        "n": 6,
+        "case": 1,
+        "event": 2,
+        "markov_only_population_error": 0.0031827073927824115,
+        "diagonal_algebra_leakage": 0.004180783629831789
+      },
+      {
+        "n": 6,
+        "case": 2,
+        "event": 1,
+        "markov_only_population_error": 0.016078663326168047,
+        "diagonal_algebra_leakage": 0.012034797199855063
+      },
+      {
+        "n": 6,
+        "case": 2,
+        "event": 2,
+        "markov_only_population_error": 0.005036421961830712,
+        "diagonal_algebra_leakage": 0.003942496872134375
+      }
+    ]
+  },
+  "status": "PASS for conditional population closure and memory; generic population-only factor refuted"
+}

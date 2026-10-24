@@ -1,0 +1,315 @@
+{
+  "scope": "Internal retained graphs and exact channel flux; no physical spatial identification",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "seed": 20261031,
+  "tolerance": 1e-10,
+  "runtime": {
+    "python": "3.12.8",
+    "numpy": "2.2.5",
+    "sympy": "1.14.0"
+  },
+  "exact": {
+    "alpha": "8/133",
+    "h_squared": "961/1001",
+    "coherence_edge_loss": "40/1001",
+    "guessed_current_witnesses": [
+      {
+        "sign": 1,
+        "node_stocks": [
+          "1",
+          "1"
+        ],
+        "kernel_edge_magnitude": "1",
+        "guessed_edge_current": "1/2"
+      },
+      {
+        "sign": -1,
+        "node_stocks": [
+          "1",
+          "1"
+        ],
+        "kernel_edge_magnitude": "1",
+        "guessed_edge_current": "-1/2"
+      }
+    ],
+    "formation_node_flux": "1 - 31*sqrt(1001)/1001",
+    "formation_node_stock_changes": [
+      "-1 + 31*sqrt(1001)/1001",
+      "1 - 31*sqrt(1001)/1001"
+    ],
+    "chain_cycle_dimension": 0,
+    "triangle_cycle_dimension": 1,
+    "triangle_circulation": [
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  "witnesses": {
+    "full_source_calls": 5,
+    "guessed_current_examples": [
+      {
+        "sign": 1,
+        "guessed_current": [
+          [
+            0.0,
+            0.5
+          ],
+          [
+            -0.5,
+            0.0
+          ]
+        ],
+        "continuity_defect": [
+          0.5000000000000002,
+          -0.5000000000000002
+        ]
+      },
+      {
+        "sign": -1,
+        "guessed_current": [
+          [
+            0.0,
+            -0.5
+          ],
+          [
+            0.5,
+            0.0
+          ]
+        ],
+        "continuity_defect": [
+          -0.4999999999999998,
+          0.4999999999999998
+        ]
+      }
+    ],
+    "graph_fiber_input_residual": 0.0,
+    "graph_fiber_output_residual": 0.0,
+    "channel_formation_flux": [
+      [
+        0.0,
+        0.020183711076428336
+      ],
+      [
+        -0.020183711076428336,
+        0.0
+      ]
+    ],
+    "channel_formation_stock_change": [
+      -0.020183711076428468,
+      0.020183711076428468
+    ],
+    "channel_formation_continuity_residual": 1.864484794686983e-16,
+    "triangle": [
+      {
+        "event": 1,
+        "guessed_current_divergence": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "event": 2,
+        "guessed_current_divergence": [
+          0.0023471925532892457,
+          0.00033212815883265634,
+          -0.002679320712121902
+        ]
+      }
+    ]
+  },
+  "full_source": {
+    "preparations": 12,
+    "source_events": 24,
+    "additional_gauge_source_calls": 4,
+    "full_source_calls": 28,
+    "maximum_residuals": {
+      "node": 7.018295727739034e-14,
+      "graph_alpha": 1.1102230246251565e-16,
+      "graph_load": 1.0660394470509803e-15,
+      "formation_edges": 5.338278563768073e-16,
+      "witness_edges": 6.501118160097945e-16,
+      "kernel_edges": 3.780403138984391e-14,
+      "guessed_current_evolution": 2.309080116072806e-15,
+      "hilbert_schmidt_loss": 8.038014698286133e-14,
+      "source_current_continuity": 7.576205451829806e-15,
+      "source_current_antisymmetry": 1.0279970654252085e-15,
+      "gauge_graph": 4.102961335111067e-14,
+      "gauge_source_current": 6.180736560616528e-16
+    },
+    "maximum_actual_formation_node_transfer": 0.030838642420814872,
+    "maximum_failed_mode_current_divergence": 0.9372827434360732,
+    "cases": [
+      {
+        "n": 3,
+        "case": 0,
+        "event": 1,
+        "formation_node_transfer_norm": 0.00428764848905205,
+        "candidate_mode_current_divergence_norm": 0.9372827434360732
+      },
+      {
+        "n": 3,
+        "case": 0,
+        "event": 2,
+        "formation_node_transfer_norm": 0.0012985606078940255,
+        "candidate_mode_current_divergence_norm": 0.9310556244437451
+      },
+      {
+        "n": 3,
+        "case": 1,
+        "event": 1,
+        "formation_node_transfer_norm": 0.030838642420814872,
+        "candidate_mode_current_divergence_norm": 0.526678712988552
+      },
+      {
+        "n": 3,
+        "case": 1,
+        "event": 2,
+        "formation_node_transfer_norm": 0.009811183160299443,
+        "candidate_mode_current_divergence_norm": 0.5195157352422267
+      },
+      {
+        "n": 3,
+        "case": 2,
+        "event": 1,
+        "formation_node_transfer_norm": 0.013816667836165319,
+        "candidate_mode_current_divergence_norm": 0.3877676761366176
+      },
+      {
+        "n": 3,
+        "case": 2,
+        "event": 2,
+        "formation_node_transfer_norm": 0.004772201187386527,
+        "candidate_mode_current_divergence_norm": 0.3818254061490703
+      },
+      {
+        "n": 4,
+        "case": 0,
+        "event": 1,
+        "formation_node_transfer_norm": 0.014566432764392064,
+        "candidate_mode_current_divergence_norm": 0.2741670520594567
+      },
+      {
+        "n": 4,
+        "case": 0,
+        "event": 2,
+        "formation_node_transfer_norm": 0.00317604359296504,
+        "candidate_mode_current_divergence_norm": 0.2726026458862976
+      },
+      {
+        "n": 4,
+        "case": 1,
+        "event": 1,
+        "formation_node_transfer_norm": 0.008338245440567965,
+        "candidate_mode_current_divergence_norm": 0.3748437531456668
+      },
+      {
+        "n": 4,
+        "case": 1,
+        "event": 2,
+        "formation_node_transfer_norm": 0.0035164413743898225,
+        "candidate_mode_current_divergence_norm": 0.37310339126039627
+      },
+      {
+        "n": 4,
+        "case": 2,
+        "event": 1,
+        "formation_node_transfer_norm": 0.028367004165657336,
+        "candidate_mode_current_divergence_norm": 0.5227888712219082
+      },
+      {
+        "n": 4,
+        "case": 2,
+        "event": 2,
+        "formation_node_transfer_norm": 0.008958003661461298,
+        "candidate_mode_current_divergence_norm": 0.5208631263867595
+      },
+      {
+        "n": 5,
+        "case": 0,
+        "event": 1,
+        "formation_node_transfer_norm": 0.004835291709399442,
+        "candidate_mode_current_divergence_norm": 0.72355244479746
+      },
+      {
+        "n": 5,
+        "case": 0,
+        "event": 2,
+        "formation_node_transfer_norm": 0.0014479155439695954,
+        "candidate_mode_current_divergence_norm": 0.7191709885504829
+      },
+      {
+        "n": 5,
+        "case": 1,
+        "event": 1,
+        "formation_node_transfer_norm": 0.01599744546750119,
+        "candidate_mode_current_divergence_norm": 0.8168305388572731
+      },
+      {
+        "n": 5,
+        "case": 1,
+        "event": 2,
+        "formation_node_transfer_norm": 0.0055797015348746214,
+        "candidate_mode_current_divergence_norm": 0.8121689185740625
+      },
+      {
+        "n": 5,
+        "case": 2,
+        "event": 1,
+        "formation_node_transfer_norm": 0.007446567263722147,
+        "candidate_mode_current_divergence_norm": 0.16355701200754172
+      },
+      {
+        "n": 5,
+        "case": 2,
+        "event": 2,
+        "formation_node_transfer_norm": 0.0029305666201120376,
+        "candidate_mode_current_divergence_norm": 0.1638952863926864
+      },
+      {
+        "n": 6,
+        "case": 0,
+        "event": 1,
+        "formation_node_transfer_norm": 0.005069969187800567,
+        "candidate_mode_current_divergence_norm": 0.3859596604031342
+      },
+      {
+        "n": 6,
+        "case": 0,
+        "event": 2,
+        "formation_node_transfer_norm": 0.0016062527854458772,
+        "candidate_mode_current_divergence_norm": 0.38346708382532413
+      },
+      {
+        "n": 6,
+        "case": 1,
+        "event": 1,
+        "formation_node_transfer_norm": 0.00966014562722226,
+        "candidate_mode_current_divergence_norm": 0.5268926302007216
+      },
+      {
+        "n": 6,
+        "case": 1,
+        "event": 2,
+        "formation_node_transfer_norm": 0.0030604978159024655,
+        "candidate_mode_current_divergence_norm": 0.5251118128318483
+      },
+      {
+        "n": 6,
+        "case": 2,
+        "event": 1,
+        "formation_node_transfer_norm": 0.016111104654604816,
+        "candidate_mode_current_divergence_norm": 0.6325399951598825
+      },
+      {
+        "n": 6,
+        "case": 2,
+        "event": 2,
+        "formation_node_transfer_norm": 0.006027372209031747,
+        "candidate_mode_current_divergence_norm": 0.6286747407863713
+      }
+    ]
+  },
+  "status": "PASS for graph closure and source current identity; guessed mode currents fail; physical spatial current OPEN"
+}

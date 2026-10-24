@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-23",
+  "repository": "marceltheodorwende-ops/BalanceFieldResearch",
+  "baseline_commit": "457f23df6d9ccb15cf17916f3c3eac113b23c370",
+  "baseline_tree": "bc1118d5fe65ae7eea9fcb8644cf1357c71aeed4",
+  "active_source": {
+    "path": "papers/dynamic-order-2026-10-08/Balance_Field_Equation_Dynamic_Order.pdf",
+    "sha256": "1ad084a50c91a0827dd735d7cb8f666dc9e0c2552ed06b616cef28975babbdba",
+    "pages": 144,
+    "scope": "Parts I and II; sections II83-86, II89-91.1"
+  },
+  "existing_kernel": {
+    "path": "experiments/real-eeg-covariance-2026-10-07/experiment.py",
+    "git_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+    "sha256": "9f958f66c65795b4ff29b9433f668390dbfd57acc1c8ded32d81305c19f574dd",
+    "entry_point": "update",
+    "usage": "import only; no empirical download/evaluation"
+  },
+  "historical_einstein_document": {
+    "status": "Original not present in inspected branch; not a mathematical premise of this investigation",
+    "register_path": "research/fundamental-closure-2026-09-25/review/SOURCE_SEARCH.md"
+  },
+  "excluded_sources": [
+    "All Satoru/SIO/Braid sources"
+  ],
+  "instructions": {
+    "repository_agents_files": "None in the inspected baseline tree",
+    "unchanged": "Original manuscript, kernel, licenses and empirical results"
+  },
+  "verification_scope": "Local source-exact imported kernel; bounded synthetic/symbolic checks; no empirical or whole-repository correctness claim"
+}
+

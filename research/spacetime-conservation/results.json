@@ -1,0 +1,420 @@
+{
+  "scope": "finite mathematical controls only; no physical or Einstein completion",
+  "source_commit": "457f23df6d9ccb15cf17916f3c3eac113b23c370",
+  "source_git_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "source_sha256": "9f958f66c65795b4ff29b9433f668390dbfd57acc1c8ded32d81305c19f574dd",
+  "seed": 20261023,
+  "tolerance": 1e-10,
+  "runtime": {
+    "python": "3.12.8",
+    "numpy": "2.2.5",
+    "scipy": "1.17.0",
+    "sympy": "1.14.0"
+  },
+  "exact": {
+    "load_C": "22/15",
+    "load_B": "13/60",
+    "alpha": "13/101",
+    "h12_squared": "1152/1295",
+    "null_cone_defect": "143/1295",
+    "tangent_null_defect": "4864/50625",
+    "temporal_spatial_ratio": "14/5",
+    "determinant": "x0**2 - x1**2 - x2**2 - x3**2",
+    "determinant_hessian": [
+      [
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        -2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        -2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        -2
+      ]
+    ]
+  },
+  "full_update": {
+    "preparations": 32,
+    "dimensions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "gauge_controls": 12,
+    "maximum_residuals": {
+      "aligned_kernel": 3.439738666282495e-15,
+      "aligned_load": 2.4251779874566044e-15,
+      "inherited_formation": 1.6843129289961455e-15,
+      "inherited_witness": 9.941861267156102e-16,
+      "trace_kernel": 1.1182243481371942e-15,
+      "trace_formation": 9.59733826556501e-16,
+      "channel_unital": 3.754959186413044e-15,
+      "gauge_kernel": 1.9674178340767203e-15,
+      "gauge_load": 9.026131332278205e-16,
+      "gauge_formation": 1.7132997196119125e-15,
+      "charge_commutant": 9.112443227087657e-16,
+      "hs_dissipation_identity": 2.453072066358031e-15
+    }
+  },
+  "counterexamples": {
+    "fiber_input": [
+      2.0,
+      0.0,
+      2.0,
+      1.0,
+      0.75,
+      1.0
+    ],
+    "energy_weighted_outputs": [
+      0.9431729902702309,
+      1.0000000000000002
+    ],
+    "fiber_successor_gap": 0.056827009729769284,
+    "rank_drop_trace": [
+      -2.0,
+      -1.0
+    ],
+    "seeded_trace": [
+      -3.0,
+      -2.499999999999999
+    ],
+    "seeded_formation": [
+      1.0,
+      2.2499999999999982
+    ],
+    "null_input": 0.0,
+    "null_output": 0.11042471042471036,
+    "pauli_channel": [
+      1.0,
+      0.9431729902702312,
+      0.9431729902702312,
+      1.0
+    ]
+  },
+  "complete_event_flux": {
+    "preparations": 24,
+    "nonterminal": 24,
+    "terminal_count": 0,
+    "max_balance_residual": 4.662786646981064e-16,
+    "max_isometry_trace_residual": 2.6645352591003757e-15,
+    "cases": [
+      {
+        "n": 2,
+        "rank_p": 1,
+        "terminal": null,
+        "successor_dimension": 2,
+        "kernel_change": -2.948879318748771,
+        "signed_outflow": 2.9488793187487703,
+        "residual": 9.902681634466445e-17,
+        "max_export_operator_eigenvalue": 2.0
+      },
+      {
+        "n": 2,
+        "rank_p": 1,
+        "terminal": null,
+        "successor_dimension": 2,
+        "kernel_change": -1.6693175799433213,
+        "signed_outflow": 1.6693175799433217,
+        "residual": 4.6993088579135174e-17,
+        "max_export_operator_eigenvalue": 1.9999999999999996
+      },
+      {
+        "n": 2,
+        "rank_p": 1,
+        "terminal": null,
+        "successor_dimension": 2,
+        "kernel_change": -4.346039632046242,
+        "signed_outflow": 4.346039632046243,
+        "residual": 1.0648848196832939e-16,
+        "max_export_operator_eigenvalue": 1.9999999999999993
+      },
+      {
+        "n": 2,
+        "rank_p": 1,
+        "terminal": null,
+        "successor_dimension": 2,
+        "kernel_change": 0.4852613685342142,
+        "signed_outflow": -0.485261368534213,
+        "residual": 2.482828157167951e-16,
+        "max_export_operator_eigenvalue": 2.000000000000001
+      },
+      {
+        "n": 2,
+        "rank_p": 1,
+        "terminal": null,
+        "successor_dimension": 2,
+        "kernel_change": 3.100880113181506,
+        "signed_outflow": -3.100880113181503,
+        "residual": 3.4024071176208216e-16,
+        "max_export_operator_eigenvalue": 2.0000000000000027
+      },
+      {
+        "n": 2,
+        "rank_p": 1,
+        "terminal": null,
+        "successor_dimension": 2,
+        "kernel_change": 3.547520278034674,
+        "signed_outflow": -3.547520278034674,
+        "residual": 0.0,
+        "max_export_operator_eigenvalue": 2.0
+      },
+      {
+        "n": 3,
+        "rank_p": 1,
+        "terminal": null,
+        "successor_dimension": 2,
+        "kernel_change": 9.337508944964693,
+        "signed_outflow": -9.337508944964695,
+        "residual": 1.4749290330312812e-16,
+        "max_export_operator_eigenvalue": 1.9999999999999991
+      },
+      {
+        "n": 3,
+        "rank_p": 1,
+        "terminal": null,
+        "successor_dimension": 2,
+        "kernel_change": 2.0536497920876595,
+        "signed_outflow": -2.053649792087662,
+        "residual": 2.1188536432982758e-16,
+        "max_export_operator_eigenvalue": 1.999999999999999
+      },
+      {
+        "n": 3,
+        "rank_p": 1,
+        "terminal": null,
+        "successor_dimension": 2,
+        "kernel_change": 11.485154210922312,
+        "signed_outflow": -11.485154210922312,
+        "residual": 0.0,
+        "max_export_operator_eigenvalue": 2.0
+      },
+      {
+        "n": 3,
+        "rank_p": 1,
+        "terminal": null,
+        "successor_dimension": 2,
+        "kernel_change": -2.0647232282979147,
+        "signed_outflow": 2.0647232282979093,
+        "residual": 4.2053156453325227e-16,
+        "max_export_operator_eigenvalue": 2.0
+      },
+      {
+        "n": 3,
+        "rank_p": 1,
+        "terminal": null,
+        "successor_dimension": 2,
+        "kernel_change": -0.009558080449139084,
+        "signed_outflow": 0.009558080449136419,
+        "residual": 1.6045353163256074e-16,
+        "max_export_operator_eigenvalue": 2.0
+      },
+      {
+        "n": 3,
+        "rank_p": 1,
+        "terminal": null,
+        "successor_dimension": 2,
+        "kernel_change": 22.827999306492448,
+        "signed_outflow": -22.827999306492444,
+        "residual": 1.4160130473412196e-16,
+        "max_export_operator_eigenvalue": 2.0
+      },
+      {
+        "n": 4,
+        "rank_p": 2,
+        "terminal": null,
+        "successor_dimension": 4,
+        "kernel_change": 19.323299123023432,
+        "signed_outflow": -19.323299123023435,
+        "residual": 1.203527472328286e-16,
+        "max_export_operator_eigenvalue": 2.000000000000001
+      },
+      {
+        "n": 4,
+        "rank_p": 2,
+        "terminal": null,
+        "successor_dimension": 4,
+        "kernel_change": -1.8938101316328861,
+        "signed_outflow": 1.893810131632884,
+        "residual": 1.3774398947893917e-16,
+        "max_export_operator_eigenvalue": 1.9999999999999996
+      },
+      {
+        "n": 4,
+        "rank_p": 2,
+        "terminal": null,
+        "successor_dimension": 4,
+        "kernel_change": 16.374959091913485,
+        "signed_outflow": -16.37495909191348,
+        "residual": 1.3733670564825116e-16,
+        "max_export_operator_eigenvalue": 1.9999999999999996
+      },
+      {
+        "n": 4,
+        "rank_p": 2,
+        "terminal": null,
+        "successor_dimension": 4,
+        "kernel_change": 0.6358821480794816,
+        "signed_outflow": -0.6358821480794833,
+        "residual": 8.517060628255755e-17,
+        "max_export_operator_eigenvalue": 1.9999999999999993
+      },
+      {
+        "n": 4,
+        "rank_p": 2,
+        "terminal": null,
+        "successor_dimension": 4,
+        "kernel_change": 2.4914040957957724,
+        "signed_outflow": -2.491404095795777,
+        "residual": 2.0353511807553255e-16,
+        "max_export_operator_eigenvalue": 2.0000000000000013
+      },
+      {
+        "n": 4,
+        "rank_p": 2,
+        "terminal": null,
+        "successor_dimension": 4,
+        "kernel_change": 0.21017030308273021,
+        "signed_outflow": -0.2101703030827331,
+        "residual": 1.3010526454894e-16,
+        "max_export_operator_eigenvalue": 2.0000000000000004
+      },
+      {
+        "n": 5,
+        "rank_p": 2,
+        "terminal": null,
+        "successor_dimension": 4,
+        "kernel_change": 9.285504771870116,
+        "signed_outflow": -9.28550477187012,
+        "residual": 1.0137081979264921e-16,
+        "max_export_operator_eigenvalue": 2.0000000000000027
+      },
+      {
+        "n": 5,
+        "rank_p": 2,
+        "terminal": null,
+        "successor_dimension": 4,
+        "kernel_change": -0.49491071737055137,
+        "signed_outflow": 0.4949107173705496,
+        "residual": 6.259962263593656e-17,
+        "max_export_operator_eigenvalue": 2.0
+      },
+      {
+        "n": 5,
+        "rank_p": 2,
+        "terminal": null,
+        "successor_dimension": 4,
+        "kernel_change": -2.260370732410337,
+        "signed_outflow": 2.26037073241034,
+        "residual": 1.2004804892281229e-16,
+        "max_export_operator_eigenvalue": 2.0
+      },
+      {
+        "n": 5,
+        "rank_p": 2,
+        "terminal": null,
+        "successor_dimension": 4,
+        "kernel_change": -1.821332379527064,
+        "signed_outflow": 1.8213323795270782,
+        "residual": 4.662786646981064e-16,
+        "max_export_operator_eigenvalue": 2.0000000000000004
+      },
+      {
+        "n": 5,
+        "rank_p": 2,
+        "terminal": null,
+        "successor_dimension": 4,
+        "kernel_change": 12.0653893610803,
+        "signed_outflow": -12.065389361080298,
+        "residual": 7.041175551483566e-17,
+        "max_export_operator_eigenvalue": 2.0000000000000004
+      },
+      {
+        "n": 5,
+        "rank_p": 2,
+        "terminal": null,
+        "successor_dimension": 4,
+        "kernel_change": 15.769214825761413,
+        "signed_outflow": -15.769214825761415,
+        "residual": 8.847284182046619e-17,
+        "max_export_operator_eigenvalue": 2.0
+      }
+    ],
+    "trajectory": {
+      "nonterminal_steps": 5,
+      "terminal": null,
+      "numerical_stop": {
+        "event": 6,
+        "error": "Positive loads but zero analysis rank",
+        "maximum_load_eigenvalue": 3.871527745204309e-14
+      },
+      "initial_trace": -19.57549353818751,
+      "final_trace": -21.852446908687398,
+      "cumulative_signed_flux": 2.2769533704998937,
+      "residual": 3.552713678800501e-15
+    }
+  },
+  "geometry": {
+    "positive_cone_controls": 16,
+    "determinant_residual": 2.9947087965355413e-15,
+    "unitary_residual": 1.7282049777441158e-15,
+    "sl2_comparison_residual": 2.395767037228426e-15,
+    "minimum_output_eigenvalue": 0.2385449207283595,
+    "positive_pullback_dimensions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "minimum_pullback_eigenvalues": [
+      1.1425209206281535,
+      1.21231438517095,
+      3.072739818491379,
+      3.4034890343986532
+    ]
+  },
+  "derivative": {
+    "analytic_temporal": 0.33185185185185184,
+    "analytic_spatial": 0.11851851851851852,
+    "analytic_determinant": 0.09607901234567902,
+    "central_differences": [
+      {
+        "h": 0.0001,
+        "norm_error": 1.380560974961931e-08,
+        "determinant": 0.09607900731843931
+      },
+      {
+        "h": 1e-05,
+        "norm_error": 1.3133821540898973e-10,
+        "determinant": 0.09607901229974622
+      },
+      {
+        "h": 1e-06,
+        "norm_error": 8.991547509202789e-11,
+        "determinant": 0.09607901238717359
+      }
+    ]
+  },
+  "scalar": {
+    "exact_scalar_rational_cases": 19,
+    "driven_input": 0.15,
+    "driven_fixed_point": 0.0559621901841689,
+    "clock_identity_at_fixed_point": "N(y*)-N(y*)=0, not 1",
+    "invariant_theorem_boundary": "continuous at attracting limit; other invariants fixed"
+  },
+  "status": "PARTIAL: finite assertions pass; six-event trajectory numerically stops at event 6; physical gates OPEN"
+}

@@ -1,0 +1,114 @@
+{
+  "status": "PASS: coupled two-level relative-boundary limit; full-source uniform lifting OPEN",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "tolerance": 1e-10,
+  "seed": 20261109,
+  "symbolic_h_squared": "1/(r**4 + r**2 + 1)",
+  "symbolic_amplitude_successor": "r/(r**2 + 1)",
+  "generic_quadratic_shape_defect": [
+    "1/3",
+    "-2/3",
+    "1/3"
+  ],
+  "full_source_calls": 14,
+  "maximum_source_residual": 3.326454690733296e-15,
+  "maximum_gauge_residual": 4.150024017875261e-15,
+  "maximum_finite_boundary_shape_error": 0.00039373222616189747,
+  "boundary_scaling": [
+    {
+      "epsilon": 0.1,
+      "boundary_iterations": 50,
+      "scaled_amplitude": 0.706491157559563,
+      "kernel_decay": 0.8394745268414726,
+      "amplitude_error": 0.0006156236269845294,
+      "decay_error": 0.0014218884122418896
+    },
+    {
+      "epsilon": 0.05,
+      "boundary_iterations": 200,
+      "scaled_amplitude": 0.7069534315145105,
+      "kernel_decay": 0.8405421574657315,
+      "amplitude_error": 0.00015334967203706196,
+      "decay_error": 0.00035425778798303664
+    },
+    {
+      "epsilon": 0.025,
+      "boundary_iterations": 800,
+      "scaled_amplitude": 0.707068478344286,
+      "kernel_decay": 0.8408079267427043,
+      "amplitude_error": 3.830284226158387e-05,
+      "decay_error": 8.84885110101763e-05
+    },
+    {
+      "epsilon": 0.0125,
+      "boundary_iterations": 3200,
+      "scaled_amplitude": 0.7070972076340287,
+      "kernel_decay": 0.8408742978725449,
+      "amplitude_error": 9.573552518848949e-06,
+      "decay_error": 2.211738116963957e-05
+    }
+  ],
+  "source_cases": [
+    {
+      "n": 2,
+      "r": 0.1,
+      "finite_source_to_boundary_shape_error": 0.0002784107271219069
+    },
+    {
+      "n": 2,
+      "r": 0.05,
+      "finite_source_to_boundary_shape_error": 0.0001407536145890232
+    },
+    {
+      "n": 2,
+      "r": 0.025,
+      "finite_source_to_boundary_shape_error": 7.057398378845737e-05
+    },
+    {
+      "n": 2,
+      "r": 0.0125,
+      "finite_source_to_boundary_shape_error": 3.53117545119645e-05
+    },
+    {
+      "n": 4,
+      "r": 0.1,
+      "finite_source_to_boundary_shape_error": 0.00039373222616189747
+    },
+    {
+      "n": 4,
+      "r": 0.05,
+      "finite_source_to_boundary_shape_error": 0.00019905567076619184
+    },
+    {
+      "n": 4,
+      "r": 0.025,
+      "finite_source_to_boundary_shape_error": 9.980668493421126e-05
+    },
+    {
+      "n": 4,
+      "r": 0.0125,
+      "finite_source_to_boundary_shape_error": 4.993836212587326e-05
+    },
+    {
+      "n": 3,
+      "r": 0.1,
+      "finite_source_to_boundary_shape_error": 0.0002807041157785314
+    },
+    {
+      "n": 3,
+      "r": 0.05,
+      "finite_source_to_boundary_shape_error": 0.0001410455699806059
+    },
+    {
+      "n": 3,
+      "r": 0.025,
+      "finite_source_to_boundary_shape_error": 7.061064586258405e-05
+    },
+    {
+      "n": 3,
+      "r": 0.0125,
+      "finite_source_to_boundary_shape_error": 3.531634257942688e-05
+    }
+  ],
+  "scope": "Boundary iterations are not complete source trajectories; no physical clock selected"
+}

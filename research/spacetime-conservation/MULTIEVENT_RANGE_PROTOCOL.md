@@ -1,0 +1,9 @@
+# Vorabprotokoll: Mehrereignis-Reichweite im anfänglichen Graphen
+
+Ausgangscommit 89f6daed61f630c1ee7b797948cf5330aba5a320; BFG-Vollpersistenzklasse C. Standardmathematik wird auf die unveränderte Quelle angewendet.
+
+Kandidat: Der N-Ereignis-Krausvektor v_N(t) ist das Tensorprodukt der normierten Zweigvektoren entlang der tatsächlichen alpha-Folge und phi_k(t). Seine Ableitungsnorm ist die Quadratwurzel der Summe der quadrierten Winkelableitungen. Eine Vektor-Bernsteinapproximation vom Grad d im anfänglichen Spektralintervall hat Fehler epsilon <= L_N (M0-m0)/(2 sqrt(d)). Jeder approximierte Krausoperator ist ein Polynom in Y0 vom Grad d. Im anfänglichen Y0-Trägergraphen kann er deshalb keine Distanz >d überbrücken. Für positive, anfangs auf S unterstützte Kernel folgt die gesamte Population außerhalb des d-Balls <= min(1,epsilon²) tr(K0). Keine Veränderung der echten Dynamik oder Behauptung einer strikten endlichen Reichweite.
+
+Vor Auswertung festgelegt: symbolische Zwei-Faktor-Tensornormidentität; n=6,10,14 mit Y0=I/4+A_Pfad/40, F=diag(1,...,n), W=I/n; je drei Ereignisse für eine Punktmasse und einen positiven kohärenten Rang-eins-Kernel auf den ersten zwei Knoten. Drei zusätzliche unitäre Kontrollen: insgesamt 21 vollständige Quellaufrufe. Bernstein-Grade d=1,2,3. Berechne konservative L_N-Schranken aus den spektralen Intervallenden, alle echten Kraus-Wörter und den Vektorapproximationfehler. Prüfe Fehler- und gesamte Tail-Schranken sowie Geometriekovarianz mit absolutem Rundungszuschlag 1e-10. Dokumentiere auch schwache oder triviale Schranken; keine nachträgliche Anpassung von Grad, Präparation oder Toleranz.
+
+Grenzen: festes endliches N und zustands-/folgenabhängige Schranken, globale alpha-Rückkopplung bleibt. Keine physikalischen Meter, Sekunden, translationssymmetrische Wirkung oder Energie-Impuls-Herleitung. Sehr kleine Tails werden nur absolut kontrolliert.

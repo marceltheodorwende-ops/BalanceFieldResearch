@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "seed": 20261121,
+  "symbolic": {
+    "exact_defect_identity": "(ell\u00b2+u\u00b2)(ell\u00b2+v\u00b2)-(ell\u00b2+uv)\u00b2=ell\u00b2(v-u)\u00b2",
+    "single_event": "1-h<=chi\u00b2/2",
+    "formation_lower": "ell\u00b2>=M\u00b2/[n*kappa*(1+M)]",
+    "conditioned_gap_bound": "1-h<=3*n*kappa*eta\u00b2/4",
+    "counterfamily_chi_squared_limit": "2/5",
+    "counterfamily_bound_limit": "1/5, not zero"
+  },
+  "source": {
+    "calls": 9,
+    "kernel_residual": 6.557897197895601e-16,
+    "load_residual": 2.3507910043935894e-17,
+    "gauge_residual": 1.0309476579756622e-15,
+    "cases": [
+      {
+        "n": 3,
+        "formation_condition": 1.0,
+        "ell_squared": 0.00046120066223422003,
+        "ell_squared_lower": 0.0001875,
+        "chi_squared": 8.673014432855602e-05,
+        "eta": 0.0499999999999997,
+        "one_step_loss": 1.2321914882873486e-05,
+        "chi_loss_bound": 4.336507216427801e-05,
+        "conditioned_gap_loss_bound": 0.005624999999999932
+      },
+      {
+        "n": 3,
+        "formation_condition": 4.0,
+        "ell_squared": 0.0004556944316369036,
+        "ell_squared_lower": 4.6875e-05,
+        "chi_squared": 8.777811889496916e-05,
+        "eta": 0.0499999999999997,
+        "one_step_loss": 1.2331260055509219e-05,
+        "chi_loss_bound": 4.388905944748458e-05,
+        "conditioned_gap_loss_bound": 0.02249999999999973
+      },
+      {
+        "n": 3,
+        "formation_condition": 16.0,
+        "ell_squared": 0.0005119180591471708,
+        "ell_squared_lower": 1.171875e-05,
+        "chi_squared": 7.813750518322692e-05,
+        "eta": 0.0499999999999997,
+        "one_step_loss": 1.220419818914742e-05,
+        "chi_loss_bound": 3.906875259161346e-05,
+        "conditioned_gap_loss_bound": 0.08999999999999891
+      },
+      {
+        "n": 4,
+        "formation_condition": 1.0,
+        "ell_squared": 0.0004781305652115233,
+        "ell_squared_lower": 0.000140625,
+        "chi_squared": 8.365915695497035e-05,
+        "eta": 0.06666666666666628,
+        "one_step_loss": 1.2288609879895773e-05,
+        "chi_loss_bound": 4.1829578477485174e-05,
+        "conditioned_gap_loss_bound": 0.013333333333333178
+      },
+      {
+        "n": 4,
+        "formation_condition": 4.0,
+        "ell_squared": 0.0004823060919498736,
+        "ell_squared_lower": 3.515625e-05,
+        "chi_squared": 8.293488443881556e-05,
+        "eta": 0.06666666666666628,
+        "one_step_loss": 1.2279403627024621e-05,
+        "chi_loss_bound": 4.146744221940778e-05,
+        "conditioned_gap_loss_bound": 0.05333333333333271
+      },
+      {
+        "n": 4,
+        "formation_condition": 16.0,
+        "ell_squared": 0.0004855354693735319,
+        "ell_squared_lower": 8.7890625e-06,
+        "chi_squared": 8.238327068382875e-05,
+        "eta": 0.06666666666666628,
+        "one_step_loss": 1.2272030413984503e-05,
+        "chi_loss_bound": 4.119163534191437e-05,
+        "conditioned_gap_loss_bound": 0.21333333333333085
+      }
+    ]
+  },
+  "scope": "Formation-aware one-step and conditional finite-history bounds. No automatic summability or physical conservation inferred."
+}

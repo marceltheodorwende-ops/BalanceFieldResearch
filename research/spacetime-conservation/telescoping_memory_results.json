@@ -1,0 +1,162 @@
+{
+  "status": "PASS",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "seed": 20261122,
+  "symbolic": {
+    "curvature_lower": "256*beta/625",
+    "derivative_upper": "2*beta*M",
+    "relative_gap_decrement": "1-eta_next/eta >= 64*(y3-y2)/(625*M)",
+    "comparison_constant": "3125*n*kappa/[512*(1-eta0)]",
+    "telescoping": "sum chi_j\u00b2/2 <= C0*(eta0\u00b2-etaN\u00b2)",
+    "scope": "M<=1/4 in invariant class C; fixed full persistence"
+  },
+  "positive_load_prefixes": [
+    {
+      "initial_eta": ".01",
+      "formation_condition": 1,
+      "events": 6,
+      "precision_digits": 500,
+      "final_M": "3.07166331446414339e-50",
+      "final_eta": "0.00265851245621101803",
+      "half_chi_squared_sum": "0.0000242862743704768782",
+      "defect_sum": "0.0000110495121744274983",
+      "coherence_product": "0.999988950519907098",
+      "uniform_loss_bound": "0.00246606691919191919",
+      "remaining_half_chi_sum_bound": "0.000174293927552604662"
+    },
+    {
+      "initial_eta": ".01",
+      "formation_condition": 4,
+      "events": 6,
+      "precision_digits": 500,
+      "final_M": "1.15278190047813352e-47",
+      "final_eta": "0.00340675639059545988",
+      "half_chi_squared_sum": "0.0000172964019755696501",
+      "defect_sum": "8.83036785465681583e-6",
+      "coherence_product": "0.999991169648787778",
+      "uniform_loss_bound": "0.00986426767676767677",
+      "remaining_half_chi_sum_bound": "0.00114484583184017969"
+    },
+    {
+      "initial_eta": ".01",
+      "formation_condition": 16,
+      "events": 6,
+      "precision_digits": 500,
+      "final_M": "4.54577099522898842e-46",
+      "final_eta": "0.00380720869410506582",
+      "half_chi_squared_sum": "0.0000141293030849831932",
+      "defect_sum": "7.71847678797818897e-6",
+      "coherence_product": "0.999992281534153917",
+      "uniform_loss_bound": "0.0394570707070707071",
+      "remaining_half_chi_sum_bound": "0.00571923849450331464"
+    },
+    {
+      "initial_eta": ".1",
+      "formation_condition": 1,
+      "events": 6,
+      "precision_digits": 500,
+      "final_M": "4.42942109176504531e-50",
+      "final_eta": "0.0296038745347569511",
+      "half_chi_squared_sum": "0.00247065106239271496",
+      "defect_sum": "0.0010865165020080833",
+      "coherence_product": "0.998913808979084473",
+      "uniform_loss_bound": "0.271267361111111111",
+      "remaining_half_chi_sum_bound": "0.0237735836444669891"
+    },
+    {
+      "initial_eta": ".1",
+      "formation_condition": 4,
+      "events": 6,
+      "precision_digits": 500,
+      "final_M": "1.42769221223022875e-47",
+      "final_eta": "0.0371722015350370625",
+      "half_chi_squared_sum": "0.00176428666314595644",
+      "defect_sum": "0.000870020489882465264",
+      "coherence_product": "0.999130151335389402",
+      "uniform_loss_bound": "1",
+      "remaining_half_chi_sum_bound": "0.149931919158139296"
+    },
+    {
+      "initial_eta": ".1",
+      "formation_condition": 16,
+      "events": 6,
+      "precision_digits": 500,
+      "final_M": "5.05732866274158163e-46",
+      "final_eta": "0.0411798511034848454",
+      "half_chi_squared_sum": "0.00144509339130911825",
+      "defect_sum": "0.000762438088820124128",
+      "coherence_product": "0.999237676575453161",
+      "uniform_loss_bound": "1",
+      "remaining_half_chi_sum_bound": "0.736015684420651926"
+    }
+  ],
+  "source": {
+    "calls": 9,
+    "kernel_residual": 9.786377569983968e-16,
+    "load_residual": 5.192575747860466e-17,
+    "gauge_residual": 1.6905839730415743e-15,
+    "cases": [
+      {
+        "n": 3,
+        "formation_condition": 1.0,
+        "eta": 0.0016666666666667145,
+        "eta_next": 0.00116742076910882,
+        "one_step_loss": 3.101035576102973e-07,
+        "half_chi_squared": 7.068858470503638e-07,
+        "telescoping_step_bound": 2.5950963867761732e-05,
+        "uniform_loss_bound": 5.0947542779635655e-05
+      },
+      {
+        "n": 3,
+        "formation_condition": 4.0,
+        "eta": 0.0016666666666667145,
+        "eta_next": 0.0011683784144267296,
+        "one_step_loss": 3.118488707265499e-07,
+        "half_chi_squared": 7.193634573935011e-07,
+        "telescoping_step_bound": 0.00010363974891678651,
+        "uniform_loss_bound": 0.00020379017111854262
+      },
+      {
+        "n": 3,
+        "formation_condition": 16.0,
+        "eta": 0.0016666666666667145,
+        "eta_next": 0.0011752443392222189,
+        "one_step_loss": 3.2429993901406107e-07,
+        "half_chi_squared": 8.250677762763492e-07,
+        "telescoping_step_bound": 0.0004098369250879267,
+        "uniform_loss_bound": 0.0008151606844741705
+      },
+      {
+        "n": 4,
+        "formation_condition": 1.0,
+        "eta": 0.0020000000000000564,
+        "eta_next": 0.0014563234947558364,
+        "one_step_loss": 2.9271130763675046e-07,
+        "half_chi_squared": 6.02140088395296e-07,
+        "telescoping_step_bound": 4.59689368635311e-05,
+        "uniform_loss_bound": 9.785195390782114e-05
+      },
+      {
+        "n": 4,
+        "formation_condition": 4.0,
+        "eta": 0.0020000000000000564,
+        "eta_next": 0.001458018941538348,
+        "one_step_loss": 2.953430376928523e-07,
+        "half_chi_squared": 6.161345861986891e-07,
+        "telescoping_step_bound": 0.00018339224994086032,
+        "uniform_loss_bound": 0.00039140781563128455
+      },
+      {
+        "n": 4,
+        "formation_condition": 16.0,
+        "eta": 0.0020000000000000564,
+        "eta_next": 0.0014571421888740176,
+        "one_step_loss": 2.939782128841273e-07,
+        "half_chi_squared": 6.088088329520806e-07,
+        "telescoping_step_bound": 0.0007345693893269597,
+        "uniform_loss_bound": 0.0015656312625251382
+      }
+    ]
+  },
+  "scope": "All-event conditioned lower-pair memory in class C with M<=1/4, n>=3 and y1<y2<y3. No upper block assumption. Not physical energy-momentum conservation."
+}

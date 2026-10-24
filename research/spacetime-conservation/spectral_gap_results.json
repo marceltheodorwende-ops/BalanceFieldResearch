@@ -1,0 +1,56 @@
+{
+  "status": "PASS: geometric contraction; formation-free memory candidate disproved",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "seed": 20261120,
+  "symbolic": {
+    "alpha": "(8*e**12 + 6*e**10 + e**8 + 48*e**7 + 48*e**6 + 20*e**5 + 20*e**4)/(8*e**12 + 14*e**10 + 7*e**8 + 48*e**7 + 49*e**6 + 20*e**5 + 20*e**4 + 6*e**3 + 6*e**2 + 2*e + 2)",
+    "eta": "-2*e/(2*e - 1)",
+    "eta_next": "(160*e**16 + 320*e**15 + 344*e**14 + 368*e**13 + 252*e**12 - 440*e**11 - 1652*e**10 - 1952*e**9 - 1288*e**8 - 664*e**7 - 72*e**6 + 192*e**5 + 128*e**4 + 72*e**3 + 24*e**2)/(512*e**18 - 1024*e**17 + 1024*e**16 - 1536*e**15 + 896*e**14 + 2176*e**13 + 3504*e**12 + 4864*e**11 + 2934*e**10 + 604*e**9 + 913*e**8 - 1250*e**7 + 209*e**6 - 452*e**5 + 84*e**4 - 34*e**3 + 22*e**2 + 2*e + 2)",
+    "h_squared": "(4096*e**20 + 7168*e**18 + 4928*e**16 + 1696*e**14 + 12288*e**13 + 12596*e**12 + 15360*e**11 + 15388*e**10 + 6720*e**9 + 6721*e**8 + 1200*e**7 + 10416*e**6 + 18504*e**5 + 16200*e**4 + 13824*e**3 + 8208*e**2 + 2592*e + 1296)/(4096*e**20 + 7424*e**18 + 5312*e**16 + 1904*e**14 + 13824*e**13 + 14180*e**12 + 17344*e**11 + 17376*e**10 + 7600*e**9 + 7601*e**8 + 1352*e**7 + 11720*e**6 + 20816*e**5 + 18224*e**4 + 15552*e**3 + 9232*e**2 + 2912*e + 1456)",
+    "limits": {
+      "eta": "0",
+      "alpha_over_e4": "10",
+      "h_squared": "81/91",
+      "h": "9/sqrt(91)",
+      "one_step_loss": "1-9/sqrt(91) > 0",
+      "eta_next_over_eta": "0"
+    }
+  },
+  "source": {
+    "calls": 6,
+    "kernel_residual": 2.0822232086893435e-15,
+    "load_residual": 1.7299735885826536e-17,
+    "gauge_residual": 8.300522302177386e-15,
+    "gap_residual": 5.689893001203927e-16,
+    "cases": [
+      {
+        "epsilon": 0.1,
+        "formation_min_eigenvalue": 1.0000000000000004e-06,
+        "initial_eta": 0.25,
+        "next_eta": 0.1366402261250147,
+        "lower_h": 0.9434231545585281,
+        "one_step_loss": 0.0565768454414719,
+        "m_equals_2M_squared": true
+      },
+      {
+        "epsilon": 0.05,
+        "formation_min_eigenvalue": 1.5625000000000006e-08,
+        "initial_eta": 0.1111111111111111,
+        "next_eta": 0.03247507339676516,
+        "lower_h": 0.9434478007668806,
+        "one_step_loss": 0.05655219923311938,
+        "m_equals_2M_squared": true
+      },
+      {
+        "epsilon": 0.025,
+        "formation_min_eigenvalue": 2.441406250000001e-10,
+        "initial_eta": 0.05263157894736842,
+        "next_eta": 0.007840482336735633,
+        "lower_h": 0.9434541986265368,
+        "one_step_loss": 0.05654580137346321,
+        "m_equals_2M_squared": true
+      }
+    ]
+  },
+  "scope": "No uniform lower-coherence bound tending to zero with ordered gap ratio alone for arbitrary positive F. Formation-aware or richer geometric bounds remain open."
+}

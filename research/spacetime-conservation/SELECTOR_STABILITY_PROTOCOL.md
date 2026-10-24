@@ -1,0 +1,7 @@
+# Round 32 preregistration: stability of the spectral two-mode selector
+
+Candidate P2(Y)=projector onto the two smallest eigenvalues. Derive elementary Sylvester/Frobenius bound for Hermitian Y and E with gap g=lambda3-lambda2>0, epsilon=||E||2<g/2: ||P2(Y+E)-P2(Y)||F <=2epsilon/(g-epsilon). Prove through cross-eigenspace equation, not a fitted physical transport law. For the source sector C, test preservation of the selected subspace under the exact aligned source.
+
+Predeclared gap-closing family Y_t=diag(.1,.1+t,.1+2t), and Ytilde_t=R Y_t R† with fixed real rotation theta=pi/12 in modes 2,3. F=I,W=K=I/3. Test ||Ytilde-Y||2=t sin(theta) ->0 but ||Ptilde-P||F=sqrt(2)sin(theta)>0, showing no uniform absolute-error continuity across the limiting triple degeneracy. At the fully isotropic limiting state, test covariance obstruction for a rank-two projector; do not infer impossibility for selectors using nonsymmetric additional state data.
+
+Fresh source calls t=.01,.005,.0025 for both families (six), plus two simultaneous complex unitary gauges: total eight. Tolerance1e-10 for source load/projector and covariance identities. Six independent random Hermitian perturbation controls n=3,4 crossed epsilon/g=.01,.1,.25, tolerance1e-12 for inequality. Exact trigonometric family identities/Sylvester proof primary. No long low-rank trajectory, no unique physical inter-event transport inferred. Existing local memory theorem retained.

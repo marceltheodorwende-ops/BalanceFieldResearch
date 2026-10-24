@@ -1,0 +1,290 @@
+{
+  "scope": "Stable spectral pair with nonzero formation or witness reference; internal frame only",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "seed": 20261028,
+  "tolerance": 1e-10,
+  "runtime": {
+    "python": "3.12.8",
+    "numpy": "2.2.5",
+    "sympy": "1.14.0"
+  },
+  "exact": {
+    "formation_amplitude": "1/2",
+    "witness_amplitude": "sqrt(5)/30",
+    "formation_coordinates": [
+      "1/2",
+      "-1",
+      "2",
+      "3/2"
+    ],
+    "witness_coordinates": [
+      "1/2",
+      "sqrt(5)",
+      "0",
+      "3/2"
+    ],
+    "relative_phase": "-sqrt(5)*(1 - 2*I)/5",
+    "relative_rotation_cos": "-sqrt(5)/5",
+    "relative_rotation_sin": "2*sqrt(5)/5",
+    "alpha": "119/1993",
+    "h_squared": "9048258/9159761",
+    "phase_boundary_paths": [
+      {
+        "epsilon": "1/10",
+        "squared_frame_distance": "4"
+      },
+      {
+        "epsilon": "1/1000",
+        "squared_frame_distance": "4"
+      }
+    ]
+  },
+  "source_witnesses": {
+    "full_source_calls": 2,
+    "cases": [
+      {
+        "witness_fallback": false,
+        "input_coordinates": [
+          0.5,
+          -1.0,
+          2.0,
+          1.5
+        ],
+        "successor_coordinates": [
+          0.49999999999999967,
+          -0.9938947961370513,
+          1.9877895922741025,
+          1.5
+        ],
+        "component_residual": 4.577566798522237e-16
+      },
+      {
+        "witness_fallback": true,
+        "input_coordinates": [
+          0.5,
+          2.2360679774997902,
+          0.0,
+          1.5
+        ],
+        "successor_coordinates": [
+          0.49999999999999967,
+          2.2224163266457424,
+          0.0,
+          1.5
+        ],
+        "component_residual": 3.3306690738754696e-16
+      }
+    ]
+  },
+  "full_source": {
+    "preparations": 12,
+    "source_events": 24,
+    "additional_gauge_source_calls": 8,
+    "full_source_calls": 32,
+    "minimum_formation_amplitude": 1.7565024128983524,
+    "maximum_residuals": {
+      "pauli": 5.773169200595062e-15,
+      "frame_transport": 4.299332160005253e-14,
+      "component_update": 5.4323043553944215e-14,
+      "reference_coordinates": 1.4598921977866167e-13,
+      "gauge_frame": 1.8352939797044794e-14,
+      "gauge_components": 5.1730691498176434e-14,
+      "reference_rotation": 3.789317542634767e-15
+    },
+    "cases": [
+      {
+        "n": 3,
+        "case": 0,
+        "event": 1,
+        "formation_amplitude": 2.021879211529232,
+        "frame_transport_residual": 9.997234720340394e-15,
+        "component_residual": 2.548832455930955e-15
+      },
+      {
+        "n": 3,
+        "case": 0,
+        "event": 2,
+        "formation_amplitude": 2.0218792115292277,
+        "frame_transport_residual": 0.0,
+        "component_residual": 1.5735385869920192e-16
+      },
+      {
+        "n": 3,
+        "case": 1,
+        "event": 1,
+        "formation_amplitude": 1.7587200530094322,
+        "frame_transport_residual": 1.1099909811109762e-14,
+        "component_residual": 1.1753691591446055e-14
+      },
+      {
+        "n": 3,
+        "case": 1,
+        "event": 2,
+        "formation_amplitude": 1.758720053009435,
+        "frame_transport_residual": 0.0,
+        "component_residual": 3.188872858294072e-16
+      },
+      {
+        "n": 3,
+        "case": 2,
+        "event": 1,
+        "formation_amplitude": 3.5995969409967334,
+        "frame_transport_residual": 5.76118213194525e-15,
+        "component_residual": 4.994152896317098e-15
+      },
+      {
+        "n": 3,
+        "case": 2,
+        "event": 2,
+        "formation_amplitude": 3.599596940996732,
+        "frame_transport_residual": 0.0,
+        "component_residual": 5.688200336284365e-16
+      },
+      {
+        "n": 4,
+        "case": 0,
+        "event": 1,
+        "formation_amplitude": 8.895861496735,
+        "frame_transport_residual": 1.7693258178015903e-14,
+        "component_residual": 1.144687856808023e-14
+      },
+      {
+        "n": 4,
+        "case": 0,
+        "event": 2,
+        "formation_amplitude": 8.895861496734982,
+        "frame_transport_residual": 0.0,
+        "component_residual": 2.5589376332604516e-16
+      },
+      {
+        "n": 4,
+        "case": 1,
+        "event": 1,
+        "formation_amplitude": 1.993430468075649,
+        "frame_transport_residual": 1.3496384461979718e-14,
+        "component_residual": 4.374475960321599e-15
+      },
+      {
+        "n": 4,
+        "case": 1,
+        "event": 2,
+        "formation_amplitude": 1.9934304680756407,
+        "frame_transport_residual": 0.0,
+        "component_residual": 1.4686870114880517e-16
+      },
+      {
+        "n": 4,
+        "case": 2,
+        "event": 1,
+        "formation_amplitude": 8.20006007833587,
+        "frame_transport_residual": 5.1337373253360936e-15,
+        "component_residual": 4.7843560251125936e-15
+      },
+      {
+        "n": 4,
+        "case": 2,
+        "event": 2,
+        "formation_amplitude": 8.200060078335863,
+        "frame_transport_residual": 0.0,
+        "component_residual": 1.1102230246251565e-16
+      },
+      {
+        "n": 5,
+        "case": 0,
+        "event": 1,
+        "formation_amplitude": 1.7641490125371937,
+        "frame_transport_residual": 2.4468852488904243e-14,
+        "component_residual": 2.0033681463244466e-14
+      },
+      {
+        "n": 5,
+        "case": 0,
+        "event": 2,
+        "formation_amplitude": 1.7641490125372001,
+        "frame_transport_residual": 0.0,
+        "component_residual": 2.9893669801409083e-16
+      },
+      {
+        "n": 5,
+        "case": 1,
+        "event": 1,
+        "formation_amplitude": 6.267802371079214,
+        "frame_transport_residual": 3.895545691041118e-14,
+        "component_residual": 3.1440929970205196e-14
+      },
+      {
+        "n": 5,
+        "case": 1,
+        "event": 2,
+        "formation_amplitude": 6.2678023710792665,
+        "frame_transport_residual": 0.0,
+        "component_residual": 2.0014830212433605e-16
+      },
+      {
+        "n": 5,
+        "case": 2,
+        "event": 1,
+        "formation_amplitude": 1.7565024128983524,
+        "frame_transport_residual": 4.299332160005253e-14,
+        "component_residual": 5.4323043553944215e-14
+      },
+      {
+        "n": 5,
+        "case": 2,
+        "event": 2,
+        "formation_amplitude": 1.7565024128984024,
+        "frame_transport_residual": 0.0,
+        "component_residual": 4.965068306494546e-16
+      },
+      {
+        "n": 6,
+        "case": 0,
+        "event": 1,
+        "formation_amplitude": 6.553415043929393,
+        "frame_transport_residual": 2.0990423479298555e-14,
+        "component_residual": 1.217005241152233e-14
+      },
+      {
+        "n": 6,
+        "case": 0,
+        "event": 2,
+        "formation_amplitude": 6.5534150439293395,
+        "frame_transport_residual": 0.0,
+        "component_residual": 2.3551386880256624e-16
+      },
+      {
+        "n": 6,
+        "case": 1,
+        "event": 1,
+        "formation_amplitude": 5.111407905687466,
+        "frame_transport_residual": 2.2160926593935563e-14,
+        "component_residual": 2.0136780098197307e-14
+      },
+      {
+        "n": 6,
+        "case": 1,
+        "event": 2,
+        "formation_amplitude": 5.111407905687352,
+        "frame_transport_residual": 0.0,
+        "component_residual": 4.710277376051325e-16
+      },
+      {
+        "n": 6,
+        "case": 2,
+        "event": 1,
+        "formation_amplitude": 2.29899453966977,
+        "frame_transport_residual": 1.9335084526665986e-14,
+        "component_residual": 2.892392008291243e-14
+      },
+      {
+        "n": 6,
+        "case": 2,
+        "event": 2,
+        "formation_amplitude": 2.298994539669696,
+        "frame_transport_residual": 0.0,
+        "component_residual": 7.065416064076988e-16
+      }
+    ]
+  },
+  "status": "PASS for relational frame and internal transport; physical space/current/Einstein OPEN"
+}

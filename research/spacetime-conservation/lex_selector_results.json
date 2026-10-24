@@ -1,0 +1,736 @@
+{
+  "scope": "C with Y degeneracies; Y/F/W lexicographic selector only where no unresolved block straddles rank two",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "seed": 20261030,
+  "tolerance": 1e-10,
+  "runtime": {
+    "python": "3.12.8",
+    "numpy": "2.2.5",
+    "sympy": "1.14.0"
+  },
+  "exact": {
+    "collision_selected_indices_zero_based": [
+      1,
+      0
+    ],
+    "witness_fallback_indices_zero_based": [
+      0,
+      1
+    ],
+    "symmetric_state_unresolved": true,
+    "discontinuous_selection_path": [
+      {
+        "epsilon": "0",
+        "indices_zero_based": [
+          0,
+          2
+        ]
+      },
+      {
+        "epsilon": "1/1000",
+        "indices_zero_based": [
+          0,
+          1
+        ]
+      },
+      {
+        "epsilon": "1/100000",
+        "indices_zero_based": [
+          0,
+          1
+        ]
+      }
+    ],
+    "equal_load_alpha": "76/1101",
+    "equal_load_pair_factor": "h=1",
+    "equal_load_F_positive_principal_minors": [
+      "1",
+      "2",
+      "47/8",
+      "9353/400"
+    ],
+    "equal_load_W_positive_principal_minors": [
+      "1/4",
+      "19/320",
+      "19/1280",
+      "19/5120"
+    ]
+  },
+  "witnesses": {
+    "full_source_calls": 3,
+    "selection_witnesses": [
+      {
+        "kind": "collision",
+        "residuals": {
+          "projector": 0.0,
+          "pair_kernel": 2.826166425630795e-15,
+          "pair_load": 3.1031676915590914e-17,
+          "alpha": 0.0
+        },
+        "terminal_block_ranks": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "kind": "witness",
+        "residuals": {
+          "projector": 0.0,
+          "pair_kernel": 9.930136612989092e-16,
+          "pair_load": 8.092071311423672e-17,
+          "alpha": 2.0816681711721685e-17
+        },
+        "terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "equal_load_coordinates": [
+      0.5,
+      -0.447213595499958,
+      -1.341640786499874,
+      1.5
+    ],
+    "equal_load_successor_coordinates": [
+      0.49999999999999983,
+      -0.4472135954999578,
+      -1.3416407864998734,
+      1.4999999999999996
+    ],
+    "equal_load_charge_residual": 8.345155887641791e-16,
+    "equal_load_global_kernel_change": 0.01548117469719118,
+    "equal_load_factor_residuals": {
+      "projector": 0.0,
+      "pair_kernel": 9.992007221626409e-16,
+      "pair_load": 1.962615573354719e-17,
+      "alpha": 4.163336342344337e-17
+    },
+    "symmetric_selector_returned_unresolved": true
+  },
+  "full_source": {
+    "preparations": 12,
+    "source_events": 24,
+    "additional_gauge_source_calls": 4,
+    "full_source_calls": 28,
+    "maximum_residuals": {
+      "projector": 1.9046999712647678e-13,
+      "pair_kernel": 9.44277347790571e-15,
+      "pair_load": 1.608505342488731e-16,
+      "alpha": 8.326672684688674e-17,
+      "gauge_projector": 5.4762381197165855e-15,
+      "gauge_successor": 2.8766755776832206e-14
+    },
+    "cases": [
+      {
+        "n": 3,
+        "case": 0,
+        "event": 1,
+        "witness_needed": false,
+        "terminal_block_ranks": [
+          1,
+          1,
+          1
+        ],
+        "successor_terminal_block_ranks": [
+          1,
+          1,
+          1
+        ],
+        "residuals": {
+          "projector": 1.9395294572719844e-15,
+          "pair_kernel": 7.485599141974625e-16,
+          "pair_load": 3.3558609587450935e-17,
+          "alpha": 2.7755575615628914e-17
+        }
+      },
+      {
+        "n": 3,
+        "case": 0,
+        "event": 2,
+        "witness_needed": false,
+        "terminal_block_ranks": [
+          1,
+          1,
+          1
+        ],
+        "successor_terminal_block_ranks": [
+          1,
+          1,
+          1
+        ],
+        "residuals": {
+          "projector": 2.987324783302649e-15,
+          "pair_kernel": 8.480089124405529e-16,
+          "pair_load": 2.7173486134255136e-17,
+          "alpha": 1.1275702593849246e-17
+        }
+      },
+      {
+        "n": 3,
+        "case": 1,
+        "event": 1,
+        "witness_needed": true,
+        "terminal_block_ranks": [
+          1,
+          1,
+          1
+        ],
+        "successor_terminal_block_ranks": [
+          1,
+          1,
+          1
+        ],
+        "residuals": {
+          "projector": 2.9105000029879435e-15,
+          "pair_kernel": 1.3979380056786694e-15,
+          "pair_load": 8.52620625995776e-17,
+          "alpha": 5.551115123125783e-17
+        }
+      },
+      {
+        "n": 3,
+        "case": 1,
+        "event": 2,
+        "witness_needed": true,
+        "terminal_block_ranks": [
+          1,
+          1,
+          1
+        ],
+        "successor_terminal_block_ranks": [
+          1,
+          1,
+          1
+        ],
+        "residuals": {
+          "projector": 5.765423348954125e-15,
+          "pair_kernel": 4.942945598521152e-16,
+          "pair_load": 4.4446537304573437e-17,
+          "alpha": 1.9949319973733282e-17
+        }
+      },
+      {
+        "n": 3,
+        "case": 2,
+        "event": 1,
+        "witness_needed": false,
+        "terminal_block_ranks": [
+          1,
+          1,
+          1
+        ],
+        "successor_terminal_block_ranks": [
+          1,
+          1,
+          1
+        ],
+        "residuals": {
+          "projector": 4.409349054575558e-15,
+          "pair_kernel": 1.5296940064644482e-15,
+          "pair_load": 4.393905277735839e-17,
+          "alpha": 3.469446951953614e-17
+        }
+      },
+      {
+        "n": 3,
+        "case": 2,
+        "event": 2,
+        "witness_needed": false,
+        "terminal_block_ranks": [
+          1,
+          1,
+          1
+        ],
+        "successor_terminal_block_ranks": [
+          1,
+          1,
+          1
+        ],
+        "residuals": {
+          "projector": 1.7616337901441494e-15,
+          "pair_kernel": 5.649334404820727e-16,
+          "pair_load": 2.845133230602679e-17,
+          "alpha": 8.673617379884035e-18
+        }
+      },
+      {
+        "n": 4,
+        "case": 0,
+        "event": 1,
+        "witness_needed": false,
+        "terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "successor_terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "residuals": {
+          "projector": 7.072246821255151e-14,
+          "pair_kernel": 1.9265994107758856e-15,
+          "pair_load": 1.4776302628904722e-16,
+          "alpha": 2.7755575615628914e-17
+        }
+      },
+      {
+        "n": 4,
+        "case": 0,
+        "event": 2,
+        "witness_needed": false,
+        "terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "successor_terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "residuals": {
+          "projector": 1.6894002487293148e-14,
+          "pair_kernel": 1.7354066749834814e-15,
+          "pair_load": 4.6220448753553895e-18,
+          "alpha": 5.204170427930421e-18
+        }
+      },
+      {
+        "n": 4,
+        "case": 1,
+        "event": 1,
+        "witness_needed": true,
+        "terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "successor_terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "residuals": {
+          "projector": 1.3511692446776084e-14,
+          "pair_kernel": 8.255645899764194e-16,
+          "pair_load": 5.586557821181906e-17,
+          "alpha": 0.0
+        }
+      },
+      {
+        "n": 4,
+        "case": 1,
+        "event": 2,
+        "witness_needed": true,
+        "terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "successor_terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "residuals": {
+          "projector": 8.694807856703839e-15,
+          "pair_kernel": 1.1119265723670727e-15,
+          "pair_load": 2.877793199891056e-17,
+          "alpha": 1.0408340855860843e-17
+        }
+      },
+      {
+        "n": 4,
+        "case": 2,
+        "event": 1,
+        "witness_needed": false,
+        "terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "successor_terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "residuals": {
+          "projector": 1.1036206593916893e-14,
+          "pair_kernel": 2.1044275660310233e-15,
+          "pair_load": 4.525677604699606e-17,
+          "alpha": 6.938893903907228e-18
+        }
+      },
+      {
+        "n": 4,
+        "case": 2,
+        "event": 2,
+        "witness_needed": false,
+        "terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "successor_terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "residuals": {
+          "projector": 1.6825976447446943e-14,
+          "pair_kernel": 1.6940204867920121e-15,
+          "pair_load": 9.409023655661969e-18,
+          "alpha": 9.540979117872439e-18
+        }
+      },
+      {
+        "n": 5,
+        "case": 0,
+        "event": 1,
+        "witness_needed": false,
+        "terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "successor_terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "residuals": {
+          "projector": 1.0198669320659964e-14,
+          "pair_kernel": 2.1530669757010353e-15,
+          "pair_load": 7.80256725498158e-17,
+          "alpha": 1.3877787807814457e-17
+        }
+      },
+      {
+        "n": 5,
+        "case": 0,
+        "event": 2,
+        "witness_needed": false,
+        "terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "successor_terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "residuals": {
+          "projector": 3.095327097861313e-14,
+          "pair_kernel": 1.5587459847822204e-15,
+          "pair_load": 3.144116772181849e-17,
+          "alpha": 1.6479873021779667e-17
+        }
+      },
+      {
+        "n": 5,
+        "case": 1,
+        "event": 1,
+        "witness_needed": true,
+        "terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "successor_terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "residuals": {
+          "projector": 1.742702616860904e-14,
+          "pair_kernel": 2.5625516446514366e-15,
+          "pair_load": 1.608505342488731e-16,
+          "alpha": 5.551115123125783e-17
+        }
+      },
+      {
+        "n": 5,
+        "case": 1,
+        "event": 2,
+        "witness_needed": true,
+        "terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "successor_terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "residuals": {
+          "projector": 2.4993183063596903e-14,
+          "pair_kernel": 1.7287088889510148e-15,
+          "pair_load": 9.236730597008749e-18,
+          "alpha": 2.6020852139652106e-18
+        }
+      },
+      {
+        "n": 5,
+        "case": 2,
+        "event": 1,
+        "witness_needed": false,
+        "terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "successor_terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "residuals": {
+          "projector": 1.6044298285599975e-14,
+          "pair_kernel": 1.7572823263697024e-15,
+          "pair_load": 8.893939652889718e-17,
+          "alpha": 2.7755575615628914e-17
+        }
+      },
+      {
+        "n": 5,
+        "case": 2,
+        "event": 2,
+        "witness_needed": false,
+        "terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "successor_terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "residuals": {
+          "projector": 2.383087927816811e-14,
+          "pair_kernel": 9.199951182056854e-16,
+          "pair_load": 1.063930638718368e-17,
+          "alpha": 8.673617379884035e-19
+        }
+      },
+      {
+        "n": 6,
+        "case": 0,
+        "event": 1,
+        "witness_needed": false,
+        "terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "successor_terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "residuals": {
+          "projector": 1.832669248287565e-14,
+          "pair_kernel": 1.3389395912517646e-15,
+          "pair_load": 2.805233839103761e-17,
+          "alpha": 4.163336342344337e-17
+        }
+      },
+      {
+        "n": 6,
+        "case": 0,
+        "event": 2,
+        "witness_needed": false,
+        "terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "successor_terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "residuals": {
+          "projector": 4.057176339257999e-14,
+          "pair_kernel": 1.9255505920015407e-15,
+          "pair_load": 2.6916658250906612e-17,
+          "alpha": 4.336808689942018e-18
+        }
+      },
+      {
+        "n": 6,
+        "case": 1,
+        "event": 1,
+        "witness_needed": true,
+        "terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "successor_terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "residuals": {
+          "projector": 2.214811859062976e-14,
+          "pair_kernel": 2.5981795064853253e-15,
+          "pair_load": 8.327982324703337e-17,
+          "alpha": 1.3877787807814457e-17
+        }
+      },
+      {
+        "n": 6,
+        "case": 1,
+        "event": 2,
+        "witness_needed": true,
+        "terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "successor_terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "residuals": {
+          "projector": 5.421337148046981e-14,
+          "pair_kernel": 7.090823958526844e-15,
+          "pair_load": 9.665007656370626e-18,
+          "alpha": 6.071532165918825e-18
+        }
+      },
+      {
+        "n": 6,
+        "case": 2,
+        "event": 1,
+        "witness_needed": false,
+        "terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "successor_terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "residuals": {
+          "projector": 2.8553586584649474e-14,
+          "pair_kernel": 2.4281907589978054e-15,
+          "pair_load": 1.3983788630109078e-16,
+          "alpha": 8.326672684688674e-17
+        }
+      },
+      {
+        "n": 6,
+        "case": 2,
+        "event": 2,
+        "witness_needed": false,
+        "terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "successor_terminal_block_ranks": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "residuals": {
+          "projector": 1.9046999712647678e-13,
+          "pair_kernel": 9.44277347790571e-15,
+          "pair_load": 2.009222590137511e-17,
+          "alpha": 3.469446951953614e-18
+        }
+      }
+    ]
+  },
+  "status": "PASS for conditional retained selector/factor; spatial current and Einstein OPEN",
+  "numerical_grouping": {
+    "minimum_resolved_gap_over_tolerance": 2301174.992833006,
+    "maximum_within_group_spread_over_tolerance": 2.664535259100374e-05,
+    "exact_degeneracy_law_is_not_a_tolerance": true
+  }
+}

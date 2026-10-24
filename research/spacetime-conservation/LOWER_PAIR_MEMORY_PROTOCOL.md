@@ -1,0 +1,5 @@
+# Lower-pair memory preregistration (round 24)
+
+Scope fixed before evaluation: same n=4 lower-splitting family as FINITE_SPLITTING_DERIVATION.md, 0<r<=1/4, 0<q=b/r<=1/2. Test V=b²/r as a boundary Lyapunov function; prove V-V_next>=b² and infer all-event local kernel coherence loss. Independently test exact positive-load pair multiplier h=(rho+c²-b²)/sqrt((rho+c²-b²)²+4rho b²), c=1-r, rho=alpha/((1-alpha)s²)>0. Target 1-h<=32 b²/35. Do not infer summability along the full positive-load trajectory from the boundary proof.
+
+Fresh checks: exact symbolic recurrence/multiplier identities; four boundary trajectories (r=.1,.2 crossed q=.1,.5), 2000 events each, product and tail bounds; eight original-source one-event controls (same r,q crossed s=.001,.0001), plus two simultaneous complex-unitary gauge controls. Tolerance 1e-10 for kernel/gauge residuals, 1e-8 for normalized load coordinates. Source import pinned by existing audit. No matrix long trajectory below numerical rank cutoff. No physical clock or energy interpretation.

@@ -1,0 +1,206 @@
+{
+  "status": "PASS: finite nonlinear boundary exit above and invariant contraction cone below",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "tolerance": 1e-10,
+  "normalized_tolerance": 1e-08,
+  "seed": 20261114,
+  "symbolic": {
+    "mu": "1+r**2+b**2/2",
+    "r_successor": "(r+sigma*b**2/4)/mu",
+    "b_successor": "(1+sigma*r)*b/mu",
+    "upper_relative": "q*(1+r)/(1+q**2*r/4)",
+    "lower_relative": "q*(1-r)/(1-q**2*r/4)",
+    "comparison_inverse_square_increment": "14481/6400 < 5/2"
+  },
+  "boundary": [
+    {
+      "epsilon": 0.1,
+      "initial_relative_width": 0.010000000000000002,
+      "boundary_horizon": 200,
+      "proved_exit_upper_bound": 120,
+      "upper": {
+        "exit_step": 50,
+        "exit_type": "relative_width",
+        "r": 0.07263356046577799,
+        "q": 0.5282364437242104
+      },
+      "lower": {
+        "r": 0.04468513495075059,
+        "q": 2.755238997846274e-08,
+        "stays_in_cone": true
+      }
+    },
+    {
+      "epsilon": 0.05,
+      "initial_relative_width": 0.0025000000000000005,
+      "boundary_horizon": 800,
+      "proved_exit_upper_bound": 321,
+      "upper": {
+        "exit_step": 124,
+        "exit_type": "relative_width",
+        "r": 0.040450532991578345,
+        "q": 0.5129439674886179
+      },
+      "lower": {
+        "r": 0.022356174564175973,
+        "q": 3.010716069138635e-14,
+        "stays_in_cone": true
+      }
+    },
+    {
+      "epsilon": 0.025,
+      "initial_relative_width": 0.0006250000000000001,
+      "boundary_horizon": 3200,
+      "proved_exit_upper_bound": 806,
+      "upper": {
+        "exit_step": 295,
+        "exit_type": "relative_width",
+        "r": 0.02204237887867459,
+        "q": 0.5096658895193092
+      },
+      "lower": {
+        "r": 0.01117977737401289,
+        "q": 1.3944947720008601e-25,
+        "stays_in_cone": true
+      }
+    },
+    {
+      "epsilon": 0.0125,
+      "initial_relative_width": 0.00015625000000000003,
+      "boundary_horizon": 12800,
+      "proved_exit_upper_bound": 1942,
+      "upper": {
+        "exit_step": 684,
+        "exit_type": "relative_width",
+        "r": 0.011703839509907422,
+        "q": 0.5005424915291903
+      },
+      "lower": {
+        "r": 0.005590099648376284,
+        "q": 1.1794615758400296e-47,
+        "stays_in_cone": true
+      }
+    }
+  ],
+  "source": {
+    "full_source_calls": 18,
+    "maximum_rational_source_load_residual": 1.362194736833471e-18,
+    "maximum_normalized_coordinate_residual": 7.10403957882022e-13,
+    "maximum_gauge_load_residual": 1.7348859459195006e-18,
+    "cases": [
+      {
+        "r": 0.1,
+        "q": 0.1,
+        "s": 0.001,
+        "split_block": "upper",
+        "source_relative_width": 0.10995081772483024
+      },
+      {
+        "r": 0.1,
+        "q": 0.1,
+        "s": 0.0001,
+        "split_block": "upper",
+        "source_relative_width": 0.10997033400339816
+      },
+      {
+        "r": 0.1,
+        "q": 0.1,
+        "s": 0.001,
+        "split_block": "lower",
+        "source_relative_width": 0.09004023234095278
+      },
+      {
+        "r": 0.1,
+        "q": 0.1,
+        "s": 0.0001,
+        "split_block": "lower",
+        "source_relative_width": 0.09002428155151236
+      },
+      {
+        "r": 0.1,
+        "q": 0.5,
+        "s": 0.001,
+        "split_block": "upper",
+        "source_relative_width": 0.5464833052684848
+      },
+      {
+        "r": 0.1,
+        "q": 0.5,
+        "s": 0.0001,
+        "split_block": "upper",
+        "source_relative_width": 0.546573778114693
+      },
+      {
+        "r": 0.1,
+        "q": 0.5,
+        "s": 0.001,
+        "split_block": "lower",
+        "source_relative_width": 0.45291432810300075
+      },
+      {
+        "r": 0.1,
+        "q": 0.5,
+        "s": 0.0001,
+        "split_block": "lower",
+        "source_relative_width": 0.45283861818184434
+      },
+      {
+        "r": 0.05,
+        "q": 0.1,
+        "s": 0.001,
+        "split_block": "upper",
+        "source_relative_width": 0.1049764515756893
+      },
+      {
+        "r": 0.05,
+        "q": 0.1,
+        "s": 0.0001,
+        "split_block": "upper",
+        "source_relative_width": 0.10498583223511111
+      },
+      {
+        "r": 0.05,
+        "q": 0.1,
+        "s": 0.001,
+        "split_block": "lower",
+        "source_relative_width": 0.09502131099401166
+      },
+      {
+        "r": 0.05,
+        "q": 0.1,
+        "s": 0.0001,
+        "split_block": "lower",
+        "source_relative_width": 0.0950128216421138
+      },
+      {
+        "r": 0.05,
+        "q": 0.5,
+        "s": 0.001,
+        "split_block": "upper",
+        "source_relative_width": 0.5233158092426566
+      },
+      {
+        "r": 0.05,
+        "q": 0.5,
+        "s": 0.0001,
+        "split_block": "upper",
+        "source_relative_width": 0.523359609541816
+      },
+      {
+        "r": 0.05,
+        "q": 0.5,
+        "s": 0.001,
+        "split_block": "lower",
+        "source_relative_width": 0.47653360908786374
+      },
+      {
+        "r": 0.05,
+        "q": 0.5,
+        "s": 0.0001,
+        "split_block": "lower",
+        "source_relative_width": 0.4764934944011248
+      }
+    ]
+  },
+  "scope": "Nonlinear quantitative exit is a boundary theorem; positive-load monotonicity is exact, long-source exit rate OPEN"
+}

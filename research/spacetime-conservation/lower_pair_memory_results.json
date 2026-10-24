@@ -1,0 +1,118 @@
+{
+  "status": "PASS",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "seed": 20261115,
+  "symbolic": {
+    "V": "b\u00b2/r",
+    "V_successor_ratio": "(1 - r)**2/((-q**2*r/4 + 1)*(q**2*r**2/2 + r**2 + 1))",
+    "proved_decrement": "V-V_next >= b\u00b2",
+    "positive_source_local_bound": "1-h <= b\u00b2/(2(c\u00b2-b\u00b2)) <= 32 b\u00b2/35"
+  },
+  "boundary": [
+    {
+      "r0": 0.1,
+      "q0": 0.1,
+      "events": 2000,
+      "sum_b_squared": 0.0005048668536452888,
+      "initial_V": 0.0010000000000000005,
+      "remaining_sum_bound": 2.6949078256903237e-52,
+      "coherence_product": 0.9996944392398169,
+      "all_event_loss_bound": 0.0009142857142857147
+    },
+    {
+      "r0": 0.1,
+      "q0": 0.5,
+      "events": 2000,
+      "sum_b_squared": 0.012762741805284807,
+      "initial_V": 0.025000000000000005,
+      "remaining_sum_bound": 1.4925080919605824e-50,
+      "coherence_product": 0.9923229229830165,
+      "all_event_loss_bound": 0.02285714285714286
+    },
+    {
+      "r0": 0.2,
+      "q0": 0.1,
+      "events": 2000,
+      "sum_b_squared": 0.001036061136782331,
+      "initial_V": 0.002000000000000001,
+      "remaining_sum_bound": 1.8218087749769356e-56,
+      "coherence_product": 0.9992522617612195,
+      "all_event_loss_bound": 0.0018285714285714294
+    },
+    {
+      "r0": 0.2,
+      "q0": 0.5,
+      "events": 2000,
+      "sum_b_squared": 0.02608083750065734,
+      "initial_V": 0.05000000000000001,
+      "remaining_sum_bound": 8.297633591305688e-55,
+      "coherence_product": 0.9814104261335831,
+      "all_event_loss_bound": 0.04571428571428572
+    }
+  ],
+  "source": {
+    "calls": 10,
+    "kernel_residual": 1.4489873655004605e-14,
+    "gauge_residual": 4.5553831773951015e-14,
+    "normalized_load_residual": 1.7965978694889795e-12,
+    "cases": [
+      {
+        "r": 0.1,
+        "q": 0.1,
+        "s": 0.001,
+        "h": 0.9999390161027216,
+        "local_loss_bound": 9.142857142857146e-05
+      },
+      {
+        "r": 0.1,
+        "q": 0.1,
+        "s": 0.0001,
+        "h": 0.9999390162226022,
+        "local_loss_bound": 9.142857142857146e-05
+      },
+      {
+        "r": 0.1,
+        "q": 0.5,
+        "s": 0.001,
+        "h": 0.9984749319878747,
+        "local_loss_bound": 0.002285714285714286
+      },
+      {
+        "r": 0.1,
+        "q": 0.5,
+        "s": 0.0001,
+        "h": 0.9984749353406639,
+        "local_loss_bound": 0.002285714285714286
+      },
+      {
+        "r": 0.2,
+        "q": 0.1,
+        "s": 0.001,
+        "h": 0.9997052134948128,
+        "local_loss_bound": 0.00036571428571428584
+      },
+      {
+        "r": 0.2,
+        "q": 0.1,
+        "s": 0.0001,
+        "h": 0.9997052183701434,
+        "local_loss_bound": 0.00036571428571428584
+      },
+      {
+        "r": 0.2,
+        "q": 0.5,
+        "s": 0.001,
+        "h": 0.9926327477059368,
+        "local_loss_bound": 0.009142857142857144
+      },
+      {
+        "r": 0.2,
+        "q": 0.5,
+        "s": 0.0001,
+        "h": 0.9926328828196257,
+        "local_loss_bound": 0.009142857142857144
+      }
+    ]
+  },
+  "scope": "Uniform all-event memory at boundary; exact one-event positive-source bound. Positive-source summability OPEN."
+}
