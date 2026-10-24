@@ -230,3 +230,6 @@ Runde46: [Energieerwartung der Quantenkandidaten](QUANTUM_ENERGY_READOUT.md) wen
 
 
 Runde47: [Kanalregister und Energieerwartungsrest](CHANNEL_REGISTER_ENERGY.md) prüft die natürliche C/B-Reservoiralternative auf Darstellungsniveau. Vollständiges Registerbild verliert die für entgegengesetzte Defekte relevante Witnesskohärenz; beliebige additive registerlokale Energie kann das Offdiagonalhindernis nicht beheben. Explizite Quell-/Darstellungstrennung, keine allgemeine Interaktionsenergie-No-Go-Behauptung. Vier Originalkontrollen.
+
+
+Runde48: [Positivität alternativer Energie-Zustandskompensation](ENERGY_STATE_POSITIVITY.md) zeigt die Grenze des naheliegenden inversen Kanalzustands: positive Ausgangsdichten existieren nicht universell, bei strikt positivem Zeugen liegt die Zielenergie sogar außerhalb des K_out-Spektralintervalls. Positive gemischte Einzelkompensation bleibt als begrenzte Alternative erhalten. Vier Originalkontrollen.

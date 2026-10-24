@@ -634,3 +634,12 @@ Vier frische Originalaufrufe und exakte Symbolkontrollen bestanden; Eichrest<2.1
 Daher kann die additive Bilanz K+e0 I=Phi(K)+V†(R tensor I)V für irgendein Hermitesches Register-R nur bei [K,Y]=0 gelten. Exakte positive Witnesspaare haben identisches vollständiges Gamma, aber Defekte±0.0100918555382141. Auch Registerkohärenzen statt bloßer C/B-Wahrscheinlichkeiten helfen dieser Kandidatenklasse nicht. Allgemeine gekoppelte Wechselwirkungsenergien oder andere physikalische Brücken werden nicht ausgeschlossen.
 
 Vier frische Originalereignisse (x/y-Kohärenzpaare) und exakte symbolische Kontrollen bestanden, Registergleichheitsrest0. Dokumentation ohne Audit-/Workflow-/Quellcodeänderung oder neuen Remote-Pass. Nächste Abhängigkeit: quellenbegründete K-/kohärenzabhängige Kopplung oder andere unabhängig definierte Energieablesung; Raum/Uhr/Impulsbrücke offen.
+
+
+## Runde48: Positivitätsgrenze alternativer Energie-Zustandskompensation
+
+[ENERGY_STATE_POSITIVITY.md](ENERGY_STATE_POSITIVITY.md) prüft die Alternative einer anderen physikalischen Ausgangsdichte bei H proportional K, ohne W_+=W zu ändern. Erwartungserhaltung für jedes K erzwingt rho_out=Phi^(-1)(rho); bei h<1 ist diese inverse Abbildung nicht positiv auf allen Dichten. Für rho_r=(I+r sigma_x)/2 ist sie genau bei |r|<=h zulässig.
+
+Strikt positiver r=.99-Zeuge: Eigenwerte199/200,1/200, aber inverse Dichte negativer Eigenwert. Stärker: Eingangsenergie2.99 liegt über der maximal möglichen positiven Ausgangserwartung2+h≈2.9798162889; keine beliebige Ausgangsdichte kann diesen einzelnen K ohne zusätzliche Energie erhalten. Der gemischte r=.5-Fall bleibt als mathematisch positive Einzelkompensation erhalten. Andere H-Abbildungen/offene Systeme/eingeschränkte physikalische Präparationen nicht ausgeschlossen.
+
+Vier frische Originalereignisse und symbolischer Quadratvergleich bestanden, Eichrest<7.7e-16. Dokumentation ohne Audit-/Workflow-/Quellcodeänderung oder neuen Remote-Pass. Nächste Abhängigkeit: unabhängig festgelegte H-/Präparationsbrücke oder vollständige gekoppelte Austauschbilanz; Raum/Uhr/Impulsbrücke offen.

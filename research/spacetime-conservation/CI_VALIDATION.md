@@ -355,3 +355,8 @@ Vier frische vollständige Originalereignisse bestanden: positive K± bei gleich
 ## Runde47: additive Kanalregisterenergie (Dokumentation)
 
 Frisch lokal PASS: vier vollständige Originalereignisse bei positiven x/y-Witnesspaaren; identische vollständige Registermarginalen mit Differenzrest0, entgegengesetzte Witnessdefekte±0.010091855538214123. Symbolische Isometrie, Registermatrix [[516,155sqrt10],[155sqrt10,485]]/1001 und Offdiagonalhindernis für beliebiges komplex Hermitesches R exakt geprüft. Mathematik der Registerdarstellung und tatsächliche Quellregel W_+=W ausdrücklich getrennt. Vollständige Reproduktion in CHANNEL_REGISTER_CHECKS.md. Keine Audit-/Workflow-/Originalcodeänderung, kein neuer Remote-CI-Pass; letzter Remote-geprüfter Code unverändert7d0cc91bf7d1023a9c3cd32f127e52ef5d8722f9 mit beiden Runde38-Läufen oben. Publikationsdateien am exakten Commit textgleich zurücklesen.
+
+
+## Runde48: Positivität der Zustandskompensation (Dokumentation)
+
+Frisch lokal PASS: vier vollständige Originalereignisse r=1,.99,.5 plus komplexer Eichfall. Symbolisch (.99)^2-h²=200801/10010000>0 und inverse Eigenwerte(1±r/h)/2. Inverse Minima≈-0.01029974257,-0.00519674514,+0.24485012872. Strikt positiver r=.99-Eingang hat Energie2.99 oberhalb Ausgangsspektralmaximum2.9798162889235718. Universelle/spezielle Existenzgrenzen algebraisch getrennt von numerischer Kontrolle; Eichrest7.65897505568125e-16. Reproduktion in ENERGY_STATE_CHECKS.md. Keine Audit-/Workflow-/Originalcodeänderung, kein neuer Remote-CI-Pass; letzter Remote-geprüfter Code unverändert7d0cc91bf7d1023a9c3cd32f127e52ef5d8722f9 mit beiden Runde38-Läufen oben. Publikationsdateien am exakten Commit textgleich zurücklesen.
