@@ -242,3 +242,8 @@ Runde50: [Nur-K-Energieoperator-Klassifikation](K_ONLY_ENERGY_CLASSIFICATION.md)
 
 
 Runde51: [Witness-gewichtete Formationsenergie](WITNESS_FORMATION_ENERGY.md) liefert eine konstruktiv erhaltene Paarung tr(WF) und ganze gewichtete F-Spektralverteilung durch gemeinsame R4-Isometrie und Witness-orthogonale Seeds. Allgemeine Anfangsselektion bleibt konditionierend; direkte F-Energiehypothese von physikalischer Identifikation getrennt. Fünf finale Originalkontrollen samt Alternativen.
+
+
+## Runde52: positive lokale Witness-Formationsbilanz
+
+[WITNESS_FORMATION_LOCALIZATION.md](WITNESS_FORMATION_LOCALIZATION.md) beweist unter gemeinsamer F/W-Retention für R_F=sqrt(F)Wsqrt(F) und R_W=sqrt(W)Fsqrt(W) den exakten internen Transport R_out=V R_in V†. Beide haben Spur tr(WF); positive mitbewegte Effekte behalten ihre Beiträge, orthogonaler Seed/Komplement tragen0. Exakter Zweimodenzeuge zeigt unterschiedliche lokale Beiträge trotz gleicher globaler Energie, gleichem Spektrum und gleichem Transport. Jordan-Hermitisierung ist nicht allgemein positiv (Determinante -45/16). Vier frische Originalkontrollen PASS; Code/Rohdaten in WITNESS_LOCAL_CHECKS.md. Physikalische Regionen, Lokalisierungsregel, Uhr, räumlicher Fluss und Impuls-/Generatorbrücke bleiben offen. Keine Quell-/Audit-/Workflowänderung, kein neuer Remote-CI-Pass.
