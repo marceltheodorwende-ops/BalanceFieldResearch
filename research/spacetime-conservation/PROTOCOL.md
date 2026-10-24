@@ -276,3 +276,12 @@ Frisch: eine allgemeine komplexe positive auf P unterstützte W-Präparation (Zu
 
 
 Auswertung Runde56: rationale Rangfolge4,5,6,6; exakter minimaler gemeinsamer Anfangs-/Zukunftsraum mit zwei zusätzlichen affinen Ablesungen. Zukunftsbeweis durch volle Persistenz und Funktionskalkül ohne neue Spektralachsen;0<H<I explizit zertifiziert. Sechs Originalereignisse in einem Lauf PASS ohne Fehler; anschließend ergänzter I-H-Guard im gesamten rationalen/Rekonstruktionspräfix separat frisch PASS,0 weitere Originalaufrufe. Keine universelle Sechs-Komponenten- oder physikalische Impulsidentifikation. WITNESS_OBSERVABLE_COMPLETION.md und WITNESS_OBSERVABLE_COMPLETION_CHECKS.md; keine Quell-/Audit-/Workflowänderung.
+
+
+## Runde57 – vorab: Generatorverträglichkeit direkter F-Energie
+
+Quellenanlass: Manuskript§23/55 fordert eigenständige Uhr und Endpoint-Flow-Gleichheit,§26 unterscheidet Witness-/Formationszustandsbrücken. Prüfe ausdrücklich zusätzliche Hypothese: rho_Q=W, H_phys proportionalF plus skalarer Energieoffset, fester physikalischer Hilberttransport gleich Quellen-R4, isolierte unitäre Zeitentwicklung. Dimensionsloser Flussparameter sigma absorbiert noch unbestimmte Uhr-/Einheitenskalen: U_sigma=exp(-i sigma F). Originaltransport auf gemeinsam behaltenem Träger ist W_out=V W V†; Endpointgleichheit mit V U_sigma W U_sigma† V† verlangt [U_sigma,W]=0. Kein unitärer/isolierter Ansatz als BFG-Gesetz ausgeben.
+
+Exakter voller n3-Gegenkandidat F=diag(1,sqrt2,sqrt3), W=I/3+(ones-I)/12 (Eigenwerte1/2,1/4,1/4), K=-I, Y=diag(1/5,3/10,2/5),P=I. Alle F-Kohärenzen von W ungleich0. Endpointgleichheit fordert sigma(sqrt2-1),sigma(sqrt3-1) jeweils ganzzahlige2pi; irrationales Lückenverhältnis soll jeden sigma!=0 ausschließen, unabhängig von ereignis-/zustandsabhängiger positiver Dauer bei fester nichtverschwindender Energieskala. Prüfe Irrationalität exakt per minimalem Polynom und Handargument. Nicht jede Nichtkommutation schließt diskrete Resonanzen aus: qubitFdiag1,3,W=(I+sigma_x/2)/2 als Resonanzkontrolle sigma=pi, Gegenphase pi/2.
+
+Drei frische Originalkontrollen: n3-Zeuge, komplexe simultane Eichversion Seed20261107, qubitResonanzfall; Quell-R4-F/W-Transport, Energiekonstanz und positive Witness prüfen. Illustrativer n3-Ansatzdefekt bei sigma0.7 plus Eichkontrolle, Toleranz1e-10. Natürliche Alternativen [W,F]=0, rhoF, allgemeine Instrumente/zusätzliche Verbindung benennen. Keine allgemeine Energie-/Zeit-No-Go-Behauptung, keine Quellen-/Audit-/Workflowänderung.
