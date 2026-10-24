@@ -385,3 +385,8 @@ Vier Aufrufe der gepinnten Originaldynamik in einem lokalen Lauf PASS; symbolisc
 ## Runde53 – lokale symbolische und Originalupdate-Kontrolle
 
 Ein lokaler Lauf PASS, fünf nichtterminale Originalereignisse, keine Fehlvorläufe. Exakte Mischungswerte R_W=(1,1,1/2), R_F=(1/2,1/2,1/2); kohärente Gesamtenergien3/1, mitbewegte Observablen-/Erwartungsreste numerisch0 in diesen einfachen Fällen. Reproduktion und Rohdaten PREPARATION_LOCALITY_CHECKS.md. Ausschließlich Forschungsdokumentation, kein neuer Remote-CI-Pass. Letzter Code mit Remote-Evidenz unverändert7d0cc91bf7d1023a9c3cd32f127e52ef5d8722f9, Actions40040857072/40040862094; diese prüfen die neuen Dokumente nicht.
+
+
+## Runde54 – numerische Populationsfaser und exakter Spansatz
+
+Finaler lokaler PASS mit fünf nichtterminalen Originalereignissen; erster Lauf nach fünf erfolgreichen Faser-/Eichkontrollen an falscher Vollträger-alpha-Vergleichsformel gescheitert. Auf originalen G-Projektor korrigiert, insgesamt10 Aufrufe. Exakte Last alpha4019981/31875481; Inputgap1.11e-16, Outputgap0.045598967, Eichrest2.78e-16. Konkrete Faser numerisch ohne Intervallzertifikat, allgemeines Spankriterium exakt. Code/Rohdaten WITNESS_POPULATION_CHECKS.md. Keine Audit-/Workflow-/Quelländerung, kein neuer Remote-CI-Pass. Letzter remote-geprüfter Code unverändert7d0cc91bf7d1023a9c3cd32f127e52ef5d8722f9 mit Actions40040857072/40040862094; diese prüfen neue Dokumente nicht.
