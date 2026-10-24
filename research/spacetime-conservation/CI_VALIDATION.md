@@ -395,3 +395,8 @@ Finaler lokaler PASS mit fünf nichtterminalen Originalereignissen; erster Lauf 
 ## Runde55 – rationales Zertifikat plus getrennte Originalkontrollen
 
 Ein frischer lokaler Lauf PASS ohne Fehlvorlauf/Korrektur: exakte rationale Positivitätsminoren von Y,I-Y,H, vier Nullmomente, Witness-UntergrenzeP/6 und positives Ausgangsmomentgap432029868515685052375000/1925886930087373395035647149. Vier neue Originalereignisse für rationales W± samt komplexer Eichversionen. Inputgap1.67e-16, Outputgap0.05500560922, Eichrest9.44e-16; Nichtgeschlossenheit folgt aus rationalem Zertifikat, nicht aus Toleranzen. Vollständige Reproduktion WITNESS_POPULATION_CERTIFICATE_CHECKS.md. Keine Audit-/Workflow-/Quelländerung, kein neuer Remote-CI-Pass. Letzter remote-geprüfter Code bleibt7d0cc91bf7d1023a9c3cd32f127e52ef5d8722f9 mit Actions40040857072/40040862094; diese prüfen neue Dokumente nicht.
+
+
+## Runde56 – exakter Rang und getrennte Mehrschrittkontrollen
+
+Rationale Rangfolge4,5,6,6 und nichtverschwindende6x6-Determinante zertifiziert. Ein vollständiger lokaler PASS mit6 Originalereignissen (neue komplexe Präparation samt komplexer Eichversion, je3), keine Fehlvorläufe; zusätzlicher I-H-Positivitätsguard danach im vollständigen rationalen/Rekonstruktionspräfix separat frisch PASS,0 weitere Quellaufrufe. Rekonstruktionsrest6.15e-14, Mehrschrittmoment-/Eichrest maximal2.23e-16; imaginärer Witnessanteil ausdrücklich nicht rekonstruiert. Reproduktion WITNESS_OBSERVABLE_COMPLETION_CHECKS.md. Keine Quell-/Audit-/Workflowänderung, kein neuer Remote-CI-Pass. Letzter remote-geprüfter Code bleibt7d0cc91bf7d1023a9c3cd32f127e52ef5d8722f9 mit Actions40040857072/40040862094; diese prüfen neue Dokumente nicht.
