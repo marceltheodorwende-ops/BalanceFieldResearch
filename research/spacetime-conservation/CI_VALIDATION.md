@@ -430,3 +430,8 @@ Ein frischer lokaler PASS ohne Fehler/Korrektur: vier Originalereignisse nur fü
 ## Runde62 – exakter CP-Stützraumsatz und drei behaltene Originalereignisse
 
 Ein frischer lokaler PASS ohne Fehler/Korrektur, drei Originalereignisse nur für die behaltene Quelle. Vergleichs-CP-Failurekraus und kohärente Erweiterung explizit keine BFG-Komplementfortsetzung. Symbolischer Kreuzoperatornorm²4/3, Erwartung8/21; beliebiges klassisches Komplement behält Offdiagonalnormsqrt(2/3) im obliquen Fall. Maximaler Isometrierest5.36e-16, gehaltene Dichte5.30e-16, Failure-Effekt2.62e-16, Pullbackstützung9.66e-16, Offdiagonalidentität1.06e-15. Vollständige Reproduktion GENERAL_SELECTION_COMPLETION_CHECKS.md. Keine Audit-/Workflow-/Quelländerung, kein neuer Remote-CI-Pass. Letzter remote-geprüfter Code bleibt7d0cc91bf7d1023a9c3cd32f127e52ef5d8722f9 mit Actions40040857072/40040862094; diese prüfen neue Dokumente nicht.
+
+
+## Runde63 – exakter Träger-/Pauli-Beweis und fünf Originalereignisse
+
+Frischer lokaler PASS ohne Fehler/Korrektur mit fünf Originalereignissen. Symbolische Determinante(t²-x²-y²-z²)/4, Pauli-Kommutator und determinantenerhaltender nichtunitärer Vergleichsboost geprüft. R-Transportrest<=1.68e-15, Support-/Kompressionsrest<=2.34e-15, Pauli-Koordinatenrest<=1.56e-15, Eichrest<=1.23e-15. Rank2-R bleibt beim Seed trotz aktivem Rang3, positiveDet0.0966; separateNullkontrolleDet0 im gegebenen Paar. Wurzelcutoff1e-12, keine Nahschwellenzertifizierung. Reproduktion WITNESS_TWO_MODE_CHECKS.md. Keine Audit-/Workflow-/Quelländerung, kein neuer Remote-CI-Pass; letzter remote-geprüfter Code bleibt7d0cc91bf7d1023a9c3cd32f127e52ef5d8722f9 mit Actions40040857072/40040862094, diese prüfen neue Dokumente nicht.
