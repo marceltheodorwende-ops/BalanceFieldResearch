@@ -589,3 +589,12 @@ Vier vorab bestimmte frische Originalaufrufe bestanden; exakte symbolische Gewic
 Folgerung: Eine universelle additive Korrektur R(Y,F,W,P) zu tr(PK)+tr F kann die entgegengesetzten Reste±2w nicht ausgleichen; ebenso wenig eine direkte Gegenbuchung allein aus gleichem aktuellem Seedbetrag und gleichen Ereignisrängen. Zusätzliche K-abhängige Richtungsinformation bleibt notwendig für diese Reduktion; keine allgemeine physikalische Energie-No-Go-Behauptung.
 
 Zwei frische Originalaufrufe bestanden; Nicht-Kernel-Feldrest<4.7e-16. Zertifikat/Prüftext vollständig dokumentiert. Keine Quell-/Audit-/Workflowänderung, kein neuer Remote-Pass behauptet. Nächste Abhängigkeit: quellengestützte Auswahl und Geschlossenheit zusätzlicher K-Matrixinformation; Raum/Uhr/physikalischer Viererstrom bleiben offen.
+
+
+## Runde43: konstruktiv geschlossene aktive Kernelreduktion
+
+[ACTIVE_KERNEL_QUOTIENT.md](ACTIVE_KERNEL_QUOTIENT.md) beweist auf Q_selection=I mit unterstütztem F/W: Pi_act=(PKP,F,W,Y,P) bestimmt den kompletten nächsten BFG-Nachfolger einschließlich Seed/Terminalstatus; K-Komplement-/Kreuzblöcke sind irrelevant. Nach nichtterminalen Ereignissen gilt diese Klasse weiter. Keine Aussage für beliebige initiale Q!=I-Selektion.
+
+Bei festgehaltener Geometrie ist k->vollständiges K_+ injektiv. Exakte inverse Formel über Hp Z Hp=alpha k+beta Yp k Yp und positive Divisoren alpha+beta mu_i mu_j. Die unital vollständig positive K-Abbildung hat reellen Rang r²; bei aktivem Rang2 vier Kernelparameter. Das ist weder physikalischer Viererimpuls noch autonome vierdimensionale Gesamtzustandsdynamik; sämtliche Nicht-Kernel-Felder bleiben behalten, Ausgangsränge können wechseln.
+
+Drei frische Originalaufrufe alle nichtterminal: zwei bei identischem PKP und verschiedenen äußeren K-Blöcken ergeben volle Nachfolgerdifferenz<7e-17, komplexer n=4-Kontrollfall bestätigt Rekonstruktion bis3.3e-14, Abbildungsrang4. Keine Audit-/Workflow-/Quellcodeänderung oder neuer Remote-Pass. Nächste Abhängigkeit: quellenbasierte lokale Rang-zwei-Auswahl und rangwechselnde Fortsetzung; Raum/Uhr/physikalische Energie-Impuls-Brücke bleiben offen.

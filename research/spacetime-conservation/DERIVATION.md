@@ -215,3 +215,6 @@ Runde41: [Grenze fester linearer Bestandsgewichte](LINEAR_STOCK_LIMIT.md) beweis
 
 
 Runde42: [Gleiche Bestände und gleicher Seed schließen die Dynamik nicht](SEED_STOCK_CLOSURE.md) liefert einen rational zertifizierten Faserzeugen mit gleichen vollen Nicht-Kernel-Feldern, beiden Kernelspuren und aktuellem Seedbetrag, aber verschiedenen Ausgangsbeständen. K-blinde additive Zustandskorrekturen genügen damit nicht; zusätzliche K-abhängige Information bleibt gezielt zu prüfen.
+
+
+Runde43: [Geschlossene aktive Kernelreduktion](ACTIVE_KERNEL_QUOTIENT.md) liefert die konstruktive Ergänzung zur skalaren Faserlücke: PKP mit voller Geometrie/F/W/P genügt nach Q=I. Explizite inverse Formel rekonstruiert den aktiven K-Block aus der vollständigen Kernel-Ausgabe; Rang r² der linearen K-Abbildung. Drei Originalkontrollen; keine automatische physikalische Viererinterpretation.
