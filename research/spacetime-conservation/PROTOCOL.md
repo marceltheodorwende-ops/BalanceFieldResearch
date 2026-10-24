@@ -312,3 +312,12 @@ Exakte Symbolkontrolle: Fdiag(1,3), W=(I+sigma_x/2)/2, ||[W,F]||_F²=1/2. Frisch
 
 
 Auswertung Runde59: Exakte Kommutator-Isometrie und spektrale Pinchingtransport-Identität liefern invarianten kommutierenden Sektor ohne Abbau vorhandener Witness-F-Kohärenzen. Spektralinstrument auf eingeschränkter Familie informativ und unbeobachtet quellenverträglich; keine physikalische Präparationsauswahl/Interaktions-/Uhrdynamik daraus behauptet. Sechs Originalereignisse in einem frischen Lauf PASS ohne Fehlvorlauf/Korrektur. COMMUTING_FORMATION_SECTOR.md und COMMUTING_FORMATION_SECTOR_CHECKS.md. Keine Quell-/Audit-/Workflowänderung.
+
+
+## Runde60 – vorab: kommutierender Energiesektor bei echter Anfangsselektion
+
+Prüfe Grenze des Runde59-Sektors am vollständigen Anfangsupdate statt bloßer Retention. Allgemein S=Tsel†Tsel, Witnessmasse m=tr(SW)>0 und V=T4 Tsel: erwarteter Nachfolgerkommutator ist V[SWS/m,SFS]V† einschließlich Witness-orthogonalem Seed. Wenn ursprünglich [W,F]=0, ist [SWS,SFS]=S(F(I-S)W-W(I-S)F)S; oblique Selektion kann daher Kommutation erzeugen statt erhalten. S kommutierend mit F ist eine hinreichende, nicht notwendige Schutzbedingung.
+
+Exakter n3-Kandidat P=I,Fdiag1,2,3,W=F²/14,K=-I. Inputkommutator0. Oblique S=I-ones/3, Y=S/2+2(I-S), dann Q=S, m=2/3. Berechne rationalen komprimierten Kommutator und dessen Norm²; erwartet ungleich0. Energieauswahlformel E_out=tr(S W S F)/m separat gegenOriginal prüfen, nicht bedingte Energieänderung als geschlossene Bilanz darstellen. Positive Kontrollselektion S0=diag1,1,0,Ydiag(.5,.5,2) schützt Kommutation. Alle Selektionen nichtterminal, Y_out bei konstantem selektiertem .5-Block erwartet8/45 I2.
+
+Vier Originalereignisse: oblique Anfangsselektion plus ein folgendes Retentionsereignis, schützende Anfangsselektion, komplexe simultane Eichversion obliquer Anfangsselektion Seed20261110. Exakte rationale Null-/Nichtnullrechnung und m/E/Norm², numerischer vollständiger Quelltransport mit Tsel aus gepinntem polar falls benötigt. Toleranz1e-10. Keine neue physikalische Messannahme, keine Quell-/Audit-/Workflowänderung.
