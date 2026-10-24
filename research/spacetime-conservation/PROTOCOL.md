@@ -264,3 +264,12 @@ Vier frische Originalereignisse für rational konstruierte W± und komplexe Eich
 
 
 Auswertung Runde55: Neues rationales L-Paar liefert exakt gleiche Eingangsspektralpopulationen und positives rationales Ausgangsmomentgap; Quelle vollständig nichtterminal via exakter Last-/Rang-/Seedprüfung. Mindestens5 unabhängige Witness-Ablesungen für Eingangsmomente plus dieses Ausgangsmoment; kein dauerhafter5-Komponenten-Schluss behauptet. Vier frische Originalereignisse in einem Lauf PASS ohne Fehler/Korrektur, Zertifikat/Code in WITNESS_POPULATION_CERTIFICATE.md und WITNESS_POPULATION_CERTIFICATE_CHECKS.md. Keine Quell-/Audit-/Workflowänderung.
+
+
+## Runde56 – vorab: minimaler Witness-Observablenraum im zertifizierten Beispiel
+
+Am rationalen Runde55-Grundzustand bestimme exakt den reellen Span der komprimierten Eingangsmomente P Y^k P,k0..3, zusammen mit rückgezogenen ersten Ausgangsmomenten P H^k P,k1..3, H=A†A. Erwartung offen: Rang zwischen5 und6 im reell symmetrischen aktiven3x3-Raum; berechne rationale Ränge und wähle in fester Reihenfolge H,H²,H³ nur unabhängige Ergänzungen. Bei Rang6 ist die reelle Witness-Symmetrie vollständig lesbar, drei imaginär-antisymmetrische Witnessrichtungen bleiben in diesen realen Covers unsichtbar. Kein allgemeiner Zustandsraum-/Raumzeitdimensionsschluss.
+
+Prüfe konstruktiv die Zukunft: nach dem ersten Ereignis F=P_out=I4,K=-I,Y_out>0<1. Volle Persistenzquelle liefert Y_next=g_alpha(Y) und isometrischen W/F-Transport; Y-Spektralpartitionen können danach nur verschmelzen, keine neuen Achsen erzeugen. Zeige daher, dass erster Ausgangsspektralraum sämtliche späteren Spektralablesungen trägt. Gemeinsamer Anfangs-/Zukunftsraum ist der eben berechnete Span, nicht pauschal voller Herm(C³). Minimalität gilt für lineare/affine Witnessablesungen und feste Hintergrunddynamik, keine Zahl benötigter beliebiger nichtlinearer Kodierungen behaupten.
+
+Frisch: eine allgemeine komplexe positive auf P unterstützte W-Präparation (Zufallsseed20261106) und komplexe simultane Eichversion, je drei Originalereignisse inklusive erstem Seed, insgesamt6. Rekonstruiere den für reale Observablen sichtbaren Witnessanteil aus ausgewählten Momenten. Prüfe sämtliche Y-Momente k0..3 über die3-Ereignisfolge gegen aus H und ursprünglichem W-Anteil vorhergesagte Werte, Positivität/nichtterminal/F_out=I und Eichwerte, Toleranz1e-10. Exakte Spankontrolle wird vom numerischen Mehrschrittcheck getrennt. Keine Quellen-/Audit-/Workflowänderung.
