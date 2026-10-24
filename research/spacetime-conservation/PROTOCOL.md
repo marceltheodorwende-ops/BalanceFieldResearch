@@ -348,3 +348,14 @@ Drei frische Originalereignisse: obliquer n3-Grundfall Fdiag1,2,3,W=F²/14,S=I-o
 
 
 Auswertung Runde62: Exakter Kraus-Stützraumsatz schließt universelle blockadditive F-Kompensation beliebiger klassisch getrennter CP-Komplemente bei[S,F]!=0 aus. Positive kohärente Isometrie-/Energie-Vergleichskonstruktion getrennt als nichtquellenselektierte Erweiterung erhalten; klassische Dephasierung verliert Kreuzerwartung. Drei Originalereignisse der behaltenen Quelle in einem frischen Lauf PASS ohne Fehlvorlauf/Korrektur. GENERAL_SELECTION_COMPLETION.md und GENERAL_SELECTION_COMPLETION_CHECKS.md. Keine Quell-/Audit-/Workflowänderung.
+
+
+## Runde63 – vorab: rank2-R_F-Träger und Pauli-Energie/Impuls-Kandidat
+
+Kehre zur lokalen Zwei-Moden-/Lorentzabhängigkeit zurück. Aus R_F=sqrt(F)Wsqrt(F)>=0 und exaktem R_out=V R V† unter gemeinsamer Retention folgt: bedingter rankR=2 liefert intrinsischen suppR-Zweimodenträger Q_R, Q_Rout=V Q_R V† auch wenn aktives P durch Seed wächst. Kein Quellgesetz rankR=2 oder physikalische Ortslokalität daraus behaupten. Eigenrahmen bleibenU2-frei. Bei Z†Z=I2,Z Z†=Q_R und mitbewegtemZout=VZ ist X=Z†RZ konstant; beliebige weitere Zweimodenrahmen wirken unitär.
+
+Prüfe Standardpaulikoordinaten p0=trX=trWF, p_i=tr(sigma_i X), detX=(p0²-|p|²)/4>=0. Quelle bewahrt dies auf dem transportierten Paar, anders als der zuvor geprüfte K-Quantenkanal; U2 erzeugt nur räumliche SO3-Rahmenrotationen mit invariantem p0, keine von der Quelle ausgewählte Boost-/Orts-/Uhrabbildung. Positiver rank2-Träger ist zeitartig, Rang1-Nullzustand benötigt ein zusätzlich gegebenes zweidimensionales Umgebungspaar. Expliziter SL2-Kongruenzboost A=diag(sqrt2,1/sqrt2) aufX=I/2 bewahrt det, ändertp0 von1 auf5/4; algebraische Lorentzträgerexistenz allein identifiziert keine physikalischen Beobachter.
+
+Zusatzprüfung nur für direkte Impulsablesung: Werden drei gewöhnliche kommutierende räumliche Translationen verlangt, können P_i=kappa sigma_i bei kappa!=0 nicht ihre Generatoren sein; exakte Pauli-Kommutatoren. Alle paarweise kommutierenden Herm2-Generatoren haben gemeinsame Achse, pi=ai+bi<sigma_n>, kein unabhängiges vollständiges Blochtripel. Dies ist ein erklärtes physikalisches Vergleichskriterium, keine BFG-Prämisse und kein Ausschluss größerer Raum-/Übersetzungsbrücken.
+
+Fünf frische Originalereignisse: voller positiver n2-Fdiag1,3,W[[.5,.25],[.25,.5]], voller Rang1-W=ones2/2 als Nullkontrolle; rationaler n3/r2-Seedfall mit Fdiag1,.42,0,W[[.6,.1i,0],[-.1i,.4,0],[0,0,0]],Y[[.25,0,.1],[0,.5,.1],[.1,.1,.5]],K-diag1,2,3 plus ein folgendes Ereignis; komplexe Eichversion des Seedfalls Seed20261113. Prüfe R-Transport, rank2-Stützraum gegenüber wachsendemP, komprimierteDet-/Pauliinvarianten und Gaugewerte. Toleranz1e-10, sqrtF-Nullraumcutoff1e-12; kein allgemeiner lokaler Viererstrom behaupten. Keine Quell-/Audit-/Workflowänderung.
