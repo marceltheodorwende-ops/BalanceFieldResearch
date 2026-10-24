@@ -362,3 +362,12 @@ Fünf frische Originalereignisse: voller positiver n2-Fdiag1,3,W[[.5,.25],[.25,.
 
 
 Auswertung Runde63: Bedingter rank2-R_F-Unterträger transportiert exakt trotz aktivem Seedrangwachstum; komprimierte Spur/Determinante/Pauli-Kegel erhalten. U2-Rahmenrotationen und algebraische SL2-Boostmöglichkeit von physikalischer Beobachterabbildung getrennt. Direkte Pauli-Impulsdeutung am zusätzlichen abelschen Translationskriterium ausgeschlossen, keine allgemeine Impuls-/Lorentz-No-Go-Behauptung. Fünf Originalereignisse in einem frischen Lauf PASS ohne Fehlvorlauf/Korrektur. WITNESS_TWO_MODE_CARRIER.md und WITNESS_TWO_MODE_CHECKS.md. Keine Quell-/Audit-/Workflowänderung.
+
+
+## Runde64 – vorab: Auswahl und Genauigkeitsgrenze des R_F-Zweimodenträgers
+
+Untersuche die offene rank2-Auswahl aus Runde63. Exakte Retention R_out=V R V† bewahrt sämtliche nichtnull Eigenwerte und den Rang; daher wird aus rank>2 kein exakter rank2-R-Träger allein durch Retention. Bei ursprünglich aufP strikt positiven F undW hat eine erfolgreiche Anfangsselektion mit rankS=r nach R4/Seed rankR_out=r; rank2 ist dann eine durch die konkrete Quellselektion erzeugbare, aber nicht universal vorgeschriebene Klasse.
+
+Natürliche R-interne Alternative: oberste zwei Spektralmoden. Eindeutig/covariant bei lambda2>lambda3, transportiert dann exakt; verworfene positive Energie delta=sum_{j>=3}lambda_j bleibt unter Retention konstant, also keine sich selbst verbessernde rank2-Näherung. Bei Bindung lambda2=lambda3 fehlt die eindeutige obere Zweierauswahl. Insbesondere R=I3/3 besitzt keinen U3-kovarianten rank2-Projektor ausR allein (Stabilisatorargument), und jede Zweierkompression verwirft1/3. Andere vollständige BFG-Daten dürfen die Symmetrie brechen, werden damit aber zusätzliche Auswahlargumente.
+
+Fünf Originalereignisse: voller n3-F=I,Wdiag(.6,.39,.01),Ydiag(.2,.3,.4),K=-I über zwei Ereignisse; isotroper W=I/3 bei demselbenF/Y/K; echte oblique Anfangsselektion aus Runde60 Fdiag1,2,3,W=F²/14,S=I-ones/3,Y=S/2+2(I-S),P=I; komplexe Eichversion des ersten vollen n3-Falls Seed20261114. Prüfe R-Spektrum/Rang, Lücke lambda2-lambda3, Top2-Energieverlust und Fortsetzung; Selektionsrank2 mitWitnessmasse2/3 getrennt von approximativerTrunkierung. Toleranz1e-10, Wurzelcutoff1e-12. Kein physikalisch ausgesuchter lokaler Paarträger oder allgemeine Rang2-Attraktion behaupten. Nur Forschungsdokumentation, keine Quell-/Audit-/Workflowänderung.
