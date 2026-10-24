@@ -336,3 +336,12 @@ Vier frische Originalereignisse für die jeweils behaltene Quelle: obliquer Haup
 
 
 Auswertung Runde61: Exakte Zweigvergleichsbilanz mit Kreuzterm und universelle Bedingung[S,F]=0 bewiesen. Hauptfall gewichteteSumme46/21 stattEin18/7,Cross8/21; geschützter Hintergrund und blockdiagonaler gemischterWitness als positive Alternativen. Vier frische Originalereignisse der behaltenen Quelle PASS ohne Fehler/Korrektur, kein komplementärer Quellenzweig behauptet. SELECTION_ENERGY_COMPLETION.md und SELECTION_ENERGY_COMPLETION_CHECKS.md. Keine Quell-/Audit-/Workflowänderung.
+
+
+## Runde62 – vorab: allgemeine CP-Komplemente der scharfen Auswahl
+
+Verallgemeinere Runde61 über das Lüders-Komplement hinaus. Der unnormierte behaltene Quellkanal ist I_s(W)=V W V† mit V†V=S und V†F_out V=SFS. Jede CP-Instrumentergänzung mit klassisch getrennten verworfenen Ausgängen muss Sum K_b†K_b=R=I-S erfüllen, also K_b=K_b R. Für beliebige feste hermitesche verworfene Energieobservablen ist ihr Pullback auf R unterstützt. Daher kann eine blockadditive Gesamtenergie F=SFS+G_R universell nur bei[S,F]=0 gelten, unabhängig von der Wahl des CP-Komplements/Feedbacks. Keine Aussage über interbranch-kohärente Energie oder andere Zustands-/Selektionsbrücken.
+
+Prüfe positive mathematische Gegenalternative: J=[V;R] ist Isometrie. Kohärente Gesamtdichte J W J† mit H_ext=J F J†+diag(seedTerm,0) erhält Energie genau, hat aber Kreuzblöcke VFR und kohärente Outcome-Register. Der behaltene Diagonalblock passt zum Original samt F_out. Diese konstruierte Erweiterung ist ausdrücklich keine von BFG ausgewählte physikalische Umgebung/Wechselwirkung und kein Einstein-Beweis. Klassische Dephasierung des Registers entfernt die Kreuzerwartung und reproduziert Runde61.
+
+Drei frische Originalereignisse: obliquer n3-Grundfall Fdiag1,2,3,W=F²/14,S=I-ones/3,Y=S/2+2R,K=-I; geschützter S0diag1,1,0; komplexe Eichversion des obliquen Falls Seed20261112. Zwei zufällige Vergleichs-Failurekraus K_b=sqrt(p_b)U_b R,p(.25,.75),H_Rdiag4,5,6 prüfen EffektsummeR und festen offdiagonalen Pullbackdefekt. Kohärente J/H_ext-Positivität, Energiebilanz, behaltene Quelle und dephasierte Vergleichsbilanz getrennt prüfen. Symbolisch allgemeine Stützraumargumentation und rationaler Crossoperator am Hauptfall, numerischToleranz1e-10. Nur Forschungsdokumentation, keine Quell-/Audit-/Workflowänderung.
