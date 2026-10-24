@@ -625,3 +625,12 @@ Vier exakte Blockrankkontrollen und sieben frische Originalereignisse bestanden;
 Exakter positiver n2-Zeuge: Y=diag(1/5,3/10),F=I,W=(I+sigma_x/2)/2,K±=2I±sigma_x. Alpha8/133,h31/sqrt(1001). Kernelspur4 und Formationsablesung2 bleiben konstant, Witnesserwartung ändert sich um±0.0100918555382141. Beide K strikt positiv; kein Seed/Rangwechsel. Ein K-blinder additiver Zustandskorrekturterm kann die entgegengesetzten Reste nicht zugleich ausgleichen. Relative Spektrallücke schrumpft umh als bedingter Brückenprüfwert, keine reale Atomvorhersage ohne M_prep/Quantenbrücke.
 
 Vier frische Originalaufrufe und exakte Symbolkontrollen bestanden; Eichrest<2.1e-15. Dokumentation ohne Code-/Workflowänderung oder neuen Remote-Pass. Nächster physikalischer Schritt: unabhängig festgelegte Präparation, rho_Q-/H-Abbildung und Messkalibrierung sowie vollständige K-abhängige Austauschbilanz; Impuls-/Raum-/Uhrbrücke offen.
+
+
+## Runde47: C/B-Register allein schließt den Erwartungsrest nicht
+
+[CHANNEL_REGISTER_ENERGY.md](CHANNEL_REGISTER_ENERGY.md) prüft die kanonische mathematische Kanalregister-Isometrie V=sum |a> tensor T_a. Sie ist ausdrücklich keine neue physikalische BFG-Umweltvariable; tatsächliches W_+=W bleibt unverändert. Das vollständige Registerbild Gamma(W) hängt nur von Y-Spektralgewichten ab; registerlokale Energie zieht sich zu einer Funktion von Y zurück.
+
+Daher kann die additive Bilanz K+e0 I=Phi(K)+V†(R tensor I)V für irgendein Hermitesches Register-R nur bei [K,Y]=0 gelten. Exakte positive Witnesspaare haben identisches vollständiges Gamma, aber Defekte±0.0100918555382141. Auch Registerkohärenzen statt bloßer C/B-Wahrscheinlichkeiten helfen dieser Kandidatenklasse nicht. Allgemeine gekoppelte Wechselwirkungsenergien oder andere physikalische Brücken werden nicht ausgeschlossen.
+
+Vier frische Originalereignisse (x/y-Kohärenzpaare) und exakte symbolische Kontrollen bestanden, Registergleichheitsrest0. Dokumentation ohne Audit-/Workflow-/Quellcodeänderung oder neuen Remote-Pass. Nächste Abhängigkeit: quellenbegründete K-/kohärenzabhängige Kopplung oder andere unabhängig definierte Energieablesung; Raum/Uhr/Impulsbrücke offen.

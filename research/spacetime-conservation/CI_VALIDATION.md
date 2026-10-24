@@ -350,3 +350,8 @@ Frisch lokal PASS: vier exakte rationale Blockrankkontrollen ell0/1/2 bei r2 und
 ## Runde46: Quantenkandidaten-Energieablesung (Dokumentation)
 
 Vier frische vollständige Originalereignisse bestanden: positive K± bei gleichem W, kommutierender W=I/2-Kontrollfall und komplexe Eichversion. Exakte alpha8/133,h31/sqrt(1001), allgemeine h-Defektidentität symbolisch geprüft. Witnessdefekte±0.010091855538214123 trotz Kernelspur4/Formationsenergieablesung2; kommutierender Kontrollfall Defekt0. Vollfeld-Eichrest2.0859727843219497e-15. Allgemeine Kommutantenbedingung algebraisch bewiesen, keine empirische Energieprüfung oder physikalische Kalibrierung behauptet. Reproduktion in QUANTUM_ENERGY_CHECKS.md. Keine Audit-/Workflow-/Originalcodeänderung oder neuer Remote-CI-Pass; letzter Remote-geprüfter Code unverändert7d0cc91bf7d1023a9c3cd32f127e52ef5d8722f9 mit beiden Runde38-Läufen oben. Publikationsdateien am exakten Commit textgleich zurücklesen.
+
+
+## Runde47: additive Kanalregisterenergie (Dokumentation)
+
+Frisch lokal PASS: vier vollständige Originalereignisse bei positiven x/y-Witnesspaaren; identische vollständige Registermarginalen mit Differenzrest0, entgegengesetzte Witnessdefekte±0.010091855538214123. Symbolische Isometrie, Registermatrix [[516,155sqrt10],[155sqrt10,485]]/1001 und Offdiagonalhindernis für beliebiges komplex Hermitesches R exakt geprüft. Mathematik der Registerdarstellung und tatsächliche Quellregel W_+=W ausdrücklich getrennt. Vollständige Reproduktion in CHANNEL_REGISTER_CHECKS.md. Keine Audit-/Workflow-/Originalcodeänderung, kein neuer Remote-CI-Pass; letzter Remote-geprüfter Code unverändert7d0cc91bf7d1023a9c3cd32f127e52ef5d8722f9 mit beiden Runde38-Läufen oben. Publikationsdateien am exakten Commit textgleich zurücklesen.

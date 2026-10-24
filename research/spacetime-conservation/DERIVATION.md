@@ -227,3 +227,6 @@ Runde45: [Leckagerang und endliche aktive Trägerfüllung](CARRIER_FILLING.md) s
 
 
 Runde46: [Energieerwartung der Quantenkandidaten](QUANTUM_ENERGY_READOUT.md) wendet die vorhandene Kanal-Fixpunktklassifikation auf I57/I68 an: rho_Q=W oder F/tr F, H proportionalK. Exakter positiver Gegenzeuge trennt erhaltene Kernelspur von veränderlicher Witnessenergie; Kommutantenbedingung, feste Kalibrierungsgrenze und bedingter Spektrallückentest. Vier Originalkontrollen.
+
+
+Runde47: [Kanalregister und Energieerwartungsrest](CHANNEL_REGISTER_ENERGY.md) prüft die natürliche C/B-Reservoiralternative auf Darstellungsniveau. Vollständiges Registerbild verliert die für entgegengesetzte Defekte relevante Witnesskohärenz; beliebige additive registerlokale Energie kann das Offdiagonalhindernis nicht beheben. Explizite Quell-/Darstellungstrennung, keine allgemeine Interaktionsenergie-No-Go-Behauptung. Vier Originalkontrollen.
