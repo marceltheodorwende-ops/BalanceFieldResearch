@@ -288,3 +288,12 @@ Drei frische Originalkontrollen: n3-Zeuge, komplexe simultane Eichversion Seed20
 
 
 Auswertung Runde57: Exakter Drei-Moden-Endpointgegenzeuge schließt jede sigma!=0 innerhalb der ausdrücklich zusätzlichen F-Generator/Witness/R4/isolierter-Fluss-Kombination aus; erhaltene Energie bleibt erhalten. Irrationalität per Handargument und irreduziblem MinimalpolynomGrad4, Zweimoden-Wiederholungszeit pi und kommutierende Alternativen getrennt. Drei Originalereignisse in einem frischen Lauf PASS ohne Fehlvorläufe/Korrektur. FORMATION_GENERATOR_COMPATIBILITY.md und FORMATION_GENERATOR_CHECKS.md; keine Quell-/Audit-/Workflowänderung.
+
+
+## Runde58 – vorab: Instrumente des tatsächlichen Witness-Quellkanals
+
+Unter zusätzlicher rho_Q=W-Interpretation und festem F/Y/K/P im gemeinsamen nichtterminalen Retentionszweig ist tatsächlicher Witnesskanal E(W)=V W V†, V†V=P. Prüfe Standard-CP-Instrumentsatz: jede vollständig positive Instrumentzerlegung mit Sum I_a=E auf ALLEN unterstützten W hat auf diesem Träger Krausoperatoren c_a,l V; folglich I_a(W)=p_a V W V†, Effekte p_a P und von W unabhängige Ergebniswahrscheinlichkeiten. Beweis über Rang1-Choioperator oder reine Zustände, einschließlich r1 und isometrischem Seed-/Dimensionswechsel. Kein Ausschluss anderer Quantenbrücken, selektiver Anfangsereignisse, eingeschränkter Präparation oder extern störender Messung.
+
+Konkrete Alternative: projektive F-Energiemessung (Lüders-Pinching) erhält trWF, aber ändert kohärenten W und ist daher keine Instrumentzerlegung des unveränderten Witnesskanals. ExaktFdiag1,3,W=(I+sigma_x/2)/2 ->dephasedI/2; Normdefekt sqrt(1/8). Diagonale Witness-Präparationen bleiben als positive eingeschränkte Alternative ungestört und liefern unterschiedliche F-Ergebniswahrscheinlichkeiten. Nicht mit dem K-C/B-Kanal aus Runde47 verwechseln: hier ausschließlich Witness-R4-Kanal.
+
+Fünf Originalkontrollen: voller n2-Kohärenzzeuge; zwei volle diagonale Witnesszustände diag(.75,.25),diag(.25,.75); rationaler n3/r2-Seedzeuge mit Fdiag1,.42,0 und W=[[.6,.1i,0],[-.1i,.4,0],[0,0,0]]; komplexe Eichversion des Seedfalls Seed20261108. Prüfe J=VZ auf r-dimInput, J†J=I und Choi-Spektrum(r,0,...), ungestörtes Zufallslabelinstrument p=.3,.7, F-Pinchingdefekt, Energieerhaltung sowie bei Diagonalzuständen zulässige nichttriviale p_F. Toleranz1e-10; symbolische Pinchingrechnung getrennt. Keine Quell-/Audit-/Workflowänderung.
