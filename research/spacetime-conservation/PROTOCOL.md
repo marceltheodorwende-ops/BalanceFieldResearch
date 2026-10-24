@@ -230,3 +230,12 @@ Vier Originalkontrollen: voller n2-Zustand zur exakten Mehrdeutigkeit (1), ratio
 
 
 Auswertung Runde52: Beide positiven Kandidaten folgen exakt der Quellenisometrie; exakte lokale Nicht-Eindeutigkeit und fehlende Positivität der Jordan-Alternative bestätigt. Vier Originalkontrollen in einem frischen Lauf PASS, keine Fehlvorläufe. Wurzel-Cutoff/Abstände und Rundungsgrenzen in WITNESS_LOCAL_CHECKS.md; keine physikalische Flussidentifikation behauptet.
+
+
+## Runde53 – vorab: Präparationsaffinität und strikte Teilträger-Lokalität
+
+Zusätzliches operationales Prüfkriterium, nicht ungeprüftes BFG-Axiom: Bei festem F und festen Effekten soll lokale Energie in Witness-Mischungen affin sein, sofern W als statistischer Quantenzustand interpretiert wird. R_F liefert q=tr[W sqrt(F)E sqrt(F)] affin; R_W soll am exakten Zeugen F=diag(1,3), W±=(I±sigma_x)/2, W0=I/2 scheitern: E=diag(1,0), q_RW(W±)=1, q_RW(W0)=1/2. R_F jeweils1/2. Keine globale E-Nichtaffinität behaupten.
+
+Prüfe zudem Standardmatrixsatz für orthogonale Projektorzerlegung Sum Pi=I: feste positive lokale Observablen H_a mit Unterstützung Pi_a und Sum H_a=F existieren genau bei [F,Pi_a]=0; dann H_a=Pi_a F Pi_a. Allgemein ist H_a=sqrt(F)Pi_a sqrt(F) positiv/additiv/affin, aber nicht strikt Pi_a-lokal. Gegenzeuge F=2I+sigma_x, koordinaten-Pi: W± haben gleiche lokale Witnessblöcke, Gesamtenergie3 bzw1, daher keine ausschließlich blocklokale additive Zuordnung. Dies ist eine Grenze dieser Lokalitätsdefinition, kein universelles Energie-No-Go.
+
+Frische symbolische Mischung/Blockprüfung, fünf Originalereignisse: drei Witness-Präparationen bei Fdiag1,3 und zwei W± bei F2I+x; jeweils K=-I,Ydiag(.2,.3),P=I. Alle sollen nichtterminal sein; originalisometrischen Transport der festen H_a und zugehörigen Erwartungen prüfen. Toleranz1e-10. Dokumentation mit Reproduktionscode, keine Audit-/Workflow-/Quelländerung.
