@@ -390,3 +390,8 @@ Ein lokaler Lauf PASS, fünf nichtterminale Originalereignisse, keine Fehlvorlä
 ## Runde54 – numerische Populationsfaser und exakter Spansatz
 
 Finaler lokaler PASS mit fünf nichtterminalen Originalereignissen; erster Lauf nach fünf erfolgreichen Faser-/Eichkontrollen an falscher Vollträger-alpha-Vergleichsformel gescheitert. Auf originalen G-Projektor korrigiert, insgesamt10 Aufrufe. Exakte Last alpha4019981/31875481; Inputgap1.11e-16, Outputgap0.045598967, Eichrest2.78e-16. Konkrete Faser numerisch ohne Intervallzertifikat, allgemeines Spankriterium exakt. Code/Rohdaten WITNESS_POPULATION_CHECKS.md. Keine Audit-/Workflow-/Quelländerung, kein neuer Remote-CI-Pass. Letzter remote-geprüfter Code unverändert7d0cc91bf7d1023a9c3cd32f127e52ef5d8722f9 mit Actions40040857072/40040862094; diese prüfen neue Dokumente nicht.
+
+
+## Runde55 – rationales Zertifikat plus getrennte Originalkontrollen
+
+Ein frischer lokaler Lauf PASS ohne Fehlvorlauf/Korrektur: exakte rationale Positivitätsminoren von Y,I-Y,H, vier Nullmomente, Witness-UntergrenzeP/6 und positives Ausgangsmomentgap432029868515685052375000/1925886930087373395035647149. Vier neue Originalereignisse für rationales W± samt komplexer Eichversionen. Inputgap1.67e-16, Outputgap0.05500560922, Eichrest9.44e-16; Nichtgeschlossenheit folgt aus rationalem Zertifikat, nicht aus Toleranzen. Vollständige Reproduktion WITNESS_POPULATION_CERTIFICATE_CHECKS.md. Keine Audit-/Workflow-/Quelländerung, kein neuer Remote-CI-Pass. Letzter remote-geprüfter Code bleibt7d0cc91bf7d1023a9c3cd32f127e52ef5d8722f9 mit Actions40040857072/40040862094; diese prüfen neue Dokumente nicht.
