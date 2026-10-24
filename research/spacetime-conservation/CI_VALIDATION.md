@@ -360,3 +360,8 @@ Frisch lokal PASS: vier vollständige Originalereignisse bei positiven x/y-Witne
 ## Runde48: Positivität der Zustandskompensation (Dokumentation)
 
 Frisch lokal PASS: vier vollständige Originalereignisse r=1,.99,.5 plus komplexer Eichfall. Symbolisch (.99)^2-h²=200801/10010000>0 und inverse Eigenwerte(1±r/h)/2. Inverse Minima≈-0.01029974257,-0.00519674514,+0.24485012872. Strikt positiver r=.99-Eingang hat Energie2.99 oberhalb Ausgangsspektralmaximum2.9798162889235718. Universelle/spezielle Existenzgrenzen algebraisch getrennt von numerischer Kontrolle; Eichrest7.65897505568125e-16. Reproduktion in ENERGY_STATE_CHECKS.md. Keine Audit-/Workflow-/Originalcodeänderung, kein neuer Remote-CI-Pass; letzter Remote-geprüfter Code unverändert7d0cc91bf7d1023a9c3cd32f127e52ef5d8722f9 mit beiden Runde38-Läufen oben. Publikationsdateien am exakten Commit textgleich zurücklesen.
+
+
+## Runde49: momentan kommutierende Hamiltonianablesungen (Dokumentation)
+
+Frisch lokal PASS: alpha11/36, g(1/5)=g(4/5)=25/108,h5/6 und Energieänderung5/12 symbolisch exakt; vier vollständige Originalereignisse. Kollisionsoperator H_Y wächst von2I auf2I+(5/6)sigma_x; positiver kollisionsfreier Kontrollrest6.280369834735101e-16. H_F-Gegenfall bei konstantem F: Operatoränderung0.028544077943305043. Eichrest9.985997127080695e-16. Exakte Kollisionspartition ausdrücklich vom Gleitkomma-Cluster unterschieden, Reproduktion in COMMUTING_READOUT_CHECKS.md. Keine Audit-/Workflow-/Originalcodeänderung, kein neuer Remote-CI-Pass; letzter Remote-geprüfter Code unverändert7d0cc91bf7d1023a9c3cd32f127e52ef5d8722f9 mit beiden Runde38-Läufen oben. Publikationsdateien am exakten Commit textgleich zurücklesen.

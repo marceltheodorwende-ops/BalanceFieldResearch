@@ -233,3 +233,6 @@ Runde47: [Kanalregister und Energieerwartungsrest](CHANNEL_REGISTER_ENERGY.md) p
 
 
 Runde48: [Positivität alternativer Energie-Zustandskompensation](ENERGY_STATE_POSITIVITY.md) zeigt die Grenze des naheliegenden inversen Kanalzustands: positive Ausgangsdichten existieren nicht universell, bei strikt positivem Zeugen liegt die Zielenergie sogar außerhalb des K_out-Spektralintervalls. Positive gemischte Einzelkompensation bleibt als begrenzte Alternative erhalten. Vier Originalkontrollen.
+
+
+Runde49: [Momentan kommutierende Hamiltonian-Kandidaten](COMMUTING_ENERGY_READOUT.md) liefern eine erhaltene kollisionsfreie Teilklasse, aber einen exakten Spektralverschmelzungsdefekt bei aktueller Y-Projektion. F-Projektion löst die allgemeine Erhaltung nicht; historische Spektralprojektoren sind als zusätzliche Daten zu deklarieren. Vier Originalkontrollen.

@@ -643,3 +643,12 @@ Vier frische Originalereignisse (x/y-Kohärenzpaare) und exakte symbolische Kont
 Strikt positiver r=.99-Zeuge: Eigenwerte199/200,1/200, aber inverse Dichte negativer Eigenwert. Stärker: Eingangsenergie2.99 liegt über der maximal möglichen positiven Ausgangserwartung2+h≈2.9798162889; keine beliebige Ausgangsdichte kann diesen einzelnen K ohne zusätzliche Energie erhalten. Der gemischte r=.5-Fall bleibt als mathematisch positive Einzelkompensation erhalten. Andere H-Abbildungen/offene Systeme/eingeschränkte physikalische Präparationen nicht ausgeschlossen.
 
 Vier frische Originalereignisse und symbolischer Quadratvergleich bestanden, Eichrest<7.7e-16. Dokumentation ohne Audit-/Workflow-/Quellcodeänderung oder neuen Remote-Pass. Nächste Abhängigkeit: unabhängig festgelegte H-/Präparationsbrücke oder vollständige gekoppelte Austauschbilanz; Raum/Uhr/Impulsbrücke offen.
+
+
+## Runde49: kommutierende Energieablesung und exakte Spektralkollision
+
+[COMMUTING_ENERGY_READOUT.md](COMMUTING_ENERGY_READOUT.md) prüft H_Y=sum P_lambda(Y) K P_lambda(Y) als zusätzliche Hamiltonianhypothese. Ohne neue Y-Eigenwertverschmelzung ist sie im vollen Sektor als Operator erhalten. Bei echter Kollision kann der aktuelle Kommutant zusätzliche Kohärenzen aufnehmen und H_Y ändern.
+
+Exakter positiver n2-Zeuge Y=diag(1/5,4/5),F=diag(1,3),K=2I+sigma_x,W=(I+sigma_x/2)/2: alpha11/36, Y_out=(25/108)I, h5/6. H_Y ändert sich von2I auf2I+(5/6)sigma_x, Witnesserwartung um5/12. Die Kollision ist rational bewiesen, keine numerische Clusterannahme. H_F-Projektion ist ebenfalls nicht allgemein erhalten; F=I+sigma_x/2 liefert bei niedrigem Y einen festen F-Rahmen, aber gedämpfte H_F-Spektrallücke.
+
+Kollisionsfreie H_Y-Teilklasse und historisch festgehaltene Y_0-Projektoren bleiben mathematisch positive Alternativen; letztere sind zusätzliche retained data, keine automatisch physikalische Auswahl. Vier frische Originalereignisse und exakte Symbolkontrollen bestanden, Eichrest<1e-15. Dokumentation ohne Code-/Workflowänderung oder neuen Remote-Pass. Nächste Abhängigkeit: begründete Kollisions-/Labelregel oder eingeschränkte physikalische Präparationsklasse; Energie-/Raum-/Uhr-/Impulsbrücke offen.
