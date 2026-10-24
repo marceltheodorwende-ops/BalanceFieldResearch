@@ -252,3 +252,12 @@ Vorab numerischer Kandidat n4/r3: P=F=diag(1,1,1,0), K=-I, Y=[[.2,.03,.01,.08],[
 
 
 Auswertung Runde54: Exakter Spansatz bewiesen, numerischer Populationsfaserzeuge mit Gap0.045598967 und komplexen Eichkontrollen bestätigt. Zusätzliche alpha-Prüfung scheiterte im ersten Lauf nach fünf erfolgreichen Quellereignissen an unzulässiger Vollträgerformel; originaler G-Projektor korrigiert, frischer vollständiger Pass mit5, insgesamt10 Aufrufe. Konkreter Zeuge ohne Intervallzertifikat, allgemeiner Satz exakt. WITNESS_POPULATION_CLOSURE.md und WITNESS_POPULATION_CHECKS.md. Keine Quell-/Audit-/Workflowänderung.
+
+
+## Runde55 – vorab: exakte rationale Populationsfaser
+
+Sachlicher Anlass zur erneuten Untersuchung des Runde54-Grundzustands: konkreter Populationszeuge war nur numerisch. Ziel ist eine exakte alternative rationale Faser am gleichen rationalen Y,F=P=diag(1,1,1,0),K=-I, kein erneutes bloßes Zahlenrechnen. Bild H=A†A ist rational aus originalen G-Projektorlasten alpha4019981/31875481. Bei vollem RangA=4 ist SVD-V unitär, V_svd T4=P; Ausgangs-Witnessmoment tr(W_out Y_out)=tr(W H). F_out=I wegen eindimensionalem Seed mit K_out=-I.
+
+Suche rationales reell-symmetrisches L auf P mit tr(L P Y^k P)=0,k0..3, aber tr(L H)!=0. Verwende exakten Nullraum in sechs aktiven Symmetriekoordinaten; erstes nichttriviales Outputpaar, Vorzeichen positiv. Normiere über maximalen absoluten Zeilenbetrag zu ||L||<=1, W±=P/3±L/6 dann >=P/6. Alle Eingangsmomente gleich => sämtliche Y-Spektralpopulationen exakt gleich durch Interpolationspolynome, aber Ausgangsmomentgap tr(LH)/3 ungleich0 => Ausgangsspektralpopulationen verschieden. Exakte Positivität von Y,I-Y,H via führende Hauptminoren, LC/LB positiv; Nullraumnachweise und rationale Gap speichern. Quadratfreiheitsprüfung der Y-Charakteristik zusätzlich, keine numerischen Eigenvektoren im Beweis.
+
+Vier frische Originalereignisse für rational konstruierte W± und komplexe Eichversionen beider, Seed20261105, Toleranz1e-10. Prüfe vollständige Quelle nichtterminal, F_out=I, genaue Momentformeln und Eingangs-/Ausgangspopulationsgap; ursprünglicher numerischer Zeuge aus Runde54 bleibt als solcher erhalten, nicht rückwirkend exakt nennen. Dokumentation samt ausführbarer rationaler Zertifikatsrechnung; keine Quell-/Audit-/Workflowänderung.
