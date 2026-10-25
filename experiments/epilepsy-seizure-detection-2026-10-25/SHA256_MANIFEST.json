@@ -1,0 +1,62 @@
+[
+  {
+    "path": "DATA_AND_SCORING_AUDIT.md",
+    "bytes": 8546,
+    "sha256": "5c89e3c68ae08409802d459395e8394c094808a0771a4523aec1ccb8b236dab7"
+  },
+  {
+    "path": "README.md",
+    "bytes": 590,
+    "sha256": "331c2debe02bc80f4a4900d2a0acffeec721eaf0c4010585183d6aac5a6b704a"
+  },
+  {
+    "path": "RESEARCH_PLAN.md",
+    "bytes": 5465,
+    "sha256": "95d3df3c8f78afc2a46a64b9057671d9e9c6f12e6c1529f0a5eb2217ca78fd85"
+  },
+  {
+    "path": "audit_sources/data_manifest.csv",
+    "bytes": 48664,
+    "sha256": "afb11e0cebd9ced161c288ee0655c4dcab1aad1a8a25e9dfdf1cfe64beb8e00f"
+  },
+  {
+    "path": "check_contract.py",
+    "bytes": 3734,
+    "sha256": "288df981daa7b6c89ee082b1db2f15a920bcdc9f02767e65b78865efa237a77c"
+  },
+  {
+    "path": "contract.py",
+    "bytes": 1899,
+    "sha256": "ef582985d00ad64d37d9d20e1af903dd602b95a55b925fc18f658925dfb32dcb"
+  },
+  {
+    "path": "contract_checks.json",
+    "bytes": 1484,
+    "sha256": "d80f40059cbb697f5be5b4614d6388dc841cc7fd9a1d75bf52effed0e4c04a29"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 13,
+    "sha256": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7"
+  },
+  {
+    "path": "vendor/LICENSE.timescoring",
+    "bytes": 1090,
+    "sha256": "a53fae91ae89056b5554ecde81123d5344a6c0b42bec5bca3823d6f924f2a295"
+  },
+  {
+    "path": "vendor/timescoring/__init__.py",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "vendor/timescoring/annotations.py",
+    "bytes": 3995,
+    "sha256": "0e7c5b05f257251a986e28c92ed2cb1d1a2532e0c28eae489f85d1c6b0f24928"
+  },
+  {
+    "path": "vendor/timescoring/scoring.py",
+    "bytes": 9092,
+    "sha256": "0cb3b685c2d7add8d0cb2376d2021ace6d551591a2a31bfbd44a0281efe187c7"
+  }
+]

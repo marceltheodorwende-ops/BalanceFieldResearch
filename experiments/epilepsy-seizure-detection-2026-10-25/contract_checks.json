@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "controls": 24,
+  "checks": [
+    "23 real persons / 24 cases split 14,4,5",
+    "repeat session aliases same person",
+    "adversarial repeat-session leakage rejected",
+    "development summary allowed",
+    "metadata denied: chb19/chb19-summary.txt",
+    "metadata denied: ../RECORDS",
+    "metadata denied: /RECORDS",
+    "metadata denied: x/../RECORDS",
+    "metadata denied: chb01/chb01_01.edf",
+    "metadata denied: chb01/chb01_01.edf.seizures",
+    "metadata denied: all.zip",
+    "external annotations sealed",
+    "all EEG sealed before exact allowlist",
+    "default postictal-only alarm counted true",
+    "strict postictal-only alarm rejected",
+    "default changes reference event denominator",
+    "strict preserves these two references",
+    "no seizures => sensitivity undefined",
+    "one false alarm in 300s => 288/day",
+    "exact endpoint contact not overlap strict",
+    "long reference split into scoring units",
+    "perfect strict match",
+    "prior data exactly 109 persons x 2 runs",
+    "prior provenance only eegmmidb"
+  ],
+  "numpy": "2.3.5",
+  "split_person_counts": [
+    14,
+    4,
+    5
+  ],
+  "prior_measurement_files": 218,
+  "counterexample": {
+    "reference": [
+      [
+        100,
+        110
+      ]
+    ],
+    "alarm": [
+      [
+        150,
+        151
+      ]
+    ],
+    "default_tp": 1,
+    "default_fp": 0,
+    "strict_tp": 0,
+    "strict_fp": 1
+  },
+  "empirical_result": false,
+  "confirmatory_freeze": false
+}
