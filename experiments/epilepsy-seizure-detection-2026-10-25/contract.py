@@ -36,5 +36,9 @@ def permit_metadata(dataset, relative):
     return dataset == 'siena-scalp-eeg' and relative in ('LICENSE.txt',)
 
 def permit_eeg(dataset, relative):
-    """Fail closed until exact development RECORDS/hash allowlist is built."""
+    """Full waveform gate remains closed pending acquisition/preprocessing contract.
+
+    The separate development-only EDF header probe reads validated header ranges,
+    never samples. Exact manifest membership alone does not open this gate.
+    """
     return False

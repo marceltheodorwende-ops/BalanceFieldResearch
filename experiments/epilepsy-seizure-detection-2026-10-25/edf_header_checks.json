@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "control_groups": 19,
+  "checks": [
+    "exact fixture length and duration",
+    "different signal rates preserved",
+    "hand-calculated gain",
+    "calibration min midpoint max",
+    "intermediate digital500 is50microvolts",
+    "unknown auxiliary unit is flagged",
+    "unknown unit never silently converted",
+    "no private identity fields emitted",
+    "duplicate channel not arbitrarily selected",
+    "missing target explicitly flagged",
+    "7 malformed/truncated/oversize/zero-rate headers rejected",
+    "nonordered physical and out-of-int16 digital limits rejected",
+    "4 range/status mismatches rejected",
+    "correct Content-Range accepted",
+    "reader requests only exact bounded bytes",
+    "ignored range refused before body read",
+    "truncated range body rejected",
+    "4 heldout/traversal/external requests denied before network",
+    "redirect explicitly rejected"
+  ],
+  "network_requests": 0,
+  "synthetic_only": true,
+  "empirical_result": false
+}

@@ -23,6 +23,16 @@
       ]
     },
     {
+      "path": "check_edf_header.py",
+      "sha256": "a0902713415add73679e048443cb9f82dae411625cf8f808137186cc05954d1c",
+      "role": "synthetic/metadata controls",
+      "top_level_functions": [
+        "check",
+        "field",
+        "fixture"
+      ]
+    },
+    {
       "path": "check_manifest_montage.py",
       "sha256": "3e95faee8dd1f59f1102ac7ed0a84eba7b31108606dcae59ac1b3874b343703a",
       "role": "synthetic/metadata controls",
@@ -42,7 +52,7 @@
     },
     {
       "path": "contract.py",
-      "sha256": "ef582985d00ad64d37d9d20e1af903dd602b95a55b925fc18f658925dfb32dcb",
+      "sha256": "fee9d14756e94e44b2d4e2af89a35d07636fd0646931305ca131d667cfbfec94",
       "role": "access/split definitions",
       "top_level_functions": [
         "person",
@@ -63,6 +73,21 @@
         "build_manifest",
         "development_entry",
         "verify_development_bytes"
+      ]
+    },
+    {
+      "path": "edf_header.py",
+      "sha256": "bcea76f7183d2e6196c2708433e37eb3967537fb3059eafa970b6c2abe3eb576",
+      "role": "guarded development EDF-header metadata and instrument calibration",
+      "top_level_functions": [
+        "ascii_field",
+        "fixed_header",
+        "parse_header",
+        "to_volts",
+        "candidate_channels",
+        "validate_range",
+        "read_range",
+        "probe"
       ]
     },
     {

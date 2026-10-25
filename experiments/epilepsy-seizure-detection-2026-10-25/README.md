@@ -3,7 +3,8 @@
 OPEN preparatory work; no confirmatory freeze or empirical seizure result.
 Read DATA_AND_SCORING_AUDIT.md. Reproduce controls with Python 3.12,
 `pip install -r requirements.txt` then `python check_contract.py`.
-The code has no network calls and denies all waveform requests pending an exact development manifest.
+Full waveform access is denied pending the acquisition/preprocessing contract;
+the separate development-only metadata probe reads validated EDF-header ranges.
 The old negative EEG covariance experiment and open/deferred P81 are preserved.
 Upstream scoring code is MIT-licensed; copied old provenance table retains its PhysioNet ODC-By attribution, not a new repository-wide license.
 
@@ -22,3 +23,8 @@ Read BFG_ASSUMPTION_AUDIT.md for the no-invented-laws audit against the directly
 hash-verified Dynamic Order PDF. `python check_bfg_boundary.py` checks unchanged
 canonical equations on synthetic matrices only; it is not a seizure detector or
 an empirically selected EEG preparation. BFG_SOURCE_REVIEW.json records the source.
+
+edf_header.py provides a separately guarded development-header-only probe; full
+waveform access stays closed. EDF_HEADER_CONTRACT.md documents the first real
+header's units/rate and unresolved duplicate label. `python check_edf_header.py`
+runs19 synthetic parser/range/access control groups without network access.
