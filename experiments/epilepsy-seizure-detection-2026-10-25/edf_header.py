@@ -27,7 +27,7 @@ def fixed_header(data):
     return dict(header_bytes=size,signals=ns,records=records,record_seconds=str(duration),
                 discontinuous=ascii_field(data[192:236]).startswith('EDF+D'))
 
-def parse_header(data):
+def parse_header(data, *, retain_invalid_calibration=False):
     info=fixed_header(data[:256]);ns=info['signals']
     if len(data)!=info['header_bytes']:
         raise ValueError('Full signal header length mismatch')
@@ -39,13 +39,19 @@ def parse_header(data):
     for i in range(ns):
         pmin,pmax=Fraction(fields[3][i]),Fraction(fields[4][i])
         dmin,dmax=int(fields[5][i]),int(fields[6][i]);samples=int(fields[8][i])
-        if not -32768<=dmin<dmax<=32767 or pmax<=pmin or samples<=0:
+        if samples<=0:
+            raise ValueError('Invalid signal sample count')
+        valid_calibration=-32768<=dmin<dmax<=32767 and pmax>pmin
+        if not valid_calibration and not retain_invalid_calibration:
             raise ValueError('Invalid signal calibration or sample count')
-        unit=fields[2][i];gain=(pmax-pmin)/(dmax-dmin)
+        unit=fields[2][i]
+        gain=(pmax-pmin)/(dmax-dmin) if valid_calibration else None
         channels.append(dict(index=i,label=fields[0][i],unit=unit,
             physical_min=str(pmin),physical_max=str(pmax),digital_min=dmin,digital_max=dmax,
             samples_per_record=samples,sampling_hz=str(Fraction(samples)/Fraction(info['record_seconds'])),
-            declared_prefilter=fields[7][i],volts_per_digital_step=str(gain*UNITS[unit]) if unit in UNITS else None))
+            declared_prefilter=fields[7][i],calibration_valid=valid_calibration,
+            calibration_error=None if valid_calibration else 'Invalid physical/digital calibration limits',
+            volts_per_digital_step=str(gain*UNITS[unit]) if valid_calibration and unit in UNITS else None))
     info['channels']=channels
     info['recording_seconds']=str(info['records']*Fraction(info['record_seconds'])) if info['records']>=0 else None
     info['expected_full_file_bytes']=info['header_bytes']+2*info['records']*sum(c['samples_per_record'] for c in channels) if info['records']>=0 else None
@@ -53,6 +59,8 @@ def parse_header(data):
     return info
 
 def to_volts(channel, digital):
+    if channel.get('calibration_valid') is False:
+        raise ValueError('Invalid channel calibration; conversion forbidden')
     if channel['unit'] not in UNITS:
         raise ValueError('Unrecognized voltage unit; no silent substitution')
     pmin=Fraction(channel['physical_min']);pmax=Fraction(channel['physical_max'])

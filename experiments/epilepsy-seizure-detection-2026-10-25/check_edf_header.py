@@ -88,6 +88,38 @@ checks.append('4 heldout/traversal/external requests denied before network')
 try:e.NoRedirect().redirect_request(None,None,None,None,None,None)
 except ValueError:checks.append('redirect explicitly rejected')
 else:raise AssertionError('redirect allowed')
+# Retention mode preserves structural accounting; calibration is never invented.
+from channel_policy import TARGET17, compile_map
+labels=TARGET17+('-',);n=len(labels)
+base=fixture(labels=labels,units=('uV',)*n,samples=(128,)*n)
+# Digital minimum and maximum are grouped fields, offsets from EDF specification.
+offset_min=256+n*(16+80+8+8+8)
+offset_max=offset_min+8*n
+bad=bytearray(base)
+for off in (offset_min,offset_max):bad[off+8*(n-1):off+8*n]=field(0,8)
+try:e.parse_header(bytes(bad))
+except ValueError:checks.append('strict default still rejects unused invalid calibration')
+else:raise AssertionError('strict behavior changed')
+retained=e.parse_header(bytes(bad),retain_invalid_calibration=True)
+check('retained placeholder has explicit invalid calibration and no invented gain',
+      retained['channels'][-1]['calibration_valid'] is False and
+      retained['channels'][-1]['volts_per_digital_step'] is None and
+      retained['channels'][-1]['calibration_error'] is not None)
+check('unused placeholder does not prevent valid target mapping',compile_map(retained)['eligible'])
+check('all rows still contribute to full file size',retained['expected_full_file_bytes']==256*(n+1)+2*2*128*n)
+try:e.to_volts(retained['channels'][-1],0)
+except ValueError:checks.append('invalid retained channel conversion forbidden')
+else:raise AssertionError('invalid channel converted')
+bad_target=bytearray(base)
+for off in (offset_min,offset_max):bad_target[off:off+8]=field(0,8)
+target=e.parse_header(bytes(bad_target),retain_invalid_calibration=True)
+check('invalid required target remains ineligible',not compile_map(target)['eligible'])
+for malformed in (bytes(bad)[:-1],fixture(samples=(0,1))):
+    try:e.parse_header(malformed,retain_invalid_calibration=True)
+    except ValueError:pass
+    else:raise AssertionError('retention bypassed structural rejection')
+checks.append('retention mode still rejects truncation and zero sample count')
+
 result=dict(status='PASS',control_groups=len(checks),checks=checks,network_requests=0,synthetic_only=True,empirical_result=False)
 Path(__file__).with_name('edf_header_checks.json').write_text(json.dumps(result,indent=2)+'\n')
 print(json.dumps(result,indent=2))

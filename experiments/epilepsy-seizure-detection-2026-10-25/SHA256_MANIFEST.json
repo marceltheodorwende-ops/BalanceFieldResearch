@@ -6,8 +6,8 @@
   },
   {
     "path": "BFG_DERIVATION_REGISTER.md",
-    "bytes": 4650,
-    "sha256": "c311c7437c869b0578178dc8a4b0a5f86f9c01a9cfcbc20b94c0f431a8b8a455"
+    "bytes": 6064,
+    "sha256": "12650e94f646f654c636ed688285c4bd39f9bc2487dfd0108094513df74a8346"
   },
   {
     "path": "BFG_SOURCE_REVIEW.json",
@@ -26,8 +26,8 @@
   },
   {
     "path": "EDF_HEADER_CONTRACT.md",
-    "bytes": 5748,
-    "sha256": "da6ff67f6f9ed6cccca7cfdf4720a43bbded5622fc2ac8d54e35498027085e78"
+    "bytes": 7162,
+    "sha256": "54e461e48f4af1b77cf83860df92aae3691862f43d91e73b00d40948ea230ab3"
   },
   {
     "path": "HEADER_COVERAGE.md",
@@ -111,8 +111,8 @@
   },
   {
     "path": "check_edf_header.py",
-    "bytes": 5408,
-    "sha256": "a0902713415add73679e048443cb9f82dae411625cf8f808137186cc05954d1c"
+    "bytes": 7343,
+    "sha256": "d9832bbd9a777d4b29e994039c56f76ecd27e43d5fcb3a4710a89ec9ef3caa6d"
   },
   {
     "path": "check_manifest_montage.py",
@@ -156,13 +156,13 @@
   },
   {
     "path": "edf_header.py",
-    "bytes": 6115,
-    "sha256": "bcea76f7183d2e6196c2708433e37eb3967537fb3059eafa970b6c2abe3eb576"
+    "bytes": 6646,
+    "sha256": "609c66947e8ca4815ea18700f44509c3bbcacb12db3667e4b64b9d7228335954"
   },
   {
     "path": "edf_header_checks.json",
-    "bytes": 1002,
-    "sha256": "8c381b3945572173cfbbd40c896fb6c6f118459bbe8d497159f75faf1a3e0b9c"
+    "bytes": 1434,
+    "sha256": "6d4d276ad74cccccdb7ec68e32ef1b034403fbc859254ba60cbcac16ac3fe647"
   },
   {
     "path": "header_coverage_audit.json",

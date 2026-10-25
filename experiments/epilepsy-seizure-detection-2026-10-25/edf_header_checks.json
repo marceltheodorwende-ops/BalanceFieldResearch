@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "control_groups": 19,
+  "control_groups": 26,
   "checks": [
     "exact fixture length and duration",
     "different signal rates preserved",
@@ -20,7 +20,14 @@
     "ignored range refused before body read",
     "truncated range body rejected",
     "4 heldout/traversal/external requests denied before network",
-    "redirect explicitly rejected"
+    "redirect explicitly rejected",
+    "strict default still rejects unused invalid calibration",
+    "retained placeholder has explicit invalid calibration and no invented gain",
+    "unused placeholder does not prevent valid target mapping",
+    "all rows still contribute to full file size",
+    "invalid retained channel conversion forbidden",
+    "invalid required target remains ineligible",
+    "retention mode still rejects truncation and zero sample count"
   ],
   "network_requests": 0,
   "synthetic_only": true,
