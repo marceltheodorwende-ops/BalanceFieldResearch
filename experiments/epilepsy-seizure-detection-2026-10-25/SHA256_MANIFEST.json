@@ -6,8 +6,8 @@
   },
   {
     "path": "BFG_DERIVATION_REGISTER.md",
-    "bytes": 6064,
-    "sha256": "12650e94f646f654c636ed688285c4bd39f9bc2487dfd0108094513df74a8346"
+    "bytes": 7868,
+    "sha256": "72ab0c8ba71fa9abd1cd8ee1f5f68bb0df5dd32772fd5fe4fbd1b43d24c7d4e4"
   },
   {
     "path": "BFG_SOURCE_REVIEW.json",
@@ -26,13 +26,13 @@
   },
   {
     "path": "EDF_HEADER_CONTRACT.md",
-    "bytes": 7162,
-    "sha256": "54e461e48f4af1b77cf83860df92aae3691862f43d91e73b00d40948ea230ab3"
+    "bytes": 8966,
+    "sha256": "26e219da6d465910975e37a129e0355cae395b46437b388e5863bba63608d80c"
   },
   {
     "path": "HEADER_COVERAGE.md",
-    "bytes": 2996,
-    "sha256": "861e9e0c685056a40dc73897471d0683045c47b87a4c13afe29de3a60ba58a16"
+    "bytes": 3226,
+    "sha256": "c88014bb64d78686e11294b486d668260cc628602e07640a488c9225e5a834f3"
   },
   {
     "path": "MANIFEST_AND_MONTAGE_CONTRACT.md",
@@ -111,8 +111,8 @@
   },
   {
     "path": "check_edf_header.py",
-    "bytes": 7343,
-    "sha256": "d9832bbd9a777d4b29e994039c56f76ecd27e43d5fcb3a4710a89ec9ef3caa6d"
+    "bytes": 8621,
+    "sha256": "5d148aa998ce1c14780027e5ced42f60abd07779449eca0f966362c361062749"
   },
   {
     "path": "check_manifest_montage.py",
@@ -156,13 +156,13 @@
   },
   {
     "path": "edf_header.py",
-    "bytes": 6646,
-    "sha256": "609c66947e8ca4815ea18700f44509c3bbcacb12db3667e4b64b9d7228335954"
+    "bytes": 6801,
+    "sha256": "2f56d88fbe12627284b3047129a1e4d062bb3846a07db86ce9b2adcd8b2d6b0b"
   },
   {
     "path": "edf_header_checks.json",
-    "bytes": 1434,
-    "sha256": "6d4d276ad74cccccdb7ec68e32ef1b034403fbc859254ba60cbcac16ac3fe647"
+    "bytes": 1619,
+    "sha256": "643d79322a8ac71920f60c361d4f795531f39d81fcf92a09bba61c066b31c478"
   },
   {
     "path": "header_coverage_audit.json",
@@ -173,6 +173,11 @@
     "path": "header_coverage_selection.json",
     "bytes": 733,
     "sha256": "d2ac90e750d1c30c4f2191ab5b1fbe764c434a34313848533fe889895e51a374"
+  },
+  {
+    "path": "header_reassessment.json",
+    "bytes": 165444,
+    "sha256": "a1587ce5b0533903457c9bf1053c66c9e2a8137a910d2c89133a5b262240daf2"
   },
   {
     "path": "manifest_montage_checks.json",

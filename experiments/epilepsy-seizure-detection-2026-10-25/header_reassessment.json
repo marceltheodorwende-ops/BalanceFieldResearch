@@ -1,0 +1,5337 @@
+{
+  "selection": "Exactly the eight failed paths from header_coverage_audit.json; no outcome selection",
+  "results": [
+    {
+      "path": "chb12/chb12_06.edf",
+      "status": "parsed",
+      "audit": {
+        "dataset": "chbmit",
+        "path": "chb12/chb12_06.edf",
+        "split": "train",
+        "url": "https://physionet.org/files/chbmit/1.0.0/chb12/chb12_06.edf",
+        "retain_invalid_calibration": true,
+        "source_full_EDF_sha256": "03427d8288dd3d3437bd64cb65e64f9e62f76ec047bafa9570815b044dd91cbd",
+        "full_EDF_sha256_verified": false,
+        "header_sha256": "4847eb0c3ef2d09a0823ea17d7dd77d9bfe10b157d4697211efb26732290d85d",
+        "header_bytes_read": 7424,
+        "waveform_bytes_read": 0,
+        "HTTP_range_total_bytes": 51703040,
+        "metadata": {
+          "header_bytes": 7424,
+          "signals": 28,
+          "records": 3606,
+          "record_seconds": "1",
+          "discontinuous": false,
+          "channels": [
+            {
+              "index": 0,
+              "label": "FP1-F7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 1,
+              "label": "F7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 2,
+              "label": "T7-P7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 3,
+              "label": "P7-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 4,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 5,
+              "label": "FP1-F3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 6,
+              "label": "F3-C3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 7,
+              "label": "C3-P3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 8,
+              "label": "P3-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 9,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 10,
+              "label": "FZ-CZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 11,
+              "label": "CZ-PZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 12,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 13,
+              "label": "FP2-F4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 14,
+              "label": "F4-C4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 15,
+              "label": "C4-P4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 16,
+              "label": "P4-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 17,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 18,
+              "label": "FP2-F8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 19,
+              "label": "F8-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 20,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 21,
+              "label": "P8-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 22,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 23,
+              "label": "P7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 24,
+              "label": "T7-FT9",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 25,
+              "label": "FT9-FT10",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 26,
+              "label": "FT10-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 27,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            }
+          ],
+          "recording_seconds": "3606",
+          "expected_full_file_bytes": 51703040
+        },
+        "candidate18": {
+          "FP1-F7": {
+            "indices": [
+              0
+            ],
+            "status": "unique"
+          },
+          "F7-T7": {
+            "indices": [
+              1
+            ],
+            "status": "unique"
+          },
+          "T7-P7": {
+            "indices": [
+              2
+            ],
+            "status": "unique"
+          },
+          "P7-O1": {
+            "indices": [
+              3
+            ],
+            "status": "unique"
+          },
+          "FP1-F3": {
+            "indices": [
+              5
+            ],
+            "status": "unique"
+          },
+          "F3-C3": {
+            "indices": [
+              6
+            ],
+            "status": "unique"
+          },
+          "C3-P3": {
+            "indices": [
+              7
+            ],
+            "status": "unique"
+          },
+          "P3-O1": {
+            "indices": [
+              8
+            ],
+            "status": "unique"
+          },
+          "FP2-F4": {
+            "indices": [
+              13
+            ],
+            "status": "unique"
+          },
+          "F4-C4": {
+            "indices": [
+              14
+            ],
+            "status": "unique"
+          },
+          "C4-P4": {
+            "indices": [
+              15
+            ],
+            "status": "unique"
+          },
+          "P4-O2": {
+            "indices": [
+              16
+            ],
+            "status": "unique"
+          },
+          "FP2-F8": {
+            "indices": [
+              18
+            ],
+            "status": "unique"
+          },
+          "F8-T8": {
+            "indices": [
+              19
+            ],
+            "status": "unique"
+          },
+          "T8-P8": {
+            "indices": [
+              20,
+              27
+            ],
+            "status": "duplicate_unresolved"
+          },
+          "P8-O2": {
+            "indices": [
+              21
+            ],
+            "status": "unique"
+          },
+          "FZ-CZ": {
+            "indices": [
+              10
+            ],
+            "status": "unique"
+          },
+          "CZ-PZ": {
+            "indices": [
+              11
+            ],
+            "status": "unique"
+          }
+        },
+        "limitation": "One development EDF header only; no signal equality, gap continuity or physiological BFG identification established",
+        "candidate17": {
+          "candidate": "fixed17-bipolar-v1",
+          "eligible": true,
+          "reasons": [],
+          "mapping": [
+            {
+              "target": "FP1-F7",
+              "source_index": 0,
+              "source_label": "FP1-F7",
+              "sign": 1
+            },
+            {
+              "target": "F7-T7",
+              "source_index": 1,
+              "source_label": "F7-T7",
+              "sign": 1
+            },
+            {
+              "target": "T7-P7",
+              "source_index": 2,
+              "source_label": "T7-P7",
+              "sign": 1
+            },
+            {
+              "target": "P7-O1",
+              "source_index": 3,
+              "source_label": "P7-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP1-F3",
+              "source_index": 5,
+              "source_label": "FP1-F3",
+              "sign": 1
+            },
+            {
+              "target": "F3-C3",
+              "source_index": 6,
+              "source_label": "F3-C3",
+              "sign": 1
+            },
+            {
+              "target": "C3-P3",
+              "source_index": 7,
+              "source_label": "C3-P3",
+              "sign": 1
+            },
+            {
+              "target": "P3-O1",
+              "source_index": 8,
+              "source_label": "P3-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F4",
+              "source_index": 13,
+              "source_label": "FP2-F4",
+              "sign": 1
+            },
+            {
+              "target": "F4-C4",
+              "source_index": 14,
+              "source_label": "F4-C4",
+              "sign": 1
+            },
+            {
+              "target": "C4-P4",
+              "source_index": 15,
+              "source_label": "C4-P4",
+              "sign": 1
+            },
+            {
+              "target": "P4-O2",
+              "source_index": 16,
+              "source_label": "P4-O2",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F8",
+              "source_index": 18,
+              "source_label": "FP2-F8",
+              "sign": 1
+            },
+            {
+              "target": "F8-T8",
+              "source_index": 19,
+              "source_label": "F8-T8",
+              "sign": 1
+            },
+            {
+              "target": "P8-O2",
+              "source_index": 21,
+              "source_label": "P8-O2",
+              "sign": 1
+            },
+            {
+              "target": "FZ-CZ",
+              "source_index": 10,
+              "source_label": "FZ-CZ",
+              "sign": 1
+            },
+            {
+              "target": "CZ-PZ",
+              "source_index": 11,
+              "source_label": "CZ-PZ",
+              "sign": 1
+            }
+          ],
+          "full_waveform_access_enabled": false
+        },
+        "matches_previous_diagnostic_header_sha256": true
+      }
+    },
+    {
+      "path": "chb13/chb13_02.edf",
+      "status": "parsed",
+      "audit": {
+        "dataset": "chbmit",
+        "path": "chb13/chb13_02.edf",
+        "split": "train",
+        "url": "https://physionet.org/files/chbmit/1.0.0/chb13/chb13_02.edf",
+        "retain_invalid_calibration": true,
+        "source_full_EDF_sha256": "cc52f4838ce27aa0080e3d2e959761744a9746451c0c65b9f6cd2ab0a83b2735",
+        "full_EDF_sha256_verified": false,
+        "header_sha256": "db42bbae694beeccd2b15a6265825c23764f76fa7c397755ef22f2457e88543c",
+        "header_bytes_read": 7424,
+        "waveform_bytes_read": 0,
+        "HTTP_range_total_bytes": 51617024,
+        "metadata": {
+          "header_bytes": 7424,
+          "signals": 28,
+          "records": 3600,
+          "record_seconds": "1",
+          "discontinuous": false,
+          "channels": [
+            {
+              "index": 0,
+              "label": "FP1-F7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 1,
+              "label": "F7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 2,
+              "label": "T7-P7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 3,
+              "label": "P7-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 4,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 5,
+              "label": "FP1-F3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 6,
+              "label": "F3-C3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 7,
+              "label": "C3-P3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 8,
+              "label": "P3-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 9,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 10,
+              "label": "FZ-CZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 11,
+              "label": "CZ-PZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 12,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 13,
+              "label": "FP2-F4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 14,
+              "label": "F4-C4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 15,
+              "label": "C4-P4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 16,
+              "label": "P4-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 17,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 18,
+              "label": "FP2-F8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 19,
+              "label": "F8-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 20,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 21,
+              "label": "P8-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 22,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 23,
+              "label": "P7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 24,
+              "label": "T7-FT9",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 25,
+              "label": "FT9-FT10",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 26,
+              "label": "FT10-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 27,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            }
+          ],
+          "recording_seconds": "3600",
+          "expected_full_file_bytes": 51617024
+        },
+        "candidate18": {
+          "FP1-F7": {
+            "indices": [
+              0
+            ],
+            "status": "unique"
+          },
+          "F7-T7": {
+            "indices": [
+              1
+            ],
+            "status": "unique"
+          },
+          "T7-P7": {
+            "indices": [
+              2
+            ],
+            "status": "unique"
+          },
+          "P7-O1": {
+            "indices": [
+              3
+            ],
+            "status": "unique"
+          },
+          "FP1-F3": {
+            "indices": [
+              5
+            ],
+            "status": "unique"
+          },
+          "F3-C3": {
+            "indices": [
+              6
+            ],
+            "status": "unique"
+          },
+          "C3-P3": {
+            "indices": [
+              7
+            ],
+            "status": "unique"
+          },
+          "P3-O1": {
+            "indices": [
+              8
+            ],
+            "status": "unique"
+          },
+          "FP2-F4": {
+            "indices": [
+              13
+            ],
+            "status": "unique"
+          },
+          "F4-C4": {
+            "indices": [
+              14
+            ],
+            "status": "unique"
+          },
+          "C4-P4": {
+            "indices": [
+              15
+            ],
+            "status": "unique"
+          },
+          "P4-O2": {
+            "indices": [
+              16
+            ],
+            "status": "unique"
+          },
+          "FP2-F8": {
+            "indices": [
+              18
+            ],
+            "status": "unique"
+          },
+          "F8-T8": {
+            "indices": [
+              19
+            ],
+            "status": "unique"
+          },
+          "T8-P8": {
+            "indices": [
+              20,
+              27
+            ],
+            "status": "duplicate_unresolved"
+          },
+          "P8-O2": {
+            "indices": [
+              21
+            ],
+            "status": "unique"
+          },
+          "FZ-CZ": {
+            "indices": [
+              10
+            ],
+            "status": "unique"
+          },
+          "CZ-PZ": {
+            "indices": [
+              11
+            ],
+            "status": "unique"
+          }
+        },
+        "limitation": "One development EDF header only; no signal equality, gap continuity or physiological BFG identification established",
+        "candidate17": {
+          "candidate": "fixed17-bipolar-v1",
+          "eligible": true,
+          "reasons": [],
+          "mapping": [
+            {
+              "target": "FP1-F7",
+              "source_index": 0,
+              "source_label": "FP1-F7",
+              "sign": 1
+            },
+            {
+              "target": "F7-T7",
+              "source_index": 1,
+              "source_label": "F7-T7",
+              "sign": 1
+            },
+            {
+              "target": "T7-P7",
+              "source_index": 2,
+              "source_label": "T7-P7",
+              "sign": 1
+            },
+            {
+              "target": "P7-O1",
+              "source_index": 3,
+              "source_label": "P7-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP1-F3",
+              "source_index": 5,
+              "source_label": "FP1-F3",
+              "sign": 1
+            },
+            {
+              "target": "F3-C3",
+              "source_index": 6,
+              "source_label": "F3-C3",
+              "sign": 1
+            },
+            {
+              "target": "C3-P3",
+              "source_index": 7,
+              "source_label": "C3-P3",
+              "sign": 1
+            },
+            {
+              "target": "P3-O1",
+              "source_index": 8,
+              "source_label": "P3-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F4",
+              "source_index": 13,
+              "source_label": "FP2-F4",
+              "sign": 1
+            },
+            {
+              "target": "F4-C4",
+              "source_index": 14,
+              "source_label": "F4-C4",
+              "sign": 1
+            },
+            {
+              "target": "C4-P4",
+              "source_index": 15,
+              "source_label": "C4-P4",
+              "sign": 1
+            },
+            {
+              "target": "P4-O2",
+              "source_index": 16,
+              "source_label": "P4-O2",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F8",
+              "source_index": 18,
+              "source_label": "FP2-F8",
+              "sign": 1
+            },
+            {
+              "target": "F8-T8",
+              "source_index": 19,
+              "source_label": "F8-T8",
+              "sign": 1
+            },
+            {
+              "target": "P8-O2",
+              "source_index": 21,
+              "source_label": "P8-O2",
+              "sign": 1
+            },
+            {
+              "target": "FZ-CZ",
+              "source_index": 10,
+              "source_label": "FZ-CZ",
+              "sign": 1
+            },
+            {
+              "target": "CZ-PZ",
+              "source_index": 11,
+              "source_label": "CZ-PZ",
+              "sign": 1
+            }
+          ],
+          "full_waveform_access_enabled": false
+        },
+        "matches_previous_diagnostic_header_sha256": true
+      }
+    },
+    {
+      "path": "chb14/chb14_01.edf",
+      "status": "parsed",
+      "audit": {
+        "dataset": "chbmit",
+        "path": "chb14/chb14_01.edf",
+        "split": "train",
+        "url": "https://physionet.org/files/chbmit/1.0.0/chb14/chb14_01.edf",
+        "retain_invalid_calibration": true,
+        "source_full_EDF_sha256": "4eaea9cbab221cc7d30d3c475f9950be3e3e89005b25ab1980b3932fbf5ad127",
+        "full_EDF_sha256_verified": false,
+        "header_sha256": "c81bcca08ce8abcf52a6d2c92b1e9451f0d710f09f16a76ba7474059a4225e5a",
+        "header_bytes_read": 7424,
+        "waveform_bytes_read": 0,
+        "HTTP_range_total_bytes": 51617024,
+        "metadata": {
+          "header_bytes": 7424,
+          "signals": 28,
+          "records": 3600,
+          "record_seconds": "1",
+          "discontinuous": false,
+          "channels": [
+            {
+              "index": 0,
+              "label": "FP1-F7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 1,
+              "label": "F7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 2,
+              "label": "T7-P7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 3,
+              "label": "P7-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 4,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 5,
+              "label": "FP1-F3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 6,
+              "label": "F3-C3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 7,
+              "label": "C3-P3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 8,
+              "label": "P3-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 9,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 10,
+              "label": "FZ-CZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 11,
+              "label": "CZ-PZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 12,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 13,
+              "label": "FP2-F4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 14,
+              "label": "F4-C4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 15,
+              "label": "C4-P4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 16,
+              "label": "P4-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 17,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 18,
+              "label": "FP2-F8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 19,
+              "label": "F8-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 20,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 21,
+              "label": "P8-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 22,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 23,
+              "label": "P7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 24,
+              "label": "T7-FT9",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 25,
+              "label": "FT9-FT10",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 26,
+              "label": "FT10-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 27,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            }
+          ],
+          "recording_seconds": "3600",
+          "expected_full_file_bytes": 51617024
+        },
+        "candidate18": {
+          "FP1-F7": {
+            "indices": [
+              0
+            ],
+            "status": "unique"
+          },
+          "F7-T7": {
+            "indices": [
+              1
+            ],
+            "status": "unique"
+          },
+          "T7-P7": {
+            "indices": [
+              2
+            ],
+            "status": "unique"
+          },
+          "P7-O1": {
+            "indices": [
+              3
+            ],
+            "status": "unique"
+          },
+          "FP1-F3": {
+            "indices": [
+              5
+            ],
+            "status": "unique"
+          },
+          "F3-C3": {
+            "indices": [
+              6
+            ],
+            "status": "unique"
+          },
+          "C3-P3": {
+            "indices": [
+              7
+            ],
+            "status": "unique"
+          },
+          "P3-O1": {
+            "indices": [
+              8
+            ],
+            "status": "unique"
+          },
+          "FP2-F4": {
+            "indices": [
+              13
+            ],
+            "status": "unique"
+          },
+          "F4-C4": {
+            "indices": [
+              14
+            ],
+            "status": "unique"
+          },
+          "C4-P4": {
+            "indices": [
+              15
+            ],
+            "status": "unique"
+          },
+          "P4-O2": {
+            "indices": [
+              16
+            ],
+            "status": "unique"
+          },
+          "FP2-F8": {
+            "indices": [
+              18
+            ],
+            "status": "unique"
+          },
+          "F8-T8": {
+            "indices": [
+              19
+            ],
+            "status": "unique"
+          },
+          "T8-P8": {
+            "indices": [
+              20,
+              27
+            ],
+            "status": "duplicate_unresolved"
+          },
+          "P8-O2": {
+            "indices": [
+              21
+            ],
+            "status": "unique"
+          },
+          "FZ-CZ": {
+            "indices": [
+              10
+            ],
+            "status": "unique"
+          },
+          "CZ-PZ": {
+            "indices": [
+              11
+            ],
+            "status": "unique"
+          }
+        },
+        "limitation": "One development EDF header only; no signal equality, gap continuity or physiological BFG identification established",
+        "candidate17": {
+          "candidate": "fixed17-bipolar-v1",
+          "eligible": true,
+          "reasons": [],
+          "mapping": [
+            {
+              "target": "FP1-F7",
+              "source_index": 0,
+              "source_label": "FP1-F7",
+              "sign": 1
+            },
+            {
+              "target": "F7-T7",
+              "source_index": 1,
+              "source_label": "F7-T7",
+              "sign": 1
+            },
+            {
+              "target": "T7-P7",
+              "source_index": 2,
+              "source_label": "T7-P7",
+              "sign": 1
+            },
+            {
+              "target": "P7-O1",
+              "source_index": 3,
+              "source_label": "P7-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP1-F3",
+              "source_index": 5,
+              "source_label": "FP1-F3",
+              "sign": 1
+            },
+            {
+              "target": "F3-C3",
+              "source_index": 6,
+              "source_label": "F3-C3",
+              "sign": 1
+            },
+            {
+              "target": "C3-P3",
+              "source_index": 7,
+              "source_label": "C3-P3",
+              "sign": 1
+            },
+            {
+              "target": "P3-O1",
+              "source_index": 8,
+              "source_label": "P3-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F4",
+              "source_index": 13,
+              "source_label": "FP2-F4",
+              "sign": 1
+            },
+            {
+              "target": "F4-C4",
+              "source_index": 14,
+              "source_label": "F4-C4",
+              "sign": 1
+            },
+            {
+              "target": "C4-P4",
+              "source_index": 15,
+              "source_label": "C4-P4",
+              "sign": 1
+            },
+            {
+              "target": "P4-O2",
+              "source_index": 16,
+              "source_label": "P4-O2",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F8",
+              "source_index": 18,
+              "source_label": "FP2-F8",
+              "sign": 1
+            },
+            {
+              "target": "F8-T8",
+              "source_index": 19,
+              "source_label": "F8-T8",
+              "sign": 1
+            },
+            {
+              "target": "P8-O2",
+              "source_index": 21,
+              "source_label": "P8-O2",
+              "sign": 1
+            },
+            {
+              "target": "FZ-CZ",
+              "source_index": 10,
+              "source_label": "FZ-CZ",
+              "sign": 1
+            },
+            {
+              "target": "CZ-PZ",
+              "source_index": 11,
+              "source_label": "CZ-PZ",
+              "sign": 1
+            }
+          ],
+          "full_waveform_access_enabled": false
+        },
+        "matches_previous_diagnostic_header_sha256": true
+      }
+    },
+    {
+      "path": "chb15/chb15_01.edf",
+      "status": "parsed",
+      "audit": {
+        "dataset": "chbmit",
+        "path": "chb15/chb15_01.edf",
+        "split": "validation",
+        "url": "https://physionet.org/files/chbmit/1.0.0/chb15/chb15_01.edf",
+        "retain_invalid_calibration": true,
+        "source_full_EDF_sha256": "a9dcf971a7eb03230f577660e9ab2aee9a7d4a970e186753377a6064e24bfb13",
+        "full_EDF_sha256_verified": false,
+        "header_sha256": "54818393a8d6fdd6958f50c81a7ea923b962e957b7b5fcd30fc618a25198912c",
+        "header_bytes_read": 8192,
+        "waveform_bytes_read": 0,
+        "HTTP_range_total_bytes": 57179136,
+        "metadata": {
+          "header_bytes": 8192,
+          "signals": 31,
+          "records": 3602,
+          "record_seconds": "1",
+          "discontinuous": false,
+          "channels": [
+            {
+              "index": 0,
+              "label": "FP1-F7",
+              "unit": "uV",
+              "physical_min": "-2000",
+              "physical_max": "2000",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/1023750"
+            },
+            {
+              "index": 1,
+              "label": "F7-T7",
+              "unit": "uV",
+              "physical_min": "-2000",
+              "physical_max": "2000",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/1023750"
+            },
+            {
+              "index": 2,
+              "label": "T7-P7",
+              "unit": "uV",
+              "physical_min": "-2000",
+              "physical_max": "2000",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/1023750"
+            },
+            {
+              "index": 3,
+              "label": "P7-O1",
+              "unit": "uV",
+              "physical_min": "-2000",
+              "physical_max": "2000",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/1023750"
+            },
+            {
+              "index": 4,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 5,
+              "label": "FP1-F3",
+              "unit": "uV",
+              "physical_min": "-2000",
+              "physical_max": "2000",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/1023750"
+            },
+            {
+              "index": 6,
+              "label": "F3-C3",
+              "unit": "uV",
+              "physical_min": "-2000",
+              "physical_max": "2000",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/1023750"
+            },
+            {
+              "index": 7,
+              "label": "C3-P3",
+              "unit": "uV",
+              "physical_min": "-2000",
+              "physical_max": "2000",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/1023750"
+            },
+            {
+              "index": 8,
+              "label": "P3-O1",
+              "unit": "uV",
+              "physical_min": "-2000",
+              "physical_max": "2000",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/1023750"
+            },
+            {
+              "index": 9,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 10,
+              "label": "FZ-CZ",
+              "unit": "uV",
+              "physical_min": "-2000",
+              "physical_max": "2000",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/1023750"
+            },
+            {
+              "index": 11,
+              "label": "CZ-PZ",
+              "unit": "uV",
+              "physical_min": "-2000",
+              "physical_max": "2000",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/1023750"
+            },
+            {
+              "index": 12,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 13,
+              "label": "FP2-F4",
+              "unit": "uV",
+              "physical_min": "-2000",
+              "physical_max": "2000",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/1023750"
+            },
+            {
+              "index": 14,
+              "label": "F4-C4",
+              "unit": "uV",
+              "physical_min": "-2000",
+              "physical_max": "2000",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/1023750"
+            },
+            {
+              "index": 15,
+              "label": "C4-P4",
+              "unit": "uV",
+              "physical_min": "-2000",
+              "physical_max": "2000",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/1023750"
+            },
+            {
+              "index": 16,
+              "label": "P4-O2",
+              "unit": "uV",
+              "physical_min": "-2000",
+              "physical_max": "2000",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/1023750"
+            },
+            {
+              "index": 17,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 18,
+              "label": "FP2-F8",
+              "unit": "uV",
+              "physical_min": "-2000",
+              "physical_max": "2000",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/1023750"
+            },
+            {
+              "index": 19,
+              "label": "F8-T8",
+              "unit": "uV",
+              "physical_min": "-2000",
+              "physical_max": "2000",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/1023750"
+            },
+            {
+              "index": 20,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-2000",
+              "physical_max": "2000",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/1023750"
+            },
+            {
+              "index": 21,
+              "label": "P8-O2",
+              "unit": "uV",
+              "physical_min": "-2000",
+              "physical_max": "2000",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/1023750"
+            },
+            {
+              "index": 22,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 23,
+              "label": "FC1-Ref",
+              "unit": "uV",
+              "physical_min": "-2000",
+              "physical_max": "2000",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/1023750"
+            },
+            {
+              "index": 24,
+              "label": "FC2-Ref",
+              "unit": "uV",
+              "physical_min": "-2000",
+              "physical_max": "2000",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/1023750"
+            },
+            {
+              "index": 25,
+              "label": "FC5-Ref",
+              "unit": "uV",
+              "physical_min": "-2000",
+              "physical_max": "2000",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/1023750"
+            },
+            {
+              "index": 26,
+              "label": "FC6-Ref",
+              "unit": "uV",
+              "physical_min": "-2000",
+              "physical_max": "2000",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/1023750"
+            },
+            {
+              "index": 27,
+              "label": "CP1-Ref",
+              "unit": "uV",
+              "physical_min": "-2000",
+              "physical_max": "2000",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/1023750"
+            },
+            {
+              "index": 28,
+              "label": "CP2-Ref",
+              "unit": "uV",
+              "physical_min": "-2000",
+              "physical_max": "2000",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/1023750"
+            },
+            {
+              "index": 29,
+              "label": "CP5-Ref",
+              "unit": "uV",
+              "physical_min": "-2000",
+              "physical_max": "2000",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/1023750"
+            },
+            {
+              "index": 30,
+              "label": "CP6-Ref",
+              "unit": "uV",
+              "physical_min": "-2000",
+              "physical_max": "2000",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/1023750"
+            }
+          ],
+          "recording_seconds": "3602",
+          "expected_full_file_bytes": 57179136
+        },
+        "candidate18": {
+          "FP1-F7": {
+            "indices": [
+              0
+            ],
+            "status": "unique"
+          },
+          "F7-T7": {
+            "indices": [
+              1
+            ],
+            "status": "unique"
+          },
+          "T7-P7": {
+            "indices": [
+              2
+            ],
+            "status": "unique"
+          },
+          "P7-O1": {
+            "indices": [
+              3
+            ],
+            "status": "unique"
+          },
+          "FP1-F3": {
+            "indices": [
+              5
+            ],
+            "status": "unique"
+          },
+          "F3-C3": {
+            "indices": [
+              6
+            ],
+            "status": "unique"
+          },
+          "C3-P3": {
+            "indices": [
+              7
+            ],
+            "status": "unique"
+          },
+          "P3-O1": {
+            "indices": [
+              8
+            ],
+            "status": "unique"
+          },
+          "FP2-F4": {
+            "indices": [
+              13
+            ],
+            "status": "unique"
+          },
+          "F4-C4": {
+            "indices": [
+              14
+            ],
+            "status": "unique"
+          },
+          "C4-P4": {
+            "indices": [
+              15
+            ],
+            "status": "unique"
+          },
+          "P4-O2": {
+            "indices": [
+              16
+            ],
+            "status": "unique"
+          },
+          "FP2-F8": {
+            "indices": [
+              18
+            ],
+            "status": "unique"
+          },
+          "F8-T8": {
+            "indices": [
+              19
+            ],
+            "status": "unique"
+          },
+          "T8-P8": {
+            "indices": [
+              20
+            ],
+            "status": "unique"
+          },
+          "P8-O2": {
+            "indices": [
+              21
+            ],
+            "status": "unique"
+          },
+          "FZ-CZ": {
+            "indices": [
+              10
+            ],
+            "status": "unique"
+          },
+          "CZ-PZ": {
+            "indices": [
+              11
+            ],
+            "status": "unique"
+          }
+        },
+        "limitation": "One development EDF header only; no signal equality, gap continuity or physiological BFG identification established",
+        "candidate17": {
+          "candidate": "fixed17-bipolar-v1",
+          "eligible": true,
+          "reasons": [],
+          "mapping": [
+            {
+              "target": "FP1-F7",
+              "source_index": 0,
+              "source_label": "FP1-F7",
+              "sign": 1
+            },
+            {
+              "target": "F7-T7",
+              "source_index": 1,
+              "source_label": "F7-T7",
+              "sign": 1
+            },
+            {
+              "target": "T7-P7",
+              "source_index": 2,
+              "source_label": "T7-P7",
+              "sign": 1
+            },
+            {
+              "target": "P7-O1",
+              "source_index": 3,
+              "source_label": "P7-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP1-F3",
+              "source_index": 5,
+              "source_label": "FP1-F3",
+              "sign": 1
+            },
+            {
+              "target": "F3-C3",
+              "source_index": 6,
+              "source_label": "F3-C3",
+              "sign": 1
+            },
+            {
+              "target": "C3-P3",
+              "source_index": 7,
+              "source_label": "C3-P3",
+              "sign": 1
+            },
+            {
+              "target": "P3-O1",
+              "source_index": 8,
+              "source_label": "P3-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F4",
+              "source_index": 13,
+              "source_label": "FP2-F4",
+              "sign": 1
+            },
+            {
+              "target": "F4-C4",
+              "source_index": 14,
+              "source_label": "F4-C4",
+              "sign": 1
+            },
+            {
+              "target": "C4-P4",
+              "source_index": 15,
+              "source_label": "C4-P4",
+              "sign": 1
+            },
+            {
+              "target": "P4-O2",
+              "source_index": 16,
+              "source_label": "P4-O2",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F8",
+              "source_index": 18,
+              "source_label": "FP2-F8",
+              "sign": 1
+            },
+            {
+              "target": "F8-T8",
+              "source_index": 19,
+              "source_label": "F8-T8",
+              "sign": 1
+            },
+            {
+              "target": "P8-O2",
+              "source_index": 21,
+              "source_label": "P8-O2",
+              "sign": 1
+            },
+            {
+              "target": "FZ-CZ",
+              "source_index": 10,
+              "source_label": "FZ-CZ",
+              "sign": 1
+            },
+            {
+              "target": "CZ-PZ",
+              "source_index": 11,
+              "source_label": "CZ-PZ",
+              "sign": 1
+            }
+          ],
+          "full_waveform_access_enabled": false
+        },
+        "matches_previous_diagnostic_header_sha256": true
+      }
+    },
+    {
+      "path": "chb16/chb16_01.edf",
+      "status": "parsed",
+      "audit": {
+        "dataset": "chbmit",
+        "path": "chb16/chb16_01.edf",
+        "split": "validation",
+        "url": "https://physionet.org/files/chbmit/1.0.0/chb16/chb16_01.edf",
+        "retain_invalid_calibration": true,
+        "source_full_EDF_sha256": "e28c0399a018f609cb4baeb0d1f73c105f23af2743610abfb074f68db4e9a95e",
+        "full_EDF_sha256_verified": false,
+        "header_sha256": "a8de5e1513c74fe2848d86b4f9860fd0167787f92d064367e15d62bdc4e18538",
+        "header_bytes_read": 7424,
+        "waveform_bytes_read": 0,
+        "HTTP_range_total_bytes": 51617024,
+        "metadata": {
+          "header_bytes": 7424,
+          "signals": 28,
+          "records": 3600,
+          "record_seconds": "1",
+          "discontinuous": false,
+          "channels": [
+            {
+              "index": 0,
+              "label": "FP1-F7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 1,
+              "label": "F7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 2,
+              "label": "T7-P7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 3,
+              "label": "P7-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 4,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 5,
+              "label": "FP1-F3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 6,
+              "label": "F3-C3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 7,
+              "label": "C3-P3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 8,
+              "label": "P3-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 9,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 10,
+              "label": "FZ-CZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 11,
+              "label": "CZ-PZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 12,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 13,
+              "label": "FP2-F4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 14,
+              "label": "F4-C4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 15,
+              "label": "C4-P4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 16,
+              "label": "P4-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 17,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 18,
+              "label": "FP2-F8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 19,
+              "label": "F8-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 20,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 21,
+              "label": "P8-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 22,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 23,
+              "label": "P7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 24,
+              "label": "T7-FT9",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 25,
+              "label": "FT9-FT10",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 26,
+              "label": "FT10-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 27,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            }
+          ],
+          "recording_seconds": "3600",
+          "expected_full_file_bytes": 51617024
+        },
+        "candidate18": {
+          "FP1-F7": {
+            "indices": [
+              0
+            ],
+            "status": "unique"
+          },
+          "F7-T7": {
+            "indices": [
+              1
+            ],
+            "status": "unique"
+          },
+          "T7-P7": {
+            "indices": [
+              2
+            ],
+            "status": "unique"
+          },
+          "P7-O1": {
+            "indices": [
+              3
+            ],
+            "status": "unique"
+          },
+          "FP1-F3": {
+            "indices": [
+              5
+            ],
+            "status": "unique"
+          },
+          "F3-C3": {
+            "indices": [
+              6
+            ],
+            "status": "unique"
+          },
+          "C3-P3": {
+            "indices": [
+              7
+            ],
+            "status": "unique"
+          },
+          "P3-O1": {
+            "indices": [
+              8
+            ],
+            "status": "unique"
+          },
+          "FP2-F4": {
+            "indices": [
+              13
+            ],
+            "status": "unique"
+          },
+          "F4-C4": {
+            "indices": [
+              14
+            ],
+            "status": "unique"
+          },
+          "C4-P4": {
+            "indices": [
+              15
+            ],
+            "status": "unique"
+          },
+          "P4-O2": {
+            "indices": [
+              16
+            ],
+            "status": "unique"
+          },
+          "FP2-F8": {
+            "indices": [
+              18
+            ],
+            "status": "unique"
+          },
+          "F8-T8": {
+            "indices": [
+              19
+            ],
+            "status": "unique"
+          },
+          "T8-P8": {
+            "indices": [
+              20,
+              27
+            ],
+            "status": "duplicate_unresolved"
+          },
+          "P8-O2": {
+            "indices": [
+              21
+            ],
+            "status": "unique"
+          },
+          "FZ-CZ": {
+            "indices": [
+              10
+            ],
+            "status": "unique"
+          },
+          "CZ-PZ": {
+            "indices": [
+              11
+            ],
+            "status": "unique"
+          }
+        },
+        "limitation": "One development EDF header only; no signal equality, gap continuity or physiological BFG identification established",
+        "candidate17": {
+          "candidate": "fixed17-bipolar-v1",
+          "eligible": true,
+          "reasons": [],
+          "mapping": [
+            {
+              "target": "FP1-F7",
+              "source_index": 0,
+              "source_label": "FP1-F7",
+              "sign": 1
+            },
+            {
+              "target": "F7-T7",
+              "source_index": 1,
+              "source_label": "F7-T7",
+              "sign": 1
+            },
+            {
+              "target": "T7-P7",
+              "source_index": 2,
+              "source_label": "T7-P7",
+              "sign": 1
+            },
+            {
+              "target": "P7-O1",
+              "source_index": 3,
+              "source_label": "P7-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP1-F3",
+              "source_index": 5,
+              "source_label": "FP1-F3",
+              "sign": 1
+            },
+            {
+              "target": "F3-C3",
+              "source_index": 6,
+              "source_label": "F3-C3",
+              "sign": 1
+            },
+            {
+              "target": "C3-P3",
+              "source_index": 7,
+              "source_label": "C3-P3",
+              "sign": 1
+            },
+            {
+              "target": "P3-O1",
+              "source_index": 8,
+              "source_label": "P3-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F4",
+              "source_index": 13,
+              "source_label": "FP2-F4",
+              "sign": 1
+            },
+            {
+              "target": "F4-C4",
+              "source_index": 14,
+              "source_label": "F4-C4",
+              "sign": 1
+            },
+            {
+              "target": "C4-P4",
+              "source_index": 15,
+              "source_label": "C4-P4",
+              "sign": 1
+            },
+            {
+              "target": "P4-O2",
+              "source_index": 16,
+              "source_label": "P4-O2",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F8",
+              "source_index": 18,
+              "source_label": "FP2-F8",
+              "sign": 1
+            },
+            {
+              "target": "F8-T8",
+              "source_index": 19,
+              "source_label": "F8-T8",
+              "sign": 1
+            },
+            {
+              "target": "P8-O2",
+              "source_index": 21,
+              "source_label": "P8-O2",
+              "sign": 1
+            },
+            {
+              "target": "FZ-CZ",
+              "source_index": 10,
+              "source_label": "FZ-CZ",
+              "sign": 1
+            },
+            {
+              "target": "CZ-PZ",
+              "source_index": 11,
+              "source_label": "CZ-PZ",
+              "sign": 1
+            }
+          ],
+          "full_waveform_access_enabled": false
+        },
+        "matches_previous_diagnostic_header_sha256": true
+      }
+    },
+    {
+      "path": "chb17/chb17a_03.edf",
+      "status": "parsed",
+      "audit": {
+        "dataset": "chbmit",
+        "path": "chb17/chb17a_03.edf",
+        "split": "validation",
+        "url": "https://physionet.org/files/chbmit/1.0.0/chb17/chb17a_03.edf",
+        "retain_invalid_calibration": true,
+        "source_full_EDF_sha256": "cdbf499b50bdf9292a89196dbc2b4e221323c38a6e650f4a54d2d21b125cbd91",
+        "full_EDF_sha256_verified": false,
+        "header_sha256": "701db8a7749d0769914351968b995efd2864d78e881500c8e5ee47e8ddeb91fd",
+        "header_bytes_read": 7424,
+        "waveform_bytes_read": 0,
+        "HTTP_range_total_bytes": 51617024,
+        "metadata": {
+          "header_bytes": 7424,
+          "signals": 28,
+          "records": 3600,
+          "record_seconds": "1",
+          "discontinuous": false,
+          "channels": [
+            {
+              "index": 0,
+              "label": "FP1-F7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 1,
+              "label": "F7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 2,
+              "label": "T7-P7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 3,
+              "label": "P7-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 4,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 5,
+              "label": "FP1-F3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 6,
+              "label": "F3-C3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 7,
+              "label": "C3-P3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 8,
+              "label": "P3-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 9,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 10,
+              "label": "FZ-CZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 11,
+              "label": "CZ-PZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 12,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 13,
+              "label": "FP2-F4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 14,
+              "label": "F4-C4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 15,
+              "label": "C4-P4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 16,
+              "label": "P4-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 17,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 18,
+              "label": "FP2-F8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 19,
+              "label": "F8-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 20,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 21,
+              "label": "P8-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 22,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 23,
+              "label": "P7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 24,
+              "label": "T7-FT9",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 25,
+              "label": "FT9-FT10",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 26,
+              "label": "FT10-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 27,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            }
+          ],
+          "recording_seconds": "3600",
+          "expected_full_file_bytes": 51617024
+        },
+        "candidate18": {
+          "FP1-F7": {
+            "indices": [
+              0
+            ],
+            "status": "unique"
+          },
+          "F7-T7": {
+            "indices": [
+              1
+            ],
+            "status": "unique"
+          },
+          "T7-P7": {
+            "indices": [
+              2
+            ],
+            "status": "unique"
+          },
+          "P7-O1": {
+            "indices": [
+              3
+            ],
+            "status": "unique"
+          },
+          "FP1-F3": {
+            "indices": [
+              5
+            ],
+            "status": "unique"
+          },
+          "F3-C3": {
+            "indices": [
+              6
+            ],
+            "status": "unique"
+          },
+          "C3-P3": {
+            "indices": [
+              7
+            ],
+            "status": "unique"
+          },
+          "P3-O1": {
+            "indices": [
+              8
+            ],
+            "status": "unique"
+          },
+          "FP2-F4": {
+            "indices": [
+              13
+            ],
+            "status": "unique"
+          },
+          "F4-C4": {
+            "indices": [
+              14
+            ],
+            "status": "unique"
+          },
+          "C4-P4": {
+            "indices": [
+              15
+            ],
+            "status": "unique"
+          },
+          "P4-O2": {
+            "indices": [
+              16
+            ],
+            "status": "unique"
+          },
+          "FP2-F8": {
+            "indices": [
+              18
+            ],
+            "status": "unique"
+          },
+          "F8-T8": {
+            "indices": [
+              19
+            ],
+            "status": "unique"
+          },
+          "T8-P8": {
+            "indices": [
+              20,
+              27
+            ],
+            "status": "duplicate_unresolved"
+          },
+          "P8-O2": {
+            "indices": [
+              21
+            ],
+            "status": "unique"
+          },
+          "FZ-CZ": {
+            "indices": [
+              10
+            ],
+            "status": "unique"
+          },
+          "CZ-PZ": {
+            "indices": [
+              11
+            ],
+            "status": "unique"
+          }
+        },
+        "limitation": "One development EDF header only; no signal equality, gap continuity or physiological BFG identification established",
+        "candidate17": {
+          "candidate": "fixed17-bipolar-v1",
+          "eligible": true,
+          "reasons": [],
+          "mapping": [
+            {
+              "target": "FP1-F7",
+              "source_index": 0,
+              "source_label": "FP1-F7",
+              "sign": 1
+            },
+            {
+              "target": "F7-T7",
+              "source_index": 1,
+              "source_label": "F7-T7",
+              "sign": 1
+            },
+            {
+              "target": "T7-P7",
+              "source_index": 2,
+              "source_label": "T7-P7",
+              "sign": 1
+            },
+            {
+              "target": "P7-O1",
+              "source_index": 3,
+              "source_label": "P7-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP1-F3",
+              "source_index": 5,
+              "source_label": "FP1-F3",
+              "sign": 1
+            },
+            {
+              "target": "F3-C3",
+              "source_index": 6,
+              "source_label": "F3-C3",
+              "sign": 1
+            },
+            {
+              "target": "C3-P3",
+              "source_index": 7,
+              "source_label": "C3-P3",
+              "sign": 1
+            },
+            {
+              "target": "P3-O1",
+              "source_index": 8,
+              "source_label": "P3-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F4",
+              "source_index": 13,
+              "source_label": "FP2-F4",
+              "sign": 1
+            },
+            {
+              "target": "F4-C4",
+              "source_index": 14,
+              "source_label": "F4-C4",
+              "sign": 1
+            },
+            {
+              "target": "C4-P4",
+              "source_index": 15,
+              "source_label": "C4-P4",
+              "sign": 1
+            },
+            {
+              "target": "P4-O2",
+              "source_index": 16,
+              "source_label": "P4-O2",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F8",
+              "source_index": 18,
+              "source_label": "FP2-F8",
+              "sign": 1
+            },
+            {
+              "target": "F8-T8",
+              "source_index": 19,
+              "source_label": "F8-T8",
+              "sign": 1
+            },
+            {
+              "target": "P8-O2",
+              "source_index": 21,
+              "source_label": "P8-O2",
+              "sign": 1
+            },
+            {
+              "target": "FZ-CZ",
+              "source_index": 10,
+              "source_label": "FZ-CZ",
+              "sign": 1
+            },
+            {
+              "target": "CZ-PZ",
+              "source_index": 11,
+              "source_label": "CZ-PZ",
+              "sign": 1
+            }
+          ],
+          "full_waveform_access_enabled": false
+        },
+        "matches_previous_diagnostic_header_sha256": true
+      }
+    },
+    {
+      "path": "chb18/chb18_01.edf",
+      "status": "parsed",
+      "audit": {
+        "dataset": "chbmit",
+        "path": "chb18/chb18_01.edf",
+        "split": "validation",
+        "url": "https://physionet.org/files/chbmit/1.0.0/chb18/chb18_01.edf",
+        "retain_invalid_calibration": true,
+        "source_full_EDF_sha256": "bf2c85d1c803fb70e1d891dd9c3e7ea062d02c80f4c1bce9285660fea31fa033",
+        "full_EDF_sha256_verified": false,
+        "header_sha256": "5666b8cb0dcba899e339e5f004be772f469e7dcb6d832b3a769638cb49b44130",
+        "header_bytes_read": 5888,
+        "waveform_bytes_read": 0,
+        "HTTP_range_total_bytes": 40680192,
+        "metadata": {
+          "header_bytes": 5888,
+          "signals": 22,
+          "records": 3611,
+          "record_seconds": "1",
+          "discontinuous": false,
+          "channels": [
+            {
+              "index": 0,
+              "label": "FP1-F7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 1,
+              "label": "F7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 2,
+              "label": "T7-P7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 3,
+              "label": "P7-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 4,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 5,
+              "label": "FP1-F3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 6,
+              "label": "F3-C3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 7,
+              "label": "C3-P3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 8,
+              "label": "P3-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 9,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 10,
+              "label": "FZ-CZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 11,
+              "label": "CZ-PZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 12,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 13,
+              "label": "FP2-F4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 14,
+              "label": "F4-C4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 15,
+              "label": "C4-P4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 16,
+              "label": "P4-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 17,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 18,
+              "label": "FP2-F8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 19,
+              "label": "F8-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 20,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 21,
+              "label": "P8-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            }
+          ],
+          "recording_seconds": "3611",
+          "expected_full_file_bytes": 40680192
+        },
+        "candidate18": {
+          "FP1-F7": {
+            "indices": [
+              0
+            ],
+            "status": "unique"
+          },
+          "F7-T7": {
+            "indices": [
+              1
+            ],
+            "status": "unique"
+          },
+          "T7-P7": {
+            "indices": [
+              2
+            ],
+            "status": "unique"
+          },
+          "P7-O1": {
+            "indices": [
+              3
+            ],
+            "status": "unique"
+          },
+          "FP1-F3": {
+            "indices": [
+              5
+            ],
+            "status": "unique"
+          },
+          "F3-C3": {
+            "indices": [
+              6
+            ],
+            "status": "unique"
+          },
+          "C3-P3": {
+            "indices": [
+              7
+            ],
+            "status": "unique"
+          },
+          "P3-O1": {
+            "indices": [
+              8
+            ],
+            "status": "unique"
+          },
+          "FP2-F4": {
+            "indices": [
+              13
+            ],
+            "status": "unique"
+          },
+          "F4-C4": {
+            "indices": [
+              14
+            ],
+            "status": "unique"
+          },
+          "C4-P4": {
+            "indices": [
+              15
+            ],
+            "status": "unique"
+          },
+          "P4-O2": {
+            "indices": [
+              16
+            ],
+            "status": "unique"
+          },
+          "FP2-F8": {
+            "indices": [
+              18
+            ],
+            "status": "unique"
+          },
+          "F8-T8": {
+            "indices": [
+              19
+            ],
+            "status": "unique"
+          },
+          "T8-P8": {
+            "indices": [
+              20
+            ],
+            "status": "unique"
+          },
+          "P8-O2": {
+            "indices": [
+              21
+            ],
+            "status": "unique"
+          },
+          "FZ-CZ": {
+            "indices": [
+              10
+            ],
+            "status": "unique"
+          },
+          "CZ-PZ": {
+            "indices": [
+              11
+            ],
+            "status": "unique"
+          }
+        },
+        "limitation": "One development EDF header only; no signal equality, gap continuity or physiological BFG identification established",
+        "candidate17": {
+          "candidate": "fixed17-bipolar-v1",
+          "eligible": true,
+          "reasons": [],
+          "mapping": [
+            {
+              "target": "FP1-F7",
+              "source_index": 0,
+              "source_label": "FP1-F7",
+              "sign": 1
+            },
+            {
+              "target": "F7-T7",
+              "source_index": 1,
+              "source_label": "F7-T7",
+              "sign": 1
+            },
+            {
+              "target": "T7-P7",
+              "source_index": 2,
+              "source_label": "T7-P7",
+              "sign": 1
+            },
+            {
+              "target": "P7-O1",
+              "source_index": 3,
+              "source_label": "P7-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP1-F3",
+              "source_index": 5,
+              "source_label": "FP1-F3",
+              "sign": 1
+            },
+            {
+              "target": "F3-C3",
+              "source_index": 6,
+              "source_label": "F3-C3",
+              "sign": 1
+            },
+            {
+              "target": "C3-P3",
+              "source_index": 7,
+              "source_label": "C3-P3",
+              "sign": 1
+            },
+            {
+              "target": "P3-O1",
+              "source_index": 8,
+              "source_label": "P3-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F4",
+              "source_index": 13,
+              "source_label": "FP2-F4",
+              "sign": 1
+            },
+            {
+              "target": "F4-C4",
+              "source_index": 14,
+              "source_label": "F4-C4",
+              "sign": 1
+            },
+            {
+              "target": "C4-P4",
+              "source_index": 15,
+              "source_label": "C4-P4",
+              "sign": 1
+            },
+            {
+              "target": "P4-O2",
+              "source_index": 16,
+              "source_label": "P4-O2",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F8",
+              "source_index": 18,
+              "source_label": "FP2-F8",
+              "sign": 1
+            },
+            {
+              "target": "F8-T8",
+              "source_index": 19,
+              "source_label": "F8-T8",
+              "sign": 1
+            },
+            {
+              "target": "P8-O2",
+              "source_index": 21,
+              "source_label": "P8-O2",
+              "sign": 1
+            },
+            {
+              "target": "FZ-CZ",
+              "source_index": 10,
+              "source_label": "FZ-CZ",
+              "sign": 1
+            },
+            {
+              "target": "CZ-PZ",
+              "source_index": 11,
+              "source_label": "CZ-PZ",
+              "sign": 1
+            }
+          ],
+          "full_waveform_access_enabled": false
+        },
+        "matches_previous_diagnostic_header_sha256": true
+      }
+    },
+    {
+      "path": "chb21/chb21_01.edf",
+      "status": "parsed",
+      "audit": {
+        "dataset": "chbmit",
+        "path": "chb21/chb21_01.edf",
+        "split": "train",
+        "url": "https://physionet.org/files/chbmit/1.0.0/chb21/chb21_01.edf",
+        "retain_invalid_calibration": true,
+        "source_full_EDF_sha256": "c017c4c1967bcc4af6551f346c490ff1da23d2a0a5d8c9a048071a438270c571",
+        "full_EDF_sha256_verified": false,
+        "header_sha256": "3bc4ab90331a2546713e60f0fe50d904668c990064489b1050084102991e4167",
+        "header_bytes_read": 7424,
+        "waveform_bytes_read": 0,
+        "HTTP_range_total_bytes": 51617024,
+        "metadata": {
+          "header_bytes": 7424,
+          "signals": 28,
+          "records": 3600,
+          "record_seconds": "1",
+          "discontinuous": false,
+          "channels": [
+            {
+              "index": 0,
+              "label": "FP1-F7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 1,
+              "label": "F7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 2,
+              "label": "T7-P7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 3,
+              "label": "P7-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 4,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 5,
+              "label": "FP1-F3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 6,
+              "label": "F3-C3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 7,
+              "label": "C3-P3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 8,
+              "label": "P3-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 9,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 10,
+              "label": "FZ-CZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 11,
+              "label": "CZ-PZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 12,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 13,
+              "label": "FP2-F4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 14,
+              "label": "F4-C4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 15,
+              "label": "C4-P4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 16,
+              "label": "P4-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 17,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 18,
+              "label": "FP2-F8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 19,
+              "label": "F8-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 20,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 21,
+              "label": "P8-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 22,
+              "label": "-",
+              "unit": "uV",
+              "physical_min": "-1",
+              "physical_max": "1",
+              "digital_min": 0,
+              "digital_max": 0,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": false,
+              "calibration_error": "Invalid physical/digital calibration limits",
+              "volts_per_digital_step": null
+            },
+            {
+              "index": 23,
+              "label": "P7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 24,
+              "label": "T7-FT9",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 25,
+              "label": "FT9-FT10",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 26,
+              "label": "FT10-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 27,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "calibration_valid": true,
+              "calibration_error": null,
+              "volts_per_digital_step": "1/2559375"
+            }
+          ],
+          "recording_seconds": "3600",
+          "expected_full_file_bytes": 51617024
+        },
+        "candidate18": {
+          "FP1-F7": {
+            "indices": [
+              0
+            ],
+            "status": "unique"
+          },
+          "F7-T7": {
+            "indices": [
+              1
+            ],
+            "status": "unique"
+          },
+          "T7-P7": {
+            "indices": [
+              2
+            ],
+            "status": "unique"
+          },
+          "P7-O1": {
+            "indices": [
+              3
+            ],
+            "status": "unique"
+          },
+          "FP1-F3": {
+            "indices": [
+              5
+            ],
+            "status": "unique"
+          },
+          "F3-C3": {
+            "indices": [
+              6
+            ],
+            "status": "unique"
+          },
+          "C3-P3": {
+            "indices": [
+              7
+            ],
+            "status": "unique"
+          },
+          "P3-O1": {
+            "indices": [
+              8
+            ],
+            "status": "unique"
+          },
+          "FP2-F4": {
+            "indices": [
+              13
+            ],
+            "status": "unique"
+          },
+          "F4-C4": {
+            "indices": [
+              14
+            ],
+            "status": "unique"
+          },
+          "C4-P4": {
+            "indices": [
+              15
+            ],
+            "status": "unique"
+          },
+          "P4-O2": {
+            "indices": [
+              16
+            ],
+            "status": "unique"
+          },
+          "FP2-F8": {
+            "indices": [
+              18
+            ],
+            "status": "unique"
+          },
+          "F8-T8": {
+            "indices": [
+              19
+            ],
+            "status": "unique"
+          },
+          "T8-P8": {
+            "indices": [
+              20,
+              27
+            ],
+            "status": "duplicate_unresolved"
+          },
+          "P8-O2": {
+            "indices": [
+              21
+            ],
+            "status": "unique"
+          },
+          "FZ-CZ": {
+            "indices": [
+              10
+            ],
+            "status": "unique"
+          },
+          "CZ-PZ": {
+            "indices": [
+              11
+            ],
+            "status": "unique"
+          }
+        },
+        "limitation": "One development EDF header only; no signal equality, gap continuity or physiological BFG identification established",
+        "candidate17": {
+          "candidate": "fixed17-bipolar-v1",
+          "eligible": true,
+          "reasons": [],
+          "mapping": [
+            {
+              "target": "FP1-F7",
+              "source_index": 0,
+              "source_label": "FP1-F7",
+              "sign": 1
+            },
+            {
+              "target": "F7-T7",
+              "source_index": 1,
+              "source_label": "F7-T7",
+              "sign": 1
+            },
+            {
+              "target": "T7-P7",
+              "source_index": 2,
+              "source_label": "T7-P7",
+              "sign": 1
+            },
+            {
+              "target": "P7-O1",
+              "source_index": 3,
+              "source_label": "P7-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP1-F3",
+              "source_index": 5,
+              "source_label": "FP1-F3",
+              "sign": 1
+            },
+            {
+              "target": "F3-C3",
+              "source_index": 6,
+              "source_label": "F3-C3",
+              "sign": 1
+            },
+            {
+              "target": "C3-P3",
+              "source_index": 7,
+              "source_label": "C3-P3",
+              "sign": 1
+            },
+            {
+              "target": "P3-O1",
+              "source_index": 8,
+              "source_label": "P3-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F4",
+              "source_index": 13,
+              "source_label": "FP2-F4",
+              "sign": 1
+            },
+            {
+              "target": "F4-C4",
+              "source_index": 14,
+              "source_label": "F4-C4",
+              "sign": 1
+            },
+            {
+              "target": "C4-P4",
+              "source_index": 15,
+              "source_label": "C4-P4",
+              "sign": 1
+            },
+            {
+              "target": "P4-O2",
+              "source_index": 16,
+              "source_label": "P4-O2",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F8",
+              "source_index": 18,
+              "source_label": "FP2-F8",
+              "sign": 1
+            },
+            {
+              "target": "F8-T8",
+              "source_index": 19,
+              "source_label": "F8-T8",
+              "sign": 1
+            },
+            {
+              "target": "P8-O2",
+              "source_index": 21,
+              "source_label": "P8-O2",
+              "sign": 1
+            },
+            {
+              "target": "FZ-CZ",
+              "source_index": 10,
+              "source_label": "FZ-CZ",
+              "sign": 1
+            },
+            {
+              "target": "CZ-PZ",
+              "source_index": 11,
+              "source_label": "CZ-PZ",
+              "sign": 1
+            }
+          ],
+          "full_waveform_access_enabled": false
+        },
+        "matches_previous_diagnostic_header_sha256": true
+      }
+    }
+  ],
+  "parsed": 8,
+  "eligible17": 8,
+  "header_bytes_read": 58624,
+  "waveform_bytes_read": 0,
+  "independent_checks": {
+    "selection_count": 8,
+    "all_previous_diagnostic_hashes_match": true,
+    "all17_target_calibrations_and_rates_checked_directly": true,
+    "no_invalid_channel_selected": true,
+    "all_channel_file_size_accounting": true
+  }
+}

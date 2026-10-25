@@ -120,6 +120,27 @@ for malformed in (bytes(bad)[:-1],fixture(samples=(0,1))):
     else:raise AssertionError('retention bypassed structural rejection')
 checks.append('retention mode still rejects truncation and zero sample count')
 
+# Public probe integration uses the exact header ranges and unchanged allowlist.
+full_size=256*(n+1)+2*2*128*n
+calls=[]
+def fixture_range(url,start,end):
+    calls.append((start,end))
+    return bytes(bad)[start:end+1],full_size
+with patch.object(e,'read_range',side_effect=fixture_range):
+    recovered=e.probe('chb01/chb01_01.edf',retain_invalid_calibration=True)
+check('probe retention integration exact ranges and full-file accounting',
+      calls==[(0,255),(256,len(bad)-1)] and recovered['HTTP_range_total_bytes']==full_size and
+      recovered['header_bytes_read']==len(bad) and recovered['waveform_bytes_read']==0 and
+      compile_map(recovered['metadata'])['eligible'])
+with patch.object(e,'read_range',side_effect=AssertionError('No network')):
+    try:e.probe('chb19/chb19_01.edf',retain_invalid_calibration=True)
+    except ValueError:checks.append('retention probe cannot bypass heldout guard')
+    else:raise AssertionError('retention bypassed guard')
+with patch.object(e,'read_range',side_effect=lambda url,a,b:(bytes(bad)[a:b+1],full_size+2)):
+    try:e.probe('chb01/chb01_01.edf',retain_invalid_calibration=True)
+    except ValueError:checks.append('retention probe still rejects full-file size mismatch')
+    else:raise AssertionError('bad total accepted')
+
 result=dict(status='PASS',control_groups=len(checks),checks=checks,network_requests=0,synthetic_only=True,empirical_result=False)
 Path(__file__).with_name('edf_header_checks.json').write_text(json.dumps(result,indent=2)+'\n')
 print(json.dumps(result,indent=2))

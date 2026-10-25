@@ -97,17 +97,18 @@ def read_range(url,start,end):
             raise ValueError('Truncated range body')
         return data,total
 
-def probe(relative):
+def probe(relative, *, retain_invalid_calibration=False):
     # Validate exact development membership before constructing any network request.
     row=development_entry(relative)
     first,total=read_range(row['url'],0,255);fixed=fixed_header(first)
     rest,total2=read_range(row['url'],256,fixed['header_bytes']-1)
     if total!=total2:
         raise ValueError('File total changed across range requests')
-    data=first+rest;parsed=parse_header(data)
+    data=first+rest;parsed=parse_header(data, retain_invalid_calibration=retain_invalid_calibration)
     if parsed['expected_full_file_bytes'] is not None and parsed['expected_full_file_bytes']!=total:
         raise ValueError('EDF declared structure/file total mismatch')
     return dict(dataset='chbmit',path=relative,split=row['split'],url=row['url'],
+        retain_invalid_calibration=retain_invalid_calibration,
         source_full_EDF_sha256=row['sha256'],full_EDF_sha256_verified=False,
         header_sha256=hashlib.sha256(data).hexdigest(),header_bytes_read=len(data),
         waveform_bytes_read=0,HTTP_range_total_bytes=total,metadata=parsed,

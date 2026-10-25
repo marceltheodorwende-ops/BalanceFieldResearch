@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "control_groups": 26,
+  "control_groups": 29,
   "checks": [
     "exact fixture length and duration",
     "different signal rates preserved",
@@ -27,7 +27,10 @@
     "all rows still contribute to full file size",
     "invalid retained channel conversion forbidden",
     "invalid required target remains ineligible",
-    "retention mode still rejects truncation and zero sample count"
+    "retention mode still rejects truncation and zero sample count",
+    "probe retention integration exact ranges and full-file accounting",
+    "retention probe cannot bypass heldout guard",
+    "retention probe still rejects full-file size mismatch"
   ],
   "network_requests": 0,
   "synthetic_only": true,
