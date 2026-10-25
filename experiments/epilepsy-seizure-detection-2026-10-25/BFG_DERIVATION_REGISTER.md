@@ -39,3 +39,6 @@ Strict source grammar and manifest identity/count checks implemented; all42 alre
 
 ## A7 — Complete chb01 EDF duration/source-event reconciliation
 42 exact development files joined, all7 source events inside EDF duration;145988 recorded seconds,442 source-event seconds,145546 remaining seconds. Three non3600s files demonstrate why equal-duration imputation fails. Independent set/count/integer checks PASS. CHB01_DURATION_RECONCILIATION.md records provenance and scope. Header-only measurement audit, not BFG physiology or seizure performance. Availability join/gaps and full EP01 remain OPEN.
+
+## A8 — Availability/original-event duration join
+Under complete one-record ready/invalid boolean masks, partition/additivity proves full time and original-event count retained; per-event overlaps exact even off-grid.6 groups/1364 independent cell cases and synthetic stream integration PASS. AVAILABILITY_CONTRACT.md distinguishes retrospective cell duration from causal sample-end alarm availability. Evaluation arithmetic, not BFG physiology. Identity/failed-file/scorer integration and full EP01 remain OPEN.

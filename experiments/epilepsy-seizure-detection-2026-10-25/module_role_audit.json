@@ -13,6 +13,14 @@
       ]
     },
     {
+      "path": "availability_audit.py",
+      "sha256": "1dbaa66b25a63cb45ea11d70d3aa8f359d89e98747f5a146532d50e5f069dd07",
+      "role": "exact retrospective coverage and annotation-duration evaluation, no alarm model",
+      "top_level_functions": [
+        "audit_availability"
+      ]
+    },
+    {
       "path": "causal_stream.py",
       "sha256": "285c365983e22f3f301de948f256978b1af8a414041111dd97ec36d8808a8a2b",
       "role": "one-record causal execution/coverage primitive, no scientific filter selection or neural law",
@@ -34,6 +42,14 @@
       "path": "check_annotation_import.py",
       "sha256": "88edcb08e4ac353a903a278140c0650a1114f661ed2b776ca6f2d966c8921613",
       "role": "synthetic and already-exposed source annotation controls",
+      "top_level_functions": [
+        "check"
+      ]
+    },
+    {
+      "path": "check_availability_audit.py",
+      "sha256": "4fb7da0bd5ef4eea8d754499ddb46b0b8f1142e778b3a9d76f1b779e805dcc10",
+      "role": "synthetic independent coverage and stream integration controls",
       "top_level_functions": [
         "check"
       ]

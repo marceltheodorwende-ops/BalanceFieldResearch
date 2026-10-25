@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "control_groups": 6,
+  "checks": [
+    "fully unavailable events and full time remain in denominators",
+    "off-grid overlap exact without rounding",
+    "1364 independent event/readiness mask cell cases",
+    "stream ready invalid warmup counts join without time loss",
+    "cell accounting does not backdate sample-end availability",
+    "nonboolean truncated and contradictory masks refused"
+  ],
+  "independent_oracle_cases": 1364,
+  "synthetic_only": true,
+  "new_data_access": false,
+  "clinical_result": false
+}

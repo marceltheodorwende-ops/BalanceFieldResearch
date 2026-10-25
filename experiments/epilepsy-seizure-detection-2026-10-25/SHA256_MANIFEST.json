@@ -5,14 +5,19 @@
     "sha256": "3bb96ea7b278c3c6dcdccb1b595854af1487638ccaf46c51a1297749694faa90"
   },
   {
+    "path": "AVAILABILITY_CONTRACT.md",
+    "bytes": 3490,
+    "sha256": "3054b1241d0cc55943deda8bd93d31be12697ec254c4e92e1481b89beab494e9"
+  },
+  {
     "path": "BFG_ASSUMPTION_AUDIT.md",
     "bytes": 9248,
     "sha256": "68b432006404a8f2789834f57031380017ed0021de3b3bd6a8e8648f42eee6a3"
   },
   {
     "path": "BFG_DERIVATION_REGISTER.md",
-    "bytes": 9291,
-    "sha256": "cdd51cacafc8484d976392b767b834c3576624ec265179229ac84e8b2393564f"
+    "bytes": 9807,
+    "sha256": "d570a6b3459679535c7f00d9367a915271babcdc3d5d1facc533798ea9b6aed8"
   },
   {
     "path": "BFG_SOURCE_REVIEW.json",
@@ -90,6 +95,16 @@
     "sha256": "afb11e0cebd9ced161c288ee0655c4dcab1aad1a8a25e9dfdf1cfe64beb8e00f"
   },
   {
+    "path": "availability_audit.py",
+    "bytes": 2093,
+    "sha256": "1dbaa66b25a63cb45ea11d70d3aa8f359d89e98747f5a146532d50e5f069dd07"
+  },
+  {
+    "path": "availability_audit_checks.json",
+    "bytes": 544,
+    "sha256": "01e3904b5f6013317b54b9bb18374f7494b4dfbe123c0372f88a4b0dbf05847b"
+  },
+  {
     "path": "bfg_boundary_checks.json",
     "bytes": 613,
     "sha256": "5367904b8bafda32464808a534dc4f347925c08e48234453c76c6fc18eeb87c8"
@@ -138,6 +153,11 @@
     "path": "check_annotation_import.py",
     "bytes": 3761,
     "sha256": "88edcb08e4ac353a903a278140c0650a1114f661ed2b776ca6f2d966c8921613"
+  },
+  {
+    "path": "check_availability_audit.py",
+    "bytes": 2578,
+    "sha256": "4fb7da0bd5ef4eea8d754499ddb46b0b8f1142e778b3a9d76f1b779e805dcc10"
   },
   {
     "path": "check_bfg_boundary.py",
@@ -241,8 +261,8 @@
   },
   {
     "path": "module_role_audit.json",
-    "bytes": 6273,
-    "sha256": "d83a0068ec15b3fefe43d855303ab605565b8b50be187c6a225e87ad0f21e7ee"
+    "bytes": 6851,
+    "sha256": "bc3923da6dd2d9132822912b00261f6e0f81263af771ffc64e0656f84e14a48e"
   },
   {
     "path": "montage_audit.json",
