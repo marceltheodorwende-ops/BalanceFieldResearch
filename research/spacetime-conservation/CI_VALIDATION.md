@@ -541,3 +541,10 @@ Ein frischer lokaler PASS,3 Originalereignisse, keine Fehlvorläufe/Korrektur. T
 Ein frischer lokaler PASS mit6 Originalereignissen, keine Fehlvorläufe/Korrektur. Historischer Dichteabstand exakt sqrt(10)/6, interne Erwartungen3/2 und4; Formationsbestand wächst durch tatsächliche Seeds. Maximaler Rest7.11e-15 bei Toleranz1e-10. Vollständiger Prüftext/Rohdaten HISTORY_STATE_ENERGY_BRIDGE_CHECKS.md; allgemeine Beweise separat algebraisch. Eingebettete Reproduktion nur Dokumenttext, keine Audit-/Workflow-/Originaländerung.
 
 Runde73-Actions [40190177543](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40190177543) und [40190173223](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40190173223) am exakten Head56ccfb08679c26c4885d21ed4fd09e00bf41e894 bei beiden Nachprüfungen dieses Laufs noch in_progress. Kein Remote-PASS behauptet. Neue lokale Reproduktion wird durch die bestehende CI nicht automatisch ausgeführt.
+
+
+## Runde73 – Remote-CI nachgeprüft; Runde75 lokale Vollereigniskontrolle
+
+[Actions40190177543](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40190177543) und [Actions40190173223](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40190173223) beide completed/success am exakten Head56ccfb08679c26c4885d21ed4fd09e00bf41e894. Bestehende Pipeline bestätigt, nicht automatische Ausführung eingebetteter neuer Reproduktionen.
+
+Runde74 am Headcb7d7cf8cba636ef90bd21f114e3ac6329cf4047: Actions40190498347 in_progress,40190495325 pending bei erster Nachprüfung; kein PASS behauptet. Runde75: ein frischer lokaler PASS,4 Originalereignisse ohne Fehlvorlauf/Korrektur. Echte Verlustselektion und Seed, gleicher struktureller Ausgang bei verschiedenen Witnessmassen und Reinheiten, zweites Ereignis mit gleichem Befund. Struktur-/Lastenrest0 im identischen Quellrahmen, Toleranz1e-10; allgemeine Abhängigkeits-/Homogenitätsbeweise separat algebraisch. Vollständige Reproduktion FULL_EVENT_STATE_ENERGY_SELECTION_CHECKS.md. Nur Dokumenttext, keine Audit-/Workflow-/Originaländerung; neuer Remote-PASS nicht angenommen.
