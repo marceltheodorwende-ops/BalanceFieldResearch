@@ -11,8 +11,8 @@
   },
   {
     "path": "BFG_DERIVATION_REGISTER.md",
-    "bytes": 8775,
-    "sha256": "b0a76256e4a4de49912c018db1257cc59e83de1cf9ab82718696abd566a417ba"
+    "bytes": 9291,
+    "sha256": "cdd51cacafc8484d976392b767b834c3576624ec265179229ac84e8b2393564f"
   },
   {
     "path": "BFG_SOURCE_REVIEW.json",
@@ -23,6 +23,11 @@
     "path": "CHANNEL_POLICY.md",
     "bytes": 5555,
     "sha256": "152591f4a0b1e20c29908638483e4093f7e4a20da16e0bda6956d7890c2fc116"
+  },
+  {
+    "path": "CHB01_DURATION_RECONCILIATION.md",
+    "bytes": 3589,
+    "sha256": "bd9375a935b98bc280b3846954fa790a1664aecbe0f94924302e02e4826c9033"
   },
   {
     "path": "DATA_AND_SCORING_AUDIT.md",
@@ -113,6 +118,21 @@
     "path": "chb01_annotation_import.json",
     "bytes": 12823,
     "sha256": "97b4c8712f534a3db673827b83a0f6005753053aa59e162a41cc285f560560cc"
+  },
+  {
+    "path": "chb01_duration_checks.json",
+    "bytes": 323,
+    "sha256": "ab73da550e73430b9cc7c2c91d4c8bbc5898961cad69369a2dfd4fc906cf2998"
+  },
+  {
+    "path": "chb01_duration_reconciliation.json",
+    "bytes": 37500,
+    "sha256": "3bea4331a4db7ef1f83755190f8872f65b3d67c390ad42e8503ba4714c2e4532"
+  },
+  {
+    "path": "chb01_duration_selection.json",
+    "bytes": 1297,
+    "sha256": "40c1ce183fc2523757b5d4887c6ddf7999c7f6f31c21263347d3325a93271f70"
   },
   {
     "path": "check_annotation_import.py",

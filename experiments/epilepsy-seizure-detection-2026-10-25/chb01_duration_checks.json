@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "unique_manifest_paths": 42,
+  "all_target17_metadata_eligible": true,
+  "all_source_events_within_EDF_duration": true,
+  "all_record_denominators_retained": true,
+  "independent_integer_recorded_seconds": 145988,
+  "independent_integer_event_seconds": 442,
+  "full_EDF_checksums_verified": false
+}

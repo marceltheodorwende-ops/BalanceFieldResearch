@@ -36,3 +36,6 @@ Exact interval/sample-grid validation and full duration decomposition proved und
 
 ## A6 — Pinned development annotation import
 Strict source grammar and manifest identity/count checks implemented; all42 already-exposed chb01 files retained including35 zero-event files and seven independently checked event pairs. Only one EDF duration joined;41 durations UNVERIFIED.9 controls PASS. Evaluation/source interface, no BFG biological law. ANNOTATION_IMPORT_CONTRACT.md records assumptions and remaining source/coverage/endpoint obligations OPEN.
+
+## A7 — Complete chb01 EDF duration/source-event reconciliation
+42 exact development files joined, all7 source events inside EDF duration;145988 recorded seconds,442 source-event seconds,145546 remaining seconds. Three non3600s files demonstrate why equal-duration imputation fails. Independent set/count/integer checks PASS. CHB01_DURATION_RECONCILIATION.md records provenance and scope. Header-only measurement audit, not BFG physiology or seizure performance. Availability join/gaps and full EP01 remain OPEN.
