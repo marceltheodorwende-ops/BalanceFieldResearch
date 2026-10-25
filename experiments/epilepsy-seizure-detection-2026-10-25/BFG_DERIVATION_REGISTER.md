@@ -1,0 +1,14 @@
+# EP01 BFG derivation and assumption register
+
+All entries belong to the single OPEN EP01 package. No seizure predictor or confirmation freeze is approved by this register. Source: directly SHA256-verified Dynamic Order,8Oct2026,144pages; BFG_SOURCE_REVIEW.json.
+
+| ID | Statement | Source / assumptions | Evidence / counterexample | Status |
+|---|---|---|---|---|
+| EP01-A1 | Current EP01 contains no new physiological evolution law or BFG seizure detector | Explicit reviewed module inventory; historical packages excluded from this bounded finding | BFG_ASSUMPTION_AUDIT.md and module_role_audit.json; scoring choices are not laws | Reviewed current scope |
+| EP01-B1 | Measurement ambiguity cannot be removed by deterministic preparation plus canonical recursion alone | Fixed x=Bv, same J(x); II85 unique quotient successor; II89 Eq161 | Midline w: Bw=0, Lw nonzero; iterated identical inputs give identical outputs | Proved under stated measurement conditions; not universal BFG impossibility |
+| EP01-B2 | Two parameter-free covariance preparations are admissible for rank>=2 and have different canonical geometry successors | II83-85 Eq121-143; J1/J2 are explicit mathematical definitions, NOT BFG-derived EEG identification | Exact full-persistence formula,72 independent SVD/gauge controls; C=diag(2,1) spectral gap0.10984366437892966 | Conditional mathematical admissibility/nonselection proved; no empirical promotion |
+| EP01-B3 | The two given preparations alone do not identify sensor orientation in pure quotient-invariant readouts | All five components conjugate together, Eq123/Theorem2 | C and UCUdagger give gauge-equivalent states; no fixed-frame spatial observable is silently introduced | Proved for these preparations only |
+| EP01-O1 | Select an EEG preparation/observable interface from independently specified sensor information and BFG equations | Source Eq119-120,121-143,161-162; no new natural law allowed | Admissibility alone admits J1/J2; no clinical target selected; no fit used | OPEN |
+| EP01-O2 | Clinical seizure discrimination and fewer false alarms follow for a frozen BFG candidate | O1 plus acquisition/preprocessing, complete protocol, strong rivals, untouched test evaluation | No seizure EEG model trained/evaluated; source contains no explicit EEG equation in extracted text | OPEN, no clinical/BFG benefit claim |
+
+Latest user requirement: no invented laws or free repair dynamics. A measured sensor interface is a separately declared identification; it cannot be called pure BFG derivation merely because units fit. Scoring deadlines, split allocation and decision thresholds are evaluation definitions to freeze independently, never physiological laws. Universal scope remains the research objective and requires actual sector-specific proof/evidence. No archived negative result is deleted or renamed.

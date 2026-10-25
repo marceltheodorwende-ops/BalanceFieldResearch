@@ -1,5 +1,20 @@
 [
   {
+    "path": "BFG_ASSUMPTION_AUDIT.md",
+    "bytes": 9104,
+    "sha256": "6819d6c28830a6769dacb9eef4b0cb4997ec0d6663f89875a7c58b21d734d7ac"
+  },
+  {
+    "path": "BFG_DERIVATION_REGISTER.md",
+    "bytes": 2853,
+    "sha256": "1480e50f6e5f014ae4a92b417904a572f113b894a046a4bc4b30eb837201a0a3"
+  },
+  {
+    "path": "BFG_SOURCE_REVIEW.json",
+    "bytes": 1256,
+    "sha256": "e856c3957b147e1f22ab9e313581828255ed7055bac3247dbff6fb28745d8b41"
+  },
+  {
     "path": "DATA_AND_SCORING_AUDIT.md",
     "bytes": 8546,
     "sha256": "5c89e3c68ae08409802d459395e8394c094808a0771a4523aec1ccb8b236dab7"
@@ -11,13 +26,13 @@
   },
   {
     "path": "README.md",
-    "bytes": 1328,
-    "sha256": "4694c1ae33259d26561d1069e8222fa737b9cbea135685961928d55ba3da016f"
+    "bytes": 1655,
+    "sha256": "98321b2a4dfd7fe3c2701f127f2ddb81f98d6fe8df10c45731e48cd3a6b90d6e"
   },
   {
     "path": "RESEARCH_PLAN.md",
-    "bytes": 6051,
-    "sha256": "53793b679c0beb196b9c5ed860be4753d990fd50d941337813d2e4b463c798bb"
+    "bytes": 6513,
+    "sha256": "5dc6e4dcdf73f05082bb2876c95d203bdce0e04e0259ccc01707b3e3a6d812fa"
   },
   {
     "path": "TIMELY_ENDPOINT.md",
@@ -28,6 +43,16 @@
     "path": "audit_sources/data_manifest.csv",
     "bytes": 48664,
     "sha256": "afb11e0cebd9ced161c288ee0655c4dcab1aad1a8a25e9dfdf1cfe64beb8e00f"
+  },
+  {
+    "path": "bfg_boundary_checks.json",
+    "bytes": 613,
+    "sha256": "5367904b8bafda32464808a534dc4f347925c08e48234453c76c6fc18eeb87c8"
+  },
+  {
+    "path": "check_bfg_boundary.py",
+    "bytes": 3749,
+    "sha256": "abf467a122a1cf0c239b19ed18d4863b3520f86576b9631bab951529b10bf892"
   },
   {
     "path": "check_contract.py",
@@ -73,6 +98,11 @@
     "path": "manifest_montage_checks.json",
     "bytes": 1439,
     "sha256": "b2500a049aaef08d21040cb6c36d2fa57d1187c3c8d00664e1c00b363eea54aa"
+  },
+  {
+    "path": "module_role_audit.json",
+    "bytes": 3152,
+    "sha256": "a6299a8fc2b7d6841f6dc75b64b9a110ca120c0d7dba37ada4978416a27a977c"
   },
   {
     "path": "montage_audit.json",

@@ -1,0 +1,43 @@
+{
+  "source_path": "papers/dynamic-order-2026-10-08/Balance_Field_Equation_Dynamic_Order.pdf",
+  "repository_commit": "457f23df6d9ccb15cf17916f3c3eac113b23c370",
+  "url": "https://raw.githubusercontent.com/marceltheodorwende-ops/BalanceFieldResearch/457f23df6d9ccb15cf17916f3c3eac113b23c370/papers/dynamic-order-2026-10-08/Balance_Field_Equation_Dynamic_Order.pdf",
+  "sha256": "1ad084a50c91a0827dd735d7cb8f666dc9e0c2552ed06b616cef28975babbdba",
+  "bytes": 16785600,
+  "pdf_pages": 144,
+  "source_hash_matched": true,
+  "extracted_text_sha256": "139871c13e101dc97927c81526519c1db299a53f0aa0beb986ecbd0c101de1c4",
+  "page_map": {
+    "state_space": [
+      72
+    ],
+    "canonical_event": [
+      73
+    ],
+    "gauge_bound": [
+      75
+    ],
+    "balance": [
+      75
+    ],
+    "finite_seed": [
+      77
+    ],
+    "driven": [
+      77
+    ],
+    "closure_clock": [
+      79
+    ],
+    "lift": [
+      80
+    ],
+    "physical_status": [
+      72
+    ]
+  },
+  "epilepsy_EEG_seizure_case_insensitive_text_matches": 0,
+  "review_scope": "Whole extracted text searched; detailed direct reading of Part I22-23,35,68-70 and Part II82-90,92. No claim to re-prove every manuscript theorem.",
+  "original_pdf_modified": false,
+  "no_patient_data_access": true
+}

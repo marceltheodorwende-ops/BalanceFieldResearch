@@ -45,7 +45,7 @@ Before modeling:
 
 ## Modeling after EP01 completion
 Strong simple signal-feature baseline, established detector and suitable modern reference model; add spatial/network features as an ablation with matched preprocessing.
-BFG is an optional, explicitly specified extra model hypothesis; demonstrate incremental predictive value separately from mechanism claims. No neural mechanism follows from curve fit or covariance forecast.
+BFG is the requested mathematical research framework. A BFG-labelled candidate must pass an unchanged-kernel derivation gate: source equations, state/measurement identification, admissibility, gauge invariance, observable closure and units must be explicit and checked. No invented physiological law, free dynamics term or post-hoc bridge is allowed to repair performance. Measurement definitions are not automatically BFG consequences. A missing physical identification remains OPEN; fitting or universal-scope language does not discharge it. Statistical comparators remain comparators, not BFG laws. No neural mechanism follows from curve fit or covariance forecast.
 For BFG derivations only the hash-verified Dynamic Order PDF is active. Source-access failures must not block independent dataset/scoring work or be bypassed with a different paper.
 No model, target sensitivity, clinical efficacy or BFG advantage is established here.
 

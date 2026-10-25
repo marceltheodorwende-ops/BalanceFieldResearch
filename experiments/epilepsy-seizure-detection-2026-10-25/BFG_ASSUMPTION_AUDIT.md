@@ -1,0 +1,46 @@
+# EP01: unchanged BFG mathematics and no invented physiological laws
+
+Status: active EP01 audit prompted by the owner's25 October2026 instruction. No detector, physiological evolution law, confirmatory freeze or clinical benefit is established. Historical failed candidates remain archived.
+
+## Acceptance and current-code finding
+
+Inspect the published EP01 executable files and explanatory claims; identify any added physical law, fitted dynamics or mislabelled BFG derivation; replace any misleading scope description; derive the next measurement/factor obligations from the actual paper and independently check the calculations. No waveform or held-out annotation is needed. Publish the audit and controls with ledger/mirror. This closes an audit checkpoint, not all EP01 requirements.
+
+Current EP01 has provenance/access predicates, a manifest builder, a rational montage audit, pinned external scoring code and a supplementary event scorer. There is no seizure predictor, parameter-fitting routine, neural flow, force law or BFG-based classifier in these files. The30-second latency and90% sensitivity candidates are explicitly evaluation choices, not BFG consequences or natural laws. They remain unfrozen. The18-channel montage is an instrument representation candidate, not a biological law. Previous EEGMMIDB covariance resets and fitted rivals belong to the archived negative experiment, not a validated seizure mechanism. No unsupported physiological law was found in current EP01; these checks do not certify every historical document or repository branch.
+
+The plan wording 'BFG is an optional extra model hypothesis' is replaced with a derivation gate: BFG-labelled conditions must come from the unchanged active update, and any measurement identification must be stated as such. Standard statistical rivals remain comparison methods, never relabelled BFG laws. Universal application is the owner's research objective; no theorem or empirical result is manufactured from that objective.
+
+## Direct active-source verification
+
+The original144-page Dynamic Order PDF was fetched successfully in this check from the pinned GitHub commit457f23df6d9ccb15cf17916f3c3eac113b23c370 and SHA256-verified as1ad084a50c91a0827dd735d7cb8f666dc9e0c2552ed06b616cef28975babbdba. Original source: papers/dynamic-order-2026-10-08/Balance_Field_Equation_Dynamic_Order.pdf. The original paper is not changed or re-uploaded. Local PDF extraction/search spans the whole assembled text; detailed direct reading: PartI22–23(Eq87,89–91),35(Eq119–120),68–70, PartII82–90(Eq121–165),92. No epilepsy/EEG/seizure-specific equation was found by case-insensitive text search; this is a bounded source finding, not a proof of universal impossibility. A source map and byte/text identities are in BFG_SOURCE_REVIEW.json.
+
+Actual statements: II83/Eq121–123 define Xi=(K,rhoF,rhoW,Y,P), types, units and simultaneous unitary quotient. II84–85/Eq124–143 define all canonical stages and terminal gates, with endogenous alpha/beta and0<Yplus<I. II86/Eq144 is a load balance, explicitly not physical energy conservation. Eq148–149 define mathematical spectral readouts, explicitly not biological function. II87/Eq152 proves finite autonomous seed capacity, not a neural mechanism. II88/Eq155 explicitly adds a driven input; Eq159 is an independent mediator, not the discrete generator. II89/Eq161 requires fiber closure, Eq162 requires separately calibrated seconds. II90/Eq163 is an imposed lift, with Eq164 proven only on its stated full-persistence branch and seed-degeneracy caveat. PartI35/69 require independently fixed preparation/readout and held-out predictions. PartII82 distinguishes theorem, definition, assumption, open bridge and empirical hypothesis and calls universality a proposed scope requiring sector-specific measurements. These qualifications are read from the active source itself.
+
+No constant input, extra oscillator/mediator, tensor/fractal architecture, adaptive damping, biological coupling, source regularizer or hidden clinical threshold is added to obtain favorable outcomes here. A term appearing in an illustrative paper panel does not automatically become the autonomous EEG law.
+
+## Derived measurement/factor obligation
+
+Let bipolar measurements be x=Bv and a wanted target be Lv. A deterministic measurement preparation J and a quotient-invariant BFG observable O produce O(U_BFG^m(J(x))) on their nonterminal domains. If w is in ker(B), then B(v+w)=Bv, hence J and every deterministic canonical continuation/readout have identical inputs and outputs for the two preparations. They cannot both equal Lv and L(v+w) when Lw is nonzero. Consequently ker(B) subset ker(L) is necessary for exact target recovery by this route, regardless of the number of recursion events. A deterministic typed tensor lift of the same state cannot insert the absent information either. This is an elementary indistinguishability consequence combined with the unique quotient successor, not a rejection of BFG. Independently measured labels could change the input; silently assumed component offsets cannot.
+
+The published chb01 midline-offset witness violates this criterion for the19-electrode common-average target. Work on the actually measured bipolar quotient avoids adding that missing physiological/reference assumption. It does not yet define a seizure law.
+
+For a proposed physical readout Pi, Eq161 independently requires Pi(x)=Pi(x') => Pi(Ux)=Pi(Ux'), with terminality constant on fibers. Calling a covariance 'geometry' does not prove this condition or identify an event with a recording second. The eventual clinical annotation map and empirical discrimination remain additional verification obligations, not consequences of the notation.
+
+## Conditional admissibility construction — mathematical control only
+
+For a nonzero measured covariance C>=0 of rank>=2, the parameter-free normalization rho=C/tr(C) is a known matrix operation. Consider ONLY AS AN EXPLICIT PREPARATION DEFINITION J1(C): K=0, rhoF=C, rhoW=rho, Y=rho, P=I. Assign K/rhoF the same declared formation unit (not joules); Y/W are dimensionless. This does not alter any canonical equation. It is NOT derived identification of EEG with BFG state and is not activated as an EEG predictor. Its mathematical admissibility can be proved: rank>=2 gives max eigenvalue rho<1; Q=Tsel=PG=I; both loads are positive; full analysis rank gives empty seed complement. With c=(I+Y)^-1,b=Yc,alpha=tr(C Y^2 c)/tr(C(I+Y^2)c),beta=1-alpha,
+
+M=alpha c^2+beta b^2,
+Yplus ~ M, Kplus=0, rhoFplus ~ C, rhoWplus ~ rho.
+
+The symbol ~ means common target-frame unitary equivalence, not equality in arbitrary SVD coordinates. No learned coefficient or extra dynamics occurs. Rank1 is deliberately excluded: Y has eigenvalue1 carrying all formation/witness and spectral selection removes it, causing a terminal gate. C=0 cannot be normalized. Load reserves tend to zero near these boundaries, so there is no uniform regularity guarantee.
+
+This construction alone does NOT select a physical preparation: J2(C) with Y=rho^2 and the same other components is also mathematically admissible. For C=diag(2,1), the two canonical geometric spectra differ. Thus mere admissibility cannot declare J1 an internally deduced physiological law; neither variant is fitted or empirically promoted. Missing physical selection remains OPEN. The owner forbids repairing it by inventing a new law.
+
+In both preparations, simultaneous sensor-basis conjugation sends all five components to a gauge-equivalent tuple. By Eq123/Theorem2, any pure quotient-invariant feature of this tuple is constant on C and U C Udagger, so it contains only spectral information about this preparation, not independently identified electrode orientation. Spatial interpretation requires a specified covariant measurement-label interface, not fixed-frame matrix entries called physical invariants. A measured sensor label is not a new evolution law, but its identification must be explicit and cannot be invented from fit. This is a restriction of these two preparations, not all BFG carriers or combinations.
+
+## Evidence and next dependency
+
+check_bfg_boundary.py compares the exact closed-form full-persistence equations to an independent ambient SVD for admissible synthetic covariances, checks endogenous cross-load balance, positivity, gauge covariance, state-normalization types, and concrete J1/J2 nonselection. These are mathematical/code controls, not EEG observations or a force/physiology discovery. Existing real-metadata and scoring checks remain required. No claim of explaining epilepsy from this construction is made.
+
+EP01 continues with an explicit measured-quotient/preparation/observable interface and its proof register, alongside the already-open acquisition/unit/channel/gap and causal preprocessing obligations. No BFG clinical prediction is permitted until its actual mathematical and measurement conditions are established and the complete protocol is frozen. The failed archived bridge, holdout protection and P81 OPEN/deferred status are unchanged.

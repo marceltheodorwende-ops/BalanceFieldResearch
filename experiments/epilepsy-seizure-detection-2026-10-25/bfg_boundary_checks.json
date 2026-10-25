@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "canonical_control_cases": 72,
+  "max_residuals": {
+    "svd_geometry": 2.521306037135977e-15,
+    "formation": 1.991477512738596e-14,
+    "cross_load": 1.1102230246251565e-16,
+    "gauge": 1.0912782015594382e-15,
+    "normalization": 2.2259921704471697e-16
+  },
+  "J1_J2_geometry_spectral_gap": 0.10984366437892966,
+  "rank_one_surviving_witness": 0.0,
+  "zero_covariance_rejected": true,
+  "source": "Dynamic Order II83-85 Eq121-143",
+  "preparation_definitions_not_physical_laws": true,
+  "EEG_detector_implemented": false,
+  "empirical_result": false,
+  "confirmatory_freeze": false
+}

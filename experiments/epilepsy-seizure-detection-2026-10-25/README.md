@@ -17,3 +17,8 @@ development_manifest.py builds the pinned source-based565-file development allow
 montage_audit.py proves a common-average identifiability limit for the first allowed
 development montage. Run `python check_manifest_montage.py` for19 control groups.
 See MANIFEST_AND_MONTAGE_CONTRACT.md for provenance, exposure and remaining gates.
+
+Read BFG_ASSUMPTION_AUDIT.md for the no-invented-laws audit against the directly
+hash-verified Dynamic Order PDF. `python check_bfg_boundary.py` checks unchanged
+canonical equations on synthetic matrices only; it is not a seizure detector or
+an empirically selected EEG preparation. BFG_SOURCE_REVIEW.json records the source.

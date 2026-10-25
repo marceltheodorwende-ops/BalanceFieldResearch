@@ -1,0 +1,106 @@
+{
+  "review": "manual bounded executable-role inventory, not automatic proof that code is physiologically valid",
+  "EEG_detector_present": false,
+  "files": [
+    {
+      "path": "check_bfg_boundary.py",
+      "sha256": "abf467a122a1cf0c239b19ed18d4863b3520f86576b9631bab951529b10bf892",
+      "role": "synthetic/metadata controls",
+      "top_level_functions": [
+        "mathematical_preparation",
+        "closed",
+        "ambient",
+        "main"
+      ]
+    },
+    {
+      "path": "check_contract.py",
+      "sha256": "288df981daa7b6c89ee082b1db2f15a920bcdc9f02767e65b78865efa237a77c",
+      "role": "synthetic/metadata controls",
+      "top_level_functions": [
+        "check",
+        "score"
+      ]
+    },
+    {
+      "path": "check_manifest_montage.py",
+      "sha256": "3e95faee8dd1f59f1102ac7ed0a84eba7b31108606dcae59ac1b3874b343703a",
+      "role": "synthetic/metadata controls",
+      "top_level_functions": [
+        "check"
+      ]
+    },
+    {
+      "path": "check_timely.py",
+      "sha256": "61f9804cf6b0c2edd8939b8955d0fbb33cc8f90bb143c620052ee0bc6ec66322",
+      "role": "synthetic/metadata controls",
+      "top_level_functions": [
+        "check",
+        "run",
+        "intervals"
+      ]
+    },
+    {
+      "path": "contract.py",
+      "sha256": "ef582985d00ad64d37d9d20e1af903dd602b95a55b925fc18f658925dfb32dcb",
+      "role": "access/split definitions",
+      "top_level_functions": [
+        "person",
+        "validate_split",
+        "permit_metadata",
+        "permit_eeg"
+      ]
+    },
+    {
+      "path": "development_manifest.py",
+      "sha256": "baf7ca0a4ce71fd8d31864a7f0da24be59c1cf7b70adccf58b15669946482e81",
+      "role": "offline provenance and exact hash lookup",
+      "top_level_functions": [
+        "digest",
+        "parse_records",
+        "parse_checksums",
+        "select_development",
+        "build_manifest",
+        "development_entry",
+        "verify_development_bytes"
+      ]
+    },
+    {
+      "path": "montage_audit.py",
+      "sha256": "40714cec7968da36723a5b57642401d2182aa668821d3e3f47bc8880a421d758",
+      "role": "instrument linear-algebra identifiability",
+      "top_level_functions": [
+        "rank",
+        "audit"
+      ]
+    },
+    {
+      "path": "timely.py",
+      "sha256": "ce86fe35a614c15bdbcab7e42cd11f9b70004d2aad45e5de913210cffdb108ab",
+      "role": "event evaluation definitions",
+      "top_level_functions": [
+        "_number",
+        "_intervals",
+        "score_timely"
+      ]
+    },
+    {
+      "path": "vendor/timescoring/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "role": "package marker",
+      "top_level_functions": []
+    },
+    {
+      "path": "vendor/timescoring/annotations.py",
+      "sha256": "0e7c5b05f257251a986e28c92ed2cb1d1a2532e0c28eae489f85d1c6b0f24928",
+      "role": "external annotation representation",
+      "top_level_functions": []
+    },
+    {
+      "path": "vendor/timescoring/scoring.py",
+      "sha256": "0cb3b685c2d7add8d0cb2376d2021ace6d551591a2a31bfbd44a0281efe187c7",
+      "role": "external evaluation definitions",
+      "top_level_functions": []
+    }
+  ]
+}
