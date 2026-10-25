@@ -6,8 +6,8 @@
   },
   {
     "path": "BFG_DERIVATION_REGISTER.md",
-    "bytes": 3711,
-    "sha256": "7414bb3c7bd7c3ea444d306e38c67440e1969a620ed88a38349d7e184b6a463d"
+    "bytes": 4207,
+    "sha256": "4d8f976c887f558b9e7e271b99df3e5a1fccbe074c015a2bc4aad11da64719e5"
   },
   {
     "path": "BFG_SOURCE_REVIEW.json",
@@ -36,13 +36,18 @@
   },
   {
     "path": "README.md",
-    "bytes": 2351,
-    "sha256": "30dbf98d51dede325e4e86fdd5b2f633957197379b5ca8b828faa5da0149ce0a"
+    "bytes": 2689,
+    "sha256": "5b9ace8e52359449e8599dc32c004d89fe1b5f4978144ba645e2daa3b7c860aa"
   },
   {
     "path": "RESEARCH_PLAN.md",
     "bytes": 6513,
     "sha256": "5dc6e4dcdf73f05082bb2876c95d203bdce0e04e0259ccc01707b3e3a6d812fa"
+  },
+  {
+    "path": "STREAMING_CONTRACT.md",
+    "bytes": 5811,
+    "sha256": "537161dc1941a64cc3a1538fc125256278e344ffe597bd178479c760c252f311"
   },
   {
     "path": "TIMELY_ENDPOINT.md",
@@ -60,6 +65,16 @@
     "sha256": "5367904b8bafda32464808a534dc4f347925c08e48234453c76c6fc18eeb87c8"
   },
   {
+    "path": "causal_stream.py",
+    "bytes": 3851,
+    "sha256": "285c365983e22f3f301de948f256978b1af8a414041111dd97ec36d8808a8a2b"
+  },
+  {
+    "path": "causal_stream_checks.json",
+    "bytes": 1108,
+    "sha256": "95a305159b249eab805f3b65aa34e9fe2590ea3775dbca6b96869d0a330a3b27"
+  },
+  {
     "path": "channel_policy.py",
     "bytes": 2952,
     "sha256": "e58e70ebe568af8b81f4336357cf57ff993c2cdb25bdaf19bdc6ccd5b8f17116"
@@ -73,6 +88,11 @@
     "path": "check_bfg_boundary.py",
     "bytes": 3749,
     "sha256": "abf467a122a1cf0c239b19ed18d4863b3520f86576b9631bab951529b10bf892"
+  },
+  {
+    "path": "check_causal_stream.py",
+    "bytes": 5260,
+    "sha256": "f903ed10105004738ab81337a4b32a79d724ffc1316b4fbca930b35180f4e708"
   },
   {
     "path": "check_channel_policy.py",
@@ -146,8 +166,8 @@
   },
   {
     "path": "module_role_audit.json",
-    "bytes": 4502,
-    "sha256": "f091a338c9d848354f6f03332a12510a01197cd248b13b30dcc651d0a6d16140"
+    "bytes": 5031,
+    "sha256": "439d09604e2da64c1115573bf2adaf907275ce5dcae775ecadae2dc1f8431c60"
   },
   {
     "path": "montage_audit.json",

@@ -33,3 +33,8 @@ CHANNEL_POLICY.md documents a fixed17-channel instrument candidate that omits
 both duplicate T8-P8 copies. `python check_channel_policy.py` runs16 control
 groups, including exact ideal row-space equivalence and a noisy-data counterexample.
 It is not a frozen montage, trained detector or BFG physiological identification.
+
+STREAMING_CONTRACT.md and causal_stream.py add a one-record causal execution
+primitive with explicit availability/coverage masks and no gap filling or file-state carryover.
+`python check_causal_stream.py` runs15 groups including90 independent oracle cases.
+Scientific filter coefficients, QC and clinical decision rules remain unfrozen.

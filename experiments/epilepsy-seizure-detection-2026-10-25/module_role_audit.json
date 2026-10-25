@@ -3,6 +3,12 @@
   "EEG_detector_present": false,
   "files": [
     {
+      "path": "causal_stream.py",
+      "sha256": "285c365983e22f3f301de948f256978b1af8a414041111dd97ec36d8808a8a2b",
+      "role": "one-record causal execution/coverage primitive, no scientific filter selection or neural law",
+      "top_level_functions": []
+    },
+    {
       "path": "channel_policy.py",
       "sha256": "e58e70ebe568af8b81f4336357cf57ff993c2cdb25bdaf19bdc6ccd5b8f17116",
       "role": "fixed candidate instrument channel/orientation mapping, no neural dynamics",
@@ -23,6 +29,15 @@
         "closed",
         "ambient",
         "main"
+      ]
+    },
+    {
+      "path": "check_causal_stream.py",
+      "sha256": "f903ed10105004738ab81337a4b32a79d724ffc1316b4fbca930b35180f4e708",
+      "role": "synthetic/metadata controls",
+      "top_level_functions": [
+        "check",
+        "process"
       ]
     },
     {

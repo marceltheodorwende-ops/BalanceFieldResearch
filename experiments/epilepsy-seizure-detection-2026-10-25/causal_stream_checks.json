@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "control_groups": 15,
+  "checks": [
+    "hand causal convolution and no zero padding",
+    "all observed samples retained in duration",
+    "availability timestamps use sample ends",
+    "90 independent window-oracle/chunk/future/coverage cases",
+    "oracle numerical discrepancy bounded",
+    "nonfinite input resets and preserves invalid duration",
+    "fresh file has fresh warmup state",
+    "closed recording cannot concatenate another file",
+    "4 gap/overlap/overrun/channel failures are state preserving",
+    "truncated recording fails explicitly",
+    "4 invalid coefficient definitions rejected",
+    "caller cannot mutate supplied coefficient array",
+    "conditional error bound L1(h)*delta attained",
+    "overflow poisons record before continuation",
+    "complex coefficients not silently truncated"
+  ],
+  "independent_oracle_cases": 90,
+  "max_oracle_error": 8.881784197001252e-16,
+  "no_waveform_or_annotation_access": true,
+  "scientific_filter_selected": false,
+  "BFG_or_physiological_law": false,
+  "empirical_result": false,
+  "confirmatory_freeze": false
+}
