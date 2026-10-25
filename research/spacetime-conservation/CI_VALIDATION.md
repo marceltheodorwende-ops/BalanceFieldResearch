@@ -574,3 +574,10 @@ Runde76 lokal: ein frischer PASS,4 Originalereignisse, keine Fehlvorläufe/Korre
 ## Runde76 – Remote-CI bestätigt (25. Oktober2026)
 
 [Actions40193196341](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40193196341) und [Actions40193193251](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40193193251) beide completed/success am exakten Ergebnishead5670c2f43f8e79eae19fec431e2d761d18f5f5df. Dies bestätigt die bestehende Pipeline. Neue eingebettete mathematische Reproduktionen werden nicht automatisch ausgeführt; Runde76s vier frische Originalereignisse bleiben separate lokale Evidenz. Keine neue Forschungsrunde oder Wiederholung abgeschlossener Kontrollen durch diese Nachprüfung.
+
+
+## Runde77 – lokale kombinierte Abfragebrücke
+
+Ein frischer lokaler PASS,4 Originalereignisse ohne Fehlvorlauf/Korrektur. Positive Abfragen, SummeS, Originalmassendualität, Seedpullback0 sowie exakte neue komprimierte F-Werte2±1/sqrt3. Abfragesummenrest<=5.53e-16, Seedpullback<=2.99e-16,Gewichtsdualität<=2.23e-16,Toleranz1e-10,Clustering1e-8. Vollständiger Code/Rohdaten COMBINED_SURVIVAL_FORMATION_BRIDGE_CHECKS.md; neue Reproduktion Dokumenttext, keine Audit-/Workflow-/Originaländerung.
+
+Ausgangsheadc70fac25d4902f31b472476ae206e982bb22bf25: [Actions40197606126](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40197606126) und [Actions40197605173](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40197605173) beide completed/success. Bestehende Pipeline bestätigt; neue eingebettete Kontrollen bleiben separate lokale Evidenz. Kein neuer Runde77-Remote-PASS angenommen.
