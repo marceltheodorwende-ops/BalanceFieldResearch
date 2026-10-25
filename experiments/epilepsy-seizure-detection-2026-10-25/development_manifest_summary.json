@@ -1,0 +1,36 @@
+{
+  "record_entries": 686,
+  "development_entries": 565,
+  "train_entries": 449,
+  "validation_entries": 116,
+  "sealed_internal_entries": 121,
+  "acquired": [
+    {
+      "path": "source_metadata/CHB_RECORDS",
+      "url": "https://physionet.org/files/chbmit/1.0.0/RECORDS",
+      "sha256": "72b640d6a3fef4b40de255933d1403823d1655c56f93d69761105a653798fc08",
+      "bytes": 13056
+    },
+    {
+      "path": "source_metadata/CHB_SHA256SUMS.txt",
+      "url": "https://physionet.org/files/chbmit/1.0.0/SHA256SUMS.txt",
+      "sha256": "f1698efeb9fef887e55cedf6eda13386d9a888db663aec48b2aa194b7b753d2b",
+      "bytes": 73298
+    },
+    {
+      "path": "source_metadata/chb01-summary.txt",
+      "url": "https://physionet.org/files/chbmit/1.0.0/chb01/chb01-summary.txt",
+      "sha256": "77e86183845192d147c88a9bb4263c2b4a32e936c6236029770f86ca2ea023db",
+      "bytes": 5355
+    },
+    {
+      "path": "source_metadata/SIENA_LICENSE.txt",
+      "url": "https://physionet.org/files/siena-scalp-eeg/1.0.0/LICENSE.txt",
+      "sha256": "9a78e7f22742dde9f66ae235ec793ba2212019dc4d0ced75c4da09ced0b35fb2",
+      "bytes": 14842
+    }
+  ],
+  "exposure": "chb01 development summary contains event annotations; no test annotations or waveforms fetched",
+  "waveform_download_enabled": false,
+  "confirmatory_freeze": false
+}

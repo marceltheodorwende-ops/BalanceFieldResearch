@@ -4,6 +4,14 @@ Status: ACTIVE preparatory package; NOT a frozen confirmatory protocol.
 Owner instruction: 25 October 2026. Epilepsy research now takes priority.
 P81 remains OPEN / deferred; no mathematical or publication gate is waived.
 
+Latest explicit constraint (25 October 2026): do not invent physical/biological laws,
+free dynamics terms or post-hoc rules to make results fit. Any candidate presented
+as BFG-derived must obtain its mathematical conditions from the active BFG equations,
+with explicit derivation, domain and independent checks. Measurement assumptions
+and statistical comparator models remain separately labelled; neither is an internal
+BFG law. If a required condition is not derivable, record it as OPEN rather than
+adding it silently. Protocol/scoring choices are evaluation definitions, not laws.
+
 ## Question and intended use
 Can spatial EEG network features reduce false seizure alarms relative to strong conventional detectors without losing event sensitivity on unseen patients and an external dataset?
 Initial use: retrospective support for specialist review in an epilepsy monitoring unit.

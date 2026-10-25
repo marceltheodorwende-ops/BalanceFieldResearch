@@ -1,0 +1,90 @@
+{
+  "source": "source_metadata/chb01-summary.txt",
+  "bipolar_rows": 23,
+  "electrode_nodes": 21,
+  "exact_incidence_rank": 19,
+  "components": [
+    [
+      "C3",
+      "C4",
+      "F3",
+      "F4",
+      "F7",
+      "F8",
+      "FP1",
+      "FP2",
+      "FT10",
+      "FT9",
+      "O1",
+      "O2",
+      "P3",
+      "P4",
+      "P7",
+      "P8",
+      "T7",
+      "T8"
+    ],
+    [
+      "CZ",
+      "FZ",
+      "PZ"
+    ]
+  ],
+  "common_average_target_rank": 18,
+  "stacked_rank": 20,
+  "common_average_identifiable": false,
+  "kernel_witness": {
+    "nonzero_electrodes": [
+      "FZ",
+      "CZ",
+      "PZ"
+    ],
+    "measurement_zero": true,
+    "target_values": {
+      "FP1": "-3/19",
+      "F3": "-3/19",
+      "C3": "-3/19",
+      "P3": "-3/19",
+      "O1": "-3/19",
+      "F7": "-3/19",
+      "T7": "-3/19",
+      "P7": "-3/19",
+      "FZ": "16/19",
+      "CZ": "16/19",
+      "PZ": "16/19",
+      "FP2": "-3/19",
+      "F4": "-3/19",
+      "C4": "-3/19",
+      "P4": "-3/19",
+      "O2": "-3/19",
+      "F8": "-3/19",
+      "T8": "-3/19",
+      "P8": "-3/19"
+    }
+  },
+  "candidate_bipolar18": [
+    "FP1-F7",
+    "F7-T7",
+    "T7-P7",
+    "P7-O1",
+    "FP1-F3",
+    "F3-C3",
+    "C3-P3",
+    "P3-O1",
+    "FP2-F4",
+    "F4-C4",
+    "C4-P4",
+    "P4-O2",
+    "FP2-F8",
+    "F8-T8",
+    "T8-P8",
+    "P8-O2",
+    "FZ-CZ",
+    "CZ-PZ"
+  ],
+  "candidate_rank": 16,
+  "duplicate": "T8-P8 occurs twice",
+  "reversal": "P7-T7 is minus T7-P7",
+  "generalization": "chb01 metadata only; no header/unit or other-record montage verification",
+  "empirical_performance": false
+}

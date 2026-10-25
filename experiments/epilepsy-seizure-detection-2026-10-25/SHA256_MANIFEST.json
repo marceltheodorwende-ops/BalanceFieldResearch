@@ -5,14 +5,19 @@
     "sha256": "5c89e3c68ae08409802d459395e8394c094808a0771a4523aec1ccb8b236dab7"
   },
   {
+    "path": "MANIFEST_AND_MONTAGE_CONTRACT.md",
+    "bytes": 7338,
+    "sha256": "5247f99c1f85335b51a178c141cae125dc91b3cc3a29b18e14049afb4f12afdc"
+  },
+  {
     "path": "README.md",
-    "bytes": 929,
-    "sha256": "92c1aff1d03418d2465f90ed7a7347e2eb5839a8da7e484ab318f293724ab1bf"
+    "bytes": 1328,
+    "sha256": "4694c1ae33259d26561d1069e8222fa737b9cbea135685961928d55ba3da016f"
   },
   {
     "path": "RESEARCH_PLAN.md",
-    "bytes": 5465,
-    "sha256": "95d3df3c8f78afc2a46a64b9057671d9e9c6f12e6c1529f0a5eb2217ca78fd85"
+    "bytes": 6051,
+    "sha256": "53793b679c0beb196b9c5ed860be4753d990fd50d941337813d2e4b463c798bb"
   },
   {
     "path": "TIMELY_ENDPOINT.md",
@@ -30,6 +35,11 @@
     "sha256": "288df981daa7b6c89ee082b1db2f15a920bcdc9f02767e65b78865efa237a77c"
   },
   {
+    "path": "check_manifest_montage.py",
+    "bytes": 4056,
+    "sha256": "3e95faee8dd1f59f1102ac7ed0a84eba7b31108606dcae59ac1b3874b343703a"
+  },
+  {
     "path": "check_timely.py",
     "bytes": 4573,
     "sha256": "61f9804cf6b0c2edd8939b8955d0fbb33cc8f90bb143c620052ee0bc6ec66322"
@@ -45,9 +55,59 @@
     "sha256": "d80f40059cbb697f5be5b4614d6388dc841cc7fd9a1d75bf52effed0e4c04a29"
   },
   {
+    "path": "development_files.csv",
+    "bytes": 99549,
+    "sha256": "118404969d533ad4271dc59cc102b7075528eefe82643b8e1f49b37ca087475e"
+  },
+  {
+    "path": "development_manifest.py",
+    "bytes": 4806,
+    "sha256": "baf7ca0a4ce71fd8d31864a7f0da24be59c1cf7b70adccf58b15669946482e81"
+  },
+  {
+    "path": "development_manifest_summary.json",
+    "bytes": 1313,
+    "sha256": "d961cf5af18779f2c96677cd87fc2530617172ea361ec08485a5cb12bc274b6c"
+  },
+  {
+    "path": "manifest_montage_checks.json",
+    "bytes": 1439,
+    "sha256": "b2500a049aaef08d21040cb6c36d2fa57d1187c3c8d00664e1c00b363eea54aa"
+  },
+  {
+    "path": "montage_audit.json",
+    "bytes": 1584,
+    "sha256": "35526e8814924d8d1ca2ac645ee5647122006cc8cd43f1778f54834059a3ed6c"
+  },
+  {
+    "path": "montage_audit.py",
+    "bytes": 3255,
+    "sha256": "40714cec7968da36723a5b57642401d2182aa668821d3e3f47bc8880a421d758"
+  },
+  {
     "path": "requirements.txt",
     "bytes": 13,
     "sha256": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7"
+  },
+  {
+    "path": "source_metadata/CHB_RECORDS",
+    "bytes": 13056,
+    "sha256": "72b640d6a3fef4b40de255933d1403823d1655c56f93d69761105a653798fc08"
+  },
+  {
+    "path": "source_metadata/CHB_SHA256SUMS.txt",
+    "bytes": 73298,
+    "sha256": "f1698efeb9fef887e55cedf6eda13386d9a888db663aec48b2aa194b7b753d2b"
+  },
+  {
+    "path": "source_metadata/SIENA_LICENSE.txt",
+    "bytes": 14842,
+    "sha256": "9a78e7f22742dde9f66ae235ec793ba2212019dc4d0ced75c4da09ced0b35fb2"
+  },
+  {
+    "path": "source_metadata/chb01-summary.txt",
+    "bytes": 5355,
+    "sha256": "77e86183845192d147c88a9bb4263c2b4a32e936c6236029770f86ca2ea023db"
   },
   {
     "path": "timely.py",
