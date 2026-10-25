@@ -816,3 +816,10 @@ CI-Nachprüfung Runde71: Actions40188811319/40188807641 am Ergebnishead954b51e6e
 ## Runde75: vollständige Ereignisdynamik und interne Auswahlrollen
 
 [FULL_EVENT_STATE_ENERGY_SELECTION.md](FULL_EVENT_STATE_ENERGY_SELECTION.md) leitet die Dreiecksstruktur des erfolgreichen Vollupdates ab: bei festemB=(K,F,Y,P) und positiver selektierter Witnessmasse ist B_+ unabhängig vonW; W bestimmt Überlebensmasse und konditionierten Transport, einschließlich möglichem Nullmassenterminal. F steuert Lasten, K das einfache negative Seedminimum: echte interne Auswahl, keine automatische physikalische Hamiltonianwahl. Neuer Verlust-/Seedzeuge hat Massen3/5 vs3/10, identische strukturelle Nachfolger und Lasten, aber Witnessreinheiten1 vs1/2 und Abstand1/sqrt2; zweites Ereignis erhält Unterschied. Vier frische Originalereignisse PASS ohne Fehlvorlauf, Struktur-/Lastenreste0. Volle gemeinsame K/F-Homogenität algebraisch durch Lasten, SVD und Seed verfolgt; kein neuer Skalenlauf. Zustandszuordnung ausB und vollständige physikalische Energie-/Uhridentifikation bleiben offen, kein allgemeines BFG-No-Go. Reproduktion FULL_EVENT_STATE_ENERGY_SELECTION_CHECKS.md. Nur Forschungstext. Runde73-CI grün; Runde74 noch laufend/ausstehend.
+
+
+## CI-Nachprüfung Runde74/75 – 25. Oktober2026
+
+Runde74: [Actions40190498347](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40190498347) und [Actions40190495325](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40190495325) beide completed/success am exakten Ergebnisheadcb7d7cf8cba636ef90bd21f114e3ac6329cf4047. Dies bestätigt die bestehende Pipeline, nicht die automatische Ausführung der neu eingebetteten mathematischen Reproduktionen. Deren lokale Evidenz bleibt getrennt.
+
+Runde75: Actions40190803848 in_progress und40190800751 pending am Ergebnishead2f17d92f3f4d26fda1d05ea64a766b73582cd5f3 bei dieser Nachprüfung. Kein neuer PASS behauptet. Dieser Folgecommit aktualisiert ausschließlich den CI-Nachweis; keine neue Forschungsrunde und keine Wiederholung abgeschlossener mathematischer Kontrollen.

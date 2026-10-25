@@ -548,3 +548,10 @@ Runde73-Actions [40190177543](https://github.com/marceltheodorwende-ops/BalanceF
 [Actions40190177543](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40190177543) und [Actions40190173223](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40190173223) beide completed/success am exakten Head56ccfb08679c26c4885d21ed4fd09e00bf41e894. Bestehende Pipeline bestätigt, nicht automatische Ausführung eingebetteter neuer Reproduktionen.
 
 Runde74 am Headcb7d7cf8cba636ef90bd21f114e3ac6329cf4047: Actions40190498347 in_progress,40190495325 pending bei erster Nachprüfung; kein PASS behauptet. Runde75: ein frischer lokaler PASS,4 Originalereignisse ohne Fehlvorlauf/Korrektur. Echte Verlustselektion und Seed, gleicher struktureller Ausgang bei verschiedenen Witnessmassen und Reinheiten, zweites Ereignis mit gleichem Befund. Struktur-/Lastenrest0 im identischen Quellrahmen, Toleranz1e-10; allgemeine Abhängigkeits-/Homogenitätsbeweise separat algebraisch. Vollständige Reproduktion FULL_EVENT_STATE_ENERGY_SELECTION_CHECKS.md. Nur Dokumenttext, keine Audit-/Workflow-/Originaländerung; neuer Remote-PASS nicht angenommen.
+
+
+## CI-Nachprüfung Runde74/75 – 25. Oktober2026
+
+Runde74: [Actions40190498347](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40190498347) und [Actions40190495325](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40190495325) beide completed/success am exakten Ergebnisheadcb7d7cf8cba636ef90bd21f114e3ac6329cf4047. Dies bestätigt die bestehende Pipeline, nicht die automatische Ausführung der neu eingebetteten mathematischen Reproduktionen. Deren lokale Evidenz bleibt getrennt.
+
+Runde75: Actions40190803848 in_progress und40190800751 pending am Ergebnishead2f17d92f3f4d26fda1d05ea64a766b73582cd5f3 bei dieser Nachprüfung. Kein neuer PASS behauptet. Dieser Folgecommit aktualisiert ausschließlich den CI-Nachweis; keine neue Forschungsrunde und keine Wiederholung abgeschlossener mathematischer Kontrollen.
