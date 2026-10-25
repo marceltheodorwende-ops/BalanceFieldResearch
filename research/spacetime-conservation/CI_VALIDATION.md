@@ -529,3 +529,8 @@ Ein frischer lokaler PASS mit fünf nichtterminalen Originalereignissen, keine F
 ## Runde72 – GitHub-CI bestätigt (25. Oktober2026)
 
 [Actions40189547338](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40189547338) und [Actions40189544171](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40189544171) beide completed/success am exakten Ergebnishead4cdc56ee637bc344e076da140f3c718aade875b8. Bestehende Pipeline grün. Neue eingebettete mathematische Reproduktionen werden dadurch nicht automatisch ausgeführt; Runde72s fünf Originalereignisse bleiben lokale Evidenz.
+
+
+## Runde73 – lokale Zustandsrollen-/Seedkontrolle
+
+Ein frischer lokaler PASS,3 Originalereignisse, keine Fehlvorläufe/Korrektur. Tatsächliche Selektionsmasse.75, normierter Formationsvergleich.25; Seedgewicht Formationshypothese≈.399904182692194, Witness0, maximaler Normierungsrest5.65e-16, Witness-Seedrest2.35e-16. Symbolische allgemeine Normierungs-/Retentionsbeweise getrennt von numerischer Toleranz1e-10. Vollständiger Code/Rohdaten STATE_HAMILTONIAN_BRIDGE_CHECKS.md. Keine Audit-/Workflow-/Originalcodeänderung; neue Reproduktion nur Dokumenttext. Runde72-CI oben separat grün, kein neuer Runde73-Remote-Pass behauptet.
