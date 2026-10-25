@@ -746,3 +746,8 @@ CI-Nachprüfung Runde64: Beide Actions40180974469/40180970376 am Ergebniscommit4
 
 
 CI-Nachprüfung Runde65: Actions40181731112/40181728566 am Ergebnishead5c8ea4f583da11859b7a065c40ea295d43316917 beide completed/success, alle48 Jobschritte erfolgreich. Bestehende Pipeline grün; eingebettete Runde65-Reproduktion separat lokal. Details CI_VALIDATION.md.
+
+
+## Runde66: lückendefinierte stetige Näherungswahl mit erhaltener Fehlergrenze
+
+[APPROXIMATE_WITNESS_PAIR.md](APPROXIMATE_WITNESS_PAIR.md) prüft einen offengelegten neuen Kandidaten auf rankQ=3: einfach kleinste tracelose hermitesche Mode von L=ad_R²+ad_A²,A=QFQ, anschließend eindeutig näherliegendes Zweier-Spektralcluster dieser Mode. Unter den benötigten Lücken lokal stetig, kovariant und unter Retention/Seed exakt transportiert. Positiver Reduktionsfehler kappa=||[R,J]||²+||[A,J]||² erfüllt exakt kappa<=lambda/g². Am Brückenzeugen lambda<=27epsilon²; bei epsilon1/100 numerisch kappa0.00153707388<=0.00154538897. Lambda,g,kappa bleiben erhalten: keine selbstständige Verbesserung oder Dekohärenz. Isotropes R/F-Degenerationsbeispiel hat vier tracelose Nullmoden und macht diese Regel undefiniert, obwohl Runde65s exakte zentrale Regel dort funktioniert. Gewichte/Kriterium sind nicht physikalisch von der Quelle ausgewählt. Fünf finale Originalereignisse PASS; vorher zusätzlicher PASS, danach irreführende nichtkovariante reine Diagnoseausgabe entfernt und frisch wiederholt, insgesamt10 Aufrufe. Reproduktion APPROXIMATE_WITNESS_PAIR_CHECKS.md. Physikalische Orts-/Uhr-/Impulsbrücke weiter offen. Nur Dokumentation; Runde65-CI separat grün.
