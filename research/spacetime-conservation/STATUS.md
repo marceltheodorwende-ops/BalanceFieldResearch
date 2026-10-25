@@ -767,3 +767,8 @@ CI-Nachprüfung Runde67: Actions40183072802/40183069349 am Ergebnishead d90d6ffb
 
 
 CI-Nachprüfung Runde68: Actions40183835003/40183831728 am Head c06ad791602642cb65df4e6cd041f167037d21e6 beide completed/success; neue eingebettete Reproduktionen weiterhin lokale Evidenz.
+
+
+## Runde69: quellenbestimmte gerichtete Historie und Seed-Abstammung
+
+[SOURCE_TRANSPORT_HISTORY.md](SOURCE_TRANSPORT_HISTORY.md) ordnet I5/6,I11/12,I13/II84,I32 zu: separat gespeicherte Originalmasse, tatsächliche Transportpfeile und eindeutige Quell-Seedprojektionen. Ihre Komposition liefert auf gemeinsamer Retention exakt A_k=H P0 H† und orthogonale transportierte Seedlinien, P_k=A_k+sumB und F_k=H F0 H†+sum s_j B. Kein neues Auswahlgesetz. Gegebener rank2-Anfangsträger bleibt historisches Paar auch bei aktivem Rangwachstum; bei rank1-W liefert er das fehlende zweidimensionale Umgebungspaar des positiven R-Nullzustands, Spur3/2,Det0. Genau zwei Seedlinien liefern einen anderen Rang2-Geburtsträger mit positiver Formation, aber W/R-Gewicht0. Skalare Masse unterscheidet identische normierte Nachfolger (1/4 vs3/4), liefert allein keine Richtung. Vollständig symmetrische Tensorhistorien behalten ihre Kopiensymmetrie; Historie bricht sie nicht automatisch. Rangverlust/Teilselektion kann historische Teilprojektoren abschwächen, weshalb Retentionsvoraussetzung explizit bleibt. Acht frische Originalereignisse PASS ohne Fehlvorlauf, zwei Seeds und anschließende Retention, komplexe Eichfolge sowie Massenfälle. Reproduktion SOURCE_TRANSPORT_HISTORY_CHECKS.md. Vorhandene historische Strukturen konstruktiv genutzt; universelle physikalische Paar-/Orts-/Uhr-/Impulswahl weiterhin offen. Runde68-CI grün separat dokumentiert, neue Kontrolle lokal; keine Quell-/Audit-/Workflowänderung.

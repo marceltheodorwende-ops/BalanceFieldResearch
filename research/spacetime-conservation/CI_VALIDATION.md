@@ -488,4 +488,9 @@ Ein frischer lokaler PASS mit sechs nichtterminalen Originalereignissen, keine F
 
 ## Runde68 – GitHub-CI bestätigt (25. Oktober2026)
 
-Actions40183835003 und40183831728 beide completed/success am Head c06ad791602642cb65df4e6cd041f167037d21e6. Dies bestätigt die unveränderte bestehende Pipeline, nicht die automatische Ausführung der neu eingebetteten mathematischen Reproduktionen. Runde68s sechs Originalkontrollen bleiben separate lokale Evidenz. Jobdetails bei Abschlussprüfung ergänzen.
+Actions40183835003 und40183831728 beide completed/success am Head c06ad791602642cb65df4e6cd041f167037d21e6. Dies bestätigt die unveränderte bestehende Pipeline, nicht die automatische Ausführung der neu eingebetteten mathematischen Reproduktionen. Runde68s sechs Originalkontrollen bleiben separate lokale Evidenz. Beide finite-controls-Jobs besitzen48 erfolgreiche Schritte, keine fehlgeschlagenen oder übersprungenen Schritte.
+
+
+## Runde69 – lokale gerichtete Historienprüfung
+
+Ein frischer lokaler PASS ohne Fehlvorlauf/Korrektur mit8 nichtterminalen Originalereignissen. Zwei vorab festgelegte dreifache Folgen (Basis und komplexe Eichung) plus zwei Originalmassenfälle. Aktive Ränge2->3->4->4, historischer Anfangsrang2,R-Rang1; zwei Seeds und Witness-leere positive Seedformation. Exakte Nullpaarspur3/2,Det0 und allgemeine Transport-/Zerlegungsbeweise; symbolischer Teilselektions-Projektordefekt²1/16. Maximale Reste Isometrie1.72e-15,Orthogonalität1.60e-15,P-Zerlegung3.22e-15,F-Zerlegung5.20e-15,Paarkompression3.45e-15,Eichinvarianten1.87e-14. Massen1/4 bzw3/4 bei vollständigem normiertem Nachfolgerrest0. Reproduktion/Rohdaten SOURCE_TRANSPORT_HISTORY_CHECKS.md. Toleranz1e-10/Wurzel1e-12, keine allgemeine Nahschwellenzertifizierung. Keine Audit-/Workflow-/Originalcodeänderung, nur Dokumenttext. Grüne Runde68-Actions40183835003/40183831728 am Head c06ad791602642cb65df4e6cd041f167037d21e6 bestätigen die bestehende Pipeline, nicht die neue eingebettete Runde69-Reproduktion.
