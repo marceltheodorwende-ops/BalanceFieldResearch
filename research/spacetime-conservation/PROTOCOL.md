@@ -528,3 +528,8 @@ Konkreter neuer Vergleich: Runde75s K,F,Y,P,u,J,e4 unverändert; jetzt W_A=.6 uu
 
 
 Auswertung Runde76: autonome skalare Massenhistorie erweitert den strukturellen Datensatz nur um eine Anfangsabfrage und wählt allgemeine Witnesszustände nicht eindeutig. Gegenzeuge gleicheMasse3/5, gleicheStruktur, verschiedeneReinheiten; vier Originalereignisse in einem frischen PASS, keine Fehlvorläufe/Korrektur. AUTONOMOUS_SURVIVAL_IDENTIFIABILITY.md und zugehörige CHECKS. Kein Informationsverlust für die vollständige gespeicherte Xi-Historie behauptet, keine neue physikalische Regel.
+
+
+## Konsolidierte offene Voraussetzung und Richtungsentscheidung
+
+[RESEARCH_BOUNDARY_AFTER_76.de.md](RESEARCH_BOUNDARY_AFTER_76.de.md) hält die nach drei unveränderten Nachprüfungen verbleibende Operator-/Uhr-/Instrumentzuordnung fest. Keine neue Forschungsauswertung und keine Wiederholung abgeschlossener Kontrollen. Nächster substantieller Schritt benötigt eine konkrete vorhandene BFG-Fundstelle/Datenbasis für diese Zuordnung oder eine ausdrückliche Umstellung auf einen rein internen mathematischen Teilauftrag. Keine vollständige Physikherleitung oder allgemeine Unmöglichkeit behauptet; kein eigenmächtiges Pausieren der Automation. Bis neuer Evidenz/Entscheidung keine erneute identische Brückenprüfung oder wiederholte Nutzerfrage.

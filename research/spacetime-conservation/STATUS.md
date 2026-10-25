@@ -840,3 +840,8 @@ Am nachfolgenden reinen Evidenzhead54de09b39253fe50c54f304b5591214056de8d13 sind
 ## Runde76 – Remote-CI bestätigt (25. Oktober2026)
 
 [Actions40193196341](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40193196341) und [Actions40193193251](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40193193251) beide completed/success am exakten Ergebnishead5670c2f43f8e79eae19fec431e2d761d18f5f5df. Dies bestätigt die bestehende Pipeline. Neue eingebettete mathematische Reproduktionen werden nicht automatisch ausgeführt; Runde76s vier frische Originalereignisse bleiben separate lokale Evidenz. Keine neue Forschungsrunde oder Wiederholung abgeschlossener Kontrollen durch diese Nachprüfung.
+
+
+## Konsolidierte offene Voraussetzung und Richtungsentscheidung
+
+[RESEARCH_BOUNDARY_AFTER_76.de.md](RESEARCH_BOUNDARY_AFTER_76.de.md) hält die nach drei unveränderten Nachprüfungen verbleibende Operator-/Uhr-/Instrumentzuordnung fest. Keine neue Forschungsauswertung und keine Wiederholung abgeschlossener Kontrollen. Nächster substantieller Schritt benötigt eine konkrete vorhandene BFG-Fundstelle/Datenbasis für diese Zuordnung oder eine ausdrückliche Umstellung auf einen rein internen mathematischen Teilauftrag. Keine vollständige Physikherleitung oder allgemeine Unmöglichkeit behauptet; kein eigenmächtiges Pausieren der Automation. Bis neuer Evidenz/Entscheidung keine erneute identische Brückenprüfung oder wiederholte Nutzerfrage.
