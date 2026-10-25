@@ -440,3 +440,13 @@ Frischer lokaler PASS ohne Fehler/Korrektur mit fünf Originalereignissen. Symbo
 ## Runde64 – exakter Rang-/Spektralsatz und fünf Originalereignisse
 
 Frischer lokaler Lauf PASS, fünf nichtterminale Originalereignisse ohne fehlgeschlagenen numerischen Vorlauf: zwei Retentionsschritte mit exakt vorhergesagtem Rest1/100 und Lücke19/50, isotroper Rest1/3, tatsächliche oblique Selektion Rang3->2 (Masse2/3,Energie16/7), komplexe Eichversion. Maximaler Dichtetransportrest7.18e-16, Spektraltransportrest1.67e-16, Projektorrest1.65e-15, truncierter Transportrest7.93e-16, Eichspektralrest2.23e-16. Exakte allgemeine Beweise getrennt von numerischer Toleranz1e-10 und Wurzelcutoff1e-12. Reproduktion/Rohdaten WITNESS_TWO_MODE_SELECTION_CHECKS.md. Technische Freigabeunterbrechung vor dem frischen Lauf dokumentiert; sie erzeugte keine Originalaufrufe oder Testergebnisse. Keine Audit-/Workflow-/Quelländerung; Reproduktionscode nur als Text in Forschungsdokumentation. Kein neuer Remote-CI-Pass behauptet. Letzte remote-geprüfte Codefassung unverändert7d0cc91bf7d1023a9c3cd32f127e52ef5d8722f9 mit Actions40040857072/40040862094; diese prüfen die neuen Dokumente nicht. Publizierte Dateien am exakten Commit textgleich zurücklesen.
+
+
+## Runde64 – GitHub-CI am exakten Ergebniscommit bestätigt (25. Oktober2026)
+
+Beide automatischen Läufe sind abgeschlossen und erfolgreich, jeweils für Head4e1fca299e9d6737237839fdeb49a8082287826f:
+
+- [Actions40180974469](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40180974469): completed/success; finite-controls erfolgreich, alle48 Jobschritte erfolgreich.
+- [Actions40180970376](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40180970376): completed/success; finite-controls erfolgreich, alle48 Jobschritte erfolgreich.
+
+Dies bestätigt die Ausführung der bestehenden Audit-/Grenztest-/PDF-Prüfsummen-/Artefaktpipeline auf dem genannten Dokumentationshead. Audit- und Workflowcode blieb gegenüber der früher geprüften Codefassung unverändert. Die eingebetteten neuen mathematischen Reproduktionen der Runden39–64 werden durch diese bestehende Pipeline nicht automatisch ausgeführt; Runde64s fünf frische Originalkontrollen bleiben gesonderte lokale Evidenz. Die früheren Formulierungen „kein neuer Remote-CI-Pass“ dokumentieren den damaligen Publikationszeitpunkt und werden durch diese datierte Nachprüfung ergänzt, nicht rückwirkend umgeschrieben.
