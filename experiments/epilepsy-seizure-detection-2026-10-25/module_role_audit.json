@@ -61,18 +61,27 @@
     },
     {
       "path": "check_edf_header.py",
-      "sha256": "a0902713415add73679e048443cb9f82dae411625cf8f808137186cc05954d1c",
+      "sha256": "5d148aa998ce1c14780027e5ced42f60abd07779449eca0f966362c361062749",
       "role": "synthetic/metadata controls",
       "top_level_functions": [
         "check",
         "field",
-        "fixture"
+        "fixture",
+        "fixture_range"
       ]
     },
     {
       "path": "check_manifest_montage.py",
       "sha256": "3e95faee8dd1f59f1102ac7ed0a84eba7b31108606dcae59ac1b3874b343703a",
       "role": "synthetic/metadata controls",
+      "top_level_functions": [
+        "check"
+      ]
+    },
+    {
+      "path": "check_recording_time.py",
+      "sha256": "eb8a6aa1351cf4031886eabe5ea729edcb8c085c37c19a6327a1149b2c27e103",
+      "role": "synthetic and already-exposed metadata controls",
       "top_level_functions": [
         "check"
       ]
@@ -114,7 +123,7 @@
     },
     {
       "path": "edf_header.py",
-      "sha256": "bcea76f7183d2e6196c2708433e37eb3967537fb3059eafa970b6c2abe3eb576",
+      "sha256": "2f56d88fbe12627284b3047129a1e4d062bb3846a07db86ce9b2adcd8b2d6b0b",
       "role": "guarded development EDF-header metadata and instrument calibration",
       "top_level_functions": [
         "ascii_field",
@@ -134,6 +143,16 @@
       "top_level_functions": [
         "rank",
         "audit"
+      ]
+    },
+    {
+      "path": "recording_time.py",
+      "sha256": "bffdee38081bd02184b4c89dd55b488cee68478333f0dd51ae37be6ec8da335f",
+      "role": "record-local annotation and exact time evaluation definitions, no neural dynamics",
+      "top_level_functions": [
+        "exact",
+        "reconcile",
+        "clock_seconds"
       ]
     },
     {

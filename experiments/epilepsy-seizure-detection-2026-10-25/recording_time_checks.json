@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "control_groups": 9,
+  "checks": [
+    "adjacent original events remain separate and boundary end accepted",
+    "exact seizure and full nonseizure duration retained",
+    "zero-event recording retains all time",
+    "off-grid event retained without rounding",
+    "11 invalid duration boundary overlap order and numeric cases reject without repair",
+    "510 independent integer-cell coverage cases",
+    "clock24 supported but no date inferred",
+    "first source-clock duration matches independently acquired EDF duration",
+    "source midnight ambiguity is present"
+  ],
+  "integer_oracle_cases": 510,
+  "source_summary_blocks": 42,
+  "new_network_requests": 0,
+  "new_annotation_files": 0,
+  "clinical_result": false
+}
