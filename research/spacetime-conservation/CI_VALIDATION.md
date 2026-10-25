@@ -518,4 +518,9 @@ Ein frischer lokaler PASS ohne Fehlvorlauf/Korrektur mit5 Originalereignissen: t
 
 ## Runde71 – GitHub-CI bestätigt (25. Oktober2026)
 
-Actions40188811319 und40188807641 beide completed/success am Head954b51e6ee41fac86d131114dc9fe82d3494bd37. Bestehende Pipeline bestätigt; neue eingebettete lokale Reproduktionen werden nicht automatisch ausgeführt. Jobdetails bei Abschlussprüfung ergänzen.
+Actions40188811319 und40188807641 beide completed/success am Head954b51e6ee41fac86d131114dc9fe82d3494bd37. Bestehende Pipeline bestätigt; neue eingebettete lokale Reproduktionen werden nicht automatisch ausgeführt. Beide finite-controls-Jobs mit allen48 Schritten erfolgreich, keine Fehler/Überspringungen.
+
+
+## Runde72 – lokale Mess-/Konditionierungstypen
+
+Ein frischer lokaler PASS mit fünf nichtterminalen Originalereignissen, keine Fehlvorläufe/Korrektur. Exakte Labelverfeinerung: gewichtete Summe stets1/2, ungewichtete Summen1/2,1,2. Exakte positive Witnessmischung: gewichtete34/25,54/25,44/25 affin; ungewichtete172/45,212/45,88/25 mit Defekt-56/75. Eigener Quellzustandsbrücken-F-Readout3/2 vs5/2 symbolisch. Witnessausgangs-Mischungsrest6.21e-17, maximaler Readouttransport4.45e-15,R4-Identitätseffekt1.01e-15,Eichreadout3.11e-15. Tatsächliche Quellselektion stetsMasse1, Labelgewichte nicht als selektierte Ereignisausgänge ausgegeben. Reproduktion/Rohdaten MEASUREMENT_ENERGY_BALANCE_TYPES_CHECKS.md. Toleranz1e-10, strikt positive Massen. Nur Dokumenttext, keine Audit-/Workflow-/Originaländerung. Runde71-Actions40188811319/40188807641 am Ergebnishead954b51e6ee41fac86d131114dc9fe82d3494bd37 separat grün; neue eingebettete Reproduktion lokal, kein neuer Runde72-CI-Pass behauptet.

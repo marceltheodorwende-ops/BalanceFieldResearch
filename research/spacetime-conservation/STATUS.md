@@ -791,3 +791,8 @@ CI-Nachprüfung Runde70: Actions40186677975/40186674597 am Ergebnishead3562a787d
 
 
 CI-Nachprüfung Runde71: Actions40188811319/40188807641 am Ergebnishead954b51e6ee41fac86d131114dc9fe82d3494bd37 beide completed/success. Bestehende Pipeline grün, eingebettete Reproduktion weiterhin lokale Evidenz.
+
+
+## Runde72: Mess-Typentscheidung und offene physikalische Energieidentifikation
+
+[MEASUREMENT_ENERGY_BALANCE_TYPES.md](MEASUREMENT_ENERGY_BALANCE_TYPES.md) kombiniert I6,I26–28,I41 und II91.2/91.5. Für festes F und F-kommutierendes Labelcover ist der gewichtete Typ sum p_a e_a=tr(WF) die unbedingte Erwartung desselben Observablen unter der ausdrücklich hypothetischen Witness-Zustandsinterpretation. Ungewichtete bedingte Summe ist ein anderer Typ: bei unverändertem n8-Hierarchiezustand ergibt bloße Labelzusammenfassung1/2,1,2 statt konstanter gewichteter1/2; positiver Präparationsgegenzeuge liefert ungewichteten Affinitätsdefekt-56/75. Kein fixes H kann diese ungewichtete Summenablesung auf der getesteten Witnessfamilie darstellen. Postselektion oder anders spezifizierte extensive Subsystemmessung nicht ausgeschlossen. Die Quelle wählt jedoch weder rho_Q noch H_phys/Apparat/Kalibrierung aus; daher weiterhin KEIN Bilanztyp allein als physikalische Energie bewiesen. Eigene I27-Zustandsbrücken ergeben beim gleichen F-Readout3/2 vs5/2. Fünf frische Originalereignisse PASS ohne Fehlvorlauf, tatsächliche Q-Masse1/R4-EffektI von Labelreadouts getrennt, Kovarianz/Mischung geprüft. Reproduktion MEASUREMENT_ENERGY_BALANCE_TYPES_CHECKS.md. Kein neuer Hamiltonian oder Messgesetz eingesetzt. Runde71-CI grün separat, neue Kontrolle lokal; keine Quell-/Audit-/Workflowänderung.
