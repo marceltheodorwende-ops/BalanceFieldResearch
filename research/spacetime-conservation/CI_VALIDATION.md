@@ -509,3 +509,8 @@ Ein frischer lokaler PASS mit sieben nichtterminalen Originalereignissen ohne Fe
 ## Runde70 – GitHub-CI bestätigt (25. Oktober2026)
 
 [Actions40186677975](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40186677975) und [Actions40186674597](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40186674597) beide completed/success am Ergebnishead3562a787d3004044aed8604a39e597ccf0e51346. Beide finite-controls-Jobs besitzen48 erfolgreiche Schritte ohne Fehler/Überspringungen. Bestehende Audit-/Grenztest-/PDF-/Artefaktpipeline grün. Die neuen eingebetteten mathematischen Reproduktionen werden dadurch nicht automatisch ausgeführt; Runde70s sieben Originalereignisse bleiben gesonderte lokale Evidenz.
+
+
+## Runde71 – lokale deklarierte räumliche Hierarchie
+
+Ein frischer lokaler PASS ohne Fehlvorlauf/Korrektur mit5 Originalereignissen: tatsächliche Basispräparation, vollständige Updates in Dimensionen3/12/48 und komplexe Level1-Eichkontrolle Seed20261121. Allgemeine f=F0/N,p=1/N,q=E0/N²,e_cond=E0/N und Kindbilanzen symbolisch; volle Tensor-Nachfolger gegen bestehende unabhängige Vollpersistenzformeln geprüft. Maximaler Tensorrest6.22e-15,Knotenbilanzrest5.56e-17,Readout-Eichrest1.56e-15. Formation5.5 konstant, rohe Summen1.5/.375/.09375 und ungewichtete bedingte Summen1.5. Geometrie separat1/4/16/64 Labels, keine physikalische Uhr. Reproduktion/Rohdaten DECLARED_SPATIAL_HIERARCHY_CHECKS.md. Nur Dokumenttext, keine Audit-/Workflow-/Originaländerung. Runde70-Actions40186677975/40186674597 am Ergebnishead3562a787d3004044aed8604a39e597ccf0e51346 separat grün; sie führen die neue eingebettete Runde71-Reproduktion nicht automatisch aus. Kein neuer Runde71-CI-Pass behauptet.

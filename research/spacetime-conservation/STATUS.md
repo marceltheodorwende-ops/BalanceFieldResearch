@@ -783,3 +783,8 @@ CI-Nachprüfung Runde69: Actions40184646214/40184642522 am Ergebnishead657e06e4c
 
 
 CI-Nachprüfung Runde70: Actions40186677975/40186674597 am Ergebnishead3562a787d3004044aed8604a39e597ccf0e51346 beide completed/success, alle48 Jobschritte erfolgreich. Bestehende Pipeline grün; neue eingebettete Reproduktion separat lokal. Details CI_VALIDATION.md.
+
+
+## Runde71: deklarierte räumliche Hierarchie und lokale Bilanztypen
+
+[DECLARED_SPATIAL_HIERARCHY.md](DECLARED_SPATIAL_HIERARCHY.md) kombiniert Quell-Tensorlift/Levelregel163/165, die ausdrücklich illustrative Tetraedereinbettung II90.3 und Runde70s tatsächliches historisches Paar. Mit deklarierten Labelsektoren entstehen gelabelte Rang2-Paare und exakte Formations-Knotenbilanz sumKinder f_child=f_parent. Die Labeldaten sind ein erweiterter Einbettungsdatensatz, keine Xi-allein-Auswahl und keine hergeleitete Raumzeit. Bei N=4^ell gelten f=F0/N,p=1/N,rohesq=E0/N². Rohesq erfüllt über die Verzweigung nur sumKinder q_child=q_parent/4. Vorab getrennter mathematischer bedingter Readout W_cond=EWE/p ergibt e_cond=E0/N und ungewichtete Kindsumme=e_parent; gewichtete Summe sum p e bleibt hingegen die rohe globale Paarung E0/N. Keine neue tatsächliche Q-Selektion, physikalische Messregel oder nachträgliche Kalibrierung; konservative ungewichtete Summe allein wählt keine physikalische Energie. Fünf frische Originalereignisse PASS auf3/12/48 plus Eichung; volle Tensor-/Label-/Paarverträglichkeit, Geometrie bis64 Labels separat geprüft. Reproduktion DECLARED_SPATIAL_HIERARCHY_CHECKS.md. Physikalische Orts-/Readout-/Uhr-/Impulswahl und vollständiger Viererstrom offen. Nur Dokumentation; Runde70-CI grün, neue Kontrolle lokal.
