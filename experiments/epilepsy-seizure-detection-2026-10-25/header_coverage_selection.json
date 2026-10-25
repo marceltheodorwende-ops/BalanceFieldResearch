@@ -1,0 +1,26 @@
+{
+  "selection": "First lexicographic pinned development manifest path per case, no event-label selection",
+  "paths": [
+    "chb01/chb01_01.edf",
+    "chb02/chb02_01.edf",
+    "chb03/chb03_01.edf",
+    "chb04/chb04_01.edf",
+    "chb05/chb05_01.edf",
+    "chb06/chb06_01.edf",
+    "chb07/chb07_01.edf",
+    "chb08/chb08_02.edf",
+    "chb09/chb09_01.edf",
+    "chb10/chb10_01.edf",
+    "chb11/chb11_01.edf",
+    "chb12/chb12_06.edf",
+    "chb13/chb13_02.edf",
+    "chb14/chb14_01.edf",
+    "chb15/chb15_01.edf",
+    "chb16/chb16_01.edf",
+    "chb17/chb17a_03.edf",
+    "chb18/chb18_01.edf",
+    "chb21/chb21_01.edf"
+  ],
+  "waveform_access": false,
+  "scope": "19 of 565 development files, 18 people; not complete montage coverage"
+}

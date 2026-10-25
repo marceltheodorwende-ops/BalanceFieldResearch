@@ -38,3 +38,5 @@ STREAMING_CONTRACT.md and causal_stream.py add a one-record causal execution
 primitive with explicit availability/coverage masks and no gap filling or file-state carryover.
 `python check_causal_stream.py` runs15 groups including90 independent oracle cases.
 Scientific filter coefficients, QC and clinical decision rules remain unfrozen.
+
+Development metadata checkpoint: [HEADER_COVERAGE.md](HEADER_COVERAGE.md) records 19 first-per-case header outcomes, including eight preserved parser failures. No seizure performance result.

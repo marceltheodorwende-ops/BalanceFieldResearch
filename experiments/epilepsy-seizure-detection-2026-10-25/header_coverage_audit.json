@@ -1,0 +1,6581 @@
+{
+  "selection": {
+    "selection": "First lexicographic pinned development manifest path per case, no event-label selection",
+    "paths": [
+      "chb01/chb01_01.edf",
+      "chb02/chb02_01.edf",
+      "chb03/chb03_01.edf",
+      "chb04/chb04_01.edf",
+      "chb05/chb05_01.edf",
+      "chb06/chb06_01.edf",
+      "chb07/chb07_01.edf",
+      "chb08/chb08_02.edf",
+      "chb09/chb09_01.edf",
+      "chb10/chb10_01.edf",
+      "chb11/chb11_01.edf",
+      "chb12/chb12_06.edf",
+      "chb13/chb13_02.edf",
+      "chb14/chb14_01.edf",
+      "chb15/chb15_01.edf",
+      "chb16/chb16_01.edf",
+      "chb17/chb17a_03.edf",
+      "chb18/chb18_01.edf",
+      "chb21/chb21_01.edf"
+    ],
+    "waveform_access": false,
+    "scope": "19 of 565 development files, 18 people; not complete montage coverage"
+  },
+  "results": [
+    {
+      "path": "chb01/chb01_01.edf",
+      "status": "parsed",
+      "audit": {
+        "dataset": "chbmit",
+        "path": "chb01/chb01_01.edf",
+        "split": "train",
+        "url": "https://physionet.org/files/chbmit/1.0.0/chb01/chb01_01.edf",
+        "source_full_EDF_sha256": "92ec026f633dca94ee74c2e2b67cf9d58aa50da700b650a1696cf497dac073e3",
+        "full_EDF_sha256_verified": false,
+        "header_sha256": "4eba02d797ff0868eb2652695ec3333117e8a8ba9ca7602db780b1734b1a94a1",
+        "header_bytes_read": 6144,
+        "waveform_bytes_read": 0,
+        "HTTP_range_total_bytes": 42399744,
+        "metadata": {
+          "header_bytes": 6144,
+          "signals": 23,
+          "records": 3600,
+          "record_seconds": "1",
+          "discontinuous": false,
+          "channels": [
+            {
+              "index": 0,
+              "label": "FP1-F7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 1,
+              "label": "F7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 2,
+              "label": "T7-P7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 3,
+              "label": "P7-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 4,
+              "label": "FP1-F3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 5,
+              "label": "F3-C3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 6,
+              "label": "C3-P3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 7,
+              "label": "P3-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 8,
+              "label": "FP2-F4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 9,
+              "label": "F4-C4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 10,
+              "label": "C4-P4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 11,
+              "label": "P4-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 12,
+              "label": "FP2-F8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 13,
+              "label": "F8-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 14,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 15,
+              "label": "P8-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 16,
+              "label": "FZ-CZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 17,
+              "label": "CZ-PZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 18,
+              "label": "P7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 19,
+              "label": "T7-FT9",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 20,
+              "label": "FT9-FT10",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 21,
+              "label": "FT10-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 22,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            }
+          ],
+          "recording_seconds": "3600",
+          "expected_full_file_bytes": 42399744
+        },
+        "candidate18": {
+          "FP1-F7": {
+            "indices": [
+              0
+            ],
+            "status": "unique"
+          },
+          "F7-T7": {
+            "indices": [
+              1
+            ],
+            "status": "unique"
+          },
+          "T7-P7": {
+            "indices": [
+              2
+            ],
+            "status": "unique"
+          },
+          "P7-O1": {
+            "indices": [
+              3
+            ],
+            "status": "unique"
+          },
+          "FP1-F3": {
+            "indices": [
+              4
+            ],
+            "status": "unique"
+          },
+          "F3-C3": {
+            "indices": [
+              5
+            ],
+            "status": "unique"
+          },
+          "C3-P3": {
+            "indices": [
+              6
+            ],
+            "status": "unique"
+          },
+          "P3-O1": {
+            "indices": [
+              7
+            ],
+            "status": "unique"
+          },
+          "FP2-F4": {
+            "indices": [
+              8
+            ],
+            "status": "unique"
+          },
+          "F4-C4": {
+            "indices": [
+              9
+            ],
+            "status": "unique"
+          },
+          "C4-P4": {
+            "indices": [
+              10
+            ],
+            "status": "unique"
+          },
+          "P4-O2": {
+            "indices": [
+              11
+            ],
+            "status": "unique"
+          },
+          "FP2-F8": {
+            "indices": [
+              12
+            ],
+            "status": "unique"
+          },
+          "F8-T8": {
+            "indices": [
+              13
+            ],
+            "status": "unique"
+          },
+          "T8-P8": {
+            "indices": [
+              14,
+              22
+            ],
+            "status": "duplicate_unresolved"
+          },
+          "P8-O2": {
+            "indices": [
+              15
+            ],
+            "status": "unique"
+          },
+          "FZ-CZ": {
+            "indices": [
+              16
+            ],
+            "status": "unique"
+          },
+          "CZ-PZ": {
+            "indices": [
+              17
+            ],
+            "status": "unique"
+          }
+        },
+        "limitation": "One development EDF header only; no signal equality, gap continuity or physiological BFG identification established",
+        "candidate17": {
+          "candidate": "fixed17-bipolar-v1",
+          "eligible": true,
+          "reasons": [],
+          "mapping": [
+            {
+              "target": "FP1-F7",
+              "source_index": 0,
+              "source_label": "FP1-F7",
+              "sign": 1
+            },
+            {
+              "target": "F7-T7",
+              "source_index": 1,
+              "source_label": "F7-T7",
+              "sign": 1
+            },
+            {
+              "target": "T7-P7",
+              "source_index": 2,
+              "source_label": "T7-P7",
+              "sign": 1
+            },
+            {
+              "target": "P7-O1",
+              "source_index": 3,
+              "source_label": "P7-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP1-F3",
+              "source_index": 4,
+              "source_label": "FP1-F3",
+              "sign": 1
+            },
+            {
+              "target": "F3-C3",
+              "source_index": 5,
+              "source_label": "F3-C3",
+              "sign": 1
+            },
+            {
+              "target": "C3-P3",
+              "source_index": 6,
+              "source_label": "C3-P3",
+              "sign": 1
+            },
+            {
+              "target": "P3-O1",
+              "source_index": 7,
+              "source_label": "P3-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F4",
+              "source_index": 8,
+              "source_label": "FP2-F4",
+              "sign": 1
+            },
+            {
+              "target": "F4-C4",
+              "source_index": 9,
+              "source_label": "F4-C4",
+              "sign": 1
+            },
+            {
+              "target": "C4-P4",
+              "source_index": 10,
+              "source_label": "C4-P4",
+              "sign": 1
+            },
+            {
+              "target": "P4-O2",
+              "source_index": 11,
+              "source_label": "P4-O2",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F8",
+              "source_index": 12,
+              "source_label": "FP2-F8",
+              "sign": 1
+            },
+            {
+              "target": "F8-T8",
+              "source_index": 13,
+              "source_label": "F8-T8",
+              "sign": 1
+            },
+            {
+              "target": "P8-O2",
+              "source_index": 15,
+              "source_label": "P8-O2",
+              "sign": 1
+            },
+            {
+              "target": "FZ-CZ",
+              "source_index": 16,
+              "source_label": "FZ-CZ",
+              "sign": 1
+            },
+            {
+              "target": "CZ-PZ",
+              "source_index": 17,
+              "source_label": "CZ-PZ",
+              "sign": 1
+            }
+          ],
+          "full_waveform_access_enabled": false
+        },
+        "reused_previous_probe": true
+      }
+    },
+    {
+      "path": "chb02/chb02_01.edf",
+      "status": "parsed",
+      "audit": {
+        "dataset": "chbmit",
+        "path": "chb02/chb02_01.edf",
+        "split": "train",
+        "url": "https://physionet.org/files/chbmit/1.0.0/chb02/chb02_01.edf",
+        "source_full_EDF_sha256": "0a04cd84c2e1ea5d656a77ec5b3700001c03737f74c5b78c47147e365a27b5f0",
+        "full_EDF_sha256_verified": false,
+        "header_sha256": "c7e97607137ec74edbe31ddac4fb9edf46c7b5d9aae29d2ae62baa99fdd89108",
+        "header_bytes_read": 6144,
+        "waveform_bytes_read": 0,
+        "HTTP_range_total_bytes": 42399744,
+        "metadata": {
+          "header_bytes": 6144,
+          "signals": 23,
+          "records": 3600,
+          "record_seconds": "1",
+          "discontinuous": false,
+          "channels": [
+            {
+              "index": 0,
+              "label": "FP1-F7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 1,
+              "label": "F7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 2,
+              "label": "T7-P7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 3,
+              "label": "P7-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 4,
+              "label": "FP1-F3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 5,
+              "label": "F3-C3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 6,
+              "label": "C3-P3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 7,
+              "label": "P3-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 8,
+              "label": "FP2-F4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 9,
+              "label": "F4-C4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 10,
+              "label": "C4-P4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 11,
+              "label": "P4-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 12,
+              "label": "FP2-F8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 13,
+              "label": "F8-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 14,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 15,
+              "label": "P8-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 16,
+              "label": "FZ-CZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 17,
+              "label": "CZ-PZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 18,
+              "label": "P7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 19,
+              "label": "T7-FT9",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 20,
+              "label": "FT9-FT10",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 21,
+              "label": "FT10-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 22,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            }
+          ],
+          "recording_seconds": "3600",
+          "expected_full_file_bytes": 42399744
+        },
+        "candidate18": {
+          "FP1-F7": {
+            "indices": [
+              0
+            ],
+            "status": "unique"
+          },
+          "F7-T7": {
+            "indices": [
+              1
+            ],
+            "status": "unique"
+          },
+          "T7-P7": {
+            "indices": [
+              2
+            ],
+            "status": "unique"
+          },
+          "P7-O1": {
+            "indices": [
+              3
+            ],
+            "status": "unique"
+          },
+          "FP1-F3": {
+            "indices": [
+              4
+            ],
+            "status": "unique"
+          },
+          "F3-C3": {
+            "indices": [
+              5
+            ],
+            "status": "unique"
+          },
+          "C3-P3": {
+            "indices": [
+              6
+            ],
+            "status": "unique"
+          },
+          "P3-O1": {
+            "indices": [
+              7
+            ],
+            "status": "unique"
+          },
+          "FP2-F4": {
+            "indices": [
+              8
+            ],
+            "status": "unique"
+          },
+          "F4-C4": {
+            "indices": [
+              9
+            ],
+            "status": "unique"
+          },
+          "C4-P4": {
+            "indices": [
+              10
+            ],
+            "status": "unique"
+          },
+          "P4-O2": {
+            "indices": [
+              11
+            ],
+            "status": "unique"
+          },
+          "FP2-F8": {
+            "indices": [
+              12
+            ],
+            "status": "unique"
+          },
+          "F8-T8": {
+            "indices": [
+              13
+            ],
+            "status": "unique"
+          },
+          "T8-P8": {
+            "indices": [
+              14,
+              22
+            ],
+            "status": "duplicate_unresolved"
+          },
+          "P8-O2": {
+            "indices": [
+              15
+            ],
+            "status": "unique"
+          },
+          "FZ-CZ": {
+            "indices": [
+              16
+            ],
+            "status": "unique"
+          },
+          "CZ-PZ": {
+            "indices": [
+              17
+            ],
+            "status": "unique"
+          }
+        },
+        "limitation": "One development EDF header only; no signal equality, gap continuity or physiological BFG identification established",
+        "candidate17": {
+          "candidate": "fixed17-bipolar-v1",
+          "eligible": true,
+          "reasons": [],
+          "mapping": [
+            {
+              "target": "FP1-F7",
+              "source_index": 0,
+              "source_label": "FP1-F7",
+              "sign": 1
+            },
+            {
+              "target": "F7-T7",
+              "source_index": 1,
+              "source_label": "F7-T7",
+              "sign": 1
+            },
+            {
+              "target": "T7-P7",
+              "source_index": 2,
+              "source_label": "T7-P7",
+              "sign": 1
+            },
+            {
+              "target": "P7-O1",
+              "source_index": 3,
+              "source_label": "P7-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP1-F3",
+              "source_index": 4,
+              "source_label": "FP1-F3",
+              "sign": 1
+            },
+            {
+              "target": "F3-C3",
+              "source_index": 5,
+              "source_label": "F3-C3",
+              "sign": 1
+            },
+            {
+              "target": "C3-P3",
+              "source_index": 6,
+              "source_label": "C3-P3",
+              "sign": 1
+            },
+            {
+              "target": "P3-O1",
+              "source_index": 7,
+              "source_label": "P3-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F4",
+              "source_index": 8,
+              "source_label": "FP2-F4",
+              "sign": 1
+            },
+            {
+              "target": "F4-C4",
+              "source_index": 9,
+              "source_label": "F4-C4",
+              "sign": 1
+            },
+            {
+              "target": "C4-P4",
+              "source_index": 10,
+              "source_label": "C4-P4",
+              "sign": 1
+            },
+            {
+              "target": "P4-O2",
+              "source_index": 11,
+              "source_label": "P4-O2",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F8",
+              "source_index": 12,
+              "source_label": "FP2-F8",
+              "sign": 1
+            },
+            {
+              "target": "F8-T8",
+              "source_index": 13,
+              "source_label": "F8-T8",
+              "sign": 1
+            },
+            {
+              "target": "P8-O2",
+              "source_index": 15,
+              "source_label": "P8-O2",
+              "sign": 1
+            },
+            {
+              "target": "FZ-CZ",
+              "source_index": 16,
+              "source_label": "FZ-CZ",
+              "sign": 1
+            },
+            {
+              "target": "CZ-PZ",
+              "source_index": 17,
+              "source_label": "CZ-PZ",
+              "sign": 1
+            }
+          ],
+          "full_waveform_access_enabled": false
+        },
+        "reused_previous_probe": false
+      }
+    },
+    {
+      "path": "chb03/chb03_01.edf",
+      "status": "parsed",
+      "audit": {
+        "dataset": "chbmit",
+        "path": "chb03/chb03_01.edf",
+        "split": "train",
+        "url": "https://physionet.org/files/chbmit/1.0.0/chb03/chb03_01.edf",
+        "source_full_EDF_sha256": "74f1ebc1334c4d52a132513c8ecab03d15d5b8ecbd91c7fdc71346bf69797d02",
+        "full_EDF_sha256_verified": false,
+        "header_sha256": "05837e81aee21708f9084ccff5194826cbe210e94b3b4bda1cfcaf80c678db99",
+        "header_bytes_read": 6144,
+        "waveform_bytes_read": 0,
+        "HTTP_range_total_bytes": 42399744,
+        "metadata": {
+          "header_bytes": 6144,
+          "signals": 23,
+          "records": 3600,
+          "record_seconds": "1",
+          "discontinuous": false,
+          "channels": [
+            {
+              "index": 0,
+              "label": "FP1-F7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 1,
+              "label": "F7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 2,
+              "label": "T7-P7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 3,
+              "label": "P7-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 4,
+              "label": "FP1-F3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 5,
+              "label": "F3-C3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 6,
+              "label": "C3-P3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 7,
+              "label": "P3-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 8,
+              "label": "FP2-F4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 9,
+              "label": "F4-C4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 10,
+              "label": "C4-P4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 11,
+              "label": "P4-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 12,
+              "label": "FP2-F8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 13,
+              "label": "F8-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 14,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 15,
+              "label": "P8-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 16,
+              "label": "FZ-CZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 17,
+              "label": "CZ-PZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 18,
+              "label": "P7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 19,
+              "label": "T7-FT9",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 20,
+              "label": "FT9-FT10",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 21,
+              "label": "FT10-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 22,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            }
+          ],
+          "recording_seconds": "3600",
+          "expected_full_file_bytes": 42399744
+        },
+        "candidate18": {
+          "FP1-F7": {
+            "indices": [
+              0
+            ],
+            "status": "unique"
+          },
+          "F7-T7": {
+            "indices": [
+              1
+            ],
+            "status": "unique"
+          },
+          "T7-P7": {
+            "indices": [
+              2
+            ],
+            "status": "unique"
+          },
+          "P7-O1": {
+            "indices": [
+              3
+            ],
+            "status": "unique"
+          },
+          "FP1-F3": {
+            "indices": [
+              4
+            ],
+            "status": "unique"
+          },
+          "F3-C3": {
+            "indices": [
+              5
+            ],
+            "status": "unique"
+          },
+          "C3-P3": {
+            "indices": [
+              6
+            ],
+            "status": "unique"
+          },
+          "P3-O1": {
+            "indices": [
+              7
+            ],
+            "status": "unique"
+          },
+          "FP2-F4": {
+            "indices": [
+              8
+            ],
+            "status": "unique"
+          },
+          "F4-C4": {
+            "indices": [
+              9
+            ],
+            "status": "unique"
+          },
+          "C4-P4": {
+            "indices": [
+              10
+            ],
+            "status": "unique"
+          },
+          "P4-O2": {
+            "indices": [
+              11
+            ],
+            "status": "unique"
+          },
+          "FP2-F8": {
+            "indices": [
+              12
+            ],
+            "status": "unique"
+          },
+          "F8-T8": {
+            "indices": [
+              13
+            ],
+            "status": "unique"
+          },
+          "T8-P8": {
+            "indices": [
+              14,
+              22
+            ],
+            "status": "duplicate_unresolved"
+          },
+          "P8-O2": {
+            "indices": [
+              15
+            ],
+            "status": "unique"
+          },
+          "FZ-CZ": {
+            "indices": [
+              16
+            ],
+            "status": "unique"
+          },
+          "CZ-PZ": {
+            "indices": [
+              17
+            ],
+            "status": "unique"
+          }
+        },
+        "limitation": "One development EDF header only; no signal equality, gap continuity or physiological BFG identification established",
+        "candidate17": {
+          "candidate": "fixed17-bipolar-v1",
+          "eligible": true,
+          "reasons": [],
+          "mapping": [
+            {
+              "target": "FP1-F7",
+              "source_index": 0,
+              "source_label": "FP1-F7",
+              "sign": 1
+            },
+            {
+              "target": "F7-T7",
+              "source_index": 1,
+              "source_label": "F7-T7",
+              "sign": 1
+            },
+            {
+              "target": "T7-P7",
+              "source_index": 2,
+              "source_label": "T7-P7",
+              "sign": 1
+            },
+            {
+              "target": "P7-O1",
+              "source_index": 3,
+              "source_label": "P7-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP1-F3",
+              "source_index": 4,
+              "source_label": "FP1-F3",
+              "sign": 1
+            },
+            {
+              "target": "F3-C3",
+              "source_index": 5,
+              "source_label": "F3-C3",
+              "sign": 1
+            },
+            {
+              "target": "C3-P3",
+              "source_index": 6,
+              "source_label": "C3-P3",
+              "sign": 1
+            },
+            {
+              "target": "P3-O1",
+              "source_index": 7,
+              "source_label": "P3-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F4",
+              "source_index": 8,
+              "source_label": "FP2-F4",
+              "sign": 1
+            },
+            {
+              "target": "F4-C4",
+              "source_index": 9,
+              "source_label": "F4-C4",
+              "sign": 1
+            },
+            {
+              "target": "C4-P4",
+              "source_index": 10,
+              "source_label": "C4-P4",
+              "sign": 1
+            },
+            {
+              "target": "P4-O2",
+              "source_index": 11,
+              "source_label": "P4-O2",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F8",
+              "source_index": 12,
+              "source_label": "FP2-F8",
+              "sign": 1
+            },
+            {
+              "target": "F8-T8",
+              "source_index": 13,
+              "source_label": "F8-T8",
+              "sign": 1
+            },
+            {
+              "target": "P8-O2",
+              "source_index": 15,
+              "source_label": "P8-O2",
+              "sign": 1
+            },
+            {
+              "target": "FZ-CZ",
+              "source_index": 16,
+              "source_label": "FZ-CZ",
+              "sign": 1
+            },
+            {
+              "target": "CZ-PZ",
+              "source_index": 17,
+              "source_label": "CZ-PZ",
+              "sign": 1
+            }
+          ],
+          "full_waveform_access_enabled": false
+        },
+        "reused_previous_probe": false
+      }
+    },
+    {
+      "path": "chb04/chb04_01.edf",
+      "status": "parsed",
+      "audit": {
+        "dataset": "chbmit",
+        "path": "chb04/chb04_01.edf",
+        "split": "train",
+        "url": "https://physionet.org/files/chbmit/1.0.0/chb04/chb04_01.edf",
+        "source_full_EDF_sha256": "f2dd6eab9275578e8a43235b60f08ead3cb2ef3175098d9d71035e3f5c740bef",
+        "full_EDF_sha256_verified": false,
+        "header_sha256": "62b75232fad648d33c3db5264fe447ec43c62243002d93c85fb809a9df053afd",
+        "header_bytes_read": 6144,
+        "waveform_bytes_read": 0,
+        "HTTP_range_total_bytes": 169556992,
+        "metadata": {
+          "header_bytes": 6144,
+          "signals": 23,
+          "records": 14398,
+          "record_seconds": "1",
+          "discontinuous": false,
+          "channels": [
+            {
+              "index": 0,
+              "label": "FP1-F7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 1,
+              "label": "F7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 2,
+              "label": "T7-P7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 3,
+              "label": "P7-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 4,
+              "label": "FP1-F3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 5,
+              "label": "F3-C3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 6,
+              "label": "C3-P3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 7,
+              "label": "P3-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 8,
+              "label": "FP2-F4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 9,
+              "label": "F4-C4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 10,
+              "label": "C4-P4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 11,
+              "label": "P4-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 12,
+              "label": "FP2-F8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 13,
+              "label": "F8-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 14,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 15,
+              "label": "P8-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 16,
+              "label": "FZ-CZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 17,
+              "label": "CZ-PZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 18,
+              "label": "P7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 19,
+              "label": "T7-FT9",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 20,
+              "label": "FT9-FT10",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 21,
+              "label": "FT10-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 22,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            }
+          ],
+          "recording_seconds": "14398",
+          "expected_full_file_bytes": 169556992
+        },
+        "candidate18": {
+          "FP1-F7": {
+            "indices": [
+              0
+            ],
+            "status": "unique"
+          },
+          "F7-T7": {
+            "indices": [
+              1
+            ],
+            "status": "unique"
+          },
+          "T7-P7": {
+            "indices": [
+              2
+            ],
+            "status": "unique"
+          },
+          "P7-O1": {
+            "indices": [
+              3
+            ],
+            "status": "unique"
+          },
+          "FP1-F3": {
+            "indices": [
+              4
+            ],
+            "status": "unique"
+          },
+          "F3-C3": {
+            "indices": [
+              5
+            ],
+            "status": "unique"
+          },
+          "C3-P3": {
+            "indices": [
+              6
+            ],
+            "status": "unique"
+          },
+          "P3-O1": {
+            "indices": [
+              7
+            ],
+            "status": "unique"
+          },
+          "FP2-F4": {
+            "indices": [
+              8
+            ],
+            "status": "unique"
+          },
+          "F4-C4": {
+            "indices": [
+              9
+            ],
+            "status": "unique"
+          },
+          "C4-P4": {
+            "indices": [
+              10
+            ],
+            "status": "unique"
+          },
+          "P4-O2": {
+            "indices": [
+              11
+            ],
+            "status": "unique"
+          },
+          "FP2-F8": {
+            "indices": [
+              12
+            ],
+            "status": "unique"
+          },
+          "F8-T8": {
+            "indices": [
+              13
+            ],
+            "status": "unique"
+          },
+          "T8-P8": {
+            "indices": [
+              14,
+              22
+            ],
+            "status": "duplicate_unresolved"
+          },
+          "P8-O2": {
+            "indices": [
+              15
+            ],
+            "status": "unique"
+          },
+          "FZ-CZ": {
+            "indices": [
+              16
+            ],
+            "status": "unique"
+          },
+          "CZ-PZ": {
+            "indices": [
+              17
+            ],
+            "status": "unique"
+          }
+        },
+        "limitation": "One development EDF header only; no signal equality, gap continuity or physiological BFG identification established",
+        "candidate17": {
+          "candidate": "fixed17-bipolar-v1",
+          "eligible": true,
+          "reasons": [],
+          "mapping": [
+            {
+              "target": "FP1-F7",
+              "source_index": 0,
+              "source_label": "FP1-F7",
+              "sign": 1
+            },
+            {
+              "target": "F7-T7",
+              "source_index": 1,
+              "source_label": "F7-T7",
+              "sign": 1
+            },
+            {
+              "target": "T7-P7",
+              "source_index": 2,
+              "source_label": "T7-P7",
+              "sign": 1
+            },
+            {
+              "target": "P7-O1",
+              "source_index": 3,
+              "source_label": "P7-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP1-F3",
+              "source_index": 4,
+              "source_label": "FP1-F3",
+              "sign": 1
+            },
+            {
+              "target": "F3-C3",
+              "source_index": 5,
+              "source_label": "F3-C3",
+              "sign": 1
+            },
+            {
+              "target": "C3-P3",
+              "source_index": 6,
+              "source_label": "C3-P3",
+              "sign": 1
+            },
+            {
+              "target": "P3-O1",
+              "source_index": 7,
+              "source_label": "P3-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F4",
+              "source_index": 8,
+              "source_label": "FP2-F4",
+              "sign": 1
+            },
+            {
+              "target": "F4-C4",
+              "source_index": 9,
+              "source_label": "F4-C4",
+              "sign": 1
+            },
+            {
+              "target": "C4-P4",
+              "source_index": 10,
+              "source_label": "C4-P4",
+              "sign": 1
+            },
+            {
+              "target": "P4-O2",
+              "source_index": 11,
+              "source_label": "P4-O2",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F8",
+              "source_index": 12,
+              "source_label": "FP2-F8",
+              "sign": 1
+            },
+            {
+              "target": "F8-T8",
+              "source_index": 13,
+              "source_label": "F8-T8",
+              "sign": 1
+            },
+            {
+              "target": "P8-O2",
+              "source_index": 15,
+              "source_label": "P8-O2",
+              "sign": 1
+            },
+            {
+              "target": "FZ-CZ",
+              "source_index": 16,
+              "source_label": "FZ-CZ",
+              "sign": 1
+            },
+            {
+              "target": "CZ-PZ",
+              "source_index": 17,
+              "source_label": "CZ-PZ",
+              "sign": 1
+            }
+          ],
+          "full_waveform_access_enabled": false
+        },
+        "reused_previous_probe": false
+      }
+    },
+    {
+      "path": "chb05/chb05_01.edf",
+      "status": "parsed",
+      "audit": {
+        "dataset": "chbmit",
+        "path": "chb05/chb05_01.edf",
+        "split": "train",
+        "url": "https://physionet.org/files/chbmit/1.0.0/chb05/chb05_01.edf",
+        "source_full_EDF_sha256": "8840c7d7b32becffdc2ae35eff4c6e222bf15a23c28b0367005e9ece355daf4c",
+        "full_EDF_sha256_verified": false,
+        "header_sha256": "545ae4392a0a0666dfed2f87dbf4fe431ab34605ac0d17cc80c225b27d02ed69",
+        "header_bytes_read": 6144,
+        "waveform_bytes_read": 0,
+        "HTTP_range_total_bytes": 42517504,
+        "metadata": {
+          "header_bytes": 6144,
+          "signals": 23,
+          "records": 3610,
+          "record_seconds": "1",
+          "discontinuous": false,
+          "channels": [
+            {
+              "index": 0,
+              "label": "FP1-F7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 1,
+              "label": "F7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 2,
+              "label": "T7-P7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 3,
+              "label": "P7-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 4,
+              "label": "FP1-F3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 5,
+              "label": "F3-C3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 6,
+              "label": "C3-P3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 7,
+              "label": "P3-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 8,
+              "label": "FP2-F4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 9,
+              "label": "F4-C4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 10,
+              "label": "C4-P4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 11,
+              "label": "P4-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 12,
+              "label": "FP2-F8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 13,
+              "label": "F8-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 14,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 15,
+              "label": "P8-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 16,
+              "label": "FZ-CZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 17,
+              "label": "CZ-PZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 18,
+              "label": "P7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 19,
+              "label": "T7-FT9",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 20,
+              "label": "FT9-FT10",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 21,
+              "label": "FT10-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 22,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            }
+          ],
+          "recording_seconds": "3610",
+          "expected_full_file_bytes": 42517504
+        },
+        "candidate18": {
+          "FP1-F7": {
+            "indices": [
+              0
+            ],
+            "status": "unique"
+          },
+          "F7-T7": {
+            "indices": [
+              1
+            ],
+            "status": "unique"
+          },
+          "T7-P7": {
+            "indices": [
+              2
+            ],
+            "status": "unique"
+          },
+          "P7-O1": {
+            "indices": [
+              3
+            ],
+            "status": "unique"
+          },
+          "FP1-F3": {
+            "indices": [
+              4
+            ],
+            "status": "unique"
+          },
+          "F3-C3": {
+            "indices": [
+              5
+            ],
+            "status": "unique"
+          },
+          "C3-P3": {
+            "indices": [
+              6
+            ],
+            "status": "unique"
+          },
+          "P3-O1": {
+            "indices": [
+              7
+            ],
+            "status": "unique"
+          },
+          "FP2-F4": {
+            "indices": [
+              8
+            ],
+            "status": "unique"
+          },
+          "F4-C4": {
+            "indices": [
+              9
+            ],
+            "status": "unique"
+          },
+          "C4-P4": {
+            "indices": [
+              10
+            ],
+            "status": "unique"
+          },
+          "P4-O2": {
+            "indices": [
+              11
+            ],
+            "status": "unique"
+          },
+          "FP2-F8": {
+            "indices": [
+              12
+            ],
+            "status": "unique"
+          },
+          "F8-T8": {
+            "indices": [
+              13
+            ],
+            "status": "unique"
+          },
+          "T8-P8": {
+            "indices": [
+              14,
+              22
+            ],
+            "status": "duplicate_unresolved"
+          },
+          "P8-O2": {
+            "indices": [
+              15
+            ],
+            "status": "unique"
+          },
+          "FZ-CZ": {
+            "indices": [
+              16
+            ],
+            "status": "unique"
+          },
+          "CZ-PZ": {
+            "indices": [
+              17
+            ],
+            "status": "unique"
+          }
+        },
+        "limitation": "One development EDF header only; no signal equality, gap continuity or physiological BFG identification established",
+        "candidate17": {
+          "candidate": "fixed17-bipolar-v1",
+          "eligible": true,
+          "reasons": [],
+          "mapping": [
+            {
+              "target": "FP1-F7",
+              "source_index": 0,
+              "source_label": "FP1-F7",
+              "sign": 1
+            },
+            {
+              "target": "F7-T7",
+              "source_index": 1,
+              "source_label": "F7-T7",
+              "sign": 1
+            },
+            {
+              "target": "T7-P7",
+              "source_index": 2,
+              "source_label": "T7-P7",
+              "sign": 1
+            },
+            {
+              "target": "P7-O1",
+              "source_index": 3,
+              "source_label": "P7-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP1-F3",
+              "source_index": 4,
+              "source_label": "FP1-F3",
+              "sign": 1
+            },
+            {
+              "target": "F3-C3",
+              "source_index": 5,
+              "source_label": "F3-C3",
+              "sign": 1
+            },
+            {
+              "target": "C3-P3",
+              "source_index": 6,
+              "source_label": "C3-P3",
+              "sign": 1
+            },
+            {
+              "target": "P3-O1",
+              "source_index": 7,
+              "source_label": "P3-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F4",
+              "source_index": 8,
+              "source_label": "FP2-F4",
+              "sign": 1
+            },
+            {
+              "target": "F4-C4",
+              "source_index": 9,
+              "source_label": "F4-C4",
+              "sign": 1
+            },
+            {
+              "target": "C4-P4",
+              "source_index": 10,
+              "source_label": "C4-P4",
+              "sign": 1
+            },
+            {
+              "target": "P4-O2",
+              "source_index": 11,
+              "source_label": "P4-O2",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F8",
+              "source_index": 12,
+              "source_label": "FP2-F8",
+              "sign": 1
+            },
+            {
+              "target": "F8-T8",
+              "source_index": 13,
+              "source_label": "F8-T8",
+              "sign": 1
+            },
+            {
+              "target": "P8-O2",
+              "source_index": 15,
+              "source_label": "P8-O2",
+              "sign": 1
+            },
+            {
+              "target": "FZ-CZ",
+              "source_index": 16,
+              "source_label": "FZ-CZ",
+              "sign": 1
+            },
+            {
+              "target": "CZ-PZ",
+              "source_index": 17,
+              "source_label": "CZ-PZ",
+              "sign": 1
+            }
+          ],
+          "full_waveform_access_enabled": false
+        },
+        "reused_previous_probe": false
+      }
+    },
+    {
+      "path": "chb06/chb06_01.edf",
+      "status": "parsed",
+      "audit": {
+        "dataset": "chbmit",
+        "path": "chb06/chb06_01.edf",
+        "split": "train",
+        "url": "https://physionet.org/files/chbmit/1.0.0/chb06/chb06_01.edf",
+        "source_full_EDF_sha256": "ce4499133ba1353546591eb6f47909f04f1670d61bfee8bcd7de56b9f648b5da",
+        "full_EDF_sha256_verified": false,
+        "header_sha256": "05b3dd6c8f0d9c77ee739ca85f5958044d7de296f6bfdd7910de77cab8c5e048",
+        "header_bytes_read": 6144,
+        "waveform_bytes_read": 0,
+        "HTTP_range_total_bytes": 169898496,
+        "metadata": {
+          "header_bytes": 6144,
+          "signals": 23,
+          "records": 14427,
+          "record_seconds": "1",
+          "discontinuous": false,
+          "channels": [
+            {
+              "index": 0,
+              "label": "FP1-F7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 1,
+              "label": "F7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 2,
+              "label": "T7-P7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 3,
+              "label": "P7-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 4,
+              "label": "FP1-F3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 5,
+              "label": "F3-C3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 6,
+              "label": "C3-P3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 7,
+              "label": "P3-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 8,
+              "label": "FP2-F4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 9,
+              "label": "F4-C4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 10,
+              "label": "C4-P4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 11,
+              "label": "P4-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 12,
+              "label": "FP2-F8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 13,
+              "label": "F8-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 14,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 15,
+              "label": "P8-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 16,
+              "label": "FZ-CZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 17,
+              "label": "CZ-PZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 18,
+              "label": "P7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 19,
+              "label": "T7-FT9",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 20,
+              "label": "FT9-FT10",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 21,
+              "label": "FT10-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 22,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            }
+          ],
+          "recording_seconds": "14427",
+          "expected_full_file_bytes": 169898496
+        },
+        "candidate18": {
+          "FP1-F7": {
+            "indices": [
+              0
+            ],
+            "status": "unique"
+          },
+          "F7-T7": {
+            "indices": [
+              1
+            ],
+            "status": "unique"
+          },
+          "T7-P7": {
+            "indices": [
+              2
+            ],
+            "status": "unique"
+          },
+          "P7-O1": {
+            "indices": [
+              3
+            ],
+            "status": "unique"
+          },
+          "FP1-F3": {
+            "indices": [
+              4
+            ],
+            "status": "unique"
+          },
+          "F3-C3": {
+            "indices": [
+              5
+            ],
+            "status": "unique"
+          },
+          "C3-P3": {
+            "indices": [
+              6
+            ],
+            "status": "unique"
+          },
+          "P3-O1": {
+            "indices": [
+              7
+            ],
+            "status": "unique"
+          },
+          "FP2-F4": {
+            "indices": [
+              8
+            ],
+            "status": "unique"
+          },
+          "F4-C4": {
+            "indices": [
+              9
+            ],
+            "status": "unique"
+          },
+          "C4-P4": {
+            "indices": [
+              10
+            ],
+            "status": "unique"
+          },
+          "P4-O2": {
+            "indices": [
+              11
+            ],
+            "status": "unique"
+          },
+          "FP2-F8": {
+            "indices": [
+              12
+            ],
+            "status": "unique"
+          },
+          "F8-T8": {
+            "indices": [
+              13
+            ],
+            "status": "unique"
+          },
+          "T8-P8": {
+            "indices": [
+              14,
+              22
+            ],
+            "status": "duplicate_unresolved"
+          },
+          "P8-O2": {
+            "indices": [
+              15
+            ],
+            "status": "unique"
+          },
+          "FZ-CZ": {
+            "indices": [
+              16
+            ],
+            "status": "unique"
+          },
+          "CZ-PZ": {
+            "indices": [
+              17
+            ],
+            "status": "unique"
+          }
+        },
+        "limitation": "One development EDF header only; no signal equality, gap continuity or physiological BFG identification established",
+        "candidate17": {
+          "candidate": "fixed17-bipolar-v1",
+          "eligible": true,
+          "reasons": [],
+          "mapping": [
+            {
+              "target": "FP1-F7",
+              "source_index": 0,
+              "source_label": "FP1-F7",
+              "sign": 1
+            },
+            {
+              "target": "F7-T7",
+              "source_index": 1,
+              "source_label": "F7-T7",
+              "sign": 1
+            },
+            {
+              "target": "T7-P7",
+              "source_index": 2,
+              "source_label": "T7-P7",
+              "sign": 1
+            },
+            {
+              "target": "P7-O1",
+              "source_index": 3,
+              "source_label": "P7-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP1-F3",
+              "source_index": 4,
+              "source_label": "FP1-F3",
+              "sign": 1
+            },
+            {
+              "target": "F3-C3",
+              "source_index": 5,
+              "source_label": "F3-C3",
+              "sign": 1
+            },
+            {
+              "target": "C3-P3",
+              "source_index": 6,
+              "source_label": "C3-P3",
+              "sign": 1
+            },
+            {
+              "target": "P3-O1",
+              "source_index": 7,
+              "source_label": "P3-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F4",
+              "source_index": 8,
+              "source_label": "FP2-F4",
+              "sign": 1
+            },
+            {
+              "target": "F4-C4",
+              "source_index": 9,
+              "source_label": "F4-C4",
+              "sign": 1
+            },
+            {
+              "target": "C4-P4",
+              "source_index": 10,
+              "source_label": "C4-P4",
+              "sign": 1
+            },
+            {
+              "target": "P4-O2",
+              "source_index": 11,
+              "source_label": "P4-O2",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F8",
+              "source_index": 12,
+              "source_label": "FP2-F8",
+              "sign": 1
+            },
+            {
+              "target": "F8-T8",
+              "source_index": 13,
+              "source_label": "F8-T8",
+              "sign": 1
+            },
+            {
+              "target": "P8-O2",
+              "source_index": 15,
+              "source_label": "P8-O2",
+              "sign": 1
+            },
+            {
+              "target": "FZ-CZ",
+              "source_index": 16,
+              "source_label": "FZ-CZ",
+              "sign": 1
+            },
+            {
+              "target": "CZ-PZ",
+              "source_index": 17,
+              "source_label": "CZ-PZ",
+              "sign": 1
+            }
+          ],
+          "full_waveform_access_enabled": false
+        },
+        "reused_previous_probe": false
+      }
+    },
+    {
+      "path": "chb07/chb07_01.edf",
+      "status": "parsed",
+      "audit": {
+        "dataset": "chbmit",
+        "path": "chb07/chb07_01.edf",
+        "split": "train",
+        "url": "https://physionet.org/files/chbmit/1.0.0/chb07/chb07_01.edf",
+        "source_full_EDF_sha256": "eedc43a6a2e64abe7c0f0d9033589929b03eafb4c1b0e10d626108ac488ba9de",
+        "full_EDF_sha256_verified": false,
+        "header_sha256": "1ff5e6e97805a110562e674e7a3b15fc7f4f6b5fa7f63bb1dcb2bec0456bcf52",
+        "header_bytes_read": 6144,
+        "waveform_bytes_read": 0,
+        "HTTP_range_total_bytes": 169710080,
+        "metadata": {
+          "header_bytes": 6144,
+          "signals": 23,
+          "records": 14411,
+          "record_seconds": "1",
+          "discontinuous": false,
+          "channels": [
+            {
+              "index": 0,
+              "label": "FP1-F7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 1,
+              "label": "F7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 2,
+              "label": "T7-P7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 3,
+              "label": "P7-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 4,
+              "label": "FP1-F3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 5,
+              "label": "F3-C3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 6,
+              "label": "C3-P3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 7,
+              "label": "P3-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 8,
+              "label": "FP2-F4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 9,
+              "label": "F4-C4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 10,
+              "label": "C4-P4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 11,
+              "label": "P4-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 12,
+              "label": "FP2-F8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 13,
+              "label": "F8-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 14,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 15,
+              "label": "P8-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 16,
+              "label": "FZ-CZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 17,
+              "label": "CZ-PZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 18,
+              "label": "P7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 19,
+              "label": "T7-FT9",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 20,
+              "label": "FT9-FT10",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 21,
+              "label": "FT10-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 22,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            }
+          ],
+          "recording_seconds": "14411",
+          "expected_full_file_bytes": 169710080
+        },
+        "candidate18": {
+          "FP1-F7": {
+            "indices": [
+              0
+            ],
+            "status": "unique"
+          },
+          "F7-T7": {
+            "indices": [
+              1
+            ],
+            "status": "unique"
+          },
+          "T7-P7": {
+            "indices": [
+              2
+            ],
+            "status": "unique"
+          },
+          "P7-O1": {
+            "indices": [
+              3
+            ],
+            "status": "unique"
+          },
+          "FP1-F3": {
+            "indices": [
+              4
+            ],
+            "status": "unique"
+          },
+          "F3-C3": {
+            "indices": [
+              5
+            ],
+            "status": "unique"
+          },
+          "C3-P3": {
+            "indices": [
+              6
+            ],
+            "status": "unique"
+          },
+          "P3-O1": {
+            "indices": [
+              7
+            ],
+            "status": "unique"
+          },
+          "FP2-F4": {
+            "indices": [
+              8
+            ],
+            "status": "unique"
+          },
+          "F4-C4": {
+            "indices": [
+              9
+            ],
+            "status": "unique"
+          },
+          "C4-P4": {
+            "indices": [
+              10
+            ],
+            "status": "unique"
+          },
+          "P4-O2": {
+            "indices": [
+              11
+            ],
+            "status": "unique"
+          },
+          "FP2-F8": {
+            "indices": [
+              12
+            ],
+            "status": "unique"
+          },
+          "F8-T8": {
+            "indices": [
+              13
+            ],
+            "status": "unique"
+          },
+          "T8-P8": {
+            "indices": [
+              14,
+              22
+            ],
+            "status": "duplicate_unresolved"
+          },
+          "P8-O2": {
+            "indices": [
+              15
+            ],
+            "status": "unique"
+          },
+          "FZ-CZ": {
+            "indices": [
+              16
+            ],
+            "status": "unique"
+          },
+          "CZ-PZ": {
+            "indices": [
+              17
+            ],
+            "status": "unique"
+          }
+        },
+        "limitation": "One development EDF header only; no signal equality, gap continuity or physiological BFG identification established",
+        "candidate17": {
+          "candidate": "fixed17-bipolar-v1",
+          "eligible": true,
+          "reasons": [],
+          "mapping": [
+            {
+              "target": "FP1-F7",
+              "source_index": 0,
+              "source_label": "FP1-F7",
+              "sign": 1
+            },
+            {
+              "target": "F7-T7",
+              "source_index": 1,
+              "source_label": "F7-T7",
+              "sign": 1
+            },
+            {
+              "target": "T7-P7",
+              "source_index": 2,
+              "source_label": "T7-P7",
+              "sign": 1
+            },
+            {
+              "target": "P7-O1",
+              "source_index": 3,
+              "source_label": "P7-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP1-F3",
+              "source_index": 4,
+              "source_label": "FP1-F3",
+              "sign": 1
+            },
+            {
+              "target": "F3-C3",
+              "source_index": 5,
+              "source_label": "F3-C3",
+              "sign": 1
+            },
+            {
+              "target": "C3-P3",
+              "source_index": 6,
+              "source_label": "C3-P3",
+              "sign": 1
+            },
+            {
+              "target": "P3-O1",
+              "source_index": 7,
+              "source_label": "P3-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F4",
+              "source_index": 8,
+              "source_label": "FP2-F4",
+              "sign": 1
+            },
+            {
+              "target": "F4-C4",
+              "source_index": 9,
+              "source_label": "F4-C4",
+              "sign": 1
+            },
+            {
+              "target": "C4-P4",
+              "source_index": 10,
+              "source_label": "C4-P4",
+              "sign": 1
+            },
+            {
+              "target": "P4-O2",
+              "source_index": 11,
+              "source_label": "P4-O2",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F8",
+              "source_index": 12,
+              "source_label": "FP2-F8",
+              "sign": 1
+            },
+            {
+              "target": "F8-T8",
+              "source_index": 13,
+              "source_label": "F8-T8",
+              "sign": 1
+            },
+            {
+              "target": "P8-O2",
+              "source_index": 15,
+              "source_label": "P8-O2",
+              "sign": 1
+            },
+            {
+              "target": "FZ-CZ",
+              "source_index": 16,
+              "source_label": "FZ-CZ",
+              "sign": 1
+            },
+            {
+              "target": "CZ-PZ",
+              "source_index": 17,
+              "source_label": "CZ-PZ",
+              "sign": 1
+            }
+          ],
+          "full_waveform_access_enabled": false
+        },
+        "reused_previous_probe": false
+      }
+    },
+    {
+      "path": "chb08/chb08_02.edf",
+      "status": "parsed",
+      "audit": {
+        "dataset": "chbmit",
+        "path": "chb08/chb08_02.edf",
+        "split": "train",
+        "url": "https://physionet.org/files/chbmit/1.0.0/chb08/chb08_02.edf",
+        "source_full_EDF_sha256": "f01c6435d6eed409cd25d3a590ee4d69b6c778adb48b9a7b50eae887ed50c9c7",
+        "full_EDF_sha256_verified": false,
+        "header_sha256": "576f1dc25908ab63fd51b357dc4a4ecad48bcfa6344bbc28a99d5ff7b52e8dcf",
+        "header_bytes_read": 6144,
+        "waveform_bytes_read": 0,
+        "HTTP_range_total_bytes": 42399744,
+        "metadata": {
+          "header_bytes": 6144,
+          "signals": 23,
+          "records": 3600,
+          "record_seconds": "1",
+          "discontinuous": false,
+          "channels": [
+            {
+              "index": 0,
+              "label": "FP1-F7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 1,
+              "label": "F7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 2,
+              "label": "T7-P7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 3,
+              "label": "P7-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 4,
+              "label": "FP1-F3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 5,
+              "label": "F3-C3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 6,
+              "label": "C3-P3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 7,
+              "label": "P3-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 8,
+              "label": "FP2-F4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 9,
+              "label": "F4-C4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 10,
+              "label": "C4-P4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 11,
+              "label": "P4-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 12,
+              "label": "FP2-F8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 13,
+              "label": "F8-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 14,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 15,
+              "label": "P8-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 16,
+              "label": "FZ-CZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 17,
+              "label": "CZ-PZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 18,
+              "label": "P7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 19,
+              "label": "T7-FT9",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 20,
+              "label": "FT9-FT10",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 21,
+              "label": "FT10-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 22,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            }
+          ],
+          "recording_seconds": "3600",
+          "expected_full_file_bytes": 42399744
+        },
+        "candidate18": {
+          "FP1-F7": {
+            "indices": [
+              0
+            ],
+            "status": "unique"
+          },
+          "F7-T7": {
+            "indices": [
+              1
+            ],
+            "status": "unique"
+          },
+          "T7-P7": {
+            "indices": [
+              2
+            ],
+            "status": "unique"
+          },
+          "P7-O1": {
+            "indices": [
+              3
+            ],
+            "status": "unique"
+          },
+          "FP1-F3": {
+            "indices": [
+              4
+            ],
+            "status": "unique"
+          },
+          "F3-C3": {
+            "indices": [
+              5
+            ],
+            "status": "unique"
+          },
+          "C3-P3": {
+            "indices": [
+              6
+            ],
+            "status": "unique"
+          },
+          "P3-O1": {
+            "indices": [
+              7
+            ],
+            "status": "unique"
+          },
+          "FP2-F4": {
+            "indices": [
+              8
+            ],
+            "status": "unique"
+          },
+          "F4-C4": {
+            "indices": [
+              9
+            ],
+            "status": "unique"
+          },
+          "C4-P4": {
+            "indices": [
+              10
+            ],
+            "status": "unique"
+          },
+          "P4-O2": {
+            "indices": [
+              11
+            ],
+            "status": "unique"
+          },
+          "FP2-F8": {
+            "indices": [
+              12
+            ],
+            "status": "unique"
+          },
+          "F8-T8": {
+            "indices": [
+              13
+            ],
+            "status": "unique"
+          },
+          "T8-P8": {
+            "indices": [
+              14,
+              22
+            ],
+            "status": "duplicate_unresolved"
+          },
+          "P8-O2": {
+            "indices": [
+              15
+            ],
+            "status": "unique"
+          },
+          "FZ-CZ": {
+            "indices": [
+              16
+            ],
+            "status": "unique"
+          },
+          "CZ-PZ": {
+            "indices": [
+              17
+            ],
+            "status": "unique"
+          }
+        },
+        "limitation": "One development EDF header only; no signal equality, gap continuity or physiological BFG identification established",
+        "candidate17": {
+          "candidate": "fixed17-bipolar-v1",
+          "eligible": true,
+          "reasons": [],
+          "mapping": [
+            {
+              "target": "FP1-F7",
+              "source_index": 0,
+              "source_label": "FP1-F7",
+              "sign": 1
+            },
+            {
+              "target": "F7-T7",
+              "source_index": 1,
+              "source_label": "F7-T7",
+              "sign": 1
+            },
+            {
+              "target": "T7-P7",
+              "source_index": 2,
+              "source_label": "T7-P7",
+              "sign": 1
+            },
+            {
+              "target": "P7-O1",
+              "source_index": 3,
+              "source_label": "P7-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP1-F3",
+              "source_index": 4,
+              "source_label": "FP1-F3",
+              "sign": 1
+            },
+            {
+              "target": "F3-C3",
+              "source_index": 5,
+              "source_label": "F3-C3",
+              "sign": 1
+            },
+            {
+              "target": "C3-P3",
+              "source_index": 6,
+              "source_label": "C3-P3",
+              "sign": 1
+            },
+            {
+              "target": "P3-O1",
+              "source_index": 7,
+              "source_label": "P3-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F4",
+              "source_index": 8,
+              "source_label": "FP2-F4",
+              "sign": 1
+            },
+            {
+              "target": "F4-C4",
+              "source_index": 9,
+              "source_label": "F4-C4",
+              "sign": 1
+            },
+            {
+              "target": "C4-P4",
+              "source_index": 10,
+              "source_label": "C4-P4",
+              "sign": 1
+            },
+            {
+              "target": "P4-O2",
+              "source_index": 11,
+              "source_label": "P4-O2",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F8",
+              "source_index": 12,
+              "source_label": "FP2-F8",
+              "sign": 1
+            },
+            {
+              "target": "F8-T8",
+              "source_index": 13,
+              "source_label": "F8-T8",
+              "sign": 1
+            },
+            {
+              "target": "P8-O2",
+              "source_index": 15,
+              "source_label": "P8-O2",
+              "sign": 1
+            },
+            {
+              "target": "FZ-CZ",
+              "source_index": 16,
+              "source_label": "FZ-CZ",
+              "sign": 1
+            },
+            {
+              "target": "CZ-PZ",
+              "source_index": 17,
+              "source_label": "CZ-PZ",
+              "sign": 1
+            }
+          ],
+          "full_waveform_access_enabled": false
+        },
+        "reused_previous_probe": false
+      }
+    },
+    {
+      "path": "chb09/chb09_01.edf",
+      "status": "parsed",
+      "audit": {
+        "dataset": "chbmit",
+        "path": "chb09/chb09_01.edf",
+        "split": "train",
+        "url": "https://physionet.org/files/chbmit/1.0.0/chb09/chb09_01.edf",
+        "source_full_EDF_sha256": "b9efcbf7adadd15dae022ed2e49bd2222a76ea97556e9fa4ba1e9b62facbe399",
+        "full_EDF_sha256_verified": false,
+        "header_sha256": "b8a3f981b09a6067b32b7f99562032db77a05388fd897e326211490d5a0abaac",
+        "header_bytes_read": 6144,
+        "waveform_bytes_read": 0,
+        "HTTP_range_total_bytes": 94484992,
+        "metadata": {
+          "header_bytes": 6144,
+          "signals": 23,
+          "records": 8023,
+          "record_seconds": "1",
+          "discontinuous": false,
+          "channels": [
+            {
+              "index": 0,
+              "label": "FP1-F7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 1,
+              "label": "F7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 2,
+              "label": "T7-P7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 3,
+              "label": "P7-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 4,
+              "label": "FP1-F3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 5,
+              "label": "F3-C3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 6,
+              "label": "C3-P3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 7,
+              "label": "P3-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 8,
+              "label": "FP2-F4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 9,
+              "label": "F4-C4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 10,
+              "label": "C4-P4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 11,
+              "label": "P4-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 12,
+              "label": "FP2-F8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 13,
+              "label": "F8-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 14,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 15,
+              "label": "P8-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 16,
+              "label": "FZ-CZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 17,
+              "label": "CZ-PZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 18,
+              "label": "P7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 19,
+              "label": "T7-FT9",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 20,
+              "label": "FT9-FT10",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 21,
+              "label": "FT10-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 22,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            }
+          ],
+          "recording_seconds": "8023",
+          "expected_full_file_bytes": 94484992
+        },
+        "candidate18": {
+          "FP1-F7": {
+            "indices": [
+              0
+            ],
+            "status": "unique"
+          },
+          "F7-T7": {
+            "indices": [
+              1
+            ],
+            "status": "unique"
+          },
+          "T7-P7": {
+            "indices": [
+              2
+            ],
+            "status": "unique"
+          },
+          "P7-O1": {
+            "indices": [
+              3
+            ],
+            "status": "unique"
+          },
+          "FP1-F3": {
+            "indices": [
+              4
+            ],
+            "status": "unique"
+          },
+          "F3-C3": {
+            "indices": [
+              5
+            ],
+            "status": "unique"
+          },
+          "C3-P3": {
+            "indices": [
+              6
+            ],
+            "status": "unique"
+          },
+          "P3-O1": {
+            "indices": [
+              7
+            ],
+            "status": "unique"
+          },
+          "FP2-F4": {
+            "indices": [
+              8
+            ],
+            "status": "unique"
+          },
+          "F4-C4": {
+            "indices": [
+              9
+            ],
+            "status": "unique"
+          },
+          "C4-P4": {
+            "indices": [
+              10
+            ],
+            "status": "unique"
+          },
+          "P4-O2": {
+            "indices": [
+              11
+            ],
+            "status": "unique"
+          },
+          "FP2-F8": {
+            "indices": [
+              12
+            ],
+            "status": "unique"
+          },
+          "F8-T8": {
+            "indices": [
+              13
+            ],
+            "status": "unique"
+          },
+          "T8-P8": {
+            "indices": [
+              14,
+              22
+            ],
+            "status": "duplicate_unresolved"
+          },
+          "P8-O2": {
+            "indices": [
+              15
+            ],
+            "status": "unique"
+          },
+          "FZ-CZ": {
+            "indices": [
+              16
+            ],
+            "status": "unique"
+          },
+          "CZ-PZ": {
+            "indices": [
+              17
+            ],
+            "status": "unique"
+          }
+        },
+        "limitation": "One development EDF header only; no signal equality, gap continuity or physiological BFG identification established",
+        "candidate17": {
+          "candidate": "fixed17-bipolar-v1",
+          "eligible": true,
+          "reasons": [],
+          "mapping": [
+            {
+              "target": "FP1-F7",
+              "source_index": 0,
+              "source_label": "FP1-F7",
+              "sign": 1
+            },
+            {
+              "target": "F7-T7",
+              "source_index": 1,
+              "source_label": "F7-T7",
+              "sign": 1
+            },
+            {
+              "target": "T7-P7",
+              "source_index": 2,
+              "source_label": "T7-P7",
+              "sign": 1
+            },
+            {
+              "target": "P7-O1",
+              "source_index": 3,
+              "source_label": "P7-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP1-F3",
+              "source_index": 4,
+              "source_label": "FP1-F3",
+              "sign": 1
+            },
+            {
+              "target": "F3-C3",
+              "source_index": 5,
+              "source_label": "F3-C3",
+              "sign": 1
+            },
+            {
+              "target": "C3-P3",
+              "source_index": 6,
+              "source_label": "C3-P3",
+              "sign": 1
+            },
+            {
+              "target": "P3-O1",
+              "source_index": 7,
+              "source_label": "P3-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F4",
+              "source_index": 8,
+              "source_label": "FP2-F4",
+              "sign": 1
+            },
+            {
+              "target": "F4-C4",
+              "source_index": 9,
+              "source_label": "F4-C4",
+              "sign": 1
+            },
+            {
+              "target": "C4-P4",
+              "source_index": 10,
+              "source_label": "C4-P4",
+              "sign": 1
+            },
+            {
+              "target": "P4-O2",
+              "source_index": 11,
+              "source_label": "P4-O2",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F8",
+              "source_index": 12,
+              "source_label": "FP2-F8",
+              "sign": 1
+            },
+            {
+              "target": "F8-T8",
+              "source_index": 13,
+              "source_label": "F8-T8",
+              "sign": 1
+            },
+            {
+              "target": "P8-O2",
+              "source_index": 15,
+              "source_label": "P8-O2",
+              "sign": 1
+            },
+            {
+              "target": "FZ-CZ",
+              "source_index": 16,
+              "source_label": "FZ-CZ",
+              "sign": 1
+            },
+            {
+              "target": "CZ-PZ",
+              "source_index": 17,
+              "source_label": "CZ-PZ",
+              "sign": 1
+            }
+          ],
+          "full_waveform_access_enabled": false
+        },
+        "reused_previous_probe": false
+      }
+    },
+    {
+      "path": "chb10/chb10_01.edf",
+      "status": "parsed",
+      "audit": {
+        "dataset": "chbmit",
+        "path": "chb10/chb10_01.edf",
+        "split": "train",
+        "url": "https://physionet.org/files/chbmit/1.0.0/chb10/chb10_01.edf",
+        "source_full_EDF_sha256": "217360eee85a7e6dc7ade9d7309c8cf09ae9314195c6cdeeafb5b95dcdf4ce14",
+        "full_EDF_sha256_verified": false,
+        "header_sha256": "1088aa4209a2f4471ba2731040ece5b1979bba06b52a7238aee477049bb8438f",
+        "header_bytes_read": 6144,
+        "waveform_bytes_read": 0,
+        "HTTP_range_total_bytes": 85028864,
+        "metadata": {
+          "header_bytes": 6144,
+          "signals": 23,
+          "records": 7220,
+          "record_seconds": "1",
+          "discontinuous": false,
+          "channels": [
+            {
+              "index": 0,
+              "label": "FP1-F7",
+              "unit": "uV",
+              "physical_min": "-1200",
+              "physical_max": "1200",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/1706250"
+            },
+            {
+              "index": 1,
+              "label": "F7-T7",
+              "unit": "uV",
+              "physical_min": "-1200",
+              "physical_max": "1200",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/1706250"
+            },
+            {
+              "index": 2,
+              "label": "T7-P7",
+              "unit": "uV",
+              "physical_min": "-1200",
+              "physical_max": "1200",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/1706250"
+            },
+            {
+              "index": 3,
+              "label": "P7-O1",
+              "unit": "uV",
+              "physical_min": "-1200",
+              "physical_max": "1200",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/1706250"
+            },
+            {
+              "index": 4,
+              "label": "FP1-F3",
+              "unit": "uV",
+              "physical_min": "-1200",
+              "physical_max": "1200",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/1706250"
+            },
+            {
+              "index": 5,
+              "label": "F3-C3",
+              "unit": "uV",
+              "physical_min": "-1200",
+              "physical_max": "1200",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/1706250"
+            },
+            {
+              "index": 6,
+              "label": "C3-P3",
+              "unit": "uV",
+              "physical_min": "-1200",
+              "physical_max": "1200",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/1706250"
+            },
+            {
+              "index": 7,
+              "label": "P3-O1",
+              "unit": "uV",
+              "physical_min": "-1200",
+              "physical_max": "1200",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/1706250"
+            },
+            {
+              "index": 8,
+              "label": "FP2-F4",
+              "unit": "uV",
+              "physical_min": "-1200",
+              "physical_max": "1200",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/1706250"
+            },
+            {
+              "index": 9,
+              "label": "F4-C4",
+              "unit": "uV",
+              "physical_min": "-1200",
+              "physical_max": "1200",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/1706250"
+            },
+            {
+              "index": 10,
+              "label": "C4-P4",
+              "unit": "uV",
+              "physical_min": "-1200",
+              "physical_max": "1200",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/1706250"
+            },
+            {
+              "index": 11,
+              "label": "P4-O2",
+              "unit": "uV",
+              "physical_min": "-1200",
+              "physical_max": "1200",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/1706250"
+            },
+            {
+              "index": 12,
+              "label": "FP2-F8",
+              "unit": "uV",
+              "physical_min": "-1200",
+              "physical_max": "1200",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/1706250"
+            },
+            {
+              "index": 13,
+              "label": "F8-T8",
+              "unit": "uV",
+              "physical_min": "-1200",
+              "physical_max": "1200",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/1706250"
+            },
+            {
+              "index": 14,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-1200",
+              "physical_max": "1200",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/1706250"
+            },
+            {
+              "index": 15,
+              "label": "P8-O2",
+              "unit": "uV",
+              "physical_min": "-1200",
+              "physical_max": "1200",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/1706250"
+            },
+            {
+              "index": 16,
+              "label": "FZ-CZ",
+              "unit": "uV",
+              "physical_min": "-1200",
+              "physical_max": "1200",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/1706250"
+            },
+            {
+              "index": 17,
+              "label": "CZ-PZ",
+              "unit": "uV",
+              "physical_min": "-1200",
+              "physical_max": "1200",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/1706250"
+            },
+            {
+              "index": 18,
+              "label": "P7-T7",
+              "unit": "uV",
+              "physical_min": "-1200",
+              "physical_max": "1200",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/1706250"
+            },
+            {
+              "index": 19,
+              "label": "T7-FT9",
+              "unit": "uV",
+              "physical_min": "-1200",
+              "physical_max": "1200",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/1706250"
+            },
+            {
+              "index": 20,
+              "label": "FT9-FT10",
+              "unit": "uV",
+              "physical_min": "-1200",
+              "physical_max": "1200",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/1706250"
+            },
+            {
+              "index": 21,
+              "label": "FT10-T8",
+              "unit": "uV",
+              "physical_min": "-1200",
+              "physical_max": "1200",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/1706250"
+            },
+            {
+              "index": 22,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-1200",
+              "physical_max": "1200",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/1706250"
+            }
+          ],
+          "recording_seconds": "7220",
+          "expected_full_file_bytes": 85028864
+        },
+        "candidate18": {
+          "FP1-F7": {
+            "indices": [
+              0
+            ],
+            "status": "unique"
+          },
+          "F7-T7": {
+            "indices": [
+              1
+            ],
+            "status": "unique"
+          },
+          "T7-P7": {
+            "indices": [
+              2
+            ],
+            "status": "unique"
+          },
+          "P7-O1": {
+            "indices": [
+              3
+            ],
+            "status": "unique"
+          },
+          "FP1-F3": {
+            "indices": [
+              4
+            ],
+            "status": "unique"
+          },
+          "F3-C3": {
+            "indices": [
+              5
+            ],
+            "status": "unique"
+          },
+          "C3-P3": {
+            "indices": [
+              6
+            ],
+            "status": "unique"
+          },
+          "P3-O1": {
+            "indices": [
+              7
+            ],
+            "status": "unique"
+          },
+          "FP2-F4": {
+            "indices": [
+              8
+            ],
+            "status": "unique"
+          },
+          "F4-C4": {
+            "indices": [
+              9
+            ],
+            "status": "unique"
+          },
+          "C4-P4": {
+            "indices": [
+              10
+            ],
+            "status": "unique"
+          },
+          "P4-O2": {
+            "indices": [
+              11
+            ],
+            "status": "unique"
+          },
+          "FP2-F8": {
+            "indices": [
+              12
+            ],
+            "status": "unique"
+          },
+          "F8-T8": {
+            "indices": [
+              13
+            ],
+            "status": "unique"
+          },
+          "T8-P8": {
+            "indices": [
+              14,
+              22
+            ],
+            "status": "duplicate_unresolved"
+          },
+          "P8-O2": {
+            "indices": [
+              15
+            ],
+            "status": "unique"
+          },
+          "FZ-CZ": {
+            "indices": [
+              16
+            ],
+            "status": "unique"
+          },
+          "CZ-PZ": {
+            "indices": [
+              17
+            ],
+            "status": "unique"
+          }
+        },
+        "limitation": "One development EDF header only; no signal equality, gap continuity or physiological BFG identification established",
+        "candidate17": {
+          "candidate": "fixed17-bipolar-v1",
+          "eligible": true,
+          "reasons": [],
+          "mapping": [
+            {
+              "target": "FP1-F7",
+              "source_index": 0,
+              "source_label": "FP1-F7",
+              "sign": 1
+            },
+            {
+              "target": "F7-T7",
+              "source_index": 1,
+              "source_label": "F7-T7",
+              "sign": 1
+            },
+            {
+              "target": "T7-P7",
+              "source_index": 2,
+              "source_label": "T7-P7",
+              "sign": 1
+            },
+            {
+              "target": "P7-O1",
+              "source_index": 3,
+              "source_label": "P7-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP1-F3",
+              "source_index": 4,
+              "source_label": "FP1-F3",
+              "sign": 1
+            },
+            {
+              "target": "F3-C3",
+              "source_index": 5,
+              "source_label": "F3-C3",
+              "sign": 1
+            },
+            {
+              "target": "C3-P3",
+              "source_index": 6,
+              "source_label": "C3-P3",
+              "sign": 1
+            },
+            {
+              "target": "P3-O1",
+              "source_index": 7,
+              "source_label": "P3-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F4",
+              "source_index": 8,
+              "source_label": "FP2-F4",
+              "sign": 1
+            },
+            {
+              "target": "F4-C4",
+              "source_index": 9,
+              "source_label": "F4-C4",
+              "sign": 1
+            },
+            {
+              "target": "C4-P4",
+              "source_index": 10,
+              "source_label": "C4-P4",
+              "sign": 1
+            },
+            {
+              "target": "P4-O2",
+              "source_index": 11,
+              "source_label": "P4-O2",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F8",
+              "source_index": 12,
+              "source_label": "FP2-F8",
+              "sign": 1
+            },
+            {
+              "target": "F8-T8",
+              "source_index": 13,
+              "source_label": "F8-T8",
+              "sign": 1
+            },
+            {
+              "target": "P8-O2",
+              "source_index": 15,
+              "source_label": "P8-O2",
+              "sign": 1
+            },
+            {
+              "target": "FZ-CZ",
+              "source_index": 16,
+              "source_label": "FZ-CZ",
+              "sign": 1
+            },
+            {
+              "target": "CZ-PZ",
+              "source_index": 17,
+              "source_label": "CZ-PZ",
+              "sign": 1
+            }
+          ],
+          "full_waveform_access_enabled": false
+        },
+        "reused_previous_probe": false
+      }
+    },
+    {
+      "path": "chb11/chb11_01.edf",
+      "status": "parsed",
+      "audit": {
+        "dataset": "chbmit",
+        "path": "chb11/chb11_01.edf",
+        "split": "train",
+        "url": "https://physionet.org/files/chbmit/1.0.0/chb11/chb11_01.edf",
+        "source_full_EDF_sha256": "e9d262ce14c83f98351c0b5cab619ecfca178e3451d021f24b44583aaefc17b3",
+        "full_EDF_sha256_verified": false,
+        "header_sha256": "53a1c1736c523ffa02bba6de1987e969a555052d3708956960b963c515f263d6",
+        "header_bytes_read": 6144,
+        "waveform_bytes_read": 0,
+        "HTTP_range_total_bytes": 42376192,
+        "metadata": {
+          "header_bytes": 6144,
+          "signals": 23,
+          "records": 3598,
+          "record_seconds": "1",
+          "discontinuous": false,
+          "channels": [
+            {
+              "index": 0,
+              "label": "FP1-F7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 1,
+              "label": "F7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 2,
+              "label": "T7-P7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 3,
+              "label": "P7-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 4,
+              "label": "FP1-F3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 5,
+              "label": "F3-C3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 6,
+              "label": "C3-P3",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 7,
+              "label": "P3-O1",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 8,
+              "label": "FP2-F4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 9,
+              "label": "F4-C4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 10,
+              "label": "C4-P4",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 11,
+              "label": "P4-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 12,
+              "label": "FP2-F8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 13,
+              "label": "F8-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 14,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 15,
+              "label": "P8-O2",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 16,
+              "label": "FZ-CZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 17,
+              "label": "CZ-PZ",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 18,
+              "label": "P7-T7",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 19,
+              "label": "T7-FT9",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 20,
+              "label": "FT9-FT10",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 21,
+              "label": "FT10-T8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            },
+            {
+              "index": 22,
+              "label": "T8-P8",
+              "unit": "uV",
+              "physical_min": "-800",
+              "physical_max": "800",
+              "digital_min": -2048,
+              "digital_max": 2047,
+              "samples_per_record": 256,
+              "sampling_hz": "256",
+              "declared_prefilter": "",
+              "volts_per_digital_step": "1/2559375"
+            }
+          ],
+          "recording_seconds": "3598",
+          "expected_full_file_bytes": 42376192
+        },
+        "candidate18": {
+          "FP1-F7": {
+            "indices": [
+              0
+            ],
+            "status": "unique"
+          },
+          "F7-T7": {
+            "indices": [
+              1
+            ],
+            "status": "unique"
+          },
+          "T7-P7": {
+            "indices": [
+              2
+            ],
+            "status": "unique"
+          },
+          "P7-O1": {
+            "indices": [
+              3
+            ],
+            "status": "unique"
+          },
+          "FP1-F3": {
+            "indices": [
+              4
+            ],
+            "status": "unique"
+          },
+          "F3-C3": {
+            "indices": [
+              5
+            ],
+            "status": "unique"
+          },
+          "C3-P3": {
+            "indices": [
+              6
+            ],
+            "status": "unique"
+          },
+          "P3-O1": {
+            "indices": [
+              7
+            ],
+            "status": "unique"
+          },
+          "FP2-F4": {
+            "indices": [
+              8
+            ],
+            "status": "unique"
+          },
+          "F4-C4": {
+            "indices": [
+              9
+            ],
+            "status": "unique"
+          },
+          "C4-P4": {
+            "indices": [
+              10
+            ],
+            "status": "unique"
+          },
+          "P4-O2": {
+            "indices": [
+              11
+            ],
+            "status": "unique"
+          },
+          "FP2-F8": {
+            "indices": [
+              12
+            ],
+            "status": "unique"
+          },
+          "F8-T8": {
+            "indices": [
+              13
+            ],
+            "status": "unique"
+          },
+          "T8-P8": {
+            "indices": [
+              14,
+              22
+            ],
+            "status": "duplicate_unresolved"
+          },
+          "P8-O2": {
+            "indices": [
+              15
+            ],
+            "status": "unique"
+          },
+          "FZ-CZ": {
+            "indices": [
+              16
+            ],
+            "status": "unique"
+          },
+          "CZ-PZ": {
+            "indices": [
+              17
+            ],
+            "status": "unique"
+          }
+        },
+        "limitation": "One development EDF header only; no signal equality, gap continuity or physiological BFG identification established",
+        "candidate17": {
+          "candidate": "fixed17-bipolar-v1",
+          "eligible": true,
+          "reasons": [],
+          "mapping": [
+            {
+              "target": "FP1-F7",
+              "source_index": 0,
+              "source_label": "FP1-F7",
+              "sign": 1
+            },
+            {
+              "target": "F7-T7",
+              "source_index": 1,
+              "source_label": "F7-T7",
+              "sign": 1
+            },
+            {
+              "target": "T7-P7",
+              "source_index": 2,
+              "source_label": "T7-P7",
+              "sign": 1
+            },
+            {
+              "target": "P7-O1",
+              "source_index": 3,
+              "source_label": "P7-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP1-F3",
+              "source_index": 4,
+              "source_label": "FP1-F3",
+              "sign": 1
+            },
+            {
+              "target": "F3-C3",
+              "source_index": 5,
+              "source_label": "F3-C3",
+              "sign": 1
+            },
+            {
+              "target": "C3-P3",
+              "source_index": 6,
+              "source_label": "C3-P3",
+              "sign": 1
+            },
+            {
+              "target": "P3-O1",
+              "source_index": 7,
+              "source_label": "P3-O1",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F4",
+              "source_index": 8,
+              "source_label": "FP2-F4",
+              "sign": 1
+            },
+            {
+              "target": "F4-C4",
+              "source_index": 9,
+              "source_label": "F4-C4",
+              "sign": 1
+            },
+            {
+              "target": "C4-P4",
+              "source_index": 10,
+              "source_label": "C4-P4",
+              "sign": 1
+            },
+            {
+              "target": "P4-O2",
+              "source_index": 11,
+              "source_label": "P4-O2",
+              "sign": 1
+            },
+            {
+              "target": "FP2-F8",
+              "source_index": 12,
+              "source_label": "FP2-F8",
+              "sign": 1
+            },
+            {
+              "target": "F8-T8",
+              "source_index": 13,
+              "source_label": "F8-T8",
+              "sign": 1
+            },
+            {
+              "target": "P8-O2",
+              "source_index": 15,
+              "source_label": "P8-O2",
+              "sign": 1
+            },
+            {
+              "target": "FZ-CZ",
+              "source_index": 16,
+              "source_label": "FZ-CZ",
+              "sign": 1
+            },
+            {
+              "target": "CZ-PZ",
+              "source_index": 17,
+              "source_label": "CZ-PZ",
+              "sign": 1
+            }
+          ],
+          "full_waveform_access_enabled": false
+        },
+        "reused_previous_probe": false
+      }
+    },
+    {
+      "path": "chb12/chb12_06.edf",
+      "status": "failed",
+      "error_type": "ValueError",
+      "error": "Invalid signal calibration or sample count"
+    },
+    {
+      "path": "chb13/chb13_02.edf",
+      "status": "failed",
+      "error_type": "ValueError",
+      "error": "Invalid signal calibration or sample count"
+    },
+    {
+      "path": "chb14/chb14_01.edf",
+      "status": "failed",
+      "error_type": "ValueError",
+      "error": "Invalid signal calibration or sample count"
+    },
+    {
+      "path": "chb15/chb15_01.edf",
+      "status": "failed",
+      "error_type": "ValueError",
+      "error": "Invalid signal calibration or sample count"
+    },
+    {
+      "path": "chb16/chb16_01.edf",
+      "status": "failed",
+      "error_type": "ValueError",
+      "error": "Invalid signal calibration or sample count"
+    },
+    {
+      "path": "chb17/chb17a_03.edf",
+      "status": "failed",
+      "error_type": "ValueError",
+      "error": "Invalid signal calibration or sample count"
+    },
+    {
+      "path": "chb18/chb18_01.edf",
+      "status": "failed",
+      "error_type": "ValueError",
+      "error": "Invalid signal calibration or sample count"
+    },
+    {
+      "path": "chb21/chb21_01.edf",
+      "status": "failed",
+      "error_type": "ValueError",
+      "error": "Invalid signal calibration or sample count"
+    }
+  ],
+  "parsed": 11,
+  "eligible17": 11,
+  "waveform_bytes_read": 0,
+  "full_waveform_hashes_verified": false,
+  "failed_header_diagnostics": [
+    {
+      "path": "chb12/chb12_06.edf",
+      "header_bytes": 7424,
+      "header_sha256": "4847eb0c3ef2d09a0823ea17d7dd77d9bfe10b157d4697211efb26732290d85d",
+      "invalid_channels": [
+        {
+          "index": 4,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 9,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 12,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 17,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 22,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        }
+      ],
+      "waveform_bytes_read": 0
+    },
+    {
+      "path": "chb13/chb13_02.edf",
+      "header_bytes": 7424,
+      "header_sha256": "db42bbae694beeccd2b15a6265825c23764f76fa7c397755ef22f2457e88543c",
+      "invalid_channels": [
+        {
+          "index": 4,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 9,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 12,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 17,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 22,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        }
+      ],
+      "waveform_bytes_read": 0
+    },
+    {
+      "path": "chb14/chb14_01.edf",
+      "header_bytes": 7424,
+      "header_sha256": "c81bcca08ce8abcf52a6d2c92b1e9451f0d710f09f16a76ba7474059a4225e5a",
+      "invalid_channels": [
+        {
+          "index": 4,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 9,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 12,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 17,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 22,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        }
+      ],
+      "waveform_bytes_read": 0
+    },
+    {
+      "path": "chb15/chb15_01.edf",
+      "header_bytes": 8192,
+      "header_sha256": "54818393a8d6fdd6958f50c81a7ea923b962e957b7b5fcd30fc618a25198912c",
+      "invalid_channels": [
+        {
+          "index": 4,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 9,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 12,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 17,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 22,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        }
+      ],
+      "waveform_bytes_read": 0
+    },
+    {
+      "path": "chb16/chb16_01.edf",
+      "header_bytes": 7424,
+      "header_sha256": "a8de5e1513c74fe2848d86b4f9860fd0167787f92d064367e15d62bdc4e18538",
+      "invalid_channels": [
+        {
+          "index": 4,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 9,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 12,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 17,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 22,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        }
+      ],
+      "waveform_bytes_read": 0
+    },
+    {
+      "path": "chb17/chb17a_03.edf",
+      "header_bytes": 7424,
+      "header_sha256": "701db8a7749d0769914351968b995efd2864d78e881500c8e5ee47e8ddeb91fd",
+      "invalid_channels": [
+        {
+          "index": 4,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 9,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 12,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 17,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 22,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        }
+      ],
+      "waveform_bytes_read": 0
+    },
+    {
+      "path": "chb18/chb18_01.edf",
+      "header_bytes": 5888,
+      "header_sha256": "5666b8cb0dcba899e339e5f004be772f469e7dcb6d832b3a769638cb49b44130",
+      "invalid_channels": [
+        {
+          "index": 4,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 9,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 12,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 17,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        }
+      ],
+      "waveform_bytes_read": 0
+    },
+    {
+      "path": "chb21/chb21_01.edf",
+      "header_bytes": 7424,
+      "header_sha256": "3bc4ab90331a2546713e60f0fe50d904668c990064489b1050084102991e4167",
+      "invalid_channels": [
+        {
+          "index": 4,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 9,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 12,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 17,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        },
+        {
+          "index": 22,
+          "label": "-",
+          "unit": "uV",
+          "physical_min": "-1",
+          "physical_max": "1",
+          "digital_min": "0",
+          "digital_max": "0",
+          "samples_per_record": "256"
+        }
+      ],
+      "waveform_bytes_read": 0
+    }
+  ],
+  "new_header_bytes_successful_parses": 61440,
+  "initial_failed_header_bytes": 58624,
+  "diagnostic_repeat_header_bytes": 58624,
+  "new_header_bytes_total_including_repeat": 178688
+}
