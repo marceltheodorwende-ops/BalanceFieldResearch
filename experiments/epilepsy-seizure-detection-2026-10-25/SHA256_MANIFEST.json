@@ -6,13 +6,18 @@
   },
   {
     "path": "BFG_DERIVATION_REGISTER.md",
-    "bytes": 3245,
-    "sha256": "abe364e277abf2bbd60ea1bb33abacc29d22a629c0d268124a69edc20840ca40"
+    "bytes": 3711,
+    "sha256": "7414bb3c7bd7c3ea444d306e38c67440e1969a620ed88a38349d7e184b6a463d"
   },
   {
     "path": "BFG_SOURCE_REVIEW.json",
     "bytes": 1256,
     "sha256": "e856c3957b147e1f22ab9e313581828255ed7055bac3247dbff6fb28745d8b41"
+  },
+  {
+    "path": "CHANNEL_POLICY.md",
+    "bytes": 5555,
+    "sha256": "152591f4a0b1e20c29908638483e4093f7e4a20da16e0bda6956d7890c2fc116"
   },
   {
     "path": "DATA_AND_SCORING_AUDIT.md",
@@ -31,8 +36,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 2028,
-    "sha256": "9dccb9069f2ed2c5de162d5812794590465290496d15c78c87fa9dfbc1bdc941"
+    "bytes": 2351,
+    "sha256": "30dbf98d51dede325e4e86fdd5b2f633957197379b5ca8b828faa5da0149ce0a"
   },
   {
     "path": "RESEARCH_PLAN.md",
@@ -55,9 +60,24 @@
     "sha256": "5367904b8bafda32464808a534dc4f347925c08e48234453c76c6fc18eeb87c8"
   },
   {
+    "path": "channel_policy.py",
+    "bytes": 2952,
+    "sha256": "e58e70ebe568af8b81f4336357cf57ff993c2cdb25bdaf19bdc6ccd5b8f17116"
+  },
+  {
+    "path": "channel_policy_checks.json",
+    "bytes": 3711,
+    "sha256": "3fdb28216f0ae49d56370e318701962340a6b3f61b2b9a046005b0579ad53192"
+  },
+  {
     "path": "check_bfg_boundary.py",
     "bytes": 3749,
     "sha256": "abf467a122a1cf0c239b19ed18d4863b3520f86576b9631bab951529b10bf892"
+  },
+  {
+    "path": "check_channel_policy.py",
+    "bytes": 4055,
+    "sha256": "b16bbff5f1a0c235e45c952a41398184e71e8473a6f538adf14a51d7a2f50e7b"
   },
   {
     "path": "check_contract.py",
@@ -126,8 +146,8 @@
   },
   {
     "path": "module_role_audit.json",
-    "bytes": 3858,
-    "sha256": "21c002453d52c8c334ab2a891eaf650125ca82e0e1d79bc604634d17737ad842"
+    "bytes": 4502,
+    "sha256": "f091a338c9d848354f6f03332a12510a01197cd248b13b30dcc651d0a6d16140"
   },
   {
     "path": "montage_audit.json",

@@ -28,3 +28,8 @@ edf_header.py provides a separately guarded development-header-only probe; full
 waveform access stays closed. EDF_HEADER_CONTRACT.md documents the first real
 header's units/rate and unresolved duplicate label. `python check_edf_header.py`
 runs19 synthetic parser/range/access control groups without network access.
+
+CHANNEL_POLICY.md documents a fixed17-channel instrument candidate that omits
+both duplicate T8-P8 copies. `python check_channel_policy.py` runs16 control
+groups, including exact ideal row-space equivalence and a noisy-data counterexample.
+It is not a frozen montage, trained detector or BFG physiological identification.

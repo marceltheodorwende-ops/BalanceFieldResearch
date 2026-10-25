@@ -3,6 +3,18 @@
   "EEG_detector_present": false,
   "files": [
     {
+      "path": "channel_policy.py",
+      "sha256": "e58e70ebe568af8b81f4336357cf57ff993c2cdb25bdaf19bdc6ccd5b8f17116",
+      "role": "fixed candidate instrument channel/orientation mapping, no neural dynamics",
+      "top_level_functions": [
+        "normalize",
+        "compile_map",
+        "signed_volts",
+        "incidence",
+        "reconstruction"
+      ]
+    },
+    {
       "path": "check_bfg_boundary.py",
       "sha256": "abf467a122a1cf0c239b19ed18d4863b3520f86576b9631bab951529b10bf892",
       "role": "synthetic/metadata controls",
@@ -11,6 +23,16 @@
         "closed",
         "ambient",
         "main"
+      ]
+    },
+    {
+      "path": "check_channel_policy.py",
+      "sha256": "b16bbff5f1a0c235e45c952a41398184e71e8473a6f538adf14a51d7a2f50e7b",
+      "role": "synthetic/metadata controls",
+      "top_level_functions": [
+        "check",
+        "mul",
+        "mv"
       ]
     },
     {
