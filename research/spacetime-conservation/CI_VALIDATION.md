@@ -514,3 +514,8 @@ Ein frischer lokaler PASS mit sieben nichtterminalen Originalereignissen ohne Fe
 ## Runde71 – lokale deklarierte räumliche Hierarchie
 
 Ein frischer lokaler PASS ohne Fehlvorlauf/Korrektur mit5 Originalereignissen: tatsächliche Basispräparation, vollständige Updates in Dimensionen3/12/48 und komplexe Level1-Eichkontrolle Seed20261121. Allgemeine f=F0/N,p=1/N,q=E0/N²,e_cond=E0/N und Kindbilanzen symbolisch; volle Tensor-Nachfolger gegen bestehende unabhängige Vollpersistenzformeln geprüft. Maximaler Tensorrest6.22e-15,Knotenbilanzrest5.56e-17,Readout-Eichrest1.56e-15. Formation5.5 konstant, rohe Summen1.5/.375/.09375 und ungewichtete bedingte Summen1.5. Geometrie separat1/4/16/64 Labels, keine physikalische Uhr. Reproduktion/Rohdaten DECLARED_SPATIAL_HIERARCHY_CHECKS.md. Nur Dokumenttext, keine Audit-/Workflow-/Originaländerung. Runde70-Actions40186677975/40186674597 am Ergebnishead3562a787d3004044aed8604a39e597ccf0e51346 separat grün; sie führen die neue eingebettete Runde71-Reproduktion nicht automatisch aus. Kein neuer Runde71-CI-Pass behauptet.
+
+
+## Runde71 – GitHub-CI bestätigt (25. Oktober2026)
+
+Actions40188811319 und40188807641 beide completed/success am Head954b51e6ee41fac86d131114dc9fe82d3494bd37. Bestehende Pipeline bestätigt; neue eingebettete lokale Reproduktionen werden nicht automatisch ausgeführt. Jobdetails bei Abschlussprüfung ergänzen.
