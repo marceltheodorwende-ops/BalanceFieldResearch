@@ -534,3 +534,10 @@ Ein frischer lokaler PASS mit fünf nichtterminalen Originalereignissen, keine F
 ## Runde73 – lokale Zustandsrollen-/Seedkontrolle
 
 Ein frischer lokaler PASS,3 Originalereignisse, keine Fehlvorläufe/Korrektur. Tatsächliche Selektionsmasse.75, normierter Formationsvergleich.25; Seedgewicht Formationshypothese≈.399904182692194, Witness0, maximaler Normierungsrest5.65e-16, Witness-Seedrest2.35e-16. Symbolische allgemeine Normierungs-/Retentionsbeweise getrennt von numerischer Toleranz1e-10. Vollständiger Code/Rohdaten STATE_HAMILTONIAN_BRIDGE_CHECKS.md. Keine Audit-/Workflow-/Originalcodeänderung; neue Reproduktion nur Dokumenttext. Runde72-CI oben separat grün, kein neuer Runde73-Remote-Pass behauptet.
+
+
+## Runde74 – lokale historische Zustands-/Observablekontrolle und offene Remote-CI
+
+Ein frischer lokaler PASS mit6 Originalereignissen, keine Fehlvorläufe/Korrektur. Historischer Dichteabstand exakt sqrt(10)/6, interne Erwartungen3/2 und4; Formationsbestand wächst durch tatsächliche Seeds. Maximaler Rest7.11e-15 bei Toleranz1e-10. Vollständiger Prüftext/Rohdaten HISTORY_STATE_ENERGY_BRIDGE_CHECKS.md; allgemeine Beweise separat algebraisch. Eingebettete Reproduktion nur Dokumenttext, keine Audit-/Workflow-/Originaländerung.
+
+Runde73-Actions [40190177543](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40190177543) und [40190173223](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40190173223) am exakten Head56ccfb08679c26c4885d21ed4fd09e00bf41e894 bei beiden Nachprüfungen dieses Laufs noch in_progress. Kein Remote-PASS behauptet. Neue lokale Reproduktion wird durch die bestehende CI nicht automatisch ausgeführt.
