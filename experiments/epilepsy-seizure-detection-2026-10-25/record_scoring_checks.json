@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "control_groups": 7,
+  "checks": [
+    "all unavailable events remain misses with full denominator",
+    "sample-end onset not backdated and deadline inclusive",
+    "zero deadline does not gain a backdated hit",
+    "false alarms use full recording time",
+    "9 identity future-evidence availability boundary and rounding cases reject",
+    "duplicate alarm intervals not silently merged",
+    "24 independent integer activation/deadline cases"
+  ],
+  "independent_cases": 24,
+  "synthetic_only": true,
+  "new_data_access": false,
+  "clinical_result": false
+}

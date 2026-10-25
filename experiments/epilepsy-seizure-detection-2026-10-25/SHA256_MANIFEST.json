@@ -16,8 +16,8 @@
   },
   {
     "path": "BFG_DERIVATION_REGISTER.md",
-    "bytes": 9807,
-    "sha256": "d570a6b3459679535c7f00d9367a915271babcdc3d5d1facc533798ea9b6aed8"
+    "bytes": 10306,
+    "sha256": "b19057b076a0b21bf7ecf1bbc8c6a191a484a99038f717f927d59b3655adfa50"
   },
   {
     "path": "BFG_SOURCE_REVIEW.json",
@@ -63,6 +63,11 @@
     "path": "RECORDING_TIME_CONTRACT.md",
     "bytes": 3546,
     "sha256": "306e381045b266a4c6504dec61903d985040fcb6979a302691885026238b7473"
+  },
+  {
+    "path": "RECORD_SCORING_CONTRACT.md",
+    "bytes": 3629,
+    "sha256": "d7efc5f08b789c0d5901a182f9c06a08f9d69261eae5e1c68e2af9d4cfb7259b"
   },
   {
     "path": "RESEARCH_PLAN.md",
@@ -190,6 +195,11 @@
     "sha256": "3e95faee8dd1f59f1102ac7ed0a84eba7b31108606dcae59ac1b3874b343703a"
   },
   {
+    "path": "check_record_scoring.py",
+    "bytes": 2782,
+    "sha256": "2b3bbe1b269d1c93c16b15be570aed905f9c9e243f1f57db1bec5b9a018871d3"
+  },
+  {
     "path": "check_recording_time.py",
     "bytes": 2848,
     "sha256": "eb8a6aa1351cf4031886eabe5ea729edcb8c085c37c19a6327a1149b2c27e103"
@@ -261,8 +271,8 @@
   },
   {
     "path": "module_role_audit.json",
-    "bytes": 6851,
-    "sha256": "bc3923da6dd2d9132822912b00261f6e0f81263af771ffc64e0656f84e14a48e"
+    "bytes": 7466,
+    "sha256": "e4341077fb10e613cbee8a128d98a433a10a996bf1a898308520ef27f60774fb"
   },
   {
     "path": "montage_audit.json",
@@ -273,6 +283,16 @@
     "path": "montage_audit.py",
     "bytes": 3255,
     "sha256": "40714cec7968da36723a5b57642401d2182aa668821d3e3f47bc8880a421d758"
+  },
+  {
+    "path": "record_scoring.py",
+    "bytes": 2323,
+    "sha256": "72c8acd787f072cf537485f85e01eb5dfcee577a04caff211014e3ae87def434"
+  },
+  {
+    "path": "record_scoring_checks.json",
+    "bytes": 586,
+    "sha256": "22a52c127edf4fb21193099e07c8e4248b9dc3d744252a1866a0e69f56f5be6e"
   },
   {
     "path": "recording_time.py",

@@ -113,6 +113,15 @@
       ]
     },
     {
+      "path": "check_record_scoring.py",
+      "sha256": "2b3bbe1b269d1c93c16b15be570aed905f9c9e243f1f57db1bec5b9a018871d3",
+      "role": "synthetic record scoring integration controls",
+      "top_level_functions": [
+        "check",
+        "run"
+      ]
+    },
+    {
       "path": "check_recording_time.py",
       "sha256": "eb8a6aa1351cf4031886eabe5ea729edcb8c085c37c19a6327a1149b2c27e103",
       "role": "synthetic and already-exposed metadata controls",
@@ -177,6 +186,15 @@
       "top_level_functions": [
         "rank",
         "audit"
+      ]
+    },
+    {
+      "path": "record_scoring.py",
+      "sha256": "72c8acd787f072cf537485f85e01eb5dfcee577a04caff211014e3ae87def434",
+      "role": "record identity and declared sample-end receipt validation plus supplementary evaluation adapter, no detector",
+      "top_level_functions": [
+        "float_exact",
+        "score_record"
       ]
     },
     {
