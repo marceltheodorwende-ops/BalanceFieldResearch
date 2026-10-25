@@ -33,3 +33,6 @@ This completes the bounded probe-integration/reassessment step, not EP01 or coho
 
 ## A5 — Record-local annotation time
 Exact interval/sample-grid validation and full duration decomposition proved under explicit disjoint-interval assumptions; RECORDING_TIME_CONTRACT.md. Clock-only cross-file gaps are not identifiable without dates.9 control groups/510 independent integer cases PASS. This is evaluation arithmetic, not a BFG physiological law. Annotation importer, availability join and cross-file clock provenance OPEN.
+
+## A6 — Pinned development annotation import
+Strict source grammar and manifest identity/count checks implemented; all42 already-exposed chb01 files retained including35 zero-event files and seven independently checked event pairs. Only one EDF duration joined;41 durations UNVERIFIED.9 controls PASS. Evaluation/source interface, no BFG biological law. ANNOTATION_IMPORT_CONTRACT.md records assumptions and remaining source/coverage/endpoint obligations OPEN.

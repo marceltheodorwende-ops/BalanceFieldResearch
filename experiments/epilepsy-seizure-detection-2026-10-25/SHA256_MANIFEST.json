@@ -1,13 +1,18 @@
 [
   {
+    "path": "ANNOTATION_IMPORT_CONTRACT.md",
+    "bytes": 3438,
+    "sha256": "3bb96ea7b278c3c6dcdccb1b595854af1487638ccaf46c51a1297749694faa90"
+  },
+  {
     "path": "BFG_ASSUMPTION_AUDIT.md",
     "bytes": 9248,
     "sha256": "68b432006404a8f2789834f57031380017ed0021de3b3bd6a8e8648f42eee6a3"
   },
   {
     "path": "BFG_DERIVATION_REGISTER.md",
-    "bytes": 8311,
-    "sha256": "22f8f702aee0adc8de0ee30ff3e80f42412f7d2ee9cbbb2999061a770cea0dee"
+    "bytes": 8775,
+    "sha256": "b0a76256e4a4de49912c018db1257cc59e83de1cf9ab82718696abd566a417ba"
   },
   {
     "path": "BFG_SOURCE_REVIEW.json",
@@ -65,6 +70,16 @@
     "sha256": "c94b0301f70fc3c98e544c4663e41b22d77f2f71fd395b5428a59c1d82b83b55"
   },
   {
+    "path": "annotation_import.py",
+    "bytes": 3378,
+    "sha256": "75c9005887231e7344517279d4de7d4e94f89b8c972045d86ee729124b82b25f"
+  },
+  {
+    "path": "annotation_import_checks.json",
+    "bytes": 723,
+    "sha256": "8d93aa6ab04287633146c7cf01516909777170e124c9b98fc8250d67a946cb3e"
+  },
+  {
     "path": "audit_sources/data_manifest.csv",
     "bytes": 48664,
     "sha256": "afb11e0cebd9ced161c288ee0655c4dcab1aad1a8a25e9dfdf1cfe64beb8e00f"
@@ -93,6 +108,16 @@
     "path": "channel_policy_checks.json",
     "bytes": 3711,
     "sha256": "3fdb28216f0ae49d56370e318701962340a6b3f61b2b9a046005b0579ad53192"
+  },
+  {
+    "path": "chb01_annotation_import.json",
+    "bytes": 12823,
+    "sha256": "97b4c8712f534a3db673827b83a0f6005753053aa59e162a41cc285f560560cc"
+  },
+  {
+    "path": "check_annotation_import.py",
+    "bytes": 3761,
+    "sha256": "88edcb08e4ac353a903a278140c0650a1114f661ed2b776ca6f2d966c8921613"
   },
   {
     "path": "check_bfg_boundary.py",
@@ -196,8 +221,8 @@
   },
   {
     "path": "module_role_audit.json",
-    "bytes": 5646,
-    "sha256": "0f9091a9ec39a47a7890da3e4adb66d8537ed1d7b2488f01bdef3ba55d5b7c0f"
+    "bytes": 6273,
+    "sha256": "d83a0068ec15b3fefe43d855303ab605565b8b50be187c6a225e87ad0f21e7ee"
   },
   {
     "path": "montage_audit.json",

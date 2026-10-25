@@ -3,6 +3,16 @@
   "EEG_detector_present": false,
   "files": [
     {
+      "path": "annotation_import.py",
+      "sha256": "75c9005887231e7344517279d4de7d4e94f89b8c972045d86ee729124b82b25f",
+      "role": "offline pinned development source annotation identity/count interface, no neural dynamics",
+      "top_level_functions": [
+        "parse_summary",
+        "load_pinned_chb01",
+        "join_header"
+      ]
+    },
+    {
       "path": "causal_stream.py",
       "sha256": "285c365983e22f3f301de948f256978b1af8a414041111dd97ec36d8808a8a2b",
       "role": "one-record causal execution/coverage primitive, no scientific filter selection or neural law",
@@ -18,6 +28,14 @@
         "signed_volts",
         "incidence",
         "reconstruction"
+      ]
+    },
+    {
+      "path": "check_annotation_import.py",
+      "sha256": "88edcb08e4ac353a903a278140c0650a1114f661ed2b776ca6f2d966c8921613",
+      "role": "synthetic and already-exposed source annotation controls",
+      "top_level_functions": [
+        "check"
       ]
     },
     {

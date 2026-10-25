@@ -1,0 +1,473 @@
+{
+  "source_sha256": "77e86183845192d147c88a9bb4263c2b4a32e936c6236029770f86ca2ea023db",
+  "records": {
+    "chb01/chb01_01.edf": {
+      "path": "chb01/chb01_01.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "11:42:54",
+      "source_end_clock": "12:42:54",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_02.edf": {
+      "path": "chb01/chb01_02.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "12:42:57",
+      "source_end_clock": "13:42:57",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_03.edf": {
+      "path": "chb01/chb01_03.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "13:43:04",
+      "source_end_clock": "14:43:04",
+      "events": [
+        [
+          2996,
+          3036
+        ]
+      ],
+      "declared_event_count": 1,
+      "duration_verified": false
+    },
+    "chb01/chb01_04.edf": {
+      "path": "chb01/chb01_04.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "14:43:12",
+      "source_end_clock": "15:43:12",
+      "events": [
+        [
+          1467,
+          1494
+        ]
+      ],
+      "declared_event_count": 1,
+      "duration_verified": false
+    },
+    "chb01/chb01_05.edf": {
+      "path": "chb01/chb01_05.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "15:43:19",
+      "source_end_clock": "16:43:19",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_06.edf": {
+      "path": "chb01/chb01_06.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "16:43:26",
+      "source_end_clock": "17:43:26",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_07.edf": {
+      "path": "chb01/chb01_07.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "17:43:33",
+      "source_end_clock": "18:43:33",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_08.edf": {
+      "path": "chb01/chb01_08.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "18:43:40",
+      "source_end_clock": "19:43:40",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_09.edf": {
+      "path": "chb01/chb01_09.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "19:43:56",
+      "source_end_clock": "20:43:56",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_10.edf": {
+      "path": "chb01/chb01_10.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "20:44:07",
+      "source_end_clock": "21:44:07",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_11.edf": {
+      "path": "chb01/chb01_11.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "21:44:14",
+      "source_end_clock": "22:44:14",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_12.edf": {
+      "path": "chb01/chb01_12.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "22:44:22",
+      "source_end_clock": "23:44:22",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_13.edf": {
+      "path": "chb01/chb01_13.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "23:44:29",
+      "source_end_clock": "24:44:29",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_14.edf": {
+      "path": "chb01/chb01_14.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "00:44:37",
+      "source_end_clock": "1:44:37",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_15.edf": {
+      "path": "chb01/chb01_15.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "01:44:44",
+      "source_end_clock": "2:44:44",
+      "events": [
+        [
+          1732,
+          1772
+        ]
+      ],
+      "declared_event_count": 1,
+      "duration_verified": false
+    },
+    "chb01/chb01_16.edf": {
+      "path": "chb01/chb01_16.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "02:44:51",
+      "source_end_clock": "3:44:51",
+      "events": [
+        [
+          1015,
+          1066
+        ]
+      ],
+      "declared_event_count": 1,
+      "duration_verified": false
+    },
+    "chb01/chb01_17.edf": {
+      "path": "chb01/chb01_17.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "03:44:59",
+      "source_end_clock": "4:44:59",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_18.edf": {
+      "path": "chb01/chb01_18.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "04:45:06",
+      "source_end_clock": "5:45:06",
+      "events": [
+        [
+          1720,
+          1810
+        ]
+      ],
+      "declared_event_count": 1,
+      "duration_verified": false
+    },
+    "chb01/chb01_19.edf": {
+      "path": "chb01/chb01_19.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "05:45:13",
+      "source_end_clock": "6:45:13",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_20.edf": {
+      "path": "chb01/chb01_20.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "06:45:20",
+      "source_end_clock": "7:29:43",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_21.edf": {
+      "path": "chb01/chb01_21.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "07:33:46",
+      "source_end_clock": "8:33:46",
+      "events": [
+        [
+          327,
+          420
+        ]
+      ],
+      "declared_event_count": 1,
+      "duration_verified": false
+    },
+    "chb01/chb01_22.edf": {
+      "path": "chb01/chb01_22.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "08:33:49",
+      "source_end_clock": "9:33:49",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_23.edf": {
+      "path": "chb01/chb01_23.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "09:33:58",
+      "source_end_clock": "10:33:58",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_24.edf": {
+      "path": "chb01/chb01_24.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "10:34:06",
+      "source_end_clock": "11:34:06",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_25.edf": {
+      "path": "chb01/chb01_25.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "11:34:14",
+      "source_end_clock": "12:34:14",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_26.edf": {
+      "path": "chb01/chb01_26.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "12:34:22",
+      "source_end_clock": "13:13:07",
+      "events": [
+        [
+          1862,
+          1963
+        ]
+      ],
+      "declared_event_count": 1,
+      "duration_verified": false
+    },
+    "chb01/chb01_27.edf": {
+      "path": "chb01/chb01_27.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "13:13:21",
+      "source_end_clock": "13:23:21",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_29.edf": {
+      "path": "chb01/chb01_29.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "13:24:08",
+      "source_end_clock": "14:24:08",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_30.edf": {
+      "path": "chb01/chb01_30.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "14:24:15",
+      "source_end_clock": "15:24:15",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_31.edf": {
+      "path": "chb01/chb01_31.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "15:24:24",
+      "source_end_clock": "16:24:24",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_32.edf": {
+      "path": "chb01/chb01_32.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "16:24:32",
+      "source_end_clock": "17:24:32",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_33.edf": {
+      "path": "chb01/chb01_33.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "17:24:39",
+      "source_end_clock": "18:24:39",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_34.edf": {
+      "path": "chb01/chb01_34.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "18:24:46",
+      "source_end_clock": "19:24:46",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_36.edf": {
+      "path": "chb01/chb01_36.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "22:14:43",
+      "source_end_clock": "23:14:43",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_37.edf": {
+      "path": "chb01/chb01_37.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "23:14:46",
+      "source_end_clock": "24:14:46",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_38.edf": {
+      "path": "chb01/chb01_38.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "00:14:53",
+      "source_end_clock": "1:14:53",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_39.edf": {
+      "path": "chb01/chb01_39.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "01:15:01",
+      "source_end_clock": "2:15:01",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_40.edf": {
+      "path": "chb01/chb01_40.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "02:15:08",
+      "source_end_clock": "3:15:08",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_41.edf": {
+      "path": "chb01/chb01_41.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "03:15:15",
+      "source_end_clock": "4:15:15",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_42.edf": {
+      "path": "chb01/chb01_42.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "04:15:22",
+      "source_end_clock": "5:15:22",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_43.edf": {
+      "path": "chb01/chb01_43.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "05:15:29",
+      "source_end_clock": "6:15:29",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    },
+    "chb01/chb01_46.edf": {
+      "path": "chb01/chb01_46.edf",
+      "person": "chb01",
+      "split": "train",
+      "source_start_clock": "08:15:51",
+      "source_end_clock": "9:15:51",
+      "events": [],
+      "declared_event_count": 0,
+      "duration_verified": false
+    }
+  },
+  "header_join": {
+    "chb01/chb01_01.edf": {
+      "duration_seconds": "3600",
+      "sampling_hz": "256",
+      "sample_count": 921600,
+      "events": [],
+      "seizure_seconds": "0",
+      "nonseizure_seconds": "3600",
+      "inter_record_gap_seconds": null,
+      "cross_record_continuity": "UNRESOLVED: no dated clock relation supplied"
+    }
+  },
+  "other_record_durations": "UNVERIFIED"
+}
