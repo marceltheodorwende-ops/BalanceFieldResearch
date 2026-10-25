@@ -465,3 +465,12 @@ Ein frischer lokaler Lauf PASS ohne Fehlvorlauf/Korrektur. Exakte Algebra-/Kommu
 ## Runde66 – lokale Näherungsblockkontrollen
 
 Finaler frischer PASS mit5 nichtterminalen Originalereignissen. Vorher5 PASS, zusätzliche nichtkovariante Koordinatendiagnose entfernt und vollständiger frischer Kontrolllauf; insgesamt10 Quellaufrufe, keine fehlgeschlagenen Assertions. Exakte volle L-Ränge7/8/4, tracelose Nullitäten1/0/4 und Rayleigh27epsilon². Am Brückenfall lambda0.00229348675031, kappa0.00153707387766<=Schranke0.00154538897444; Werte bei Nachfolger/Seed/Eichung erhalten. Maximaler L-Spektralrest1.57e-13, Projektorrest2.74e-15,Eichinvariantenrest1.26e-14. Toleranz1e-10/Wurzel1e-12/Lücken1e-8; keine Nahschwellenzertifizierung. Vollständige Reproduktion APPROXIMATE_WITNESS_PAIR_CHECKS.md. Dokumentation einschließlich Prüfcode als Text, keine Audit-/Workflow-/Originaländerung. Erfolgreiche Runde65-Actions40181731112/40181728566 am Head5c8ea4f583da11859b7a065c40ea295d43316917 prüfen die bestehende Pipeline, nicht die neue eingebettete Runde66-Reproduktion. Kein neuer Runde66-Remote-Pass behauptet.
+
+
+## Runde66 – GitHub-CI bestätigt (25. Oktober2026)
+
+[Actions40182463123](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40182463123) und [Actions40182459171](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40182459171) beide completed/success am Head e33a659e03121b04b22c9ebe0d7a113f1ca49b5b. Beide finite-controls-Jobs mit allen48 Schritten erfolgreich. Bestehende Audit-/Grenztest-/PDF-/Artefaktpipeline grün; neue eingebettete Reproduktionen werden dadurch nicht automatisch ausgeführt.
+
+## Runde67 – lokale Quell-Tensorlift-Kombination
+
+Ein frischer lokaler PASS mit sieben nichtterminalen Originalereignissen, keine fehlgeschlagenen Kontrollläufe. Symbolische Reinheiten1/2,5/8,1 sowie R-Tensor-/Rangidentitäten und X=I2/2,Det1/4. Vollständige zurückausgerichtete Tensor-Nachfolgerreste in den geprüften diagonalen Kanalrahmen numerisch0; Vollfeld-Eichrest2.96e-15,R-Retentionsrest1.33e-15,Tensorrest1.15e-16. Gleiche Quelllasten/alpha bei konstantem Formationsbestand4 und Witnessspur1; E-Werte2->1,5/4,2 abhängig vom deklarierten tau. Originalupdate importiert nach Blobprüfung, empirisches main nicht ausgeführt. Reproduktion/Rohdaten TENSOR_LIFT_WITNESS_PAIRING_CHECKS.md. Keine Audit-/Workflow-/Quelländerung, nur Dokumenttext. Runde66-Remote-CI oben separat; kein neuer Runde67-Pass behauptet.
