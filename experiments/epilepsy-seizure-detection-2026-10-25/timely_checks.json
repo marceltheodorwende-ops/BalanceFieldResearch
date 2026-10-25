@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "named_controls": 20,
+  "exhaustive_cases": 12288,
+  "checks": [
+    "postictal-only not detected",
+    "always on gets no fresh TP",
+    "late ictal distinct from false alarm",
+    "long reference remains one",
+    "adjacent references stay two",
+    "event endpoint excluded",
+    "deadline included",
+    "deadline after event does not extend event",
+    "zero deadline exact onset",
+    "no event sensitivity null",
+    "false rate denominator full duration",
+    "stale alarm cannot credit next reference",
+    "all activations in same event one TP",
+    "availability timestamp used without backdating",
+    "tiny empty recording rates remain finite",
+    "14 invalid numeric/domain/adjacency/overflow controls rejected",
+    "exhaustive independent binary-cell oracle",
+    "time-scale count invariance",
+    "time-scale rate covariance",
+    "added background keeps counts changes rate"
+  ],
+  "synthetic_only": true,
+  "confirmatory_freeze": false,
+  "empirical_result": false
+}

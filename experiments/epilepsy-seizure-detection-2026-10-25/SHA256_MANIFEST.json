@@ -6,13 +6,18 @@
   },
   {
     "path": "README.md",
-    "bytes": 590,
-    "sha256": "331c2debe02bc80f4a4900d2a0acffeec721eaf0c4010585183d6aac5a6b704a"
+    "bytes": 929,
+    "sha256": "92c1aff1d03418d2465f90ed7a7347e2eb5839a8da7e484ab318f293724ab1bf"
   },
   {
     "path": "RESEARCH_PLAN.md",
     "bytes": 5465,
     "sha256": "95d3df3c8f78afc2a46a64b9057671d9e9c6f12e6c1529f0a5eb2217ca78fd85"
+  },
+  {
+    "path": "TIMELY_ENDPOINT.md",
+    "bytes": 6277,
+    "sha256": "c94b0301f70fc3c98e544c4663e41b22d77f2f71fd395b5428a59c1d82b83b55"
   },
   {
     "path": "audit_sources/data_manifest.csv",
@@ -23,6 +28,11 @@
     "path": "check_contract.py",
     "bytes": 3734,
     "sha256": "288df981daa7b6c89ee082b1db2f15a920bcdc9f02767e65b78865efa237a77c"
+  },
+  {
+    "path": "check_timely.py",
+    "bytes": 4573,
+    "sha256": "61f9804cf6b0c2edd8939b8955d0fbb33cc8f90bb143c620052ee0bc6ec66322"
   },
   {
     "path": "contract.py",
@@ -38,6 +48,16 @@
     "path": "requirements.txt",
     "bytes": 13,
     "sha256": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7"
+  },
+  {
+    "path": "timely.py",
+    "bytes": 3174,
+    "sha256": "ce86fe35a614c15bdbcab7e42cd11f9b70004d2aad45e5de913210cffdb108ab"
+  },
+  {
+    "path": "timely_checks.json",
+    "bytes": 1012,
+    "sha256": "61fad3fbc564ad33ffdbbdde846a543d28bc23f0b56713210456e3670d282421"
   },
   {
     "path": "vendor/LICENSE.timescoring",
