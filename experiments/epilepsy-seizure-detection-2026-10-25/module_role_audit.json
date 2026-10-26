@@ -158,6 +158,15 @@
       ]
     },
     {
+      "path": "check_full_header_inventory.py",
+      "sha256": "8874a6dc6be0fd5e702f34d54d116cb8e29059417dace6e12dd9c1847897a012",
+      "role": "synthetic full-manifest acquisition and failure-accounting controls",
+      "top_level_functions": [
+        "check",
+        "fake"
+      ]
+    },
+    {
       "path": "check_manifest_montage.py",
       "sha256": "3e95faee8dd1f59f1102ac7ed0a84eba7b31108606dcae59ac1b3874b343703a",
       "role": "synthetic/metadata controls",
@@ -257,6 +266,16 @@
         "validate_range",
         "read_range",
         "probe"
+      ]
+    },
+    {
+      "path": "full_header_inventory.py",
+      "sha256": "afaf583df8da9237febf0133a19c7dea2f6ff767ee39888769223f6164cc39d3",
+      "role": "explicit finite development-only header acquisition runner, local receipts only, no waveform/detector",
+      "top_level_functions": [
+        "load_records",
+        "atomic_json",
+        "run_inventory"
       ]
     },
     {

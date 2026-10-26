@@ -1,0 +1,9 @@
+{
+  "status": "PREPARED_NOT_STARTED",
+  "source_records_verified": 565,
+  "development_source_set_matches": true,
+  "real_network_requests": 0,
+  "new_data_access": false,
+  "background_controller_available": false,
+  "full_inventory_complete": false
+}

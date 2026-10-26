@@ -78,3 +78,6 @@ Opt-in ASCII space/tab separator changes grammar only, preserving unsigned integ
 
 ## A20 — Provenance-bound numbering derivation
 Original-master/source/binary hashes plus exact numerical sample agreement gate a derived identity-only token change with explicit approval; originals unchanged.7 synthetic groups PASS; local WFDB4.3.0 agreement and exact565-path/all19-summary import verified. ANNOTATION_RECONCILIATION_CONTRACT.md. Raw/derived annotations not exported. Clinical truth/full EDF duration/montage/QC and full EP01 OPEN; no BFG/biological law.
+
+## A21 — Full development header-inventory runner preflight
+Full565-manifest gate, isolated per-file failures/ineligibility and atomic local receipts implemented;6 groups/565 synthetic requests PASS, real-source offline preflight PASS. FULL_HEADER_INVENTORY_CONTRACT.md. Actual network inventory PREPARED_NOT_STARTED: required durable job controller unavailable. No all-file acquisition result or clinical claim; execution and full EP01 OPEN.
