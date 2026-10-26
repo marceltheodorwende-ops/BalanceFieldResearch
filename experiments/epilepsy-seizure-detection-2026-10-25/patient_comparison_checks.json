@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "control_groups": 8,
+  "checks": [
+    "repeated sessions become one person with pooled counts",
+    "same patient draw applied to both models",
+    "zero-event draw retained undefined not dropped",
+    "pooled time rate independently matches count ratio",
+    "identical methods give exact zero paired differences",
+    "5 one-person malformed index and empty resampling cases rejected",
+    "incomplete rival cannot silently alter comparison set",
+    "no confidence interval or clinical decision fabricated"
+  ],
+  "synthetic_only": true,
+  "new_data_access": false,
+  "clinical_result": false
+}

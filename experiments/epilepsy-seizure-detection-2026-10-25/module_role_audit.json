@@ -121,6 +121,16 @@
       ]
     },
     {
+      "path": "check_patient_comparison.py",
+      "sha256": "c668f51841817e49dd4656d20ac8f9bc8f16f81065c559e1624627bf81503cc1",
+      "role": "synthetic independent paired patient controls",
+      "top_level_functions": [
+        "check",
+        "receipt",
+        "alarm"
+      ]
+    },
+    {
       "path": "check_record_scoring.py",
       "sha256": "2b3bbe1b269d1c93c16b15be570aed905f9c9e243f1f57db1bec5b9a018871d3",
       "role": "synthetic record scoring integration controls",
@@ -203,6 +213,16 @@
       "top_level_functions": [
         "rank",
         "audit"
+      ]
+    },
+    {
+      "path": "patient_comparison.py",
+      "sha256": "f72c4454186c93236a78da9357267fd360bf22354aecb17debdeea44d4dfcaf1",
+      "role": "paired whole-person statistical aggregation/resampling kernel, no clinical inference rule",
+      "top_level_functions": [
+        "aggregate_pairs",
+        "paired_statistic",
+        "paired_resamples"
       ]
     },
     {

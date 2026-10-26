@@ -48,3 +48,6 @@ Explicit same-record identifiers, sample-end onset and declared nonfuture eviden
 
 ## A10 — Manifest-first missing/failed receipt completeness
 All expected records, person aliases, durations and original event counts retained independently of receipt presence.6 control groups PASS. Real metadata demonstration correctly marks42 chb01 detector results missing; no detector has run. COHORT_COVERAGE_CONTRACT.md distinguishes bookkeeping completeness from performance. Evaluation definition, not BFG physiology. Patient aggregation/uncertainty and full EP01 OPEN.
+
+## A11 — Paired patient sufficient statistics/resampling
+Common complete records aggregated by person; exact pooled sensitivity/rate differences and paired whole-person draws constructed.8 controls PASS. One-person resampling degeneracy proved; undefined zero-event draws retained. PATIENT_COMPARISON_CONTRACT.md. Statistical definition, not BFG physiology. Interval method, sample-size precision and decision rule remain OPEN; no real comparison.

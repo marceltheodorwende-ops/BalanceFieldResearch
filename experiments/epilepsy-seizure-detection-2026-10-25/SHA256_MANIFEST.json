@@ -16,8 +16,8 @@
   },
   {
     "path": "BFG_DERIVATION_REGISTER.md",
-    "bytes": 10788,
-    "sha256": "24bbd3c6d2ba94e7bc69eec6aeefa2c81e28653eb4b229fc2ac9abe0d6980625"
+    "bytes": 11239,
+    "sha256": "3c96e732d1848b588b1dd03f2afb195f7185098609bc688ac7244aab2b2ad8e5"
   },
   {
     "path": "BFG_SOURCE_REVIEW.json",
@@ -58,6 +58,11 @@
     "path": "MANIFEST_AND_MONTAGE_CONTRACT.md",
     "bytes": 7338,
     "sha256": "5247f99c1f85335b51a178c141cae125dc91b3cc3a29b18e14049afb4f12afdc"
+  },
+  {
+    "path": "PATIENT_COMPARISON_CONTRACT.md",
+    "bytes": 4152,
+    "sha256": "687ce149233283fd10bf8bdc525a39bd87728969566f098f09c3811155353dcd"
   },
   {
     "path": "README.md",
@@ -210,6 +215,11 @@
     "sha256": "3e95faee8dd1f59f1102ac7ed0a84eba7b31108606dcae59ac1b3874b343703a"
   },
   {
+    "path": "check_patient_comparison.py",
+    "bytes": 2523,
+    "sha256": "c668f51841817e49dd4656d20ac8f9bc8f16f81065c559e1624627bf81503cc1"
+  },
+  {
     "path": "check_record_scoring.py",
     "bytes": 2782,
     "sha256": "2b3bbe1b269d1c93c16b15be570aed905f9c9e243f1f57db1bec5b9a018871d3"
@@ -296,8 +306,8 @@
   },
   {
     "path": "module_role_audit.json",
-    "bytes": 8067,
-    "sha256": "bb0a8f580b59e9cb3cbc849c6148f079eecb1daebac551bc7b88ed3566a3cad2"
+    "bytes": 8727,
+    "sha256": "2680d8af47ddc796ce08418e8ab80a9a2a7205079bb769ccaf8ac33b6c595250"
   },
   {
     "path": "montage_audit.json",
@@ -308,6 +318,16 @@
     "path": "montage_audit.py",
     "bytes": 3255,
     "sha256": "40714cec7968da36723a5b57642401d2182aa668821d3e3f47bc8880a421d758"
+  },
+  {
+    "path": "patient_comparison.py",
+    "bytes": 2682,
+    "sha256": "f72c4454186c93236a78da9357267fd360bf22354aecb17debdeea44d4dfcaf1"
+  },
+  {
+    "path": "patient_comparison_checks.json",
+    "bytes": 623,
+    "sha256": "f88fabe5cd14856ce5148b69049b4695419d64afe797f2c57c4d587c63c423a8"
   },
   {
     "path": "record_scoring.py",
