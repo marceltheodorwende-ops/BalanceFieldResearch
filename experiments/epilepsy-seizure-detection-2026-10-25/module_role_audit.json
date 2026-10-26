@@ -85,6 +85,14 @@
       ]
     },
     {
+      "path": "check_cohort_coverage.py",
+      "sha256": "20cb99615be64ab4d30c6071458f712d4b19bd25d6376b98094415eb2ef0f58d",
+      "role": "synthetic and already-known metadata cohort completeness controls",
+      "top_level_functions": [
+        "check"
+      ]
+    },
+    {
       "path": "check_contract.py",
       "sha256": "288df981daa7b6c89ee082b1db2f15a920bcdc9f02767e65b78865efa237a77c",
       "role": "synthetic/metadata controls",
@@ -137,6 +145,15 @@
         "check",
         "run",
         "intervals"
+      ]
+    },
+    {
+      "path": "cohort_coverage.py",
+      "sha256": "f77c6b8edee9f438f2f9611ec9e20ec03c61c0f95d14154aef5a9573bae2fbf1",
+      "role": "manifest-first missing/failed/scored receipt bookkeeping, no clinical performance inference",
+      "top_level_functions": [
+        "count",
+        "coverage_report"
       ]
     },
     {

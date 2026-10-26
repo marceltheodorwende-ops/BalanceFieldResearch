@@ -1,0 +1,358 @@
+{
+  "expected_records": 42,
+  "persons": {
+    "chb01": {
+      "records": 42,
+      "scored": 0,
+      "failed": 0,
+      "missing": 42,
+      "seconds": "145988",
+      "events": 7,
+      "unassessed_seconds": "145988",
+      "unassessed_events": 7
+    }
+  },
+  "records": [
+    {
+      "record_id": "chb01/chb01_01.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_02.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_03.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 1,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_04.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 1,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_05.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_06.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_07.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_08.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_09.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_10.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_11.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_12.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_13.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_14.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_15.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 1,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_16.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 1,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_17.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_18.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 1,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_19.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_20.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "2663",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_21.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 1,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_22.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_23.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_24.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_25.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_26.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "2325",
+      "events": 1,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_27.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_29.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_30.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_31.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_32.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_33.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_34.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_36.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_37.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_38.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_39.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_40.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_41.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_42.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_43.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    },
+    {
+      "record_id": "chb01/chb01_46.edf",
+      "person": "chb01",
+      "status": "missing",
+      "seconds": "3600",
+      "events": 0,
+      "reason": "No receipt"
+    }
+  ],
+  "expected_seconds": "145988",
+  "expected_events": 7,
+  "complete": false,
+  "cohort_performance": null,
+  "interpretation": "Completeness only; no clinical/confirmation conclusion or missing-result imputation"
+}

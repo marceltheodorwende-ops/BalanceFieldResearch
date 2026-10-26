@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "control_groups": 6,
+  "checks": [
+    "all missing retains full hours events and person group",
+    "failure and missing kept separately without imputed negative result",
+    "scored subset never marks whole cohort complete",
+    "complete receipt set still is not a performance or confirmation claim",
+    "5 duplicate unknown missing-reason forged-missing and identity cases rejected",
+    "real metadata cannot masquerade as detector outputs"
+  ],
+  "new_data_access": false,
+  "clinical_result": false
+}

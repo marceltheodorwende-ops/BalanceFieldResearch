@@ -45,3 +45,6 @@ Under complete one-record ready/invalid boolean masks, partition/additivity prov
 
 ## A9 — Record receipt/scorer adapter
 Explicit same-record identifiers, sample-end onset and declared nonfuture evidence validated before timely scoring; original count/full time preserved through availability join.7 groups/24 independent activation-deadline cases PASS. RECORD_SCORING_CONTRACT.md states that receipt validation does NOT prove actual detector causality or authenticate provenance. Evaluation convention, no BFG biological law. Failed-record/cohort and detector integration OPEN.
+
+## A10 — Manifest-first missing/failed receipt completeness
+All expected records, person aliases, durations and original event counts retained independently of receipt presence.6 control groups PASS. Real metadata demonstration correctly marks42 chb01 detector results missing; no detector has run. COHORT_COVERAGE_CONTRACT.md distinguishes bookkeeping completeness from performance. Evaluation definition, not BFG physiology. Patient aggregation/uncertainty and full EP01 OPEN.

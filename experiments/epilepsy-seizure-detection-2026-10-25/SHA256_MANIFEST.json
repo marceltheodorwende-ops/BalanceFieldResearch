@@ -16,8 +16,8 @@
   },
   {
     "path": "BFG_DERIVATION_REGISTER.md",
-    "bytes": 10306,
-    "sha256": "b19057b076a0b21bf7ecf1bbc8c6a191a484a99038f717f927d59b3655adfa50"
+    "bytes": 10788,
+    "sha256": "24bbd3c6d2ba94e7bc69eec6aeefa2c81e28653eb4b229fc2ac9abe0d6980625"
   },
   {
     "path": "BFG_SOURCE_REVIEW.json",
@@ -33,6 +33,11 @@
     "path": "CHB01_DURATION_RECONCILIATION.md",
     "bytes": 3589,
     "sha256": "bd9375a935b98bc280b3846954fa790a1664aecbe0f94924302e02e4826c9033"
+  },
+  {
+    "path": "COHORT_COVERAGE_CONTRACT.md",
+    "bytes": 3308,
+    "sha256": "e4eda28686d4a66f69455efbefa58425c4a3e358963041ee4a7c77491077a682"
   },
   {
     "path": "DATA_AND_SCORING_AUDIT.md",
@@ -140,6 +145,11 @@
     "sha256": "97b4c8712f534a3db673827b83a0f6005753053aa59e162a41cc285f560560cc"
   },
   {
+    "path": "chb01_detector_coverage.json",
+    "bytes": 8013,
+    "sha256": "d2342086306c46607290bcc1fcfd1768e5e8390e920db32a9f7ab8f0c5c1c368"
+  },
+  {
     "path": "chb01_duration_checks.json",
     "bytes": 323,
     "sha256": "ab73da550e73430b9cc7c2c91d4c8bbc5898961cad69369a2dfd4fc906cf2998"
@@ -180,6 +190,11 @@
     "sha256": "b16bbff5f1a0c235e45c952a41398184e71e8473a6f538adf14a51d7a2f50e7b"
   },
   {
+    "path": "check_cohort_coverage.py",
+    "bytes": 2711,
+    "sha256": "20cb99615be64ab4d30c6071458f712d4b19bd25d6376b98094415eb2ef0f58d"
+  },
+  {
     "path": "check_contract.py",
     "bytes": 3734,
     "sha256": "288df981daa7b6c89ee082b1db2f15a920bcdc9f02767e65b78865efa237a77c"
@@ -208,6 +223,16 @@
     "path": "check_timely.py",
     "bytes": 4573,
     "sha256": "61f9804cf6b0c2edd8939b8955d0fbb33cc8f90bb143c620052ee0bc6ec66322"
+  },
+  {
+    "path": "cohort_coverage.py",
+    "bytes": 3499,
+    "sha256": "f77c6b8edee9f438f2f9611ec9e20ec03c61c0f95d14154aef5a9573bae2fbf1"
+  },
+  {
+    "path": "cohort_coverage_checks.json",
+    "bytes": 533,
+    "sha256": "6ebce25016191509698f8be31eedc7f9489ff2c6fd9ee5b945f268b982c16ffc"
   },
   {
     "path": "contract.py",
@@ -271,8 +296,8 @@
   },
   {
     "path": "module_role_audit.json",
-    "bytes": 7466,
-    "sha256": "e4341077fb10e613cbee8a128d98a433a10a996bf1a898308520ef27f60774fb"
+    "bytes": 8067,
+    "sha256": "bb0a8f580b59e9cb3cbc849c6148f079eecb1daebac551bc7b88ed3566a3cad2"
   },
   {
     "path": "montage_audit.json",
