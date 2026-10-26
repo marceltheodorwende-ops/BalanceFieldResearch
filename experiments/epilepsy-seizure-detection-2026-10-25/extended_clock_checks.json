@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "control_groups": 6,
+  "checks": [
+    "source text preserved including reversed numerical clock order",
+    "no derived duration or date installed",
+    "default API still rejects extended hours",
+    "8 malformed or unsupported lexical formats reject",
+    "ordinary source clock compatibility unchanged",
+    "numeric clock converter unchanged and separate"
+  ],
+  "synthetic_only": true,
+  "new_data_access": false
+}

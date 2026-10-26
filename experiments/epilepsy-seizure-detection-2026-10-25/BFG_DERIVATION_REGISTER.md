@@ -69,3 +69,6 @@ Opt-in per-block numbered/unnumbered consistency and consecutive paired identity
 
 ## A17 — Lossless explicit channel-section grammar
 Optional trailing source channel-change sections retained with indices/labels and unresolved scope, never applied as inferred montage.6 synthetic groups PASS; original/numbered controls unchanged. Aggregate offline source audit only published. Extended clocks, provenance discrepancy layer and per-EDF montage/duration reconciliation OPEN; no BFG physiological law.
+
+## A18 — Source extended-hour token retention
+Explicit lexical mode preserves original clock text beyond hour24 without converting, normalizing or inferring duration/date/gap.6 synthetic groups PASS; historical converter/default unchanged. Aggregate offline source coverage recorded; temporal provenance, source discrepancies and full EP01 OPEN. Source grammar, not physical/BFG clock.

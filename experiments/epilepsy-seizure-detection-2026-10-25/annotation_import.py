@@ -7,7 +7,7 @@ from contract import TRAIN, VALIDATION
 from recording_time import clock_seconds, reconcile
 
 
-def parse_summary(text, case, *, numbered_events=False, channel_sections=False):
+def parse_summary(text, case, *, numbered_events=False, channel_sections=False, extended_clock_tokens=False):
     if case not in TRAIN + VALIDATION:
         raise ValueError('Only development/validation cases are accepted')
     parts = text.split('File Name: ')
@@ -27,7 +27,11 @@ def parse_summary(text, case, *, numbered_events=False, channel_sections=False):
             if not line.startswith(prefix):
                 raise ValueError('Missing or reordered file clock')
             value = line[len(prefix):]
-            clock_seconds(value)
+            if extended_clock_tokens:
+                if re.fullmatch(r'(\d{1,2}):([0-5]\d):([0-5]\d)', value) is None:
+                    raise ValueError('Unsupported extended clock token')
+            else:
+                clock_seconds(value)
             clocks.append(value)
         count = re.fullmatch(r'Number of Seizures in File: (\d+)', lines[3])
         if count is None:

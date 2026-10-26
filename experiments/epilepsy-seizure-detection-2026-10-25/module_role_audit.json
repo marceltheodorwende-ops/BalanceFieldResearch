@@ -4,7 +4,7 @@
   "files": [
     {
       "path": "annotation_import.py",
-      "sha256": "1b84d52f7527d0ee6e382bfa757a07ef7f1f8f7f43773a89808bdd08f429e50f",
+      "sha256": "bbcd26cbc2f9a581315259dbb903bc4179105290e306c661d7e06e86d7047a95",
       "role": "offline pinned development source annotation identity/count interface, no neural dynamics",
       "top_level_functions": [
         "parse_summary",
@@ -118,6 +118,15 @@
         "field",
         "fixture",
         "fixture_range"
+      ]
+    },
+    {
+      "path": "check_extended_clock.py",
+      "sha256": "e5ef300649239c112ce54a17bc68affa1ec1397cc2a741a6131bb737f6d0b107",
+      "role": "synthetic source-clock lexical retention controls, no chronology inference",
+      "top_level_functions": [
+        "check",
+        "block"
       ]
     },
     {
