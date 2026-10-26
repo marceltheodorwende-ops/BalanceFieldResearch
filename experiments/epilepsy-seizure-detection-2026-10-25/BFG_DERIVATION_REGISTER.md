@@ -57,3 +57,6 @@ PRECISION_FEASIBILITY.md proves a conservative independent-person bounded-mean r
 
 ## A13 — Conditional weighted pooled-precision theorem
 Weighted independent-person MGF proof yields radius sqrt(2log(2/alpha)*sum w^2) for a conditional cohort target under explicitly unverified conditional independence/fixed-model assumptions. Rates extend with known operational bounds. Exact weighted/pooled/scale controls PASS; correlated-file counterexample prevents pseudo-replication. WEIGHTED_PRECISION.md. No actual CI/power, population transport or biological/BFG law claimed; scientific estimand/inference/clinical margin OPEN.
+
+## A14 — Development source/dialect inventory
+19 original-hash-verified development summaries match565 allowed filenames across18 people.4 supported/15 unsupported current-parser summaries; source numbering disagreement requires independent primary-label verification. Aggregate audit and provenance only published; raw annotation export rejected by automatic review and not bypassed. Annotation correctness/dialect/duration reconciliation OPEN. No BFG biology or detector result.

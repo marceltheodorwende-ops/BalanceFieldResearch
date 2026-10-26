@@ -16,8 +16,8 @@
   },
   {
     "path": "BFG_DERIVATION_REGISTER.md",
-    "bytes": 12359,
-    "sha256": "09ee809d72daa36461bb65c4099e9c9228c01646730b70078e921025103a0c55"
+    "bytes": 12843,
+    "sha256": "437bc2b8de03e496db54894e50820a2480e9690342c971328446f5570b708f86"
   },
   {
     "path": "BFG_SOURCE_REVIEW.json",
@@ -43,6 +43,11 @@
     "path": "DATA_AND_SCORING_AUDIT.md",
     "bytes": 8546,
     "sha256": "5c89e3c68ae08409802d459395e8394c094808a0771a4523aec1ccb8b236dab7"
+  },
+  {
+    "path": "DEVELOPMENT_SUMMARY_AUDIT.md",
+    "bytes": 2366,
+    "sha256": "f34a5ece63c69c7bbe4edd2064b2dfac146c587a4ee1f777e40ee9d28d15ceee"
   },
   {
     "path": "EDF_HEADER_CONTRACT.md",
@@ -283,6 +288,11 @@
     "path": "development_manifest_summary.json",
     "bytes": 1313,
     "sha256": "d961cf5af18779f2c96677cd87fc2530617172ea361ec08485a5cb12bc274b6c"
+  },
+  {
+    "path": "development_summary_provenance.json",
+    "bytes": 3452,
+    "sha256": "35f1e05022416bbe71ef525e935922d8ad80cb17a6d560f4eb359cec748a0fac"
   },
   {
     "path": "edf_header.py",

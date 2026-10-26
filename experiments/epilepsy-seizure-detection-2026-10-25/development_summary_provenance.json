@@ -1,0 +1,111 @@
+{
+  "dataset": "CHB-MIT",
+  "version": "1.0.0",
+  "source": "https://physionet.org/content/chbmit/1.0.0/",
+  "original_license": "ODC-By1.0",
+  "verified_summaries": 19,
+  "new_summary_files_read": 18,
+  "new_bytes_read": 82297,
+  "development_manifest_file_coverage": 565,
+  "actual_people": 18,
+  "unchanged_parser_supported_summaries": 4,
+  "unchanged_parser_unsupported_summaries": 15,
+  "raw_annotation_export": false,
+  "source_hashes": [
+    {
+      "path": "chb01/chb01-summary.txt",
+      "sha256": "77e86183845192d147c88a9bb4263c2b4a32e936c6236029770f86ca2ea023db",
+      "bytes": 5355
+    },
+    {
+      "path": "chb02/chb02-summary.txt",
+      "sha256": "a4a84999f666652479bc0340d49c98f9c018a53b155e3164500f035dc35b025a",
+      "bytes": 4471
+    },
+    {
+      "path": "chb03/chb03-summary.txt",
+      "sha256": "8d74eb131a96959c7b2aec82215d232dc26c3012c4d98c2a1c5f5dac520f52b4",
+      "bytes": 4935
+    },
+    {
+      "path": "chb04/chb04-summary.txt",
+      "sha256": "5b4d79d2b50bb5dd4e9eb947d50bb797c3e066471d1bbc2a0f66dac1564a007d",
+      "bytes": 5645
+    },
+    {
+      "path": "chb05/chb05-summary.txt",
+      "sha256": "6f8c1724c71aaee20523d138129c4f4366ed1f9bb7f220b146fc503661b6a3b4",
+      "bytes": 4911
+    },
+    {
+      "path": "chb06/chb06-summary.txt",
+      "sha256": "87ec0c8cb06d61154634bbcf900f2e525e83778ea9bc4e7a2b3143e27bbfe019",
+      "bytes": 3083
+    },
+    {
+      "path": "chb07/chb07-summary.txt",
+      "sha256": "9a6136f392dc7c53fc1da6ed03aa7a096e6b836801f34eef91a0c963313179e2",
+      "bytes": 2711
+    },
+    {
+      "path": "chb08/chb08-summary.txt",
+      "sha256": "d409ff3a74cb0b85310bd2f4428110e991d9e70969cf4ae8cc41de1671a3bd10",
+      "bytes": 2946
+    },
+    {
+      "path": "chb09/chb09-summary.txt",
+      "sha256": "1ac673eacfa9d2fabb4f065aaed69ca79ca558c662e931383e0b4a39104d31b7",
+      "bytes": 3245
+    },
+    {
+      "path": "chb10/chb10-summary.txt",
+      "sha256": "f63fbc9359c894a81f92ed126f0b813eb3cfc279f9a17b068ed3680abc575353",
+      "bytes": 3605
+    },
+    {
+      "path": "chb11/chb11-summary.txt",
+      "sha256": "364cda908c4bafa6a41128afcd8283110fe00d147c5ce220c1edd228339e5739",
+      "bytes": 4900
+    },
+    {
+      "path": "chb12/chb12-summary.txt",
+      "sha256": "92666e980cf2e72e9c43e4e8ef402183fbb823c25bd2dc5dfdd795cea5bc9124",
+      "bytes": 7384
+    },
+    {
+      "path": "chb13/chb13-summary.txt",
+      "sha256": "0ba2fec8080ed8954691b50c5a547c3cc1b1dcfd2d69f1781daccbc51b6afc4d",
+      "bytes": 7174
+    },
+    {
+      "path": "chb14/chb14-summary.txt",
+      "sha256": "7204b5600917e64038a7a0999b407c6af9cfe14b6ea93551b4ca5a1915d58b5c",
+      "bytes": 3849
+    },
+    {
+      "path": "chb15/chb15-summary.txt",
+      "sha256": "9292222c0ee6dc2eef99e9308859de4e0cdeca3cdf06fd5db354718398cc9045",
+      "bytes": 6890
+    },
+    {
+      "path": "chb16/chb16-summary.txt",
+      "sha256": "8dc08a551104f380bcf3aa9a7421f89035e397596426f1c15dc36adf3e54af0a",
+      "bytes": 3659
+    },
+    {
+      "path": "chb17/chb17-summary.txt",
+      "sha256": "adc698ad22b85759ee35b72ec41eb6520e1bdad240cc6e4ab0a1b6d8471446f7",
+      "bytes": 3417
+    },
+    {
+      "path": "chb18/chb18-summary.txt",
+      "sha256": "bc3b1c550390caa8c4d580e7cbb1ecc578d6b6c4cef16a78b6db9972982db5a2",
+      "bytes": 5163
+    },
+    {
+      "path": "chb21/chb21-summary.txt",
+      "sha256": "469c2d95395fe9e5eabc4a901145e95e539e8153f29f2b836592880572e5f07b",
+      "bytes": 4309
+    }
+  ]
+}
