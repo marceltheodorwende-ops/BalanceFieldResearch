@@ -402,3 +402,16 @@ Die gehashte DOCX-Datei *BFG Universal Structural Whitepaper — Strong Form Ver
 ## Runde83 – direkte Formationsbilanz selektiert keine physikalische Energie
 
 Der gehashte Archivkorpus bfg-balance-laws-2026-09-26 trennt selbst Formationsmassenbilanz von Energiegesetz: Die Seedregel setzt nicht die notwendige Ausgleichsrelation, tr(F) hat keine physikalische Kalibrierung, und physikalische Observable, Einheiten, kontinuierlicher Grenzprozess sowie Raumlokalität fehlen. Diese direkte dritte Kandidatenprüfung konsolidiert mit Runde81/82 die Brückengrenze, ohne ein BFG-No-Go über den geprüften Umfang hinaus zu behaupten. Siehe ARCHIVED_BFG_BALANCE_SCOPE.md und RESEARCH_BOUNDARY_AFTER_83.de.md.
+
+
+## Runde84 – begrenzte lokale Zwei-Sektor-Kontinuität
+
+Unter der in Runde79 bewiesenen Kanalform \(\Phi_c(A)=A+(c-1)\operatorname{off}_Z(A)\) mit \(E_\pm=(I\pm Z)/2\) gilt \(E_\pm\operatorname{off}_Z(A)E_\pm=0\). Nach Transport durch \(V\) folgt deshalb exakt
+\[
+\operatorname{tr}(VE_\pm V^\dagger\,V\Phi_c(A)V^\dagger)=\operatorname{tr}(E_\pm A).
+\]
+Eine allein zweisektorale Gleichung \(\Delta q_+=-J,\Delta q_-=J\) bestimmt somit \(J=0\). Die verbleibende Änderung ist \((c-1)\operatorname{off}_Z(A)\), eine Kohärenzsenke ohne diagonalen Empfänger. Sie kann durch eine zusätzliche historische Buchung erfasst, aber nicht als lokaler Zweisektortransport ausgegeben werden.
+
+Die vollständige Quelle transportiert Witness und Formation in den geprüften Fällen als \(VAV^\dagger\). Ihre Sektoranteile sind daher ebenfalls einzeln erhalten, auch wenn sie außerhalb der kompatiblen Klasse nicht dieselbe Kohärenzdämpfung erfahren. Die Seed-/Kohärenzzeugen widerlegen damit nicht die Nullstrombilanz; sie widerlegen eine universelle gemeinsame Kohärenzkanalbeschreibung. Details und frische Kontrollen: [TWO_SECTOR_LOCAL_CURRENT_RESULT.md](TWO_SECTOR_LOCAL_CURRENT_RESULT.md), [TWO_SECTOR_LOCAL_CURRENT_CHECKS.md](TWO_SECTOR_LOCAL_CURRENT_CHECKS.md).
+
+**Grenze:** Diese algebraische Bilanz wählt weder physikalische Sektoren noch Energie, Zeit, Raum oder Einheiten. Sie ist kein lokaler Energie-Impuls-Strom und keine Einstein-Herleitung.
