@@ -27,6 +27,27 @@
     "repository_agents_files": "None in the inspected baseline tree",
     "unchanged": "Original manuscript, kernel, licenses and empirical results"
   },
-  "verification_scope": "Local source-exact imported kernel; bounded synthetic/symbolic checks; no empirical or whole-repository correctness claim"
+  "verification_scope": "Local source-exact imported kernel; bounded synthetic/symbolic checks; no empirical or whole-repository correctness claim",
+  "archive_comparison_corpus": {
+    "authorization": "User authorized archival BFG comparison on 2026-10-26; comparison may identify pre-existing rules but may not introduce a new law.",
+    "role": "Comparison evidence only. The pinned Dynamic-Order manuscript remains the active dynamical source; an archival carrier, measurement, Hamiltonian, clock, or constitutive map counts as an additional assumption unless independently derived from the pinned dynamics.",
+    "files": [
+      {
+        "path": "C:/Users/getyo/Documents/Codex/2026-09-13/w/work/BalanceFieldResearch/papers/BFG_Unified_V4_Compact_Canonical_Universal_Reclosure_2026-09-12.pdf",
+        "sha256": "cc1083760ba0f9ce87a7c822fc1837f24e84425bf3ad12e2e776c1f2eb141fb2",
+        "used_for": "explicit scope statements on structural load, neutral fractions, physical-energy readout, carrier Hamiltonian, and time aggregation"
+      },
+      {
+        "path": "C:/Users/getyo/Documents/Codex/2026-09-13/w/work/BalanceFieldResearch/papers/BFG_Endogenous_Dual_Order_Strong_Universal_Canonical_Closure_Whitepaper_2026-09-08.pdf",
+        "sha256": "d88d6b83035bd4a7e8c872aba69ba1456b8f4615d16fbd5ccbbdaf69d2b84b52",
+        "used_for": "independent archival cross-check of the same readout and Hamiltonian limitations"
+      },
+      {
+        "path": "C:/Users/getyo/Documents/Codex/2026-09-13/w/outputs/BFG_Preprint_2026-09-21/manuscript_text.txt",
+        "sha256": "9cb12d42cd19297d6b068ebd120ebd35fecc6511712ef0e42b4b072dd1ece630",
+        "used_for": "structural-energy definition and explicit no-joule/no-physical-time scope"
+      }
+    ],
+    "local_access_only": true
+  }
 }
-

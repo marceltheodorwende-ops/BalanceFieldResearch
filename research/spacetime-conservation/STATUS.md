@@ -885,3 +885,8 @@ Am nachfolgenden reinen Evidenzhead54de09b39253fe50c54f304b5591214056de8d13 sind
 ## Anschlussgrenze nach Runde80 konsolidiert
 
 [RESEARCH_BOUNDARY_AFTER_80.de.md](RESEARCH_BOUNDARY_AFTER_80.de.md) hält die jetzt konkrete gemeinsame Sektorausrichtung und die verbleibende physikalische Zustands-/Hamiltonian-/Uhrlücke fest. Unveränderte Nachprüfungen sind keine neuen Experimente. Für weitere zielgerichtete Arbeit benötigt: vorhandene BFG-Regel/Fundstelle zur gemeinsamen Zuordnung oder ausdrückliche Eingrenzung auf rein interne Präparations-/Bilanzanalyse. Kein allgemeines BFG-No-Go und kein Abschluss der Gesamtaufgabe; keine identischen Kontrollen oder wiederholten Richtungsfragen.
+
+
+## Runde81 – Archivvergleich: strukturelle Energie ohne physikalischen Operator
+
+Auf ausdrückliche Nutzerfreigabe wurden zwei lokale frühere BFG-Whitepaper und der BFG-Preprint vom 21. September als Vergleichskorpus mit gehashten Identitäten in SOURCE_MANIFEST.json aufgenommen. Sie liefern eine natürliche interne Schnittstelle: strukturelle Last bzw. \(r_N,b_N\). Sie sagen aber selbst, dass die Last nicht joulewertig ist, \(\mathcal R_E[\cdot,carrier]\) eine empirische konstitutive Karte bleibt, der Carrier-Hamiltonian extern bestimmt wird und Rekursionstiefe keine physikalische Zeit ist. Frische rationale Zwei-Sektor-Prüfung: gleiche BFG-Daten erlauben \(H_1=diag(0,1)\) und \(H_2=diag(0,3)\), beide Z-kompatibel, jedoch unterschiedliche Erwartungen \(16/25\) und \(48/25\). Damit kein versteckter interner physikalischer Energieoperator; positive dimensionslose Readout-Schnittstelle bleibt. Details ARCHIVED_BFG_ENERGY_BRIDGE.md und CHECKS. Kein neues Gesetz und kein allgemeines BFG-No-Go.
