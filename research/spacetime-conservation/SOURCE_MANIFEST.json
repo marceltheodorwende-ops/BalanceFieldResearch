@@ -46,6 +46,11 @@
         "path": "C:/Users/getyo/Documents/Codex/2026-09-13/w/outputs/BFG_Preprint_2026-09-21/manuscript_text.txt",
         "sha256": "9cb12d42cd19297d6b068ebd120ebd35fecc6511712ef0e42b4b072dd1ece630",
         "used_for": "structural-energy definition and explicit no-joule/no-physical-time scope"
+      },
+      {
+        "path": "C:/Users/getyo/Documents/Codex/2026-09-27/okay-was-sagt-dieses-paper-aus/work/github_publish/papers/BFG_Universal_Structural_Whitepaper_Strong_Form_V2.docx",
+        "sha256": "9784c915d4b060dae068258166fe46448694cd32055eed69b00ecda6703eb6c2",
+        "used_for": "Runde82 textual scope check: an archived Local Physical Closure Principle is explicitly introduced as a new physical principle, with separately stated quadratic-causality and consistency assumptions; it is not imported into the pinned dynamics"
       }
     ],
     "local_access_only": true
