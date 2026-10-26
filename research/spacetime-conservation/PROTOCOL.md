@@ -613,3 +613,12 @@ Auswertung Runde80: tatsächlicher Seednachfolger kann[W,F]=0 erfüllen und zugl
 **Positivkriterium.** Ein positiver Befund erfordert eine zitierfähige vorhandene Regel samt Definitionsbereich, die aus BFG-Daten allein genau eine Zustands-/Operatorzuordnung ergibt, unter der gepinnten vollständigen Dynamik erhalten oder nachvollziehbar transformiert wird und den Runde80-Seedzeugen nicht durch eine zusätzliche Annahme umgeht.
 
 **Negativkriterium.** Mehrere zulässige Zuordnungen bei gleichen BFG-Daten, eine ausdrückliche externe Brücke oder keine Verbindung zu Witness/Formation/Seed/Historie widerlegen ausschließlich den jeweiligen Archivkandidaten. Das ist kein allgemeines BFG-No-Go. Vor der Auswertung werden die verwendeten Dateien gehasht und die Suchtreffer auf ihre jeweilige Quellenrolle geprüft. Keine Manuskript-, Gleichungs-, Lizenz-, Audit- oder Workflowänderung.
+
+
+## Runde83 – vorab: direkte Archivbilanz als möglicher Energieauswahlkern
+
+**Kandidat.** Das vorhandene BFG-Paket `bfg-balance-laws-2026-09-26` enthält explizite Formations-, Witness- und Seedbilanzen. Prüfe, ob dort über die skalare Buchführung hinaus eine feste physikalische Observable, eine Zustandszuordnung oder eine lokale Kontinuitätsregel bestimmt ist.
+
+**Positivkriterium.** Positiv wäre nur eine aus den dortigen BFG-Regeln selbst definierte physikalische Energie-/Zustandsgröße mit Einheiten oder Operator, deren Seed-/Selektionsbilanz geschlossen ist und die ohne Carrier-, Mess- oder Kalibrierungsmap mit der gepinnten Dynamik verbunden wird.
+
+**Negativkriterium.** Wenn die Quelle ihre Bilanz ausdrücklich als Formations-/Strukturmasse ohne physikalische Kalibrierung ausweist oder das Fehlen eines festen physikalischen Observablen bzw. einer lokalen Kontinuitätsgleichung festhält, ist dieser dritte konkrete Archivkandidat ausgeschöpft. Dann wird die gemeinsame Voraussetzung konsolidiert statt derselbe Weg erneut versucht. Nur die Primärtexte werden gehasht und textlich geprüft; keine neue physikalische Regel.
