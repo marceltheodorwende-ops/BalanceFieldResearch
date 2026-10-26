@@ -880,3 +880,8 @@ Am nachfolgenden reinen Evidenzhead54de09b39253fe50c54f304b5591214056de8d13 sind
 ## Runde80 – Remote-CI bestätigt (25. Oktober2026)
 
 [Actions40233231960](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40233231960) und [Actions40233228168](https://github.com/marceltheodorwende-ops/BalanceFieldResearch/actions/runs/40233228168) beide completed/success am exakten Ergebnishead8d37da227c840cb51e1216d628c2c38426d17775. Bestehende Pipeline bestätigt; neue eingebettete mathematische Reproduktion wird nicht automatisch ausgeführt. Runde80s fünf Originalereignisse bleiben separate lokale Evidenz. Keine neue Forschungsrunde oder Wiederholung abgeschlossener Kontrollen durch diese Nachprüfung.
+
+
+## Anschlussgrenze nach Runde80 konsolidiert
+
+[RESEARCH_BOUNDARY_AFTER_80.de.md](RESEARCH_BOUNDARY_AFTER_80.de.md) hält die jetzt konkrete gemeinsame Sektorausrichtung und die verbleibende physikalische Zustands-/Hamiltonian-/Uhrlücke fest. Unveränderte Nachprüfungen sind keine neuen Experimente. Für weitere zielgerichtete Arbeit benötigt: vorhandene BFG-Regel/Fundstelle zur gemeinsamen Zuordnung oder ausdrückliche Eingrenzung auf rein interne Präparations-/Bilanzanalyse. Kein allgemeines BFG-No-Go und kein Abschluss der Gesamtaufgabe; keine identischen Kontrollen oder wiederholten Richtungsfragen.

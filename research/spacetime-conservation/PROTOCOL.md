@@ -586,3 +586,8 @@ Drei tatsächliche Ereignisse im Basisfall (Seed plus zwei Vollpersistenzfortset
 
 
 Auswertung Runde80: tatsächlicher Seednachfolger kann[W,F]=0 erfüllen und zugleich gemeinsame Y-Sektorausrichtung verletzen; exakter Normzeuge3276800/5118804747. HistorischeOffblocknormen bleiben, kein zusätzlicher Dephasierungsmechanismus. Fünf Originalereignisse in einem frischen PASS ohne Fehlvorlauf/Korrektur; SOURCE_SEED_GENERATOR_ALIGNMENT.md und CHECKS. Positive KlasseRunde79 bleibt, universelle Seed-Erzeugung nicht belegt und am Zeugen widerlegt; keine neuen Gesetze.
+
+
+## Anschlussgrenze nach Runde80 konsolidiert
+
+[RESEARCH_BOUNDARY_AFTER_80.de.md](RESEARCH_BOUNDARY_AFTER_80.de.md) hält die jetzt konkrete gemeinsame Sektorausrichtung und die verbleibende physikalische Zustands-/Hamiltonian-/Uhrlücke fest. Unveränderte Nachprüfungen sind keine neuen Experimente. Für weitere zielgerichtete Arbeit benötigt: vorhandene BFG-Regel/Fundstelle zur gemeinsamen Zuordnung oder ausdrückliche Eingrenzung auf rein interne Präparations-/Bilanzanalyse. Kein allgemeines BFG-No-Go und kein Abschluss der Gesamtaufgabe; keine identischen Kontrollen oder wiederholten Richtungsfragen.
