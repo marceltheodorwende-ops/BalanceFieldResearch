@@ -60,3 +60,6 @@ Weighted independent-person MGF proof yields radius sqrt(2log(2/alpha)*sum w^2) 
 
 ## A14 — Development source/dialect inventory
 19 original-hash-verified development summaries match565 allowed filenames across18 people.4 supported/15 unsupported current-parser summaries; source numbering disagreement requires independent primary-label verification. Aggregate audit and provenance only published; raw annotation export rejected by automatic review and not bypassed. Annotation correctness/dialect/duration reconciliation OPEN. No BFG biology or detector result.
+
+## A15 — Independent primary binary-label cross-check
+One preselected development companion original-hash verified; WFDB4.3.0 and independent byte-word boundary decoding agree exactly, as do summary numerical boundaries. Immutable numbering discrepancy remains; clinical truth not established. BINARY_ANNOTATION_CROSSCHECK.md. Aggregate/provenance only published, no raw labels/times. Numbered-event identity/provenance adapter and broader verification OPEN.

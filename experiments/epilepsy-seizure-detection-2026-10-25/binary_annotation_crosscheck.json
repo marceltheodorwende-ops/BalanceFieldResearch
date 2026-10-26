@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "source_annotation_sha256": "d6a387c5eaf9033896bce18672914ffe78448c17c723d6a952f221dcfef04af1",
+  "annotation_bytes": 70,
+  "wfdb_version": "4.3.0",
+  "upstream_annotation_module_sha256": "b81a0d61cdaacecf742b492b649b7fc4c6c7538449c4633eade2a48e8d45e42e",
+  "spec_url": "https://physionet.org/physiotools/wag/annot-5.htm",
+  "spec_sha256": "51a62c95a7adc734ab59b7037f78367aebe9d28f9d7159f9d019ce81c5b78572",
+  "independent_decoder_sample_agreement": true,
+  "source_boundary_numerals_agree_with_binary": true,
+  "annotation_declared_sample_clock_hz": 256,
+  "source_event_number_disagreement_remains": true,
+  "raw_annotations_exported": false,
+  "new_waveform_bytes": 0,
+  "new_test_or_external_annotations": 0,
+  "scope": "One preselected development annotation; no cohort-wide/clinical truth validation"
+}

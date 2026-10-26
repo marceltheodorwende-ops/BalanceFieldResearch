@@ -16,13 +16,18 @@
   },
   {
     "path": "BFG_DERIVATION_REGISTER.md",
-    "bytes": 12843,
-    "sha256": "437bc2b8de03e496db54894e50820a2480e9690342c971328446f5570b708f86"
+    "bytes": 13305,
+    "sha256": "fa25899a18842192683b244f37b6d5dd8776c4a1c9589e6d58c3bd77b93b01f6"
   },
   {
     "path": "BFG_SOURCE_REVIEW.json",
     "bytes": 1256,
     "sha256": "e856c3957b147e1f22ab9e313581828255ed7055bac3247dbff6fb28745d8b41"
+  },
+  {
+    "path": "BINARY_ANNOTATION_CROSSCHECK.md",
+    "bytes": 4630,
+    "sha256": "8b5d938f8a8713231f9f1fcc90e6c29a38e7a2180e0dee48d05e5cfbf3815860"
   },
   {
     "path": "CHANNEL_POLICY.md",
@@ -138,6 +143,11 @@
     "path": "bfg_boundary_checks.json",
     "bytes": 613,
     "sha256": "5367904b8bafda32464808a534dc4f347925c08e48234453c76c6fc18eeb87c8"
+  },
+  {
+    "path": "binary_annotation_crosscheck.json",
+    "bytes": 833,
+    "sha256": "1266ef31c781a9a6c77d63f81ed46591a30a637c90397cf0348b6ee42ad13e06"
   },
   {
     "path": "causal_stream.py",
