@@ -900,3 +900,10 @@ Ein zusätzlich geprüftes älteres BFG-Whitepaper enthält ein **Local Physical
 ## Runde83 – dritte unabhängige Archivprüfung konsolidiert die physikalische Brückengrenze
 
 Der direkte BFG-Bilanzkorpus bestätigt ausdrücklich: tr(F) ist dort Formationsmasse ohne physikalische Energiekalibrierung; Observable, Interpretation, Einheiten, kontinuierliche Zeit und räumliche Kontinuität bleiben zusätzliche Anforderungen. Zusammen mit Runde81 und Runde82 sind damit drei getrennte Kandidaten derselben fehlenden Zustands-/Energie-/Uhrbrücke geprüft. Die Suche wird nicht identisch wiederholt; erforderlich ist eine konkrete weitere BFG-Fundstelle, eine ausdrücklich erlaubte Zusatzannahme oder eine Eingrenzung auf rein interne Mathematik. Details ARCHIVED_BFG_BALANCE_SCOPE.md und RESEARCH_BOUNDARY_AFTER_83.de.md. Kein allgemeines BFG-No-Go.
+
+
+## Runde84 – lokaler Zwei-Sektor-Strom klassifiziert
+
+[Vorabprotokoll](TWO_SECTOR_LOCAL_CURRENT_PROTOCOL.md), [Ergebnis](TWO_SECTOR_LOCAL_CURRENT_RESULT.md), [frische Kontrolle](TWO_SECTOR_LOCAL_CURRENT_CHECKS.md).
+
+Auf der schon bewiesenen kompatiblen Zwei-Sektor-Klasse sind die relativen Sektoranteile (q_\pm(A)=\operatorname{tr}(E_\pm A)) für (A=K,F,W) einzeln erhalten. Die einzige zweisektorale Kontinuitätsbilanz hat daher (J=0). Der nichttriviale interne Prozess ist stattdessen die Dämpfung sektorübergreifender Kohärenz des Kernels. Frisch: acht nichtterminale Originalaufrufe, maximale kompatible Sektoränderung (4.44\times10^{-15}). Der reale Seed und die Kohärenzfälle erhalten diese Sektoranteile ebenfalls, verletzen aber für (F/W) die gemeinsame Kohärenzkanalform mit klaren Defekten. Damit existiert kein abgeleiteter nichttrivialer Zweisektor-Energieaustausch; weder physikalischer Strom noch Einstein-Schritt sind daraus gewonnen.
