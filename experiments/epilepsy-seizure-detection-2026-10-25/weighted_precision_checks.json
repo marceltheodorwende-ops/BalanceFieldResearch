@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "synthetic_weight_cases": [
+    {
+      "case": "equal14",
+      "synthetic_event_or_time_weights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sum_squared_normalized_weights": "1/14",
+      "concentration_count": "14",
+      "conditional_radius95": "0.725935795479967882228470112823185047776660199377466736046837"
+    },
+    {
+      "case": "unequal14",
+      "synthetic_event_or_time_weights": [
+        100,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sum_squared_normalized_weights": "10013/12769",
+      "concentration_count": "12769/10013",
+      "conditional_radius95": "2.40528140710307722934719023394953356932236319476395760722525"
+    },
+    {
+      "case": "single_event_person",
+      "synthetic_event_or_time_weights": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sum_squared_normalized_weights": "1",
+      "concentration_count": "1",
+      "conditional_radius95": "2.71620303148123899698154052000717974343826500524125688454935"
+    },
+    {
+      "case": "pair",
+      "synthetic_event_or_time_weights": [
+        1,
+        3
+      ],
+      "sum_squared_normalized_weights": "5/8",
+      "concentration_count": "8/5",
+      "conditional_radius95": "2.14734704173368781032242841342038503466515669369749345308620"
+    }
+  ],
+  "independent_rational_pooled_cases": 9,
+  "common_scale_invariance": true,
+  "real_metadata_people_with_reconciled_events": 1,
+  "real_metadata_concentration_count": 1,
+  "real_detector_results": 0,
+  "conditional_sampling_assumptions_verified": false,
+  "clinical_result": false,
+  "new_data_access": false
+}

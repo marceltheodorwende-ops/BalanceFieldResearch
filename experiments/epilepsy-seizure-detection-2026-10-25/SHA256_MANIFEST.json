@@ -16,8 +16,8 @@
   },
   {
     "path": "BFG_DERIVATION_REGISTER.md",
-    "bytes": 11817,
-    "sha256": "d826e5de5c3a797224e031b74d14c30e21fba191fee324ae755c750a5fbb76d4"
+    "bytes": 12359,
+    "sha256": "09ee809d72daa36461bb65c4099e9c9228c01646730b70078e921025103a0c55"
   },
   {
     "path": "BFG_SOURCE_REVIEW.json",
@@ -98,6 +98,11 @@
     "path": "TIMELY_ENDPOINT.md",
     "bytes": 6277,
     "sha256": "c94b0301f70fc3c98e544c4663e41b22d77f2f71fd395b5428a59c1d82b83b55"
+  },
+  {
+    "path": "WEIGHTED_PRECISION.md",
+    "bytes": 5794,
+    "sha256": "6aa04fac03d70a8274d8474d2c65e77c07ad629a0380ed588d23659e380f4903"
   },
   {
     "path": "annotation_import.py",
@@ -413,5 +418,10 @@
     "path": "vendor/timescoring/scoring.py",
     "bytes": 9092,
     "sha256": "0cb3b685c2d7add8d0cb2376d2021ace6d551591a2a31bfbd44a0281efe187c7"
+  },
+  {
+    "path": "weighted_precision_checks.json",
+    "bytes": 1843,
+    "sha256": "533b4746e3a7d3f7ca73d11616b885196f331dd39801e7d92c93d6d425c0049e"
   }
 ]

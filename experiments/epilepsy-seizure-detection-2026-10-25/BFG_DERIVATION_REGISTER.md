@@ -54,3 +54,6 @@ Common complete records aggregated by person; exact pooled sensitivity/rate diff
 
 ## A12 — Conditional precision feasibility and tail counterexample
 PRECISION_FEASIBILITY.md proves a conservative independent-person bounded-mean radius, distinguishes macro from pooled estimands, derives finite sample-clock false-rate bound, and proves the separate unbounded-law upper-mean obstruction by contamination.60-digit/numerical and adjacent-integer checks PASS. No clinical margin, actual sample-size/power conclusion or universal impossibility claimed. Statistical design audit, not BFG biology. Actual pooled inference and clinical precision requirements OPEN.
+
+## A13 — Conditional weighted pooled-precision theorem
+Weighted independent-person MGF proof yields radius sqrt(2log(2/alpha)*sum w^2) for a conditional cohort target under explicitly unverified conditional independence/fixed-model assumptions. Rates extend with known operational bounds. Exact weighted/pooled/scale controls PASS; correlated-file counterexample prevents pseudo-replication. WEIGHTED_PRECISION.md. No actual CI/power, population transport or biological/BFG law claimed; scientific estimand/inference/clinical margin OPEN.
