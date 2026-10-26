@@ -13,6 +13,16 @@
       ]
     },
     {
+      "path": "annotation_reconciliation.py",
+      "sha256": "2b57aad913b49bbf5c0d152d99782795d27cd5b7d09ca3535a7b35892aa193b3",
+      "role": "offline original-hash and binary-bound numbering-only source derivation, no model or clinical law",
+      "top_level_functions": [
+        "boundary_subset",
+        "reconcile_block",
+        "reconcile_summary"
+      ]
+    },
+    {
       "path": "availability_audit.py",
       "sha256": "1dbaa66b25a63cb45ea11d70d3aa8f359d89e98747f5a146532d50e5f069dd07",
       "role": "exact retrospective coverage and annotation-duration evaluation, no alarm model",
@@ -44,6 +54,16 @@
       "role": "synthetic and already-exposed source annotation controls",
       "top_level_functions": [
         "check"
+      ]
+    },
+    {
+      "path": "check_annotation_reconciliation.py",
+      "sha256": "2fbeba15217949d0836aa632a044bccdbaae6e0059257fa7189d48fd8697ae20",
+      "role": "synthetic source/binary integrity and identity controls",
+      "top_level_functions": [
+        "check",
+        "w",
+        "sk"
       ]
     },
     {

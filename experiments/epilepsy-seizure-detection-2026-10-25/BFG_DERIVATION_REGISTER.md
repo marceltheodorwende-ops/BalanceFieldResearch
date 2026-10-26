@@ -75,3 +75,6 @@ Explicit lexical mode preserves original clock text beyond hour24 without conver
 
 ## A19 — Bounded horizontal event-value separator
 Opt-in ASCII space/tab separator changes grammar only, preserving unsigned integer values and strict event identity;7 synthetic groups PASS, all19 existing source hashes rechecked.18/19 summaries supported;1 known numbering mismatch remains blocked. No BFG/biological law or silent correction. Provenance reconciliation/full EP01 OPEN.
+
+## A20 — Provenance-bound numbering derivation
+Original-master/source/binary hashes plus exact numerical sample agreement gate a derived identity-only token change with explicit approval; originals unchanged.7 synthetic groups PASS; local WFDB4.3.0 agreement and exact565-path/all19-summary import verified. ANNOTATION_RECONCILIATION_CONTRACT.md. Raw/derived annotations not exported. Clinical truth/full EDF duration/montage/QC and full EP01 OPEN; no BFG/biological law.

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "control_groups": 7,
+  "checks": [
+    "independent synthetic sample positions",
+    "only explicitly approved index changed; source list intact",
+    "3 missing stale duplicate approvals reject",
+    "binary disagreement cannot be repaired by approved label",
+    "6 truncated trailing unordered empty unpaired binary cases reject",
+    "original hash binding refuses synthetic replacement",
+    "holdout guard rejects before source resolution"
+  ],
+  "synthetic_only": true,
+  "new_data_access": false
+}

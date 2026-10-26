@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "reconciliation": {
+    "source_sha256": "1ac673eacfa9d2fabb4f065aaed69ca79ca558c662e931383e0b4a39104d31b7",
+    "binary_sha256": "d6a387c5eaf9033896bce18672914ffe78448c17c723d6a952f221dcfef04af1",
+    "derived_sha256": "5c13d560b81b5de7bdf390894ec6851e6e8cef767ba6bc0d04e148839a569aeb",
+    "changed_identity_tokens": 1,
+    "numerical_boundaries_unchanged": true,
+    "originals_overwritten": false
+  },
+  "upstream_wfdb_version": "4.3.0",
+  "upstream_sample_agreement": true,
+  "all19_summary_dialects_parse": true,
+  "all565_manifest_paths_retained": true,
+  "new_data_access": false,
+  "raw_or_derived_annotations_exported": false,
+  "clinical_truth_verified": false
+}
