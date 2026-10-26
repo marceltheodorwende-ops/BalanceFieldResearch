@@ -591,3 +591,14 @@ Auswertung Runde80: tatsächlicher Seednachfolger kann[W,F]=0 erfüllen und zugl
 ## Anschlussgrenze nach Runde80 konsolidiert
 
 [RESEARCH_BOUNDARY_AFTER_80.de.md](RESEARCH_BOUNDARY_AFTER_80.de.md) hält die jetzt konkrete gemeinsame Sektorausrichtung und die verbleibende physikalische Zustands-/Hamiltonian-/Uhrlücke fest. Unveränderte Nachprüfungen sind keine neuen Experimente. Für weitere zielgerichtete Arbeit benötigt: vorhandene BFG-Regel/Fundstelle zur gemeinsamen Zuordnung oder ausdrückliche Eingrenzung auf rein interne Präparations-/Bilanzanalyse. Kein allgemeines BFG-No-Go und kein Abschluss der Gesamtaufgabe; keine identischen Kontrollen oder wiederholten Richtungsfragen.
+
+
+## Runde81 – Archivvergleich: strukturelle Energie, Zustands- und Generatorbrücke (vorab registriert, 26. Oktober 2026)
+
+**Nutzerfreigabe und Quellenrolle.** Auf ausdrückliche Nutzeranweisung werden die lokal vorliegenden älteren BFG-Manuskripte als **Vergleichskorpus** herangezogen, um zu prüfen, ob sie bereits eine BFG-interne Regel zur Zustands-/Energie-/Uhrbrücke enthalten. Die gepinnte Dynamic-Order-Quelle bleibt die aktive Quelle für die bestehende Dynamik. Der Vergleichskorpus darf keine zusätzliche physikalische Kopplung importieren: Jede dort verlangte Carrier-, Mess-, Hamiltonian-, Zeit- oder konstitutive Abbildung wird als zusätzliche Annahme gezählt, nicht als Ableitung.
+
+**Prüfkandidaten.** (A) die ältere strukturelle quadratische Energie \(E=(1+\eta)\lVert D\rVert^2\); (B) die normalisierten neutralen Anteile \(r_N=\langle D,C_N(Y)D\rangle/\langle D,D\rangle\), \(b_N=1-r_N\); (C) etwaige Archivregeln zur Auswahl eines Hamiltonoperators, einer physikalischen Uhr oder einer gemeinsamen Carrierzustandszuordnung.
+
+**Hypothese und Falsifikationskriterium.** Eine positive Brücke liegt nur vor, wenn der Vergleichskorpus zusammen mit der gepinnten Dynamik eine eindeutige Funktion von BFG-Daten allein liefert, die (i) einen lokalen Zustand bzw. Energieoperator auswählt, (ii) mit Witness, Formation und dem Zwei-Sektor-Generator kompatibel ist und (iii) keine externe Carrier-/Mess-/Zeit-/Konstitutionskarte voraussetzt. Schon eine explizite externe Readout- oder Hamiltonianvoraussetzung, oder mehrere zulässige Zuordnungen bei gleichen BFG-Daten, widerlegt den Kandidaten als interne physikalische Brücke; dies ist kein allgemeines BFG-No-Go.
+
+**Frische Prüfung.** Zunächst werden die unveränderten lokalen Primärdateien gehasht und ihre einschlägigen Stellen textlich extrahiert. Anschließend wird an der gemeinsamen Zwei-Sektor-Klasse geprüft, ob (A) und (B) überhaupt operatorwertige Selektoren liefern oder nur skalare, zustandsabhängige Readouts sind. Keine bestehende Dynamik, kein Manuskript, keine Lizenz und kein empirisches Ergebnis wird verändert.
