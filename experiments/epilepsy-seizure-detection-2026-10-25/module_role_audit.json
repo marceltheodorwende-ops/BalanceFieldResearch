@@ -4,7 +4,7 @@
   "files": [
     {
       "path": "annotation_import.py",
-      "sha256": "45b0df3ab2e681c190fbddf5be1c86139dcd458f2efcacbada73927afb830210",
+      "sha256": "1b84d52f7527d0ee6e382bfa757a07ef7f1f8f7f43773a89808bdd08f429e50f",
       "role": "offline pinned development source annotation identity/count interface, no neural dynamics",
       "top_level_functions": [
         "parse_summary",
@@ -82,6 +82,14 @@
         "check",
         "mul",
         "mv"
+      ]
+    },
+    {
+      "path": "check_channel_sections.py",
+      "sha256": "853fc1df5b82b1a30175e05d3dde8beaa21a0dc1e428dc8598ae612e6f90e7c6",
+      "role": "synthetic source channel-section preservation controls",
+      "top_level_functions": [
+        "check"
       ]
     },
     {

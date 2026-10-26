@@ -1,0 +1,12 @@
+{
+  "supported_summaries": 13,
+  "unsupported_summaries": 6,
+  "preserved_sections_in_supported_summaries": 10,
+  "error_categories": {
+    "Unsupported clock notation": 4,
+    "Mixed, mismatched or nonconsecutive event numbering": 1,
+    "Unsupported or incomplete event pair": 1
+  },
+  "new_data_access": false,
+  "raw_annotation_export": false
+}

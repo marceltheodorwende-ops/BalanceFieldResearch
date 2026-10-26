@@ -66,3 +66,6 @@ One preselected development companion original-hash verified; WFDB4.3.0 and inde
 
 ## A16 — Strict explicit numbered-event grammar
 Opt-in per-block numbered/unnumbered consistency and consecutive paired identity checks implemented, default unchanged.14 import controls PASS; aggregate already-exposed source-dialect recheck published without raw labels. No automatic numbering correction. Provenance-backed exception layer, extended clocks/channel metadata and EP01 remain OPEN. Source/evaluation grammar, not BFG biology.
+
+## A17 — Lossless explicit channel-section grammar
+Optional trailing source channel-change sections retained with indices/labels and unresolved scope, never applied as inferred montage.6 synthetic groups PASS; original/numbered controls unchanged. Aggregate offline source audit only published. Extended clocks, provenance discrepancy layer and per-EDF montage/duration reconciliation OPEN; no BFG physiological law.

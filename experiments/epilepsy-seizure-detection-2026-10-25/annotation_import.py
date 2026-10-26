@@ -7,7 +7,7 @@ from contract import TRAIN, VALIDATION
 from recording_time import clock_seconds, reconcile
 
 
-def parse_summary(text, case, *, numbered_events=False):
+def parse_summary(text, case, *, numbered_events=False, channel_sections=False):
     if case not in TRAIN + VALIDATION:
         raise ValueError('Only development/validation cases are accepted')
     parts = text.split('File Name: ')
@@ -33,8 +33,27 @@ def parse_summary(text, case, *, numbered_events=False):
         if count is None:
             raise ValueError('Missing event count')
         count = int(count[1])
-        if len(lines) != 4 + 2*count:
+        boundary = 4 + 2*count
+        changes = []
+        if len(lines) < boundary:
             raise ValueError('Event count/line mismatch or unsupported metadata')
+        tail = lines[boundary:]
+        if tail and not channel_sections:
+            raise ValueError('Event count/line mismatch or unsupported metadata')
+        while tail:
+            if len(tail) < 3 or tail[0] != 'Channels changed:' or set(tail[1]) != {'*'}:
+                raise ValueError('Unknown or incomplete channel-change section')
+            tail = tail[2:]
+            channels = []
+            while tail and tail[0] != 'Channels changed:':
+                match = re.fullmatch(r'Channel (\d+): (.+)', tail[0])
+                if match is None or int(match[1]) != len(channels)+1:
+                    raise ValueError('Invalid channel-change index or unknown line')
+                channels.append(dict(index=int(match[1]), label=match[2]))
+                tail = tail[1:]
+            if not channels:
+                raise ValueError('Empty channel-change section')
+            changes.append(dict(channels=channels, scope='between_file_blocks_unassigned'))
         events = []
         numbered_block = None
         previous_end = 0
@@ -60,6 +79,8 @@ def parse_summary(text, case, *, numbered_events=False):
         records[row['path']] = dict(path=row['path'],person=row['person'],split=row['split'],
             source_start_clock=clocks[0],source_end_clock=clocks[1],events=events,
             declared_event_count=count,duration_verified=False)
+        if changes:
+            records[row['path']]['following_channel_change_sections'] = changes
     return records
 
 

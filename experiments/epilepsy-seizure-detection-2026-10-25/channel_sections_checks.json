@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "control_groups": 6,
+  "checks": [
+    "all labels and original indices retained with unresolved scope",
+    "zero-event file preserved",
+    "multiple channel sections not collapsed",
+    "default API still rejects unsupported sections",
+    "7 duplicate skipped zero missing malformed and hidden-event cases reject",
+    "no-section compatibility unchanged"
+  ],
+  "synthetic_only": true,
+  "new_data_access": false
+}
