@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "control_groups": 5,
+  "checks": [
+    "explicit numbered dialect preserves original event values",
+    "two numbered events retained in source order",
+    "5 duplicate mismatched skipped mixed and zero-index cases rejected",
+    "default unnumbered API remains strict",
+    "explicit mode also preserves unnumbered original dialect"
+  ],
+  "synthetic_only": true,
+  "new_data_access": false
+}

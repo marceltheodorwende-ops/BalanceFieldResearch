@@ -1,8 +1,8 @@
 [
   {
     "path": "ANNOTATION_IMPORT_CONTRACT.md",
-    "bytes": 3438,
-    "sha256": "3bb96ea7b278c3c6dcdccb1b595854af1487638ccaf46c51a1297749694faa90"
+    "bytes": 4785,
+    "sha256": "8e2eb6565139f92f317cf0a035bbcb2a22c999c95a8924a811237a2864af1be3"
   },
   {
     "path": "AVAILABILITY_CONTRACT.md",
@@ -16,8 +16,8 @@
   },
   {
     "path": "BFG_DERIVATION_REGISTER.md",
-    "bytes": 13305,
-    "sha256": "fa25899a18842192683b244f37b6d5dd8776c4a1c9589e6d58c3bd77b93b01f6"
+    "bytes": 13748,
+    "sha256": "23438ea4116d8200ac8659df3a5f3a274b11de7bbc0c93f992a6ce90dd4da0c4"
   },
   {
     "path": "BFG_SOURCE_REVIEW.json",
@@ -116,8 +116,8 @@
   },
   {
     "path": "annotation_import.py",
-    "bytes": 3378,
-    "sha256": "75c9005887231e7344517279d4de7d4e94f89b8c972045d86ee729124b82b25f"
+    "bytes": 3929,
+    "sha256": "45b0df3ab2e681c190fbddf5be1c86139dcd458f2efcacbada73927afb830210"
   },
   {
     "path": "annotation_import_checks.json",
@@ -240,6 +240,11 @@
     "sha256": "3e95faee8dd1f59f1102ac7ed0a84eba7b31108606dcae59ac1b3874b343703a"
   },
   {
+    "path": "check_numbered_annotation.py",
+    "bytes": 2051,
+    "sha256": "406a9df1af7d5ca60231db3aa4b64f612b7c5e1613e0ab8a59c6e0d0d8512d17"
+  },
+  {
     "path": "check_patient_comparison.py",
     "bytes": 2523,
     "sha256": "c668f51841817e49dd4656d20ac8f9bc8f16f81065c559e1624627bf81503cc1"
@@ -336,8 +341,8 @@
   },
   {
     "path": "module_role_audit.json",
-    "bytes": 8727,
-    "sha256": "2680d8af47ddc796ce08418e8ab80a9a2a7205079bb769ccaf8ac33b6c595250"
+    "bytes": 9014,
+    "sha256": "81ad549d5f39cfcd5de79ca932e00f268cc4363e17e82df1ae5ad039d193e7ef"
   },
   {
     "path": "montage_audit.json",
@@ -348,6 +353,16 @@
     "path": "montage_audit.py",
     "bytes": 3255,
     "sha256": "40714cec7968da36723a5b57642401d2182aa668821d3e3f47bc8880a421d758"
+  },
+  {
+    "path": "numbered_annotation_checks.json",
+    "bytes": 418,
+    "sha256": "aedfb656a536e68b774f54b9ad9bd665d3aaac79e30aaebe91e987908125f9d4"
+  },
+  {
+    "path": "numbered_dialect_audit.json",
+    "bytes": 332,
+    "sha256": "ed4077e4eb8ee91ef0983a5ee171dc5afba58248ae1bca15281a3bbb6aed0d11"
   },
   {
     "path": "patient_comparison.py",

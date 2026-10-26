@@ -63,3 +63,6 @@ Weighted independent-person MGF proof yields radius sqrt(2log(2/alpha)*sum w^2) 
 
 ## A15 — Independent primary binary-label cross-check
 One preselected development companion original-hash verified; WFDB4.3.0 and independent byte-word boundary decoding agree exactly, as do summary numerical boundaries. Immutable numbering discrepancy remains; clinical truth not established. BINARY_ANNOTATION_CROSSCHECK.md. Aggregate/provenance only published, no raw labels/times. Numbered-event identity/provenance adapter and broader verification OPEN.
+
+## A16 — Strict explicit numbered-event grammar
+Opt-in per-block numbered/unnumbered consistency and consecutive paired identity checks implemented, default unchanged.14 import controls PASS; aggregate already-exposed source-dialect recheck published without raw labels. No automatic numbering correction. Provenance-backed exception layer, extended clocks/channel metadata and EP01 remain OPEN. Source/evaluation grammar, not BFG biology.

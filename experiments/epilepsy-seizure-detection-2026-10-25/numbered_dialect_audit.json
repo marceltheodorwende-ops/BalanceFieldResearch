@@ -1,0 +1,11 @@
+{
+  "explicit_numbered_mode_supported_summaries": 7,
+  "unsupported_summaries": 12,
+  "remaining_error_categories": {
+    "Unsupported clock notation": 4,
+    "Event count/line mismatch or unsupported metadata": 7,
+    "Unsupported or incomplete event pair": 1
+  },
+  "new_data_access": false,
+  "raw_annotations_exported": false
+}

@@ -4,7 +4,7 @@
   "files": [
     {
       "path": "annotation_import.py",
-      "sha256": "75c9005887231e7344517279d4de7d4e94f89b8c972045d86ee729124b82b25f",
+      "sha256": "45b0df3ab2e681c190fbddf5be1c86139dcd458f2efcacbada73927afb830210",
       "role": "offline pinned development source annotation identity/count interface, no neural dynamics",
       "top_level_functions": [
         "parse_summary",
@@ -116,6 +116,14 @@
       "path": "check_manifest_montage.py",
       "sha256": "3e95faee8dd1f59f1102ac7ed0a84eba7b31108606dcae59ac1b3874b343703a",
       "role": "synthetic/metadata controls",
+      "top_level_functions": [
+        "check"
+      ]
+    },
+    {
+      "path": "check_numbered_annotation.py",
+      "sha256": "406a9df1af7d5ca60231db3aa4b64f612b7c5e1613e0ab8a59c6e0d0d8512d17",
+      "role": "synthetic strict numbered-event grammar controls, no source annotations",
       "top_level_functions": [
         "check"
       ]

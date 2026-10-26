@@ -7,7 +7,7 @@ from contract import TRAIN, VALIDATION
 from recording_time import clock_seconds, reconcile
 
 
-def parse_summary(text, case):
+def parse_summary(text, case, *, numbered_events=False):
     if case not in TRAIN + VALIDATION:
         raise ValueError('Only development/validation cases are accepted')
     parts = text.split('File Name: ')
@@ -36,14 +36,23 @@ def parse_summary(text, case):
         if len(lines) != 4 + 2*count:
             raise ValueError('Event count/line mismatch or unsupported metadata')
         events = []
+        numbered_block = None
         previous_end = 0
         for i in range(count):
             pair = []
             for line, kind in zip(lines[4+2*i:6+2*i], ('Start', 'End')):
-                match = re.fullmatch(r'Seizure '+kind+r' Time: (\d+) seconds', line)
+                pattern = r'Seizure(?: (\d+))? '+kind+r' Time: (\d+) seconds'
+                match = re.fullmatch(pattern, line)
                 if match is None:
                     raise ValueError('Unsupported or incomplete event pair')
-                pair.append(int(match[1]))
+                indexed = match[1] is not None
+                if indexed and not numbered_events:
+                    raise ValueError('Numbered-event mode must be explicitly enabled')
+                if numbered_block is None:
+                    numbered_block = indexed
+                if indexed != numbered_block or (indexed and int(match[1]) != i+1):
+                    raise ValueError('Mixed, mismatched or nonconsecutive event numbering')
+                pair.append(int(match[2]))
             if not previous_end <= pair[0] < pair[1]:
                 raise ValueError('Unordered, overlapping or empty source event')
             previous_end = pair[1]
