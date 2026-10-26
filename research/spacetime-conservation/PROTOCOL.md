@@ -602,3 +602,14 @@ Auswertung Runde80: tatsächlicher Seednachfolger kann[W,F]=0 erfüllen und zugl
 **Hypothese und Falsifikationskriterium.** Eine positive Brücke liegt nur vor, wenn der Vergleichskorpus zusammen mit der gepinnten Dynamik eine eindeutige Funktion von BFG-Daten allein liefert, die (i) einen lokalen Zustand bzw. Energieoperator auswählt, (ii) mit Witness, Formation und dem Zwei-Sektor-Generator kompatibel ist und (iii) keine externe Carrier-/Mess-/Zeit-/Konstitutionskarte voraussetzt. Schon eine explizite externe Readout- oder Hamiltonianvoraussetzung, oder mehrere zulässige Zuordnungen bei gleichen BFG-Daten, widerlegt den Kandidaten als interne physikalische Brücke; dies ist kein allgemeines BFG-No-Go.
 
 **Frische Prüfung.** Zunächst werden die unveränderten lokalen Primärdateien gehasht und ihre einschlägigen Stellen textlich extrahiert. Anschließend wird an der gemeinsamen Zwei-Sektor-Klasse geprüft, ob (A) und (B) überhaupt operatorwertige Selektoren liefern oder nur skalare, zustandsabhängige Readouts sind. Keine bestehende Dynamik, kein Manuskript, keine Lizenz und kein empirisches Ergebnis wird verändert.
+
+
+## Runde82 – vorab: Archivregeln zur Zustandsselektion ohne Import einer neuen Physik
+
+**Quellenrolle und Umfang.** Die Nutzerfreigabe vom 26. Oktober erlaubt eine begrenzte Suche in lokalen, bereits vorhandenen BFG-Unterlagen nach *expliziten* Selektions- bzw. Konditionierungsregeln. Die gepinnte Dynamic-Order-Quelle bleibt die einzige aktive Dynamikquelle. Jede im Archiv gefundene Carrier-, Mess-, Hamiltonian-, Zeit-, räumliche oder konstitutive Abbildung wird nur als Vergleichsevidenz behandelt; sie wird nicht in die Dynamik importiert.
+
+**Kandidat.** Prüfe, ob eine bereits dokumentierte BFG-Regel aus Witness, Formation, Seed, Retention oder Historie eine eindeutige lokale Zuordnung \(\Xi\mapsto\rho\) erzwingt, die zugleich die in Runde79 benötigte gemeinsame Zwei-Sektor-Ausrichtung bzw. einen Energieoperator bestimmt. Eine bloße Benennung eines Readouts, eine angehängte empirische Abbildung oder eine Auswahl nach externem Carrier zählt nicht.
+
+**Positivkriterium.** Ein positiver Befund erfordert eine zitierfähige vorhandene Regel samt Definitionsbereich, die aus BFG-Daten allein genau eine Zustands-/Operatorzuordnung ergibt, unter der gepinnten vollständigen Dynamik erhalten oder nachvollziehbar transformiert wird und den Runde80-Seedzeugen nicht durch eine zusätzliche Annahme umgeht.
+
+**Negativkriterium.** Mehrere zulässige Zuordnungen bei gleichen BFG-Daten, eine ausdrückliche externe Brücke oder keine Verbindung zu Witness/Formation/Seed/Historie widerlegen ausschließlich den jeweiligen Archivkandidaten. Das ist kein allgemeines BFG-No-Go. Vor der Auswertung werden die verwendeten Dateien gehasht und die Suchtreffer auf ihre jeweilige Quellenrolle geprüft. Keine Manuskript-, Gleichungs-, Lizenz-, Audit- oder Workflowänderung.
