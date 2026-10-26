@@ -622,3 +622,8 @@ Auswertung Runde80: tatsächlicher Seednachfolger kann[W,F]=0 erfüllen und zugl
 **Positivkriterium.** Positiv wäre nur eine aus den dortigen BFG-Regeln selbst definierte physikalische Energie-/Zustandsgröße mit Einheiten oder Operator, deren Seed-/Selektionsbilanz geschlossen ist und die ohne Carrier-, Mess- oder Kalibrierungsmap mit der gepinnten Dynamik verbunden wird.
 
 **Negativkriterium.** Wenn die Quelle ihre Bilanz ausdrücklich als Formations-/Strukturmasse ohne physikalische Kalibrierung ausweist oder das Fehlen eines festen physikalischen Observablen bzw. einer lokalen Kontinuitätsgleichung festhält, ist dieser dritte konkrete Archivkandidat ausgeschöpft. Dann wird die gemeinsame Voraussetzung konsolidiert statt derselbe Weg erneut versucht. Nur die Primärtexte werden gehasht und textlich geprüft; keine neue physikalische Regel.
+
+
+## Runde84 – vorab: lokaler Zwei-Sektor-Strom
+
+Nach der ausdrücklichen Nutzerentscheidung für weitere interne Mathematik: [TWO_SECTOR_LOCAL_CURRENT_PROTOCOL.md](TWO_SECTOR_LOCAL_CURRENT_PROTOCOL.md). Auswertung: [TWO_SECTOR_LOCAL_CURRENT_RESULT.md](TWO_SECTOR_LOCAL_CURRENT_RESULT.md), [TWO_SECTOR_LOCAL_CURRENT_CHECKS.md](TWO_SECTOR_LOCAL_CURRENT_CHECKS.md). Die zuerst erwartete Sektortransfer-Ausprägung in den Kohärenzfällen trat nicht ein; als erhaltene Prüfkorrektur wird der tatsächliche gemeinsame Kanaldefekt berichtet. Das Ergebnis bleibt eine begrenzte interne Klassifikation ohne physikalische Brücke.
