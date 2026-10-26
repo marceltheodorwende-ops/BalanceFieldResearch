@@ -16,8 +16,8 @@
   },
   {
     "path": "BFG_DERIVATION_REGISTER.md",
-    "bytes": 11239,
-    "sha256": "3c96e732d1848b588b1dd03f2afb195f7185098609bc688ac7244aab2b2ad8e5"
+    "bytes": 11817,
+    "sha256": "d826e5de5c3a797224e031b74d14c30e21fba191fee324ae755c750a5fbb76d4"
   },
   {
     "path": "BFG_SOURCE_REVIEW.json",
@@ -63,6 +63,11 @@
     "path": "PATIENT_COMPARISON_CONTRACT.md",
     "bytes": 4152,
     "sha256": "687ce149233283fd10bf8bdc525a39bd87728969566f098f09c3811155353dcd"
+  },
+  {
+    "path": "PRECISION_FEASIBILITY.md",
+    "bytes": 5278,
+    "sha256": "95c66f75250c731bfae28647d9623faa01dc2bb7a676f52acb305d49b44c3b47"
   },
   {
     "path": "README.md",
@@ -328,6 +333,11 @@
     "path": "patient_comparison_checks.json",
     "bytes": 623,
     "sha256": "f88fabe5cd14856ce5148b69049b4695419d64afe797f2c57c4d587c63c423a8"
+  },
+  {
+    "path": "precision_feasibility_audit.json",
+    "bytes": 2362,
+    "sha256": "e10d141221b4d823dd551945ddfb4fb184a07f0a4984b12619b06ed1877291dc"
   },
   {
     "path": "record_scoring.py",

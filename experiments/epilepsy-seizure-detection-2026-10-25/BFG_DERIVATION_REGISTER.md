@@ -51,3 +51,6 @@ All expected records, person aliases, durations and original event counts retain
 
 ## A11 — Paired patient sufficient statistics/resampling
 Common complete records aggregated by person; exact pooled sensitivity/rate differences and paired whole-person draws constructed.8 controls PASS. One-person resampling degeneracy proved; undefined zero-event draws retained. PATIENT_COMPARISON_CONTRACT.md. Statistical definition, not BFG physiology. Interval method, sample-size precision and decision rule remain OPEN; no real comparison.
+
+## A12 — Conditional precision feasibility and tail counterexample
+PRECISION_FEASIBILITY.md proves a conservative independent-person bounded-mean radius, distinguishes macro from pooled estimands, derives finite sample-clock false-rate bound, and proves the separate unbounded-law upper-mean obstruction by contamination.60-digit/numerical and adjacent-integer checks PASS. No clinical margin, actual sample-size/power conclusion or universal impossibility claimed. Statistical design audit, not BFG biology. Actual pooled inference and clinical precision requirements OPEN.

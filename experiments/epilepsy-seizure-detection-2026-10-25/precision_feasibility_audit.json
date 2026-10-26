@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "confidence_level_illustrative": "0.95",
+  "assumptions": "Independent target-population people; equal-person bounded difference; NOT verified in these datasets",
+  "rows": [
+    {
+      "n_nominal_people": 1,
+      "macro_sensitivity_difference_radius95": "2.71620303148123899698154052000717974343826500524125688454935",
+      "full_sensitivity_range": [
+        -1,
+        1
+      ],
+      "sample_clock_false_rate_bound_per24h": 22118400,
+      "macro_false_rate_difference_radius95": "60078065.1315146366308365058377268044372649206919282162752163"
+    },
+    {
+      "n_nominal_people": 5,
+      "macro_sensitivity_difference_radius95": "1.21472292381661033718474160886618484992500485005259989413350",
+      "full_sensitivity_range": [
+        -1,
+        1
+      ],
+      "sample_clock_false_rate_bound_per24h": 22118400,
+      "macro_false_rate_difference_radius95": "26867727.5181453140819869888015458229845812272754034254984024"
+    },
+    {
+      "n_nominal_people": 14,
+      "macro_sensitivity_difference_radius95": "0.725935795479967882228470112823185047776660199377466736046837",
+      "full_sensitivity_range": [
+        -1,
+        1
+      ],
+      "sample_clock_false_rate_bound_per24h": 22118400,
+      "macro_false_rate_difference_radius95": "16056538.2987441216062821933434683361607432809539105602545784"
+    },
+    {
+      "n_nominal_people": 18,
+      "macro_sensitivity_difference_radius95": "0.640215194213280506780059897454615754017333903916318654818361",
+      "full_sensitivity_range": [
+        -1,
+        1
+      ],
+      "sample_clock_false_rate_bound_per24h": 22118400,
+      "macro_false_rate_difference_radius95": "14160535.7516870235611640768358601730936569982203827025347344"
+    }
+  ],
+  "illustrative_sufficient_sizes": [
+    {
+      "illustrative_radius": "0.05",
+      "sufficient_n_for_this_bound": 2952,
+      "clinical_margin_selected": false
+    },
+    {
+      "illustrative_radius": "0.10",
+      "sufficient_n_for_this_bound": 738,
+      "clinical_margin_selected": false
+    },
+    {
+      "illustrative_radius": "0.20",
+      "sufficient_n_for_this_bound": 185,
+      "clinical_margin_selected": false
+    }
+  ],
+  "decimal_precision": 60,
+  "independent_float_check": true,
+  "pooled_ratio_bound_validated": false,
+  "actual_power_or_empirical_result": false,
+  "new_data_access": false
+}
