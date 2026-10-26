@@ -72,3 +72,6 @@ Optional trailing source channel-change sections retained with indices/labels an
 
 ## A18 — Source extended-hour token retention
 Explicit lexical mode preserves original clock text beyond hour24 without converting, normalizing or inferring duration/date/gap.6 synthetic groups PASS; historical converter/default unchanged. Aggregate offline source coverage recorded; temporal provenance, source discrepancies and full EP01 OPEN. Source grammar, not physical/BFG clock.
+
+## A19 — Bounded horizontal event-value separator
+Opt-in ASCII space/tab separator changes grammar only, preserving unsigned integer values and strict event identity;7 synthetic groups PASS, all19 existing source hashes rechecked.18/19 summaries supported;1 known numbering mismatch remains blocked. No BFG/biological law or silent correction. Provenance reconciliation/full EP01 OPEN.

@@ -1,8 +1,8 @@
 [
   {
     "path": "ANNOTATION_IMPORT_CONTRACT.md",
-    "bytes": 7236,
-    "sha256": "5bab751aa251009e5be21d7a86251ecbe43c366d8d176b2dc91296c2d8085b17"
+    "bytes": 8344,
+    "sha256": "05d026b9a0c492f6501ac725d7477813c21415243d9f5d32287916b416a72f3b"
   },
   {
     "path": "AVAILABILITY_CONTRACT.md",
@@ -16,8 +16,8 @@
   },
   {
     "path": "BFG_DERIVATION_REGISTER.md",
-    "bytes": 14557,
-    "sha256": "3eb0e503e5c67a3e4430f1df3a9161e48dff7651292d1477ed8291ca50e64d4a"
+    "bytes": 14946,
+    "sha256": "7e09c0b6e56aaee51331f28dce933e081ae374192d1933dbb99640f22350efaf"
   },
   {
     "path": "BFG_SOURCE_REVIEW.json",
@@ -116,8 +116,8 @@
   },
   {
     "path": "annotation_import.py",
-    "bytes": 5322,
-    "sha256": "bbcd26cbc2f9a581315259dbb903bc4179105290e306c661d7e06e86d7047a95"
+    "bytes": 5432,
+    "sha256": "79b667dfa84717894387e55e8e252571acd8278fc5037254d172e6145ce179f1"
   },
   {
     "path": "annotation_import_checks.json",
@@ -250,6 +250,11 @@
     "sha256": "5d148aa998ce1c14780027e5ced42f60abd07779449eca0f966362c361062749"
   },
   {
+    "path": "check_event_spacing.py",
+    "bytes": 1813,
+    "sha256": "78e2a979f337ad9ab7e1f00194be26dabbd7432eecb3ae8dbd883e9413f035dc"
+  },
+  {
     "path": "check_extended_clock.py",
     "bytes": 1853,
     "sha256": "e5ef300649239c112ce54a17bc68affa1ec1397cc2a741a6131bb737f6d0b107"
@@ -340,6 +345,16 @@
     "sha256": "643d79322a8ac71920f60c361d4f795531f39d81fcf92a09bba61c066b31c478"
   },
   {
+    "path": "event_spacing_audit.json",
+    "bytes": 264,
+    "sha256": "8627dce812a77ade81b75f074bfcd4cf8646d1b04946a6266481f97641f81c47"
+  },
+  {
+    "path": "event_spacing_checks.json",
+    "bytes": 381,
+    "sha256": "7edf94369d968e5bb2f5c8cb965672f03e30db8308e9bde90664aa48b773ec96"
+  },
+  {
     "path": "extended_clock_audit.json",
     "bytes": 264,
     "sha256": "c4689aea33ee9d3e798ce7ce317f7c1e05c078036734a8d6d3225ca8b10d54da"
@@ -371,8 +386,8 @@
   },
   {
     "path": "module_role_audit.json",
-    "bytes": 9583,
-    "sha256": "5159ffce859930efe1721600a8e7d314a315fc2899e05d6805007758b8c8ddf9"
+    "bytes": 9841,
+    "sha256": "0a372d9d48d25767ce6ae3cd4949296b9c2094039034b16bc08d2867fcbba8fb"
   },
   {
     "path": "montage_audit.json",

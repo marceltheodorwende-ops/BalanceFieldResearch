@@ -7,7 +7,7 @@ from contract import TRAIN, VALIDATION
 from recording_time import clock_seconds, reconcile
 
 
-def parse_summary(text, case, *, numbered_events=False, channel_sections=False, extended_clock_tokens=False):
+def parse_summary(text, case, *, numbered_events=False, channel_sections=False, extended_clock_tokens=False, event_value_spacing=False):
     if case not in TRAIN + VALIDATION:
         raise ValueError('Only development/validation cases are accepted')
     parts = text.split('File Name: ')
@@ -64,7 +64,8 @@ def parse_summary(text, case, *, numbered_events=False, channel_sections=False, 
         for i in range(count):
             pair = []
             for line, kind in zip(lines[4+2*i:6+2*i], ('Start', 'End')):
-                pattern = r'Seizure(?: (\d+))? '+kind+r' Time: (\d+) seconds'
+                separator = r'[ \t]+' if event_value_spacing else ' '
+                pattern = r'Seizure(?: (\d+))? '+kind+r' Time:'+separator+r'(\d+) seconds'
                 match = re.fullmatch(pattern, line)
                 if match is None:
                     raise ValueError('Unsupported or incomplete event pair')

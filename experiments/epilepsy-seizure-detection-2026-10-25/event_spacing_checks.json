@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "control_groups": 7,
+  "checks": [
+    "separator variant 0",
+    "separator variant 1",
+    "separator variant 2",
+    "separator variant 3",
+    "separator variant 4",
+    "default single-space dialect unchanged",
+    "6 missing-separator numeric hidden-token identity and newline cases reject"
+  ],
+  "synthetic_only": true,
+  "new_data_access": false
+}

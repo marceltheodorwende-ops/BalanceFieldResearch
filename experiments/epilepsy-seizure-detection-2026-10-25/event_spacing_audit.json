@@ -1,0 +1,10 @@
+{
+  "supported_summaries": 18,
+  "unsupported_summaries": 1,
+  "error_categories": {
+    "Mixed, mismatched or nonconsecutive event numbering": 1
+  },
+  "all19_original_source_hashes_rechecked": true,
+  "new_data_access": false,
+  "raw_annotation_export": false
+}

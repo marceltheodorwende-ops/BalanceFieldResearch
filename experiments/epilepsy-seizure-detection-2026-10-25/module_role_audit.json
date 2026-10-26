@@ -4,7 +4,7 @@
   "files": [
     {
       "path": "annotation_import.py",
-      "sha256": "bbcd26cbc2f9a581315259dbb903bc4179105290e306c661d7e06e86d7047a95",
+      "sha256": "79b667dfa84717894387e55e8e252571acd8278fc5037254d172e6145ce179f1",
       "role": "offline pinned development source annotation identity/count interface, no neural dynamics",
       "top_level_functions": [
         "parse_summary",
@@ -118,6 +118,14 @@
         "field",
         "fixture",
         "fixture_range"
+      ]
+    },
+    {
+      "path": "check_event_spacing.py",
+      "sha256": "78e2a979f337ad9ab7e1f00194be26dabbd7432eecb3ae8dbd883e9413f035dc",
+      "role": "synthetic event-value separator grammar controls",
+      "top_level_functions": [
+        "check"
       ]
     },
     {
