@@ -895,3 +895,8 @@ Auf ausdrückliche Nutzerfreigabe wurden zwei lokale frühere BFG-Whitepaper und
 ## Runde82 – Archivkandidat LPCP erklärt die fehlende Art von Brücke, ist aber keine Ableitung
 
 Ein zusätzlich geprüftes älteres BFG-Whitepaper enthält ein **Local Physical Closure Principle (LPCP)**. Das ist ein positiver Orientierungspunkt: Es formuliert genau den Typ lokaler Verbindung zwischen Closure-Differenzen, Transport und Neutralsteifigkeit, der für eine Raumzeit-/Bilanzbrücke nötig wäre. Die Datei kennzeichnet LPCP jedoch ausdrücklich als *neues physikalisches Prinzip*, nicht rückwirkend als Level-0-Theorem, und setzt weitere Kausalitäts-/Konsistenzannahmen voraus. Unter der aktiven Dynamic-Order-Quellenbindung kann es daher nicht als bereits hergeleitete Zustands-/Energie-/Uhrregel eingesetzt werden. Die Primärdatei wurde gehasht; drei Scope-Aussagen frisch geprüft. Details: ARCHIVED_BFG_SELECTOR_SCOPE.md und CHECKS. Kein neues Gesetz und kein allgemeines BFG-No-Go.
+
+
+## Runde83 – dritte unabhängige Archivprüfung konsolidiert die physikalische Brückengrenze
+
+Der direkte BFG-Bilanzkorpus bestätigt ausdrücklich: tr(F) ist dort Formationsmasse ohne physikalische Energiekalibrierung; Observable, Interpretation, Einheiten, kontinuierliche Zeit und räumliche Kontinuität bleiben zusätzliche Anforderungen. Zusammen mit Runde81 und Runde82 sind damit drei getrennte Kandidaten derselben fehlenden Zustands-/Energie-/Uhrbrücke geprüft. Die Suche wird nicht identisch wiederholt; erforderlich ist eine konkrete weitere BFG-Fundstelle, eine ausdrücklich erlaubte Zusatzannahme oder eine Eingrenzung auf rein interne Mathematik. Details ARCHIVED_BFG_BALANCE_SCOPE.md und RESEARCH_BOUNDARY_AFTER_83.de.md. Kein allgemeines BFG-No-Go.

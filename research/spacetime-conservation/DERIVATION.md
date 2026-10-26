@@ -397,3 +397,8 @@ Der freigegebene Archivvergleich trennt drei Kandidaten. Die SA-Größe \(E=(1+\
 ## Runde82 – Archiv-LPCP ist als Zusatzprinzip ausgewiesen
 
 Die gehashte DOCX-Datei *BFG Universal Structural Whitepaper — Strong Form Version 2* enthält mit LPCP einen expliziten lokalen-physikalischen Brückenkandidaten. Ihre eigene Statuskategorie entscheidet jedoch die Frage: LPCP wird als neues BFG-physikalisches Prinzip bezeichnet und nicht nachträglich zum Level-0-Theorem erhoben; die C²-/GR-Verzweigung trägt weitere formulierte Kausalitäts- und Konsistenzannahmen. Daher folgt keine Funktion \(\Xi\mapsto(\rho,H,\tau)\) aus dem gepinnten vollständigen Update, und der Runde80-Seedzeuge wird nicht ohne Zusatzregel auf die gemeinsame Sektorausrichtung geführt. Positiv bleibt die präzise Spezifikation des fehlenden Regeltyps. Siehe ARCHIVED_BFG_SELECTOR_SCOPE.md.
+
+
+## Runde83 – direkte Formationsbilanz selektiert keine physikalische Energie
+
+Der gehashte Archivkorpus bfg-balance-laws-2026-09-26 trennt selbst Formationsmassenbilanz von Energiegesetz: Die Seedregel setzt nicht die notwendige Ausgleichsrelation, tr(F) hat keine physikalische Kalibrierung, und physikalische Observable, Einheiten, kontinuierlicher Grenzprozess sowie Raumlokalität fehlen. Diese direkte dritte Kandidatenprüfung konsolidiert mit Runde81/82 die Brückengrenze, ohne ein BFG-No-Go über den geprüften Umfang hinaus zu behaupten. Siehe ARCHIVED_BFG_BALANCE_SCOPE.md und RESEARCH_BOUNDARY_AFTER_83.de.md.
