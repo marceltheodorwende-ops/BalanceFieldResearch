@@ -40,3 +40,9 @@ primitive with explicit availability/coverage masks and no gap filling or file-s
 Scientific filter coefficients, QC and clinical decision rules remain unfrozen.
 
 Development metadata checkpoint: [HEADER_COVERAGE.md](HEADER_COVERAGE.md) records 19 first-per-case header outcomes, including eight preserved parser failures. No seizure performance result.
+
+The 28 October 2026 non-empirical control run is recorded in
+[VERIFICATION_LOG_2026-10-28.md](VERIFICATION_LOG_2026-10-28.md): all 19
+versioned checkers passed from the package directory, with zero real network
+requests from the full-inventory synthetic control. It is not a detector result
+or a confirmatory freeze.

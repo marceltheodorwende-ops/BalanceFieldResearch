@@ -91,8 +91,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 2881,
-    "sha256": "817c6b9808454e36e1df4afbd9941f4198214388614e4a96a4205151ca375da5"
+    "bytes": 3199,
+    "sha256": "15654d751bde79fb581a90b5bc9e071e38938f88ceec315baad6cc04ad5f2b69"
   },
   {
     "path": "RECORDING_TIME_CONTRACT.md",
@@ -548,6 +548,11 @@
     "path": "vendor/timescoring/scoring.py",
     "bytes": 9092,
     "sha256": "0cb3b685c2d7add8d0cb2376d2021ace6d551591a2a31bfbd44a0281efe187c7"
+  },
+  {
+    "path": "VERIFICATION_LOG_2026-10-28.md",
+    "bytes": 1745,
+    "sha256": "bbfcad01979a342036f25c4bf4ed2370f182ba54308e31343c7600f9e01033ee"
   },
   {
     "path": "weighted_precision_checks.json",
