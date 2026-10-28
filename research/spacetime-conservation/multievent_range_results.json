@@ -1,0 +1,391 @@
+{
+  "status": "PASS for finite-horizon internal graph bound; physical locality OPEN",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "tolerance": 1e-10,
+  "seed": 20261105,
+  "symbolic_tensor_norm_residual": "0",
+  "full_source_calls": 21,
+  "maximum_source_residual": 6.4780189019345525e-15,
+  "maximum_gauge_residual": 3.092627167587362e-15,
+  "maximum_bound_excess": 0.0,
+  "cases": [
+    {
+      "n": 6,
+      "event": 1,
+      "degree": 1,
+      "lipschitz_bound": 2.3898645607143574,
+      "epsilon": 0.10765967838534637,
+      "tail_bound": 0.011590606350036217,
+      "measured_vector_error": 0.00864011199434861,
+      "polynomial_far_residual": 1.932450046489027e-16,
+      "source_tails": [
+        7.772827808285318e-06,
+        3.8964800785001635e-06
+      ]
+    },
+    {
+      "n": 6,
+      "event": 1,
+      "degree": 2,
+      "lipschitz_bound": 2.3898645607143574,
+      "epsilon": 0.07612688864664119,
+      "tail_bound": 0.005795303175018107,
+      "measured_vector_error": 0.004395936495628002,
+      "polynomial_far_residual": 2.2100058026453162e-16,
+      "source_tails": [
+        1.9177430946551144e-08,
+        9.605188246514716e-09
+      ]
+    },
+    {
+      "n": 6,
+      "event": 1,
+      "degree": 3,
+      "lipschitz_bound": 2.3898645607143574,
+      "epsilon": 0.062157344296648265,
+      "tail_bound": 0.0038635354500120727,
+      "measured_vector_error": 0.0029473460799506724,
+      "polynomial_far_residual": 1.8672240146922404e-16,
+      "source_tails": [
+        5.846473097005535e-11,
+        2.923235569578719e-11
+      ]
+    },
+    {
+      "n": 6,
+      "event": 2,
+      "degree": 1,
+      "lipschitz_bound": 3.003750260097467,
+      "epsilon": 0.13531427356508063,
+      "tail_bound": 0.018309952630445478,
+      "measured_vector_error": 0.010400205660578551,
+      "polynomial_far_residual": 1.273388839751967e-16,
+      "source_tails": [
+        1.1301622545271685e-05,
+        5.662357349845686e-06
+      ]
+    },
+    {
+      "n": 6,
+      "event": 2,
+      "degree": 2,
+      "lipschitz_bound": 3.003750260097467,
+      "epsilon": 0.09568164042920009,
+      "tail_bound": 0.009154976315222737,
+      "measured_vector_error": 0.005287606361152666,
+      "polynomial_far_residual": 1.6282454732411263e-16,
+      "source_tails": [
+        4.0172937197080296e-08,
+        2.0099676443069975e-08
+      ]
+    },
+    {
+      "n": 6,
+      "event": 2,
+      "degree": 3,
+      "lipschitz_bound": 3.003750260097467,
+      "epsilon": 0.07812373226799797,
+      "tail_bound": 0.006103317543481828,
+      "measured_vector_error": 0.00354606392457767,
+      "polynomial_far_residual": 1.0235178850745713e-16,
+      "source_tails": [
+        1.2685234876813066e-10,
+        6.342615522879591e-11
+      ]
+    },
+    {
+      "n": 6,
+      "event": 3,
+      "degree": 1,
+      "lipschitz_bound": 3.4756883172962905,
+      "epsilon": 0.1565743484208052,
+      "tail_bound": 0.024515526583399703,
+      "measured_vector_error": 0.01215212629330955,
+      "polynomial_far_residual": 1.178157002092337e-16,
+      "source_tails": [
+        1.5522249483036953e-05,
+        7.766136101560995e-06
+      ]
+    },
+    {
+      "n": 6,
+      "event": 3,
+      "degree": 2,
+      "lipschitz_bound": 3.4756883172962905,
+      "epsilon": 0.11071478352821655,
+      "tail_bound": 0.012257763291699851,
+      "measured_vector_error": 0.006161572790890489,
+      "polynomial_far_residual": 1.1480645406757332e-16,
+      "source_tails": [
+        5.39347368366162e-08,
+        2.6959846248450243e-08
+      ]
+    },
+    {
+      "n": 6,
+      "event": 3,
+      "degree": 3,
+      "lipschitz_bound": 3.4756883172962905,
+      "epsilon": 0.09039824220894215,
+      "tail_bound": 0.00817184219446657,
+      "measured_vector_error": 0.004130207156746069,
+      "polynomial_far_residual": 1.1556730286557305e-16,
+      "source_tails": [
+        1.6539854440874934e-10,
+        8.26992566615408e-11
+      ]
+    },
+    {
+      "n": 10,
+      "event": 1,
+      "degree": 1,
+      "lipschitz_bound": 2.417040987219159,
+      "epsilon": 0.11595669220875164,
+      "tail_bound": 0.013445954467995163,
+      "measured_vector_error": 0.010138560610725437,
+      "polynomial_far_residual": 4.139733247297457e-16,
+      "source_tails": [
+        7.767750729008361e-06,
+        3.893914400471929e-06
+      ]
+    },
+    {
+      "n": 10,
+      "event": 1,
+      "degree": 2,
+      "lipschitz_bound": 2.417040987219159,
+      "epsilon": 0.08199376338476957,
+      "tail_bound": 0.00672297723399758,
+      "measured_vector_error": 0.0051261908628147754,
+      "polynomial_far_residual": 4.249103697772725e-16,
+      "source_tails": [
+        1.9152793856663976e-08,
+        9.59265612852812e-09
+      ]
+    },
+    {
+      "n": 10,
+      "event": 1,
+      "degree": 3,
+      "lipschitz_bound": 2.417040987219159,
+      "epsilon": 0.06694762746106134,
+      "tail_bound": 0.004481984822665054,
+      "measured_vector_error": 0.0034298680395214716,
+      "polynomial_far_residual": 4.249103697772725e-16,
+      "source_tails": [
+        5.838344937470889e-11,
+        2.9331503564274004e-11
+      ]
+    },
+    {
+      "n": 10,
+      "event": 2,
+      "degree": 1,
+      "lipschitz_bound": 3.05320639103198,
+      "epsilon": 0.1464765039595032,
+      "tail_bound": 0.02145536621219836,
+      "measured_vector_error": 0.012203093850314761,
+      "polynomial_far_residual": 2.927238512042101e-16,
+      "source_tails": [
+        1.1292252864991925e-05,
+        5.657642948434227e-06
+      ]
+    },
+    {
+      "n": 10,
+      "event": 2,
+      "degree": 2,
+      "lipschitz_bound": 3.05320639103198,
+      "epsilon": 0.10357452923426289,
+      "tail_bound": 0.010727683106099176,
+      "measured_vector_error": 0.006166883655739053,
+      "polynomial_far_residual": 2.819648261263911e-16,
+      "source_tails": [
+        4.0106291080565286e-08,
+        2.0066088310629148e-08
+      ]
+    },
+    {
+      "n": 10,
+      "event": 2,
+      "degree": 3,
+      "lipschitz_bound": 3.05320639103198,
+      "epsilon": 0.08456824899097447,
+      "tail_bound": 0.007151788737399454,
+      "measured_vector_error": 0.004127983232250481,
+      "polynomial_far_residual": 2.9475944442318454e-16,
+      "source_tails": [
+        1.2659236098756457e-10,
+        6.35195472936528e-11
+      ]
+    },
+    {
+      "n": 10,
+      "event": 3,
+      "degree": 1,
+      "lipschitz_bound": 3.546742678824395,
+      "epsilon": 0.17015373397753347,
+      "tail_bound": 0.028952293186497228,
+      "measured_vector_error": 0.014266734888278785,
+      "polynomial_far_residual": 2.1667294494687198e-16,
+      "source_tails": [
+        1.55030191572506e-05,
+        7.756510299563346e-06
+      ]
+    },
+    {
+      "n": 10,
+      "event": 3,
+      "degree": 2,
+      "lipschitz_bound": 3.546742678824395,
+      "epsilon": 0.12031685913972577,
+      "tail_bound": 0.014476146593248612,
+      "measured_vector_error": 0.007197125953151445,
+      "polynomial_far_residual": 2.2708128580273283e-16,
+      "source_tails": [
+        5.380239176173371e-08,
+        2.6893702452514587e-08
+      ]
+    },
+    {
+      "n": 10,
+      "event": 3,
+      "degree": 3,
+      "lipschitz_bound": 3.546742678824395,
+      "epsilon": 0.09823830411554893,
+      "tail_bound": 0.009650764395499077,
+      "measured_vector_error": 0.004817300712640978,
+      "polynomial_far_residual": 2.2123387519340152e-16,
+      "source_tails": [
+        1.6495038922148598e-10,
+        8.270232088119578e-11
+      ]
+    },
+    {
+      "n": 14,
+      "event": 1,
+      "degree": 1,
+      "lipschitz_bound": 2.4257217895140792,
+      "epsilon": 0.11863569742304556,
+      "tail_bound": 0.014074428703052418,
+      "measured_vector_error": 0.010617504611989506,
+      "polynomial_far_residual": 5.084655031889257e-16,
+      "source_tails": [
+        7.76557602161564e-06,
+        3.892815507803293e-06
+      ]
+    },
+    {
+      "n": 14,
+      "event": 1,
+      "degree": 2,
+      "lipschitz_bound": 2.4257217895140792,
+      "epsilon": 0.08388810613863093,
+      "tail_bound": 0.007037214351526208,
+      "measured_vector_error": 0.005352518365319199,
+      "polynomial_far_residual": 4.561362797975301e-16,
+      "source_tails": [
+        1.9142248610400638e-08,
+        9.587362660767214e-09
+      ]
+    },
+    {
+      "n": 14,
+      "event": 1,
+      "degree": 3,
+      "lipschitz_bound": 2.4257217895140792,
+      "epsilon": 0.06849435184269435,
+      "tail_bound": 0.004691476234350808,
+      "measured_vector_error": 0.003577811728434537,
+      "polynomial_far_residual": 4.353195980858084e-16,
+      "source_tails": [
+        5.834893334538346e-11,
+        2.9314132374825664e-11
+      ]
+    },
+    {
+      "n": 14,
+      "event": 2,
+      "degree": 1,
+      "lipschitz_bound": 3.0690100408050256,
+      "epsilon": 0.15009724040206981,
+      "tail_bound": 0.02252918157631674,
+      "measured_vector_error": 0.01277977422897218,
+      "polynomial_far_residual": 3.6211631815973037e-16,
+      "source_tails": [
+        1.1288240877527318e-05,
+        5.6556243677609715e-06
+      ]
+    },
+    {
+      "n": 14,
+      "event": 2,
+      "degree": 2,
+      "lipschitz_bound": 3.0690100408050256,
+      "epsilon": 0.10613477652569099,
+      "tail_bound": 0.011264590788158368,
+      "measured_vector_error": 0.006440024825146998,
+      "polynomial_far_residual": 3.129604463975745e-16,
+      "source_tails": [
+        4.007777411304685e-08,
+        2.0051809922552498e-08
+      ]
+    },
+    {
+      "n": 14,
+      "event": 2,
+      "degree": 3,
+      "lipschitz_bound": 3.0690100408050256,
+      "epsilon": 0.08665868215075498,
+      "tail_bound": 0.00750972719210558,
+      "measured_vector_error": 0.004306976375582156,
+      "polynomial_far_residual": 3.2302355844039647e-16,
+      "source_tails": [
+        1.2648112428084122e-10,
+        6.346396217634557e-11
+      ]
+    },
+    {
+      "n": 14,
+      "event": 3,
+      "degree": 1,
+      "lipschitz_bound": 3.569445219411694,
+      "epsilon": 0.17457221386591512,
+      "tail_bound": 0.030475457854046806,
+      "measured_vector_error": 0.014945526067750391,
+      "polynomial_far_residual": 2.551751979341052e-16,
+      "source_tails": [
+        1.5494789285811586e-05,
+        7.752390904054341e-06
+      ]
+    },
+    {
+      "n": 14,
+      "event": 3,
+      "degree": 2,
+      "lipschitz_bound": 3.569445219411694,
+      "epsilon": 0.12344119623133681,
+      "tail_bound": 0.015237728927023401,
+      "measured_vector_error": 0.0075216559658373575,
+      "polynomial_far_residual": 2.3539092932972465e-16,
+      "source_tails": [
+        5.3745839005141585e-08,
+        2.6865479611891512e-08
+      ]
+    },
+    {
+      "n": 14,
+      "event": 3,
+      "degree": 3,
+      "lipschitz_bound": 3.569445219411694,
+      "epsilon": 0.10078931466851503,
+      "tail_bound": 0.010158485951348939,
+      "measured_vector_error": 0.005030955624037072,
+      "polynomial_far_residual": 2.2189090092274103e-16,
+      "source_tails": [
+        1.6475880218984434e-10,
+        8.260662264731404e-11
+      ]
+    }
+  ]
+}

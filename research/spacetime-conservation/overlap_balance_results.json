@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "seed": 20261128,
+  "symbolic": {
+    "coordinate_cover": "sum Pij=(n-1)I; Eij=Pij/(n-1)",
+    "common_line_obstruction": "sum weights=1 by e1 expectation, but sum weights=3/2 by trace in n=3",
+    "outgoing_current": "Jab=sum Re tr(Ea T Eb [T,K])",
+    "continuity": "Delta qa + sum_b Jab =0",
+    "noncommuting_effect_check": "exact positive normalized trine effects with pinned BFG two-mode channel",
+    "exact_noncommuting_delta": [
+      "-2/3 + 62*sqrt(1001)/3003",
+      "1/3 - 31*sqrt(1001)/3003",
+      "1/3 - 31*sqrt(1001)/3003"
+    ]
+  },
+  "source": {
+    "calls": 8,
+    "continuity_residual": 2.7531767186819497e-16,
+    "antisymmetry_residual": 3.699300751813071e-17,
+    "partition_residual": 0.0,
+    "total_stock_residual": 8.881784197001252e-16,
+    "gauge_residual": 1.2136532123497184e-15,
+    "largest_current": 0.0008361310309727771,
+    "cases": [
+      {
+        "n": 3,
+        "case": 0,
+        "sectors": 3,
+        "total_stock": 1.0,
+        "unnormalized_pair_stock": 2.0,
+        "largest_current": 0.0008299686905422244,
+        "stock_change_norm": 0.001079880293981848
+      },
+      {
+        "n": 3,
+        "case": 1,
+        "sectors": 3,
+        "total_stock": 1.0,
+        "unnormalized_pair_stock": 2.0,
+        "largest_current": 0.0008361310309727771,
+        "stock_change_norm": 0.0020187574267831504
+      },
+      {
+        "n": 3,
+        "case": 2,
+        "sectors": 3,
+        "total_stock": 1.0,
+        "unnormalized_pair_stock": 2.0,
+        "largest_current": 0.0004969998374372165,
+        "stock_change_norm": 0.0004675541809904361
+      },
+      {
+        "n": 4,
+        "case": 0,
+        "sectors": 6,
+        "total_stock": 1.0000000000000002,
+        "unnormalized_pair_stock": 3.000000000000001,
+        "largest_current": 0.00034854357279885066,
+        "stock_change_norm": 0.0017113099206445461
+      },
+      {
+        "n": 4,
+        "case": 1,
+        "sectors": 6,
+        "total_stock": 1.0,
+        "unnormalized_pair_stock": 3.0,
+        "largest_current": 0.00027441393013154616,
+        "stock_change_norm": 0.0009695119433644786
+      },
+      {
+        "n": 4,
+        "case": 2,
+        "sectors": 6,
+        "total_stock": 0.9999999999999998,
+        "unnormalized_pair_stock": 2.999999999999999,
+        "largest_current": 0.00024803892021529753,
+        "stock_change_norm": 0.000991491208847736
+      }
+    ]
+  },
+  "scope": "Normalized overlapping-effect kernel continuity in fixed full persistence. Cover choice and kernel coherences retained; no physical energy-momentum current or spatial law inferred."
+}

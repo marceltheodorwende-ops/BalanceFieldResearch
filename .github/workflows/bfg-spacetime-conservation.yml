@@ -1,0 +1,115 @@
+name: BFG spacetime and conservation controls
+on:
+  push:
+    branches: [research/bfg-spacetime-conservation]
+    paths:
+      - 'research/spacetime-conservation/**'
+      - 'experiments/real-eeg-covariance-2026-10-07/experiment.py'
+      - '.github/workflows/bfg-spacetime-conservation.yml'
+  pull_request:
+    paths:
+      - 'research/spacetime-conservation/**'
+      - 'experiments/real-eeg-covariance-2026-10-07/experiment.py'
+      - '.github/workflows/bfg-spacetime-conservation.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: bfg-spacetime-conservation-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  finite-controls:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r research/spacetime-conservation/requirements.txt
+      - working-directory: papers/dynamic-order-2026-10-08
+        run: sha256sum -c SHA256SUMS
+      - run: python research/spacetime-conservation/audit.py
+      - run: python research/spacetime-conservation/pair_audit.py
+      - run: python research/spacetime-conservation/stable_pair_audit.py
+      - run: python research/spacetime-conservation/component_exchange_audit.py
+      - run: python research/spacetime-conservation/clock_audit.py
+      - run: python research/spacetime-conservation/relational_frame_audit.py
+      - run: python research/spacetime-conservation/eventual_class_audit.py
+      - run: python research/spacetime-conservation/lex_selector_audit.py
+      - run: python research/spacetime-conservation/mode_graph_audit.py
+      - run: python research/spacetime-conservation/population_closure_audit.py
+      - run: python research/spacetime-conservation/channel_range_audit.py
+      - run: python research/spacetime-conservation/adjacency_evolution_audit.py
+      - run: python research/spacetime-conservation/composition_audit.py
+      - run: python research/spacetime-conservation/multievent_range_audit.py
+      - run: python research/spacetime-conservation/interpolation_audit.py
+      - run: python research/spacetime-conservation/weak_splitting_audit.py
+      - run: python research/spacetime-conservation/small_load_audit.py
+      - run: python research/spacetime-conservation/relative_slow_audit.py
+      - run: python research/spacetime-conservation/uniform_lift_audit.py
+      - run: python research/spacetime-conservation/imbalance_audit.py
+      - run: python research/spacetime-conservation/critical_lift_audit.py
+      - run: python research/spacetime-conservation/extra_level_audit.py
+      - run: python research/spacetime-conservation/finite_splitting_audit.py
+      - run: python research/spacetime-conservation/lower_pair_memory_audit.py
+      - run: python research/spacetime-conservation/lower_pair_lift_audit.py
+      - run: python research/spacetime-conservation/lower_pair_formation_audit.py
+      - run: python research/spacetime-conservation/lower_pair_signed_audit.py
+      - run: python research/spacetime-conservation/two_sided_pair_audit.py
+      - run: python research/spacetime-conservation/spectral_gap_audit.py
+      - run: python research/spacetime-conservation/formation_bound_audit.py
+      - run: python research/spacetime-conservation/telescoping_memory_audit.py
+      - run: python research/spacetime-conservation/selector_stability_audit.py
+      - run: python research/spacetime-conservation/tie_ambiguity_audit.py
+      - run: python research/spacetime-conservation/pair_family_audit.py
+      - run: python research/spacetime-conservation/pair_closure_audit.py
+      - run: python research/spacetime-conservation/overlap_balance_audit.py
+      - run: python research/spacetime-conservation/moving_cover_audit.py
+      - run: python research/spacetime-conservation/rank_local_balance_audit.py
+      - working-directory: research/spacetime-conservation
+        run: python -m unittest -v test_audit
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: bfg-spacetime-finite-controls
+          path: |
+            research/spacetime-conservation/results.json
+            research/spacetime-conservation/pair_results.json
+            research/spacetime-conservation/stable_pair_results.json
+            research/spacetime-conservation/component_exchange_results.json
+            research/spacetime-conservation/clock_results.json
+            research/spacetime-conservation/relational_frame_results.json
+            research/spacetime-conservation/eventual_class_results.json
+            research/spacetime-conservation/lex_selector_results.json
+            research/spacetime-conservation/mode_graph_results.json
+            research/spacetime-conservation/population_closure_results.json
+            research/spacetime-conservation/channel_range_results.json
+            research/spacetime-conservation/adjacency_evolution_results.json
+            research/spacetime-conservation/composition_results.json
+            research/spacetime-conservation/multievent_range_results.json
+            research/spacetime-conservation/interpolation_results.json
+            research/spacetime-conservation/weak_splitting_results.json
+            research/spacetime-conservation/small_load_results.json
+            research/spacetime-conservation/relative_slow_results.json
+            research/spacetime-conservation/uniform_lift_results.json
+            research/spacetime-conservation/imbalance_results.json
+            research/spacetime-conservation/critical_lift_results.json
+            research/spacetime-conservation/extra_level_results.json
+            research/spacetime-conservation/finite_splitting_results.json
+
+            research/spacetime-conservation/lower_pair_memory_results.json
+            research/spacetime-conservation/lower_pair_lift_results.json
+            research/spacetime-conservation/lower_pair_formation_results.json
+            research/spacetime-conservation/lower_pair_signed_results.json
+            research/spacetime-conservation/two_sided_pair_results.json
+            research/spacetime-conservation/spectral_gap_results.json
+            research/spacetime-conservation/formation_bound_results.json
+            research/spacetime-conservation/telescoping_memory_results.json
+            research/spacetime-conservation/selector_stability_results.json
+            research/spacetime-conservation/tie_ambiguity_results.json
+            research/spacetime-conservation/pair_family_results.json
+            research/spacetime-conservation/pair_closure_results.json
+            research/spacetime-conservation/overlap_balance_results.json
+            research/spacetime-conservation/moving_cover_results.json
+            research/spacetime-conservation/rank_local_balance_results.json

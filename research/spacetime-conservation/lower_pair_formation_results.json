@@ -1,0 +1,210 @@
+{
+  "status": "PASS",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "seed": 20261117,
+  "certificate": {
+    "numerator_lower": "541665266387/163840000000",
+    "numerator_mass": "769054733613/163840000000",
+    "denominator_lower": "3119687164519/409600000000",
+    "denominator_mass": "3433912835481/409600000000",
+    "rho_enclosure": "[3/8,13/8] contains [25/64,25/16]",
+    "method": "constant minus absolute nonconstant coefficient mass"
+  },
+  "symbolic": {
+    "boundary_r": "(-b**2/4 + r)/(b**2*(2 - d)/4 + d*r + r**2 + 1)",
+    "boundary_b": "b*(1 - r)/(b**2*(2 - d)/4 + d*r + r**2 + 1)",
+    "boundary_mu": "b**2*(1 - d)/2 + 2*d*r + r**2 + 1",
+    "negative_imbalance_witness": {
+      "r": "1/20",
+      "q": "1/10",
+      "delta": "-1/2",
+      "r_next": "15998/312805",
+      "old_monotonicity": "FAIL as predicted: r_next > r"
+    }
+  },
+  "positive_load_prefixes": [
+    {
+      "delta": "0",
+      "q0": ".1",
+      "events": 6,
+      "precision_digits": 500,
+      "final_s": "1.60219566265905244e-173",
+      "final_r": "0.094196783126200482",
+      "final_q": "0.0541294234016141962",
+      "prefix_sum_b2": "0.000365049593375800915",
+      "remaining_sum_bound": "0.000551992108770928902",
+      "coherence_product": "0.999778251314649971",
+      "all_event_loss_bound": "0.00182857142857142857"
+    },
+    {
+      "delta": "0",
+      "q0": ".5",
+      "events": 6,
+      "precision_digits": 500,
+      "final_s": "1.69459835723570447e-173",
+      "final_r": "0.0918252024305499541",
+      "final_q": "0.279235117355944568",
+      "prefix_sum_b2": "0.00912474116843581932",
+      "remaining_sum_bound": "0.014319635420884548",
+      "coherence_product": "0.994478801184379162",
+      "all_event_loss_bound": "0.0457142857142857143"
+    },
+    {
+      "delta": ".25",
+      "q0": ".1",
+      "events": 6,
+      "precision_digits": 500,
+      "final_s": "6.9753199377871486e-173",
+      "final_r": "0.0827441285617932019",
+      "final_q": "0.0560518812239112033",
+      "prefix_sum_b2": "0.000339187157804019542",
+      "remaining_sum_bound": "0.000519933221910040309",
+      "coherence_product": "0.999796514766788085",
+      "all_event_loss_bound": "0.00182857142857142857"
+    },
+    {
+      "delta": ".25",
+      "q0": ".5",
+      "events": 6,
+      "precision_digits": 500,
+      "final_s": "7.25376405963870108e-173",
+      "final_r": "0.080895532345187935",
+      "final_q": "0.288570929896597669",
+      "prefix_sum_b2": "0.00848410464863657555",
+      "remaining_sum_bound": "0.0134728567082076145",
+      "coherence_product": "0.994927135596328998",
+      "all_event_loss_bound": "0.0457142857142857143"
+    },
+    {
+      "delta": ".5",
+      "q0": ".1",
+      "events": 6,
+      "precision_digits": 500,
+      "final_s": "2.79031158910449943e-172",
+      "final_r": "0.0737497042985436901",
+      "final_q": "0.0577421667398585496",
+      "prefix_sum_b2": "0.000317577925728095431",
+      "remaining_sum_bound": "0.000491786306591864199",
+      "coherence_product": "0.999811562845439467",
+      "all_event_loss_bound": "0.00182857142857142857"
+    },
+    {
+      "delta": ".5",
+      "q0": ".5",
+      "events": 6,
+      "precision_digits": 500,
+      "final_s": "2.85991246611230824e-172",
+      "final_r": "0.0722685649463780955",
+      "final_q": "0.296783189050291984",
+      "prefix_sum_b2": "0.0079476890441478005",
+      "remaining_sum_bound": "0.0127308681689195778",
+      "coherence_product": "0.995297760365787377",
+      "all_event_loss_bound": "0.0457142857142857143"
+    }
+  ],
+  "source": {
+    "calls": 14,
+    "kernel_residual": 2.1889543413787788e-15,
+    "gauge_residual": 2.9945126497314727e-15,
+    "normalized_load_residual": 2.308039498608475e-13,
+    "cases": [
+      {
+        "r": 0.1,
+        "q": 0.1,
+        "delta": 0.0,
+        "r_next": 0.09878348273080917,
+        "q_next": 0.09004023234149346,
+        "V_decrement": 0.00019913825763941617
+      },
+      {
+        "r": 0.1,
+        "q": 0.1,
+        "delta": 0.25,
+        "r_next": 0.09639315214557154,
+        "q_next": 0.09003973231021621,
+        "V_decrement": 0.00021852592937691919
+      },
+      {
+        "r": 0.1,
+        "q": 0.1,
+        "delta": 0.5,
+        "r_next": 0.09411543566832548,
+        "q_next": 0.09003923220389691,
+        "V_decrement": 0.00023700020215414457
+      },
+      {
+        "r": 0.1,
+        "q": 0.5,
+        "delta": 0.0,
+        "r_next": 0.09807510571217781,
+        "q_next": 0.452914328102839,
+        "V_decrement": 0.0048817173780861985
+      },
+      {
+        "r": 0.1,
+        "q": 0.5,
+        "delta": 0.25,
+        "r_next": 0.09571848318755115,
+        "q_next": 0.45291196415242513,
+        "V_decrement": 0.005365339593681032
+      },
+      {
+        "r": 0.1,
+        "q": 0.5,
+        "delta": 0.5,
+        "r_next": 0.09347212741605593,
+        "q_next": 0.4529095998472354,
+        "V_decrement": 0.005826333045712288
+      },
+      {
+        "r": 0.2,
+        "q": 0.1,
+        "delta": 0.0,
+        "r_next": 0.19179748530360113,
+        "q_next": 0.08007029607928805,
+        "V_decrement": 0.0007703379284847811
+      },
+      {
+        "r": 0.2,
+        "q": 0.1,
+        "delta": 0.25,
+        "r_next": 0.1829855292143117,
+        "q_next": 0.08006829466279704,
+        "V_decrement": 0.0008268922499521346
+      },
+      {
+        "r": 0.2,
+        "q": 0.1,
+        "delta": 0.5,
+        "r_next": 0.17494541285885667,
+        "q_next": 0.08006629264546691,
+        "V_decrement": 0.0008784929737912011
+      },
+      {
+        "r": 0.2,
+        "q": 0.5,
+        "delta": 0.0,
+        "r_next": 0.18862680312959162,
+        "q_next": 0.4052076569921532,
+        "V_decrement": 0.01902875304640427
+      },
+      {
+        "r": 0.2,
+        "q": 0.5,
+        "delta": 0.25,
+        "r_next": 0.1800968963460818,
+        "q_next": 0.40519813743729977,
+        "V_decrement": 0.020430695517128814
+      },
+      {
+        "r": 0.2,
+        "q": 0.5,
+        "delta": 0.5,
+        "r_next": 0.17230283760222764,
+        "q_next": 0.40518861502448894,
+        "V_decrement": 0.021711696820326632
+      }
+    ]
+  },
+  "scope": "One-sided block formation imbalance delta in [0,1/2]; upper load degeneracy retained. Negative-delta boundary counterexample to old r monotonicity retained."
+}

@@ -1,0 +1,113 @@
+{
+  "status": "PASS; finite-horizon internal composition, physical transport OPEN",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "seed": 20261104,
+  "tolerance": 1e-10,
+  "full_source_calls": 28,
+  "maximum_residuals": {
+    "source": 6.8119853618535736e-15,
+    "words": 6.098719151191786e-15,
+    "population": 6.550790564792688e-15,
+    "stochastic": 9.022910318136673e-15,
+    "symmetry": 0.0,
+    "gauge": 9.125647123238082e-16
+  },
+  "cases": [
+    {
+      "n": 3,
+      "event": 1,
+      "kraus_words": 2,
+      "minimum_gram_eigenvalue": -1.2874693797831687e-16,
+      "markov_matrix_difference": 3.2732530539435854e-15,
+      "endpoint_population": 7.765360973584158e-06
+    },
+    {
+      "n": 3,
+      "event": 2,
+      "kraus_words": 4,
+      "minimum_gram_eigenvalue": 1.1550689905158709e-05,
+      "markov_matrix_difference": 6.596090328744219e-06,
+      "endpoint_population": 1.1302011199587625e-05
+    },
+    {
+      "n": 3,
+      "event": 3,
+      "kraus_words": 8,
+      "minimum_gram_eigenvalue": 2.4914864617242662e-05,
+      "markov_matrix_difference": 1.3076773990212958e-05,
+      "endpoint_population": 1.556056741180284e-05
+    },
+    {
+      "n": 4,
+      "event": 1,
+      "kraus_words": 2,
+      "minimum_gram_eigenvalue": -3.947353271108105e-16,
+      "markov_matrix_difference": 3.0238753026478375e-15,
+      "endpoint_population": 1.9176109107854622e-08
+    },
+    {
+      "n": 4,
+      "event": 2,
+      "kraus_words": 4,
+      "minimum_gram_eigenvalue": 1.1632150562446615e-08,
+      "markov_matrix_difference": 1.1140019867803615e-05,
+      "endpoint_population": 4.023138690677268e-08
+    },
+    {
+      "n": 4,
+      "event": 3,
+      "kraus_words": 8,
+      "minimum_gram_eigenvalue": 4.65424479382238e-08,
+      "markov_matrix_difference": 2.2027622788887055e-05,
+      "endpoint_population": 5.411766385469632e-08
+    },
+    {
+      "n": 5,
+      "event": 1,
+      "kraus_words": 2,
+      "minimum_gram_eigenvalue": -1.0921377475790175e-16,
+      "markov_matrix_difference": 4.403502259111302e-15,
+      "endpoint_population": 5.822711525756231e-11
+    },
+    {
+      "n": 5,
+      "event": 2,
+      "kraus_words": 4,
+      "minimum_gram_eigenvalue": 3.4570860559479847e-16,
+      "markov_matrix_difference": 1.4368831532463325e-05,
+      "endpoint_population": 1.26541243917948e-10
+    },
+    {
+      "n": 5,
+      "event": 3,
+      "kraus_words": 8,
+      "minimum_gram_eigenvalue": 5.842930244509158e-11,
+      "markov_matrix_difference": 2.837350082287983e-05,
+      "endpoint_population": 1.6517502527742987e-10
+    },
+    {
+      "n": 6,
+      "event": 1,
+      "kraus_words": 2,
+      "minimum_gram_eigenvalue": -4.432862966632221e-16,
+      "markov_matrix_difference": 2.722343461494113e-15,
+      "endpoint_population": 2.782742001467375e-13
+    },
+    {
+      "n": 6,
+      "event": 2,
+      "kraus_words": 4,
+      "minimum_gram_eigenvalue": -3.031490410918839e-16,
+      "markov_matrix_difference": 1.69901308481619e-05,
+      "endpoint_population": 5.790561317824706e-13
+    },
+    {
+      "n": 6,
+      "event": 3,
+      "kraus_words": 8,
+      "minimum_gram_eigenvalue": 1.235187082058061e-13,
+      "markov_matrix_difference": 3.3525254460658946e-05,
+      "endpoint_population": 7.175493631218188e-13
+    }
+  ]
+}

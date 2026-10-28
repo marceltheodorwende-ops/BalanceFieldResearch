@@ -1,0 +1,61 @@
+{
+  "status": "PASS: labelled pair reduction fails non-scalar fibre closure; native full-kernel completion identified",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "seed": 20261127,
+  "symbolic": {
+    "exact_alpha": "98101/5854501",
+    "h_plus_squared_minus_h_minus_squared": "1642718953898217/43174166750550284",
+    "source_hidden_phase": "Phi(J)=(h_plus-h_minus)J13/2+(h_plus+h_minus)J23/2",
+    "output_W_image_distance": "(h_plus-h_minus)/12 >0",
+    "native_completion": "i[F,W]=(2/9)J; tr(i[F,W]K\u00b1)=\u00b11/27",
+    "initial_image_rank": 8,
+    "completed_image_rank": 9
+  },
+  "source": {
+    "calls": 8,
+    "kernel_residual": 3.022367231926356e-16,
+    "image_separation_residual": 1.235990476633475e-17,
+    "field_residual": 7.483328527857331e-16,
+    "gauge_residual": 6.218062178924354e-16,
+    "initial_fibre_residual": 7.517135062566164e-19,
+    "cases": [
+      {
+        "load_coupling": 0.005,
+        "h_minus": 0.9746685811231756,
+        "h_plus": 0.9843287703802581,
+        "initial_labelled_images_equal": true,
+        "output_W_image_distance": 0.000805015771423544,
+        "exact_prediction": 0.000805015771423547,
+        "commutator_completion_values": [
+          -0.037037037037037035,
+          0.037037037037037035
+        ]
+      },
+      {
+        "load_coupling": 0.01,
+        "h_minus": 0.968653055501128,
+        "h_plus": 0.9880978678394758,
+        "initial_labelled_images_equal": true,
+        "output_W_image_distance": 0.0016204010281956646,
+        "exact_prediction": 0.0016204010281956522,
+        "commutator_completion_values": [
+          -0.037037037037037035,
+          0.037037037037037035
+        ]
+      },
+      {
+        "load_coupling": 0.02,
+        "h_minus": 0.9539406348294881,
+        "h_plus": 0.9938115841994448,
+        "initial_labelled_images_equal": true,
+        "output_W_image_distance": 0.003322579114163055,
+        "exact_prediction": 0.00332257911416306,
+        "commutator_completion_values": [
+          -0.037037037037037035,
+          0.037037037037037035
+        ]
+      }
+    ]
+  },
+  "scope": "Counterexample for this rank-eight pair-image reduction, not every reduction or BFG. Adding one native commutator scalar restores nine real kernel coordinates in this example, not a four-dimensional physical carrier."
+}

@@ -1,0 +1,7 @@
+# Round 34 preregistration: information in a labelled family of pair sectors
+
+Use same exact F,W and scalar-load positive-persistence family as round33. Treat the competing sectors as labelled projectors, preserving which compression belongs to which P; do not silently quotient away projector labels. Investigate K -> {P_tau K P_tau} for H_tau=F+tau W. Test real-linear rank on Herm(C³) for tau=0,12 and pure W: expected at most nine and potentially eight, not assume four. Determine exact nullspace. Candidate invisible direction J=i(|2><3|-|3><2|), test P_tau J P_tau=0 for the whole real candidate family. Positive fibre witness K±=I/3±J/12. Do not call a hidden direction a fibre-closure failure unless future labelled compressions actually separate.
+
+Natural alternative: all labelled rank-two projectors. Prove they separate Herm(C^n), n>=3, hence retaining all sectors can retain n² real kernel parameters rather than select a four-dimensional local carrier. This is information counting, not a Lorentz or energy statement.
+
+Fresh exact evidence: rational finite projector set (PF, P12 with lower block [[4/5,2/5],[2/5,1/5]], PW), real-linear rank/nullspace, positive K± principal minors/eigenvalues and general tau invisible-direction identity. Fresh source y=.05,.1,.2 crossed K± (six calls), plus two complex gauges (eight total), tolerance1e-10 for image, hidden-state, field and covariance residuals. Original source carrier stays rank3. No invented selection weights or physical law.

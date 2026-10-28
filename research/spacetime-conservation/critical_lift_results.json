@@ -1,0 +1,215 @@
+{
+  "status": "PASS: uniform critical-imbalance lifting to exact positive-load sector",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "tolerance": 1e-10,
+  "seed": 20261112,
+  "rectangle_certificates": {
+    "C_R": {
+      "numerator_mass": "2216941787/1024000000",
+      "denominator_lower": "664822389749/819200000000",
+      "rational_bound": "1773553429600/664822389749",
+      "integer_bound": 3
+    },
+    "C_L": {
+      "numerator_mass": "229628509/163840000",
+      "denominator_lower": "12697894439/16384000000",
+      "rational_bound": "22962850900/12697894439",
+      "integer_bound": 2
+    }
+  },
+  "long_recurrence": {
+    "C_T_at_half": 40.33520163304259,
+    "cases": [
+      {
+        "kappa": -0.5,
+        "cases": [
+          {
+            "epsilon": 0.1,
+            "initial_scale": 0.0001,
+            "derived_steps": 50,
+            "positive_scale_prefix": 5,
+            "cutoff_scale": "2.493595539e-119",
+            "bootstrap_quantity": 0.004033520163304259,
+            "normalized_amplitude_difference": 9.184974827681312e-05,
+            "amplitude_bound": 0.004033520163304259,
+            "log_kernel_difference": 6.097394523042316e-05,
+            "log_kernel_bound": 0.008084040326608517,
+            "continuum_amplitude_error": 0.0005649976462472829,
+            "continuum_decay_error": 0.001164539790385823
+          },
+          {
+            "epsilon": 0.05,
+            "initial_scale": 6.25e-06,
+            "derived_steps": 200,
+            "positive_scale_prefix": 4,
+            "cutoff_scale": "1.809681571e-79",
+            "bootstrap_quantity": 0.00025209501020651617,
+            "normalized_amplitude_difference": 5.735118321634715e-06,
+            "amplitude_bound": 0.00025209501020651617,
+            "log_kernel_difference": 3.844053660170536e-06,
+            "log_kernel_bound": 0.0005044556454130323,
+            "continuum_amplitude_error": 0.00012359352427302454,
+            "continuum_decay_error": 0.0002988923877540271
+          },
+          {
+            "epsilon": 0.025,
+            "initial_scale": 3.90625e-07,
+            "derived_steps": 800,
+            "positive_scale_prefix": 4,
+            "cutoff_scale": "9.674795877e-99",
+            "bootstrap_quantity": 1.575593813790726e-05,
+            "normalized_amplitude_difference": 3.5837786356526187e-07,
+            "amplitude_bound": 1.575593813790726e-05,
+            "log_kernel_difference": 2.407691341430981e-07,
+            "log_kernel_bound": 3.151602666643952e-05,
+            "continuum_amplitude_error": 2.979634434138444e-05,
+            "continuum_decay_error": 7.521554506623515e-05
+          },
+          {
+            "epsilon": 0.0125,
+            "initial_scale": 2.44140625e-08,
+            "derived_steps": 3200,
+            "positive_scale_prefix": 4,
+            "cutoff_scale": "5.226361299e-118",
+            "bootstrap_quantity": 9.847461336192038e-07,
+            "normalized_amplitude_difference": 2.2397641542093024e-08,
+            "amplitude_bound": 9.847461336192038e-07,
+            "log_kernel_difference": 1.5056120625860705e-08,
+            "log_kernel_bound": 1.969557117091923e-06,
+            "continuum_amplitude_error": 7.380226910229148e-06,
+            "continuum_decay_error": 1.883478289971289e-05
+          }
+        ]
+      },
+      {
+        "kappa": 0.0,
+        "cases": [
+          {
+            "epsilon": 0.1,
+            "initial_scale": 0.0001,
+            "derived_steps": 50,
+            "positive_scale_prefix": 5,
+            "cutoff_scale": "2.89938261e-119",
+            "bootstrap_quantity": 0.004033520163304259,
+            "normalized_amplitude_difference": 7.143898208060478e-05,
+            "amplitude_bound": 0.004033520163304259,
+            "log_kernel_difference": 4.970076366720672e-05,
+            "log_kernel_bound": 0.008084040326608517,
+            "continuum_amplitude_error": 0.0006870626090651215,
+            "continuum_decay_error": 0.0013801648503406851
+          },
+          {
+            "epsilon": 0.05,
+            "initial_scale": 6.25e-06,
+            "derived_steps": 200,
+            "positive_scale_prefix": 4,
+            "cutoff_scale": "1.843711967e-79",
+            "bootstrap_quantity": 0.00025209501020651617,
+            "normalized_amplitude_difference": 4.430464648809578e-06,
+            "amplitude_bound": 0.00025209501020651617,
+            "log_kernel_difference": 3.1204528152097847e-06,
+            "log_kernel_bound": 0.0005044556454130323,
+            "continuum_amplitude_error": 0.0001577801366855199,
+            "continuum_decay_error": 0.00035163491174923864
+          },
+          {
+            "epsilon": 0.025,
+            "initial_scale": 3.90625e-07,
+            "derived_steps": 800,
+            "positive_scale_prefix": 4,
+            "cutoff_scale": "9.720179543e-99",
+            "bootstrap_quantity": 1.575593813790726e-05,
+            "normalized_amplitude_difference": 2.763849274500424e-07,
+            "amplitude_bound": 1.575593813790726e-05,
+            "log_kernel_difference": 1.9524193872529153e-07,
+            "log_kernel_bound": 3.151602666643952e-05,
+            "continuum_amplitude_error": 3.8579227190501476e-05,
+            "continuum_decay_error": 8.832435002446169e-05
+          },
+          {
+            "epsilon": 0.0125,
+            "initial_scale": 2.44140625e-08,
+            "derived_steps": 3200,
+            "positive_scale_prefix": 4,
+            "cutoff_scale": "5.232487058e-118",
+            "bootstrap_quantity": 9.847461336192038e-07,
+            "normalized_amplitude_difference": 1.726602140880218e-08,
+            "amplitude_bound": 9.847461336192038e-07,
+            "log_kernel_difference": 1.2205930625973706e-08,
+            "log_kernel_bound": 1.969557117091923e-06,
+            "continuum_amplitude_error": 9.590818541464188e-06,
+            "continuum_decay_error": 2.2107117516069403e-05
+          }
+        ]
+      },
+      {
+        "kappa": 0.5,
+        "cases": [
+          {
+            "epsilon": 0.1,
+            "initial_scale": 0.0001,
+            "derived_steps": 50,
+            "positive_scale_prefix": 5,
+            "cutoff_scale": "3.364890771e-119",
+            "bootstrap_quantity": 0.004033520163304259,
+            "normalized_amplitude_difference": 5.6742990992828095e-05,
+            "amplitude_bound": 0.004033520163304259,
+            "log_kernel_difference": 4.164272374866001e-05,
+            "log_kernel_bound": 0.008084040326608517,
+            "continuum_amplitude_error": 0.0006835901032957463,
+            "continuum_decay_error": 0.001554251400171105
+          },
+          {
+            "epsilon": 0.05,
+            "initial_scale": 6.25e-06,
+            "derived_steps": 200,
+            "positive_scale_prefix": 4,
+            "cutoff_scale": "1.878276131e-79",
+            "bootstrap_quantity": 0.00025209501020651617,
+            "normalized_amplitude_difference": 3.494301543811734e-06,
+            "amplitude_bound": 0.00025209501020651617,
+            "log_kernel_difference": 2.6036602657755276e-06,
+            "log_kernel_bound": 0.0005044556454130323,
+            "continuum_amplitude_error": 0.00015960090440688858,
+            "continuum_decay_error": 0.00039465608753670993
+          },
+          {
+            "epsilon": 0.025,
+            "initial_scale": 3.90625e-07,
+            "derived_steps": 800,
+            "positive_scale_prefix": 4,
+            "cutoff_scale": "9.765741013e-99",
+            "bootstrap_quantity": 1.575593813790726e-05,
+            "normalized_amplitude_difference": 2.176011189972729e-07,
+            "amplitude_bound": 1.575593813790726e-05,
+            "log_kernel_difference": 1.6273251999948377e-07,
+            "log_kernel_bound": 3.151602666643952e-05,
+            "continuum_amplitude_error": 3.9206623710293906e-05,
+            "continuum_decay_error": 9.90451253330808e-05
+          },
+          {
+            "epsilon": 0.0125,
+            "initial_scale": 2.44140625e-08,
+            "derived_steps": 3200,
+            "positive_scale_prefix": 4,
+            "cutoff_scale": "5.238618815e-118",
+            "bootstrap_quantity": 9.847461336192038e-07,
+            "normalized_amplitude_difference": 1.3587767017642736e-08,
+            "amplitude_bound": 9.847461336192038e-07,
+            "log_kernel_difference": 1.0170795708531266e-08,
+            "log_kernel_bound": 1.969557117091923e-06,
+            "continuum_amplitude_error": 9.75849470376403e-06,
+            "continuum_decay_error": 2.478510234883487e-05
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "full_source_calls": 14,
+    "maximum_source_residual": 1.8136970597226461e-13,
+    "maximum_gauge_residual": 2.2740806892628426e-14
+  },
+  "precision_decimal_digits": 80,
+  "scope": "Exact coefficient proof; reduced high-precision prefixes and bounded tails are separate from short original-source calls and physical time"
+}

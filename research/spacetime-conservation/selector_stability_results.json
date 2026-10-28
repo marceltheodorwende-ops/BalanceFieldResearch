@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "source_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+  "seeds": [
+    20261123,
+    20261124
+  ],
+  "symbolic": {
+    "angle": "pi/12",
+    "input_operator_norm": "t*sin(pi/12)",
+    "projector_frobenius_norm": "sqrt(2)*sin(pi/12)",
+    "relative_input_error": "sin(pi/12) < 1/2",
+    "selector_bound": "2*epsilon/(gap-epsilon)",
+    "isotropic_obstruction": "all-unitary covariance forces scalar identity; rank-two orthogonal projector impossible at fully isotropic n=3 state"
+  },
+  "hermitian_perturbation_controls": [
+    {
+      "n": 3,
+      "error_gap_ratio": 0.01,
+      "projector_difference": 0.003329219823123495,
+      "proved_bound": 0.020202020202020204
+    },
+    {
+      "n": 3,
+      "error_gap_ratio": 0.1,
+      "projector_difference": 0.05938948258892752,
+      "proved_bound": 0.22222222222222204
+    },
+    {
+      "n": 3,
+      "error_gap_ratio": 0.25,
+      "projector_difference": 0.18803896287839822,
+      "proved_bound": 0.6666666666666665
+    },
+    {
+      "n": 4,
+      "error_gap_ratio": 0.01,
+      "projector_difference": 0.0055022828636859785,
+      "proved_bound": 0.020202020202020204
+    },
+    {
+      "n": 4,
+      "error_gap_ratio": 0.1,
+      "projector_difference": 0.05737456278118628,
+      "proved_bound": 0.22222222222222218
+    },
+    {
+      "n": 4,
+      "error_gap_ratio": 0.25,
+      "projector_difference": 0.12320471884540364,
+      "proved_bound": 0.666666666666667
+    }
+  ],
+  "source": {
+    "calls": 8,
+    "projector_residual": 1.699878893145283e-14,
+    "load_covariance_residual": 2.9531731004193714e-17,
+    "gauge_residual": 4.572393766546984e-14,
+    "cases": [
+      {
+        "t": 0.01,
+        "input_gap": 0.01,
+        "input_error": 0.0025881904510252113,
+        "source_output_gap": 0.0014657891907771045,
+        "source_output_error": 0.000379374158678527,
+        "source_projector_distance": 0.36602540378443593,
+        "predicted_constant_distance": 0.36602540378443865,
+        "gap_shrunk": true
+      },
+      {
+        "t": 0.005,
+        "input_gap": 0.005,
+        "input_error": 0.0012940952255126009,
+        "source_output_gap": 0.0007023185402724487,
+        "source_output_error": 0.00018177341395111057,
+        "source_projector_distance": 0.36602540378442217,
+        "predicted_constant_distance": 0.36602540378443865,
+        "gap_shrunk": true
+      },
+      {
+        "t": 0.0025,
+        "input_gap": 0.0025,
+        "input_error": 0.0006470476127563038,
+        "source_output_gap": 0.0003430961508672156,
+        "source_output_error": 8.879981814581856e-05,
+        "source_projector_distance": 0.36602540378443044,
+        "predicted_constant_distance": 0.36602540378443865,
+        "gap_shrunk": true
+      }
+    ]
+  },
+  "scope": "Gap-relative selector stability and no uniform absolute continuity at fully isotropic triple degeneracy. No chosen physical transport or impossibility for richer nonsymmetric state data."
+}

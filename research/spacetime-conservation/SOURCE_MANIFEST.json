@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-23",
+  "repository": "marceltheodorwende-ops/BalanceFieldResearch",
+  "baseline_commit": "457f23df6d9ccb15cf17916f3c3eac113b23c370",
+  "baseline_tree": "bc1118d5fe65ae7eea9fcb8644cf1357c71aeed4",
+  "active_source": {
+    "path": "papers/dynamic-order-2026-10-08/Balance_Field_Equation_Dynamic_Order.pdf",
+    "sha256": "1ad084a50c91a0827dd735d7cb8f666dc9e0c2552ed06b616cef28975babbdba",
+    "pages": 144,
+    "scope": "Parts I and II; sections II83-86, II89-91.1"
+  },
+  "existing_kernel": {
+    "path": "experiments/real-eeg-covariance-2026-10-07/experiment.py",
+    "git_blob": "ff8b0a7ec922ccfeacae5bc9ce6c104b79286498",
+    "sha256": "9f958f66c65795b4ff29b9433f668390dbfd57acc1c8ded32d81305c19f574dd",
+    "entry_point": "update",
+    "usage": "import only; no empirical download/evaluation"
+  },
+  "historical_einstein_document": {
+    "status": "Original not present in inspected branch; not a mathematical premise of this investigation",
+    "register_path": "research/fundamental-closure-2026-09-25/review/SOURCE_SEARCH.md"
+  },
+  "excluded_sources": [
+    "All Satoru/SIO/Braid sources"
+  ],
+  "instructions": {
+    "repository_agents_files": "None in the inspected baseline tree",
+    "unchanged": "Original manuscript, kernel, licenses and empirical results"
+  },
+  "verification_scope": "Local source-exact imported kernel; bounded synthetic/symbolic checks; no empirical or whole-repository correctness claim",
+  "archive_comparison_corpus": {
+    "authorization": "User authorized archival BFG comparison on 2026-10-26; comparison may identify pre-existing rules but may not introduce a new law.",
+    "role": "Comparison evidence only. The pinned Dynamic-Order manuscript remains the active dynamical source; an archival carrier, measurement, Hamiltonian, clock, or constitutive map counts as an additional assumption unless independently derived from the pinned dynamics.",
+    "files": [
+      {
+        "path": "C:/Users/getyo/Documents/Codex/2026-09-13/w/work/BalanceFieldResearch/papers/BFG_Unified_V4_Compact_Canonical_Universal_Reclosure_2026-09-12.pdf",
+        "sha256": "cc1083760ba0f9ce87a7c822fc1837f24e84425bf3ad12e2e776c1f2eb141fb2",
+        "used_for": "explicit scope statements on structural load, neutral fractions, physical-energy readout, carrier Hamiltonian, and time aggregation"
+      },
+      {
+        "path": "C:/Users/getyo/Documents/Codex/2026-09-13/w/work/BalanceFieldResearch/papers/BFG_Endogenous_Dual_Order_Strong_Universal_Canonical_Closure_Whitepaper_2026-09-08.pdf",
+        "sha256": "d88d6b83035bd4a7e8c872aba69ba1456b8f4615d16fbd5ccbbdaf69d2b84b52",
+        "used_for": "independent archival cross-check of the same readout and Hamiltonian limitations"
+      },
+      {
+        "path": "C:/Users/getyo/Documents/Codex/2026-09-13/w/outputs/BFG_Preprint_2026-09-21/manuscript_text.txt",
+        "sha256": "9cb12d42cd19297d6b068ebd120ebd35fecc6511712ef0e42b4b072dd1ece630",
+        "used_for": "structural-energy definition and explicit no-joule/no-physical-time scope"
+      },
+      {
+        "path": "C:/Users/getyo/Documents/Codex/2026-09-27/okay-was-sagt-dieses-paper-aus/work/github_publish/papers/BFG_Universal_Structural_Whitepaper_Strong_Form_V2.docx",
+        "sha256": "9784c915d4b060dae068258166fe46448694cd32055eed69b00ecda6703eb6c2",
+        "used_for": "Runde82 textual scope check: an archived Local Physical Closure Principle is explicitly introduced as a new physical principle, with separately stated quadratic-causality and consistency assumptions; it is not imported into the pinned dynamics"
+      },
+      {
+        "path": "C:/Users/getyo/Documents/Codex/2026-09-13/w/work/bfg-balance-laws-2026-09-26/AUDIT.md",
+        "sha256": "9581e197c8245cfce505737a7540297fab8a0325f201a4c760c853d698ed98c6",
+        "used_for": "Runde83 direct archived balance-law scope: full-law physical energy/charge conservation explicitly open because no fixed physical observable/units/bridge"
+      },
+      {
+        "path": "C:/Users/getyo/Documents/Codex/2026-09-13/w/work/bfg-balance-laws-2026-09-26/DERIVATION.md",
+        "sha256": "6e53a268d5bf62b1da8e6b2508d7eb30e7764539bc3fb871293d3968f8bd85ed",
+        "used_for": "Runde83 direct scope: formation-mass balance has no energy calibration; physical observable, continuum time and spatial locality remain required"
+      }
+    ],
+    "local_access_only": true
+  }
+}
