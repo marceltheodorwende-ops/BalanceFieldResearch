@@ -1,5 +1,40 @@
 # BFG empirical research program
 
+## Binding supersession — epilepsy-only EP01 (25 October 2026)
+
+The repository owner's 25 October 2026 instruction supersedes every active
+priority below that concerns pendulum work, time travel, or a new non-EEG
+physics, chemistry, or biology experiment.  Those passages and their results
+remain historical records only; they do not authorize new work, downloads,
+delegation, or publication in the current program.
+
+The single active package is
+`experiments/epilepsy-seizure-detection-2026-10-25/` (EP01): the data and
+evaluation contract for retrospective detection of ongoing seizures in
+long-term scalp EEG.  Its immediate scope is development-only access,
+person-disjoint partitioning, source/license/version/annotation verification,
+and a causal, event-based scoring contract.  It is not a frozen confirmatory
+protocol and does not establish a seizure detector, seizure prediction,
+clinical benefit, or BFG advantage.  P81 remains OPEN and deferred.
+
+No BFG-labelled condition may be presented as biological or physical law unless
+it is derived from the unchanged active BFG core with explicit assumptions,
+domain, measurement identification, gauge/closure/unit checks and independent
+counterchecks.  Measurement assumptions, statistical competitors, and scoring
+conventions are separate from such derivations.  Anything not derived remains
+OPEN.  The hash-verified Dynamic-Order paper is the sole source for BFG
+derivations in EP01.
+
+EP01 may not open external holdout EEG/labels before a complete published
+freeze; unclear prior access is development-only.  No whole archives containing
+holdout records may be downloaded.  At most one empirical run may be active;
+check queued/in-progress Actions first, bound Actions to 45 minutes, and do not
+add automation.  No main merge, paper rewrite, paid service, restricted data,
+or external contact is authorized.
+
+See `experiments/epilepsy-seizure-detection-2026-10-25/RESEARCH_PLAN.md` for
+the active operational contract.
+
 Authorization: the repository owner requested continued background research,
 completion reports and subsequent experiments, prioritizing real measurements
 and extending beyond EEG into physics, chemistry or biology.
