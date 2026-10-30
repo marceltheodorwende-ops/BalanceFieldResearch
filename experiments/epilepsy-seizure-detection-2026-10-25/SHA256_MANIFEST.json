@@ -50,6 +50,11 @@
     "sha256": "e4eda28686d4a66f69455efbefa58425c4a3e358963041ee4a7c77491077a682"
   },
   {
+    "path": "COMPARATOR_TUNING_CONTRACT.md",
+    "bytes": 4620,
+    "sha256": "0d1c2a69b3dab179c5135db860c1e860b02a02b172fe438b82c428d9deececbd"
+  },
+  {
     "path": "DATA_AND_SCORING_AUDIT.md",
     "bytes": 8898,
     "sha256": "89941109af080c2a16ecb09a803a004c45cec02a6af5345e05ab172beab7c8ca"
@@ -91,8 +96,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 3199,
-    "sha256": "15654d751bde79fb581a90b5bc9e071e38938f88ceec315baad6cc04ad5f2b69"
+    "bytes": 3481,
+    "sha256": "74822424381f79fe9cf4be33c6736ba074bd66e0772e7a7d978db8ed6e26b0da"
   },
   {
     "path": "RECORDING_TIME_CONTRACT.md",

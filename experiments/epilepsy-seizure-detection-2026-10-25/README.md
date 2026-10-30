@@ -46,3 +46,8 @@ The 28 October 2026 non-empirical control run is recorded in
 versioned checkers passed from the package directory, with zero real network
 requests from the full-inventory synthetic control. It is not a detector result
 or a confirmatory freeze.
+
+[COMPARATOR_TUNING_CONTRACT.md](COMPARATOR_TUNING_CONTRACT.md) fixes the
+equal-information, equal-budget and validation-only threshold rules required
+for future simple, established, modern and spatial-network comparisons. It
+selects neither an algorithm nor a BFG measurement map.
