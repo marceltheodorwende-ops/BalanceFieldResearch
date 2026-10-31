@@ -51,3 +51,8 @@ or a confirmatory freeze.
 equal-information, equal-budget and validation-only threshold rules required
 for future simple, established, modern and spatial-network comparisons. It
 selects neither an algorithm nor a BFG measurement map.
+
+[FREEZE_READINESS_LEDGER.md](FREEZE_READINESS_LEDGER.md) is the single public
+pre-freeze checklist. It records the current `NOT READY TO FREEZE` status,
+the finite development-header-inventory blocker, and the required publication
+gates without selecting a detector, threshold, clinical margin or BFG mapping.

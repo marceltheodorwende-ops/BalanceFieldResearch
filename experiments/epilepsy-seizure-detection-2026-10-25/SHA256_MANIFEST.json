@@ -75,6 +75,11 @@
     "sha256": "9e177892ea1b3cd30e70a518c8667db12a15943fdb40c7c88c163936f3f06cab"
   },
   {
+    "path": "FREEZE_READINESS_LEDGER.md",
+    "bytes": 5279,
+    "sha256": "401af2a8a8740dd66ee087e985f98d4295efe3360ad973f5152ecfbc333111ad"
+  },
+  {
     "path": "HEADER_COVERAGE.md",
     "bytes": 3226,
     "sha256": "c88014bb64d78686e11294b486d668260cc628602e07640a488c9225e5a834f3"
@@ -96,8 +101,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 3481,
-    "sha256": "74822424381f79fe9cf4be33c6736ba074bd66e0772e7a7d978db8ed6e26b0da"
+    "bytes": 3792,
+    "sha256": "909c19a8a933aeaf507a1ea5572d536ce6fb212c98b04b45296ae3f8bf315a44"
   },
   {
     "path": "RECORDING_TIME_CONTRACT.md",
