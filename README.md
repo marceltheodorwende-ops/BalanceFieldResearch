@@ -1,5 +1,9 @@
 # Balance Field Framework
 
+## Finite dynamics and RC correspondence preprint — 2 November 2026
+
+[Read The Balance Field Gleichung and its publication details](papers/finite-dynamics-rc-models-2026-11-02/README.md) · [Zenodo DOI](https://doi.org/10.5281/zenodo.23897937). The 53-page research preprint includes an embedded computational supplement. It gives conditional finite-event classification and explicit RC correspondence results, with fixed-clock limitations and thermal-residual bounds. No laboratory confirmation or universal physical law is claimed. The dated earlier research stages below retain their original scope.
+
 ## Completion boundary — 29 September 2026
 
 The [BFG completion dossier](research/completion-boundary-2026-09-29/README.md) gives an exact source-to-claim ledger and independently executable rational countermodels for the Gram, selection, recursion and mediation-identity gaps. The declared finite completion and its conditional theorems remain valid in their stated scope. Unconditional historical derivation and universal irreducible emergence are not established.

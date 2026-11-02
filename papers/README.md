@@ -1,5 +1,9 @@
 # BFG source library
 
+## The Balance Field Gleichung — 2 November 2026
+
+[Read the preprint, citation and reproducibility details](finite-dynamics-rc-models-2026-11-02/README.md) · [DOI: 10.5281/zenodo.23897937](https://doi.org/10.5281/zenodo.23897937). This publication copy preserves the 53-page PDF from Zenodo and Academia, including its embedded computational supplement. The paper treats finite recursive dynamics and RC-model correspondence under explicit assumptions; it does not claim laboratory confirmation or a universal physical law.
+
 ## Relational composition and shared balance state — 30 September 2026
 
 [Read the English conditional derivation and download its reproducibility package](relational-composition-2026-09-30/README.md). Three explicitly proposed relational rules yield a Bell-form direction and an exact real-sector G0 continuation. The supplement distinguishes these additions from the historical Level-0 axioms and leaves independent measurement statistics open. The updated English edition includes eleven external scholarly references with DOI links and an explicit comparison with established quantum theory.
