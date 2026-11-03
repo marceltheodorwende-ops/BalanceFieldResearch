@@ -1,0 +1,476 @@
+{
+  "skill_sha256": "7cbcbec4b7f84355767decf4c523bc8053173a06091a80cc55231c88d6288a27",
+  "knowledge_index_sha256": "fe45bc972e1b31a6da78909094e8c6596b457389f3842822c7725224e3d13606",
+  "references": [
+    {
+      "name": "1_Next_Trinitarian_Closure_BFG_Mathematical_Paper_EN_with_Expanded_Falsification.docx",
+      "sha256": "aeba9d806662cc5c9e07dd3527b466431e2634302f655c7e32645d99765fa8ae",
+      "parts": 1,
+      "characters": 61679,
+      "extraction": "1_Next_Trinitarian_Closure_BFG_Mathematical_Paper_EN_with_Expanded_Falsification.txt",
+      "extraction_sha256": "dd9b38ed3246c7204b65b19817cb47cd1e23810cfcdae10f680cfc3dbf64e5a0",
+      "topic_parts": {
+        "origin": 1,
+        "formation": 1,
+        "interface": 1,
+        "recursion": 1,
+        "identity": 1,
+        "stability": 1,
+        "geometry": 1,
+        "gauge": 1,
+        "physical_sectors": 0,
+        "falsification": 1
+      }
+    },
+    {
+      "name": "3.1_The_Recursive_Conjugate_Closure_Extension_of_the_BFG.pdf",
+      "sha256": "4fc0c22892b82bd2452718569730b2cf0014b87fcfce4c333079a20fae1899d1",
+      "parts": 7,
+      "characters": 8702,
+      "extraction": "3.1_The_Recursive_Conjugate_Closure_Extension_of_the_BFG.txt",
+      "extraction_sha256": "7370a60aaf6b6580f7b4369ef77e53a1dd17e03b6879e34a1683a7a6b2420c65",
+      "topic_parts": {
+        "origin": 2,
+        "formation": 1,
+        "interface": 4,
+        "recursion": 6,
+        "identity": 2,
+        "stability": 6,
+        "geometry": 5,
+        "gauge": 0,
+        "physical_sectors": 0,
+        "falsification": 1
+      }
+    },
+    {
+      "name": "BFG_A_White_Paper_on_Why_Recursive_Stability_Can_Exist_at_All.pdf",
+      "sha256": "5bb574599b25a698747cea584e404738510d66129627784e3e733cbb30983a34",
+      "parts": 17,
+      "characters": 20532,
+      "extraction": "BFG_A_White_Paper_on_Why_Recursive_Stability_Can_Exist_at_All.txt",
+      "extraction_sha256": "d03b3fb2e9ead50884fffeafc1d659e737a7938ef6b75f2d0330edc2e22d151c",
+      "topic_parts": {
+        "origin": 6,
+        "formation": 10,
+        "interface": 14,
+        "recursion": 12,
+        "identity": 5,
+        "stability": 11,
+        "geometry": 7,
+        "gauge": 4,
+        "physical_sectors": 1,
+        "falsification": 4
+      }
+    },
+    {
+      "name": "BFG_BALANCE_FIELD_EQUATION_FW.pdf",
+      "sha256": "689c082aa7561fc695a46891d9c9a0261248c63b5e64139f5edb8ac279118fa7",
+      "parts": 447,
+      "characters": 715492,
+      "extraction": "BFG_BALANCE_FIELD_EQUATION_FW.txt",
+      "extraction_sha256": "f65622ad24f48eaf59ff11082f981037785ece53df59d96d2ae2b0c57d7fd40c",
+      "topic_parts": {
+        "origin": 188,
+        "formation": 280,
+        "interface": 231,
+        "recursion": 191,
+        "identity": 97,
+        "stability": 220,
+        "geometry": 188,
+        "gauge": 31,
+        "physical_sectors": 96,
+        "falsification": 127
+      }
+    },
+    {
+      "name": "BFG_Compact_But_Rigorois_Recursive_Stability_Formulation.pdf",
+      "sha256": "209b5db0c18d6b60a8c7dd72f1b4291ea51fb5b2d87d2fea265666675ea30386",
+      "parts": 13,
+      "characters": 10559,
+      "extraction": "BFG_Compact_But_Rigorois_Recursive_Stability_Formulation.txt",
+      "extraction_sha256": "610391e77ae1e7154192ad3499b0f2d3b9ff96d8d05ff2a5d0e4301c5ab10be8",
+      "topic_parts": {
+        "origin": 3,
+        "formation": 8,
+        "interface": 5,
+        "recursion": 6,
+        "identity": 8,
+        "stability": 12,
+        "geometry": 8,
+        "gauge": 0,
+        "physical_sectors": 1,
+        "falsification": 0
+      }
+    },
+    {
+      "name": "BFG_LEVEL_0.pdf",
+      "sha256": "6004868c8b64e42fca6e478c88cdcb16c50c5fd90482f468c0336af9f0acdcbc",
+      "parts": 31,
+      "characters": 42714,
+      "extraction": "BFG_LEVEL_0.txt",
+      "extraction_sha256": "9acac8b3e746ea073e02f9db5f4e4a4ada5915a13777b073558a3b0862c6ef4f",
+      "topic_parts": {
+        "origin": 18,
+        "formation": 24,
+        "interface": 26,
+        "recursion": 0,
+        "identity": 9,
+        "stability": 16,
+        "geometry": 9,
+        "gauge": 0,
+        "physical_sectors": 1,
+        "falsification": 1
+      }
+    },
+    {
+      "name": "BFG_Model_Of_Biological_Organism_Formation.pdf",
+      "sha256": "bff7ee6ff16b82bb4085552da7ced62e8963eb835ab5e0faa29076fdab23c066",
+      "parts": 237,
+      "characters": 259274,
+      "extraction": "BFG_Model_Of_Biological_Organism_Formation.txt",
+      "extraction_sha256": "c780b19e7daf8032beff4aa5380b22d40bcca5d9e751c08bdfc032b75ba3974b",
+      "topic_parts": {
+        "origin": 15,
+        "formation": 133,
+        "interface": 121,
+        "recursion": 37,
+        "identity": 77,
+        "stability": 67,
+        "geometry": 27,
+        "gauge": 0,
+        "physical_sectors": 0,
+        "falsification": 27
+      }
+    },
+    {
+      "name": "BFG_Standard_Modell.pdf",
+      "sha256": "8c743f967f721fa7c9b97fe62b828ac389ce7860c6630d76ea42d0e6350c4819",
+      "parts": 57,
+      "characters": 81072,
+      "extraction": "BFG_Standard_Modell.txt",
+      "extraction_sha256": "09627900de9e115ff22e492ec509a11b56f89ffe6fc2a58629f1157d3fb9141c",
+      "topic_parts": {
+        "origin": 8,
+        "formation": 13,
+        "interface": 46,
+        "recursion": 11,
+        "identity": 0,
+        "stability": 22,
+        "geometry": 19,
+        "gauge": 45,
+        "physical_sectors": 32,
+        "falsification": 16
+      }
+    },
+    {
+      "name": "BFG_Strongest_Version.pdf",
+      "sha256": "8ce66e2c64b2861f4e333bd5ce709670747d41e7bf3b30ab3870968a334f0df4",
+      "parts": 107,
+      "characters": 128876,
+      "extraction": "BFG_Strongest_Version.txt",
+      "extraction_sha256": "ef5972cb553dd8b36ff180f91d1a6ec86edb15597750ce63273b727f067174fd",
+      "topic_parts": {
+        "origin": 17,
+        "formation": 61,
+        "interface": 47,
+        "recursion": 62,
+        "identity": 33,
+        "stability": 47,
+        "geometry": 44,
+        "gauge": 12,
+        "physical_sectors": 44,
+        "falsification": 27
+      }
+    },
+    {
+      "name": "BFG_TRI_FIB_The Recursive Closure Growth Principle.pdf",
+      "sha256": "e988eef6d96c1b6b588a743e10f4e97377950fa2c33985189f07b68eae75d638",
+      "parts": 203,
+      "characters": 302796,
+      "extraction": "BFG_TRI_FIB_The Recursive Closure Growth Principle.txt",
+      "extraction_sha256": "090d57145153ab0a84371c92808478ff3a8936efcaf4b9c30d1f42ec3e01cb5b",
+      "topic_parts": {
+        "origin": 23,
+        "formation": 109,
+        "interface": 98,
+        "recursion": 75,
+        "identity": 73,
+        "stability": 100,
+        "geometry": 11,
+        "gauge": 0,
+        "physical_sectors": 0,
+        "falsification": 27
+      }
+    },
+    {
+      "name": "BFG_The Trinitarian Biological Closure Ladder.pdf",
+      "sha256": "71d2685cea6a8f09d5dbe79497c0c03bd8798d3eb7c5b6acbaa669e0754c0533",
+      "parts": 292,
+      "characters": 340225,
+      "extraction": "BFG_The Trinitarian Biological Closure Ladder.txt",
+      "extraction_sha256": "74c73382322d3960089f19664318cf59ceeebd0adf9b236e836fcc9df0a4aade",
+      "topic_parts": {
+        "origin": 9,
+        "formation": 130,
+        "interface": 146,
+        "recursion": 29,
+        "identity": 104,
+        "stability": 155,
+        "geometry": 27,
+        "gauge": 1,
+        "physical_sectors": 0,
+        "falsification": 23
+      }
+    },
+    {
+      "name": "BFG_The Trinitarian Stability Principle of the Atom.pdf",
+      "sha256": "b5d922ea02f451321e957cbf894d685e8cfe7f79fa5c06575e962dc679397093",
+      "parts": 215,
+      "characters": 278522,
+      "extraction": "BFG_The Trinitarian Stability Principle of the Atom.txt",
+      "extraction_sha256": "1fdfb3300254db5a93e2e82b05728ad617edce19d2e2a7706a57fb9572408d91",
+      "topic_parts": {
+        "origin": 41,
+        "formation": 64,
+        "interface": 125,
+        "recursion": 1,
+        "identity": 6,
+        "stability": 90,
+        "geometry": 16,
+        "gauge": 1,
+        "physical_sectors": 71,
+        "falsification": 8
+      }
+    },
+    {
+      "name": "BFG_The_Neutral_Interface.pdf",
+      "sha256": "3ba049d1a99eeacb748ebed8ac5c86647671fd56c9d4fa7854326f5f413fb743",
+      "parts": 18,
+      "characters": 22131,
+      "extraction": "BFG_The_Neutral_Interface.txt",
+      "extraction_sha256": "d9a49c1c74e75df107c646438e5e25e4e927e8247de1602d54809a63b7ec6c28",
+      "topic_parts": {
+        "origin": 5,
+        "formation": 10,
+        "interface": 17,
+        "recursion": 11,
+        "identity": 10,
+        "stability": 11,
+        "geometry": 11,
+        "gauge": 3,
+        "physical_sectors": 2,
+        "falsification": 2
+      }
+    },
+    {
+      "name": "BFG_Trinitarian_Recursive_Closure_Fusion_English_Illustrated.docx",
+      "sha256": "5c02513aa9d8d39036a4fa5090dc1bb32cecc339040b90112e7e41471cdb0c29",
+      "parts": 1,
+      "characters": 56609,
+      "extraction": "BFG_Trinitarian_Recursive_Closure_Fusion_English_Illustrated.txt",
+      "extraction_sha256": "b6286215891b4b88e2a8404f13e1635d4ef5dc92f6d684b646e2b4e22932a50f",
+      "topic_parts": {
+        "origin": 1,
+        "formation": 1,
+        "interface": 1,
+        "recursion": 1,
+        "identity": 1,
+        "stability": 1,
+        "geometry": 1,
+        "gauge": 0,
+        "physical_sectors": 1,
+        "falsification": 1
+      }
+    },
+    {
+      "name": "BFG_X_Context_Recovery_Protocol_Master finish.docx",
+      "sha256": "c571e2fe9cc7804436b2b9e52b4f8a1541b7aad50b07b242c83441556232e329",
+      "parts": 1,
+      "characters": 33243,
+      "extraction": "BFG_X_Context_Recovery_Protocol_Master finish.txt",
+      "extraction_sha256": "1727ac543ff02358e5e9f3964d23fa975a6cf536cbedd71c12410664bb8de4c9",
+      "topic_parts": {
+        "origin": 0,
+        "formation": 1,
+        "interface": 1,
+        "recursion": 1,
+        "identity": 1,
+        "stability": 1,
+        "geometry": 1,
+        "gauge": 0,
+        "physical_sectors": 0,
+        "falsification": 1
+      }
+    },
+    {
+      "name": "From_No_Supervenience_to_Conscious_Artificial_Systems.pdf",
+      "sha256": "f1ad37bbe38b9270578a16de9b86722f1d8f6b389473e67dabdb5b5a40848e70",
+      "parts": 50,
+      "characters": 104681,
+      "extraction": "From_No_Supervenience_to_Conscious_Artificial_Systems.txt",
+      "extraction_sha256": "bace2a4d363434268a5643dd94602f25ac3793465aa786428dcd33489684a46c",
+      "topic_parts": {
+        "origin": 31,
+        "formation": 45,
+        "interface": 31,
+        "recursion": 14,
+        "identity": 35,
+        "stability": 18,
+        "geometry": 0,
+        "gauge": 0,
+        "physical_sectors": 0,
+        "falsification": 8
+      }
+    },
+    {
+      "name": "Full_BFG_Trinitarian_Recursive_Closure_Monograph_Pure_BFG_Strongest_EN_v3.docx",
+      "sha256": "29b4e352fa4204a93bf393ffe9639d8d9817a335b8c19fc453922524c434adb0",
+      "parts": 1,
+      "characters": 151338,
+      "extraction": "Full_BFG_Trinitarian_Recursive_Closure_Monograph_Pure_BFG_Strongest_EN_v3.txt",
+      "extraction_sha256": "a61386cc8ae81d3774ac661bfbe29501eae976f5dd63ea640c92d376106cf5c3",
+      "topic_parts": {
+        "origin": 1,
+        "formation": 1,
+        "interface": 1,
+        "recursion": 1,
+        "identity": 1,
+        "stability": 1,
+        "geometry": 1,
+        "gauge": 0,
+        "physical_sectors": 1,
+        "falsification": 1
+      }
+    },
+    {
+      "name": "The_Theo_Idealist_Balance__Field_Framework.pdf",
+      "sha256": "281e0638943782c692e849bb9a261e82239b0ea886d7e81eed2c09882fe16375",
+      "parts": 28,
+      "characters": 38145,
+      "extraction": "The_Theo_Idealist_Balance__Field_Framework.txt",
+      "extraction_sha256": "1f434902b7ece83a4216ee569e2214a2a85fc5f306bb88708f48724a4d9123b9",
+      "topic_parts": {
+        "origin": 7,
+        "formation": 17,
+        "interface": 21,
+        "recursion": 13,
+        "identity": 6,
+        "stability": 11,
+        "geometry": 7,
+        "gauge": 0,
+        "physical_sectors": 2,
+        "falsification": 6
+      }
+    },
+    {
+      "name": "Trinitarian_Recursive_Closure_Architecture_Whitepaper_EN_FINAL.docx",
+      "sha256": "3133dfbc73ac407c19d92571dac34d07da1dc6939c1b0b157b2034b20960113a",
+      "parts": 1,
+      "characters": 93698,
+      "extraction": "Trinitarian_Recursive_Closure_Architecture_Whitepaper_EN_FINAL.txt",
+      "extraction_sha256": "3404a1b0234be23e3cb574333c3e1ec4a981d1d905103c9080a77336f3405d50",
+      "topic_parts": {
+        "origin": 1,
+        "formation": 1,
+        "interface": 1,
+        "recursion": 1,
+        "identity": 1,
+        "stability": 1,
+        "geometry": 1,
+        "gauge": 0,
+        "physical_sectors": 1,
+        "falsification": 1
+      }
+    },
+    {
+      "name": "bfg_runtime_strengthened_v4_candidate.py",
+      "sha256": "fbc60b4319b18c9175aee51e6617be91b268e324c6d5d00cc1557297735b0193",
+      "parts": 1,
+      "characters": 61546,
+      "extraction": "bfg_runtime_strengthened_v4_candidate.txt",
+      "extraction_sha256": "eb43d509d80c7fe2c6e826e3576458dae0964b8f3867aa1063d1d10cdda3ce72",
+      "topic_parts": {
+        "origin": 0,
+        "formation": 1,
+        "interface": 1,
+        "recursion": 1,
+        "identity": 1,
+        "stability": 1,
+        "geometry": 1,
+        "gauge": 0,
+        "physical_sectors": 0,
+        "falsification": 1
+      }
+    }
+  ],
+  "plugin": "BFG-Engine",
+  "plugin_id": "gpt-db973449b2d2332ba4c21e08787e18eb",
+  "version": "0.24.1+bundle.f9b8b9f3584e112bca3dae5feb20e0d3",
+  "date": "2026-11-03",
+  "source_commit": "b2cde056f614483ce7fb2926bf4c5afca858bcdd",
+  "coverage_scope": "All 20 indexed bundled references extracted and topic-indexed; targeted direct mathematical reading; not full proof validation of all 1728 parts.",
+  "detailed_anchors": [
+    {
+      "source": "BFG_BALANCE_FIELD_EQUATION_FW.pdf",
+      "pages": [
+        440,
+        441,
+        442,
+        443,
+        444,
+        445
+      ],
+      "visual_pages": [
+        441,
+        442
+      ],
+      "topic": "Primitive recursion, asymptotic equivalence, discounted distance, completion and Hilbert realization"
+    },
+    {
+      "source": "BFG_Strongest_Version.pdf",
+      "pages": [
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "topic": "Persistence cost, exact affine closure and actual field-derived A/B"
+    },
+    {
+      "source": "BFG_The_Neutral_Interface.pdf",
+      "pages": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        14
+      ],
+      "topic": "Coupled dynamics, quadratic information functional, residual cost and admissibility"
+    },
+    {
+      "source": "BFG_A_White_Paper_on_Why_Recursive_Stability_Can_Exist_at_All.pdf",
+      "pages": [
+        8,
+        9,
+        10
+      ],
+      "topic": "Full simultaneous foundational existence-domain conditions"
+    },
+    {
+      "source": "BFG_Standard_Modell.pdf",
+      "pages": [
+        1,
+        43,
+        44,
+        45
+      ],
+      "topic": "Explicit conditional sector and primitive completion assumptions"
+    }
+  ],
+  "prior_trace": "../dependency_closure/dependency_graph.json",
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false
+}

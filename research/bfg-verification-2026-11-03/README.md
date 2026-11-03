@@ -40,6 +40,10 @@ The last command intentionally replays checks without regenerating manuscript fi
 
 ## Status and next steps
 
+### BFG-Engine plugin synthesis and source quotient correction
+
+[The plugin synthesis](plugin_synthesis/README.md) uses the requested installed BFG-Engine skill and all 20 indexed bundled references for global source/topic coverage, with focused mathematical inspection. It credits the field-derived scalar A/B closure and proves the finite information-functional span criterion for reconstructing the information operator. A full-core admissibility family still leaves transverse recursion unspecified. Direct visual checks of the foundational FW history formulas expose an exact quotient-distance mismatch; an erratum gives the 1/5 counterexample and two coherent metric continuations. All new exact controls passed. This is not a full proof audit of 1,728 indexed parts, and neither a new physical law nor a unique origin initializer is claimed.
+
 ### Consolidated origin-to-event dependency checkpoint
 
 [The dependency closure audit](dependency_closure/README.md) unifies the earlier findings into a source-linked premise ledger and guarded inference graph: 38 nodes, 16 rules, 9 source records and 8 premise packets. It separates the complete finite event's sufficiency from a unique original initializer, preserves the conditional Gram derivation, and tests two guarded circular attempts and six unlicensed shortcuts. The complete supplied state closes; the smaller reviewed formation packet does not yet supply the interface, origin persistence and witness representation. This is dependency bookkeeping and a bounded source conclusion, not a full historical impossibility theorem or formal proof-assistant certification.

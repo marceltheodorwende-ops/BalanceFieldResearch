@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "date": "2026-11-03",
+  "plugin_reference_inventory": 20,
+  "indexed_parts": 1728,
+  "full_proof_audit_of_all_parts": false,
+  "field_derived_feedback_identity": true,
+  "exact_scalar_feedback_fixture": "68/75",
+  "information_functional_complete_probe_rank": 4,
+  "single_profile_probe_rank": 1,
+  "information_operator_reconstruction": "exact complex Hermitian 2x2",
+  "full_foundational_admissibility_family": [
+    {
+      "transverse_eigenvalue": "1/2",
+      "peripheral_rank": 1,
+      "Lyapunov_cost": "0",
+      "affine_feedback": "A=0, B=1/2, IB=0",
+      "interface_drift": "0"
+    },
+    {
+      "transverse_eigenvalue": "3/4",
+      "peripheral_rank": 1,
+      "Lyapunov_cost": "0",
+      "affine_feedback": "A=0, B=1/2, IB=0",
+      "interface_drift": "0"
+    },
+    {
+      "transverse_eigenvalue": "1",
+      "peripheral_rank": 2,
+      "Lyapunov_cost": "0",
+      "affine_feedback": "A=0, B=1/2, IB=0",
+      "interface_drift": "0"
+    }
+  ],
+  "all_plugin_domain_specific_dynamics_solved_by_family": false,
+  "printed_asymptotic_quotient_discount_distance_well_defined": false,
+  "quotient_counterexample": {
+    "discounted_distance": "1/5",
+    "asymptotically_equivalent": true
+  },
+  "exact_history_repair_shift_Lipschitz_constant": 2,
+  "asymptotic_repair_shift_isometry": true,
+  "eventually_periodic_histories_checked": 7,
+  "triangle_triples_checked": 343,
+  "unique_fundamental_initializer_derived": false,
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false,
+  "scope": "Global plugin inventory plus focused source analysis, exact conditional bridges and quotient counterexample/repair proofs; no full historical independence, theorem certification or physical validation"
+}

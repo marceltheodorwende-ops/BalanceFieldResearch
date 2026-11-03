@@ -126,6 +126,16 @@ assert not dependency['unique_origin_closed_from_reviewed_formation_packet']
 assert not dependency['full_historical_impossibility_or_independence_theorem']
 assert not dependency['new_physical_rule_adopted'] and not dependency['event_rule_modified']
 report['dependency_closure']='PASS; guarded source-linked dependency ledger consolidated; complete event closed, unique origin not established from reviewed smaller packet'
+plugin=json.loads((root/'plugin_synthesis/results.json').read_text(encoding='utf-8'))
+assert plugin['status']=='PASS' and plugin['plugin_reference_inventory']==20
+assert plugin['indexed_parts']==1728 and plugin['information_functional_complete_probe_rank']==4
+assert plugin['field_derived_feedback_identity'] and plugin['triangle_triples_checked']==343
+assert plugin['quotient_counterexample']['discounted_distance']=='1/5'
+assert not plugin['unique_fundamental_initializer_derived']
+assert not plugin['new_physical_rule_adopted'] and not plugin['event_rule_modified']
+plugin_sources=json.loads((root/'plugin_synthesis/SOURCES.json').read_text(encoding='utf-8'))
+assert len(plugin_sources['references'])==20
+report['plugin_synthesis']='PASS; actual BFG-Engine corpus indexed; conditional scalar/operator bridges and quotient correction checked; unique origin not established'
 (root/'STAGE_CHECK.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 manifest={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json' and '__pycache__' not in p.parts}
 (root/'SHA256SUMS.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')
