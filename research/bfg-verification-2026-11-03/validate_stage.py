@@ -143,6 +143,14 @@ assert not local_info['source_origin_functional_values_derived']
 assert not local_info['unique_fundamental_initializer_derived']
 assert not local_info['new_physical_rule_adopted'] and not local_info['event_rule_modified']
 report['local_information']='PASS; arbitrarily local conditional reconstruction and exact-balance implication; real/domain and conditioning limits checked'
+origin_info=json.loads((root/'origin_information_domain/results.json').read_text(encoding='utf-8'))
+assert origin_info['status']=='PASS' and origin_info['quadratic_measurement_rank']==4
+assert origin_info['incompatible_count_augmented_rank']==5
+assert origin_info['exact_fresh_minimum_projector_span_rank']==1
+assert not origin_info['actual_origin_similarity_and_representation_derived']
+assert not origin_info['unique_fundamental_initial_operator_derived']
+assert not origin_info['new_physical_rule_adopted'] and not origin_info['event_rule_modified']
+report['origin_information_domain']='PASS; source count formula verified, candidate quadratic bridge tested, exact-minimum versus perturbation domain distinguished'
 (root/'STAGE_CHECK.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 manifest={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json' and '__pycache__' not in p.parts}
 (root/'SHA256SUMS.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')

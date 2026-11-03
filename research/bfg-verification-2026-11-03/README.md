@@ -40,6 +40,10 @@ The last command intentionally replays checks without regenerating manuscript fi
 
 ## Status and next steps
 
+### Source origin information and profile-domain check
+
+[The origin-information audit](origin_information_domain/README.md) directly verifies Level-0 Section 14's log similarity-class count and distinguishes it from the later quadratic information functional. A finite candidate bridge fails an exact quadratic identity; a positive control reconstructs log(2)I. An exact finite-count/open-connected bridge would be isotropic. The fresh minimum set supplies only one projector, while nearby profiles have a strictly positive, quantified quartic excess. Comparison data, a compatible representation and a broader admissible profile domain remain explicit source obligations. All new exact controls passed; no rule is installed.
+
 ### Local admissible information reconstruction
 
 [The local-information analysis](local_information/README.md) proves an explicit n^2-profile reconstruction arbitrarily close to a formed direction in the finite complex Hermitian sector. Six exact n=2,3,4 cases pass. Real-only and restricted boundedness domains leave identifiable operator directions missing. An open neighborhood of exact balance forces E J=B_op N in the stated Hermitian sector, whereas a finite balance band leaves a family. Exact error-amplification bounds distinguish local uniqueness from numerical robustness. Functional values and full dynamic accessibility remain source obligations; no new physical rule is installed.
