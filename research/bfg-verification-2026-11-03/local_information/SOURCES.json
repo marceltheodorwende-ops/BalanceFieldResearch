@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-03",
+  "source_commit": "fb175e5be09a09225a5c6ef6dc26a0afe5de1b9e",
+  "plugin": "BFG-Engine",
+  "plugin_version": "0.24.1+bundle.f9b8b9f3584e112bca3dae5feb20e0d3",
+  "plugin_skill_sha256": "7cbcbec4b7f84355767decf4c523bc8053173a06091a80cc55231c88d6288a27",
+  "global_plugin_context": "../plugin_synthesis/SOURCES.json",
+  "references": [
+    {
+      "name": "BFG_A_White_Paper_on_Why_Recursive_Stability_Can_Exist_at_All.pdf",
+      "sha256": "5bb574599b25a698747cea584e404738510d66129627784e3e733cbb30983a34",
+      "extraction_sha256": "d03b3fb2e9ead50884fffeafc1d659e737a7938ef6b75f2d0330edc2e22d151c"
+    },
+    {
+      "name": "BFG_LEVEL_0.pdf",
+      "sha256": "6004868c8b64e42fca6e478c88cdcb16c50c5fd90482f468c0336af9f0acdcbc",
+      "extraction_sha256": "9acac8b3e746ea073e02f9db5f4e4a4ada5915a13777b073558a3b0862c6ef4f"
+    },
+    {
+      "name": "BFG_Strongest_Version.pdf",
+      "sha256": "8ce66e2c64b2861f4e333bd5ce709670747d41e7bf3b30ab3870968a334f0df4",
+      "extraction_sha256": "ef5972cb553dd8b36ff180f91d1a6ec86edb15597750ce63273b727f067174fd"
+    },
+    {
+      "name": "BFG_The_Neutral_Interface.pdf",
+      "sha256": "3ba049d1a99eeacb748ebed8ac5c86647671fd56c9d4fa7854326f5f413fb743",
+      "extraction_sha256": "d9a49c1c74e75df107c646438e5e25e4e927e8247de1602d54809a63b7ec6c28"
+    }
+  ],
+  "inspected_clauses": [
+    {
+      "source": "BFG_The_Neutral_Interface.pdf",
+      "location": "Sections 4-7 and 12, PDF pp.6-8 and 11",
+      "role": "Balance quadratic forms, approximate bands, information functional and Lyapunov residual"
+    },
+    {
+      "source": "BFG_A_White_Paper_on_Why_Recursive_Stability_Can_Exist_at_All.pdf",
+      "location": "Sections 13-15, PDF pp.8-10",
+      "role": "Admissible domain includes bounded iterates and further dynamical constraints"
+    },
+    {
+      "source": "BFG_Strongest_Version.pdf",
+      "location": "Sections 61.2-61.7, PDF pp.91-95",
+      "role": "Admissibility and field feedback context; no source-provided complete initial quadratic functional asserted"
+    },
+    {
+      "source": "BFG_Canonical_Universal_Reclosure_Architecture_Preprint_2026-09-22_FINAL.txt",
+      "location": "Section 3, paragraphs 68-80, prior formation source manifest",
+      "role": "Real finite formation category distinguished from later complex Hermitian identification"
+    }
+  ],
+  "prior_formation_trace": "../formation_initialization/SOURCES.json",
+  "scope": "Conditional local information identifiability and source admissibility restrictions. Earlier global 20-reference context reused; not a fresh full-page corpus audit. Functional values and physical/dynamical accessibility are not inferred.",
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false
+}

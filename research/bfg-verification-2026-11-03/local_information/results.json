@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "date": "2026-11-03",
+  "exact_reconstruction_cases": [
+    {
+      "dimension": 2,
+      "t": "1/4",
+      "profile_count": 4,
+      "exact_measurement_rank": 4,
+      "reconstruction": "exact"
+    },
+    {
+      "dimension": 2,
+      "t": "1/16",
+      "profile_count": 4,
+      "exact_measurement_rank": 4,
+      "reconstruction": "exact"
+    },
+    {
+      "dimension": 3,
+      "t": "1/4",
+      "profile_count": 9,
+      "exact_measurement_rank": 9,
+      "reconstruction": "exact"
+    },
+    {
+      "dimension": 3,
+      "t": "1/16",
+      "profile_count": 9,
+      "exact_measurement_rank": 9,
+      "reconstruction": "exact"
+    },
+    {
+      "dimension": 4,
+      "t": "1/4",
+      "profile_count": 16,
+      "exact_measurement_rank": 16,
+      "reconstruction": "exact"
+    },
+    {
+      "dimension": 4,
+      "t": "1/16",
+      "profile_count": 16,
+      "exact_measurement_rank": 16,
+      "reconstruction": "exact"
+    }
+  ],
+  "arbitrarily_local_complex_profile_family": "n^2 normalized profiles; radius <= sqrt(2)t",
+  "symbolic_2x2_measurement_determinant": "8*t^4/(1+t^2)^3",
+  "real_only_profiles_identify_full_complex_operator": false,
+  "residual_budget_fixture": "all n=3 local probes pass at t=1/4, q=1/2, lambda=1, budget=1/10",
+  "full_dynamic_reachability_or_source_action_minimum_proved": false,
+  "exact_balance_operator_identity_given_other_operators": "E J = B_op N",
+  "approximate_balance_band_uniquely_fixes_J": false,
+  "error_amplification": [
+    {
+      "t": "1/10",
+      "normalized_value_error": "1/1000000",
+      "diagonal_error_bound": "201/1000000",
+      "amplification": "201"
+    },
+    {
+      "t": "1/100",
+      "normalized_value_error": "1/1000000",
+      "diagonal_error_bound": "20001/1000000",
+      "amplification": "20001"
+    }
+  ],
+  "source_origin_functional_values_derived": false,
+  "unique_fundamental_initializer_derived": false,
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false,
+  "scope": "Finite conditional identifiability, explicit local reconstruction, admissible-domain restrictions and arithmetic conditioning; not empirical validation or a complete origin theorem"
+}

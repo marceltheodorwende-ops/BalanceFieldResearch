@@ -136,6 +136,13 @@ assert not plugin['new_physical_rule_adopted'] and not plugin['event_rule_modifi
 plugin_sources=json.loads((root/'plugin_synthesis/SOURCES.json').read_text(encoding='utf-8'))
 assert len(plugin_sources['references'])==20
 report['plugin_synthesis']='PASS; actual BFG-Engine corpus indexed; conditional scalar/operator bridges and quotient correction checked; unique origin not established'
+local_info=json.loads((root/'local_information/results.json').read_text(encoding='utf-8'))
+assert local_info['status']=='PASS' and len(local_info['exact_reconstruction_cases'])==6
+assert all(x['exact_measurement_rank']==x['dimension']**2 for x in local_info['exact_reconstruction_cases'])
+assert not local_info['source_origin_functional_values_derived']
+assert not local_info['unique_fundamental_initializer_derived']
+assert not local_info['new_physical_rule_adopted'] and not local_info['event_rule_modified']
+report['local_information']='PASS; arbitrarily local conditional reconstruction and exact-balance implication; real/domain and conditioning limits checked'
 (root/'STAGE_CHECK.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 manifest={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json' and '__pycache__' not in p.parts}
 (root/'SHA256SUMS.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')

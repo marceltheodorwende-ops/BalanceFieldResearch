@@ -40,6 +40,10 @@ The last command intentionally replays checks without regenerating manuscript fi
 
 ## Status and next steps
 
+### Local admissible information reconstruction
+
+[The local-information analysis](local_information/README.md) proves an explicit n^2-profile reconstruction arbitrarily close to a formed direction in the finite complex Hermitian sector. Six exact n=2,3,4 cases pass. Real-only and restricted boundedness domains leave identifiable operator directions missing. An open neighborhood of exact balance forces E J=B_op N in the stated Hermitian sector, whereas a finite balance band leaves a family. Exact error-amplification bounds distinguish local uniqueness from numerical robustness. Functional values and full dynamic accessibility remain source obligations; no new physical rule is installed.
+
 ### BFG-Engine plugin synthesis and source quotient correction
 
 [The plugin synthesis](plugin_synthesis/README.md) uses the requested installed BFG-Engine skill and all 20 indexed bundled references for global source/topic coverage, with focused mathematical inspection. It credits the field-derived scalar A/B closure and proves the finite information-functional span criterion for reconstructing the information operator. A full-core admissibility family still leaves transverse recursion unspecified. Direct visual checks of the foundational FW history formulas expose an exact quotient-distance mismatch; an erratum gives the 1/5 counterexample and two coherent metric continuations. All new exact controls passed. This is not a full proof audit of 1,728 indexed parts, and neither a new physical law nor a unique origin initializer is claimed.
