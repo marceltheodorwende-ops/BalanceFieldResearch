@@ -1,0 +1,197 @@
+{
+  "status": "PASS",
+  "quadratic_fixtures": [
+    {
+      "name": "capacity_linear",
+      "Y": [
+        [
+          "1/2",
+          "1/4"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "E": [
+        [
+          "96/35",
+          "-8*sqrt(3)/35"
+        ],
+        [
+          "-8*sqrt(3)/35",
+          "72/35"
+        ]
+      ],
+      "effective_rank": 2,
+      "minimal_neutral_dimension": 2,
+      "realization_dimension": 2,
+      "coordinate_invariance": true,
+      "uncoupled_padding_invisible": true
+    },
+    {
+      "name": "capacity_square",
+      "Y": [
+        [
+          "5/16",
+          "1/4"
+        ],
+        [
+          "1/4",
+          "5/16"
+        ]
+      ],
+      "E": [
+        [
+          "1344/425",
+          "-128*sqrt(3)/425"
+        ],
+        [
+          "-128*sqrt(3)/425",
+          "1008/425"
+        ]
+      ],
+      "effective_rank": 2,
+      "minimal_neutral_dimension": 2,
+      "realization_dimension": 2,
+      "coordinate_invariance": true,
+      "uncoupled_padding_invisible": true
+    },
+    {
+      "name": "rank_one",
+      "Y": [
+        [
+          "1/4",
+          "1/4"
+        ],
+        [
+          "1/4",
+          "1/4"
+        ]
+      ],
+      "E": [
+        [
+          "10/3",
+          "-sqrt(3)/3"
+        ],
+        [
+          "-sqrt(3)/3",
+          "5/2"
+        ]
+      ],
+      "effective_rank": 1,
+      "minimal_neutral_dimension": 1,
+      "realization_dimension": 1,
+      "coordinate_invariance": true,
+      "uncoupled_padding_invisible": true
+    },
+    {
+      "name": "complex_rank_one",
+      "Y": [
+        [
+          "1/4",
+          "I/8"
+        ],
+        [
+          "-I/8",
+          "1/16"
+        ]
+      ],
+      "E": [
+        [
+          "68/21",
+          "-4*sqrt(3)*I/21"
+        ],
+        [
+          "4*sqrt(3)*I/21",
+          "20/7"
+        ]
+      ],
+      "effective_rank": 1,
+      "minimal_neutral_dimension": 1,
+      "realization_dimension": 1,
+      "coordinate_invariance": true,
+      "uncoupled_padding_invisible": true
+    },
+    {
+      "name": "zero",
+      "Y": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "E": [
+        [
+          "4",
+          "0"
+        ],
+        [
+          "0",
+          "3"
+        ]
+      ],
+      "effective_rank": 0,
+      "minimal_neutral_dimension": 0,
+      "realization_dimension": 1,
+      "coordinate_invariance": true,
+      "uncoupled_padding_invisible": true
+    }
+  ],
+  "exact_response_inverse": true,
+  "minimal_factor_equivalence_fixtures": 2,
+  "fixed_capacity_two_effective_responses": true,
+  "single_ground_probe_insufficient": true,
+  "single_ground_probe": {
+    "E_a": [
+      [
+        "2",
+        "0"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "E_b": [
+      [
+        "2",
+        "0"
+      ],
+      [
+        "0",
+        "2"
+      ]
+    ],
+    "Y_a": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "2"
+      ]
+    ],
+    "Y_b": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1/2"
+      ]
+    ]
+  },
+  "nested_Gram_realization_checks": 2,
+  "physical_channel_uniqueness_required_for_finite_event": false,
+  "source_capacity_to_effective_response_derived": false,
+  "full_historical_independence_theorem": false,
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false
+}

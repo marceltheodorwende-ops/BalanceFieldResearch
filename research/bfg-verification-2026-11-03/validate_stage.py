@@ -184,6 +184,15 @@ assert not symmetry['unique_source_initializer_derived']
 assert not symmetry['full_historical_independence_theorem']
 assert not symmetry['new_physical_rule_adopted'] and not symmetry['event_rule_modified']
 report['source_symmetry']='PASS; matrix and quotient covariance distinguished; original capacity symmetry and exact event consequences checked; source constitutive initializer unresolved'
+effective=json.loads((root/'effective_response/results.json').read_text(encoding='utf-8'))
+assert effective['status']=='PASS' and effective['exact_response_inverse']
+assert len(effective['quadratic_fixtures'])==5
+assert [x['minimal_neutral_dimension'] for x in effective['quadratic_fixtures']]==[2,2,1,1,0]
+assert effective['single_ground_probe_insufficient'] and effective['nested_Gram_realization_checks']==2
+assert not effective['source_capacity_to_effective_response_derived']
+assert not effective['physical_channel_uniqueness_required_for_finite_event']
+assert not effective['new_physical_rule_adopted'] and not effective['event_rule_modified']
+report['effective_response']='PASS; minimized assessment exactly identifies Y; minimal factor equivalence and role-sensitive source audit checked; source constitutive response unresolved'
 (root/'STAGE_CHECK.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 manifest={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json' and '__pycache__' not in p.parts}
 (root/'SHA256SUMS.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')

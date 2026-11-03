@@ -32,5 +32,6 @@
   "configuration_hilbert_bridge": "PASS; explicit finite conditional representation and transition lift; Gram, quotient and operator-role compatibility limits checked",
   "future_identifiability": "PASS; finite predictive quotient exact and minimal; tested balance/count packet leaves underlying models nonunique",
   "joint_canonical_data": "PASS; exact joint-coordinate equivalence and alignment effects checked; input class distinguished from behavioral quotient and origin selection",
-  "source_symmetry": "PASS; matrix and quotient covariance distinguished; original capacity symmetry and exact event consequences checked; source constitutive initializer unresolved"
+  "source_symmetry": "PASS; matrix and quotient covariance distinguished; original capacity symmetry and exact event consequences checked; source constitutive initializer unresolved",
+  "effective_response": "PASS; minimized assessment exactly identifies Y; minimal factor equivalence and role-sensitive source audit checked; source constitutive response unresolved"
 }

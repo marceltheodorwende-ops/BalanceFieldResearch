@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-03",
+  "source_commit": "491f369006d38ebc526808eb25c16d75dee52206",
+  "focused_sources": [
+    {
+      "extraction": "BFG_White_paper_1.0_7d3f23d9.txt",
+      "extraction_sha256": "14b89ccd52a12fb7eb0f50fd3077053e9724dcd999b9a95bf1df494b862c0b3a",
+      "location": "April 17, 2025, section 7.2, page 19",
+      "finding": "Scalar feedback product derivative; no automatic operator-role bridge."
+    },
+    {
+      "extraction": "BFG_The_Neutral_Interface.txt",
+      "extraction_sha256": "d9a49c1c74e75df107c646438e5e25e4e927e8247de1602d54809a63b7ec6c28",
+      "location": "May 21, 2026, sections 3-5, PDF pages 5-7",
+      "finding": "Primitive operator inputs and balance function; role distinctions retained."
+    },
+    {
+      "extraction": "BFG_Compact_But_Rigorois_Recursive_Stability_Formulation.txt",
+      "extraction_sha256": "610391e77ae1e7154192ad3499b0f2d3b9ff96d8d05ff2a5d0e4301c5ab10be8",
+      "location": "Sections 4-5, PDF page 5",
+      "finding": "Scalar affine feedback closure conditional on its coefficients."
+    },
+    {
+      "extraction": "BFG_LEVEL_0.txt",
+      "extraction_sha256": "9acac8b3e746ea073e02f9db5f4e4a4ada5915a13777b073558a3b0862c6ef4f",
+      "location": "Sections 10.1-10.4, PDF pages 15-17",
+      "finding": "Boundary mediation and interface completion score, not an identified quadratic E."
+    },
+    {
+      "extraction": "BFG_Canonical_Universal_Reclosure_Architecture_Preprint_2026-09-22_FINAL.txt",
+      "extraction_sha256": "2fa39375e105db141dc4c34bf307804b5ad618c90cc14d1d512420c09583069b",
+      "location": "Sections 3.1, 4.1-4.2, paragraphs 68-100",
+      "finding": "Separate capacities, supplied neutral channel, elimination and positive weighted factors."
+    }
+  ],
+  "prior_provenance": [
+    "../foundation_audit/source_manifest.json",
+    "../foundation_audit/premise_source_inventory.json",
+    "../foundation_audit/interface_sources.json",
+    "../plugin_synthesis/SOURCES.json",
+    "../source_symmetry/SOURCES.json"
+  ],
+  "coverage": "Focused clause reading, not full theorem review of the named manuscripts or a nonexistence proof over the entire archive.",
+  "scope": "Finite positive quadratic assessment and its effective response. Original source roles distinguished from diagnostic Gram realizations; proposed L0-NC not adopted.",
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false
+}
