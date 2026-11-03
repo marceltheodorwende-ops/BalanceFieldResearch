@@ -40,6 +40,10 @@ The last command intentionally replays checks without regenerating manuscript fi
 
 ## Status and next steps
 
+### Complete-future observable identifiability
+
+[The future-identifiability analysis](future_identifiability/README.md) computes the exact coarsest predictive congruence for a supplied finite transition and observable family. Its minimal observable model is unique given the full behavior set, while balance/count histories alone permit different underlying models and hidden copies. The exact algorithm passes 3,984 symbolic models and 62,688 independent state-pair checks; these are not full BFG-admissibility or physical tests. The source's full canonical datum is explicitly not equated with the reduced observation packet. Count information is transported through the quotient instead of being reset to its new cardinality. No new origin rule is adopted.
+
 ### Constructive finite configuration-to-Hilbert bridge
 
 [The configuration-Hilbert construction](configuration_hilbert_bridge/README.md) builds an explicit count-preserving representation and exact linear lift of a supplied finite invariant configuration transition. The worked five-label packet preserves information and recursion. Further exact checks distinguish classical multiplication from full-operator uniqueness, class quotient from dynamic congruence, and generic similarity from a positive Gram. A positive-kernel information-compatibility criterion is proved, and singleton zero-information factorization limits are identified. This completes a conditional representation builder, not a unique physical-origin initializer or a new law.

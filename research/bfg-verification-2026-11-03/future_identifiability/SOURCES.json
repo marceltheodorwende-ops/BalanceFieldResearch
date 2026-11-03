@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-03",
+  "source_commit": "b61300686fde2c63f1a6fb9098a0241414646865",
+  "plugin": "BFG-Engine",
+  "plugin_version": "0.24.1+bundle.f9b8b9f3584e112bca3dae5feb20e0d3",
+  "plugin_skill_sha256": "7cbcbec4b7f84355767decf4c523bc8053173a06091a80cc55231c88d6288a27",
+  "global_context": "../plugin_synthesis/SOURCES.json",
+  "source_clauses": [
+    {
+      "source": "BFG_Canonical_Universal_Reclosure_Architecture_Preprint_2026-09-22_FINAL.txt",
+      "location": "Section 11, paragraphs 225-236",
+      "extraction_sha256": "2fa39375e105db141dc4c34bf307804b5ad618c90cc14d1d512420c09583069b",
+      "claim": "Complete canonical future stream defines a congruence; full source datum is not reduced here to Phi/count alone"
+    },
+    {
+      "source": "BFG_LEVEL_0.pdf",
+      "location": "Section 14, PDF p.20",
+      "sha256": "6004868c8b64e42fca6e478c88cdcb16c50c5fd90482f468c0336af9f0acdcbc",
+      "claim": "Count information is based on supplied comparison neighborhoods, not automatically the future-equivalence quotient"
+    }
+  ],
+  "prior_trace": [
+    "../configuration_hilbert_bridge/SOURCES.json",
+    "../origin_information_domain/SOURCES.json"
+  ],
+  "scope": "Exact finite predictive quotient for specified observations and transition; source canonical full datum and source nine-role state are explicitly richer than the worked Phi/count packet. Exhaustive symbolic cases are algorithm controls, not complete BFG admissibility tests.",
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false
+}

@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "date": "2026-11-03",
+  "exhaustive_finite_models": 3984,
+  "models_by_dimension": [
+    {
+      "labels": 1,
+      "models": 1
+    },
+    {
+      "labels": 2,
+      "models": 8
+    },
+    {
+      "labels": 3,
+      "models": 135
+    },
+    {
+      "labels": 4,
+      "models": 3840
+    }
+  ],
+  "independent_ordered_pair_checks": 62688,
+  "maximum_proper_refinements_in_exhaustive_cases": 2,
+  "delayed_positive_information_example": {
+    "transition": [
+      1,
+      2,
+      3,
+      3,
+      3
+    ],
+    "count_sizes": [
+      3,
+      3,
+      3,
+      2,
+      2
+    ],
+    "predictive_classes": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "quotient_transition": [
+      1,
+      2,
+      3,
+      3
+    ],
+    "quotient_observations": [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "proper_refinements": 2
+  },
+  "two_cycle_vs_four_cycle_same_tested_future": true,
+  "replication_maps_checked": 27,
+  "replication_state_pairs_checked": 405,
+  "minimal_observable_model_unique_given_complete_behavior": true,
+  "full_balance_count_future_fixes_microscopic_model": false,
+  "tested_observations_equal_full_source_canonical_datum": false,
+  "inherited_quotient_information": "log(2), despite a one-state predictive quotient",
+  "unique_fundamental_initializer_derived": false,
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false,
+  "scope": "Finite predictive equivalence and exact relative observation non-identifiability; no full-source independence, complete BFG admissibility or empirical claim"
+}
