@@ -76,6 +76,12 @@ assert not origin['new_physical_rule_adopted'] and not origin['event_rule_modifi
 origin_sources=json.loads((root/'origin_bridge/SOURCES.json').read_text(encoding='utf-8'))
 assert len(origin_sources['original_extractions'])==8
 report['origin_representation_audit']='PASS; primitive identity/persistence credited; conditional stationary-witness theorem; origin representation remains unresolved'
+profile=json.loads((root/'profile_identity/results.json').read_text(encoding='utf-8'))
+assert profile['status']=='PASS'
+assert profile['sharp_pure_fixture']['squared_Frobenius_distance']=='18/25'
+assert not profile['historical_premise_enforcing_bridge_established']
+assert not profile['new_physical_rule_adopted'] and not profile['event_rule_modified']
+report['profile_identity_bridge']='PASS; exact equivalent alignment criteria and sharp gap bound; historical enforcing premise unresolved'
 (root/'STAGE_CHECK.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 manifest={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json' and '__pycache__' not in p.parts}
 (root/'SHA256SUMS.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "date": "2026-11-03",
+  "formed_line_identifier": "rho_F / tr(rho_F) = Pi_0 for the fresh simple-ground formation",
+  "equivalent_bridge_conditions": "support, zero transverse mass, minimum quadratic value, finite order domination",
+  "sharp_pure_fixture": {
+    "excess_over_gap": "9/25",
+    "squared_Frobenius_distance": "18/25"
+  },
+  "stationarity_commutation_overlap_alone_force_identification": false,
+  "covariance_alone_forces_identification": false,
+  "ground_degeneracy_still_unique_witness": false,
+  "historical_premise_enforcing_bridge_established": false,
+  "event_rule_modified": false,
+  "new_physical_rule_adopted": false,
+  "scope": "Analytic finite equivalence and quantitative bound, exact fixtures and targeted source trace; no full-corpus independence or empirical claim"
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-03",
+  "source_commit": "fb1acf8005e8bf5447be6bf6b030b3c6975b24e6",
+  "extractions": [
+    {
+      "name": "BFG_Canonical_Universal_Reclosure_Architecture_Preprint_2026-09-22_FINAL.txt",
+      "extraction_sha256": "2fa39375e105db141dc4c34bf307804b5ad618c90cc14d1d512420c09583069b",
+      "inspected_locations": "paragraphs 68-80"
+    },
+    {
+      "name": "BFG_Canonical_Minimal_Finite_Closure_and_Universal_Reclosure_Preprint_2026-09-26.txt",
+      "extraction_sha256": "ce14f9392cf77455bf5507ea406d5694689477097ee4714efe10df8940dd5f22",
+      "inspected_locations": "paragraphs 70-82 and 165-183"
+    },
+    {
+      "name": "BFG_LEVEL_0.txt",
+      "extraction_sha256": "115e6129c6675f337e9affafae175012f988ad6005e399aecd6ea364775028bf",
+      "inspected_locations": "Section 8.2, extraction lines 410-440"
+    },
+    {
+      "name": "BFG_The Trinitarian Biological Closure Ladder.txt",
+      "extraction_sha256": "46431558e8bee14c1f32b3c7090cbd33b48daeee50570dee1357083a042ab886",
+      "inspected_locations": "page 116, extraction lines 3690-3718"
+    }
+  ],
+  "prior_trace": "../origin_bridge/SOURCES.json",
+  "method": "Targeted search of available original extractions for an initial identity/formation minimization link, direct passage inspection and finite analytic implication proofs",
+  "limitation": "Hashes cover extracted text, not original PDFs. Equations can be incompletely extracted. No exhaustive historical absence theorem; older March/April 2025 sources credited through prior audit, not newly read in full.",
+  "event_rule_modified": false,
+  "new_physical_rule_adopted": false
+}

@@ -40,6 +40,10 @@ The last command intentionally replays checks without regenerating manuscript fi
 
 ## Status and next steps
 
+### Exact formed-profile / identity bridge criterion
+
+[The profile-identity audit](profile_identity/README.md) constructs the unique formed-line projector and characterizes exactly when a positive trace-one inherited witness equals it: same support, zero transverse mass, minimum quadratic formation value, or finite order domination by the fresh formation density. A gap-controlled Frobenius error bound has a sharp exact fixture. The reviewed source passages do not establish the enforcing origin premise; general witness stationarity, commutation, overlap and covariance are insufficient. No new initializer or law is adopted.
+
 ### Original identity and persistence checked
 
 [The origin representation audit](origin_bridge/README.md) traces eight original extractions, including March/April 2025 and the June origin chain. Primitive identity and persistence are already present; what remains unproved is their unique representation as the first finite witness and protected ground line. An analytic theorem derives the unique witness from a rank-one protected sector and unnormalized stationarity. Exact controls distinguish these premises from mere normalized stationarity, spectral criticality or the conjugate-product grammar. Existing declared successor rules remain credited; no new origin rule is adopted.
