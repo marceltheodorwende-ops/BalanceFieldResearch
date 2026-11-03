@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-03",
+  "source_commit": "8718516dc285755e34cfc7add76dae60604c185d",
+  "focused_sources": [
+    {
+      "extraction": "BFG_The_Neutral_Interface.txt",
+      "extraction_sha256": "d9a49c1c74e75df107c646438e5e25e4e927e8247de1602d54809a63b7ec6c28",
+      "location": "Sections 7.1,13 and14: information quadratic value, semantic kernel and identity flow."
+    },
+    {
+      "extraction": "BFG_A_White_Paper_on_Why_Recursive_Stability_Can_Exist_at_All.txt",
+      "extraction_sha256": "d03b3fb2e9ead50884fffeafc1d659e737a7938ef6b75f2d0330edc2e22d151c",
+      "location": "Sections 4,8,12-15,21: primitive operators, factor recursion, stability conjunction and identity continuity."
+    },
+    {
+      "extraction": "BFG_Canonical_Minimal_Finite_Closure_and_Universal_Reclosure_Preprint_2026-09-26.txt",
+      "extraction_sha256": "ce14f9392cf77455bf5507ea406d5694689477097ee4714efe10df8940dd5f22",
+      "location": "Section3 paragraphs82-95; section8 paragraphs165-183; sections14-15 paragraphs301-311: typed densities, branch memory and conditional minimal C2 carrier."
+    }
+  ],
+  "prior_trace": [
+    "../admissible_quotient/SOURCES.json",
+    "../plugin_synthesis/SOURCES.json",
+    "../foundation_audit/source_manifest.json",
+    "../effective_response/SOURCES.json",
+    "../joint_canonical_data/SOURCES.json"
+  ],
+  "scope": "Complete pure-vector/single-Hermitian-operator moment diagnostic; conditional C2 case; source role and origin/continuation distinction. Complete role state, mixed densities, and initial neutral response are not inferred from those moments.",
+  "coverage": "Focused reading of named clauses within prior integrated BFG-Engine context, not a new complete proof audit or a global nonexistence theorem.",
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false
+}

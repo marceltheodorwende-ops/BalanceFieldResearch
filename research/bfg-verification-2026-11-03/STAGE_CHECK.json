@@ -35,5 +35,6 @@
   "source_symmetry": "PASS; matrix and quotient covariance distinguished; original capacity symmetry and exact event consequences checked; source constitutive initializer unresolved",
   "effective_response": "PASS; minimized assessment exactly identifies Y; minimal factor equivalence and role-sensitive source audit checked; source constitutive response unresolved",
   "functional_hessian": "PASS; conditional nonlinear Schur Hessian and source functional limits checked; no unsourced identification of local curvature with exact initial Y",
-  "admissible_quotient": "PASS; residual-rank quotient criterion and normalized fixed-information nongauge flat family checked; complete source-domain initializer remains unresolved"
+  "admissible_quotient": "PASS; residual-rank quotient criterion and normalized fixed-information nongauge flat family checked; complete source-domain initializer remains unresolved",
+  "role_information": "PASS; complete pure-state moment diagnostic and conditional two-mode closure; mixed-state and source-response limits retained; role preservation separated from origin selection"
 }

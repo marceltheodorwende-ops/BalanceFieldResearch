@@ -112,8 +112,12 @@
   "raw_recursion/SOURCES.json": "5b8c0fffe6e055d9db718df238e8377993a4433d79c7ca3be4e0392ef71304a0",
   "rc_pilot.py": "0618a4646911cab95eac1f84bb3d5075a2e54246956da8d70efe91d695d1a84d",
   "rc_pilot_results.json": "5785f02788ad0b08af6258e8f900d088789c8825f7bc90f0e105fd8868b4d86b",
-  "README.md": "99ceeb8484bf3029c1d18b9a4a3e57825e01f7da1e6b4dd5181593f7ea406885",
+  "README.md": "eacc150316987958300a1ca0195f9ebb220ee67bf4d9c160b0e48dcb7c436794",
   "reference_main.tex": "9dea6e5f4aee9be1ed7f58716a91730ea6c684b189ea24ed2ff6f394c760761b",
+  "role_information/check_roles.py": "19843ad1dc5e9e30f231d23e960c23b70c73c779f113fdb832bc261d3740f5bb",
+  "role_information/README.md": "4999d324fab2c6bb452796b757b61920af99b63f0b5e35517680423a3cbefefb",
+  "role_information/results.json": "133e9b78295746ada47f62a6f2372aff44898d5a4d1508138fd807de8ea43e22",
+  "role_information/SOURCES.json": "9783f7b6b12ac8357add06156a3b380c77b6ded7d1f7719f7de7224ec5a894c3",
   "scalar_controls.py": "71012e88ffef95b9d1b8b2b0c6267f5bec52734d4883f35e5159b37ad410656b",
   "SCALAR_PROOF.md": "caeab1cc4fe7d107bffde9a0888df133c7fd67d6f8b796c3454bbe68b578e2d3",
   "scalar_results.json": "ec26ecedb2cda5ff262297815ee91a2b2d98ef65aee8bec96fdbd0a0de662727",
@@ -122,7 +126,7 @@
   "source_symmetry/README.md": "01f041ae14dc3da26cebec7c819d581a68c4bbe705231d67129c9a4a9cc4fad1",
   "source_symmetry/results.json": "f280f35a6430ed018c8951e366b3cd981917ca1c886221e0378c8c7e4050d3bb",
   "source_symmetry/SOURCES.json": "d0cd6cf78bbc9b365ca316f353f2de88c7b606bb270fbf56bac8e6332d932da0",
-  "STAGE_CHECK.json": "daa59e1c61724eb71247b025cdbbd52919c90e739540b5d63fc3865a08027fc3",
+  "STAGE_CHECK.json": "643ee70ec79a8eb6885b394ad1453211382931df712d56261a527a53c2ce4fab",
   "synthetic_fixed_time_trace.csv": "f0cf448b50d8490b0d51c23dbaf1f2e19a747c229474e02c129f7fcf60316bae",
-  "validate_stage.py": "2db31cb852c6af0f35ee5e407be0784302780de57e3221d9f0d33f5306439806"
+  "validate_stage.py": "2eeb49d56d20296a92d5ea7d3c13f2db529493117ffbf70b17e923c993a487ba"
 }

@@ -214,6 +214,18 @@ assert not quotient['all_plugin_dynamics_and_origin_axioms_realized']
 assert not quotient['equivalence_identified_with_full_nine_role_state']
 assert not quotient['new_physical_rule_adopted'] and not quotient['event_rule_modified']
 report['admissible_quotient']='PASS; residual-rank quotient criterion and normalized fixed-information nongauge flat family checked; complete source-domain initializer remains unresolved'
+roles=json.loads((root/'role_information/results.json').read_text(encoding='utf-8'))
+assert roles['status']=='PASS' and roles['exact_moment_reconstruction_cases']==48
+assert roles['degenerate_eigenspace_unitary_certificate']
+assert roles['two_mode_mean_information_fixes_pure_class']
+assert roles['mixed_density_counterexample']['purity_a']=='1/3'
+assert roles['mixed_density_counterexample']['purity_b']=='25/72'
+assert not roles['source_fixes_those_moment_values']
+assert not roles['complete_state_moments_alone_fix_initial_Y']
+assert not roles['moments_determine_mixed_density_joint_class']
+assert not roles['full_historical_independence_theorem']
+assert not roles['new_physical_rule_adopted'] and not roles['event_rule_modified']
+report['role_information']='PASS; complete pure-state moment diagnostic and conditional two-mode closure; mixed-state and source-response limits retained; role preservation separated from origin selection'
 (root/'STAGE_CHECK.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 manifest={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json' and '__pycache__' not in p.parts}
 (root/'SHA256SUMS.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')

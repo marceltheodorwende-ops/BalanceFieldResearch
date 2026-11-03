@@ -10,6 +10,8 @@ The [functional Hessian audit](functional_hessian/README.md) then tests actual B
 
 The next [admissible quotient analysis](admissible_quotient/README.md) uses the BFG-Engine stability sources to test whether normalization or coordinate equivalence removes the flatness. It proves the residual-rank criterion for positive quotient curvature and supplies an exact normalized, fixed-information family with different joint invariants and zero displayed Lyapunov cost. This is a counterexample to the enumerated stability packet's automatic curvature claim, not to every historical BFG axiom or the specified finite event.
 
+The [role information analysis](role_information/README.md) gives a complete finite moment diagnostic for a pure state relative to one Hermitian information operator. In the source's conditional two-mode branch, normalization and known mean information suffice for that class. Forty-eight exact reconstruction fixtures passed. Identity continuity does not itself select an initial value, and even complete primitive state moments do not determine a neutral response without a source bridge. Mixed densities require additional information.
+
 ## Results of the first milestone
 
 - An indexed register of 48 numbered statements, with original statement text, available adjacent proofs, labels and PDF pages. Seven central dependencies received a focused analytic review; the remaining rows are explicitly pending detailed adversarial review. Definitions and limitations are indexed but are not treated as positive theorems.
