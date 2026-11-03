@@ -63,6 +63,11 @@ assert initial['status']=='PASS' and initial['same_Y_interface_representation'][
 assert not initial['omit_Y_witness']['same_complete_state']
 assert not initial['event_rule_modified'] and not initial['new_fundamental_input_added']
 report['initial_state_contract']='PASS; complete finite state already contains Y, initializer reconstruction remains distinct; numeric policy witness recorded'
+formation=json.loads((root/'formation_initialization/results.json').read_text(encoding='utf-8'))
+assert formation['status']=='PASS' and formation['witness_unique_given_same_rank_one_support']
+assert not formation['complete_initializer_derived'] and not formation['new_physical_rule_adopted']
+assert not formation['event_rule_modified']
+report['formation_initialization']='PASS; fresh ground-state density derived; origin witness and persistence conditional; complete initializer unresolved'
 (root/'STAGE_CHECK.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 manifest={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json' and '__pycache__' not in p.parts}
 (root/'SHA256SUMS.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')

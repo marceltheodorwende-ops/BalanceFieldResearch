@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-03",
+  "source_commit": "43cf0d9c901cbe5f11e36b76dfea327d3028233f",
+  "repository_sources": [
+    {
+      "path": "research/finite-closure-model-2026-09-23/THEOREM.md",
+      "git_blob_sha": "c60a3981c7fbb00608d3e3f00957717038bd8691",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/43cf0d9c901cbe5f11e36b76dfea327d3028233f/research/finite-closure-model-2026-09-23/THEOREM.md"
+    },
+    {
+      "path": "research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/TWO_DENSITY_UNIVERSAL_STATE.md",
+      "git_blob_sha": "6964a38e8ed58500701c485c342521f4d995c01f",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/43cf0d9c901cbe5f11e36b76dfea327d3028233f/research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/TWO_DENSITY_UNIVERSAL_STATE.md"
+    },
+    {
+      "path": "research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/MASTER_STATE.md",
+      "git_blob_sha": "7f78ddd8cd2eff5c072cbd35dadc6116ae2036dd",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/43cf0d9c901cbe5f11e36b76dfea327d3028233f/research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/MASTER_STATE.md"
+    },
+    {
+      "path": "research/fundamental-closure-2026-09-25/package/bfg_lab/fundamental_closure.py",
+      "git_blob_sha": "24969572e998ca91f362873a88d09ff6f1053728",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/43cf0d9c901cbe5f11e36b76dfea327d3028233f/research/fundamental-closure-2026-09-25/package/bfg_lab/fundamental_closure.py"
+    }
+  ],
+  "original_source": {
+    "name": "BFG_Canonical_Universal_Reclosure_Architecture_Preprint_2026-09-22_FINAL.docx",
+    "sha256": "010d310f946b1caea9aec962496ddfe6291eeb255cbd93bd64b4793509aa6308",
+    "location": "Section 3; extracted paragraphs 68-78",
+    "prior_inventory": "../foundation_audit/premise_source_inventory.json"
+  },
+  "scope": "Targeted source check; not an absence theorem over all historical BFG documents. Later selected completion laws are not backdated as original axioms.",
+  "event_rule_modified": false
+}

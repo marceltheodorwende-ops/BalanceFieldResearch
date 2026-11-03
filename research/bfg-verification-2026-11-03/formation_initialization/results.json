@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "date": "2026-11-03",
+  "square_completion": "exact symbolic identity",
+  "simple_ground_formation": {
+    "density": "Matrix([[2, 0], [0, 0]])",
+    "trace": "2",
+    "minimum": "-1",
+    "phase_independent": true
+  },
+  "degenerate_ground_pure_density_unique": false,
+  "nonnegative_ground_nonzero_minimizer": false,
+  "witness_unique_given_same_rank_one_support": true,
+  "witness_type_alone_unique": false,
+  "formation_and_power_bounded_line_preservation_fix_P": false,
+  "normalized_total_formation_can_replace_inherited_witness": false,
+  "complete_initializer_derived": false,
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false,
+  "scope": "Exact finite fixtures and analytic theorem; no full historical independence or empirical claim"
+}

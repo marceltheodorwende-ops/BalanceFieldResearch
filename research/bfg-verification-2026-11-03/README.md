@@ -40,6 +40,10 @@ The last command intentionally replays checks without regenerating manuscript fi
 
 ## Status and next steps
 
+### Formation-derived initial data
+
+[The formation initializer audit](formation_initialization/README.md) derives the unique phase-free fresh formation density from the existing simple-negative quartic minimum. It proves the witness formula conditional on support on that same line and exhibits why the general witness type and static formation do not alone determine identity or persistence. Existing successor promotion is credited without silently extending its domain to origin. Exact symbolic controls passed; the complete initializer, including Y, remains unresolved.
+
 ### Initial-data contract reconciled
 
 [The original initial data versus the complete finite state](initial_state_audit/README.md) shows that Y0 is already an explicit state input in the September and November finite kernel. No extra L/M is needed once the complete typed five-tuple is supplied. The exact event's uniqueness and an initializer-fiber induction distinguish different initial states from different representations of the same state. Fresh checks passed. A separate numerical-policy witness shows that the preserved helper can label a strictly positive small load as a tolerance stop; it is not evidence of exact terminality. No model rule, baseline code or paper was changed.
