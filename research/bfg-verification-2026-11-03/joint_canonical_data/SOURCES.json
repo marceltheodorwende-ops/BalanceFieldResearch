@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-03",
+  "source_commit": "57147e6267784b37fbfbd3def2b89171e8a84e60",
+  "repository_sources": [
+    {
+      "path": "research/bfg-verification-2026-11-03/reference_main.tex",
+      "git_blob_sha": "5366f3ed392a5c817b25d48281155a47d2dfdd4d",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/57147e6267784b37fbfbd3def2b89171e8a84e60/research/bfg-verification-2026-11-03/reference_main.tex"
+    },
+    {
+      "path": "research/bfg-verification-2026-11-03/baseline/extended_controls.py",
+      "git_blob_sha": "78decc58a9a0f4b7b6e1f10021ff39f34d8a632c",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/57147e6267784b37fbfbd3def2b89171e8a84e60/research/bfg-verification-2026-11-03/baseline/extended_controls.py"
+    },
+    {
+      "path": "research/bfg-verification-2026-11-03/initial_state_audit/README.md",
+      "git_blob_sha": "20587adaa570a96f05fdd0b8f464d1c3528e673e",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/57147e6267784b37fbfbd3def2b89171e8a84e60/research/bfg-verification-2026-11-03/initial_state_audit/README.md"
+    }
+  ],
+  "original_clauses": [
+    {
+      "source": "BFG_Canonical_Minimal_Finite_Closure_and_Universal_Reclosure_Preprint_2026-09-26.txt",
+      "location": "Section 3: common finite five-object quotient and unitary conventions",
+      "extraction_sha256": "ce14f9392cf77455bf5507ea406d5694689477097ee4714efe10df8940dd5f22"
+    },
+    {
+      "source": "BFG_Canonical_Universal_Reclosure_Architecture_Preprint_2026-09-22_FINAL.txt",
+      "location": "Section 11, paragraphs 225-230: complete canonical future stream, not automatically the stored five-tuple class",
+      "extraction_sha256": "2fa39375e105db141dc4c34bf307804b5ad618c90cc14d1d512420c09583069b"
+    }
+  ],
+  "prior_plugin_context": "../plugin_synthesis/SOURCES.json",
+  "prior_trace": [
+    "../future_identifiability/SOURCES.json",
+    "../initial_state_audit/SOURCES.json",
+    "../coupling_independence/SOURCES.json"
+  ],
+  "scope": "Exact finite Hermitian simultaneous-unitary criterion with rational/algebraic executable certificates, mixed canonical invariants, and preserved event alignment/discard controls. Not a theorem identifying the nine-role state or a source-derived unique origin.",
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false
+}

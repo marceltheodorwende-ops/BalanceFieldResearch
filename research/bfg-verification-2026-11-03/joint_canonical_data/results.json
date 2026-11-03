@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "date": "2026-11-03",
+  "exact_certificate_domain": "concrete rational/algebraic Hermitian tuples; same carrier dimension",
+  "simultaneous_coordinate_change": {
+    "equivalent": true,
+    "intertwiner_dimension": 2,
+    "determinant_polynomial": "2*z0*z1",
+    "explicit_witness_found": true,
+    "unitary_witness_verified": true,
+    "unitary_witness": [
+      [
+        "sqrt(2)/2",
+        "-sqrt(2)/2"
+      ],
+      [
+        "sqrt(2)/2",
+        "sqrt(2)/2"
+      ]
+    ]
+  },
+  "same_individual_spectra_different_alignment": {
+    "equivalent": false,
+    "intertwiner_dimension": 0,
+    "determinant_polynomial": "0"
+  },
+  "nonzero_but_singular_intertwiner_space": {
+    "equivalent": false,
+    "intertwiner_dimension": 1,
+    "determinant_polynomial": "0"
+  },
+  "fully_degenerate_equivalent_case": {
+    "equivalent": true,
+    "intertwiner_dimension": 4,
+    "determinant_polynomial": "z0*z3 - z1*z2",
+    "explicit_witness_found": true,
+    "unitary_witness_verified": true,
+    "unitary_witness": [
+      [
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "0"
+      ]
+    ]
+  },
+  "mixed_trace_KY": [
+    "0",
+    "-3/8"
+  ],
+  "alignment_successors": {
+    "alpha": [
+      "1/17",
+      "13/101"
+    ],
+    "Gram_spectra": [
+      [
+        "32/425",
+        "20/153"
+      ],
+      [
+        "296/2525",
+        "140/909"
+      ]
+    ],
+    "kernel_Frobenius_squared": [
+      "5",
+      "11663/2590"
+    ],
+    "binary64_checks": "PASS; exact formulas derived separately"
+  },
+  "inequivalent_inputs_with_same_successor": {
+    "input_certificate": {
+      "equivalent": false,
+      "intertwiner_dimension": 1,
+      "determinant_polynomial": "0"
+    },
+    "exact_scalar_successor": "K=-2, rhoF=2, rhoW=1, Y=32/425, P=1",
+    "binary64_checks": "PASS"
+  },
+  "stored_unitary_class_automatically_equals_full_source_behavioral_quotient": false,
+  "source_origin_joint_values_derived": false,
+  "unique_fundamental_initializer_derived": false,
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false,
+  "scope": "Exact finite joint-state classification, source-canonical invariants and bounded preserved-helper controls; not a nine-role equivalence, origin derivation or physical validation"
+}

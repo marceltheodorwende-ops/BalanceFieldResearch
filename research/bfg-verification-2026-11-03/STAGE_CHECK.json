@@ -30,5 +30,6 @@
   "local_information": "PASS; arbitrarily local conditional reconstruction and exact-balance implication; real/domain and conditioning limits checked",
   "origin_information_domain": "PASS; source count formula verified, candidate quadratic bridge tested, exact-minimum versus perturbation domain distinguished",
   "configuration_hilbert_bridge": "PASS; explicit finite conditional representation and transition lift; Gram, quotient and operator-role compatibility limits checked",
-  "future_identifiability": "PASS; finite predictive quotient exact and minimal; tested balance/count packet leaves underlying models nonunique"
+  "future_identifiability": "PASS; finite predictive quotient exact and minimal; tested balance/count packet leaves underlying models nonunique",
+  "joint_canonical_data": "PASS; exact joint-coordinate equivalence and alignment effects checked; input class distinguished from behavioral quotient and origin selection"
 }

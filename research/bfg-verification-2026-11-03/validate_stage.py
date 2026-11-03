@@ -167,6 +167,14 @@ assert not future['full_balance_count_future_fixes_microscopic_model']
 assert not future['tested_observations_equal_full_source_canonical_datum']
 assert not future['new_physical_rule_adopted'] and not future['event_rule_modified']
 report['future_identifiability']='PASS; finite predictive quotient exact and minimal; tested balance/count packet leaves underlying models nonunique'
+canonical=json.loads((root/'joint_canonical_data/results.json').read_text(encoding='utf-8'))
+assert canonical['status']=='PASS' and canonical['simultaneous_coordinate_change']['equivalent']
+assert not canonical['same_individual_spectra_different_alignment']['equivalent']
+assert canonical['nonzero_but_singular_intertwiner_space']['intertwiner_dimension']==1
+assert not canonical['nonzero_but_singular_intertwiner_space']['equivalent']
+assert not canonical['source_origin_joint_values_derived']
+assert not canonical['new_physical_rule_adopted'] and not canonical['event_rule_modified']
+report['joint_canonical_data']='PASS; exact joint-coordinate equivalence and alignment effects checked; input class distinguished from behavioral quotient and origin selection'
 (root/'STAGE_CHECK.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 manifest={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json' and '__pycache__' not in p.parts}
 (root/'SHA256SUMS.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')

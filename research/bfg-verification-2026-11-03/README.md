@@ -40,6 +40,10 @@ The last command intentionally replays checks without regenerating manuscript fi
 
 ## Status and next steps
 
+### Joint canonical data and exact coordinate-equivalence certificates
+
+[The joint canonical-state analysis](joint_canonical_data/README.md) brings in all five stored finite roles and proves an exact simultaneous-unitary criterion via invertible intertwiners and their determinant polynomial. It distinguishes coordinate copies from equal-individual-spectrum states with different K/Y alignment. Mixed traces and exact successor spectra expose an operational difference, while a separate example has inequivalent stored inputs but the same reduced successor. The stored class is not silently equated with the source's full behavioral quotient or nine-role state. Exact algebraic certificates and preserved-helper controls passed; no origin values or physical laws are invented.
+
 ### Complete-future observable identifiability
 
 [The future-identifiability analysis](future_identifiability/README.md) computes the exact coarsest predictive congruence for a supplied finite transition and observable family. Its minimal observable model is unique given the full behavior set, while balance/count histories alone permit different underlying models and hidden copies. The exact algorithm passes 3,984 symbolic models and 62,688 independent state-pair checks; these are not full BFG-admissibility or physical tests. The source's full canonical datum is explicitly not equated with the reduced observation packet. Count information is transported through the quotient instead of being reset to its new cardinality. No new origin rule is adopted.
