@@ -40,6 +40,10 @@ The last command intentionally replays checks without regenerating manuscript fi
 
 ## Status and next steps
 
+### Original identity and persistence checked
+
+[The origin representation audit](origin_bridge/README.md) traces eight original extractions, including March/April 2025 and the June origin chain. Primitive identity and persistence are already present; what remains unproved is their unique representation as the first finite witness and protected ground line. An analytic theorem derives the unique witness from a rank-one protected sector and unnormalized stationarity. Exact controls distinguish these premises from mere normalized stationarity, spectral criticality or the conjugate-product grammar. Existing declared successor rules remain credited; no new origin rule is adopted.
+
 ### Formation-derived initial data
 
 [The formation initializer audit](formation_initialization/README.md) derives the unique phase-free fresh formation density from the existing simple-negative quartic minimum. It proves the witness formula conditional on support on that same line and exhibits why the general witness type and static formation do not alone determine identity or persistence. Existing successor promotion is credited without silently extending its domain to origin. Exact symbolic controls passed; the complete initializer, including Y, remains unresolved.

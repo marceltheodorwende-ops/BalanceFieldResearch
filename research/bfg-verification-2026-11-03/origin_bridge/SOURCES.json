@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-03",
+  "source_commit": "4ad9a5f6ab89bbbe244b60e5d21f11b7835eba7d",
+  "original_extractions": [
+    {
+      "name": "BFG-Die_universelle_Balancefeld-Gleichung_21184811.txt",
+      "source_date": "14 March 2025",
+      "extraction_sha256": "6b38813aa8ae324ad92428c90cef3e3980f09b8113b846615c258c2cae08e4b2",
+      "extraction_bytes": 128214,
+      "inspected_locations": "Section 3, extracted lines 215-282",
+      "provenance": "Previously supplied manuscript extraction; hash covers extracted text, not original PDF"
+    },
+    {
+      "name": "BFG_White_paper_1.0_7d3f23d9.txt",
+      "source_date": "17 April 2025",
+      "extraction_sha256": "14b89ccd52a12fb7eb0f50fd3077053e9724dcd999b9a95bf1df494b862c0b3a",
+      "extraction_bytes": 114334,
+      "inspected_locations": "Abstract; Section 7.1-7.3, extracted lines 674-704; identity-related passages searched",
+      "provenance": "Previously supplied manuscript extraction; hash covers extracted text, not original PDF"
+    },
+    {
+      "name": "BFG_Balancefeld-Gleichung_a6820a15.txt",
+      "source_date": "18 April 2025",
+      "extraction_sha256": "57cb226f23f3b54ee09b8b3b7038a6084fd17dc8cbe8cedced168c8282d8b23e",
+      "extraction_bytes": 242817,
+      "inspected_locations": "Sections 1-2, extracted lines 310-426",
+      "provenance": "Previously supplied manuscript extraction; hash covers extracted text, not original PDF"
+    },
+    {
+      "name": "BFG_Englisch_b8ba1fb1.txt",
+      "source_date": "29 June 2025",
+      "extraction_sha256": "53046d9e1a1c704063060eb9281a9223c80cb09ac22a0d7d4a95d852dc54da87",
+      "extraction_bytes": 35083,
+      "inspected_locations": "Sections 9.1-9.3, extracted lines 399-440",
+      "provenance": "Previously supplied manuscript extraction; hash covers extracted text, not original PDF"
+    },
+    {
+      "name": "3.1_The_Recursive_Conjugate_Closure_Extension_of_the_BFG.txt",
+      "source_date": "16 May 2026",
+      "extraction_sha256": "e4b7a5e085a76ad14f438dd37b79c6fb88cf6b6232ee3cec53e4a418cda50033",
+      "extraction_bytes": 9115,
+      "inspected_locations": "Sections 2 and 5; entire extracted short document read",
+      "provenance": "Previously supplied manuscript extraction; hash covers extracted text, not original PDF"
+    },
+    {
+      "name": "BFG_Compact_But_Rigorois_Recursive_Stability_Formulation.txt",
+      "source_date": "21 May 2026",
+      "extraction_sha256": "7f8811856db4efcd92a257bb81058d3c9cd59b4c9163416bea7d0c421486c3aa",
+      "extraction_bytes": 11228,
+      "inspected_locations": "Sections 8-10, extracted lines 160-226",
+      "provenance": "Previously supplied manuscript extraction; hash covers extracted text, not original PDF"
+    },
+    {
+      "name": "BFG_LEVEL_0.txt",
+      "source_date": "1 June 2026",
+      "extraction_sha256": "115e6129c6675f337e9affafae175012f988ad6005e399aecd6ea364775028bf",
+      "extraction_bytes": 44797,
+      "inspected_locations": "Section 2; Theorem 8.3; Section 9; Sections 22-23, extracted lines 515-567 and 927-973",
+      "provenance": "Previously supplied manuscript extraction; hash covers extracted text, not original PDF"
+    },
+    {
+      "name": "BFG_Origin_White_Paper_Neutral_Admissible_Closure.txt",
+      "source_date": "June 2026 as stated in manuscript",
+      "extraction_sha256": "5784687c3bb3c3c47b98e08eeca4ef51f2e8ad58789a19f56293704bd9650b6c",
+      "original_docx_sha256": "75fd26ef032c72c57ab68a4ffe7628bb15431b95a05e6761f802c22a39dc5b90",
+      "inspected_locations": "Paragraphs 101-108, 171-179, 203-215, 344-357, 715-724",
+      "provenance": "Original DOCX paragraph extraction; equation layout may be incomplete"
+    }
+  ],
+  "repository_sources": [
+    {
+      "path": "research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/CANONICAL_SELF_RECLOSURE_AXIOM.md",
+      "git_blob_sha": "d5b1c5ca138cfea1b4a31aa860af664444911bc2",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/4ad9a5f6ab89bbbe244b60e5d21f11b7835eba7d/research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/CANONICAL_SELF_RECLOSURE_AXIOM.md"
+    },
+    {
+      "path": "research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/PERSISTENCE_INCLUSION_THEOREM.md",
+      "git_blob_sha": "1802052a9bbe34cd1ba1c0c27bf4c442e4c87aaf",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/4ad9a5f6ab89bbbe244b60e5d21f11b7835eba7d/research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/PERSISTENCE_INCLUSION_THEOREM.md"
+    },
+    {
+      "path": "research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/TWO_DENSITY_UNIVERSAL_STATE.md",
+      "git_blob_sha": "6964a38e8ed58500701c485c342521f4d995c01f",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/4ad9a5f6ab89bbbe244b60e5d21f11b7835eba7d/research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/TWO_DENSITY_UNIVERSAL_STATE.md"
+    }
+  ],
+  "search_scope": {
+    "directories": [
+      "source_text",
+      "coupling_source_search"
+    ],
+    "available_texts": 55,
+    "detailed_primary_extractions": 8,
+    "method": "Keyword screening followed by direct reading of the listed passages; later repository clauses read independently",
+    "limitation": "No exhaustive historical absence/independence theorem; PDF and OMML extraction can omit mathematical layout"
+  },
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false
+}
