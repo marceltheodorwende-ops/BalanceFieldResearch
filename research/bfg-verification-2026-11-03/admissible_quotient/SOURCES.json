@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-03",
+  "source_commit": "3dbdf962a565963b997a6246ffaffa7151f2bf39",
+  "plugin": {
+    "name": "BFG-Engine",
+    "id": "gpt-db973449b2d2332ba4c21e08787e18eb",
+    "version": "0.24.1+bundle.f9b8b9f3584e112bca3dae5feb20e0d3",
+    "mode": "Bundled skill and primary-reference reading; no remote numerical engine invoked.",
+    "skill_sha256": "7cbcbec4b7f84355767decf4c523bc8053173a06091a80cc55231c88d6288a27",
+    "foundational_context": [
+      {
+        "name": "3.1_The_Recursive_Conjugate_Closure_Extension_of_the_BFG.pdf",
+        "sha256": "4fc0c22892b82bd2452718569730b2cf0014b87fcfce4c333079a20fae1899d1",
+        "extraction_sha256": "7370a60aaf6b6580f7b4369ef77e53a1dd17e03b6879e34a1683a7a6b2420c65"
+      },
+      {
+        "name": "BFG_A_White_Paper_on_Why_Recursive_Stability_Can_Exist_at_All.pdf",
+        "sha256": "5bb574599b25a698747cea584e404738510d66129627784e3e733cbb30983a34",
+        "extraction_sha256": "d03b3fb2e9ead50884fffeafc1d659e737a7938ef6b75f2d0330edc2e22d151c"
+      },
+      {
+        "name": "BFG_BALANCE_FIELD_EQUATION_FW.pdf",
+        "sha256": "689c082aa7561fc695a46891d9c9a0261248c63b5e64139f5edb8ac279118fa7",
+        "extraction_sha256": "f65622ad24f48eaf59ff11082f981037785ece53df59d96d2ae2b0c57d7fd40c"
+      },
+      {
+        "name": "BFG_Compact_But_Rigorois_Recursive_Stability_Formulation.pdf",
+        "sha256": "209b5db0c18d6b60a8c7dd72f1b4291ea51fb5b2d87d2fea265666675ea30386",
+        "extraction_sha256": "610391e77ae1e7154192ad3499b0f2d3b9ff96d8d05ff2a5d0e4301c5ab10be8"
+      },
+      {
+        "name": "BFG_Standard_Modell.pdf",
+        "sha256": "8c743f967f721fa7c9b97fe62b828ac389ce7860c6630d76ea42d0e6350c4819",
+        "extraction_sha256": "09627900de9e115ff22e492ec509a11b56f89ffe6fc2a58629f1157d3fb9141c"
+      },
+      {
+        "name": "BFG_Strongest_Version.pdf",
+        "sha256": "8ce66e2c64b2861f4e333bd5ce709670747d41e7bf3b30ab3870968a334f0df4",
+        "extraction_sha256": "ef5972cb553dd8b36ff180f91d1a6ec86edb15597750ce63273b727f067174fd"
+      },
+      {
+        "name": "BFG_The_Neutral_Interface.pdf",
+        "sha256": "3ba049d1a99eeacb748ebed8ac5c86647671fd56c9d4fa7854326f5f413fb743",
+        "extraction_sha256": "d9a49c1c74e75df107c646438e5e25e4e927e8247de1602d54809a63b7ec6c28"
+      }
+    ]
+  },
+  "focused_sources": [
+    {
+      "extraction": "BFG_The_Neutral_Interface.txt",
+      "extraction_sha256": "d9a49c1c74e75df107c646438e5e25e4e927e8247de1602d54809a63b7ec6c28",
+      "location": "Sections 3-5,9-12,21: operator roles, balance, conjugate/normalized recursion, cost and local interface covariance."
+    },
+    {
+      "extraction": "BFG_A_White_Paper_on_Why_Recursive_Stability_Can_Exist_at_All.txt",
+      "extraction_sha256": "d03b3fb2e9ead50884fffeafc1d659e737a7938ef6b75f2d0330edc2e22d151c",
+      "location": "Sections 8-15 and23: primitive factor, displayed stability conjunction and effective gauge compensation."
+    },
+    {
+      "extraction": "BFG_Canonical_Universal_Reclosure_Architecture_Preprint_2026-09-22_FINAL.txt",
+      "extraction_sha256": "2fa39375e105db141dc4c34bf307804b5ad618c90cc14d1d512420c09583069b",
+      "location": "Section3, paragraphs68-78: isolated real formation minimum; joint-unitary conventions retained through prior stage sources."
+    }
+  ],
+  "prior_trace": [
+    "../plugin_synthesis/SOURCES.json",
+    "../functional_hessian/SOURCES.json",
+    "../source_symmetry/SOURCES.json",
+    "../formation_initialization/SOURCES.json",
+    "../effective_response/SOURCES.json"
+  ],
+  "coverage": "Integrated prior 20-reference inventory with focused admissibility and quotient clause checks; not a fresh proof audit of all indexed pages.",
+  "scope": "Exact finite residual quotient criterion and normalized fixed-information comparison packet. Additional source admissibility restrictions, full nine-role dynamics and all sector equations are not asserted to be realized.",
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false
+}

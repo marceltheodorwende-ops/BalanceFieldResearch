@@ -1,0 +1,211 @@
+{
+  "status": "PASS",
+  "fixed_operators": {
+    "information": [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "2",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "3"
+      ]
+    ],
+    "expansion": [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1/2",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1/3"
+      ]
+    ],
+    "binding": [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "neutral": [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "feedback_operator": [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1/4",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1/9"
+      ]
+    ],
+    "raw_recursion": [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ]
+  },
+  "normalized_fixed_information_family": [
+    {
+      "theta": "1/8",
+      "state": [
+        [
+          "sqrt(2)/4"
+        ],
+        [
+          "sqrt(3)/2"
+        ],
+        [
+          "sqrt(2)/4"
+        ]
+      ],
+      "norm_squared": "1",
+      "information": "2",
+      "second_information_moment": "17/4",
+      "balance": "1",
+      "scalar_feedback": "A=0, B=1/2, IB=0",
+      "recursive_radius": "1",
+      "power_bound": "1",
+      "interface_drift": "0",
+      "Lyapunov_cost": "0",
+      "constraint_rank": 2,
+      "real_horizontal_tangent_dimension": 1,
+      "invariant_derivative_along_tangent": "2"
+    },
+    {
+      "theta": "1/4",
+      "state": [
+        [
+          "1/2"
+        ],
+        [
+          "sqrt(2)/2"
+        ],
+        [
+          "1/2"
+        ]
+      ],
+      "norm_squared": "1",
+      "information": "2",
+      "second_information_moment": "9/2",
+      "balance": "1",
+      "scalar_feedback": "A=0, B=1/2, IB=0",
+      "recursive_radius": "1",
+      "power_bound": "1",
+      "interface_drift": "0",
+      "Lyapunov_cost": "0",
+      "constraint_rank": 2,
+      "real_horizontal_tangent_dimension": 1,
+      "invariant_derivative_along_tangent": "2"
+    }
+  ],
+  "joint_unitary_classes_distinct": true,
+  "flat_direction_survives_normalization_and_fixed_information": true,
+  "scalar_neutral_cost_Hessian_diagonal": [
+    "0",
+    "0",
+    "0",
+    "1+2*lambda_R+6*lambda_N"
+  ],
+  "quotient_positive_control": [
+    [
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "4"
+    ]
+  ],
+  "quotient_singular_control": [
+    [
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "0"
+    ]
+  ],
+  "exact_real_formation_Hessian": [
+    [
+      "4",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "3",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "5"
+    ]
+  ],
+  "all_plugin_dynamics_and_origin_axioms_realized": false,
+  "source_selects_initial_reduced_response": false,
+  "equivalence_identified_with_full_nine_role_state": false,
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false
+}

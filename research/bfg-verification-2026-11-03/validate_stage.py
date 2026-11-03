@@ -203,6 +203,17 @@ assert not functional['local_Hessian_equals_full_nonlinear_law']
 assert not functional['source_Gram_rule_replaced']
 assert not functional['new_physical_rule_adopted'] and not functional['event_rule_modified']
 report['functional_hessian']='PASS; conditional nonlinear Schur Hessian and source functional limits checked; no unsourced identification of local curvature with exact initial Y'
+quotient=json.loads((root/'admissible_quotient/results.json').read_text(encoding='utf-8'))
+assert quotient['status']=='PASS' and quotient['joint_unitary_classes_distinct']
+assert quotient['flat_direction_survives_normalization_and_fixed_information']
+assert [x['second_information_moment'] for x in quotient['normalized_fixed_information_family']]==['17/4','9/2']
+assert quotient['quotient_positive_control']==[['1','0'],['0','4']]
+assert quotient['quotient_singular_control']==[['1','0'],['0','0']]
+assert not quotient['source_selects_initial_reduced_response']
+assert not quotient['all_plugin_dynamics_and_origin_axioms_realized']
+assert not quotient['equivalence_identified_with_full_nine_role_state']
+assert not quotient['new_physical_rule_adopted'] and not quotient['event_rule_modified']
+report['admissible_quotient']='PASS; residual-rank quotient criterion and normalized fixed-information nongauge flat family checked; complete source-domain initializer remains unresolved'
 (root/'STAGE_CHECK.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 manifest={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json' and '__pycache__' not in p.parts}
 (root/'SHA256SUMS.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')

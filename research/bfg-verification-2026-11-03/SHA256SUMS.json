@@ -1,4 +1,8 @@
 {
+  "admissible_quotient/check_quotient.py": "7aa04a52acfa908d5caa0c4073e32be33d76a9607d8c4611ccb674de90c900db",
+  "admissible_quotient/README.md": "62c0a0c826e2d88d9b00d9059c6c0d9cf2efe6a7eb31af37b8535c570a03f84c",
+  "admissible_quotient/results.json": "b8d27158658f47b921ebd81cee4f2ad137d565c5bfecbf4dd3e0839443509f77",
+  "admissible_quotient/SOURCES.json": "d5e6e749547e25cb167400ffb8bbd66b5578a970c3ed9d7d2ef00d2ac2aed129",
   "baseline/execution_log.txt": "d75c3f0f615a408bb427d3f536f78c17104e22fc18104e924752524b12c41cb2",
   "baseline/extended_controls.py": "f445aea3784bb2dcd2af1a6878dfb8dd4b377543ea729a73de718d6a6f880f86",
   "baseline/extended_verification.json": "dc782b055be199e883a4f6b86af84a719880ebbaf94d0ab6de36f9e14f230242",
@@ -108,7 +112,7 @@
   "raw_recursion/SOURCES.json": "5b8c0fffe6e055d9db718df238e8377993a4433d79c7ca3be4e0392ef71304a0",
   "rc_pilot.py": "0618a4646911cab95eac1f84bb3d5075a2e54246956da8d70efe91d695d1a84d",
   "rc_pilot_results.json": "5785f02788ad0b08af6258e8f900d088789c8825f7bc90f0e105fd8868b4d86b",
-  "README.md": "a67c9f11187691f5f6521f8326d11ba72bc2812f6cb0c2c609401f6ae9fcce0b",
+  "README.md": "99ceeb8484bf3029c1d18b9a4a3e57825e01f7da1e6b4dd5181593f7ea406885",
   "reference_main.tex": "9dea6e5f4aee9be1ed7f58716a91730ea6c684b189ea24ed2ff6f394c760761b",
   "scalar_controls.py": "71012e88ffef95b9d1b8b2b0c6267f5bec52734d4883f35e5159b37ad410656b",
   "SCALAR_PROOF.md": "caeab1cc4fe7d107bffde9a0888df133c7fd67d6f8b796c3454bbe68b578e2d3",
@@ -118,7 +122,7 @@
   "source_symmetry/README.md": "01f041ae14dc3da26cebec7c819d581a68c4bbe705231d67129c9a4a9cc4fad1",
   "source_symmetry/results.json": "f280f35a6430ed018c8951e366b3cd981917ca1c886221e0378c8c7e4050d3bb",
   "source_symmetry/SOURCES.json": "d0cd6cf78bbc9b365ca316f353f2de88c7b606bb270fbf56bac8e6332d932da0",
-  "STAGE_CHECK.json": "8267196c0b58b81f07e506008f1e7cbd94f7193e4dc070f08d66c9f89d056de7",
+  "STAGE_CHECK.json": "daa59e1c61724eb71247b025cdbbd52919c90e739540b5d63fc3865a08027fc3",
   "synthetic_fixed_time_trace.csv": "f0cf448b50d8490b0d51c23dbaf1f2e19a747c229474e02c129f7fcf60316bae",
-  "validate_stage.py": "41c1b8577122917f66f05768976f6af867c37793a5a82af314e81a33291dc9a6"
+  "validate_stage.py": "2db31cb852c6af0f35ee5e407be0784302780de57e3221d9f0d33f5306439806"
 }

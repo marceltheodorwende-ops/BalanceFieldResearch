@@ -8,6 +8,8 @@ The subsequent [effective response analysis](effective_response/README.md) prove
 
 The [functional Hessian audit](functional_hessian/README.md) then tests actual BFG assessment candidates. It proves a conditional nonlinear Schur-reduction criterion, distinguishes tangent curvature from the exact finite completion, and checks a flat direction of the displayed neutral-interface Lyapunov cost. The September source explicitly preserves its master Gram rather than replacing it with a level-specific Hessian. A source-derived joint assessment fixing initial E remains unresolved.
 
+The next [admissible quotient analysis](admissible_quotient/README.md) uses the BFG-Engine stability sources to test whether normalization or coordinate equivalence removes the flatness. It proves the residual-rank criterion for positive quotient curvature and supplies an exact normalized, fixed-information family with different joint invariants and zero displayed Lyapunov cost. This is a counterexample to the enumerated stability packet's automatic curvature claim, not to every historical BFG axiom or the specified finite event.
+
 ## Results of the first milestone
 
 - An indexed register of 48 numbered statements, with original statement text, available adjacent proofs, labels and PDF pages. Seven central dependencies received a focused analytic review; the remaining rows are explicitly pending detailed adversarial review. Definitions and limitations are indexed but are not treated as positive theorems.
