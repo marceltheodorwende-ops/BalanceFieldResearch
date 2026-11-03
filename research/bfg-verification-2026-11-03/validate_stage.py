@@ -38,6 +38,11 @@ assert crosswalk['status']=='PASS' and not crosswalk['previous_countermodel']['r
 assert crosswalk['rectangular_complex_channel']['active_SVD_Gram_identity']
 assert not crosswalk['new_physical_rules_adopted']
 report['existing_derivation_crosswalk']='PASS; earlier conditional derivation retained, weaker-packet witness excluded by its full premises'
+interface=json.loads((root/'foundation_audit/interface_results.json').read_text(encoding='utf-8'))
+assert interface['status']=='PASS' and not interface['new_physical_rule_adopted']
+assert interface['same_source_and_intrinsic_neutral_metric']['not_coordinate_equivalent_as_metric_channel_pairs']
+assert not interface['proposed_L0_NC']['adopted_by_this_audit']
+report['interface_identification']='PASS; quadratic-class classification and coordinate-invariance distinction; full historical necessity unresolved'
 (root/'STAGE_CHECK.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 manifest={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json' and '__pycache__' not in p.parts}
 (root/'SHA256SUMS.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')

@@ -6,6 +6,10 @@
 
 The [19-step derivation/program crosswalk](DERIVATION_PROGRAM_CROSSWALK.md) explicitly preserves the successful earlier BFG-internal derivation. The quadratic completion with the same fixed channel, metrics and retained-response identification **does** derive the source Gram and active-target Sigma^2. The weaker-packet witness below fails that full identification and therefore does **not** refute the existing conditional derivation. An unqualified reading that no Gram derivation exists would be incorrect. The crosswalk also recovers the seed magnitude from the original quartic formation problem and separates it from the event-level choice of the emergent block. [Exact follow-up controls](crosswalk_results.json) passed; [pinned source references](crosswalk_sources.json) identify the compared versions.
 
+## Next premise check: coupling, metric and normalization
+
+[The interface identification analysis](INTERFACE_IDENTIFICATION.md) classifies all strictly positive finite quadratic joint assessments with a fixed positive source Hessian. It proves which changes are merely coordinates and exhibits different retained responses with the same source Hessian and same intrinsic neutral metric. The original resolvent derivation remains valid for each specified assessment. The existing proposed L0-NC restriction fixes both pieces only under its two explicit clauses; it has not been newly adopted. [Exact controls](interface_results.json) passed. This is a source-scoped refinement of the earlier scalar examples, not a new physical rule or a first-discovery claim about the general nonuniqueness issue.
+
 ## Question and bounded answer
 
 Does the precise finite event in Section 12 of the published preprint follow uniquely from the historical structural principles, without additional constitutive identifications?

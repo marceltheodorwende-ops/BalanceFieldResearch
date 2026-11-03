@@ -20,4 +20,6 @@ Read with the [existing-derivation crosswalk](DERIVATION_PROGRAM_CROSSWALK.md): 
 
 The existing quadratic-completion and active-target bridge already exclude the h(S) witness **when their full premises are used**. The remaining source question is the necessity of those precise carrier, metric and successor-role identifications from the chosen earlier primitive premise set. Do not restart the established resolvent/Gram algebra or treat a weaker-packet witness as a contradiction of that stronger conditional chain. A claim of earliest-axiom necessity still requires a source-based argument for those identifications.
 
+The [quadratic-interface classification](INTERFACE_IDENTIFICATION.md) now makes that question more precise: a fixed formed source Hessian H leaves the mixed source-neutral Hessian B and intrinsic neutral Schur complement M undetermined in the stated class. True coordinate changes preserve the normalized response, whereas the checked inequivalent pairs do not. The next source-derived step must therefore identify B and M, or an equivalent joint assessment, from an already accepted premise. The proposed L0-NC rule supplies them conditionally but remains proposed; no new adoption is made by this audit.
+
 This is a list of current proof obligations and demonstrated relative limitations. It is not a prescription to introduce new laws.

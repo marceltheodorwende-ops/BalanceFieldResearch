@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "date": "2026-11-03",
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "scope": "All strictly positive finite quadratic completions of a fixed positive source Hessian; not all nonlinear or historical BFG models",
+  "classification_fixture_cases": [
+    {
+      "trace_Y": "1/2",
+      "det_Y": "1/16",
+      "joint_positive_definite": true,
+      "coordinate_invariance": true
+    },
+    {
+      "trace_Y": "2/9",
+      "det_Y": "1/81",
+      "joint_positive_definite": true,
+      "coordinate_invariance": true
+    },
+    {
+      "trace_Y": "3/8",
+      "det_Y": "1/30",
+      "joint_positive_definite": true,
+      "coordinate_invariance": true
+    }
+  ],
+  "source_formation_example_H_reproduced": true,
+  "same_source_and_intrinsic_neutral_metric": {
+    "H": "diag(2,3)",
+    "M": "diag(2,3)",
+    "L1": "I/2",
+    "L2": "I/3",
+    "Y1": "I/4",
+    "Y2": "I/9",
+    "retained_response1": "4I/5",
+    "retained_response2": "9I/10",
+    "not_coordinate_equivalent_as_metric_channel_pairs": true,
+    "rescaling_L1_to_L2_requires_changing_M_to_4H_over_9": true
+  },
+  "proposed_L0_NC": {
+    "mixed_Hessian_fixes_L": true,
+    "intrinsic_metric_is_separate_clause": true,
+    "adopted_by_this_audit": false
+  },
+  "general_proof": "INTERFACE_IDENTIFICATION.md",
+  "formal_proof_assistant": false,
+  "new_physical_rule_adopted": false
+}
