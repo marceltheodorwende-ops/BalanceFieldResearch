@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "rectangular_complex_channel": {
+    "shape": [
+      3,
+      2
+    ],
+    "source_Gram_shape": [
+      2,
+      2
+    ],
+    "target_Gram_shape": [
+      3,
+      3
+    ],
+    "active_SVD_Gram_identity": true,
+    "exact_neutral_elimination_identity": true
+  },
+  "previous_countermodel": {
+    "published_response": "45/53",
+    "alternative_response": "53/61",
+    "response_difference": "64/3233",
+    "satisfies_same_quadratic_completion": false,
+    "refutes_conditional_derivation": false
+  },
+  "weight_uniqueness_under_balance_and_normalization": true,
+  "equal_metric_selector_identities": true,
+  "capacity_combination_commutes_with_common_compression": true,
+  "seed_quartic_square_completion": true,
+  "normalized_quartic_remainder": "x**4/64 + x**3/8",
+  "five_tuple_capacity_reconstruction_unique": false,
+  "program_reference": {
+    "path": "../baseline/extended_controls.py",
+    "sha256": "f445aea3784bb2dcd2af1a6878dfb8dd4b377543ea729a73de718d6a6f880f86",
+    "scalar_fixture_executed_this_followup": true,
+    "scalar_fixture_absolute_load_error": 0.0,
+    "full_suite_executed_this_followup": false,
+    "note": "One fresh binary64 event fixture matches the exact 8/45 reference; the complete numeric event suite was run in the first milestone, not relabelled as rerun here"
+  },
+  "new_physical_rules_adopted": false,
+  "formal_proof_assistant": false
+}

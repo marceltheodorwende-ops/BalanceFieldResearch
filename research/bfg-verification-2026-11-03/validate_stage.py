@@ -1,6 +1,6 @@
 """Validate recorded research artifacts; does not rerun expensive controls."""
 from pathlib import Path
-import json,hashlib,csv,re
+import json,hashlib,csv,re,posixpath
 root=Path(__file__).resolve().parent
 claims=json.loads((root/'claims.json').read_text(encoding='utf-8'))
 assert len(claims)==48
@@ -23,11 +23,21 @@ assert hashlib.sha256((root/'reference_main.tex').read_bytes()).hexdigest()==sou
 for path in root.rglob('*.md'):
     for target in re.findall(r'\]\(([^)]+)\)',path.read_text(encoding='utf-8')):
         if target.startswith(('https://','../../papers/','../../completion-boundary-2026-09-29/','../../level0-neutral-capacity-source-law-2026-09-30/')):continue
+        if target.startswith(('../../proof-chain-audit-2026-09-26/','../../fundamental-closure-2026-09-25/')):
+            sources=json.loads((root/'foundation_audit/crosswalk_sources.json').read_text(encoding='utf-8'))
+            repo_path=posixpath.normpath('research/bfg-verification-2026-11-03/'+path.relative_to(root).parent.as_posix()+'/'+target)
+            assert repo_path in {row['path'] for row in sources['source_documents']},repo_path
+            continue
         assert (path.parent/target).exists(),(path,target)
 report={'status':'PASS','date':'2026-11-03','claim_entries':len(claims),'focused_analytic_reviews':7,'other_entries_detailed_review':'PENDING','exact_scalar_steps':816,'synthetic_trace_rows':len(trace),'baseline_replay':'PASS','formal_proof_assistant':'NOT EXECUTED','hardware':'NOT EXECUTED','published_pdf_modified':False,'scope':'Artifact consistency and recorded controls; not external review or a proof of every manuscript claim'}
 foundation=json.loads((root/'foundation_audit/results.json').read_text(encoding='utf-8'))
 assert foundation['status']=='PASS' and not foundation['new_physical_rules_adopted']
 report['foundation_audit']='PASS; relative nonuniqueness, not a full historical independence theorem'
+crosswalk=json.loads((root/'foundation_audit/crosswalk_results.json').read_text(encoding='utf-8'))
+assert crosswalk['status']=='PASS' and not crosswalk['previous_countermodel']['refutes_conditional_derivation']
+assert crosswalk['rectangular_complex_channel']['active_SVD_Gram_identity']
+assert not crosswalk['new_physical_rules_adopted']
+report['existing_derivation_crosswalk']='PASS; earlier conditional derivation retained, weaker-packet witness excluded by its full premises'
 (root/'STAGE_CHECK.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 manifest={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json' and '__pycache__' not in p.parts}
 (root/'SHA256SUMS.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')

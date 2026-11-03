@@ -46,6 +46,8 @@ The last command intentionally replays checks without regenerating manuscript fi
 
 Reproduce this follow-up with `python foundation_audit/verify_foundations.py` (SymPy required). See its source manifest for extraction hashes and the explicit limit on any claim about all historical axioms.
 
+**Existing derivation reconciled with the program:** the [19-step crosswalk](foundation_audit/DERIVATION_PROGRAM_CROSSWALK.md) confirms the prior BFG-internal conditional Gram derivation and its correct active-target coordinates. The 8/45-versus-8/53 witness fails the full same-completion premise and does not refute that derivation. Exact complex rectangular-channel, selector, weight, seed and capacity-transport checks passed. Run `python foundation_audit/verify_crosswalk.py`. Source versions are pinned, and remaining role/ordering obligations are separated from already derived algebra. No program rule or published PDF is changed.
+
 This stage found no contradiction in the focused central finite-model proof chain. It does not certify all 48 statements, establish historical uniqueness of the model, or validate a universal physical law. Next: execute the scalar proof-assistant pilot; certify ambiguous rank decisions; complete adversarial reviews of the other claims; identify a physically discriminating prediction before presenting hardware as a natural-law test.
 
 The original publication remains unchanged. This dated research stage is an internal AI-assisted analytic/computational review, not external peer review. No background scheduler was created. Repository-wide rights remain in force for new materials; the original publication retains its existing file-specific published terms.

@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-03",
+  "scope": "Existing conditional derivation versus November Section 12 and the preserved event() implementation",
+  "repository": "marceltheodorwende-ops/BalanceFieldResearch",
+  "source_documents": [
+    {
+      "path": "research/completion-boundary-2026-09-29/LEVEL0_NEUTRAL_TANGENT_BRIDGE.md",
+      "commit": "9f042a06eddb4a546539153fc52593d5a52a07dc",
+      "git_blob_sha": "0fcccc729d3cbc14a206a435cbcb73ee2b67dd60",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/9f042a06eddb4a546539153fc52593d5a52a07dc/research/completion-boundary-2026-09-29/LEVEL0_NEUTRAL_TANGENT_BRIDGE.md"
+    },
+    {
+      "path": "research/completion-boundary-2026-09-29/UNIFIED_FINITE_THEOREM.md",
+      "commit": "9f042a06eddb4a546539153fc52593d5a52a07dc",
+      "git_blob_sha": "d3e1765041b2ed5c5b4711da095e4c970f523e4e",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/9f042a06eddb4a546539153fc52593d5a52a07dc/research/completion-boundary-2026-09-29/UNIFIED_FINITE_THEOREM.md"
+    },
+    {
+      "path": "research/proof-chain-audit-2026-09-26/PROOF_CHAINS.md",
+      "commit": "9f042a06eddb4a546539153fc52593d5a52a07dc",
+      "git_blob_sha": "4fe859c7089d6ea5e5bf677d5d7890f46247e28a",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/9f042a06eddb4a546539153fc52593d5a52a07dc/research/proof-chain-audit-2026-09-26/PROOF_CHAINS.md"
+    },
+    {
+      "path": "research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/FUNDAMENTAL_CLOSURE_LAW.md",
+      "commit": "9f042a06eddb4a546539153fc52593d5a52a07dc",
+      "git_blob_sha": "2938df47c019da532712262f3bbfe4d7b55cc22d",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/9f042a06eddb4a546539153fc52593d5a52a07dc/research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/FUNDAMENTAL_CLOSURE_LAW.md"
+    },
+    {
+      "path": "research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/MASTER_STATE.md",
+      "commit": "9f042a06eddb4a546539153fc52593d5a52a07dc",
+      "git_blob_sha": "7f78ddd8cd2eff5c072cbd35dadc6116ae2036dd",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/9f042a06eddb4a546539153fc52593d5a52a07dc/research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/MASTER_STATE.md"
+    },
+    {
+      "path": "research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/CANONICAL_SELF_RECLOSURE_AXIOM.md",
+      "commit": "9f042a06eddb4a546539153fc52593d5a52a07dc",
+      "git_blob_sha": "d5b1c5ca138cfea1b4a31aa860af664444911bc2",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/9f042a06eddb4a546539153fc52593d5a52a07dc/research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/CANONICAL_SELF_RECLOSURE_AXIOM.md"
+    },
+    {
+      "path": "research/level0-neutral-capacity-source-law-2026-09-30/PROPOSED_LEVEL0_AMENDMENT.md",
+      "commit": "9f042a06eddb4a546539153fc52593d5a52a07dc",
+      "git_blob_sha": "ea04e285e5bcc4b99f89c332f16b3b0b3d3aebbd",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/9f042a06eddb4a546539153fc52593d5a52a07dc/research/level0-neutral-capacity-source-law-2026-09-30/PROPOSED_LEVEL0_AMENDMENT.md"
+    }
+  ],
+  "program": {
+    "path": "research/bfg-verification-2026-11-03/baseline/extended_controls.py",
+    "commit": "9f042a06eddb4a546539153fc52593d5a52a07dc",
+    "git_blob_sha": "78decc58a9a0f4b7b6e1f10021ff39f34d8a632c",
+    "role": "Preserved numerical event implementation; no claim of a complete equivalence with every older rank-aware program"
+  },
+  "reference_paper_doi": "10.5281/zenodo.23897937",
+  "no_new_paper": true,
+  "no_new_physical_rule": true
+}

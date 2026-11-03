@@ -2,6 +2,10 @@
 
 3 November 2026. Follow-up inside the existing BFG verification stage. This is a research record, not a new paper, new physical theory or revised publication.
 
+## Reconciliation with the already existing derivation
+
+The [19-step derivation/program crosswalk](DERIVATION_PROGRAM_CROSSWALK.md) explicitly preserves the successful earlier BFG-internal derivation. The quadratic completion with the same fixed channel, metrics and retained-response identification **does** derive the source Gram and active-target Sigma^2. The weaker-packet witness below fails that full identification and therefore does **not** refute the existing conditional derivation. An unqualified reading that no Gram derivation exists would be incorrect. The crosswalk also recovers the seed magnitude from the original quartic formation problem and separates it from the event-level choice of the emergent block. [Exact follow-up controls](crosswalk_results.json) passed; [pinned source references](crosswalk_sources.json) identify the compared versions.
+
 ## Question and bounded answer
 
 Does the precise finite event in Section 12 of the published preprint follow uniquely from the historical structural principles, without additional constitutive identifications?
