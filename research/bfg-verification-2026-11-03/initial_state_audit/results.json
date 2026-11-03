@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "date": "2026-11-03",
+  "python": "3.12.14",
+  "numpy": "2.5.4",
+  "sympy": "1.14.0",
+  "scope": "The November mathematical five-tuple and preserved event() audit implementation, not every BFG program or a universal physical initialization",
+  "complete_state_inputs": [
+    "K",
+    "rho_F",
+    "rho_W",
+    "Y",
+    "P"
+  ],
+  "same_Y_interface_representation": {
+    "Y": "I/4",
+    "L1": "I/2",
+    "M1": "2I",
+    "L2": "I",
+    "M2": "8I",
+    "relation": "Same interface under neutral-coordinate scaling T=2I; not two inequivalent physical models",
+    "fresh_event_steps_compared": 3,
+    "successors_agree": true
+  },
+  "omit_Y_witness": {
+    "same_other_four_scalar_coordinates": true,
+    "input_Y": [
+      "1/2",
+      "1/4"
+    ],
+    "first_successor_Y": [
+      "8/45",
+      "32/425"
+    ],
+    "same_complete_state": false
+  },
+  "numerical_policy_witness": {
+    "input_Y": "1/1000000",
+    "exact_Lambda_B": "1/1000001000000",
+    "exact_successor_Y": "2000000000000/1000002000002000002000001",
+    "exact_branch": "nonterminal full-persistence success",
+    "default_audit_tol": 1e-10,
+    "default_audit_result": "load-labelled stop",
+    "smaller_tol": 1e-14,
+    "smaller_tol_result": "success",
+    "interpretation": "Tolerance dependence in the preserved audit implementation, not physical indeterminism or exact zero load; no production program fix is made"
+  },
+  "rich_state_projection_injective": false,
+  "baseline_sha256": "f445aea3784bb2dcd2af1a6878dfb8dd4b377543ea729a73de718d6a6f880f86",
+  "event_rule_modified": false,
+  "new_fundamental_input_added": false,
+  "formal_proof_assistant": false,
+  "hardware": false
+}

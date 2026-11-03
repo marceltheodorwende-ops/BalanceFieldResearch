@@ -40,6 +40,10 @@ The last command intentionally replays checks without regenerating manuscript fi
 
 ## Status and next steps
 
+### Initial-data contract reconciled
+
+[The original initial data versus the complete finite state](initial_state_audit/README.md) shows that Y0 is already an explicit state input in the September and November finite kernel. No extra L/M is needed once the complete typed five-tuple is supplied. The exact event's uniqueness and an initializer-fiber induction distinguish different initial states from different representations of the same state. Fresh checks passed. A separate numerical-policy witness shows that the preserved helper can label a strictly positive small load as a tolerance stop; it is not evidence of exact terminality. No model rule, baseline code or paper was changed.
+
 ### Coupling independence: all three requested steps
 
 [Dependency sorting, uniform consequences and dependence witnesses](coupling_independence/README.md) now distinguish an unknown initial interface from a changed event law. The 48-statement register is classified by dependence without upgrading prior proof-review status. For the fixed finite event, completion/absorption, finite budgets and convergence of every infinite successful orbit do not require a uniquely derived initial coupling. A common absolute-event load envelope follows for fixed initial dimension. Exact and bounded implementation checks show that the selected outcome, final carrier dimension, seed count, formation stock and limiting K can nevertheless differ across initial interfaces. Four 90-digit load trajectories passed the recorded bounds. No physical rule or paper is changed.

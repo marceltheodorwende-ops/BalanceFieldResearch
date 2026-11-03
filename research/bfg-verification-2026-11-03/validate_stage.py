@@ -58,6 +58,11 @@ assert len(register)==48 and {r['id'] for r in register}=={r['id'] for r in clai
 assert dependence['carrier_and_seed_pair']['eventual_dimensions']==[1,2]
 assert dependence['kernel_limit_pair']['first_Schur_factor_squared_exact']=='132496/155221'
 report['coupling_independence']='Three steps completed: dependency register, conditional uniform theorem and exact dependence witnesses; controls PASS'
+initial=json.loads((root/'initial_state_audit/results.json').read_text(encoding='utf-8'))
+assert initial['status']=='PASS' and initial['same_Y_interface_representation']['successors_agree']
+assert not initial['omit_Y_witness']['same_complete_state']
+assert not initial['event_rule_modified'] and not initial['new_fundamental_input_added']
+report['initial_state_contract']='PASS; complete finite state already contains Y, initializer reconstruction remains distinct; numeric policy witness recorded'
 (root/'STAGE_CHECK.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 manifest={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json' and '__pycache__' not in p.parts}
 (root/'SHA256SUMS.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')

@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-03",
+  "source_commit": "c5f6b682fa9c5b4dc9525f3eb5488fb752cd214e",
+  "scope": "Initial-data contract for the November finite kernel and source-state comparison",
+  "repository_sources": [
+    {
+      "path": "research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/MASTER_STATE.md",
+      "git_blob_sha": "7f78ddd8cd2eff5c072cbd35dadc6116ae2036dd",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/c5f6b682fa9c5b4dc9525f3eb5488fb752cd214e/research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/MASTER_STATE.md"
+    },
+    {
+      "path": "research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/FUNDAMENTAL_CLOSURE_LAW.md",
+      "git_blob_sha": "2938df47c019da532712262f3bbfe4d7b55cc22d",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/c5f6b682fa9c5b4dc9525f3eb5488fb752cd214e/research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/FUNDAMENTAL_CLOSURE_LAW.md"
+    },
+    {
+      "path": "research/bfg-verification-2026-11-03/reference_main.tex",
+      "git_blob_sha": "5366f3ed392a5c817b25d48281155a47d2dfdd4d",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/c5f6b682fa9c5b4dc9525f3eb5488fb752cd214e/research/bfg-verification-2026-11-03/reference_main.tex"
+    },
+    {
+      "path": "research/bfg-verification-2026-11-03/baseline/extended_controls.py",
+      "git_blob_sha": "78decc58a9a0f4b7b6e1f10021ff39f34d8a632c",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/c5f6b682fa9c5b4dc9525f3eb5488fb752cd214e/research/bfg-verification-2026-11-03/baseline/extended_controls.py"
+    }
+  ],
+  "original_source": {
+    "name": "BFG_Canonical_Minimal_Finite_Closure_and_Universal_Reclosure_Preprint_2026-09-26.docx",
+    "sha256": "84c009a774a2409b9fcbc56443ddfbdc306e5d7af356664d58885e8e76bb9b30",
+    "location": "Section 3, extraction paragraphs 68-82",
+    "previous_inventory": "../foundation_audit/premise_source_inventory.json"
+  },
+  "new_state_coordinate_added": false,
+  "event_rule_changed": false
+}
