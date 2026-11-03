@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "date": "2026-11-03",
+  "exact_covariance_fixture": true,
+  "exact_positive_scale_fixture": true,
+  "support_ranks": [
+    1,
+    2,
+    3
+  ],
+  "common_N_conjugate_product_fixture": true,
+  "implementation_checks": [
+    {
+      "assignment": "ground",
+      "dimension": 1,
+      "successor_spectrum": [
+        -2
+      ],
+      "seed_trace": 0.0,
+      "formation_trace": 2.0
+    },
+    {
+      "assignment": "negative",
+      "dimension": 2,
+      "successor_spectrum": [
+        -2,
+        -1
+      ],
+      "seed_trace": 0.0,
+      "formation_trace": 2.0
+    },
+    {
+      "assignment": "full",
+      "dimension": 3,
+      "successor_spectrum": [
+        -2,
+        -1,
+        1
+      ],
+      "seed_trace": 0.0,
+      "formation_trace": 2.0
+    }
+  ],
+  "enumerated_packet_uniquely_selects_origin_support": false,
+  "historical_all_axioms_independence_theorem": false,
+  "no_choice_is_smallest_rank_rule": false,
+  "new_physical_rule_adopted": false,
+  "new_origin_rule_installed": false,
+  "event_rule_modified": false,
+  "baseline_sha256": "f445aea3784bb2dcd2af1a6878dfb8dd4b377543ea729a73de718d6a6f880f86",
+  "scope": "Exact finite relative nonuniqueness and source interpretation; not an inconsistency of the complete event or empirical result"
+}

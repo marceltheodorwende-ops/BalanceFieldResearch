@@ -97,6 +97,13 @@ assert not initial_persistence['origin_support_criterion_derived_from_original_p
 assert not initial_persistence['new_origin_support_rule_installed']
 assert not initial_persistence['new_physical_rule_adopted'] and not initial_persistence['event_rule_modified']
 report['initial_persistence']='PASS; containing and neutral-invariant minimal supports distinguished; same-input P dependence checked; origin criterion unresolved'
+no_choice=json.loads((root/'origin_no_choice/results.json').read_text(encoding='utf-8'))
+assert no_choice['status']=='PASS' and no_choice['support_ranks']==[1,2,3]
+assert not no_choice['enumerated_packet_uniquely_selects_origin_support']
+assert not no_choice['historical_all_axioms_independence_theorem']
+assert not no_choice['new_origin_rule_installed']
+assert not no_choice['new_physical_rule_adopted'] and not no_choice['event_rule_modified']
+report['origin_no_choice']='PASS; stronger-packet relative support nonuniqueness and source no-tie-break boundary; full historical origin theorem not established'
 (root/'STAGE_CHECK.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 manifest={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json' and '__pycache__' not in p.parts}
 (root/'SHA256SUMS.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')

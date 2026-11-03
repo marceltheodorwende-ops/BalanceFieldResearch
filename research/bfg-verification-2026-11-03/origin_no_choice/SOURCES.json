@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-03",
+  "source_commit": "31a09f3090a43bc4af721410d5edfcf5aaab7909",
+  "original_extractions": [
+    {
+      "name": "BFG_Canonical_Universal_Reclosure_Architecture_Preprint_2026-09-22_FINAL.txt",
+      "extraction_sha256": "2fa39375e105db141dc4c34bf307804b5ad618c90cc14d1d512420c09583069b",
+      "locations": "Section 12, paragraphs 239-267, especially 246"
+    },
+    {
+      "name": "BFG_Unified_V3_Freedom_Closed_Canonical_Whitepaper_2026-09-09_RECOVERED.txt",
+      "extraction_sha256": "f4385d7bfddc68c58a2b59d8d72aaf25604076a1789772f1ee2f04d9d7e2baa7",
+      "locations": "paragraphs 479-493",
+      "caveat": "Recovered extraction; recovery labels retained. Not represented as a pristine independently dated PDF."
+    }
+  ],
+  "repository_sources": [
+    {
+      "path": "research/bfg-verification-2026-11-03/baseline/extended_controls.py",
+      "git_blob_sha": "78decc58a9a0f4b7b6e1f10021ff39f34d8a632c",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/31a09f3090a43bc4af721410d5edfcf5aaab7909/research/bfg-verification-2026-11-03/baseline/extended_controls.py"
+    }
+  ],
+  "prior_trace": [
+    "../initial_persistence/SOURCES.json",
+    "../origin_bridge/SOURCES.json"
+  ],
+  "scope": "No-choice clause interpretation and exact relative support nonuniqueness under an explicitly enumerated stronger packet. No full historical independence theorem.",
+  "event_rule_modified": false,
+  "new_physical_rule_adopted": false
+}

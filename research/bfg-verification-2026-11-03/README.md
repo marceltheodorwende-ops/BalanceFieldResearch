@@ -40,6 +40,10 @@ The last command intentionally replays checks without regenerating manuscript fi
 
 ## Status and next steps
 
+### No-choice origin checkpoint
+
+[The no-choice audit](origin_no_choice/README.md) checks the original recovery/no-tie-break clauses and distinguishes them from a smallest-rank axiom. Three parameter-free covariant support assignments preserve the same fresh formation on a scalar-neutral stratum while satisfying the enumerated scale, commutation and boundedness requirements. Exact arguments and unchanged-event controls yield distinct successor dimensions and spectra. No-choice forbids an unjustified preference; it does not supply a missing origin criterion or invalidate deterministic evolution from supplied initial data. The next distinct obligation is the initial neutral interface and its joint relation to origin recursion.
+
 ### Initial persistent-support classification
 
 [The initial-persistence audit](initial_persistence/README.md) classifies every orthogonal support containing the fresh formed line as P=Pi+Q on an orthogonal complement. The least such support is Pi; the least Y-invariant containing support is instead the cyclic span of the formed vector under Y and can be larger. Neither origin criterion is silently adopted. Exact invariants and unchanged-event controls with the same K, formation, witness and Y show different seed stock and successor kernel traces for the two support choices. Preservation and bounded recursion do not determine the full origin support under that stated packet.
