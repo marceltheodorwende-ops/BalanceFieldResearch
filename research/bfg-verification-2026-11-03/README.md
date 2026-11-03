@@ -40,6 +40,10 @@ The last command intentionally replays checks without regenerating manuscript fi
 
 ## Status and next steps
 
+### Constructive finite configuration-to-Hilbert bridge
+
+[The configuration-Hilbert construction](configuration_hilbert_bridge/README.md) builds an explicit count-preserving representation and exact linear lift of a supplied finite invariant configuration transition. The worked five-label packet preserves information and recursion. Further exact checks distinguish classical multiplication from full-operator uniqueness, class quotient from dynamic congruence, and generic similarity from a positive Gram. A positive-kernel information-compatibility criterion is proved, and singleton zero-information factorization limits are identified. This completes a conditional representation builder, not a unique physical-origin initializer or a new law.
+
 ### Source origin information and profile-domain check
 
 [The origin-information audit](origin_information_domain/README.md) directly verifies Level-0 Section 14's log similarity-class count and distinguishes it from the later quadratic information functional. A finite candidate bridge fails an exact quadratic identity; a positive control reconstructs log(2)I. An exact finite-count/open-connected bridge would be isotropic. The fresh minimum set supplies only one projector, while nearby profiles have a strictly positive, quantified quartic excess. Comparison data, a compatible representation and a broader admissible profile domain remain explicit source obligations. All new exact controls passed; no rule is installed.

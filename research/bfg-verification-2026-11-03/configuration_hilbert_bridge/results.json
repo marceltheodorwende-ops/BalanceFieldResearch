@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "date": "2026-11-03",
+  "worked_packet": {
+    "labels": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "comparison_classes": [
+      [
+        "a",
+        "b"
+      ],
+      [
+        "c",
+        "d",
+        "e"
+      ]
+    ],
+    "transition": {
+      "a": "b",
+      "b": "a",
+      "c": "d",
+      "d": "e",
+      "e": "c"
+    },
+    "configuration_dimension": 5,
+    "class_dimension": 2,
+    "count_operator_diagonal": [
+      "log(2)",
+      "log(2)",
+      "log(3)",
+      "log(3)",
+      "log(3)"
+    ],
+    "transition_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    ],
+    "unitary_transition": true,
+    "full_count_quadratic_preserved": true
+  },
+  "same_class_information_unique_full_operator": false,
+  "positive_fixed_Gram_information_compatibility_fixture": true,
+  "merging_transition_power_bound": "sqrt(3)",
+  "basis_information_conservation_implies_full_quadratic_conservation": false,
+  "similarity_partition_automatically_dynamic_congruence": false,
+  "reflexive_symmetric_similarity_automatically_positive_Gram": false,
+  "singleton_zero_information_identity_transition_factorable_as_JFJ": false,
+  "source_positive_order_excludes_zero_information_basis_under_role_identification": true,
+  "invariant_positive_information_sector_factorization_fixture": true,
+  "source_origin_configuration_packet_derived": false,
+  "unique_fundamental_initializer_derived": false,
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false,
+  "scope": "Exact finite conditional representation builder and compatibility controls; not a unique physical origin or full-source impossibility theorem"
+}

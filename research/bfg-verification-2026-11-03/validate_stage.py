@@ -151,6 +151,14 @@ assert not origin_info['actual_origin_similarity_and_representation_derived']
 assert not origin_info['unique_fundamental_initial_operator_derived']
 assert not origin_info['new_physical_rule_adopted'] and not origin_info['event_rule_modified']
 report['origin_information_domain']='PASS; source count formula verified, candidate quadratic bridge tested, exact-minimum versus perturbation domain distinguished'
+bridge=json.loads((root/'configuration_hilbert_bridge/results.json').read_text(encoding='utf-8'))
+assert bridge['status']=='PASS' and bridge['worked_packet']['configuration_dimension']==5
+assert bridge['worked_packet']['unitary_transition'] and bridge['worked_packet']['full_count_quadratic_preserved']
+assert bridge['positive_fixed_Gram_information_compatibility_fixture']
+assert not bridge['source_origin_configuration_packet_derived']
+assert not bridge['unique_fundamental_initializer_derived']
+assert not bridge['new_physical_rule_adopted'] and not bridge['event_rule_modified']
+report['configuration_hilbert_bridge']='PASS; explicit finite conditional representation and transition lift; Gram, quotient and operator-role compatibility limits checked'
 (root/'STAGE_CHECK.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 manifest={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json' and '__pycache__' not in p.parts}
 (root/'SHA256SUMS.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')

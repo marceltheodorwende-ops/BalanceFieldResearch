@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-03",
+  "source_commit": "f1c9188ea5e5a48a72cd664efbd940bf2fc9fef1",
+  "plugin": "BFG-Engine",
+  "plugin_version": "0.24.1+bundle.f9b8b9f3584e112bca3dae5feb20e0d3",
+  "plugin_skill_sha256": "7cbcbec4b7f84355767decf4c523bc8053173a06091a80cc55231c88d6288a27",
+  "global_context": "../plugin_synthesis/SOURCES.json",
+  "references": [
+    {
+      "name": "BFG_BALANCE_FIELD_EQUATION_FW.pdf",
+      "sha256": "689c082aa7561fc695a46891d9c9a0261248c63b5e64139f5edb8ac279118fa7",
+      "extraction_sha256": "f65622ad24f48eaf59ff11082f981037785ece53df59d96d2ae2b0c57d7fd40c"
+    },
+    {
+      "name": "BFG_LEVEL_0.pdf",
+      "sha256": "6004868c8b64e42fca6e478c88cdcb16c50c5fd90482f468c0336af9f0acdcbc",
+      "extraction_sha256": "9acac8b3e746ea073e02f9db5f4e4a4ada5915a13777b073558a3b0862c6ef4f"
+    },
+    {
+      "name": "BFG_The_Neutral_Interface.pdf",
+      "sha256": "3ba049d1a99eeacb748ebed8ac5c86647671fd56c9d4fa7854326f5f413fb743",
+      "extraction_sha256": "d9a49c1c74e75df107c646438e5e25e4e927e8247de1602d54809a63b7ec6c28"
+    }
+  ],
+  "source_roles": [
+    {
+      "source": "BFG_LEVEL_0.pdf",
+      "location": "Section 14, PDF p.20",
+      "role": "Count information from supplied comparison domain/similarity/threshold"
+    },
+    {
+      "source": "BFG_BALANCE_FIELD_EQUATION_FW.pdf",
+      "location": "Embedded Foundational BFG: PDF p.440, primitive recursion; pp.443-444, Hilbert realization",
+      "role": "Supplied primitive transition and stated injective structure-preserving realization; no claim that the source uniquely chooses the free orthogonal representation"
+    },
+    {
+      "source": "BFG_The_Neutral_Interface.pdf",
+      "location": "Sections 4.1, 7.1 and 9.1, PDF pp.6 and 8-9",
+      "role": "Quadratic information functional and distinct informational-coupling/feedback recursion roles"
+    }
+  ],
+  "prior_trace": [
+    "../origin_information_domain/SOURCES.json",
+    "../plugin_synthesis/QUOTIENT_ERRATUM.md"
+  ],
+  "mathematical_construction_status": "Explicit finite conditional representation and compatibility theorems. Diagonal classical-observable realization is a declared representation convention, not a new physical law or a claimed unique source initialization.",
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false
+}
