@@ -1,0 +1,136 @@
+{
+  "status": "PASS",
+  "nonlinear_local_reduction": [
+    {
+      "name": "source_quartic_added",
+      "source_block": [
+        [
+          "4",
+          "0"
+        ],
+        [
+          "0",
+          "3"
+        ]
+      ],
+      "mixed_block": [
+        [
+          "-1"
+        ],
+        [
+          "-1"
+        ]
+      ],
+      "neutral_block": [
+        [
+          "31/12"
+        ]
+      ],
+      "reduced_Hessian": [
+        [
+          "112/31",
+          "-12/31"
+        ],
+        [
+          "-12/31",
+          "81/31"
+        ]
+      ],
+      "Y": [
+        [
+          "1/8",
+          "sqrt(3)/12"
+        ],
+        [
+          "sqrt(3)/12",
+          "1/6"
+        ]
+      ]
+    },
+    {
+      "name": "shared_joint_nonlinearity",
+      "source_block": [
+        [
+          "4",
+          "0"
+        ],
+        [
+          "0",
+          "3"
+        ]
+      ],
+      "mixed_block": [
+        [
+          "-1"
+        ],
+        [
+          "-1"
+        ]
+      ],
+      "neutral_block": [
+        [
+          "31/12"
+        ]
+      ],
+      "reduced_Hessian": [
+        [
+          "112/31",
+          "-12/31"
+        ],
+        [
+          "-12/31",
+          "81/31"
+        ]
+      ],
+      "Y": [
+        [
+          "1/8",
+          "sqrt(3)/12"
+        ],
+        [
+          "sqrt(3)/12",
+          "1/6"
+        ]
+      ]
+    }
+  ],
+  "nonlinear_same_second_order_different_fourth_order": true,
+  "coordinate_change": {
+    "noncritical_Hessian": "2*a + 1",
+    "critical_Hessian": "1"
+  },
+  "source_Lyapunov_specialization": {
+    "Hessian": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "2*lambda_N + 2*lambda_R + 1"
+      ]
+    ],
+    "flat_source_direction": true,
+    "scope": "Scalar algebraic role specialization with E=B=I=R=1, N_star=1 and G=0; not a realization of every historical dynamics."
+  },
+  "residual_Gram_identity": true,
+  "residual_jacobian_rank": 2,
+  "resolvent_derivative_identities": true,
+  "zero_profile_potential_Hessian": "1/(y0 + 1)",
+  "positive_potential_negative_Hessian": "-1/4",
+  "formed_quartic_Hessian": [
+    [
+      "4",
+      "0"
+    ],
+    [
+      "0",
+      "3"
+    ]
+  ],
+  "accepted_source_functional_to_initial_E_derived": false,
+  "local_Hessian_equals_full_nonlinear_law": false,
+  "source_Gram_rule_replaced": false,
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false
+}

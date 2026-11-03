@@ -47,6 +47,10 @@
   "foundation_audit/verify_foundations.py": "3d5435fceba276a53e55edb80161c3949605bace28d8166671d75efe6f9567f7",
   "foundation_audit/verify_interface.py": "0afe3e63a274b3174b6741b6dbd1e8ad63d2c53a51a929386b43791f6479e435",
   "foundation_audit/verify_premise_candidates.py": "37d3f184d4c5abbf0675e1541bf1472012f789a8e923a117313243b3f62a28fd",
+  "functional_hessian/check_hessian.py": "625791178c3b4d6bf46aaef91dfcb86ba84948ce9dd8b1f11e95237339ade2a4",
+  "functional_hessian/README.md": "097d264f065b7e50a1846fadb262911e554bf94768edcb01ba604204e86a8565",
+  "functional_hessian/results.json": "9072225167959d5a0839fc6a8bbe58a6709ef354a76a18cb6a2b297d4b612023",
+  "functional_hessian/SOURCES.json": "723bc75678d0c160c0b96c9be47ca2f9ae6a07c976c77d10eca92b94f079db9a",
   "future_identifiability/check_future.py": "d852e6ea290f7bd5c895f62a7e3396d697a57b82a4595e18b044a4dd940c5c68",
   "future_identifiability/README.md": "72c734a69146669274cdb3773251afa11d1c1685cb9c577fb12a036548335e04",
   "future_identifiability/results.json": "3cea2ed213644386f04b6dc8beac542d7bed7ad5496f6694f866fdc997f0324d",
@@ -104,7 +108,7 @@
   "raw_recursion/SOURCES.json": "5b8c0fffe6e055d9db718df238e8377993a4433d79c7ca3be4e0392ef71304a0",
   "rc_pilot.py": "0618a4646911cab95eac1f84bb3d5075a2e54246956da8d70efe91d695d1a84d",
   "rc_pilot_results.json": "5785f02788ad0b08af6258e8f900d088789c8825f7bc90f0e105fd8868b4d86b",
-  "README.md": "c675a827a9e2827fd9900d023860fdf30218840b82b7e4e645e9e780d29e1ff0",
+  "README.md": "a67c9f11187691f5f6521f8326d11ba72bc2812f6cb0c2c609401f6ae9fcce0b",
   "reference_main.tex": "9dea6e5f4aee9be1ed7f58716a91730ea6c684b189ea24ed2ff6f394c760761b",
   "scalar_controls.py": "71012e88ffef95b9d1b8b2b0c6267f5bec52734d4883f35e5159b37ad410656b",
   "SCALAR_PROOF.md": "caeab1cc4fe7d107bffde9a0888df133c7fd67d6f8b796c3454bbe68b578e2d3",
@@ -114,7 +118,7 @@
   "source_symmetry/README.md": "01f041ae14dc3da26cebec7c819d581a68c4bbe705231d67129c9a4a9cc4fad1",
   "source_symmetry/results.json": "f280f35a6430ed018c8951e366b3cd981917ca1c886221e0378c8c7e4050d3bb",
   "source_symmetry/SOURCES.json": "d0cd6cf78bbc9b365ca316f353f2de88c7b606bb270fbf56bac8e6332d932da0",
-  "STAGE_CHECK.json": "a49eddc54bdcef36de571eac563689d11ab7c487e26755c251b06c34f145545c",
+  "STAGE_CHECK.json": "8267196c0b58b81f07e506008f1e7cbd94f7193e4dc070f08d66c9f89d056de7",
   "synthetic_fixed_time_trace.csv": "f0cf448b50d8490b0d51c23dbaf1f2e19a747c229474e02c129f7fcf60316bae",
-  "validate_stage.py": "a9d78b6eb33cb4f75187d45cead331ec4859915c25f9ee40b3518af0904a81bb"
+  "validate_stage.py": "41c1b8577122917f66f05768976f6af867c37793a5a82af314e81a33291dc9a6"
 }

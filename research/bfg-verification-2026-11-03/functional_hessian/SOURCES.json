@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-03",
+  "source_commit": "d1ae3c569335f5933aa28e2cd9361b6c9a251341",
+  "focused_sources": [
+    {
+      "extraction": "BFG_The_Neutral_Interface.txt",
+      "extraction_sha256": "d9a49c1c74e75df107c646438e5e25e4e927e8247de1602d54809a63b7ec6c28",
+      "location": "Sections 6.1-6.2, 9.2 and 12; PDF pages 7,9,11",
+      "finding": "Primitive drift, explicit interface variation, normalized recursion and displayed Lyapunov cost."
+    },
+    {
+      "extraction": "BFG_LEVEL_0.txt",
+      "extraction_sha256": "9acac8b3e746ea073e02f9db5f4e4a4ada5915a13777b073558a3b0862c6ef4f",
+      "location": "Sections 10.4 and 21; PDF pages 17,23-24",
+      "finding": "Interface-completion and neutral-stability component scores require domain/function definitions."
+    },
+    {
+      "extraction": "BFG_Canonical_Universal_Reclosure_Architecture_Preprint_2026-09-22_FINAL.txt",
+      "extraction_sha256": "2fa39375e105db141dc4c34bf307804b5ad618c90cc14d1d512420c09583069b",
+      "location": "Sections 3-4, paragraphs 68-100",
+      "finding": "Quartic supplies formed source Hessian; neutral completion is separately supplied."
+    },
+    {
+      "extraction": "BFG_Universal_Reclosure_Unification_Whitepaper_2026-09-07_revised_final.txt",
+      "extraction_sha256": "ac0fbbc6ff2c67e8c17d966bd74854f67d798a1cb231045af7959b45f84b8043",
+      "location": "Section 5.4 paragraphs 215-217 and section 6.2 paragraphs 259-264",
+      "finding": "Master Gram not replaced by a level-specific Hessian; local potential and resolvent derivatives depend on Y."
+    }
+  ],
+  "prior_trace": [
+    "../effective_response/SOURCES.json",
+    "../source_symmetry/SOURCES.json",
+    "../foundation_audit/source_manifest.json",
+    "../foundation_audit/premise_source_inventory.json",
+    "../plugin_synthesis/SOURCES.json"
+  ],
+  "coverage": "Focused reading of four named source extractions and their indicated clauses; original April 2025 trace retained through effective_response; not an archive-wide nonexistence theorem.",
+  "source_status": "Displayed costs and operator definitions are tested conditionally. Proposed L0-NC is not adopted; no level-specific Hessian replaces the existing master Gram.",
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false
+}

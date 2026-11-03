@@ -6,6 +6,8 @@ The latest [source symmetry analysis](source_symmetry/README.md) distinguishes a
 
 The subsequent [effective response analysis](effective_response/README.md) proves that, for a fixed positive source Hessian H, determining the minimized source assessment E is equivalent to determining Y. A unique microscopic channel is unnecessary for the supplied finite event: minimal Gram factors are equivalent up to neutral coordinates. Five exact fixtures and a focused source check including April 2025 distinguish this reduced obligation from still-unproved constitutive identifications.
 
+The [functional Hessian audit](functional_hessian/README.md) then tests actual BFG assessment candidates. It proves a conditional nonlinear Schur-reduction criterion, distinguishes tangent curvature from the exact finite completion, and checks a flat direction of the displayed neutral-interface Lyapunov cost. The September source explicitly preserves its master Gram rather than replacing it with a level-specific Hessian. A source-derived joint assessment fixing initial E remains unresolved.
+
 ## Results of the first milestone
 
 - An indexed register of 48 numbered statements, with original statement text, available adjacent proofs, labels and PDF pages. Seven central dependencies received a focused analytic review; the remaining rows are explicitly pending detailed adversarial review. Definitions and limitations are indexed but are not treated as positive theorems.
