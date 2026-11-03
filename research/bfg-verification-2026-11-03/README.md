@@ -40,6 +40,10 @@ The last command intentionally replays checks without regenerating manuscript fi
 
 ## Status and next steps
 
+### Original raw-recursion definition located
+
+[The raw-recursion source audit](raw_recursion/README.md) directly checks the May 14 original cognitive PDF, including visual verification of pages 3 and 5, plus the original core/consolidated sources. R is genuinely defined as the composition of primitive coupling and feedback maps; their origin values are not derived in that axiom. The existing neural interface equation conditionally reconstructs feedback when its other instantaneous data are supplied. Exact controls distinguish scalar feedback from an operator prescription, and original inverse-neutral normalization from later conjugate mediation. No new primitive, initializer or physical rule is adopted.
+
 ### Joint neutral-interface and recursive-origin constraints
 
 [The joint initialization analysis](joint_initialization/README.md) proves an exact positive-sector kernel criterion linking a specified neutral recursion operator and raw recursion to the protected formed line. It keeps N_R distinct from C_N(Y) unless an additional identification is explicitly assumed. Under that comparison identification a common formed mode obeys y=r-1, with a conditional surviving interval 1<r<2; even fixed raw R need not determine transverse Y. Exact noncommuting and quadratic-interface compatibility controls passed. No new identification, raw-recursion prescription or origin rule is adopted.

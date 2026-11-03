@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-03",
+  "source_commit": "2e689635adfef0b097b03ccd955050724888f177",
+  "newly_located_original_pdfs": [
+    {
+      "name": "3_The_Recursive_Cognitive_Balance__Field_Theory.pdf",
+      "pages": 9,
+      "original_sha256": "dc4c446bb3c6266fccad6ff940efe7cff14b06cb2e161f6461483495e7095d70",
+      "extraction_name": "3_The_Recursive_Cognitive_Balance__Field_Theory.txt",
+      "extraction_sha256": "1b850c6d5c70c71011de3ecc82610b382ccfff9fdd0cb3bdbf6c7851963858dd",
+      "inspected_locations": "Axiom 2 on page 2; Definitions 1-5 on page 3; Definitions 12-13 on page 5; action on page 7",
+      "visual_checks": [
+        "page 3: composition and original normalization",
+        "page 5: interface neural dynamics"
+      ]
+    },
+    {
+      "name": "19_BFG_A_Consolidated_Whitepaper_of_the_Complete_BFG_Architecture.pdf",
+      "pages": 7,
+      "original_sha256": "9818ff57054cd1bf6840de169e1b4b59c946f33cd501d879586bfa402c893d29",
+      "extraction_name": "19_BFG_A_Consolidated_Whitepaper_of_the_Complete_BFG_Architecture.txt",
+      "extraction_sha256": "811843651962cd2b6b4b57d54ab9702c7836ddaa9cfa6aaa76976f577dd939b8",
+      "inspected_locations": "Sections 2-4: feedback identity and scalar meta-equations"
+    },
+    {
+      "name": "15_The_Balance_Field_Framework__BFG___Core_Ontology_and_Regime_Logic.pdf",
+      "pages": 6,
+      "original_sha256": "0978441f1d47ba54bdcb2e153281fae08dd1405f3b5c026e38da3a85bb4393fc",
+      "extraction_name": "15_The_Balance_Field_Framework__BFG___Core_Ontology_and_Regime_Logic.txt",
+      "extraction_sha256": "c94f7c35175bb5a69c434b44e17f3df5980070619dcbe736a72527c50b09fc63",
+      "inspected_locations": "Sections 2.2 and 3.3: scalar classifier and feedback co-variation"
+    }
+  ],
+  "earlier_extractions": [
+    {
+      "name": "BFG_White_paper_1.0_7d3f23d9.txt",
+      "location": "Section 7.2, page 19",
+      "extraction_sha256": "14b89ccd52a12fb7eb0f50fd3077053e9724dcd999b9a95bf1df494b862c0b3a"
+    },
+    {
+      "name": "3.1_The_Recursive_Conjugate_Closure_Extension_of_the_BFG.txt",
+      "location": "Sections 1-2, May 16, 2026",
+      "extraction_sha256": "e4b7a5e085a76ad14f438dd37b79c6fb88cf6b6232ee3cec53e4a418cda50033"
+    },
+    {
+      "name": "BFG_A_White_Paper_on_Why_Recursive_Stability_Can_Exist_at_All.txt",
+      "location": "Sections 4 and 8-10; May 26, 2026"
+    }
+  ],
+  "prior_trace": "../joint_initialization/SOURCES.json",
+  "scope": "Original raw composition, primitive axioms, scalar feedback and conditional neural interface reconstruction; not full theorem validation or exhaustive historical absence proof. Raw PDF/extraction content remains local; public record contains only hashes, anchors and analysis.",
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false
+}

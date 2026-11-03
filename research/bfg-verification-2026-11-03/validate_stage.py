@@ -110,6 +110,14 @@ assert joint['fixed_raw_R_two_Ys_same_protected_line']
 assert not joint['unique_joint_initializer_derived']
 assert not joint['new_identification_or_origin_law_adopted'] and not joint['event_rule_modified']
 report['joint_initialization']='PASS; exact joint positive-sector persistence criterion and conditional mode matching; neutral/raw-recursion origin premises unresolved'
+raw=json.loads((root/'raw_recursion/results.json').read_text(encoding='utf-8'))
+assert raw['status']=='PASS' and raw['raw_composition_defined_conditionally']
+assert raw['neural_interface_reconstruction_given_complete_instantaneous_data']
+assert not raw['unique_fundamental_initial_R_derived']
+assert not raw['new_physical_rule_adopted'] and not raw['event_rule_modified']
+raw_sources=json.loads((root/'raw_recursion/SOURCES.json').read_text(encoding='utf-8'))
+assert len(raw_sources['newly_located_original_pdfs'])==3
+report['raw_recursion']='PASS; original primitive-factor composition and conditional neural reconstruction credited; unique origin factors unresolved'
 (root/'STAGE_CHECK.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 manifest={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json' and '__pycache__' not in p.parts}
 (root/'SHA256SUMS.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')

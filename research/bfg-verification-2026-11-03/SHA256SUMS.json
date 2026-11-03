@@ -64,15 +64,19 @@
   "profile_identity/results.json": "cd17362a626f73f2fcb9072ce83eb744797a6e46460ecec6e5a5b3e464bd534a",
   "profile_identity/SOURCES.json": "a0e884288ad9f090c1791f856e2437615ffd4bc88b1986f88e53b137754e1477",
   "PROOF_AUDIT.md": "c4bd74403f68b2a30bab72587fd0de6e4f82d71086e1b751272a00165387db02",
+  "raw_recursion/check_raw.py": "2349d08cdf5f38f6ca93316e2390fa4e1c08204da844567bac04aecd26fcbe47",
+  "raw_recursion/README.md": "9800b6d605781c30d6cd128b5598e9a2318d28a30ee63d946454f5de447a4baa",
+  "raw_recursion/results.json": "3c34672494b08263e086b6f5e39456b4f2a6abb0a3b30797930ea08dc5d6dec6",
+  "raw_recursion/SOURCES.json": "5b8c0fffe6e055d9db718df238e8377993a4433d79c7ca3be4e0392ef71304a0",
   "rc_pilot.py": "0618a4646911cab95eac1f84bb3d5075a2e54246956da8d70efe91d695d1a84d",
   "rc_pilot_results.json": "5785f02788ad0b08af6258e8f900d088789c8825f7bc90f0e105fd8868b4d86b",
-  "README.md": "3fa6149e78b2f2be0a31ac3731e51ad3bd719325c58944a6e5a7a64d62ec95a3",
+  "README.md": "f628841b048464b72546392fc36da8887af32b150ceb9d8b0071b99e18e37367",
   "reference_main.tex": "9dea6e5f4aee9be1ed7f58716a91730ea6c684b189ea24ed2ff6f394c760761b",
   "scalar_controls.py": "71012e88ffef95b9d1b8b2b0c6267f5bec52734d4883f35e5159b37ad410656b",
   "SCALAR_PROOF.md": "caeab1cc4fe7d107bffde9a0888df133c7fd67d6f8b796c3454bbe68b578e2d3",
   "scalar_results.json": "ec26ecedb2cda5ff262297815ee91a2b2d98ef65aee8bec96fdbd0a0de662727",
   "SOURCE.json": "78f1af47b0e67a56071f9ed14fe7cb8f51bbcf6ea68de512956298168e25064a",
-  "STAGE_CHECK.json": "63c46c1bfdf7c24a7cdad7a15fdd895ae06b49c997d0d810e090f84cb9b9b29f",
+  "STAGE_CHECK.json": "23c87952051c0e5c8f789859056c44898987d6a6457ec07b02e981b62e059bf3",
   "synthetic_fixed_time_trace.csv": "f0cf448b50d8490b0d51c23dbaf1f2e19a747c229474e02c129f7fcf60316bae",
-  "validate_stage.py": "73a83780aeffb492500f88d6a03e1ddd2b0890d0d8f371040fe761169d63447d"
+  "validate_stage.py": "c1ef25f78cec7e4ba21a59f02fde59b88e9bbc0e401dd2b4f1c940eb2e039b1e"
 }
