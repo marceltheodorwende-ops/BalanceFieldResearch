@@ -10,6 +10,10 @@ The [19-step derivation/program crosswalk](DERIVATION_PROGRAM_CROSSWALK.md) expl
 
 [The interface identification analysis](INTERFACE_IDENTIFICATION.md) classifies all strictly positive finite quadratic joint assessments with a fixed positive source Hessian. It proves which changes are merely coordinates and exhibits different retained responses with the same source Hessian and same intrinsic neutral metric. The original resolvent derivation remains valid for each specified assessment. The existing proposed L0-NC restriction fixes both pieces only under its two explicit clauses; it has not been newly adopted. [Exact controls](interface_results.json) passed. This is a source-scoped refinement of the earlier scalar examples, not a new physical rule or a first-discovery claim about the general nonuniqueness issue.
 
+## Targeted original-source search completed
+
+[Which existing premise fixes which coupling?](EXISTING_PREMISE_SEARCH.md) distinguishes the already sourced Reciprocal Balance Principle, the specified event analysis and the still separate initial tangent interface. Ten original DOCX documents were freshly extracted, including the recovered V3. The explicit initial joint-Hessian/metric condition located is the existing **proposed** L0-NC rule, not an original Level-0 theorem. A new exact witness retains zero fitted coefficients, source-scale normalization, covariance and valid reciprocal balance but still has distinct initial loads. This is a bounded search and a relative countermodel, not a proof of absence across the whole BFG corpus. [Source inventory](premise_source_inventory.json) · [Exact results](premise_candidate_results.json).
+
 ## Question and bounded answer
 
 Does the precise finite event in Section 12 of the published preprint follow uniquely from the historical structural principles, without additional constitutive identifications?

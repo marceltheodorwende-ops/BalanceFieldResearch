@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "date": "2026-11-03",
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "scope": "Witnesses against selection by source Hessian, shared metric, covariance, source-scale normalization, positive dual loads and reciprocal weighting alone; not all historical BFG premises",
+  "witnesses": {
+    "L1": "(I+H/tr(H))^-1",
+    "L2": "((I+H/tr(H))^-1)^2",
+    "M": "H",
+    "fitted_coefficients": 0,
+    "both_load_spectra_in_open_unit_interval": true,
+    "different_load_spectra": true,
+    "coordinate_covariance": true,
+    "positive_source_scale_invariance": true
+  },
+  "reciprocal_weight_records": [
+    {
+      "lc": "13833/6586",
+      "lb": "2023125/5163424",
+      "alpha": "674375/4289399",
+      "beta": "3615024/4289399",
+      "next_Gram_diagonal": [
+        "3878564375/23488748924",
+        "5021630000/33976329479"
+      ]
+    },
+    {
+      "lc": "36124113/14285746",
+      "lb": "3307428515625/35123277973504",
+      "alpha": "1102476171875/30707679905379",
+      "beta": "29605203733504/30707679905379",
+      "next_Gram_diagonal": [
+        "5973362815500390625/93726758535088720068",
+        "10020337859600000000/228135962403327398913"
+      ]
+    }
+  ],
+  "what_balance_fixes": "The weights conditional on supplied loads; it does not fix which source-neutral interface supplied those loads",
+  "original_intrinsic_Gram_update_used_for_both": true,
+  "original_Gram_rule_changed": false,
+  "L0_NC_adopted": false,
+  "new_physical_rules_adopted": false,
+  "formal_proof_assistant": false
+}

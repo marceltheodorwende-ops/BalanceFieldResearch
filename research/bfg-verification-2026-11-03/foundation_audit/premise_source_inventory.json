@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-03",
+  "method": "DOCX word/document.xml; Word text and OMML text nodes extracted in paragraph order; targeted regex search with context reading",
+  "coverage": "Ten named original documents; not the full private BFG archive; graphics and mathematical layout may be incompletely extracted",
+  "original_documents_republished": false,
+  "local_filesystem_paths_published": false,
+  "search_patterns": "mixed/cross Hessian; Hessian/Hesse; neutral capacity; quadratic; channel; coupling; Gram; self-source",
+  "sources": [
+    {
+      "name": "BFG_Universal_Reclosure_Unification_Whitepaper_2026-09-07_revised_final.docx",
+      "status": "EXTRACTED",
+      "sha256": "75a98dbb3069e9006481f98a3aaaa9e367830d8d9bcc103c589d47809646eb8a",
+      "paragraphs": 790,
+      "candidate_paragraph_hits": 36,
+      "targeted_reading": {
+        "locations": "Candidate paragraphs and context screened",
+        "finding": "No earlier complete interface-fixing implication established in this targeted screen; not an absence theorem."
+      }
+    },
+    {
+      "name": "BFG_Strong_Universal_Reclosure_Whitepaper_2026-09-08.docx",
+      "status": "EXTRACTED",
+      "sha256": "e0abaa202aba3289536b4b3b87599f5f4a8cc00881c1ec794000d7d2ceb8de7a",
+      "paragraphs": 790,
+      "candidate_paragraph_hits": 40,
+      "targeted_reading": {
+        "locations": "Section 3.1, paragraphs 116-131; Section 3.2, paragraphs 132-152",
+        "finding": "Formation data followed by quadratic elimination for a supplied channel A."
+      }
+    },
+    {
+      "name": "BFG_Endogenous_Dual_Order_Strong_Universal_Canonical_Closure_Whitepaper_2026-09-08.docx",
+      "status": "EXTRACTED",
+      "sha256": "d83874547ff361e70bc9d28db175cf2d4897f5cd5ffabbbd52003e00469e1ae3",
+      "paragraphs": 849,
+      "candidate_paragraph_hits": 46,
+      "targeted_reading": {
+        "locations": "Candidate paragraphs and context screened",
+        "finding": "No earlier complete interface-fixing implication established in this targeted screen; not an absence theorem."
+      }
+    },
+    {
+      "name": "BFG_Unified_V3_Freedom_Closed_Canonical_Whitepaper_2026-09-09_RECOVERED.docx",
+      "status": "EXTRACTED",
+      "sha256": "77f346019502888beb937a772d37719575bf08f7030edd8d878e693cc8cf6f55",
+      "paragraphs": 629,
+      "candidate_paragraph_hits": 28,
+      "targeted_reading": {
+        "locations": "Sections 3.1-3.3 and 4.4-4.5, paragraphs 80-109 and 132-140",
+        "finding": "Recovered V3 exists; reciprocal balance fixes the weights conditional on the loads."
+      }
+    },
+    {
+      "name": "BFG_Unified_V4_Compact_Canonical_Universal_Reclosure_2026-09-12.docx",
+      "status": "EXTRACTED",
+      "sha256": "97aea95d858f9a6596198942063dadb784a144d06a49e157b19e888a06d3f2c8",
+      "paragraphs": 1065,
+      "candidate_paragraph_hits": 54,
+      "targeted_reading": {
+        "locations": "Candidate paragraphs and context screened",
+        "finding": "No earlier complete interface-fixing implication established in this targeted screen; not an absence theorem."
+      }
+    },
+    {
+      "name": "BFG_Canonical_Universal_Reclosure_Architecture_Preprint_2026-09-22_FINAL.docx",
+      "status": "EXTRACTED",
+      "sha256": "010d310f946b1caea9aec962496ddfe6291eeb255cbd93bd64b4793509aa6308",
+      "paragraphs": 482,
+      "candidate_paragraph_hits": 22,
+      "targeted_reading": {
+        "locations": "Sections 4.1-4.2, 6.2 and 7.1-7.3, paragraphs 81-100, 125-151",
+        "finding": "Supplied neutral channel, unique reciprocal weights, polar support transport, and role-bearing positive factor construction are separate steps."
+      }
+    },
+    {
+      "name": "BFG_Minimal_Carrier_and_Action_Scale_Closure_Preprint_2026-09-22.docx",
+      "status": "EXTRACTED",
+      "sha256": "6b83cfec203c0e630529d6291eaa6eb31092a2f3c68d50fc7bbc1a19521b7175",
+      "paragraphs": 263,
+      "candidate_paragraph_hits": 9,
+      "targeted_reading": {
+        "locations": "Candidate paragraphs and context screened",
+        "finding": "No earlier complete interface-fixing implication established in this targeted screen; not an absence theorem."
+      }
+    },
+    {
+      "name": "BFG_Level0_to_Einstein_Closed_Reduction_Preprint_2026-09-22.docx",
+      "status": "EXTRACTED",
+      "sha256": "fac4260939c6361b23452526066cabf6c26e3fd0fdb075102b3b6def92ef55bb",
+      "paragraphs": 273,
+      "candidate_paragraph_hits": 15,
+      "targeted_reading": {
+        "locations": "Candidate paragraphs and context screened",
+        "finding": "No earlier complete interface-fixing implication established in this targeted screen; not an absence theorem."
+      }
+    },
+    {
+      "name": "BFG_Canonical_Minimal_Finite_Closure_and_Universal_Reclosure_Preprint_2026-09-26.docx",
+      "status": "EXTRACTED",
+      "sha256": "84c009a774a2409b9fcbc56443ddfbdc306e5d7af356664d58885e8e76bb9b30",
+      "paragraphs": 469,
+      "candidate_paragraph_hits": 17,
+      "targeted_reading": {
+        "locations": "Sections 3, 6 and 7, paragraphs 71-101 and 132-156",
+        "finding": "Y is a supplied state coordinate; reciprocal weights and the same-map Gram follow from the specified finite state."
+      }
+    },
+    {
+      "name": "BFG_Origin_White_Paper_Neutral_Admissible_Closure.docx",
+      "status": "EXTRACTED",
+      "sha256": "75fd26ef032c72c57ab68a4ffe7628bb15431b95a05e6761f802c22a39dc5b90",
+      "paragraphs": 796,
+      "candidate_paragraph_hits": 43,
+      "targeted_reading": {
+        "locations": "Candidate paragraphs and context screened",
+        "finding": "No earlier complete interface-fixing implication established in this targeted screen; not an absence theorem."
+      }
+    }
+  ]
+}

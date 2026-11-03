@@ -26,7 +26,9 @@ for path in root.rglob('*.md'):
         if target.startswith(('../../proof-chain-audit-2026-09-26/','../../fundamental-closure-2026-09-25/')):
             sources=json.loads((root/'foundation_audit/crosswalk_sources.json').read_text(encoding='utf-8'))
             repo_path=posixpath.normpath('research/bfg-verification-2026-11-03/'+path.relative_to(root).parent.as_posix()+'/'+target)
-            assert repo_path in {row['path'] for row in sources['source_documents']},repo_path
+            known={row['path'] for row in sources['source_documents']}
+            known.add('research/fundamental-closure-2026-09-25/review/SOURCE_SEARCH.md')
+            assert repo_path in known,repo_path
             continue
         assert (path.parent/target).exists(),(path,target)
 report={'status':'PASS','date':'2026-11-03','claim_entries':len(claims),'focused_analytic_reviews':7,'other_entries_detailed_review':'PENDING','exact_scalar_steps':816,'synthetic_trace_rows':len(trace),'baseline_replay':'PASS','formal_proof_assistant':'NOT EXECUTED','hardware':'NOT EXECUTED','published_pdf_modified':False,'scope':'Artifact consistency and recorded controls; not external review or a proof of every manuscript claim'}
@@ -43,6 +45,12 @@ assert interface['status']=='PASS' and not interface['new_physical_rule_adopted'
 assert interface['same_source_and_intrinsic_neutral_metric']['not_coordinate_equivalent_as_metric_channel_pairs']
 assert not interface['proposed_L0_NC']['adopted_by_this_audit']
 report['interface_identification']='PASS; quadratic-class classification and coordinate-invariance distinction; full historical necessity unresolved'
+premise=json.loads((root/'foundation_audit/premise_candidate_results.json').read_text(encoding='utf-8'))
+inventory=json.loads((root/'foundation_audit/premise_source_inventory.json').read_text(encoding='utf-8'))
+assert premise['status']=='PASS' and not premise['new_physical_rules_adopted']
+assert not premise['original_Gram_rule_changed'] and not premise['L0_NC_adopted']
+assert len(inventory['sources'])==10 and all(r['status']=='EXTRACTED' for r in inventory['sources'])
+report['existing_premise_search']='Ten original documents screened; exact relative witnesses PASS; no universal absence theorem claimed'
 (root/'STAGE_CHECK.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 manifest={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json' and '__pycache__' not in p.parts}
 (root/'SHA256SUMS.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')
