@@ -30,3 +30,7 @@ ORCID: https://orcid.org/0009-0007-4028-2208
 - [SHA-256 checksum](SHA256SUMS.txt)
 
 Zenodo lists this specific publication under Creative Commons Attribution 4.0 International (CC BY 4.0). This records its published terms; it does not change the repository-wide license or third-party ownership and notices. Earlier papers and their dated claims remain in their existing folders.
+
+## Follow-up verification — 3 November 2026
+
+[Claims register, scalar proof and RC feasibility study](../../research/bfg-verification-2026-11-03/README.md). This separate research stage preserves the published PDF and records both checked results and incomplete formal/experimental work.

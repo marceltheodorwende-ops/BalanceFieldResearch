@@ -1,5 +1,9 @@
 # Balance Field Framework
 
+## Verification and RC feasibility — 3 November 2026
+
+[Open the new verification stage](research/bfg-verification-2026-11-03/README.md): a 48-statement register, focused review of seven central dependencies, a sharper scalar decay envelope, fresh implementation controls and a synthetic RC feasibility protocol. Proof-assistant verification and hardware measurements remain pending; the designed-clock pilot does not distinguish BFG from the classical RC null.
+
 ## Finite dynamics and RC correspondence preprint — 2 November 2026
 
 [Read The Balance Field Gleichung and its publication details](papers/finite-dynamics-rc-models-2026-11-02/README.md) · [Zenodo DOI](https://doi.org/10.5281/zenodo.23897937). The 53-page research preprint includes an embedded computational supplement. It gives conditional finite-event classification and explicit RC correspondence results, with fixed-clock limitations and thermal-residual bounds. No laboratory confirmation or universal physical law is claimed. The dated earlier research stages below retain their original scope.

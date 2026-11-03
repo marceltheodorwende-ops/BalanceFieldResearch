@@ -1,5 +1,10 @@
 # Research stages
 
+## Verification and RC feasibility — 3 November 2026
+
+[Open the new verification stage](bfg-verification-2026-11-03/README.md): a 48-statement register, focused review of seven central dependencies, a sharper scalar decay envelope, fresh implementation controls and a synthetic RC feasibility protocol. Proof-assistant verification and hardware measurements remain pending; the designed-clock pilot does not distinguish BFG from the classical RC null.
+
+
 ## BFG completion boundary — 29 September 2026
 
 [Exact completion dossier and rational countermodels](completion-boundary-2026-09-29/README.md). It consolidates the declared finite closure with proof obligations for historical Gram, selection, recursion, and specific mediation. The four exact witnesses show why the listed weaker conditions alone do not establish an unconditional universal theory.

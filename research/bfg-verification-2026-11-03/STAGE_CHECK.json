@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "date": "2026-11-03",
+  "claim_entries": 48,
+  "focused_analytic_reviews": 7,
+  "other_entries_detailed_review": "PENDING",
+  "exact_scalar_steps": 816,
+  "synthetic_trace_rows": 501,
+  "baseline_replay": "PASS",
+  "formal_proof_assistant": "NOT EXECUTED",
+  "hardware": "NOT EXECUTED",
+  "published_pdf_modified": false,
+  "scope": "Artifact consistency and recorded controls; not external review or a proof of every manuscript claim"
+}

@@ -1,0 +1,1366 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{float,lmodern,amsmath,amssymb,amsthm,graphicx,longtable,array,booktabs,url,hyperref}
+\usepackage[margin=1in]{geometry}
+\hypersetup{colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black}
+\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}
+\setlength{\emergencystretch}{3em}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\Ran}{\operatorname{Ran}}
+\newcommand{\diag}{\operatorname{diag}}
+\newcommand{\pol}{\operatorname{polar}}
+\newcommand{\spec}{\operatorname{spec}}
+\newcommand{\Id}{\mathbf 1}
+\newcommand{\C}{\mathbb C}\newcommand{\R}{\mathbb R}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{assumption}[theorem]{Assumption}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{limitation}[theorem]{Limitation}
+\newtheorem{remark}[theorem]{Remark}
+\numberwithin{equation}{section}
+\graphicspath{{../figures/}}
+\title{The Balance Field Gleichung\\Finite Dynamics and Physical Correspondence in RC Models}
+\author{Marcel Theodor Wende\\\small Independent Researcher\\\small Balance--Field Framework\\\small E-mail: \href{mailto:marcel-wende@gmx.net}{marcel-wende@gmx.net}\\\small ORCID: \href{https://orcid.org/0009-0007-4028-2208}{0009-0007-4028-2208}}
+\date{Research Preprint\\2 November 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+The Balance Field Gleichung (BFG) is examined as a specified finite recursive model and as a candidate for physical correspondence. The main mathematical result classifies every trajectory of its autonomous finite event: within an initial dimension-bounded number of attempts it terminates or reaches full persistence. Every infinite successful trajectory then has uniformly doubly exponential load collapse and a convergent formation kernel; only finitely many formation seeds occur. Predictive mediation is characterized relative to fixed observations, while the geometric construction requires an additional, nonunique metric. A grounded three-node RC model supplies explicit voltage states, energy accounting, mediator memory and parameter-identification conditions. On a fixed physical clock, a finite-order amplitude calibration cannot identify passive RC relaxation with the closed BFG load dynamics. Conversely, a specified state-dependent threshold clock exactly realizes the one-mode recursion and admits an energy readout, finite-error bounds and nonaccumulating event times. This implements an assumed recursion rather than independently validating it as a physical law. DC and oscillatory power are distinguished, and an explicit thermal-bath model gives a corrected stochastic energy residual with proved variance and coverage bounds. Analytic proofs and reproducible symbolic and numerical controls accompany the results. The contribution is a conditional mathematical classification and an operational account of possible and excluded physical correspondences; no laboratory confirmation or universal physical law is claimed.
+\end{abstract}
+\textbf{Keywords:} dynamic balance; neutral interface; recursive closure; Lyapunov stability; unitary covariance; multiscale organization; spectral geometry; RC networks; physical calibration; thermal noise.
+
+\section{Question scope and principal results}
+The question is which persistence claims follow from a precisely defined Balance Field Gleichung model, and which further assumptions are needed to relate that model to measurable dynamics. The role relation is
+\begin{equation}\label{triad}P_1\longleftrightarrow\widehat N\longleftrightarrow P_2.\end{equation}
+It does not itself supply an equation of motion. The poles denote roles or states, not the finite event's support projector $P$. The statement
+\begin{equation}\begin{gathered}\text{Existence}=\\\text{stable admissible recursive persistence}\end{gathered}\end{equation}
+is an ontological hypothesis, or a definition inside a specified model; it is not a theorem about all physical existence.
+
+The principal object here is the finite event of Section~12. Theorems~\ref{finitecompletion}--\ref{fullconvergence} classify its complete forward behavior under the exact stated selection, transport and seed rules. They do not assume the contraction of a separately defined hierarchy. The physical question is then posed as an explicit correspondence problem: can a measured system, together with a fixed readout and a specified clock, obey that event? The RC case yields both an obstruction for a fixed clock (Theorem~\ref{rcnogo}) and a constructive one-mode realization for a designed clock (Theorem~\ref{clockrealization}). The distinction prevents an implementation from being mistaken for an independent physical confirmation.
+
+Logical status is marked D definition, A assumption, T proved theorem, C corollary, N calculated result, H hypothesis, B physical bridge assumption, L limitation and O open obligation. A theorem is conditional on its hypotheses; numerical controls do not replace its proof. Established matrix analysis, control, real analysis and geometry provide background \cite{horn,higham,boyd,analysis,tonggr,vmls}. The classical RC and noise laws are independently stated physical models. Their application here is not a claim to have discovered those laws.
+
+Three precursor collaborations receive credit: Level--0 admissibility associated with Thomas Loker \cite{level0}, conjugate closure associated with Luke Kenneth Casson Leighton \cite{conjugate}, and the distinction between function and phenomenal experience associated with Alfredo Pereira Jr. \cite{pereira}. Reference notes preserve the differing supplied title-page and later attribution records. These credits do not assign responsibility for every present theorem.
+
+\section{Balance formulations and dimensional consistency}
+A Planck-normalized balance expression relates expansion, gravitational binding, information and structural-change rates. Define
+\begin{equation}\label{oldratio}
+\Phi_{33}^{\rm final}=
+\frac{E_{\rm exp} I D_0 E_P\ell_P}{E_{\rm grav}D I_0\ell_P^2F_P}
+=\frac{E_{\rm exp}I}{E_{\rm grav}I_0}\frac{D_0}{D}.
+\end{equation}
+Here $D,D_0$ are structural-change rates with matching units, not diffusion coefficients. The cancellation follows from $E_P\ell_P=\ell_P^2F_P=\hbar c$. The later reduced ratio omits $D_0/D$. Equivalence requires $D=D_0$ or a declared absorption into another variable; chronology alone does not justify dropping it.
+
+Expansion, binding and information are three organizing quantities, whereas the two-pole/interface relation assigns roles to interacting structures. A common three-term vocabulary does not establish a one-to-one identification between these mathematical types. The finite kernel below is therefore introduced by its own explicit state space and update laws.
+
+\begin{limitation}[Dimensional consistency and circular definitions]\label{historical}
+Cosmological substitutions require consistent units and do not independently determine $c$ from its defining Planck quantities.
+\end{limitation}
+\begin{proof}
+With $\rho=3H^2/(8\pi G)$ interpreted as mass density and $R=c/H$, the enclosed mass is $M=\rho(4\pi R^3/3)=c^3/(2GH)$. Its rest energy is $Mc^2=c^5/(2GH)$. Thus $c^3/(GH)$ has mass units and misses the factor $1/2$ as well as the energy conversion. Substitution into the stated uniform-sphere estimate gives
+\begin{equation}
+E_{\rm grav}=-\frac{3GM^2}{5R}=-\frac{3c^5}{20GH},
+\end{equation}
+rather than $-3c^7/(20G^2H^3)$. The quantity $A/\ell_P^2$ is an area-normalized count, not a volume information density without another division and a counting convention. Finally $F_P=c^4/G$ rearranged to $c=(GF_P)^{1/4}$ returns an input definition of $c$. It is an identity, not an independent determination of its measured value.
+\end{proof}
+These corrections do not invalidate a dimensionless balance ratio as a model definition. They restrict the physical derivations claimed for particular substitutions. Signed gravitational potential energy must also be distinguished from the positive binding magnitude used in the reduced dynamics.
+
+Neutral admissibility and conjugate recursion motivate related structural questions \cite{level0,conjugate}. They do not uniquely determine the finite constitutive laws. We specify those laws below and distinguish their proved consequences from proposed physical interpretations.
+
+\section{The reduced balance parameter and its units}
+\begin{definition}[Reduced balance, D]\label{baldef}
+Let $E_{\rm exp},E_{\rm bind},I_0>0$ and $I\geq0$. Define
+\begin{equation}\label{phi}
+\Phi=\frac{E_{\rm exp}I}{E_{\rm bind}I_0}.
+\end{equation}
+The two energies must have identical units, and $I,I_0$ must be the same type of information quantity. Then $\Phi$ is dimensionless. Strict positivity requires $I>0$.
+\end{definition}
+$\Phi=1$ means equality of the normalized expansive and binding contributions, not equality of raw energies unless $I=I_0$. Differentiation and feedback require denominator regularity on the interval being analyzed. A sequence of positive denominators approaching zero does not give a uniform bound.
+
+Physical energy, effective optimization cost, Shannon information, semantic information and matrix participation entropy are separate types. No conversion follows from a common letter. If $I$ is measured in bits per cubic metre, $I_0$ must use those units. If it is a dimensionless order score, its physical identification is a B assumption. Ratios measured in unrelated domains are comparable only after the measurements and reference conventions are fixed.
+
+\begin{limitation}[Operator products need not be real positive]\label{products}
+The operator quotient $\langle s,\widehat E\widehat I s\rangle/\langle s,\widehat B\widehat N s\rangle$ is not automatically a positive real ratio when its four factors are positive Hermitian matrices.
+\end{limitation}
+\begin{proof}
+For $A=\diag(1,2)$ and $B=\left(\begin{smallmatrix}2&1\\1&2\end{smallmatrix}\right)$ both factors are positive definite. At $s=(1,i)^T$, $s^*ABs=6-i$, which is not real. Products are Hermitian if these Hermitian factors commute, but positivity of each factor alone does not ensure that. For the quotient, one may assume the relevant pairs commute and impose a strictly positive denominator. An alternative positive congruence is a different declared model, not a silent correction of the stated expression.
+\end{proof}
+
+\section{Dynamic balance in the logistic reduction}
+\begin{theorem}[Exact solution and basin]\label{logistic}
+For $\alpha>0$ and $\dot\Phi=\alpha\Phi(1-\Phi)$, every initial value $\Phi_0>0$ gives a unique global forward solution
+\begin{equation}\label{logsol}
+\Phi(t)=\frac{\Phi_0}{\Phi_0+(1-\Phi_0)e^{-\alpha t}},\qquad t\geq0.
+\end{equation}
+It converges to $1$ monotonically unless initially at $1$. The basin of $1$ in the real line is $(0,\infty)$. The equilibrium $0$ is unstable.
+\end{theorem}
+\begin{proof}
+Away from $0,1$, separation gives $\log|\Phi/(1-\Phi)|=\alpha t+c$; solving and matching the initial value gives \eqref{logsol}. The polynomial vector field is locally Lipschitz, so this also identifies its unique solution. If $0<\Phi_0<1$, the denominator lies in $[\Phi_0,1]$ and the derivative is positive. If $\Phi_0>1$, the denominator lies in $[1,\Phi_0]$ and the derivative is negative. In both cases it never vanishes for $t\geq0$, remains bounded and tends to $1$. A negative initial value has a zero denominator at $t_*=-\alpha^{-1}\log[-\Phi_0/(1-\Phi_0)]>0$ and diverges to $-\infty$; $\Phi_0=0$ stays zero. The derivative of the vector field at $0$ is $\alpha>0$, and at $1$ is $-\alpha<0$. Equivalently, $V=(\Phi-1)^2$ has $\dot V=-2\alpha\Phi(\Phi-1)^2<0$ for $\Phi>0$, $\Phi\ne1$.
+\end{proof}
+This theorem concerns the reduced scalar ODE, not the full kernel, PDE or trinitarian hierarchy. A constant ratio can coexist with changing energies and information: for any positive differentiable $I(t)$, choosing $E_{\rm exp}/E_{\rm bind}=I_0/I(t)$ keeps $\Phi=1$. Thus balanced observables need not imply a stationary full state.
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=\textwidth]{figure1_balance_stability.pdf}
+\caption{Reduced balance solutions and four finite operator examples. Time is scaled by $\alpha$. Rotation is bounded without convergence, a peripheral Jordan block grows, and a strictly stable nonnormal matrix can amplify transiently. Reproduction: \texttt{reproducibility/verify.py}.}\label{fig:balance}
+\end{figure}
+
+\section{Feedback closure and criticality}
+\begin{definition}[Feedback, D]
+For differentiable real $\Phi,I$, let $J_B:=I_B=\partial_t(\Phi I)$. The product rule gives $J_B=I\dot\Phi+\Phi\dot I$. Its units are information density per unit time when $\Phi$ is dimensionless.
+\end{definition}
+This identity does not itself impose coupling between the two evolution laws: independently prescribed differentiable functions also satisfy it. Dynamical coupling follows when $J_B$ enters the equations of motion.
+
+For the following coupled PDE model, write
+\begin{align}
+\partial_t\Phi&=F_\Phi+cJ_B,&c&=\beta\Phi(1-\Phi)/I_0,\\
+\partial_t I&=F_I+\delta J_B,
+\end{align}
+where $F_\Phi=\Gamma\Phi(1-\Phi)+D_\Phi\Delta\Phi-\kappa_\Phi\Phi|\nabla\Phi|^2$ and $F_I=\nabla\cdot(D_I\Phi\nabla I)-\gamma I|\nabla\Phi|^2$. Direct substitution gives
+\begin{equation}\label{feedback}
+J_B=A_B+B_BJ_B,\quad A_B=IF_\Phi+\Phi F_I,\quad B_B=Ic+\Phi\delta.
+\end{equation}
+The subscripts distinguish these scalar coefficients from the analysis operator $A$ and neutral channel $B_N$. In these conventions $B_B,\beta,\delta$ are dimensionless, $\Gamma$ has units inverse time, and $D_\Phi,D_I,\kappa_\Phi,\gamma$ have length squared per time.
+
+\begin{proposition}[Algebraic versus iterative closure]\label{feedbackprop}
+If $B_B\ne1$, \eqref{feedback} has the unique solution $J_B=A_B/(1-B_B)$. If $|A_B|\leq M$ and $|1-B_B|\geq\varepsilon>0$, then $|J_B|\leq M/\varepsilon$. In contrast, the iteration $x_{n+1}=A_B+B_Bx_n$ converges to this solution for every $x_0$ exactly when $|B_B|<1$.
+\end{proposition}
+\begin{proof}
+Rearrangement proves the solution and its bound. Subtracting the fixed point gives $x_n-x_*=B_B^n(x_0-x_*)$, which converges to zero for every initial error iff $|B_B|<1$.
+\end{proof}
+At $B_B=1$, $A_B\ne0$ gives inconsistency; $A_B=0$ gives an undetermined algebraic relation. A limiting family $A_B=(1-B_B)j$ remains finite. Thus denominator criticality need not produce divergence on every path. The regularity margin $|1-B_B|\geq\varepsilon$ includes $B_B>1$ and should not be called iterative subcriticality without further qualification. With matrices, $(\Id-B)^{-1}$ requires $1\notin\spec B$; its norm can be large for nonnormal $B$ even when eigenvalues appear separated.
+
+\begin{limitation}[Closure regularity is insufficient for parabolicity]\label{parabolic}
+Positive diffusion coefficients and a nonzero feedback denominator alone do not guarantee a forward parabolic closed PDE.
+\end{limitation}
+\begin{proof}
+Solving the two time derivatives gives the principal multipliers
+\begin{equation}
+\frac1{\Delta_B}
+\begin{pmatrix}1-\Phi\delta&c\Phi\\ \delta I&1-cI\end{pmatrix},
+\qquad \Delta_B=1-cI-\Phi\delta.
+\end{equation}
+This multiplies the uncoupled diffusion matrix $\diag(D_\Phi,D_I\Phi)$. At $\Phi=1/2$, $I=I_0=1$, $\beta=8$, $\delta=0$, one has $c=2$ and $\Delta_B=-1$, uniformly away from zero at that state. The closed principal matrix has one eigenvalue $-D_\Phi$ and the other $D_I/2$. Positive original diffusion coefficients therefore coexist with a backward principal direction.
+\end{proof}
+Strong parabolicity of the closed principal symbol, appropriate boundary conditions, coefficient smoothness and a continuation criterion are additional O/A requirements. Additive Gaussian noise does not preserve positivity automatically. These facts limit unrestricted PDE/SPDE existence claims while preserving the valid algebraic closure.
+
+\section{Neutral-interface meanings and admissible distance}
+Neutrality can mean admissibility, normalization, balancing, positive response and relation-preserving regulation \cite{level0}. Equal weighting, symmetry, zero net force and passive damping are not equivalent. We distinguish $N_{\rm rel}$, a relation, $\widehat N$, its operator realization, $\nu$, a scalar response, and $\mathcal D_{\rm adm}$, a state domain. Identifying them requires an explicit map.
+
+\begin{definition}[One mediated distance construction, D/A]\label{distance}
+On a common finite vector space let $W_N=W_N^*\succeq0$ and set
+\begin{equation}
+d_N(P_1,P_2)=\sqrt{(P_1-P_2)^*W_N(P_1-P_2)}.
+\end{equation}
+For fixed $W_N\succ0$ this is a metric; for semidefinite $W_N$ it is a pseudometric. This is one declared realization; no uniqueness or universality is implied.
+\end{definition}
+\begin{proof}
+It is the Euclidean norm of $W_N^{1/2}(P_1-P_2)$, so symmetry and the triangle inequality follow from that norm. Vanishing implies equality exactly when the square root has trivial kernel.
+\end{proof}
+With changing $W_N$, a lower bound on $d_N$ does not uniformly bound Euclidean separation unless $W_N\preceq MI$; an upper bound does not uniformly bound separation unless $W_N\succeq mI>0$. The proposed corridor
+\begin{equation}\label{corridor}
+\varepsilon_k<d_{N_k}(P_1^{(k)},P_2^{(k)})<L_k
+\end{equation}
+is consequently D/A until an invariant dynamics and uniform metric comparison are supplied. State-dependent distances can even fail the triangle inequality. For scalar positions, a symmetric pair-weight giving distances $d(0,1)=d(1,2)=1$ and $d(0,2)=4$ is a direct counterexample.
+
+Limits of distance alone are not biological or physical failure theorems. The stable scalar map $d_{k+1}=d_k/2$ tends to zero without mathematical blow-up; a pole-label interpretation may call this identity loss. An upper finite threshold describes coupling loss only if the observable coupling law actually weakens or becomes inadmissible beyond it. Defining coupling failure by the threshold makes that statement definitional.
+
+\section{A constructive conditional persistence theorem}
+To avoid placing invariance inside the desired conclusion, this section gives checkable dynamics that imply it. It is a sufficient mechanism, separate from the finite kernel defined in Section~12.
+
+\begin{theorem}[Mediated corridor with a persistent phase]\label{corridorthm}
+Let $0<\varepsilon<a<b<L$, $0\leq r,s<1$, and let $m\in[0,1]$, $\theta\in\R/(2\pi\mathbb Z)$, $d\in[a,b]$. Define
+\begin{align}
+m_+&=sm+(1-s)m_*,&m_*&\in[0,1],\\
+d_+&=rd+(1-r)\bigl(a+(b-a)m\bigr),\\
+\theta_+&=\theta+\omega\pmod{2\pi},\\
+P_1&=-\tfrac12d\,e(\theta),&P_2&=\tfrac12d\,e(\theta),
+\end{align}
+where $e(\theta)=(\cos\theta,\sin\theta)$. Then the state set is forward invariant, $\varepsilon<\|P_2-P_1\|<L$ forever, and $m\to m_*$, $d\to d_*=a+(b-a)m_*$. The invariant circle $m=m_*,d=d_*$ is stable and attracting transversely. For irrational $\omega/(2\pi)$ its phase motion is nonperiodic.
+\end{theorem}
+\begin{proof}
+Both scalar updates are convex combinations of points in their respective intervals. This proves invariance by induction, and $\|P_2-P_1\|=d\in[a,b]$ gives strict corridor margins. Put $u=m-m_*$, $v=d-d_*$. Then $u_+=su$ and $v_+=rv+(1-r)(b-a)u$. Choose $c>0$ with $s+c(1-r)(b-a)<1$ when $a<b$. In the norm $|u|+c|v|$, the error gain is at most $q=\max\{s+c(1-r)(b-a),r\}<1$. Hence the transverse errors decay geometrically. This norm contraction implies Lyapunov stability and attraction to the invariant circle. The phase update is an isometry; irrational rotations are nonperiodic since a period would require an integer multiple of $\omega$ to be $2\pi$ times an integer.
+\end{proof}
+The mediator $m$ changes the target separation and is not an arithmetic midpoint. The theorem permits dynamically sustained organization without a fixed full state. It neither proves that this update is the universal BFG law nor that its mediator is always necessary. A stable mediator alone is insufficient: $m_+=m/2$, $P_{i,+}=2P_i$ has a stable mediator and growing poles. Bounded poles alone are insufficient for the corridor: constant poles with $W_{N,k}=2^{-2k}I$ have $d_{N,k}\to0$.
+
+\section{Necessity reducibility and memory}
+\begin{limitation}[Stable binary countermodel]\label{binary}
+Universal necessity of an independently evolving third state is false for persistent coupled distinguishable systems.
+\end{limitation}
+\begin{proof}
+Let $p_*=(-1,1)^T$ and $p_+=p_*+Mp-Mp_*$ with $M=\left(\begin{smallmatrix}1/2&1/10\\1/10&1/2\end{smallmatrix}\right)$. The eigenvalues are $3/5,2/5$. The rectangle $\|p-p_*\|_\infty\leq1/4$ is invariant since $\|M\|_\infty=3/5$, and the pole separation stays in $[3/2,5/2]$. The off-diagonal coefficients give genuine coupling. Every trajectory converges to the distinct poles with no independent mediator state.
+\end{proof}
+Calling the interaction rule itself a mediator is a possible role convention; it changes the claim to the existence of a coupling law, not necessity of a third degree of freedom.
+
+\begin{proposition}[Exact elimination of an instantaneous mediator]\label{eliminate}
+Suppose a triadic state is restricted to the invariant graph $m=h(p)$ and its update is $(p,m)\mapsto(f(p,m),h(f(p,m)))$. Projection onto $p$ is a conjugacy with $p\mapsto f(p,h(p))$. Every observable and admissibility predicate depending on $(p,h(p))$ is preserved under this conjugacy.
+\end{proposition}
+\begin{proof}
+The graph embedding $i(p)=(p,h(p))$ is bijective onto the graph, its inverse is projection, and $\mathcal U i=i\mathcal F$ holds by substitution. Iterating preserves the equality. Pulling observables and predicates through this bijection gives the remaining claims. Continuity of $h,f$ gives a topological conjugacy when required.
+\end{proof}
+
+\begin{theorem}[Obstruction to pole-only Markov reduction]\label{memory}
+Let $\pi(p,m)=p$ and $\mathcal U$ be a deterministic update. A deterministic pole-only map $f$ satisfying $\pi\mathcal U=f\pi$ exists if and only if $\pi\mathcal U$ is constant on every fiber of $\pi$. In particular, independent mediator states giving different pole successors from the same pole state forbid this reduction.
+\end{theorem}
+\begin{proof}
+If $f$ exists, any two states in the same fiber have the same image $f(p)$. Conversely, if fiber constancy holds, define $f(p)$ to be that common successor. It is single valued and satisfies the required relation. This is a deterministic statement; continuity of the quotient map requires the appropriate quotient topology in addition.
+\end{proof}
+For $p_+=Ap+bm$, $m_+=cm+dp$, take $b\ne0$ and two different allowed $m$ values with the same $p$. Their successors differ by $b(m_1-m_2)$. Eliminating $m$ instead produces a history law
+\begin{equation}
+p_{k+1}=Ap_k+bc^km_0+\sum_{j=0}^{k-1}bc^{k-1-j}dp_j.
+\end{equation}
+This is the precise conditional necessity of mediator memory, or equivalent extra state/history, for exact pole prediction. It is not proof of a uniquely neutral physical mediator. The obstruction is noncircular because equality of pole continuations is an independently specified equivalence requirement. The classical appearance of memory under projection predates BFG \cite{zwanzig}.
+
+\section{Spectral stability and conjugate closure}
+For finite-dimensional $R_C$, power boundedness means $\sup_{n\geq0}\|R_C^n\|<\infty$. It refers to a fixed operator. The BFG construction $R_C=M R M^*$ with $M=\widehat N^{1/2}$ \cite{conjugate} is a congruence when $\widehat N>0$, not a similarity in general. With $R=\Id$, $\widehat N=4\Id$, it gives $R_C=4\Id$. Thus it has no automatic stabilizing or norm-preserving theorem. For all-state Euclidean norm preservation the actual requirement is $R_C^*R_C=\Id$.
+
+\begin{theorem}[Finite power-boundedness criterion]\label{spectral}
+A finite real or complex matrix $R_C$ is power bounded iff every eigenvalue has modulus at most one and each unit-circle eigenvalue is semisimple. Further, $R_C^n$ converges iff these conditions hold and its only possible unit-circle eigenvalue is $1$.
+\end{theorem}
+\begin{proof}
+Complexify a real matrix and put $R_C=SJS^{-1}$ in Jordan form. For a block $J_\lambda=\lambda\Id+N$ of size $m$, $N^m=0$ and
+\begin{equation}
+J_\lambda^n=\sum_{j=0}^{m-1}\binom nj\lambda^{n-j}N^j.
+\end{equation}
+If $|\lambda|>1$, an eigenvector grows exponentially. If $|\lambda|=1$ and $m>1$, the entry on the outermost nonzero superdiagonal has a nonzero polynomial factor in $n$, so the powers are unbounded. If $|\lambda|<1$, every polynomial times $|\lambda|^n$ tends to zero; the zero-eigenvalue blocks are eventually zero. Size-one unit-circle blocks remain bounded. A finite sum and a fixed similarity preserve boundedness. For convergence, the interior blocks vanish, while $\lambda^n$ on the unit circle converges only for $\lambda=1$; the resulting limit is the spectral projector onto the $1$ eigenspace.
+\end{proof}
+This is established linear algebra applied to a specified BFG operator \cite{horn}. $\rho(R_C)\approx1$ is neither a tolerance-free stability criterion nor proof that a particular state has a persistent component. A strictly stable operator decays; a power-bounded rotation persists without convergence; a defective eigenvalue at $1$ grows. Some states of an unstable matrix can nevertheless lie entirely in its stable subspace.
+
+\begin{limitation}[Switching defeats separate spectral tests]\label{switch}
+Let $A=\left(\begin{smallmatrix}1/2&2\\0&1/2\end{smallmatrix}\right)$ and $B=A^T$. Each is strictly stable, but alternating them can grow exponentially.
+\end{limitation}
+\begin{proof}
+Both have spectral radius $1/2$. However $BA=\left(\begin{smallmatrix}1/4&1\\1&17/4\end{smallmatrix}\right)$ has largest eigenvalue $(9+4\sqrt5)/4>1$. Repeating this two-step product gives exponential growth on its largest-eigenvalue direction.
+\end{proof}
+Arbitrary switching instead requires a common contraction/Lyapunov metric, a controlled product estimate or another suitable joint condition. Per-step membership in a stable spectral class alone is insufficient. Infinite-dimensional analogues need separate resolvent/domain analysis; finite Jordan arguments do not automatically extend.
+
+\section{Protected sectors and Lyapunov certificates}
+\begin{theorem}[Adapted positive metric]\label{lyapunov}
+For a finite power-bounded $R_C$, there is a Hermitian $L\succ0$ with $R_C^*LR_C\preceq L$. The peripheral sector is isometric in this metric and its invariant stable complement is strictly contractive. If $R_C=\Id$ on the peripheral sector $W$, then $R_C^n x$ converges to its spectral projection onto $W$.
+\end{theorem}
+\begin{proof}
+Choose an invariant basis in which $R_C=\diag(D,T)$, with diagonal unit-modulus $D$ and $\rho(T)<1$, using Theorem~\ref{spectral}. Define $L_s=\sum_{n\geq0}(T^*)^nT^n$. Jordan decay makes this series norm convergent. Its first term gives $L_s\succeq\Id$ and reindexing gives $T^*L_sT=L_s-\Id$. Therefore $\|Tv\|_{L_s}^2\leq(1-1/\lambda_{\max}(L_s))\|v\|_{L_s}^2$. Set $L_0=\diag(\Id,L_s)$ and pull it to the original basis by inverse congruence. This gives the inequality and strict transverse contraction. The assertion for $W$ follows from $x=w+x_s$ and $R_C^nx=w+T^nx_s$.
+\end{proof}
+Conversely such a positive metric bounds all powers by norm equivalence. This certificate is a standard Lyapunov construction \cite{boyd}. A positive penalty functional called ``Lyapunov'' is not proved decreasing merely by writing its formula or threshold. Nonincrease alone does not imply convergence: a rotation preserves the squared norm.
+
+\begin{proposition}[A discrete invariance principle]\label{lasalle}
+Let $F:D\to D$ be continuous on compact $D$, and $V:D\to\R$ continuous with $V(Fx)\leq V(x)$. Then each omega-limit set lies in the largest invariant subset of $E=\{x:V(Fx)=V(x)\}$. If that subset is the singleton $x_*$, every orbit converges to $x_*$.
+\end{proposition}
+\begin{proof}
+The decreasing sequence $V(F^nx)$ is bounded below and has a limit $v$. Compactness gives an omega-limit set. Along any convergent subsequence $F^{n_j}x\to y$, continuity gives $V(y)=V(Fy)=v$, and $Fy$ is another limit point. A preimage limit point follows by a subsequence of $F^{n_j-1}x$. Thus the limit set is invariant and lies in $E$. If it is a singleton, failure of convergence would give a second limit point by compactness, a contradiction.
+\end{proof}
+Point stability additionally requires a positive-definite local comparison to distance from $x_*$. Coercivity/compactness and invariance cannot be omitted in unbounded domains. None of these general theorems verifies its own hypotheses for the full nonlinear BFG state map.
+
+\section{Order-indexed hierarchies and global convergence}
+An order-indexed hierarchy distinguishes
+\begin{equation}
+\Phi_{{\rm src},n}=\frac{E_{{\rm exp},n}I_n}{E_{{\rm bind},n}I_{0,n}},\quad
+\nu_n(\phi;s)=\frac{\langle s,\widehat N_n(\phi)s\rangle}{\langle s,s\rangle},\quad
+\phi_n\nu_n(\phi_n;s_n)=\Phi_{{\rm src},n}.
+\end{equation}
+Assume $s_n\ne0$, $\widehat N_n(\phi)\succeq\mu_n\Id>0$, and freeze $s_n,\Phi_{{\rm src},n}$ during the Picard iteration. The local map is $f_n(\phi)=\Phi_{{\rm src},n}/\nu_n(\phi;s_n)$. If differentiable, $|f_n'|=\Phi_{{\rm src},n}|\nu_n'|/\nu_n^2$ supplies a usable Lipschitz bound.
+
+\begin{theorem}[Hierarchy contraction]\label{hierarchythm}
+Let $D\subset\prod_{n=0}^LD_n$ be nonempty, closed in a finite product of complete metric intervals with sup norm. Let $f(x)=(f_n(x_n))$ have Lipschitz constants $L_n$, and let $\mathcal K:D\to\R^{L+1}$ have Lipschitz constant $\kappa$ in that norm. Assume $F=f+\mathcal K$ maps $D$ into itself and $q=\max_nL_n+\kappa<1$. Then there is a unique fixed point $x_*\in D$, every orbit converges, and
+\begin{equation}
+\|F^kx-x_*\|_\infty\leq\frac{q^k}{1-q}\|Fx-x\|_\infty.
+\end{equation}
+\end{theorem}
+\begin{proof}
+The triangle inequality gives $\|Fx-Fy\|_\infty\leq q\|x-y\|_\infty$. Successive differences satisfy $\|x_{j+1}-x_j\|\leq q^j\|x_1-x_0\|$, so the tail is at most $q^k\|x_1-x_0\|/(1-q)$. Completeness and invariance give a limit in $D$; continuity gives a fixed point. Two fixed points would obey $\|x_*-y_*\|\leq q\|x_*-y_*\|$, forcing equality. The tail bound gives the stated estimate.
+\end{proof}
+The proof is Banach's theorem \cite{analysis}; the BFG contribution is the specified interface response and hierarchy, not a new fixed-point theorem. It is global on $D$, not on every conceivable carrier or the full kernel. Co-evolving $s_n$ require joint-state bounds.
+
+A concrete invariant example is $D=[0,2]^2$,
+\begin{equation}
+F(x)=\begin{pmatrix}1/5\\3/5\end{pmatrix}
++\begin{pmatrix}1/2&1/10\\1/10&1/4\end{pmatrix}x.
+\end{equation}
+Its row-sum gain is $3/5$ and coordinate maxima are $7/5,13/10$. The unique equilibrium has different coordinates. Thus hierarchical convergence need not homogenize local order. The geometric summary $\Phi_G=\exp(\sum w_n\log\phi_n)$ loses distributional information: $(1/2,2)$ and $(1,1)$ have the same equally weighted summary, while their log-dispersions differ.
+
+\section{Canonical finite state and full event}
+Our finite ambient kernel uses
+\begin{equation}\label{Xi}
+\Xi=(K,\rho_F,\rho_W,Y,P)
+\end{equation}
+on $\mathcal H\simeq\C^n$, with $K=K^*$, $\rho_F\succeq0$, $\rho_W\succeq0$, $\tr\rho_W=1$, $Y\succeq0$, and $P=P^*=P^2$. Positive dual loads below enforce nonzero formation. $K,\rho_F$ share a declared formation unit; $Y,P,\rho_W$ are dimensionless. There is no proven identification of every coordinate of $\Psi=(\Phi,I,A_{\rm attr},G,\Omega,T,S_c,M_{\rm mem},C_{\rm cl})$ with this tuple.
+
+Polar decomposition supplies the standard transport tool \cite{higham}. An extended rank-aware state may additionally include three Hermitian capacities and $R_C$, with $K=\mathfrak c+\aleph-\mathfrak D$ and a derived persistence projector. That is a different typed state category. Knowing $K$ does not recover its three summands or a unique recursion. The five-tuple is therefore the canonical kernel of the present model, not a lossless universal replacement for every earlier state.
+
+\subsection{Selection and directed conditioning}
+Define the positive neutral algebra and exact selector
+\begin{equation}\label{neutralalg}
+C_N=(\Id+Y)^{-1},\quad B_N=YC_N=\Id-C_N,\quad G=\Id+Y,\quad Q=\Id_{[0,1)}(Y).
+\end{equation}
+Let $T_s=\pol(QP)$, using the polar partial isometry zero on its kernel, $S_s^-=T_s^*T_s$, and $P_s=T_sT_s^*$. Empty selection is terminal. Set
+\begin{equation}
+\rho_F^s=T_s\rho_FT_s^*,\quad m_s=\tr(S_s^-\rho_W),\quad
+\rho_W^s=T_s\rho_WT_s^*/m_s.
+\end{equation}
+Zero $m_s$ is terminal. On a frame $Z$ with $ZZ^*=P_s$, $Z^*Z=\Id$, define
+\begin{equation}
+D=Z^*GZ>0,\qquad P_G=ZD^{-1}Z^*G.
+\end{equation}
+Then $P_G^2=P_G$ and $P_G^*G=GP_G$. This metric projector need not equal an ordinary orthogonal or Riesz projector.
+
+\subsection{Loads analysis and reduced SVD}
+The two density loads are
+\begin{equation}\label{loads}
+\Lambda_C=\tr(GP_GC_N\rho_F^s C_NP_G^*),\quad
+\Lambda_B=\tr(GP_GB_N\rho_F^s B_NP_G^*).
+\end{equation}
+They are nonnegative since each is a squared Hilbert--Schmidt norm, for example $\Lambda_C=\|G^{1/2}P_GC_N(\rho_F^s)^{1/2}\|_F^2$. The successful branch requires both strictly positive. Define
+\begin{equation}
+\alpha=\frac{\Lambda_B}{\Lambda_C+\Lambda_B},\quad
+\beta=\frac{\Lambda_C}{\Lambda_C+\Lambda_B},\quad
+A=\begin{pmatrix}\sqrt\alpha P_GC_N\\\sqrt\beta P_GB_N\end{pmatrix}:\C^n\to\C^{2n}.
+\end{equation}
+The domain is the ambient input. Replacing $A$ by its restriction $AZ$ changes the model and can remove transverse directions. Use the rank-$r$ reduced SVD $A=U\Sigma V^*$, with $U:\C^r\to\C^{2n}$, $V:\C^r\to\C^n$ isometries and positive diagonal $\Sigma$. Then
+\begin{equation}\label{kernelnext}
+Y_+=\Sigma^2,\qquad K_+=U^*(K\oplus K)U.
+\end{equation}
+These are D/A successor rules motivated by intrinsic Gram reconstruction. Positivity does not uniquely force their unique choice.
+
+\subsection{Realignment formation seed and terminal gates}
+Let $T_4=\pol(V^*P_s)$, $S_4^-=T_4^*T_4$, $S_4^+=T_4T_4^*$. The general transport formula is
+\begin{equation}
+m_4=\tr(S_4^-\rho_W^s),\quad
+\rho_{W,+}=T_4\rho_W^sT_4^*/m_4,\quad
+\rho_F^{\rm inh}=T_4\rho_F^sT_4^*.
+\end{equation}
+Theorem~\ref{ambient} proves $m_4=1$ on the present ambient branch. Put $E=\Id_r-S_4^+$. If $E=0$, no seed is needed. Otherwise compress $K_+$ to $\Ran E$. A simple negative lowest eigenvalue $\lambda_0^E$ with rank-one orthogonal spectral projector $\Pi_E$ gives
+\begin{equation}
+\rho_E=-\lambda_0^E\Pi_E,\quad
+\rho_{F,+}=\rho_F^{\rm inh}+\rho_E,\quad P_+=S_4^++\Pi_E.
+\end{equation}
+A nonnegative lowest eigenvalue or degenerate negative ground space is terminal under this no-choice rule. All terminals are absorbing. Exact zero and finite-precision ambiguity are separate outcomes. No arbitrary phase, singular-value tolerance or eigenvector choice is a physical law.
+
+\section{Finite kernel positivity covariance and accounting}
+\begin{theorem}[Ambient event invariants]\label{ambient}
+Every successful event above has $\rank P_s\leq r\leq n$, $0<Y_+<\Id_r$, $S_4^-=P_s$ and $m_4=1$. It preserves Hermiticity, normalized positive witness and positive formation. It defines a unique simultaneous-unitary equivalence class even at repeated singular values. Adjoining absorbing terminals gives every finite iterate, but does not guarantee nonterminal survival.
+\end{theorem}
+\begin{proof}
+Since $GC_N=\Id$ and $GB_N=Y$,
+\begin{equation}
+P_GC_N=ZD^{-1}Z^*,\qquad P_GB_N=ZD^{-1}Z^*Y.
+\end{equation}
+The first has range exactly $\Ran P_s$. Hence $\Ran P_s\subseteq\Ran A^*=\Ran V$ and $VV^*P_s=P_s$. For $X=V^*P_s$, $X^*X=P_sVV^*P_s=P_s$; thus $X$ is already a partial isometry and $T_4=X$, $S_4^-=P_s$. Selection puts $\rho_W^s$ on that support, so $m_4=1$.
+
+The selected range lies in $\Ran Q$, where the largest eigenvalue $\eta$ of $Y$ on $\Ran Q$ is strictly less than $1$. Since $D\succeq\Id$, $\|P_GC_N\|\leq1$. Moreover $\|Z^*Y\|\leq\eta$ since $Y$ preserves $\Ran Q$, so $\|P_GB_N\|\leq\eta$. Therefore $\|A\|^2\leq\alpha+\beta\eta^2<1$. All active singular values are strictly positive, proving $0<Y_+<\Id_r$; rank bounds follow from the first channel and the input dimension.
+
+Isometric compression preserves Hermiticity of $K$. Positive congruences preserve both densities; division by positive mass normalizes the witness. The seed is positive and supported orthogonally to inherited persistence, so $P_+$ is an orthogonal projector. Positive loads imply positive selected formation trace; lossless R4 preserves it, and a seed can only add positive trace.
+
+Changing $Z$ to $ZW$ cancels out of $P_G$. Under input unitary $L$, $A$ changes to $(L^*\oplus L^*)AL$. Compatible singular frames transform accordingly. Within a degenerate positive singular block the common frame rotation $U\mapsto UW$, $V\mapsto VW$ conjugates every successor by $W$; $W\Sigma=\Sigma W$. All masses, ranks and terminal tests are invariant. The ground projector is phase-free. Thus the quotient successor is unique. Induction on typed outputs or the absorbing terminal proves all finite iterates.
+\end{proof}
+The result is stronger than Gram positivity alone but depends on the exact event defined here. The additional recursion completion $R_{C,+}=P_++(\Id-P_+)C_N(Y_+)(\Id-P_+)$, when additionally adopted, is an identity block plus a strict positive contraction, since $Y_+>0$. Its powers are bounded and its complement decays. This choice remains A: replacing $C_N$ by $C_N^2$ gives another stable transverse rule with the same protected support.
+
+\begin{corollary}[Formation and witness accounting]\label{accounting}
+For each nonterminal event,
+\begin{equation}
+\tr\rho_{F,+}-\tr\rho_F=s_F-\ell_F,\quad
+\ell_F=\tr((\Id-S_s^-)\rho_F)\geq0,\quad s_F=\tr\rho_E\geq0.
+\end{equation}
+Original witness survival is the separate variable $w_{k+1}=w_km_{s,k}$, $w_0=1$. It cannot in general be recovered from $\rho_{W,+}$ alone.
+\end{corollary}
+\begin{proof}
+Cyclicity gives $\tr\rho_F^s=\tr(S_s^-\rho_F)$, R4 preserves it, and the seed adds $s_F$. For witness loss, selection conditioning divides by $m_s$. With $Y=\diag(1/2,2)$, $P=\Id$, $\rho_F=\Id$, $K=-\Id$ and $\rho_W=\diag(p,1-p)$, every $0<p\leq1$ gives the same one-dimensional conditioned successor, although $m_s=p$ varies. Hence normalization discards survival mass.
+\end{proof}
+Two densities therefore serve independent roles. Formation in a new sector need not carry inherited witness. Neither normalized witness continuity nor formation stock is proof of subjective identity or consciousness.
+
+\section{Exact novelty on a compatible fixed support}
+The following operator result makes spectral novelty precise. Its support and positivity hypotheses are essential.
+\begin{theorem}[Two-channel Schur novelty]\label{novelty}
+On a finite fixed orthogonal support let $Y\succeq0$, $K=K^*$ and fixed $\alpha,\beta>0$. Put $D=(\alpha\Id+\beta Y^2)^{1/2}$ and
+\begin{equation}
+K_+=D^{-1}(\alpha K+\beta YKY)D^{-1}.
+\end{equation}
+Then $[Y,K]=0$ iff $K_+=K$ iff $K_+,K$ have the same eigenvalue multiset. For ambient compression, the statement applies to $Y_P,K_P$ only when the orthogonal support reduces $Y$.
+\end{theorem}
+\begin{proof}
+In a $Y$ eigenbasis with eigenvalues $y_i$, $(K_+)_{ij}=\chi_{ij}K_{ij}$ where
+\begin{equation}\label{chi}
+\chi_{ij}=\frac{\alpha+\beta y_iy_j}{\sqrt{(\alpha+\beta y_i^2)(\alpha+\beta y_j^2)}}.
+\end{equation}
+These are inner products of unit vectors proportional to $(\sqrt\alpha,\sqrt\beta y_i)$, so $0<\chi_{ij}\leq1$, and equality holds iff $y_i=y_j$. Thus
+\begin{equation}
+\tr(K^2)-\tr(K_+^2)
+=\sum_{i,j}\frac{\alpha\beta(y_i-y_j)^2|K_{ij}|^2}{(\alpha+\beta y_i^2)(\alpha+\beta y_j^2)}\geq0.
+\end{equation}
+Equality holds precisely when $(y_i-y_j)K_{ij}=0$, namely $[Y,K]=0$. Commutation therefore implies $K_+=K$. Equal eigenvalue multisets imply equal traces of squares, so imply commutation. The remaining implications follow directly. On a reducing support, restriction commutes with the neutral functional calculus, so the same calculation applies to the compressed pair.
+\end{proof}
+Spectral novelty here means a changed formation spectrum, not automatically a newly autonomous biological level or irreducible emergence. Fixed repeated weights and loads give pinching of off-block entries; state-dependent changing weights do not inherit a uniform rate without a uniform gap. Positive Gram form alone also leaves many laws possible: $Y_c(p)=\Id+c\Pi_p$ is positive, phase invariant and unitarily equivariant for every $c>0$, with different loads for the same nonzero profile $p$.
+
+\section{A nonterminal four-mode invariant family}
+\begin{theorem}[Spectral reduction of the finite event]\label{fourmode}
+Fix $w>0$ and $n=4$. The family
+\begin{equation}\label{family}
+\Xi(y)=(0,w\Id_4,\Id_4/4,\diag(y_1,y_2,y_3,y_4),\Id_4),\quad 0<y_i<1,
+\end{equation}
+is nonterminal and invariant under the ambient event, up to simultaneous unitary equivalence. In an unsorted diagonal gauge its exact update is
+\begin{equation}\label{F}
+F_i(y)=\frac{\alpha(y)+(1-\alpha(y))y_i^2}{(1+y_i)^2},\quad
+\alpha(y)=\frac{\sum_j y_j^2/(1+y_j)}{\sum_j(1+y_j^2)/(1+y_j)}.
+\end{equation}
+Every $F_i(y)$ lies strictly between $0$ and $1$.
+\end{theorem}
+\begin{proof}
+Here $Q=T_s=P_s=P_G=\Id$, $m_s=1$, $\Lambda_C=w\sum_j(1+y_j)^{-1}$ and $\Lambda_B=w\sum_jy_j^2/(1+y_j)>0$. Their ratio gives the stated $\alpha$. The diagonal matrix $A^*A=\alpha C_N^2+\beta B_N^2$ has entries $F_i(y)>0$, and $\alpha+\beta u^2<(1+u)^2$ for $u>0$. Choose $V=\Id$, $\Sigma=\diag(\sqrt{F_i})$, $U=A\Sigma^{-1}$; then $U^*U=\Id$. This is a valid reduced SVD with no requirement to sort singular values. It gives $K_+=0$, $T_4=\Id$, unchanged two densities and no emergent complement. Hence $P_+=\Id$ and the family persists. Sorting merely permutes its quotient coordinates.
+\end{proof}
+The family is not globally confined to a collision-free spectral stratum. On the diagonal $y=t\mathbf1$,
+\begin{equation}\label{scalarf}
+F(t\mathbf1)=f(t)\mathbf1,\quad f(t)=\frac{2t^2}{(1+t)^2(1+t^2)},\quad0<f(t)<t\quad(0<t<1).
+\end{equation}
+Thus an exact infinite nonterminal orbit can approach the boundary $Y=0$ without a uniform regularity margin. Since $f(t)/t<1$ and $f(t)=t$ has no positive solution, monotone continuity gives $t_k\to0$. For small $t$, $f(t)\sim2t^2$: numerical underflow or rank ambiguity can arise long before an exact terminal event.
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=\textwidth]{figure2_spectral.pdf}
+\caption{A surface of the actual four-mode map on $y=(0.1+p,0.2+q,0.3,0.4)$ and a four-step spectral trajectory. Surface height is $F_1$, not intrinsic curvature. The right panel illustrates rapidly small loads without identifying numerical size with exact termination. Code: \texttt{verify.py}.}\label{fig:spectral}
+\end{figure}
+
+\section{Moment coordinates and positive geometry}
+The four-dimensional spectral stratum is a declared family, not a prediction that the universe has four dimensions. Let
+\begin{equation}
+\mathcal C_4=\{0<y_1<y_2<y_3<y_4<1\},\quad
+R_a(y)=\sum_{i=1}^4y_i^a,\ a=1,2,3,4.
+\end{equation}
+\begin{theorem}[Moment chart and flatness]\label{moment}
+$R$ is a diffeomorphism of $\mathcal C_4$ onto its open image. Its Jacobian satisfies
+\begin{equation}
+(DR)_{ai}=ay_i^{a-1},\qquad\det DR=24\prod_{i<j}(y_j-y_i)>0.
+\end{equation}
+The equal-dimensional Euclidean pullback $h=R^*\delta$ is positive definite and intrinsically flat. More generally $z^*\delta$ is flat wherever the four-coordinate field $z$ has invertible Jacobian.
+\end{theorem}
+\begin{proof}
+Factor $a=1,2,3,4$ from the rows to obtain the Vandermonde determinant. The inverse function theorem gives local diffeomorphisms and an open image. Newton's recursion $me_m=\sum_{a=1}^m(-1)^{a-1}e_{m-a}R_a$, $e_0=1$, recovers the monic polynomial having roots $y_i$. Ordering recovers the unique tuple, proving injectivity and a smooth inverse. In $z=R(y)$ coordinates, $h$ has the constant Euclidean matrix; its Riemann tensor vanishes. This is coordinate invariant. The same argument applies to any invertible field chart.
+\end{proof}
+Nonlinear readout coordinates therefore cannot by themselves generate intrinsic curvature in this construction. Internal positivity of $Y$ or $G=\Id+Y$ is also differently typed from a Riemannian metric on a manifold of fields.
+
+\section{Declared Lorentzian completion and exact curvature}
+On $\mathcal Z=R(\mathcal C_4)$ put $q(y)=R(F(y))-R(y)$, $v(z)=q(R^{-1}z)$. The polynomial expression $R(F(y))$ is meaningful even if the successor tuple is not ordered. On $v\ne0$ declare
+\begin{equation}\label{lorentz}
+\widehat g(z)=\delta-2\frac{v(z)v(z)^T}{v(z)^Tv(z)}.
+\end{equation}
+This is D/A, an added geometric completion. The positive kernel does not uniquely select its coefficient, signature or physical meaning.
+
+\begin{proposition}[Signature and temporal cone]\label{signature}
+$\widehat g$ has signature $(-,+,+,+)$, inverse $\widehat g^{-1}=\widehat g$, determinant $-1$, and $\widehat g(v,v)=-\|v\|^2$. Where $v_1<0$ and $v_1^2/\|v\|^2>1/2$, $T(z)=-z_1$ is a temporal function for the orientation defined by $v$.
+\end{proposition}
+\begin{proof}
+Decompose $\R^4=\operatorname{span}(v)\oplus v^\perp$. The matrix is $-1$ on the first summand and $+1$ on the second, giving all algebraic assertions. Its inverse norm of $dT$ is $1-2v_1^2/\|v\|^2<0$, and $dT(v)=-v_1>0$. A timelike covector cannot vanish on a nonzero causal tangent, so its sign is positive throughout the chosen future cone. Thus $T$ increases on future causal curves. Regular chart pullback preserves the assertions.
+\end{proof}
+Existence of a timelike vector gives time orientability, not automatically a global temporal function on an arbitrary Lorentzian manifold. The displayed cone condition supplies the latter on its specified domain. Standard geometric distinctions are summarized in \cite{tonggr}.
+
+The local curvature calculation is specified by the following convention and evaluated using exact \texttt{Fraction} arithmetic. With
+\begin{equation}
+\mathcal R^a{}_{bcd}=\partial_c\Gamma^a{}_{db}-\partial_d\Gamma^a{}_{cb}
++\Gamma^a{}_{ce}\Gamma^e{}_{db}-\Gamma^a{}_{de}\Gamma^e{}_{cb},
+\end{equation}
+the universal readout metric, including derivatives of endogenous $\alpha(y)$, gives at $y_*=(1/10,1/5,3/10,2/5)$
+\begin{equation}\label{cert}
+\det DR=\frac9{31250},\quad\alpha=\frac{1357}{20732},\quad
+\frac{q_1^2}{\|q\|^2}\simeq0.8413689834920638,
+\end{equation}
+\begin{equation}
+\mathcal R^1{}_{212}\simeq1.69514020312229760186742456508>0.
+\end{equation}
+The complete exact numerator and denominator are provided in \texttt{curvature.json}; their positivity, equality to the original certificate, reflection identities, Riemann symmetries and first Bianchi identity were checked. This is reproduction of a supplied algorithm, not by itself an independent derivation. A separate 70-digit parameter-coordinate implementation differentiated the pulled-back metric and transformed the full mixed Riemann tensor back to readout coordinates. It agreed with the exact result to an absolute residual of $3.96\times10^{-63}$; this is an independent implementation cross-check, not an interval error bound. The nonzero coordinate component proves nonflatness; it is not scalar curvature or a physical gravitational measurement.
+
+\section{Finite horizon geometry and its limits}
+\begin{theorem}[Simultaneous regular curved causal finite horizon]\label{finitegeom}
+For each finite $N\geq0$, the four-mode family admits a nonempty open set $\mathcal O_N\subset\mathcal C_4$ whose trajectories through $N+1$ events have simple ordered spectra and invertible $D(F^k)$. At events $0\leq k\leq N$, the declared metric \eqref{lorentz} has nonzero Riemann curvature and a common temporal function $-z_1$. The endpoint-exact curves
+\begin{equation}
+\gamma_y(s)=R((1-s)y+sF(y)),\quad 0\leq s\leq1,
+\end{equation}
+for those events are future timelike. This conclusion concerns a declared interpolation, not a uniquely derived continuous flow.
+\end{theorem}
+\begin{proof}
+At $t\mathbf1$, the Jacobian of $F$ has transverse eigenvalue
+\begin{equation}
+a(t)=\frac{2t(1-t)}{(1+t)^3(1+t^2)}>0
+\end{equation}
+with multiplicity three and symmetric eigenvalue
+\begin{equation}
+f'(t)=\frac{4t(1-t^3)}{(1+t)^3(1+t^2)^2}>0.
+\end{equation}
+Permutation symmetry gives the decomposition: sum-zero variations have first-order $d\alpha=0$, while the symmetric direction differentiates \eqref{scalarf}. Hence $\det DF=a^3f'>0$. If $\min_i y_i>(\max_i y_i)^2$, then
+$\alpha/\beta=\sum y_i^2/(1+y_i)\big/\sum1/(1+y_i)\leq(\max y_i)^2<\min y_i$.
+The single-coordinate fixed-weight derivative $2(\beta u-\alpha)/(1+u)^3$ is positive across that tuple. Thus strict ordering is preserved for that event.
+
+Start at the diagonal control $t_0=1/10$, $t_k=f^k(t_0)>0$. There are finitely many control points, each with strict ordering-control inequality and nonzero determinant. Continuity of the finite iterates yields a common small neighborhood with these properties. Intersect it with $\mathcal C_4$, which is nonempty arbitrarily near the diagonal. The chain rule gives regular iterates.
+
+For a diagonal control segment let $\tau=(1-s)t+sf(t)$. Its tangent is $W=4(f(t)-t)(1,2\tau,3\tau^2,4\tau^3)$. The displacement at $\tau\mathbf1$ has negative first component and, after division by it, nonnegative remaining ratios bounded by $(2t,3t^2,4t^3)$. This follows from $(\tau^a-f(\tau)^a)/(\tau-f(\tau))=\sum_{j=0}^{a-1}\tau^{a-1-j}f(\tau)^j$. Write $A(t)^2=4t^2+9t^4+16t^6$. The cosine of the angle between $W$ and $q$ is at least $1/(1+A(t)^2)$. For $t\leq1/10$, this is at least $62500/65057>1/\sqrt2$. Consequently $\widehat g(W,W)<0$, $q\cdot W>0$, and $q_1^2/\|q\|^2>1/2$. Compactness of $s\in[0,1]$ and the finite number of segments give a common perturbation neighborhood where these strict inequalities hold on complete segments. Ordered endpoints keep each spectral segment in the convex chamber. Geometry is assigned only on those perturbed simple-spectrum segments, not the diagonal itself.
+
+It remains to impose nonzero curvature at every sampled event. The component $\mathcal K(y)=\mathcal R^1{}_{212}(R(y))$ is rational: $F,R,q$ are rational, readout differentiation uses rational $(DR)^{-1}$, and the metric inverse equals itself. Denominators are nonzero on the regular nonzero-displacement domain. The exact certificate \eqref{cert} proves its numerator is a nonzero polynomial. Such a polynomial cannot vanish on an open set, by successive one-variable polynomial uniqueness. Each regular $F^k$ is an open local diffeomorphism. Hence the inverse image of the curvature-zero set has empty interior. Avoiding these finitely many relatively closed zero sets leaves a nonempty open set $\mathcal O_N$ satisfying all properties simultaneously.
+\end{proof}
+The proof does not exchange the quantifiers ``for every finite $N$, there exists a neighborhood'' with ``there exists one uniform neighborhood for all $N$''. Simple gaps and load sizes may shrink to zero. For a field $y_0(x)$, full readout rank further requires $D_xy_0$ invertible, since $D_xz_k=DR(F^ky_0)D(F^k)(y_0)D_xy_0$. Pullback curvature is then transported by this invertible map, not computed by confusing parameter and universal readout coordinates.
+
+\section{Scale transfer and recursive growth}
+Dimensionless balance, structural transferability and exact dynamical covariance are distinct. For scale maps $S_\lambda$, exact covariance means $\mathcal U S_\lambda=S_\lambda\mathcal U$ on a declared domain, with parameter transformations when necessary. Even the scalar invariant load law fails naive scaling: \eqref{scalarf} gives $f(1/2)=8/45$, $f(1)=1/4$, whereas $2f(1/2)=16/45$. An interior example follows by taking any $t<1/2$ and nearby $\lambda\ne1$; the rational identity cannot hold identically. The fixed spectral threshold $Y<\Id$ also changes selection under general load rescaling.
+
+There is nevertheless an exact conditional self-similar lift in a different variable. On the selected full-persistence class $P=\Id$, $0<Y<\Id$, let $Y'=Y\otimes\Id_m$, $K'=K\otimes\Id_m$, $\rho_F'=\rho_F\otimes\tau$, $\rho_W'=\rho_W\otimes\tau$, with $\tau\succeq0$, $\tr\tau=1$, and $P'=\Id$. Neutral functional calculus tensors with identity; traces of loads multiply by $\tr\tau=1$, leaving the weights unchanged. Compatible polar frames therefore give $Y_+'=Y_+\otimes\Id_m$, $K_+'=K_+\otimes\Id_m$ and transported densities in the same form. This proves covariance for this declared lift, not spatial dilation of a physical system. Replicated seed minima can become degenerate, so the unrestricted seeded update does not inherit this argument.
+
+In the finite event $n_+\leq n$, so carrier expansion from a finite initial carrier requires a different law. Coupling stable subsystems need not preserve stability; the switching and coupling counterexamples are recorded in the limitation register.
+
+Exact coarse reduction is possible without a mesoscopic state. If $C$ is a readout and $CF=\bar FC$, then $\bar F$ gives closed macrodynamics. For $F(x)=ax$ and $C(x)=\sum_i x_i$, one obtains $\bar F(z)=az$. When $CF$ is not constant on $C$-fibers, Theorem~\ref{memory} gives the obstruction to such a reduction. Intermediate state, memory or a stochastic closure may then be needed; none is universally a unique physical mesocosm. Renormalization concerns explicit transformations of models and parameters \cite{tongrg}, not simply repeated use of a three-term vocabulary.
+
+\section{Model layers and their physical scope}
+The models have different state spaces and should be assessed on their own observables. Their relationship is summarized below; a shared balance vocabulary is not a state-space isomorphism.
+\begin{longtable}{p{.16\textwidth}p{.25\textwidth}p{.26\textwidth}p{.22\textwidth}}
+\caption{Model layers and what is established for each.}\label{tab:triads}\\
+\toprule Layer & State and input & Established result & Scope boundary\\\midrule\endfirsthead
+\toprule Layer & State and input & Established result & Scope boundary\\\midrule\endhead
+Scalar & Positive balance ratio & Exact logistic basin under its assigned ODE & No full-state or PDE theorem\\
+Hierarchy & Explicit coupled local maps & Convergence on an invariant contraction domain & Frozen inputs and stated norm\\
+Finite event & $\Xi=(K,\rho_F,\rho_W,Y,P)$ & Finite completion, budgets and boundary convergence & Exact finite autonomous law\\
+Geometry & Four spectral modes and added metric & Conditional curved causal domains & No uniquely selected physical spacetime\\
+RC network & Three voltages, component values and currents & Energy law, memory, observability and forced stability & Specified lumped physical approximation\\
+Event readout & RC common mode and threshold clock & Exact one-mode recursion and energy readout & Clock designed from the recursion\\
+\bottomrule\end{longtable}
+Biological and cognitive interpretations require additional carriers, observables and experiments. No result below infers life or subjective experience from a matrix spectrum, simulator status label or capacitor voltage. The functional/phenomenal distinction remains separate \cite{pereira}.
+
+\section{Thermodynamics physical bridges and falsification}
+Nonequilibrium organization is compatible with sustained throughput and dissipation; it need not be static equilibrium \cite{prigogine}. Nevertheless $\Phi\approx1$ is not a thermodynamic entropy balance. A concrete realization needs a state-to-observable map $\mathcal O$, calibrated units, a preparation protocol, a measurement error model and equations for energy/matter exchange. If entropy production is claimed, the entropy and reservoir accounting must be specified. Shannon information \cite{shannon} is a statistical measure and does not identify semantic meaning or a thermodynamic entropy without additional assumptions.
+
+\begin{longtable}{p{.17\textwidth}p{.33\textwidth}p{.39\textwidth}}
+\caption{Physical bridge register and prospective rejection conditions.}\label{tab:bridges}\\
+\toprule Bridge & Additional requirement & Rejection or unresolved criterion\\\midrule\endfirsthead
+\toprule Bridge & Additional requirement & Rejection or unresolved criterion\\\midrule\endhead
+B1 balance & Independent definitions of expansion, binding, $I,I_0$ and units & Reject a specified predicted relation outside frozen error limits; fitting the ratio after observing the result is not a test.\\
+B2 information & Probability distribution, resolution, density convention and measurement & Reject claimed predictive advantage over matched information measures on untouched data.\\
+B3 mediator & Manipulable carrier and pole observables; memory-matched rivals & If a direct matched-history model predicts all interventions equally, specific mediator identification remains unsupported.\\
+B4 biology & Fluxes, regeneration, boundary integrity, division and viability outcomes & Require prospective perturbation and held-out recovery comparisons; an abstract invariant set alone does not establish life.\\
+B5 geometry & Physical events, clocks, lengths, matter coupling, field dynamics & Lorentz signature or nonzero curvature alone leaves these O; test calibrated observables before claiming spacetime.\\
+B6 cognition & Independently defined cognitive target and validated observables & Passing simulator gates is not evidence of experience; no sufficient consciousness bridge established.\\
+B7 universality & Frozen role maps, transfer protocol and complexity-matched nulls & Failed no-retuning transfer restricts the proposed shared structure; it need not refute unrelated abstract theorems.\\
+\bottomrule
+\end{longtable}
+Specific statistical thresholds, effect sizes, sample sizes and stopping rules depend on the realization; none is invented here as a universal standard. A falsifiable study should freeze training/validation/test separation, nuisance controls, parameter budgets, uncertainty estimation and primary comparisons before test access. Failure of a bridge is evidence about that bridge. Conversely proof of a theorem about matrices does not test the bridge. Established pattern-formation work \cite{turing} demonstrates why actual reaction, diffusion and stability mechanisms must be supplied rather than inferred from triadic labels.
+
+Physical spacetime or field-theory identifications additionally require their own events, clocks, lengths, matter couplings and dynamics; the geometric completion alone supplies none of these.
+
+\section{Contribution and relationship to established results}
+The new model-specific content is concentrated in the full finite event: the architecture of selection, analysis, transport and seeding and the global results in Section~26. The finite-completion and convergence statements are consequences of that exact architecture, rather than a general law of every recursive system. The metric alternatives in Section~27 identify which geometric conclusions are not forced by the update. Priority over every related construction has not been established.
+
+The logistic solution, Jordan criterion, Lyapunov series, contraction theorem, observability quotient, lumpability criterion, moment inversion, RC passivity and classical thermal equilibrium are established results or direct applications of established methods. They are included to make the scope and proof dependencies explicit, with their mathematical sources cited. The term spectral novelty in Theorem~\ref{novelty} means a changed eigenvalue multiset; it is not a priority claim.
+
+The physical contribution is the correspondence analysis, not new circuit physics: a fixed-clock calibration obstruction, an exact designed-clock realization of the one-mode event, and an energy test that correctly distinguishes deterministic response from bath-driven fluctuations. A successful detector implementation would test the specified construction. Independent evidence for a physical BFG law would require a readout and clock justified without building the desired recursion into them, plus a distinguishing prediction on new data.
+
+\section{Computational controls and their evidential scope}
+The retained finite-event records include 512 random consolidation cases, 128 commuting controls and 128 ambient-support controls; maximum recorded polar/Schur relative residual was $5.58\times10^{-15}$ and trace residual $1.46\times10^{-13}$. The separate \texttt{verify.py} records eleven groups, including 100 polar/Schur and 100 unitary-covariance cases. Its corresponding maxima were $2.26\times10^{-15}$ and $2.16\times10^{-14}$. Original repository logs record 138 root and 174 Fundamental Closure tests. These are prior executions, not newly run laboratory evidence.
+
+The independently implemented \texttt{extended\_controls.py} records 120 ambient-event cases, 40 cases of 14 steps at 90-digit precision, nine exact rational cases and seed rejection controls. The full-support SVD/Schur comparison had maximum Frobenius residual $1.247\times10^{-15}$. Exact curvature replay and a separate 70-digit coordinate calculation agree as described in Section~17. These controls support implementations, while the written proofs carry the universal quantifiers.
+
+For this revision the physical controls are rerun, and \texttt{review\_controls.py} adds DC and finite-window AC power checks, exact event-clock readout and accuracy checks, symbolic stochastic-generator identities, and an independent stationary OU covariance calculation of residual variance. Results and scripts are embedded in the computational supplement. No circuit parameter was fitted to experimental data. A finite numerical sample, a programmed status gate or a small floating residual is not an empirical confirmation or an infinite-time stability proof. The revised derivations and stated domains were checked again after correction; this internal review is not external peer review or proof-assistant certification.
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=\textwidth]{figure3_dependencies.pdf}
+\caption{Schematic dependencies among declared model layers. Arrows require explicit assumptions and do not assert that one physical law has been derived from all layers. The complete event and physical correspondence arguments are given in Sections~26 and 30--36.}\label{fig:dep}
+\end{figure}
+
+\section{Interpretation of the persistence results}
+Persistence has several distinct meanings in this preprint. The corridor model preserves pole separation inside a specified interval; a power-bounded matrix preserves bounded trajectories; the finite event permits exact continuation while its load spectrum approaches a terminal boundary. None of these properties implies the others without an additional correspondence. Section~26 proves the strongest complete classification for the finite event itself. The physical sections subsequently ask which observable and clock could represent that classification.
+
+\section{Predictive content and the minimum mediator state}
+An independent mediator is scientifically meaningful when it carries information needed for prediction. Counting three named roles is insufficient. The fiber test of Theorem~\ref{memory} gives exact deterministic reducibility; the following results quantify what is lost and identify the minimum retained linear state. These are applications of established observability and aggregation theory \cite{kalman,buchholz}, not claims that BFG originated those theories.
+
+\begin{proposition}[A prediction error obstruction]\label{fibererror}
+Let $H(p,m)$ be the next pole state in a normed vector space. For a fixed observed pole $p$, define
+\begin{equation}
+\Delta(p)=\sup_{m_1,m_2}\|H(p,m_1)-H(p,m_2)\|.
+\end{equation}
+Every deterministic pole-only predictor $g$ with uniform error at most $\epsilon$ on that fiber satisfies $\Delta(p)\leq2\epsilon$. For two measured successors $z_i=H(p,m_i)+e_i$ with $\|e_i\|\leq\sigma$, this implies
+\begin{equation}
+\epsilon\geq\max\{0,\tfrac12\|z_1-z_2\|-\sigma\}.
+\end{equation}
+\end{proposition}
+\begin{proof}
+Insert $g(p)$ between the two true successors and use the triangle inequality. Taking the supremum gives the first assertion. The observed distance is at most the true distance plus $2\sigma$, giving the second. For two real successors $-b,b$, the constant predictor zero attains error $|b|=\Delta/2$, so the factor cannot be improved generally.
+\end{proof}
+This tests missing predictive state at matched poles and inputs. It does not identify the missing carrier uniquely as a neutral mediator, distinguish an omitted nuisance variable without controls, or establish phenomenal experience. A non-Markov history model may encode the same information.
+
+\begin{theorem}[Minimum retained linear mediator information]\label{observability}
+Consider real finite-dimensional dynamics
+\begin{equation}
+p_+=A_0p+B_0m,\qquad m_+=C_0m+D_0p,\qquad m\in\R^r.
+\end{equation}
+Define
+\begin{equation}
+\mathcal O=\begin{pmatrix}B_0\\B_0C_0\\\vdots\\B_0C_0^{r-1}\end{pmatrix},\qquad
+\mathcal N=\ker\mathcal O.
+\end{equation}
+Two initial mediators with the same initial pole give identical future pole histories iff their difference lies in $\mathcal N$. The quotient mediator $m+\mathcal N$ gives an exact closed linear realization with $\rank\mathcal O$ retained hidden coordinates. No realization obtained by a linear compression $Tm$, keeping the same poles and reproducing all their histories for all initial states, can use fewer hidden coordinates.
+\end{theorem}
+\begin{proof}
+If the pole histories agree through a given step, the difference in mediator inputs $D_0p$ vanishes up to that step; the mediator difference is therefore $C_0^j h$, where $h$ is the initial difference. Its effect on the next pole is $B_0C_0^jh$. Induction proves equivalence between identical histories and the vanishing of all these quantities. Cayley--Hamilton expresses every power $C_0^j$, $j\geq r$, in the span of the first $r$ powers, so the displayed finite matrix suffices.
+
+The same identity shows $C_0\mathcal N\subseteq\mathcal N$, and $B_0\mathcal N=0$. Thus $C_0$ descends to the quotient, $B_0$ factors through it, and $D_0p$ can be projected into it. These maps define the stated exact quotient dynamics. Its dimension is $r-\dim\mathcal N=\rank\mathcal O$. If $Th=0$, two states differing by $h$ have the same compressed initial state. Exact reproduction of all histories requires $h\in\mathcal N$. Hence $\ker T\subseteq\mathcal N$, and rank--nullity gives $\rank T\geq\rank\mathcal O$.
+\end{proof}
+For $B_0=(1,1,0)$ and $C_0=\diag(1/2,1/3,1/4)$, $\rank\mathcal O=2$: two hidden coordinates are needed even though the mediator is assigned a single role, while the third coordinate is invisible to the poles. The result concerns linear hidden-state compression with fixed observed poles. It makes no assertion of minimality among arbitrary nonlinear encodings or restricted initial-state populations.
+
+\begin{proposition}[The stochastic reduction criterion]\label{lumping}
+Let $T$ be a finite row-stochastic transition matrix and $\{C_i\}$ a partition of its states. A single time-homogeneous Markov chain on the block labels reproduces the projected chain for every initial distribution iff
+\begin{equation}
+\sum_{v\in C_j}T_{uv}\quad\text{is independent of }u\in C_i
+\quad\text{for every }i,j.
+\end{equation}
+\end{proposition}
+\begin{proof}
+Necessity follows by comparing initial point masses at two states in the same block. For sufficiency define $\bar T_{ij}$ to be the common block sum. Given any past projected history, condition further on the current microscopic state. Each compatible state gives the same probability $\bar T_{ij}$ for the next block. Averaging removes the microscopic conditioning and proves the Markov transition rule.
+\end{proof}
+This is the standard strong lumpability criterion \cite{buchholz}. Failure excludes a universal first-order block Markov description; it does not exclude special-distribution reductions, history-dependent predictors or approximate aggregation. Mediation irreducibility must always specify which of these equivalences is demanded.
+
+\section{The global fate of the closed finite kernel}
+The full event of Section~12 has substantially stronger long-time consequences than the existence of the four-mode family alone. This section applies to that exact autonomous event: fixed selector threshold, ambient analysis, the stated single-mode seed and no externally injected load, carrier expansion or event-wise rescaling. It does not cover every model bearing the BFG name. Dimensions and ranks are exact mathematical ranks throughout.
+
+\begin{lemma}[Selection becomes lossless after the first success]\label{losslessafter}
+After every successful event, $0<Y<\Id$ and both successor densities are supported in $P$, with nonzero formation. At every subsequent nonterminal input, $Q=\Id$, $T_s=P$, $P_s=P$, $m_s=1$, and both loads are strictly positive. Failure at such an input can occur only at a seed gate.
+\end{lemma}
+\begin{proof}
+The strict spectral bound follows from Theorem~\ref{ambient}. The inherited densities have support in $S_4^+$, and any seed has support in its orthogonal complement inside $P_+$. This proves the support claim. Since $Q=\Id$, the polar partial isometry of $QP=P$ is $P$ itself. Density support then gives $m_s=\tr\rho_W=1$, and selection leaves both densities unchanged.
+
+On a frame $Z$ for $P$, $D=Z^*(\Id+Y)Z$ and $H=Z^*YZ$ are positive definite. The compressed channel actions on $\Ran P$ are $D^{-1}$ and $D^{-1}H$, both injective. Since $\rho_F$ is nonzero and supported there, neither channel can annihilate its square root. Their squared weighted Hilbert--Schmidt loads are consequently strictly positive. The remaining possible failure in the defined successful branch is the seed test.
+\end{proof}
+
+\begin{theorem}[Finite completion or finite absorption]\label{finitecompletion}
+For a post-success input write $n=\dim\mathcal H$, $p=\rank P$ and $d=n-p$. The next ambient dimension is
+\begin{equation}
+n_+=r=\dim(\Ran P+Y\Ran P)=p+q,\qquad
+q=\rank((\Id-P)YP)\leq\min(p,d).
+\end{equation}
+If $q=0$, the event succeeds without a seed and has $n_+=p_+=p$, so persistence is full. If $q>0$, it either terminates at the seed test or succeeds with $p_+=p+1$ and
+\begin{equation}
+d_+=q-1\leq d-1.
+\end{equation}
+Thus every trajectory starting in dimension $n_0\geq1$ either terminates within its first $n_0$ event attempts or reaches a full-persistence state within those attempts and then succeeds at every finite time. No successful trajectory can sustain a positive persistence defect indefinitely.
+\end{theorem}
+\begin{proof}
+The channel identities in Theorem~\ref{ambient} show that the range of $A^*$ is exactly the sum of $\Ran P$ and $Y\Ran P$. Projecting the latter onto $\Ran P^\perp$ gives its additional dimension $q$ and the displayed bounds. Lossless R4 transports an inherited persistence space of rank $p$, so its emergent complement has dimension $r-p=q$. If $q=0$, that complement is zero. Otherwise the prescribed successful seed adds exactly one orthogonal rank-one projector; its failure is terminal. This proves the dimension and defect formulas.
+
+After the first success let the dimensions be $n_1,p_1$ and $d_1=n_1-p_1$. Every further successful step with positive defect lowers it by at least one, unless it already reaches defect zero by dimension reduction. Therefore at most $d_1$ further attempts either fail or reach full persistence. Since $p_1\geq1$ and $n_1\leq n_0$, $1+d_1\leq n_0$. At full persistence, positive definite $Y<\Id$ makes $A$ injective, $r=n$ and the emergent complement zero. The loads remain positive by Lemma~\ref{losslessafter}, so induction gives success at every finite subsequent time.
+\end{proof}
+The theorem gives a finite exact certificate for infinite nonterminal continuation; it does not say every initial state passes the prefix. For example, $K\succeq0$ and a nonempty emergent complement fail the negative-ground-mode seed requirement. Degenerate negative ground spaces can also fail. A floating rank cutoff is not the exact certificate.
+
+\begin{corollary}[Bounded formation and one-time witness loss]\label{finitebudget}
+Across all successful events there are at most $n_0-1$ seeds. The spectral norm of $K$ never exceeds its initial norm, and
+\begin{equation}
+0<\tr\rho_{F,k}\leq\tr\rho_{F,0}+(n_0-1)\|K_0\|.
+\end{equation}
+For every nonterminal $k\geq1$, historical witness survival is $w_k=m_{s,0}$. After full persistence, both densities are constant in a compatible common gauge and no further formation seeds occur.
+\end{corollary}
+\begin{proof}
+Every kernel update compresses $K\oplus K$ by an isometry, so $\|K_+\|\leq\|K\|$. A seed has trace $-\lambda_0^E\leq\|K_+\|\leq\|K_0\|$. If the first successful event has selected rank $s\geq1$ and seed indicator $e\in\{0,1\}$, then $p_1=s+e$. The number of later seeds is at most $d_1$, since each lowers positive defect. The total is at most $e+d_1=n_1-s\leq n_0-1$. Formation accounting and nonnegative selection loss give the trace bound. Lemma~\ref{losslessafter} makes every later selection mass one; Theorem~\ref{ambient} also makes every R4 mass one. The witness product thus stops changing after the first selection. Full persistence has no emergent complement, and its transport can be represented as the identity on the ambient carrier, proving the density assertion.
+\end{proof}
+
+\begin{theorem}[Uniform collapse of the positive load spectrum]\label{globalcollapse}
+Start at full persistence with arbitrary finite dimension, $0<Y_0<\Id$, nonzero $\rho_F\succeq0$, normalized $\rho_W\succeq0$, and Hermitian $K_0$. In one fixed initial eigenbasis of $Y_0$, the densities remain constant, $Y_k=\diag(y_{1,k},\ldots,y_{n,k})$, and
+\begin{equation}\label{generalF}
+y_{i,k+1}=\frac{a_k+(1-a_k)y_{i,k}^2}{(1+y_{i,k})^2},\qquad
+a_k=\frac{\sum_i f_i y_{i,k}^2/(1+y_{i,k})}{\sum_i f_i(1+y_{i,k}^2)/(1+y_{i,k})},
+\end{equation}
+where $f_i=(\rho_F)_{ii}\geq0$ and $\sum_i f_i>0$. Every coordinate remains strictly positive at every finite time. For $M_k=\max_i y_{i,k}$,
+\begin{equation}\label{collapsebound}
+M_{k+1}\leq\frac{2M_k^2}{1+M_k^2}<M_k,\qquad M_1<\tfrac12,
+\qquad M_k\leq\tfrac12(\tfrac45)^{2^{k-2}}\quad(k\geq2).
+\end{equation}
+In particular $Y_k\to0$ in operator norm. No positive full-persistence load equilibrium or nonterminal periodic orbit exists.
+\end{theorem}
+\begin{proof}
+With $P=\Id$, both channels are functions of $Y$. In a fixed eigenbasis the ambient Gram is diagonal, so the full event can be represented without sorting by the displayed scalar updates; R4 is the identity in this compatible gauge. Taking traces against $\rho_F$ uses only its nonnegative diagonal entries and gives $a_k$. The ratio is a weighted mean of $y_i^2/(1+y_i^2)$ with weights $f_i(1+y_i^2)/(1+y_i)$. Hence
+\begin{equation}
+0<a_k\leq\frac{M_k^2}{1+M_k^2}<\tfrac12.
+\end{equation}
+For $0<u\leq M_k<1$, dropping the denominator $(1+u)^2\geq1$ and using monotonicity of $a+(1-a)M_k^2$ in $a$ gives
+\begin{equation}
+\frac{a_k+(1-a_k)u^2}{(1+u)^2}
+\leq a_k+(1-a_k)M_k^2
+\leq\frac{2M_k^2}{1+M_k^2}.
+\end{equation}
+The last bound is strictly less than $M_k$ because $(1-M_k)^2>0$. Positivity follows from $a_k>0$. Moreover
+\begin{equation}
+2a_k+2(1-a_k)u^2-(1+u)^2
+=(2a_k-1)(1-u^2)-2u<0,
+\end{equation}
+so every successor coordinate is less than $1/2$. Consequently $M_2<2(1/2)^2/(1+(1/2)^2)=2/5$. Finally $M_{k+1}\leq2M_k^2$, so $2M_{k+1}\leq(2M_k)^2$. Iteration from $2M_2<4/5$ gives the uniform bound. Strict decrease excludes an equilibrium or periodic cycle with positive load; convergence follows directly from the bound.
+\end{proof}
+The statement allows singular formation densities: modes with zero formation weight remain subject to the same maximum bound. It does not require isotropic densities or $K=0$, and therefore extends well beyond the earlier four-mode example. The uniform bound concerns normalized internal load, not a physical energy decay law.
+
+\begin{theorem}[Convergence of every infinite successful finite trajectory]\label{fullconvergence}
+Every infinite successful trajectory of the closed finite event has, after its finite completion prefix, a compatible fixed-carrier representation in which
+\begin{equation}
+\Xi_k\longrightarrow(K_\infty,\rho_F,\rho_W,0,\Id).
+\end{equation}
+The kernel converges in Frobenius norm. Its diagonal entries and trace are preserved after completion, and its Frobenius norm is nonincreasing there. The limit fails the strict positive $\Lambda_B$ gate and is terminal if used as an input to the original event. There is no claim of convergence to a nonterminal interior equilibrium.
+\end{theorem}
+\begin{proof}
+Finite completion is Theorem~\ref{finitecompletion}, and load collapse is Theorem~\ref{globalcollapse}. In the fixed diagonal load basis the polar compression has the Schur form
+\begin{equation}
+(K_{k+1})_{ij}=c_{ij,k}(K_k)_{ij},\qquad
+c_{ij,k}=\frac{a_k+(1-a_k)y_{i,k}y_{j,k}}
+{\sqrt{(a_k+(1-a_k)y_{i,k}^2)(a_k+(1-a_k)y_{j,k}^2)}}.
+\end{equation}
+Theorem~\ref{novelty} gives $0<c_{ij,k}\leq1$ and $c_{ii,k}=1$. For each fixed entry, the scalar products $\prod_{\ell=0}^{k-1}c_{ij,\ell}$ are nonnegative, nonincreasing and bounded below; they converge. Multiplication by the fixed initial complex entry gives entrywise convergence and hence Frobenius convergence in finite dimension. The diagonal, trace and norm assertions follow from these same factors. The densities are constant after completion by Corollary~\ref{finitebudget}. At $Y=0$, $B_N=0$ and $\Lambda_B=0$, so the stated gate is terminal.
+\end{proof}
+Off-diagonal entries need not all vanish; the argument proves convergence of their products without imposing a uniform pinching gap. An infinite succession of admissible events may thus converge to a state at which the next event would fail. Exact continuation and uniform distance from terminal boundaries are different properties.
+
+\begin{figure}[H]\centering
+\includegraphics[width=\textwidth]{figure4_longtime.pdf}
+\caption{Independent controls of the actual ambient event and its full-persistence reduction. Left: persistence defects along five computed successful prefixes, with initial carrier dimension $n$ and persistence rank $p$. Right: $-\log_{10}M_k$ on a logarithmic vertical scale for four 90-digit calculations. The loads remain positive; the plot does not equate small magnitude or floating underflow with exact termination. Code and seeds are in \texttt{extended\_controls.py}.}\label{fig:longtime}
+\end{figure}
+
+\begin{corollary}[Limits on sustained renewal and uniform geometric margins]\label{renewallimit}
+The closed finite event cannot produce infinitely many formation seeds, unbounded carrier dimension, or an infinite successful orbit with $\|Y_k\|$ bounded away from zero. In its four-mode moment chart the absolute Jacobian determinant tends to zero along every infinite successful orbit confined to that chart. Persistent renewal or a uniform positive load floor therefore requires a changed or externally driven model.
+\end{corollary}
+\begin{proof}
+The first three assertions follow from finite completion, the seed bound and load collapse. On the ordered four-mode chamber, every pairwise spectral gap is at most $M_k$, so $0<\det DR\leq24M_k^6\to0$. No fixed positive lower bound on that determinant can hold. If the orbit leaves the chamber, the chart's assumptions have already failed.
+\end{proof}
+This does not contradict the finite-horizon curved causal theorem. That theorem permits a different neighborhood for each finite horizon. Nor does small load by itself prove a large relative condition number: it proves loss of an absolute positive spectral margin. New forcing, renormalization or seed rules must be stated as new constitutive assumptions and retested rather than silently inserted into the closed event.
+
+\section{Geometric nonuniqueness and finite robustness}
+The exact curvature certificate establishes a property of one defined metric. To assess whether that metric is forced by the operator dynamics, one must compare alternative completions with the same input data. Causal structure and conformal geometry are standard distinct levels of specification \cite{tonggr,minguzzi}.
+
+\begin{proposition}[The metric is not selected by direction and signature]\label{metricnonunique}
+At any readout point with $v\ne0$, each constant $\lambda>1$ defines
+\begin{equation}
+g_\lambda=\delta-\lambda\frac{vv^T}{v^Tv}.
+\end{equation}
+All these metrics have Lorentz signature and make $v$ timelike with the same possible time orientation. They are covariant under orthogonal changes of the fixed Euclidean readout frame. For distinct $\lambda$ they have different null cones in those fixed coordinates and are not related by a positive scalar multiple at that point. Direction, signature and this covariance therefore do not uniquely select the coefficient $2$.
+\end{proposition}
+\begin{proof}
+On $\operatorname{span}v$ the eigenvalue is $1-\lambda<0$; on $v^\perp$ it is $1$. For $w=av+b$ with $b\perp v$,
+\begin{equation}
+g_\lambda(w,w)=(1-\lambda)a^2\|v\|^2+\|b\|^2.
+\end{equation}
+The null opening depends on $\sqrt{\lambda-1}$. A positive conformal multiple identifying two such matrices must have factor one on $v^\perp$ and hence must have the same $\lambda$ on $v$. Orthogonal covariance follows by transforming $v$ and $\delta$ together.
+\end{proof}
+
+\begin{proposition}[The same cones do not fix curvature]\label{conformalnonunique}
+For any smooth positive $\Omega$, $\widetilde g=\Omega^2g$ has the same causal and timelike tangent directions as $g$. A given temporal function remains temporal, with the same chosen time orientation. Nevertheless curvature need not agree. In four-dimensional coordinates $x^0,x^1,x^2,x^3$, let $\eta=\diag(-1,1,1,1)$ and $\widetilde g=e^{2ax^1}\eta$. For $a\ne0$ this metric is nonflat despite having the same cones as flat $\eta$.
+\end{proposition}
+\begin{proof}
+Positive multiplication preserves all signs of $g(w,w)$, while the inverse metric scales by $\Omega^{-2}$ and therefore preserves the timelike sign of a temporal differential. For $\omega=\log\Omega$, differentiation of the metric in the Levi--Civita formula gives
+\begin{equation}
+\widetilde\Gamma^a_{bc}-\Gamma^a_{bc}
+=\delta^a_b\partial_c\omega+\delta^a_c\partial_b\omega-g_{bc}g^{ad}\partial_d\omega.
+\end{equation}
+In the example $\Gamma=0$ and only $\partial_1\omega=a$ is nonzero, so the connection coefficients are constant. In the convention of Section~17,
+\begin{equation}
+\widetilde{\mathcal R}^{0}{}_{202}
+=\sum_e\bigl(\widetilde\Gamma^0_{0e}\widetilde\Gamma^e_{22}
+-\widetilde\Gamma^0_{2e}\widetilde\Gamma^e_{02}\bigr)=-a^2\ne0.
+\end{equation}
+This supplies the explicit nonflat metric with unchanged cones.
+\end{proof}
+The example establishes underdetermination, not a preferred replacement for the BFG metric. A unique physical geometry requires additional data fixing its cone opening, conformal scale, clock/length calibration and matter coupling. The original reflection metric remains a valid declared construction and its certificate remains valid under its own conventions.
+
+\begin{proposition}[Local regularity of a fixed event branch]\label{branchregular}
+Restrict admissible inputs to a local coordinate neighborhood on a constant-rank stratum. Assume separation of the selector spectrum from $1$, fixed ranks of $QP$ and $A$, positive selection mass and both loads, and, when a seed is needed, a simple strictly negative ground eigenvalue separated from the remaining emergent spectrum. Then the successful event has a locally smooth representation in compatible input and output frames. On a sufficiently small closed coordinate box inside that branch, its first derivative is bounded and it is Lipschitz.
+\end{proposition}
+\begin{proof}
+A gapped spectral projector $Q$ is smooth: locally it is a contour integral of the resolvent around its separated spectrum. A constant-rank matrix has locally smooth frames for its range, obtained by orthonormalizing independent columns. In those frames its positive Gram block is positive definite, so its inverse square root, and hence its polar partial isometry, depend smoothly on the entries. The same argument constructs $T_s$ and $P_s$. All inverses of $D$ and $\Id+Y$, load ratios and positive square roots of the weights are smooth under the displayed strict assumptions.
+
+Repeated positive singular values need not be individually diagonalized. Choose a smooth frame $V$ for $\Ran A^*$, set $H=V^*A^*AV>0$ and $J=AVH^{-1/2}$. Then $J^*J=\Id$, and $Y_+=H$, $K_+=J^*(K\oplus K)J$ give a smooth output representative equivalent to the reduced-SVD representative. R4 and its support projectors are smooth by the preceding polar argument. In a smooth frame for the emergent complement, the simple isolated seed eigenprojector is another gapped resolvent projector; its eigenvalue and seed are smooth. This proves the claimed representation. On a small convex coordinate box with closure in the branch, continuity bounds its derivative; integrating the derivative along each segment proves the Lipschitz estimate.
+\end{proof}
+The fixed-rank qualification is material. An arbitrarily small perturbation can turn an exact zero singular value into a positive one, changing successor dimension. The proposition supplies no stability under such changes and no uniform-in-time margin as $Y\to0$.
+
+For a finite sequence of such coordinate boxes let $L_j$ bound the corresponding event derivatives, and let $\eta_j$ bound additive implementation error in their coordinates. As long as exact and perturbed iterates stay in those boxes,
+\begin{equation}\label{errorprop}
+e_N\leq\left(\prod_{j=0}^{N-1}L_j\right)e_0+
+\sum_{j=0}^{N-1}\left(\prod_{i=j+1}^{N-1}L_i\right)\eta_j.
+\end{equation}
+The formula follows by induction from $e_{j+1}\leq L_je_j+\eta_j$, with empty products equal to one. For a fixed finite exact trajectory lying strictly inside the boxes, sufficiently small compatible perturbations remain there by finite continuity and the positive boundary margins. This is a finite-horizon estimate, not an infinite-horizon numerical certificate.
+
+\section{Operational requirements for a physical test}
+A mediation test must specify observed poles, known inputs and independently varied mediator preparation, and compare a memoryless pole predictor with memory-matched alternatives. Proposition~\ref{fibererror} gives the resulting prediction-error lower bound; it does not uniquely identify the missing physical carrier.
+
+For a closed-event load test the readout, selector, densities and clock must be fixed in advance. Reset the event index to $k=0$ when full persistence is established. An absolute-error-bounded measured maximum must then obey
+\begin{equation}
+\widehat M_k\leq\tfrac12(\tfrac45)^{2^{k-2}}+\epsilon_k\qquad(k\geq2).
+\end{equation}
+Violation rejects that specified model/readout/error combination. Section~33 distinguishes a fixed-clock obstruction from a designed variable-clock realization. Section~36 states separate deterministic and stochastic energy tests, so bath fluctuations are not misclassified as a failure of a noiseless law.
+
+Physical spacetime identification requires additional clock, length and matter observables that select among the metric alternatives in Section~27. The lumped RC system supplies laboratory time and node voltages, not those spacetime data.
+
+\section{Transition from the finite event to physical correspondence}
+The mathematical event has now been fully specified and classified: an initial finite prefix ends in absorption or full persistence; any infinite continuation has vanishing positive loads, bounded formation and a convergent kernel. A physical interpretation must additionally identify its state variables and event clock. The following sections make that question concrete using conventional RC dynamics. They distinguish predictive mediator necessity, an excluded fixed-clock load identification, and a restricted designed-clock realization with an explicit energy readout.
+
+\section{A physical realization with measurable circuit variables}
+The physical application is a lumped, linear, passive three-node resistor--capacitor network. Its two terminal voltages are the pole variables and the intermediate capacitor voltage is the mediator. This choice supplies an operational carrier for predictive mediation and energy balance. It does not identify the circuit law with the autonomous finite BFG event by terminology alone. Kirchhoff circuit models and their lumped-element limitations are standard \cite{mitcircuits}; dissipative physical networks have an established energy-based treatment \cite{schaft}. The circuit results below are derived explicitly so that this application can be assessed independently of any BFG interpretation.
+
+Let $x=(v_1,v_m,v_2)^T$ be node voltages relative to a common reference, measured in volts. Each node has a positive capacitance $c_1,c_m,c_2$ to ground. Terminal-to-mediator conductances are $g_1,g_2>0$; ground conductances are $h_1,h_m,h_2\geq0$, with $h_1+h_m+h_2>0$. The externally imposed node currents are $u=(u_1,u_m,u_2)^T$, positive into a node. Define
+\begin{equation}\label{rcmatrices}
+\mathsf C=\diag(c_1,c_m,c_2),\qquad
+\mathsf L=\begin{pmatrix}h_1+g_1&-g_1&0\\-g_1&h_m+g_1+g_2&-g_2\\0&-g_2&h_2+g_2\end{pmatrix}.
+\end{equation}
+The model and directly measurable energy and power are
+\begin{equation}\label{rclaw}
+\mathsf C\dot x=-\mathsf Lx+u,\qquad
+\mathcal E=\tfrac12x^T\mathsf Cx,\quad
+\mathcal P_{\rm loss}=x^T\mathsf Lx,\quad
+\mathcal P_{\rm in}=x^Tu.
+\end{equation}
+Capacitance is in farads, conductance in siemens, time in seconds, current in amperes, $\mathcal E$ in joules, and both powers in watts; these are coherent SI quantities \cite{nistsi}. In particular $\mathsf C\dot x$ and $\mathsf Lx$ both have current units. The diagonal matrix $\mathsf C$ is not the abstract neutral response $C_N$, and $\mathsf L$ is not the earlier Lyapunov metric.
+
+\begin{theorem}[Circuit well-posedness and passive decay]\label{rcpassive}
+For locally integrable $u$ and every initial $x(0)$ there is a unique global absolutely continuous solution of \eqref{rclaw}. The matrix $\mathsf L$ is positive definite. Set
+\begin{equation}\label{rcdecayrate}
+\mathsf H=\mathsf C^{-1/2}\mathsf L\mathsf C^{-1/2},\qquad
+\gamma=\lambda_{\min}(\mathsf H)>0.
+\end{equation}
+Then $\dot{\mathcal E}=\mathcal P_{\rm in}-\mathcal P_{\rm loss}$ almost everywhere. For $u=0$,
+\begin{equation}\label{rcpassivebound}
+\mathcal E(t)\leq e^{-2\gamma t}\mathcal E(0).
+\end{equation}
+\end{theorem}
+\begin{proof}
+For real $z$, direct multiplication gives
+\begin{equation}\label{rclaplacian}
+z^T\mathsf Lz=h_1z_1^2+h_mz_m^2+h_2z_2^2+g_1(z_1-z_m)^2+g_2(z_2-z_m)^2.
+\end{equation}
+Zero requires all three coordinates equal and their common value zero at a grounded node, hence $z=0$. The explicit variation-of-constants formula for $\dot x=-\mathsf C^{-1}\mathsf Lx+\mathsf C^{-1}u$ proves existence and uniqueness. Differentiating the energy yields the power identity. Writing $z=\mathsf C^{1/2}x$ gives $\mathcal P_{\rm loss}=z^T\mathsf Hz\geq2\gamma\mathcal E$, and integration proves the bound.
+\end{proof}
+A reference node without any conductive leakage ($h_1=h_m=h_2=0$) instead leaves a conserved common-voltage mode and a zero eigenvalue. This different boundary condition does not satisfy the theorem's strict-decay premise. Grounding, probe leakage, capacitance parasitics and source impedance must therefore be part of the specified circuit, rather than absorbed into a claim of universal decay.
+
+\section{Exact physical mediation and the cost of eliminating a state}
+Order the observable poles as $p=(v_1,v_2)^T$ and write $m=v_m$. In these coordinates \eqref{rclaw} is
+\begin{equation}\label{rcblock}
+\dot p=-\mathsf A p+b m+f,\qquad
+\dot m=-d m+e^Tp+w,
+\end{equation}
+where
+\begin{equation}\label{rcblocks}
+\begin{gathered}
+\mathsf A=\diag((h_1+g_1)/c_1,(h_2+g_2)/c_2),\quad b=(g_1/c_1,g_2/c_2)^T,\\
+e=(g_1/c_m,g_2/c_m)^T,\quad d=(h_m+g_1+g_2)/c_m,\\
+f=(u_1/c_1,u_2/c_2)^T,\qquad w=u_m/c_m.
+\end{gathered}
+\end{equation}
+All entries of $\mathsf A,b,e,d$ have inverse-time units. The known inputs $f,w$ are voltage rates.
+
+\begin{theorem}[Memory, identifiability of the mediator and intervention separation]\label{rcmemory}
+For arbitrary known inputs, eliminating the mediator exactly gives
+\begin{equation}\label{rcvolterra}
+\begin{split}
+\dot p(t)={}&-\mathsf A p(t)+b e^{-dt}m(0)+f(t)\\
+&+\int_0^t b e^{-d(t-s)}\big(e^Tp(s)+w(s)\big)\,ds.
+\end{split}
+\end{equation}
+There is no single-valued first-order pole-only law $\dot p=F(p,u,t)$ valid for every independently prepared $m(0)$. The three-state circuit is observable from both pole voltages. In ideal differentiable records the missing voltage is reconstructed by either terminal identity
+\begin{equation}\label{rcmreconstruct}
+m=\frac{c_1\dot v_1+(h_1+g_1)v_1-u_1}{g_1}
+ =\frac{c_2\dot v_2+(h_2+g_2)v_2-u_2}{g_2}.
+\end{equation}
+For two preparations with equal initial poles and equal subsequent currents, but mediator difference $\delta\ne0$, their pole difference satisfies
+\begin{equation}\label{rcintervention}
+\Delta p(t)=\delta\,\mathsf S e^{-\mathsf C^{-1}\mathsf L t}e_m,
+\qquad \Delta p(t)=\delta b t+O(t^2),
+\end{equation}
+where $\mathsf Sx=(v_1,v_2)^T$ and $e_m=(0,1,0)^T$.
+\end{theorem}
+\begin{proof}
+Solving the scalar mediator equation by an integrating factor and substituting into the pole equation gives \eqref{rcvolterra}. Equal poles and currents with different $m$ give different $\dot p$ because $b\ne0$, which contradicts the proposed common $F$. For observability, a state invisible in $\mathsf Sx$ must be $(0,m,0)^T$; its observed first derivative is $bm$, so the kernel of the stacked output and output-derivative matrices is zero. Rearranging the two terminal equations gives \eqref{rcmreconstruct}. Linearity gives \eqref{rcintervention}, and Taylor expansion gives the last assertion.
+\end{proof}
+The mediator can thus be removed from the written variables only by retaining memory, derivatives, or an equivalent additional state. This is predictive necessity relative to these observed poles, rather than a claim that every physical interaction needs exactly three entities. The observability argument is an explicit physical instance of Section~25, not a new general observability theorem \cite{kalman}. Equation~\eqref{rcvolterra} also supplies a simple exact example of memory generated by projection \cite{zwanzig}.
+
+\begin{proposition}[A controlled instantaneous approximation]\label{rcquasistatic}
+On an interval where $a(t)=e^Tp(t)+w(t)$ is absolutely continuous and $|\dot a|\leq M_a$, replace the mediator by $m_q(t)=a(t)/d$. Then
+\begin{equation}\label{rcmemoryerror}
+|m(t)-m_q(t)|\leq e^{-dt}|m(0)-m_q(0)|+\frac{M_a}{d^2}(1-e^{-dt}).
+\end{equation}
+The resulting error in the pole vector field at the same $p,t$ is at most $\|b\|$ times the right-hand side.
+\end{proposition}
+\begin{proof}
+The error $r=m-a/d$ solves $\dot r=-dr-\dot a/d$. Its integrating-factor formula and the derivative bound prove the assertion. The pole equation changes by $br$.
+\end{proof}
+This is a conditional approximation with an initial boundary layer. A small nominal mediator time constant alone is insufficient if the input derivative grows with $d$, or if the initial mediator mismatch is ignored. The estimate bounds a vector-field discrepancy along the full solution; a full reduced-trajectory error additionally follows by variation of constants or a finite-horizon Lipschitz estimate such as Section~27. Numerical differentiation in \eqref{rcmreconstruct} amplifies noise, so a calibrated state observer or a bandwidth-limited differentiation model is needed for experimental reconstruction.
+
+\section{Sustained activity and its required physical supply}
+\begin{theorem}[Forced stability and stationary dissipation]\label{rcforced}
+If $\|\mathsf C^{-1/2}u(t)\|\leq U$ almost everywhere, then
+\begin{equation}\label{rcinputbound}
+\|\mathsf C^{1/2}x(t)\|\leq e^{-\gamma t}\|\mathsf C^{1/2}x(0)\|+\frac{U}{\gamma}(1-e^{-\gamma t}).
+\end{equation}
+For constant input $u_0$ there is a unique equilibrium $x_*=\mathsf L^{-1}u_0$, and every solution converges to it exponentially in the $\mathsf C$ norm. If $u_0\ne0$, then
+\begin{equation}\label{rcsteady}
+\mathcal E_* =\tfrac12u_0^T\mathsf L^{-1}\mathsf C\mathsf L^{-1}u_0>0,
+\qquad \mathcal P_{{\rm in},*}=\mathcal P_{{\rm loss},*}=u_0^T\mathsf L^{-1}u_0>0.
+\end{equation}
+A continuous $T$-periodic input has a unique attracting $T$-periodic solution, whose average input power equals its average dissipation.
+\end{theorem}
+\begin{proof}
+In energy coordinates $z=\mathsf C^{1/2}x$, the equation is $\dot z=-\mathsf Hz+\mathsf C^{-1/2}u$. Since $\mathsf H$ is symmetric positive definite, $\|e^{-\mathsf Ht}\|\leq e^{-\gamma t}$. Variation of constants gives the inequality. Invertibility of $\mathsf L$ gives $x_*$, and the homogeneous error equation proves convergence. Substitution gives the stationary energy and power. For periodic input the period map has linear part $e^{-\mathsf HT}$ of norm below one; its unique fixed point supplies the periodic orbit and attracts every other orbit. Integrating the exact energy identity over a period gives equality of the two mean powers.
+\end{proof}
+For steady sinusoidal forcing $u(t)=\operatorname{Re}(\widehat u e^{i\omega t})$ with $\omega\ne0$, the response and its average loss over a whole number of periods are
+\begin{equation}\label{rcfrequency}
+\widehat x=(\mathsf L+i\omega\mathsf C)^{-1}\widehat u,
+\qquad \overline{\mathcal P}_{\rm loss}=\tfrac12\widehat x^*\mathsf L\widehat x.
+\end{equation}
+The inverse exists for every real $\omega$, including zero: the real part of $z^*(\mathsf L+i\omega\mathsf C)z=0$ forces $z^*\mathsf Lz=0$ and hence $z=0$. Invertibility at zero does not extend the oscillatory averaging factor $1/2$ to DC. For a real constant $u_0$ the steady loss is instead $u_0^T\mathsf L^{-1}u_0$, as in \eqref{rcsteady}.
+
+For a finite window $[0,T]$ containing the steady sinusoid, direct expansion of $x=(\widehat x e^{i\omega t}+\overline{\widehat x}e^{-i\omega t})/2$ gives the formula valid continuously through zero frequency:
+\begin{equation}\label{finitewindowpower}
+\overline{\mathcal P}_T=\tfrac12\widehat x^*\mathsf L\widehat x+
+\tfrac12\operatorname{Re}\!\left[\widehat x^T\mathsf L\widehat x\,e^{i\omega T}\operatorname{sinc}(\omega T)\right],
+\end{equation}
+where $\operatorname{sinc}(a)=\sin(a)/a$ for $a\ne0$ and $\operatorname{sinc}(0)=1$. At $\omega=0$ this equals $(\operatorname{Re}\widehat x)^T\mathsf L(\operatorname{Re}\widehat x)$. At nonzero frequency and a whole number of periods the second term is zero. Taking an infinite averaging window before taking $\omega\to0$ is therefore a different limit from taking zero frequency first. The formula is for the steady component; a startup transient contributes its own integrals.
+
+Thus sustained circuit activity has a specified input-port power budget. This does not contradict the autonomous finite BFG result. A forced BFG extension would require its own state law and energy assignment; the driven RC solution is not such an extension by itself.
+
+\section{What a physical calibration can and cannot identify}
+Define a dimensionless circuit amplitude $b_E=\sqrt{\mathcal E/\mathcal E_*^{\rm ref}}$ using a fixed positive reference energy; the superscript distinguishes the reference from the driven equilibrium energy. A circuit energy density matrix can be defined, when $x\ne0$, as $zz^T/(z^Tz)$ with $z=\mathsf C^{1/2}x$. This normalized object loses the amplitude: $z$ and $az$ have identical densities for every nonzero real $a$. Therefore it cannot by itself represent the physical energy state. In particular no complete map from the circuit to $(K,\rho_F,\rho_W,Y,P)$ follows from assigning the same normalized matrix to a density slot.
+
+A possible circuit balance score may be specified as a ratio of time-integrated supplied and dissipated energies over a declared window, with positive denominator. Setting the information factor $I/I_0=1$ then gives a dimensionless bookkeeping ratio, not an independent information law. Neither a numerical order score nor a deterministic capacitor voltage supplies a Shannon distribution or a thermodynamic conversion factor. The original $E_{\rm exp}/E_{\rm bind}$ variables are not automatically these circuit quantities. Such a replacement is a separate bridge assumption and does not follow from dimensional consistency.
+
+\begin{theorem}[A fixed-clock obstruction to a direct RC--BFG load calibration]\label{rcnogo}
+Sample an unforced grounded RC network at $t_k=t_0+k\Delta t$, with fixed $\Delta t>0$. Suppose a nonzero circuit eigenmode is assigned to an infinite successful closed BFG orbit, and its maximum BFG load $M_k$ obeys the finite-order calibration bound
+\begin{equation}\label{rcbridgebound}
+M_k\geq c\|\mathsf C^{1/2}x(t_k)\|^r
+\end{equation}
+for fixed $c,r>0$ and all sufficiently large $k$; $c$ carries any required reference units. This identification is impossible. In particular an amplitude or positive power of energy with a fixed multiplicative calibration cannot be the closed BFG load at a fixed sampling period.
+\end{theorem}
+\begin{proof}
+Choose an eigenvector of $\mathsf H$ with eigenvalue $\lambda>0$ and a nonzero initial amplitude. Then $\|\mathsf C^{1/2}x(t_k)\|=a e^{-\lambda\Delta t k}$ with $a>0$ after absorbing $t_0$. The lower bound is $ca^r e^{-r\lambda\Delta t k}$. The finite BFG completion theorem reaches full persistence after a finite prefix; write its collapse bound as $M_k\leq\tfrac12(4/5)^{2^{k-k_*}}$ for all sufficiently large $k$ and some fixed integer shift $k_*$. Taking logarithms would bound a linear function of $k$ above by a negative multiple of $2^k$, which fails for large $k$. Thus the two inequalities cannot both hold.
+\end{proof}
+This is an analytic exclusion of a specified bridge, even before a laboratory test. It does not exclude every circuit implementation of an algorithmic BFG update, every finite observation window, singularly flat readouts, state-dependent event times, or externally driven modifications. Those are different hypotheses requiring their own fixed definitions. A finite experiment cannot observe the entire asymptotic contradiction; it can reject a particular calibrated prediction only while signal and error margins remain resolvable. Recalibrating the scale or clock at each observed point would remove the content of this proposed comparison.
+
+\subsection{An exact realization with a state-dependent event clock}
+The fixed-clock obstruction has a constructive counterpart. It is useful to exhibit precisely which physical correspondence can be built, and which conclusions that construction does not establish. On the nominal circuit's invariant common-voltage subspace, $x(t)=V_{\rm ref}y(t)(1,1,1)^T$, the deterministic unforced law is $\tau\dot y=-y$; here $V_{\rm ref}>0$ is fixed and $\tau=c/g$. This subspace follows directly from $\mathsf L_0(1,1,1)^T=(1,1,1)^T$. The same scalar decay is realized by one grounded RC element. Independent pole and mediator perturbations leave this one-mode subspace and are governed by the full three-node equations instead.
+
+\begin{theorem}[One-mode event-clock realization]\label{clockrealization}
+For $0<y_0<1$, put
+\begin{equation}\label{clockrule}
+f(y)=\frac{2y^2}{(1+y)^2(1+y^2)},\qquad
+ t_{k+1}-t_k=\tau\log\frac{y_k}{f(y_k)},\qquad t_0=0.
+\end{equation}
+An ideal nonperturbing detector that records the next event when the passive voltage reaches $V_{\rm ref}f(y_k)$ produces $y_{k+1}=f(y_k)$. Every waiting time is positive and finite, $t_k\to\infty$, and $t_{k+1}/t_k\to2$. There is no accumulation of infinitely many events at finite physical time. With $w=(3/2)cV_{\rm ref}^2$, the readout
+\begin{equation}\label{clockstate}
+\Xi_k=(0,w,1,y_k,1),\qquad \mathcal E(t_k)=w y_k^2
+\end{equation}
+is an exact one-dimensional BFG event trajectory, including both fixed densities and the recovered physical energy.
+\end{theorem}
+\begin{proof}
+For $0<y<1$, $(1+y)^2(1+y^2)-2y=(1+y^2)^2+2y^3>0$, so $0<f(y)<y$. Exponential passive decay reaches every threshold $f(y_k)$ after the unique positive waiting time in \eqref{clockrule}. By induction the detected sequence follows $f$. Its positive decreasing limit must be a fixed point; the same strict inequality excludes a positive fixed point, so $y_k\to0$. Summing waiting times telescopes to $t_k=\tau\log(y_0/y_k)$, which tends to infinity. Also
+\begin{equation}
+-\log f(y)=2(-\log y)-\log2+2\log(1+y)+\log(1+y^2).
+\end{equation}
+Since $-\log y_k\to\infty$, the ratio of successive logarithms, and hence of successive $t_k$, tends to two. In dimension one with $P=1$, $K=0$, $\rho_F=w$ and $\rho_W=1$, both loads are positive, their reciprocal weights give exactly $f$, transport preserves the densities and no seed complement exists. This proves \eqref{clockstate}. Substitution of the common-mode capacitor energy gives its last equality.
+\end{proof}
+This is a complete state and energy readout for a restricted one-mode realization; it is not a complete representation of an arbitrary three-node state or an arbitrary finite BFG event. The formation entry $w$ is a fixed reference energy, whereas the actual capacitor energy is $wy^2$. Confusing these two quantities would destroy the correspondence. The detector's threshold function is specified from $f$ in advance. Thus the event sequence implements a selected mathematical recursion; agreement verifies that realization and its readout, not an independent discovery of $f$ as an autonomous law of nature. The continuous physical relaxation remains exponential. The doubly exponential event-index decay is produced by the increasingly long event intervals.
+
+\begin{proposition}[Event-value and event-time accuracy]\label{clockerrors}
+On $[0,1]$ the map $f$ is Lipschitz with constant $L_f=16/27<1$. If an implemented sequence stays in this interval and obeys $\widetilde y_{k+1}=f(\widetilde y_k)+e_k$, $|e_k|\leq\epsilon$, then
+\begin{equation}\label{clockerrorbound}
+|\widetilde y_k-y_k|\leq L_f^k|\widetilde y_0-y_0|+\epsilon\frac{1-L_f^k}{1-L_f}.
+\end{equation}
+For an exact passive segment starting at $y>0$, a detected endpoint $f(y)(1+r)$ with $|r|\leq\eta<1$ changes its ideal waiting time by at most $-\tau\log(1-\eta)$, provided that endpoint is below the segment's starting value.
+\end{proposition}
+\begin{proof}
+Differentiation gives $f'(y)=4y(1-y^3)/((1+y)^3(1+y^2)^2)$. Thus $0\leq f'(y)\leq4y/(1+y)^3\leq16/27$, the last maximum being attained by the upper bound at $y=1/2$. The mean-value theorem gives the Lipschitz estimate. Subtract the exact recursion and iterate $E_{k+1}\leq L_fE_k+\epsilon$ to obtain \eqref{clockerrorbound}. The actual-minus-ideal waiting time is $-\tau\log(1+r)$, whose absolute value is at most $-\tau\log(1-\eta)$ on the stated interval.
+\end{proof}
+Absolute event-value error therefore has a uniform bound, but fixed voltage resolution does not give uniform relative threshold or timing accuracy as $f(y)\to0$. A detector must stop before its next threshold is unresolved. More explicitly, if $0<y_{\min}<1/2$ is a prescribed resolution floor and a resolved exact event has index $k\geq2$, the general BFG upper bound requires
+\begin{equation}\label{clockbudget}
+k\leq2+\log_2\!\left(\frac{\log(2y_{\min})}{\log(4/5)}\right).
+\end{equation}
+This is a necessary bound, not a guarantee of that many measurable events. Finite loading, threshold error, timing latency and thermal fluctuations require a finite operating window and a calibrated detector model. The ideal event-clock theorem does not imply infinitely precise or zero-energy sensing hardware. Thermal threshold crossings are random observation times. Fixed-time Gaussian voltage regions and the fixed-horizon residual bound below cannot be transferred to those selected times without a stopping-time analysis or a separately justified detector-error model. A practical comparison can instead retain fixed observation windows and report event timing as a separate readout.
+
+
+\begin{proposition}[A quantitative finite-data rejection condition]\label{rcfiniteerror}
+Suppose $|\widehat M_k-M_k|\leq\epsilon_k$ and the candidate closed BFG model has reached full persistence at a certified index $k_f$. If
+\begin{equation}\label{rcfinitecriterion}
+\widehat M_{k_f+j}>\tfrac12(4/5)^{2^{j-2}}+\epsilon_{k_f+j}
+\qquad\text{for some }j\geq2,
+\end{equation}
+then that closed-model prediction and its specified calibration/error assumptions cannot all hold. For a matched-pole mediator experiment with two observed future pole vectors $\widehat p_+,\widehat p_-$ and individual norm errors at most $\sigma$, every common pole-only predictor has worst-case true error at least
+\begin{equation}\label{rcfiberobserved}
+\max\{0,\tfrac12\|\widehat p_+-\widehat p_-\|-\sigma\}.
+\end{equation}
+\end{proposition}
+\begin{proof}
+The first condition contradicts the uniform collapse upper bound and the error bound. For the second, the true successor separation is at least the measured separation minus $2\sigma$, and the triangle inequality forces at least half that separation as a common predictor's worst-case error.
+\end{proof}
+The symbol $\epsilon_k$ is a justified absolute error bound, not automatically a reported standard deviation. A probabilistic confidence region requires an explicit coverage statement and, for multiple comparisons, a simultaneous rather than pointwise criterion. For linearized uncertainty propagation of a smooth derived quantity $r(\theta)$ with parameter covariance $\Sigma_\theta$, $u_r^2\simeq (\nabla r)^T\Sigma_\theta\nabla r$ includes correlations. This is a first-order approximation; nonlinear or near-zero signals require a suitable distributional or bounded-error analysis. The metrological framework and measurement model must be declared \cite{gum}. No noise distribution or instrument resolution is inferred from the symbolic circuit.
+
+\section{Parameter identification and a complete numerical benchmark}
+With all three voltages measured, the two terminal equations and the mediator equation are linear regressions in the unknown component parameters. For the first node, for example,
+\begin{equation}\label{rcregression}
+u_1=c_1\dot v_1+h_1v_1+g_1(v_1-v_m).
+\end{equation}
+Its regressor is $(\dot v_1,v_1,v_1-v_m)$; the mediator regressor is $(\dot v_m,v_m,v_m-v_1,v_m-v_2)$. Persistent excitation here means that the corresponding integrated regressor Gram matrices are nonsingular. Full-rank noiseless regressions then uniquely identify their coefficients, with the shared $g_1,g_2$ values enforcing cross-node consistency. Terminal-only observability assumes known components and does not alone prove identification of all unknown components.
+
+\begin{proposition}[Identification limits and deterministic error control]\label{rcidentify}
+For a stacked regression $y=X\theta$ of full column rank, the unique least-squares estimate is $(X^TX)^{-1}X^Ty$. If only the response is perturbed by $e$, its parameter error obeys $\|\widehat\theta-\theta\|\leq\|e\|/\sigma_{\min}(X)$. If both regressors and responses are perturbed, with $\widehat X=X+E_X$ of full column rank and $\widehat y=X\theta+e$, then
+\begin{equation}\label{rciderror}
+\|\widehat\theta-\theta\|\leq\frac{\|e\|+\|E_X\|\|\theta\|}{\sigma_{\min}(\widehat X)}.
+\end{equation}
+In unforced voltage-only data the common scaling $(\mathsf C,\mathsf L)\mapsto(a\mathsf C,a\mathsf L)$, $a>0$, is unidentifiable. A calibrated component or a known nonzero current excitation is required to resolve that scaling.
+\end{proposition}
+\begin{proof}
+Full rank makes the normal matrix positive definite; solving the normal equations gives the estimator. The error is $X^+e$ in the first case and $\widehat X^+(e-E_X\theta)$ in the second, with pseudoinverse norm $1/\sigma_{\min}$. The unforced vector field $-\mathsf C^{-1}\mathsf Lx$ is invariant under common scaling. With known nonzero current, equality of the original and scaled equations on the same trajectory would require $a u=u$, hence $a=1$ wherever $u\ne0$. This removes that scaling ambiguity; full parameter uniqueness still requires full-rank excitation.
+\end{proof}
+Numerical condition numbers depend on units, so regressors must first be scaled by declared reference quantities. Integral versions of \eqref{rcregression}, using endpoint voltage differences and time integrals, can avoid explicit voltage differentiation. These have the same linear parameter form; their uniqueness requires the integrated design matrix to have full rank. Instrument errors in regressors remain errors in variables, not response-only noise.
+
+For a fully specified analytic benchmark take
+\begin{equation}\label{rcbenchmark}
+c_1=c_m=c_2=100\ {\rm nF},\qquad
+ g_1=g_2=h_1=h_m=h_2=10\ {\rm \mu S}.
+\end{equation}
+All five resistors are $100\ {\rm k\Omega}$, and $\tau=c/g=0.01\ {\rm s}$. These are nominal simulation parameters, not measured component values. With $s=t/\tau$ the unforced dimensionless matrix is
+\begin{equation}\label{rcbenchmarkmatrix}
+\mathsf L_0=\begin{pmatrix}2&-1&0\\-1&3&-1\\0&-1&2\end{pmatrix},\qquad
+\spec(\mathsf L_0)=\{1,2,4\}.
+\end{equation}
+The eigenvectors $(1,1,1)^T,(1,0,-1)^T,(1,-2,1)^T$ verify the spectrum by direct multiplication. Thus $\gamma=100\ {\rm s}^{-1}$. A common initial voltage $V_0$ produces $x(t)=V_0e^{-s}(1,1,1)^T$ and energy $(3/2)cV_0^2e^{-2s}$.
+
+Prepare identical zero pole voltages and mediator voltages differing by $\delta=0.2\ {\rm V}$. The two pole differences are exactly
+\begin{equation}\label{rcbenchmarkintervention}
+\Delta v_1(t)=\Delta v_2(t)=\frac\delta3(e^{-s}-e^{-4s}).
+\end{equation}
+Differentiation gives a unique positive maximum at $s=(\log4)/3$, or $t\simeq4.621\ {\rm ms}$, with separation $\delta4^{-4/3}\simeq31.498\ {\rm mV}$ at each pole. A pole-only predictor for either terminal then has worst-case error at least $15.749\ {\rm mV}$ before measurement error is allowed. For Euclidean two-pole error the bound is $\sqrt2$ times this one-terminal bound. These are exact model predictions rounded for display, not observations.
+
+For constant input $u_0=(10\ {\rm \mu A},0,0)^T$, direct inversion gives
+\begin{equation}\label{rcbenchmarkdriven}
+x_*=(5/8,1/4,1/8)^T\ {\rm V},\quad
+\mathcal E_*=23.4375\ {\rm nJ},\quad
+\mathcal P_*=6.25\ {\rm \mu W}.
+\end{equation}
+Substitution into \eqref{rclaw} and \eqref{rcsteady} verifies both the state and power budget. The benchmark predicts distinguishable transient pole voltages, a measurable mediator intervention and a nonzero driven stationary state within one consistent physical model.
+
+\begin{figure}[H]\centering
+\includegraphics[width=.97\textwidth]{../figures/figure5_physical.pdf}
+\caption{Analytic RC benchmark and a deliberately tested calibration. Left: one-terminal voltage separation after a mediator intervention, with its exact maximum. Middle: passive common-mode energy and externally supplied approach to the stationary energy. Right: common-mode amplitude at a fixed $10$ ms sampling period against the exact one-mode closed BFG load recurrence starting at the same dimensionless value $0.8$. The plots are calculated model outputs, not experimental data. Their mismatch tests the displayed identity calibration; it is not a fit or a universal impossibility claim.}\label{fig:physical}
+\end{figure}
+
+\section{Component perturbations and a thermal noise model}
+The deterministic circuit is robust to bounded parameter perturbations in a precise sense. Express both systems in the same reference energy coordinates $z=\mathsf C^{1/2}x$. Let the reference equation be $\dot z=-\mathsf Hz+f$, with $\|f\|\leq U$, and the perturbed equation be $\dot{\widetilde z}=(-\mathsf H+E)\widetilde z+f+\Delta f$. The possibly nonsymmetric matrix $E$ incorporates changes in both capacitance and conductance in these fixed coordinates; it is not a new BFG update. Suppose $\|E\|\leq\eta<\gamma$ and $\|\Delta f\|\leq\delta_f$. Set $Z=\max\{\|z(0)\|,U/\gamma\}$.
+
+\begin{proposition}[Uniform physical perturbation bound]\label{rcperturb}
+For all $t\geq0$,
+\begin{equation}\label{rcperturbbound}
+\|\widetilde z(t)-z(t)\|\leq e^{-(\gamma-\eta)t}\|\widetilde z(0)-z(0)\|+\frac{\eta Z+\delta_f}{\gamma-\eta}(1-e^{-(\gamma-\eta)t}).
+\end{equation}
+\end{proposition}
+\begin{proof}
+Theorem~\ref{rcforced} bounds the reference state by $Z$. The symmetric part of $-\mathsf H+E$ has largest eigenvalue at most $-\gamma+\eta$, hence its propagator has norm at most $e^{-(\gamma-\eta)t}$. The error equation is $\dot e=(-\mathsf H+E)e+Ez+\Delta f$. Variation of constants gives the stated estimate. The same proof permits time-dependent measurable $E$ with the uniform norm bound, using the corresponding propagator.
+\end{proof}
+This is a uniform-in-time result for the specified physical circuit, unlike the finite-branch BFG robustness result. It bounds component and input discrepancies once their coordinate norms are established. It does not turn unknown parasitic physics into a known small $E$.
+
+At nonzero temperature, a deterministic voltage trajectory is a mean-response approximation. In the classical, common-temperature, white-noise idealization of resistor thermal agitation \cite{nyquist}, define the additional physical assumption
+\begin{equation}\label{rcsde}
+\mathsf C\,dx=(-\mathsf Lx+u_0)\,dt+(2k_B\Theta\mathsf L)^{1/2}\,dW_t,
+\end{equation}
+where $\Theta>0$ is the bath temperature, $k_B$ is Boltzmann's constant and $W_t$ is a three-dimensional standard Wiener process. The covariance convention is $\mathbb E[dW_t\,dW_t^T]=\Id\,dt$; it fixes the factor two independently of one-sided spectral-density notation. Independent noisy resistor branches give this covariance because the sum of their incidence-vector outer products, weighted by conductance, is $\mathsf L$. This is a stated fluctuation--dissipation model for a bath-coupled circuit, not a noise law derived from the BFG.
+
+\begin{theorem}[Thermal stationary state and its measured limitation]\label{rcthermal}
+Equation~\eqref{rcsde} has a unique global strong solution. Its mean satisfies the deterministic forced circuit law. It has a unique invariant Gaussian distribution with
+\begin{equation}\label{rcthermalcov}
+\mathbb E[x]=x_*=\mathsf L^{-1}u_0,\qquad
+\operatorname{Cov}(x)=k_B\Theta\mathsf C^{-1}.
+\end{equation}
+The mean stationary capacitor energy is $\tfrac12x_*^T\mathsf Cx_*+\tfrac32k_B\Theta$. If the initial covariance exists, its deviation from the stationary covariance in energy coordinates decays in norm at least as $e^{-2\gamma t}$. The mean energy balance is
+\begin{equation}\label{rcthermalenergy}
+\frac{d}{dt}\mathbb E[\mathcal E]
+=\mathbb E[x^Tu_0-x^T\mathsf Lx]+k_B\Theta\tr(\mathsf C^{-1}\mathsf L).
+\end{equation}
+\end{theorem}
+\begin{proof}
+Linear globally Lipschitz drift and constant diffusion give the explicit stochastic-convolution solution. In centered energy coordinates $z=\mathsf C^{1/2}(x-x_*)$, the drift is $-\mathsf H$ and the diffusion covariance is $2k_B\Theta\mathsf H$. Thus the covariance satisfies $\dot\Sigma=-\mathsf H\Sigma-\Sigma\mathsf H+2k_B\Theta\mathsf H$, with solution
+\begin{equation}\label{rcoucovsolution}
+\Sigma(t)=k_B\Theta\Id+e^{-\mathsf Ht}(\Sigma(0)-k_B\Theta\Id)e^{-\mathsf Ht}.
+\end{equation}
+The stable stochastic convolution converges in distribution to the Gaussian with covariance $k_B\Theta\Id$, independent of the initial state, proving uniqueness of the invariant distribution. Converting back gives \eqref{rcthermalcov}, and tracing the quadratic energy gives its mean. Ito's quadratic correction is half the trace of $\mathsf C$ times the voltage diffusion covariance, namely $k_B\Theta\tr(\mathsf C^{-1}\mathsf L)$, proving the balance law.
+\end{proof}
+For the nominal $100$ nF capacitors at $\Theta=300$ K, the model gives an unfiltered equilibrium node-voltage standard deviation $\sqrt{k_B\Theta/c}\simeq0.204\ {\rm \mu V}$. This is a calculated thermal scale, not an instrument specification. Bandwidth, additional amplifier noise and probe loading modify actual measurement distributions. Thermal fluctuations have unbounded Gaussian support, so their standard deviation is not a deterministic absolute error bound.
+
+For $N$ preselected stationary scalar samples with known centered Gaussian errors of standard deviations $\sigma_i$, the simultaneous region $|e_i|\leq q\sigma_i$ has coverage at least $1-\alpha$ when $q=\sqrt{2\log(2N/\alpha)}$, $0<\alpha<1$. Indeed each two-sided Gaussian tail is at most $2e^{-q^2/2}$ and the union bound sums the $N$ tails; independence is unnecessary. Unknown bias, estimated variances or non-Gaussian instrument errors require a different justified coverage model. This supplies a mathematical route to a probabilistic version of Proposition~\ref{rcfiniteerror}, once all error sources are covered.
+
+The thermal floor represents exchange with an external bath and does not refute deterministic passive decay or the closed BFG theorem. The fixed-clock obstruction applies to the assigned deterministic or mean eigenmode under its calibration premise; a noisy sample path or its noise-floor energy is a different candidate readout. Neither an isolated noise excursion nor a stationary bath-driven variance should be interpreted as autonomous recursive renewal.
+
+\subsection{A stochastic energy residual that includes the bath}
+The power identity in Theorem~\ref{rcpassive} is pathwise deterministic. It must not be applied unchanged to raw trajectories of \eqref{rcsde}. Let $B=(2k_B\Theta\mathsf L)^{1/2}$ and let
+\begin{equation}\label{thermaldrift}
+h_\Theta=k_B\Theta\tr(\mathsf C^{-1}\mathsf L).
+\end{equation}
+For a fixed observation horizon $T>0$, define
+\begin{equation}\label{thermalresidual}
+R_T=\mathcal E(T)-\mathcal E(0)-\int_0^T(x^Tu_0-x^T\mathsf Lx)\,dt.
+\end{equation}
+This is the same algebraic residual that vanishes for a deterministic exact trajectory, but the stochastic model gives a different reference value and a nonzero variance.
+
+\begin{theorem}[Corrected thermal residual and a coverage bound]\label{residualtheorem}
+For a deterministic or independent finite-second-moment initial state in \eqref{rcsde},
+\begin{equation}\label{residualmartingale}
+R_T=h_\Theta T+M_T,\qquad
+M_T=\int_0^T x(t)^TB\,dW_t,
+\end{equation}
+where $M_T$ has mean zero and variance
+\begin{equation}\label{residualvariance}
+V_T=\mathbb E[M_T^2]=2k_B\Theta\int_0^T\mathbb E[x(t)^T\mathsf Lx(t)]\,dt.
+\end{equation}
+At thermal stationarity with constant current $u_0$,
+\begin{equation}\label{residualstationary}
+\mathbb E[R_T]=h_\Theta T,\qquad
+V_T=2k_B\Theta T\big(u_0^T\mathsf L^{-1}u_0+h_\Theta\big).
+\end{equation}
+For any justified deterministic upper bound $\overline V_T\geq V_T$ and $0<\alpha<1$, the corrected residual satisfies
+\begin{equation}\label{residualcoverage}
+\Pr\!\left(|R_T-h_\Theta T|\geq\sqrt{\overline V_T/\alpha}\right)\leq\alpha.
+\end{equation}
+The observation horizon is fixed in advance; a data-dependent stopping rule requires a corresponding martingale stopping argument.
+\end{theorem}
+\begin{proof}
+Ito's formula for $\mathcal E=x^T\mathsf Cx/2$ gives
+\begin{equation}
+d\mathcal E=(x^Tu_0-x^T\mathsf Lx+h_\Theta)\,dt+x^TB\,dW_t.
+\end{equation}
+Integration yields \eqref{residualmartingale}. The finite-time second moments of the linear stochastic solution make the stochastic integral square integrable with mean zero. Its isometry gives \eqref{residualvariance} because $BB^T=2k_B\Theta\mathsf L$. At stationarity, $\mathbb E[x^T\mathsf Lx]=x_*^T\mathsf Lx_*+\tr(\mathsf L k_B\Theta\mathsf C^{-1})=u_0^T\mathsf L^{-1}u_0+h_\Theta$, proving \eqref{residualstationary}. Applying Chebyshev's inequality to $M_T$ gives \eqref{residualcoverage}.
+\end{proof}
+For independent repeated runs, averaging $r$ corrected residuals divides their variance by $r$; correlated runs require their covariance terms. A bound on temperature and component parameters may be propagated to $\overline V_T$ and to an interval for $h_\Theta T$. If numerical quadrature and calibrated measurement/filter discrepancies add a justified absolute error $\delta_R$, a conservative acceptance radius adds $\delta_R$ to the stochastic radius. Calibration uncertainty in $h_\Theta T$ must likewise be added or included in a joint coverage analysis. Estimating $V_T$ from the same data and treating that estimate as a deterministic upper bound is not justified without a separate confidence argument.
+
+Gaussian voltage marginals do not make this quadratic energy residual Gaussian: its stochastic-integral integrand depends on the evolving noisy state. The stated coverage bound therefore uses only its proved second moment. A narrower Gaussian residual threshold would require further justification. For the nominal circuit at 300 K, $h_\Theta=700k_B\Theta\ {\rm s}^{-1}\simeq2.89936\times10^{-18}\ {\rm W}$; this small but nonzero bath term distinguishes the stochastic and deterministic ideal residuals. A bandwidth-filtered voltage record obeys the specified measurement-filter model, rather than the unfiltered SDE by default. Any residual test must use one consistent choice throughout.
+
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=.98\textwidth]{figure6_clock_residual.pdf}
+\caption{Calculated correspondences and residual moments. Left: the same exponential passive common-mode voltage sampled at the prescribed threshold events; marker spacing is determined by Equation~\ref{clockrule}. Right: mean and standard deviation of the unforced stationary thermal energy residual in units of $k_B\Theta$, as functions of a fixed observation horizon. These are analytic model calculations, not measurements or an assumed Gaussian residual distribution.}\label{fig:clockresidual}
+\end{figure}
+
+\section{A laboratory protocol with independently testable hypotheses}
+The protocol separates the established circuit model, physical mediator observability and any additional BFG load bridge. Component values, source currents and a common clock are calibrated first. Voltage probe input resistance and capacitance are included in the model or bounded as perturbations. The working frequency band is chosen so that unmodeled inductance, dielectric effects, source impedance variation and propagation delays are within the stated discrepancy budget. The deterministic equations predict conditional mean responses in this regime; thermal and instrument fluctuations require measured or specified error models. There is no assertion that a noiseless RC equation is exact at arbitrary bandwidth or vanishing amplitude.
+
+First, identify the circuit parameters from independent excitation records, using full-rank scaled regressions and uncertainty estimates. Reserve other records for prediction; repeated fitting to the evaluation records would not test the stated prediction. The component equations and integrated power identity are separate checks. Over $[0,T]$ define
+\begin{equation}\label{rcenergyresidual}
+\mathcal R_E=\mathcal E(T)-\mathcal E(0)-\int_0^T\big(x^Tu-x^T\mathsf Lx\big)\,dt.
+\end{equation}
+Its ideal value is zero. This zero reference applies to the deterministic model or to the energy balance computed consistently from its conditional mean trajectory. It does not apply to raw thermal trajectories: Theorem~\ref{residualtheorem} instead gives $\mathbb E[R_T]=h_\Theta T$ and its fluctuation variance. For noisy records, subtract the bath term and use the stated coverage and measurement-filter model. A residual outside that combined budget can indicate parasitic storage, an unaccounted input, parameter error or a circuit-model failure. It is not by itself evidence for a new universal balance law.
+
+Second, prepare matched initial terminal voltages with two independently set mediator voltages, then disconnect the preparation sources while keeping the same post-preparation inputs. Verify the initial matching within uncertainty and compare the future terminal records with \eqref{rcintervention}. The source disconnection transient and its charge injection belong in the initial-state or input-error budget. The measured successor separation tests predictive insufficiency of an instantaneous pole-only model. Agreement with the three-state law and its exact memory reduction identifies the role of the stored mediator state. A model retaining pole history is not rejected merely because a memoryless pole model is rejected.
+
+Third, compare unforced relaxation, constant-current forcing and sinusoidal forcing with the parameter-fixed formulas. The steady-power equality and frequency response distinguish external supply from autonomous renewal. Positive driven energy does not validate a closed BFG persistence law; it tests a circuit with specified input ports.
+
+A fourth, separately declared hypothesis assigns circuit measurements to BFG loads. It must fix $K,\rho_F,\rho_W,Y,P$, a sampling rule, initial completion index, calibration and uncertainty propagation before evaluating the new records. A voltage trace alone does not specify those five slots. The direct amplitude and finite-power energy calibration on a fixed clock is already excluded asymptotically by Theorem~\ref{rcnogo}; finite-window claims can still be rejected by Proposition~\ref{rcfiniteerror}. The designed clock of Theorem~\ref{clockrealization} is one explicit realization, with its threshold rule and energy map fixed beforehand; its agreement tests implementation. An independent physical-law test must justify its readout and clock without selecting them to encode the desired sequence. If two physical hypotheses induce the same observable predictions and error model on all performed interventions, those data cannot distinguish them; a separating intervention or observable is then required.
+
+The embedded computational supplement verifies the benchmark spectrum, memory reduction, mediator reconstruction, excitation rank, passive and driven energy laws, frequency response, intervention maximum and an explicit fixed-clock mismatch. It includes exact symbolic checks and high-precision calculated trajectories. These verify derivations and implementations; they do not constitute laboratory measurements. No empirical rejection or confirmation is claimed.
+
+\section{Conclusions and limits of the correspondence}
+The principal mathematical result concerns the exact finite BFG event: finite completion or absorption, a finite formation budget, and convergence of every infinite successful trajectory to a terminal boundary state. Its proof does not depend on a physical interpretation. Predictive mediator necessity is relative to a specified observation: the RC intermediate voltage is required for an instantaneous first-order description of both terminal voltages, while elimination gives an exact history law.
+
+The RC correspondence has a definite boundary. At a fixed physical sampling period, a finite-order positive amplitude calibration cannot identify passive relaxation with closed BFG loads. A specified threshold clock does exactly realize the one-mode recursion, with a recovered physical energy and no finite-time accumulation of events. Because the clock is selected from that recursion, this is an implementation theorem, not independent empirical evidence that passive circuits select the BFG law. The noise and power results make the distinction operational: DC and AC require different averages, and a thermal energy residual has a bath drift and fluctuations controlled by the proved variance bound without a Gaussian residual assumption.
+
+The conditional mathematical claims and calculated benchmark are the conclusions supported here. No laboratory measurements, unique physical metric or universal physical BFG law have been established. A broader physical realization must specify its readout, clock, external exchanges and competing predictions independently. Higher-dimensional physical state correspondence, BFG rank-changing robustness and infinite-dimensional field well-posedness remain separate precisely specified research obligations; adding further standard RC calculations cannot discharge them.
+
+\clearpage
+\appendix
+\section{Definition and operator register}
+\begin{longtable}{p{.18\textwidth}p{.48\textwidth}p{.22\textwidth}}
+\caption{Canonical symbols and types used in this manuscript.}\label{tab:defs}\\
+\toprule Symbol & Definition type and domain & Units or restriction\\\midrule\endfirsthead
+\toprule Symbol & Definition type and domain & Units or restriction\\\midrule\endhead
+$P_1,P_2$ & Distinguishable poles or role states, in a declared carrier & Not support projectors\\
+$\widehat N,N_{\rm rel},\nu$ & Operator, mediating relation and scalar response & Different mathematical types\\
+$\Phi$ & Ratio \eqref{phi}, $I\geq0$, positive denominator & Dimensionless\\
+$D,D_0$ & Structural-change rates in \eqref{oldratio} & Inverse time; not diffusion\\
+$I,I_0$ & Information variable and matching reference & Same units and definition\\
+$J_B,A_B,B_B$ & Feedback derivative and affine coefficients & $J_B,A_B$: information/time; $B_B$: dimensionless\\
+$\Psi$ & Integrated descriptive state with nine listed roles & No full map to $\Xi$ established\\
+$\Xi$ & Five-tuple \eqref{Xi} on a finite complex Hilbert space & Model-specific state category\\
+$K,\rho_F$ & Hermitian formation kernel; positive formation density & Matched formation units\\
+$\rho_W$ & Positive witness density of trace one & Dimensionless\\
+$Y,G$ & Positive load; internal metric $\Id+Y$ & Dimensionless operators\\
+$P,Q,P_s$ & Orthogonal persistence, selection and selected target projectors & $n$ by $n$\\
+$P_G$ & $G$-orthogonal selected projector & May be oblique in Euclidean metric\\
+$C_N,B_N$ & Complementary positive neutral responses \eqref{neutralalg} & $0<C_N\leq\Id$, $0\leq B_N<\Id$\\
+$\Lambda_C,\Lambda_B$ & Density loads \eqref{loads} & Formation units; strictly positive gate\\
+$\alpha,\beta$ & Reciprocal cross-weights; sum one & Positive dimensionless scalars\\
+$A,U,\Sigma,V$ & Ambient analysis and reduced SVD frames & $A:2n\times n$, $U:2n\times r$, $V:n\times r$\\
+$T_s,T_4$ & Polar partial isometries for selection and R4 & Zero on exact kernels\\
+$\rho_E,\Pi_E$ & Positive formation seed and rank-one projector & Simple negative ground mode required\\
+$R_C,L$ & Fixed recursive matrix and positive Lyapunov metric & Spectral theorem is finite dimensional\\
+$d_N,\varepsilon,L_k$ & Mediated distance and corridor bounds & Compare units within each carrier\\
+$F,R,J_R$ & Spectral update, four moments, readout Jacobian & Dimensionless in this model\\
+$h,\widehat g,g_k$ & Euclidean pullback, readout Lorentz metric, field pullback & Distinct domains\\
+$q,v,T$ & Readout displacement, its chart field, temporal function & No physical clock calibration\\
+$\mathcal K$ & Mixed Riemann component $\mathcal R^1{}_{212}$ & Coordinate dependent; nonzero proves curvature\\
+$n_k,p_k,d_k$ & Carrier dimension, persistence rank and defect $n_k-p_k$ & Exact integers; finite initial carrier\\
+$q$ in Section 26 & Rank of transverse load leakage $(\Id-P)YP$ & Not the displacement $q(y)$ of Section 17\\
+$a_k,f_i,M_k$ & Dynamic cross-weight, formation diagonal entries and maximum load & $0<a_k<1/2$; $f_i\geq0$; $0<M_k<1$\\
+$\mathcal O,\mathcal N$ & Linear mediator observability matrix and its kernel & Relative to fixed pole observations\\
+$\Delta(p),\epsilon,\sigma$ & Fiber successor diameter, prediction error and measurement-error bound & Matched poles and fixed inputs\\
+$g_\lambda,\Omega$ & Alternative metric completion and positive conformal scale & Additional geometric choices\\
+$L_j,\eta_j,e_j$ & Local derivative bound, implementation error and state error & Fixed-rank branch coordinates\\
+$x,p,m,u$ in Sections 30--37 & Circuit voltages, terminal pair, mediator voltage and currents & Volts and amperes; fixed reference\\
+$\mathsf C,\mathsf L,\mathsf H$ & Capacitance, grounded conductance and energy-coordinate decay matrix & Farads, siemens, inverse seconds\\
+$\mathcal E,\mathcal P_{\rm in},\mathcal P_{\rm loss}$ & Capacitor energy, supplied and dissipated power & Joules and watts\\
+$\gamma,d,\tau$ & Circuit spectral decay rate, mediator decay rate and reference time & Positive; rates and seconds\\
+$\Theta,k_B,W_t$ & Common bath temperature, Boltzmann constant and Wiener process & Classical thermal-noise assumption\\
+$\Sigma,X,\theta$ & Covariance, scaled identification design and component parameters & Distinct from BFG SVD $\Sigma$\\
+$y_k,t_k,f,L_f$ & One-mode load, physical event time, scalar recursion and Lipschitz bound & $t_k$ in seconds; designed clock\\
+$w,V_{\rm ref}$ & Fixed common-mode reference energy and voltage & Actual capacitor energy is $wy_k^2$\\
+$R_T,M_T,h_\Theta,V_T$ & Raw thermal residual, martingale, bath power and residual variance & Joules, joules, watts, joules squared\\
+$\epsilon,\eta,\delta_R$ in Sections 33--35 & Endpoint amplitude error, relative threshold error and residual measurement budget & Absolute and relative bounds kept separate\\
+
+
+\bottomrule
+\end{longtable}
+
+\clearpage
+\section{Assumptions and dependencies}
+\begin{longtable}{p{.12\textwidth}p{.47\textwidth}p{.29\textwidth}}
+\caption{Assumption register.}\label{tab:assumptions}\\
+\toprule ID & Explicit premise & Main dependency\\\midrule\endfirsthead
+\toprule ID & Explicit premise & Main dependency\\\midrule\endhead
+A1 & Positive matched scalar energies/reference and regular denominator & Definition~\ref{baldef}, Theorem~\ref{logistic}\\
+A2 & Differentiable $\Phi,I$ and the stated PDE coupling; bounded $A_B$, denominator margin & Proposition~\ref{feedbackprop}; not PDE parabolicity\\
+A3 & Fixed positive metric or uniform comparison bounds for distances & Definition~\ref{distance}, corridor interpretation\\
+A4 & Written convex-combination mediator/pole update & Theorem~\ref{corridorthm}\\
+A5 & Finite fixed recursive matrix with peripheral/stable split & Theorems~\ref{spectral}, \ref{lyapunov}\\
+A6 & Compact invariant domain, continuous map and nonincreasing continuous $V$ & Proposition~\ref{lasalle}\\
+A7 & Frozen local inputs, complete invariant hierarchy domain and $q<1$ & Theorem~\ref{hierarchythm}\\
+A8 & Exact Selection-first ambient event, intrinsic Gram and seed rules & Theorem~\ref{ambient}\\
+A9 & Reducing orthogonal support and positive fixed weights & Theorem~\ref{novelty}\\
+A10 & Four-mode family, $K=0$, isotropic densities and full persistence & Theorem~\ref{fourmode}\\
+A11 & Simple ordered spectrum and full-rank equal-dimensional chart & Theorem~\ref{moment}\\
+A12 & Added reflection metric, $v\ne0$, stated temporal cone & Proposition~\ref{signature}\\
+A13 & Spectral-segment interpolation and finite horizon & Theorem~\ref{finitegeom}\\
+A14 & Calibrated carrier maps and independent physical tests & Table~\ref{tab:bridges}; not discharged by algebra\\
+A15 & Exact autonomous finite event; fixed threshold and seed rule; finite initial dimension & Theorems~\ref{finitecompletion}, \ref{globalcollapse}, \ref{fullconvergence}\\
+A16 & Linear hidden-state compression, all initial mediator values, fixed observed poles & Theorem~\ref{observability}\\
+A17 & Constant-rank coordinate stratum and positive branch gaps & Proposition~\ref{branchregular}; finite robustness only\\
+A18 & Positive circuit capacitances, connected branches and at least one ground conductance & Theorems~\ref{rcpassive}, \ref{rcforced}\\
+A19 & Known inputs and independently prepared mediator state at matched poles & Theorem~\ref{rcmemory}; operational mediation\\
+A20 & Fixed sampling interval and finite-order lower calibration to an unforced RC eigenmode & Theorem~\ref{rcnogo}; bridge exclusion\\
+A21 & Full-rank scaled regression and declared data errors & Proposition~\ref{rcidentify}\\
+A22 & Perturbation norm $\eta<\gamma$ in fixed energy coordinates & Proposition~\ref{rcperturb}\\
+A23 & Classical common-temperature bath with stated diffusion covariance & Theorems~\ref{rcthermal}, \ref{residualtheorem}\\
+A24 & Deterministic RC common mode and prescribed nonperturbing threshold clock & Theorem~\ref{clockrealization}; one mode only\\
+A25 & Event values in $[0,1]$ and bounded detector endpoint errors & Proposition~\ref{clockerrors}; absolute bounds\\
+A26 & Fixed observation horizon, finite initial second moment and a justified variance upper bound & Theorem~\ref{residualtheorem}; stochastic residual coverage\\
+
+
+
+\bottomrule
+\end{longtable}
+
+The main chain is neutral algebra and selection to ambient invariants, then lossless post-success selection to decreasing persistence defect, finite completion, load collapse and kernel convergence. The four-mode family plus the separately declared metric gives the geometric branch. The RC law independently gives energy, memory, forcing and noise results; a fixed-clock calibration yields an obstruction, while a prescribed variable clock yields a one-mode implementation. None of those implications supplies independent empirical confirmation.
+
+\section{Theorem and stability certificate register}
+\begin{longtable}{p{.15\textwidth}p{.39\textwidth}p{.34\textwidth}}
+\caption{Results with their scope and evidential dependencies.}\label{tab:theorems}\\
+\toprule Result & Exact established conclusion & Dependencies and boundary\\\midrule\endfirsthead
+\toprule Result & Exact established conclusion & Dependencies and boundary\\\midrule\endhead
+\ref{logistic} T & Positive basin and exact scalar solution & A1, scalar reduction; no full-kernel statement\\
+\ref{feedbackprop} T & Resolvent bound and separate iterative criterion & A2; algebra, not PDE regularity\\
+\ref{corridorthm} T & Invariant pole corridor and transverse attraction & A4; new sufficient model, no universal necessity\\
+\ref{memory} T & Fiber criterion for pole-only Markov reduction & Deterministic observable equivalence; history allowed otherwise\\
+\ref{spectral} T & Power bound iff disk spectrum and peripheral semisimplicity & A5 finite fixed matrix\\
+\ref{lyapunov} T & Positive adapted metric and stable-complement decay & Theorem~\ref{spectral}; not arbitrary switching\\
+\ref{lasalle} T & Omega-limit set in largest zero-decrement invariant set & A6; singleton needed for point convergence\\
+\ref{hierarchythm} T & Unique global fixed point on $D$ and geometric error estimate & A7; no co-evolving hidden-state conclusion\\
+\ref{ambient} T & Typed quotient successor, active positivity, lossless R4 & A8; terminal events allowed, no infinite conditioning bound\\
+\ref{accounting} C & Formation balance and lost historical witness mass & Theorem~\ref{ambient}; no physical mass conservation\\
+\ref{novelty} T & Noncommutation iff changed formation spectrum & A9; no universal higher-level emergence\\
+\ref{fourmode} T & Explicit nonterminal invariant family & A10 and full ambient event\\
+\ref{moment} T & Four-moment chart and flat Euclidean pullback & A11; four modes declared\\
+\ref{signature} T & Lorentz signature and conditional temporal function & A12; no physical spacetime identity\\
+\ref{finitegeom} T & One common regular curved causal class for each finite horizon & A10--A13 and exact certificate; no uniform infinite horizon\\
+\ref{fibererror} T & Minimum pole-only prediction error from fiber separation & Norm and specified measurement-error bounds\\
+\ref{observability} T & Minimum retained linear hidden dimension is observability rank & A16; standard realization theory\\
+\ref{lumping} T & Exact block Markov reduction iff common block sums & All initial distributions; finite chain\\
+\ref{finitecompletion} T & Absorption or full persistence within $n_0$ attempts & A15; exact ranks and seed gates\\
+\ref{finitebudget} C & At most $n_0-1$ seeds and bounded formation; one-time witness loss & First success and A15\\
+\ref{globalcollapse} T & Uniform positive-load collapse in full persistence & Nonzero positive formation; autonomous update\\
+\ref{fullconvergence} T & Every infinite successful orbit converges to a terminal boundary state & Finite completion, collapse and Schur products\\
+\ref{metricnonunique} T & Direction and signature leave metric freedom & Fixed readout background, $v\ne0$\\
+\ref{conformalnonunique} T & Equal cones can have different curvature & Explicit conformal counterexample\\
+\ref{branchregular} T & Smooth quotient representatives on regular rank strata & A17; no rank-changing robustness\\
+\ref{rcpassive} T & Global circuit solution, power balance and exponential passive decay & A18; classical circuit law\\
+\ref{rcmemory} T & Exact memory and observable missing mediator state & A18--A19; two observed poles\\
+\ref{rcquasistatic} T & Boundary-layer and derivative error bound & Bounded derivative of mediator forcing\\
+\ref{rcforced} T & Bounded forced response and unique attracting stationary or periodic state & A18; specified external ports\\
+\ref{rcnogo} T & No fixed-clock finite-order RC-to-closed-BFG load calibration & A20; infinite successful orbit\\
+\ref{clockrealization} T & Exact one-mode physical event readout and no finite-time event accumulation & A24; designed clock does not validate a natural law\\
+\ref{clockerrors} T & Uniform scalar absolute error and relative timing estimate & A25; resolution limits infinite observation\\
+\ref{rcfiniteerror} T & Finite-data rejection and mediator prediction-error bounds & Justified absolute or simultaneous error region\\
+\ref{rcidentify} T & Parameter uniqueness and error bound under full-rank excitation & A21; voltage-only common scaling unresolved\\
+\ref{rcperturb} T & Uniform-in-time physical circuit perturbation bound & A22; not BFG rank-changing stability\\
+\ref{rcthermal} T & Unique Gaussian thermal equilibrium and mean power balance & A23; explicit bath coupling\\
+\ref{residualtheorem} T & Thermal residual drift, variance and conservative coverage & A23, A26; not a Gaussian residual assumption\\
+
+
+
+\bottomrule
+\end{longtable}
+
+\clearpage
+\section{Limitation counterexample and correction register}
+\begin{longtable}{p{.14\textwidth}p{.42\textwidth}p{.32\textwidth}}
+\caption{Adversarial findings and their disposition.}\label{tab:limits}\\
+\toprule ID & Claim tested & Disposition\\\midrule\endfirsthead
+L1 & Energy substitutions and $c$ prediction & Limitation~\ref{historical}; dimensional corrections and circular identity\\
+L2 & Positive factors give positive operator balance products & Limitation~\ref{products}; noncommuting expectation is complex\\
+L3 & Feedback identity proves mutual dynamical dependence & Product rule alone imposes no equations of motion\\
+L4 & Denominator margin means iterative subcriticality & $B_B=3/2$ has finite resolvent but divergent iteration\\
+L5 & Nonzero denominator implies closed PDE parabolicity & Limitation~\ref{parabolic}; negative principal diffusion\\
+L6 & Universal independent mediator necessity & Limitation~\ref{binary}; coupled stable binary system\\
+L7 & Three coordinates prove irreducibility & Proposition~\ref{eliminate}; invariant-graph elimination\\
+L8 & Congruence closure automatically preserves norms & $R=\Id,N=4\Id$ gives $R_C=4\Id$\\
+L9 & Radius one proves power boundedness & Peripheral Jordan block grows linearly\\
+L10 & Separate stability survives arbitrary switching & Limitation~\ref{switch}; product eigenvalue exceeds one\\
+L11 & Nonincreasing Lyapunov penalty proves point convergence & Rotation and nontrivial invariant sets\\
+L12 & Gram positivity selects a unique successor law & $\Id+c\Pi_p$ family and declared completion alternatives\\
+L13 & Normalized witness retains original mass & Corollary~\ref{accounting}; conditioning loses $p$\\
+L14 & Nonlinear moment charts create curvature & Theorem~\ref{moment}; equal-dimension pullback is flat\\
+L15 & Every finite horizon gives uniform infinite regularity & Shrinking gaps and small-load diagonal orbit\\
+L16 & Dimensionless implies exact scale covariance & Rational load map and fixed selection threshold\\
+L17 & Stable lower closures force stable higher closure & Coupling matrix has eigenvalue $5/2$\\
+L18 & Finite diagnostics prove consciousness or physical universality & No calibrated bridge or independent empirical test established\\
+L19 & Infinite success guarantees sustained renewal or an interior load attractor & Corollary~\ref{renewallimit}; finite seeds and $Y_k\to0$\\
+L20 & Witness conditioning entails repeated historical witness loss & Corollary~\ref{finitebudget}; later selection masses are one\\
+L21 & Signature or causal cones uniquely select the metric & Propositions~\ref{metricnonunique}, \ref{conformalnonunique}\\
+L22 & A finite branch estimate proves uniform numerical robustness & Proposition~\ref{branchregular}; rank and absolute load margins matter\\
+L23 & Similar balance vocabulary identifies circuit and BFG state laws & Theorem~\ref{rcnogo}; fixed-clock calibration obstruction\\
+L24 & Normalized circuit density retains energy amplitude & $z$ and $az$ give the same normalized density\\
+L25 & Terminal observability identifies all unknown components & Known-parameter observability differs from A21 excitation\\
+L26 & A thermal noise floor proves autonomous renewal & Theorem~\ref{rcthermal}; explicit bath supply\\
+L27 & A standard deviation is an absolute error bound & Gaussian tails are unbounded; simultaneous coverage required\\
+L28 & An AC half-power factor also gives DC loss & Equation~\ref{finitewindowpower}; explicit zero-frequency limit\\
+L29 & A thermal trajectory has zero deterministic energy residual & Theorem~\ref{residualtheorem}; bath drift and martingale\\
+L30 & A designed event clock independently confirms the recursion & Theorem~\ref{clockrealization}; implementation assumes $f$\\
+
+
+
+\bottomrule
+\end{longtable}
+An argument that assumes membership in every defining admissibility class and concludes membership in their intersection proves definitional closure, not an independent existence theorem. The corrected finite spectral and invariant-event results supply stronger non-tautological content on narrower domains.
+
+The new one-mode map resolves a restricted physical realization, but not a general state correspondence. Open obligations include historical uniqueness of the intrinsic Gram, contrast-sign and transverse-recursion rules; unbounded/infinite-rank domain closure; an explicit lossless $\Psi$--$\Xi$ correspondence; universal invariant differentiation bounds; physical definitions of mediator and information; physical clock, spatial transport and matter coupling; and independent empirical tests. Failure to find a derivation is recorded as O, not converted into a theorem of impossibility.
+
+\section{Consistency of the model layers}
+The scalar balance ratio, a mediated-distance model, a finite operator event and a geometric readout occupy different mathematical domains. The proofs do not identify them merely because they share balance terminology. The scalar sector requires matched units; the hierarchy requires a complete invariant contraction domain; the finite event requires its selection and transport rules; the geometric sector additionally requires an invertible chart and a separately declared metric. A physical interpretation requires further carrier and measurement assumptions.
+
+These distinctions prevent a scalar stability proof from being silently extended to a full PDE, a normalized density from being mistaken for preservation of historical witness mass, and internal matrix positivity from being mistaken for a uniquely derived physical metric. Table~\ref{tab:limits} records explicit counterexamples and restrictions; the assumption and theorem registers state the proof dependencies.
+
+\clearpage
+\section{Computational appendix and reproducibility boundary}
+Use the versions in \texttt{requirements.txt}. The primary commands are
+\begin{quote}\ttfamily
+python verify.py\\
+python extended\_controls.py\\
+python physical\_controls.py\\
+python review\_controls.py\\
+python source\_curvature\_certificate.py
+\end{quote}
+Exact curvature replay uses only the Python standard library. Independent parameter-coordinate curvature checking is a separate script. Repository suites were run from the untouched pinned clone with task-local dependencies. The computational supplement embedded in this PDF contains the source scripts, logs, seeds, recorded values, model figures and machine-readable verification groups. The physical circuit and review controls are fresh for this revision; the finite-kernel and original repository suites are retained as prior executions. Its manifest identifies the embedded source files. The PDF attachment is named \texttt{BFG\_Computational\_Supplement.zip} and can be extracted using a PDF reader supporting attachments or a PDF attachment API.
+
+Exact fraction arithmetic removes rounding from rational equalities but does not validate a missing physical premise. Floating SVD and spectral admission use tolerances and cannot certify exact rank or semisimplicity at an unresolved boundary. Reported residuals are observations for the supplied cases, not interval certificates. Reusing the original certificate algorithm is labeled replay; the separate coordinate implementation is a cross-check, not independent proof of physical geometry.
+
+Physical control results include exact symbolic energy and covariance identities, full state observability and a full-rank eight-parameter design; independent 80-digit matrix-exponential, memory and frequency-power calculations; and the calculated intervention and supply benchmark. Additional review controls verify the DC limit, finite-window power, event-clock readout, scalar contraction, timing bounds, and corrected stochastic residual by a separate stationary covariance calculation. No laboratory data were used.
+
+The final audit checked equation types, positivity conditions, finite versus infinite quantifiers, state-versus-observable persistence, model conventions, theorem dependencies, reference targets and rendered artifacts. Corrections are retained in Table~\ref{tab:limits}. No source manuscript or original production law was edited to force a theorem or a passing test. The global classification of the declared finite kernel is proved in Section~26. Remaining obligations concern modified or driven laws, rank-changing robustness, infinite-dimensional models, physical identification and empirical testing.
+
+\input{bibliography.tex}
+\end{document}

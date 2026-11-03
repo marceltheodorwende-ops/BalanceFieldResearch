@@ -1,0 +1,10 @@
+{
+  "doi": "10.5281/zenodo.23897937",
+  "publication_version": "1.0",
+  "source": "LaTeX main.tex from the PDF computational supplement",
+  "source_sha256": "9dea6e5f4aee9be1ed7f58716a91730ea6c684b189ea24ed2ff6f394c760761b",
+  "pdf_sha256": "e4ef2ef93ff5fc55b1429f18dbc97db0b8ab62059d9eed00a37c4916ad82cbb7",
+  "source_is_reference_only": true,
+  "register_entries": 48,
+  "date": "2026-11-03"
+}

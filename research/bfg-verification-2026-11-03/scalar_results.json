@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "symbolic_zero_identities": {
+    "strict_decay": "0",
+    "quarter_bound": "0",
+    "quadratic_bound": "0",
+    "derivative": "0",
+    "lipschitz_majorant": "0"
+  },
+  "exact_initial_values": 102,
+  "exact_steps": 816,
+  "boundary_controls": {
+    "zero_is_fixed": true,
+    "minus_one_is_undefined": true,
+    "one_maps_to_quarter": true,
+    "binary64_false_zero_at_1e_minus_200": true
+  },
+  "scope": "Exact symbolic/rational controls plus an analytic proof; not Lean or another proof-assistant certificate"
+}

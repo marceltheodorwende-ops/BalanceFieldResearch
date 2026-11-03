@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "data_type": "SYNTHETIC_ONLY",
+  "seed": 20261103,
+  "python": "3.12.14",
+  "numpy": "2.5.4",
+  "nominal": {
+    "ground_resistors_ohm": [
+      99999.99999999999,
+      99999.99999999999,
+      99999.99999999999
+    ],
+    "branch_resistors_ohm": [
+      99999.99999999999,
+      99999.99999999999
+    ],
+    "capacitances_farad": [
+      1e-05,
+      1e-05,
+      1e-05
+    ],
+    "reference_voltage": 1.0,
+    "initial_voltage": 0.8,
+    "time_constant_seconds": 1.0,
+    "sample_rate_hz": 100
+  },
+  "tolerance_cases": 1000,
+  "tolerance_model": "Independent uniform +/-1% deviations in each conductance and capacitance; not a calibrated instrument uncertainty budget",
+  "largest_common_voltage_deviation_V": 0.0041390705344172,
+  "largest_node_spread_V": 0.007071005182923029,
+  "synthetic_detector_sigma_V": 0.001,
+  "synthetic_quantization_step_V": 0.001,
+  "events": [
+    {
+      "k": 0,
+      "time_seconds": 0.0,
+      "threshold_volts": 0.8,
+      "above_1mV_floor": true
+    },
+    {
+      "k": 1,
+      "time_seconds": 1.2002659423946096,
+      "threshold_volts": 0.2408912978018669,
+      "above_1mV_floor": true
+    },
+    {
+      "k": 2,
+      "time_seconds": 2.418595457079202,
+      "threshold_volts": 0.07123727955074032,
+      "above_1mV_floor": true
+    },
+    {
+      "k": 3,
+      "time_seconds": 4.509877834686998,
+      "threshold_volts": 0.00879984311057012,
+      "above_1mV_floor": true
+    },
+    {
+      "k": 4,
+      "time_seconds": 8.56735217466435,
+      "threshold_volts": 0.00015217251311647214,
+      "above_1mV_floor": false
+    },
+    {
+      "k": 5,
+      "time_seconds": 16.665005065111547,
+      "threshold_volts": 4.629885452570785e-08,
+      "above_1mV_floor": false
+    },
+    {
+      "k": 6,
+      "time_seconds": 32.860006593575065,
+      "threshold_volts": 4.287167463803412e-15,
+      "above_1mV_floor": false
+    }
+  ],
+  "equilibrium_thermal_sigma_V": 2.0351773878460814e-08,
+  "identifiability": "The ideal RC law with the designed BFG clock and its classical RC null predict identical event values. This pilot cannot discriminate a BFG natural law.",
+  "hardware_run": false,
+  "formal_proof": false
+}
