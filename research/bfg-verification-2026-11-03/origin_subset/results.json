@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "date": "2026-11-03",
+  "exact_common_transport_identity": true,
+  "exact_seed_separation_identity": true,
+  "exact_noncommuting_active_rank": 2,
+  "fresh_minimum_density": "diag(2,0) for K=diag(-2,-1)",
+  "implementation_checks": [
+    {
+      "case": "isotropic",
+      "dimension": 1,
+      "seed": 0.0,
+      "formation_trace": 2.0,
+      "squared_alignment_residual": 0.0
+    },
+    {
+      "case": "noncommuting",
+      "dimension": 2,
+      "seed": 2.000000000000001,
+      "formation_trace": 4.000000000000002,
+      "squared_alignment_residual": 0.5000000000000003
+    }
+  ],
+  "implementation_rank_policy": "preserved binary64 helper; exact rank derived separately",
+  "origin_subset_consistent": true,
+  "origin_subset_forced_by_no_ancestry_alone": false,
+  "fundamental_origin_identification_derived": false,
+  "conditional_origin_rule_installed": false,
+  "event_rule_modified": false,
+  "new_physical_rule_adopted": false,
+  "baseline_sha256": "f445aea3784bb2dcd2af1a6878dfb8dd4b377543ea729a73de718d6a6f880f86"
+}

@@ -40,6 +40,10 @@ The last command intentionally replays checks without regenerating manuscript fi
 
 ## Status and next steps
 
+### Fresh-origin subset and later two-density separation
+
+[The origin-subset analysis](origin_subset/README.md) proves that a root-only identification of witness and normalized fresh formation is consistent with the existing state category. Common nonzero transport preserves the equality without seeding; an orthogonal formation seed breaks it, with an exact separation formula. Two unchanged-event checks begin from the actual fresh quartic minimum: an isotropic coupling gives a one-dimensional unseeded output, while a noncommuting coupling gives a two-dimensional seeded output with distinct formation and witness. The subset is not forced by no ancestry alone, and no boundary rule is installed.
+
 ### Exact formed-profile / identity bridge criterion
 
 [The profile-identity audit](profile_identity/README.md) constructs the unique formed-line projector and characterizes exactly when a positive trace-one inherited witness equals it: same support, zero transverse mass, minimum quadratic formation value, or finite order domination by the fresh formation density. A gap-controlled Frobenius error bound has a sharp exact fixture. The reviewed source passages do not establish the enforcing origin premise; general witness stationarity, commutation, overlap and covariance are insufficient. No new initializer or law is adopted.

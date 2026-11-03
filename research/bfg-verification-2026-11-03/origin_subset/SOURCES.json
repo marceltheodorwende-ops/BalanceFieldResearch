@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-03",
+  "source_commit": "c0f72abcd6ce165bb2014798bc620549f06a67c9",
+  "repository_sources": [
+    {
+      "path": "research/bfg-verification-2026-11-03/reference_main.tex",
+      "git_blob_sha": "5366f3ed392a5c817b25d48281155a47d2dfdd4d",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/c0f72abcd6ce165bb2014798bc620549f06a67c9/research/bfg-verification-2026-11-03/reference_main.tex"
+    },
+    {
+      "path": "research/bfg-verification-2026-11-03/baseline/extended_controls.py",
+      "git_blob_sha": "78decc58a9a0f4b7b6e1f10021ff39f34d8a632c",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/c0f72abcd6ce165bb2014798bc620549f06a67c9/research/bfg-verification-2026-11-03/baseline/extended_controls.py"
+    },
+    {
+      "path": "research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/TWO_DENSITY_UNIVERSAL_STATE.md",
+      "git_blob_sha": "6964a38e8ed58500701c485c342521f4d995c01f",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/c0f72abcd6ce165bb2014798bc620549f06a67c9/research/fundamental-closure-2026-09-25/package/research/bfg-fundamental-closure/TWO_DENSITY_UNIVERSAL_STATE.md"
+    }
+  ],
+  "original_source_trace": [
+    "../origin_bridge/SOURCES.json",
+    "../profile_identity/SOURCES.json",
+    "../formation_initialization/SOURCES.json"
+  ],
+  "reviewed_clauses": "June origin paragraphs 101-108; September 22 formation paragraphs 68-80; September 26 state and inherited two-density clauses 70-82 and 165-183",
+  "scope": "Special-origin subset and exact continuation mathematics; previous historical source traces retained, not a fresh exhaustive search. Existing coupling witness adapted to an actual fresh-minimum formation magnitude.",
+  "event_rule_modified": false,
+  "new_physical_rule_adopted": false,
+  "conditional_origin_rule_installed": false
+}

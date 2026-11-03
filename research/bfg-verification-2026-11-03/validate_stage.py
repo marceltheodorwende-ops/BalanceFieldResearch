@@ -82,6 +82,14 @@ assert profile['sharp_pure_fixture']['squared_Frobenius_distance']=='18/25'
 assert not profile['historical_premise_enforcing_bridge_established']
 assert not profile['new_physical_rule_adopted'] and not profile['event_rule_modified']
 report['profile_identity_bridge']='PASS; exact equivalent alignment criteria and sharp gap bound; historical enforcing premise unresolved'
+origin_subset=json.loads((root/'origin_subset/results.json').read_text(encoding='utf-8'))
+assert origin_subset['status']=='PASS' and origin_subset['origin_subset_consistent']
+assert origin_subset['exact_common_transport_identity'] and origin_subset['exact_seed_separation_identity']
+assert [x['dimension'] for x in origin_subset['implementation_checks']]==[1,2]
+assert not origin_subset['fundamental_origin_identification_derived']
+assert not origin_subset['conditional_origin_rule_installed']
+assert not origin_subset['new_physical_rule_adopted'] and not origin_subset['event_rule_modified']
+report['origin_subset']='PASS; conditional root restriction consistent; transport/seed separation proved and checked; forcing origin premise unresolved'
 (root/'STAGE_CHECK.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 manifest={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json' and '__pycache__' not in p.parts}
 (root/'SHA256SUMS.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')
