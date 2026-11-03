@@ -1,0 +1,482 @@
+[
+  {
+    "id": "historical",
+    "number": "2.1",
+    "title": "Dimensional consistency and circular definitions",
+    "statement_type": "limitation",
+    "dependence_category": "OTHER_EXPLICIT_MODEL_OR_COUNTEREXAMPLE",
+    "scope_boundary": "The named scalar, linear, stochastic, hierarchy or counterexample hypotheses remain necessary; no full-event transfer is asserted.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "baldef",
+    "number": "3.1",
+    "title": "Reduced balance, D",
+    "statement_type": "definition",
+    "dependence_category": "DEFINITION",
+    "scope_boundary": "No dynamical coupling-independence claim follows from a definition.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "products",
+    "number": "3.2",
+    "title": "Operator products need not be real positive",
+    "statement_type": "limitation",
+    "dependence_category": "OTHER_EXPLICIT_MODEL_OR_COUNTEREXAMPLE",
+    "scope_boundary": "The named scalar, linear, stochastic, hierarchy or counterexample hypotheses remain necessary; no full-event transfer is asserted.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "logistic",
+    "number": "4.1",
+    "title": "Exact solution and basin",
+    "statement_type": "theorem",
+    "dependence_category": "OTHER_EXPLICIT_MODEL_OR_COUNTEREXAMPLE",
+    "scope_boundary": "The named scalar, linear, stochastic, hierarchy or counterexample hypotheses remain necessary; no full-event transfer is asserted.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "unlabelled-5",
+    "number": "5.1",
+    "title": "Feedback, D",
+    "statement_type": "definition",
+    "dependence_category": "DEFINITION",
+    "scope_boundary": "No dynamical coupling-independence claim follows from a definition.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "feedbackprop",
+    "number": "5.2",
+    "title": "Algebraic versus iterative closure",
+    "statement_type": "proposition",
+    "dependence_category": "OTHER_EXPLICIT_MODEL_OR_COUNTEREXAMPLE",
+    "scope_boundary": "The named scalar, linear, stochastic, hierarchy or counterexample hypotheses remain necessary; no full-event transfer is asserted.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "parabolic",
+    "number": "5.3",
+    "title": "Closure regularity is insufficient for parabolicity",
+    "statement_type": "limitation",
+    "dependence_category": "OTHER_EXPLICIT_MODEL_OR_COUNTEREXAMPLE",
+    "scope_boundary": "The named scalar, linear, stochastic, hierarchy or counterexample hypotheses remain necessary; no full-event transfer is asserted.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "distance",
+    "number": "6.1",
+    "title": "One mediated distance construction, D/A",
+    "statement_type": "definition",
+    "dependence_category": "DEFINITION",
+    "scope_boundary": "No dynamical coupling-independence claim follows from a definition.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "corridorthm",
+    "number": "7.1",
+    "title": "Mediated corridor with a persistent phase",
+    "statement_type": "theorem",
+    "dependence_category": "OTHER_EXPLICIT_MODEL_OR_COUNTEREXAMPLE",
+    "scope_boundary": "The named scalar, linear, stochastic, hierarchy or counterexample hypotheses remain necessary; no full-event transfer is asserted.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "binary",
+    "number": "8.1",
+    "title": "Stable binary countermodel",
+    "statement_type": "limitation",
+    "dependence_category": "OTHER_EXPLICIT_MODEL_OR_COUNTEREXAMPLE",
+    "scope_boundary": "The named scalar, linear, stochastic, hierarchy or counterexample hypotheses remain necessary; no full-event transfer is asserted.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "eliminate",
+    "number": "8.2",
+    "title": "Exact elimination of an instantaneous mediator",
+    "statement_type": "proposition",
+    "dependence_category": "OTHER_EXPLICIT_MODEL_OR_COUNTEREXAMPLE",
+    "scope_boundary": "The named scalar, linear, stochastic, hierarchy or counterexample hypotheses remain necessary; no full-event transfer is asserted.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "memory",
+    "number": "8.3",
+    "title": "Obstruction to pole-only Markov reduction",
+    "statement_type": "theorem",
+    "dependence_category": "OTHER_EXPLICIT_MODEL_OR_COUNTEREXAMPLE",
+    "scope_boundary": "The named scalar, linear, stochastic, hierarchy or counterexample hypotheses remain necessary; no full-event transfer is asserted.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "spectral",
+    "number": "9.1",
+    "title": "Finite power-boundedness criterion",
+    "statement_type": "theorem",
+    "dependence_category": "OTHER_EXPLICIT_MODEL_OR_COUNTEREXAMPLE",
+    "scope_boundary": "The named scalar, linear, stochastic, hierarchy or counterexample hypotheses remain necessary; no full-event transfer is asserted.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "switch",
+    "number": "9.2",
+    "title": "Switching defeats separate spectral tests",
+    "statement_type": "limitation",
+    "dependence_category": "OTHER_EXPLICIT_MODEL_OR_COUNTEREXAMPLE",
+    "scope_boundary": "The named scalar, linear, stochastic, hierarchy or counterexample hypotheses remain necessary; no full-event transfer is asserted.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "lyapunov",
+    "number": "10.1",
+    "title": "Adapted positive metric",
+    "statement_type": "theorem",
+    "dependence_category": "OTHER_EXPLICIT_MODEL_OR_COUNTEREXAMPLE",
+    "scope_boundary": "The named scalar, linear, stochastic, hierarchy or counterexample hypotheses remain necessary; no full-event transfer is asserted.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "lasalle",
+    "number": "10.2",
+    "title": "A discrete invariance principle",
+    "statement_type": "proposition",
+    "dependence_category": "OTHER_EXPLICIT_MODEL_OR_COUNTEREXAMPLE",
+    "scope_boundary": "The named scalar, linear, stochastic, hierarchy or counterexample hypotheses remain necessary; no full-event transfer is asserted.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "hierarchythm",
+    "number": "11.1",
+    "title": "Hierarchy contraction",
+    "statement_type": "theorem",
+    "dependence_category": "OTHER_EXPLICIT_MODEL_OR_COUNTEREXAMPLE",
+    "scope_boundary": "The named scalar, linear, stochastic, hierarchy or counterexample hypotheses remain necessary; no full-event transfer is asserted.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "ambient",
+    "number": "13.1",
+    "title": "Ambient event invariants",
+    "statement_type": "theorem",
+    "dependence_category": "UNIFORM_FIXED_EVENT_TYPED_INPUTS",
+    "scope_boundary": "Success and active dimension may vary; output type is guaranteed only on success.",
+    "prior_detailed_review_status": "Focused analytic dependency review completed; not formal verification",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "accounting",
+    "number": "13.2",
+    "title": "Formation and witness accounting",
+    "statement_type": "corollary",
+    "dependence_category": "UNIFORM_FIXED_EVENT_TYPED_INPUTS",
+    "scope_boundary": "The identity holds; first witness loss and seed contribution can vary.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "novelty",
+    "number": "14.1",
+    "title": "Two-channel Schur novelty",
+    "statement_type": "theorem",
+    "dependence_category": "CONDITIONAL_OPERATOR_IDENTITY",
+    "scope_boundary": "The operator criterion holds under its support hypotheses; whether commutation occurs depends on the input.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "fourmode",
+    "number": "15.1",
+    "title": "Spectral reduction of the finite event",
+    "statement_type": "theorem",
+    "dependence_category": "GEOMETRIC_OR_LOCAL_BRANCH_HYPOTHESES",
+    "scope_boundary": "A general initial interface need not lie in the specified family, chart or fixed-rank neighborhood; no blanket geometric independence is asserted.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "moment",
+    "number": "16.1",
+    "title": "Moment chart and flatness",
+    "statement_type": "theorem",
+    "dependence_category": "GEOMETRIC_OR_LOCAL_BRANCH_HYPOTHESES",
+    "scope_boundary": "A general initial interface need not lie in the specified family, chart or fixed-rank neighborhood; no blanket geometric independence is asserted.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "signature",
+    "number": "17.1",
+    "title": "Signature and temporal cone",
+    "statement_type": "proposition",
+    "dependence_category": "GEOMETRIC_OR_LOCAL_BRANCH_HYPOTHESES",
+    "scope_boundary": "A general initial interface need not lie in the specified family, chart or fixed-rank neighborhood; no blanket geometric independence is asserted.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "finitegeom",
+    "number": "18.1",
+    "title": "Simultaneous regular curved causal finite horizon",
+    "statement_type": "theorem",
+    "dependence_category": "GEOMETRIC_OR_LOCAL_BRANCH_HYPOTHESES",
+    "scope_boundary": "A general initial interface need not lie in the specified family, chart or fixed-rank neighborhood; no blanket geometric independence is asserted.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "fibererror",
+    "number": "25.1",
+    "title": "A prediction error obstruction",
+    "statement_type": "proposition",
+    "dependence_category": "OTHER_EXPLICIT_MODEL_OR_COUNTEREXAMPLE",
+    "scope_boundary": "The named scalar, linear, stochastic, hierarchy or counterexample hypotheses remain necessary; no full-event transfer is asserted.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "observability",
+    "number": "25.2",
+    "title": "Minimum retained linear mediator information",
+    "statement_type": "theorem",
+    "dependence_category": "OTHER_EXPLICIT_MODEL_OR_COUNTEREXAMPLE",
+    "scope_boundary": "The named scalar, linear, stochastic, hierarchy or counterexample hypotheses remain necessary; no full-event transfer is asserted.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "lumping",
+    "number": "25.3",
+    "title": "The stochastic reduction criterion",
+    "statement_type": "proposition",
+    "dependence_category": "OTHER_EXPLICIT_MODEL_OR_COUNTEREXAMPLE",
+    "scope_boundary": "The named scalar, linear, stochastic, hierarchy or counterexample hypotheses remain necessary; no full-event transfer is asserted.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "losslessafter",
+    "number": "26.1",
+    "title": "Selection becomes lossless after the first success",
+    "statement_type": "lemma",
+    "dependence_category": "UNIFORM_FIXED_EVENT_TYPED_INPUTS",
+    "scope_boundary": "Requires an initial successful event, not guaranteed for every coupling.",
+    "prior_detailed_review_status": "Focused analytic dependency review completed; not formal verification",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "finitecompletion",
+    "number": "26.2",
+    "title": "Finite completion or finite absorption",
+    "statement_type": "theorem",
+    "dependence_category": "UNIFORM_FIXED_EVENT_TYPED_INPUTS",
+    "scope_boundary": "The dichotomy is uniform; selected branch and completion time may vary.",
+    "prior_detailed_review_status": "Focused analytic dependency review completed; not formal verification",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "finitebudget",
+    "number": "26.3",
+    "title": "Bounded formation and one-time witness loss",
+    "statement_type": "corollary",
+    "dependence_category": "UNIFORM_FIXED_EVENT_TYPED_INPUTS",
+    "scope_boundary": "Bounds use shared n0, K0 and formation trace; realized budgets can differ.",
+    "prior_detailed_review_status": "Focused analytic dependency review completed; not formal verification",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "globalcollapse",
+    "number": "26.4",
+    "title": "Uniform collapse of the positive load spectrum",
+    "statement_type": "theorem",
+    "dependence_category": "UNIFORM_FIXED_EVENT_TYPED_INPUTS",
+    "scope_boundary": "Requires full persistence and 0<Y<I; envelope is uniform, path and thresholds are not fixed.",
+    "prior_detailed_review_status": "Focused analytic dependency review completed; not formal verification",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "fullconvergence",
+    "number": "26.5",
+    "title": "Convergence of every infinite successful finite trajectory",
+    "statement_type": "theorem",
+    "dependence_category": "UNIFORM_FIXED_EVENT_TYPED_INPUTS",
+    "scope_boundary": "Existence of each limit is uniform over successful infinite trajectories; value and carrier may differ.",
+    "prior_detailed_review_status": "Focused analytic dependency review completed; not formal verification",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "renewallimit",
+    "number": "26.6",
+    "title": "Limits on sustained renewal and uniform geometric margins",
+    "statement_type": "corollary",
+    "dependence_category": "UNIFORM_FIXED_EVENT_TYPED_INPUTS",
+    "scope_boundary": "No sustained seeding or positive load floor in infinite successful orbits; four-mode chart clause requires that chart.",
+    "prior_detailed_review_status": "Focused analytic dependency review completed; not formal verification",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "metricnonunique",
+    "number": "27.1",
+    "title": "The metric is not selected by direction and signature",
+    "statement_type": "proposition",
+    "dependence_category": "GEOMETRIC_OR_LOCAL_BRANCH_HYPOTHESES",
+    "scope_boundary": "A general initial interface need not lie in the specified family, chart or fixed-rank neighborhood; no blanket geometric independence is asserted.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "conformalnonunique",
+    "number": "27.2",
+    "title": "The same cones do not fix curvature",
+    "statement_type": "proposition",
+    "dependence_category": "GEOMETRIC_OR_LOCAL_BRANCH_HYPOTHESES",
+    "scope_boundary": "A general initial interface need not lie in the specified family, chart or fixed-rank neighborhood; no blanket geometric independence is asserted.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "branchregular",
+    "number": "27.3",
+    "title": "Local regularity of a fixed event branch",
+    "statement_type": "proposition",
+    "dependence_category": "GEOMETRIC_OR_LOCAL_BRANCH_HYPOTHESES",
+    "scope_boundary": "A general initial interface need not lie in the specified family, chart or fixed-rank neighborhood; no blanket geometric independence is asserted.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "rcpassive",
+    "number": "30.1",
+    "title": "Circuit well-posedness and passive decay",
+    "statement_type": "theorem",
+    "dependence_category": "SEPARATE_SPECIFIED_RC_MODEL",
+    "scope_boundary": "Circuit, forcing or noise hypotheses are independently specified; this is not a derivation from initial BFG coupling.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "rcmemory",
+    "number": "31.1",
+    "title": "Memory, identifiability of the mediator and intervention separation",
+    "statement_type": "theorem",
+    "dependence_category": "SEPARATE_SPECIFIED_RC_MODEL",
+    "scope_boundary": "Circuit, forcing or noise hypotheses are independently specified; this is not a derivation from initial BFG coupling.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "rcquasistatic",
+    "number": "31.2",
+    "title": "A controlled instantaneous approximation",
+    "statement_type": "proposition",
+    "dependence_category": "SEPARATE_SPECIFIED_RC_MODEL",
+    "scope_boundary": "Circuit, forcing or noise hypotheses are independently specified; this is not a derivation from initial BFG coupling.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "rcforced",
+    "number": "32.1",
+    "title": "Forced stability and stationary dissipation",
+    "statement_type": "theorem",
+    "dependence_category": "SEPARATE_SPECIFIED_RC_MODEL",
+    "scope_boundary": "Circuit, forcing or noise hypotheses are independently specified; this is not a derivation from initial BFG coupling.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "rcnogo",
+    "number": "33.1",
+    "title": "A fixed-clock obstruction to a direct RC--BFG load calibration",
+    "statement_type": "theorem",
+    "dependence_category": "ADDITIONAL_RC_BFG_BRIDGE_ASSUMPTIONS",
+    "scope_boundary": "Retains the stated fixed-event/scalar and measurement/clock assumptions; not an unconditional consequence of an arbitrary initial interface.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "clockrealization",
+    "number": "33.2",
+    "title": "One-mode event-clock realization",
+    "statement_type": "theorem",
+    "dependence_category": "ADDITIONAL_RC_BFG_BRIDGE_ASSUMPTIONS",
+    "scope_boundary": "Retains the stated fixed-event/scalar and measurement/clock assumptions; not an unconditional consequence of an arbitrary initial interface.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "clockerrors",
+    "number": "33.3",
+    "title": "Event-value and event-time accuracy",
+    "statement_type": "proposition",
+    "dependence_category": "ADDITIONAL_RC_BFG_BRIDGE_ASSUMPTIONS",
+    "scope_boundary": "Retains the stated fixed-event/scalar and measurement/clock assumptions; not an unconditional consequence of an arbitrary initial interface.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "rcfiniteerror",
+    "number": "33.4",
+    "title": "A quantitative finite-data rejection condition",
+    "statement_type": "proposition",
+    "dependence_category": "ADDITIONAL_RC_BFG_BRIDGE_ASSUMPTIONS",
+    "scope_boundary": "Retains the stated fixed-event/scalar and measurement/clock assumptions; not an unconditional consequence of an arbitrary initial interface.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "rcidentify",
+    "number": "34.1",
+    "title": "Identification limits and deterministic error control",
+    "statement_type": "proposition",
+    "dependence_category": "SEPARATE_SPECIFIED_RC_MODEL",
+    "scope_boundary": "Circuit, forcing or noise hypotheses are independently specified; this is not a derivation from initial BFG coupling.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "rcperturb",
+    "number": "35.1",
+    "title": "Uniform physical perturbation bound",
+    "statement_type": "proposition",
+    "dependence_category": "SEPARATE_SPECIFIED_RC_MODEL",
+    "scope_boundary": "Circuit, forcing or noise hypotheses are independently specified; this is not a derivation from initial BFG coupling.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "rcthermal",
+    "number": "35.2",
+    "title": "Thermal stationary state and its measured limitation",
+    "statement_type": "theorem",
+    "dependence_category": "SEPARATE_SPECIFIED_RC_MODEL",
+    "scope_boundary": "Circuit, forcing or noise hypotheses are independently specified; this is not a derivation from initial BFG coupling.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  },
+  {
+    "id": "residualtheorem",
+    "number": "35.3",
+    "title": "Corrected thermal residual and a coverage bound",
+    "statement_type": "theorem",
+    "dependence_category": "SEPARATE_SPECIFIED_RC_MODEL",
+    "scope_boundary": "Circuit, forcing or noise hypotheses are independently specified; this is not a derivation from initial BFG coupling.",
+    "prior_detailed_review_status": "Indexed; detailed adversarial review pending",
+    "this_followup": "Dependency sorting; general analytic proof supplied only for the fixed-event core in README.md"
+  }
+]

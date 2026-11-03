@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-03",
+  "reference_commit": "e296794f25614328fc5fc100812e154358d0ffac",
+  "reference_paper_doi": "10.5281/zenodo.23897937",
+  "scope": "Fixed Section 12 event, initial-interface variation, Sections 13,14,26 conditional consequences",
+  "source_files": [
+    {
+      "path": "research/bfg-verification-2026-11-03/reference_main.tex",
+      "git_blob_sha": "5366f3ed392a5c817b25d48281155a47d2dfdd4d",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/e296794f25614328fc5fc100812e154358d0ffac/research/bfg-verification-2026-11-03/reference_main.tex"
+    },
+    {
+      "path": "research/bfg-verification-2026-11-03/baseline/extended_controls.py",
+      "git_blob_sha": "78decc58a9a0f4b7b6e1f10021ff39f34d8a632c",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/e296794f25614328fc5fc100812e154358d0ffac/research/bfg-verification-2026-11-03/baseline/extended_controls.py"
+    },
+    {
+      "path": "research/bfg-verification-2026-11-03/claims.json",
+      "git_blob_sha": "8d3e439893dfd2d19382333a4f11d2692e29ea47",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/e296794f25614328fc5fc100812e154358d0ffac/research/bfg-verification-2026-11-03/claims.json"
+    }
+  ],
+  "event_rule_modified": false,
+  "paper_modified": false
+}

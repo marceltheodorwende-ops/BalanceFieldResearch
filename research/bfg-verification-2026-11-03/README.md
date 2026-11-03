@@ -40,6 +40,10 @@ The last command intentionally replays checks without regenerating manuscript fi
 
 ## Status and next steps
 
+### Coupling independence: all three requested steps
+
+[Dependency sorting, uniform consequences and dependence witnesses](coupling_independence/README.md) now distinguish an unknown initial interface from a changed event law. The 48-statement register is classified by dependence without upgrading prior proof-review status. For the fixed finite event, completion/absorption, finite budgets and convergence of every infinite successful orbit do not require a uniquely derived initial coupling. A common absolute-event load envelope follows for fixed initial dimension. Exact and bounded implementation checks show that the selected outcome, final carrier dimension, seed count, formation stock and limiting K can nevertheless differ across initial interfaces. Four 90-digit load trajectories passed the recorded bounds. No physical rule or paper is changed.
+
 ### Follow-up: foundation-to-event derivation audit
 
 [Open the derivation audit](foundation_audit/README.md) and its [status ledger](foundation_audit/DERIVATION_STATUS.md). Six historical text extractions, including the April 2025 sources, were traced separately from the November event definitions. An exact, parameter-free successor witness shows nonuniqueness relative to an explicitly listed structural packet: the same input yields loads 8/45 and 8/53. The stronger exact Gram identification excludes the witness, so the result does not refute the defined event. Source-local checks also expose the limits of a monotone-descent balance argument and the telescoping process-time definition. All controls passed. No new physical law, paper or experimental claim was introduced. Earlier September G/S/R findings are credited.

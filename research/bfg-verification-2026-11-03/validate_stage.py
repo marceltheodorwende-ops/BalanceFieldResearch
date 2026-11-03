@@ -51,6 +51,13 @@ assert premise['status']=='PASS' and not premise['new_physical_rules_adopted']
 assert not premise['original_Gram_rule_changed'] and not premise['L0_NC_adopted']
 assert len(inventory['sources'])==10 and all(r['status']=='EXTRACTED' for r in inventory['sources'])
 report['existing_premise_search']='Ten original documents screened; exact relative witnesses PASS; no universal absence theorem claimed'
+dependence=json.loads((root/'coupling_independence/results.json').read_text(encoding='utf-8'))
+register=json.loads((root/'coupling_independence/dependence_register.json').read_text(encoding='utf-8'))
+assert dependence['status']=='PASS' and dependence['fixed_event_rule'] and not dependence['new_law_adopted']
+assert len(register)==48 and {r['id'] for r in register}=={r['id'] for r in claims}
+assert dependence['carrier_and_seed_pair']['eventual_dimensions']==[1,2]
+assert dependence['kernel_limit_pair']['first_Schur_factor_squared_exact']=='132496/155221'
+report['coupling_independence']='Three steps completed: dependency register, conditional uniform theorem and exact dependence witnesses; controls PASS'
 (root/'STAGE_CHECK.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 manifest={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json' and '__pycache__' not in p.parts}
 (root/'SHA256SUMS.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')
