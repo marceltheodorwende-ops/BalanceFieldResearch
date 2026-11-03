@@ -24,5 +24,6 @@
   "initial_persistence": "PASS; containing and neutral-invariant minimal supports distinguished; same-input P dependence checked; origin criterion unresolved",
   "origin_no_choice": "PASS; stronger-packet relative support nonuniqueness and source no-tie-break boundary; full historical origin theorem not established",
   "joint_initialization": "PASS; exact joint positive-sector persistence criterion and conditional mode matching; neutral/raw-recursion origin premises unresolved",
-  "raw_recursion": "PASS; original primitive-factor composition and conditional neural reconstruction credited; unique origin factors unresolved"
+  "raw_recursion": "PASS; original primitive-factor composition and conditional neural reconstruction credited; unique origin factors unresolved",
+  "dependency_closure": "PASS; guarded source-linked dependency ledger consolidated; complete event closed, unique origin not established from reviewed smaller packet"
 }

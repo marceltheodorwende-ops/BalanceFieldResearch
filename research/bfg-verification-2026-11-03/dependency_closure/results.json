@@ -1,0 +1,441 @@
+{
+  "status": "PASS",
+  "date": "2026-11-03",
+  "node_count": 38,
+  "rule_count": 16,
+  "source_records_checked": 9,
+  "scenario_count": 8,
+  "guarded_cyclic_components": [
+    [
+      "Fop0",
+      "dotN0"
+    ],
+    [
+      "P0",
+      "RC0"
+    ]
+  ],
+  "prohibited_shortcuts_checked": 6,
+  "scenarios": [
+    {
+      "id": "formation_only",
+      "hypothetical_only": false,
+      "given": [
+        "carrier",
+        "capacities",
+        "formation_law",
+        "ground_gate"
+      ],
+      "closure": [
+        "H0",
+        "K0",
+        "Pi0",
+        "capacities",
+        "carrier",
+        "formation_law",
+        "ground_gate",
+        "rhoF0"
+      ],
+      "trace": [
+        {
+          "rule": "form_K",
+          "added": [
+            "K0"
+          ]
+        },
+        {
+          "rule": "fresh_minimum",
+          "added": [
+            "H0",
+            "Pi0",
+            "rhoF0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "complete_finite_input",
+      "hypothetical_only": false,
+      "given": [
+        "carrier",
+        "K0",
+        "rhoF0",
+        "rhoW0",
+        "Y0",
+        "P0",
+        "finite_contract"
+      ],
+      "closure": [
+        "C0",
+        "K0",
+        "P0",
+        "X0",
+        "X1",
+        "Y0",
+        "carrier",
+        "finite_contract",
+        "rhoF0",
+        "rhoW0"
+      ],
+      "trace": [
+        {
+          "rule": "resolvent",
+          "added": [
+            "C0"
+          ]
+        },
+        {
+          "rule": "complete_state",
+          "added": [
+            "X0"
+          ]
+        },
+        {
+          "rule": "finite_successor",
+          "added": [
+            "X1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "supplied_rich_data",
+      "hypothetical_only": false,
+      "given": [
+        "carrier",
+        "capacities",
+        "formation_law",
+        "ground_gate",
+        "neutral_assessment0",
+        "completion_contract",
+        "J0",
+        "Fop0",
+        "NR0",
+        "conjugate_contract",
+        "peripheral_gate",
+        "rhoW0",
+        "finite_contract"
+      ],
+      "closure": [
+        "C0",
+        "Fop0",
+        "H0",
+        "J0",
+        "K0",
+        "NR0",
+        "P0",
+        "Pi0",
+        "R0",
+        "RC0",
+        "X0",
+        "X1",
+        "Y0",
+        "capacities",
+        "carrier",
+        "completion_contract",
+        "conjugate_contract",
+        "finite_contract",
+        "formation_law",
+        "ground_gate",
+        "neutral_assessment0",
+        "peripheral_gate",
+        "rhoF0",
+        "rhoW0"
+      ],
+      "trace": [
+        {
+          "rule": "form_K",
+          "added": [
+            "K0"
+          ]
+        },
+        {
+          "rule": "fresh_minimum",
+          "added": [
+            "H0",
+            "Pi0",
+            "rhoF0"
+          ]
+        },
+        {
+          "rule": "neutral_elimination",
+          "added": [
+            "Y0"
+          ]
+        },
+        {
+          "rule": "resolvent",
+          "added": [
+            "C0"
+          ]
+        },
+        {
+          "rule": "raw_composition",
+          "added": [
+            "R0"
+          ]
+        },
+        {
+          "rule": "conjugate_mediation",
+          "added": [
+            "RC0"
+          ]
+        },
+        {
+          "rule": "peripheral_projection",
+          "added": [
+            "P0"
+          ]
+        },
+        {
+          "rule": "complete_state",
+          "added": [
+            "X0"
+          ]
+        },
+        {
+          "rule": "finite_successor",
+          "added": [
+            "X1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conditional_origin_boundary",
+      "hypothetical_only": true,
+      "given": [
+        "carrier",
+        "capacities",
+        "formation_law",
+        "ground_gate",
+        "neutral_assessment0",
+        "completion_contract",
+        "least_origin_support",
+        "origin_witness_support",
+        "finite_contract"
+      ],
+      "closure": [
+        "C0",
+        "H0",
+        "K0",
+        "P0",
+        "P0_equals_Pi0",
+        "Pi0",
+        "X0",
+        "X1",
+        "Y0",
+        "capacities",
+        "carrier",
+        "completion_contract",
+        "finite_contract",
+        "formation_law",
+        "ground_gate",
+        "least_origin_support",
+        "neutral_assessment0",
+        "origin_witness_support",
+        "rhoF0",
+        "rhoW0"
+      ],
+      "trace": [
+        {
+          "rule": "form_K",
+          "added": [
+            "K0"
+          ]
+        },
+        {
+          "rule": "fresh_minimum",
+          "added": [
+            "H0",
+            "Pi0",
+            "rhoF0"
+          ]
+        },
+        {
+          "rule": "neutral_elimination",
+          "added": [
+            "Y0"
+          ]
+        },
+        {
+          "rule": "resolvent",
+          "added": [
+            "C0"
+          ]
+        },
+        {
+          "rule": "origin_least_support",
+          "added": [
+            "P0",
+            "P0_equals_Pi0"
+          ]
+        },
+        {
+          "rule": "origin_witness",
+          "added": [
+            "rhoW0"
+          ]
+        },
+        {
+          "rule": "complete_state",
+          "added": [
+            "X0"
+          ]
+        },
+        {
+          "rule": "finite_successor",
+          "added": [
+            "X1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neural_rearrangement_no_seed",
+      "hypothetical_only": false,
+      "given": [
+        "carrier",
+        "neural_rest0",
+        "neural_equation",
+        "neural_domain",
+        "nonzero_gamma",
+        "J0"
+      ],
+      "closure": [
+        "J0",
+        "carrier",
+        "neural_domain",
+        "neural_equation",
+        "neural_rest0",
+        "nonzero_gamma"
+      ],
+      "trace": []
+    },
+    {
+      "id": "neural_derivative_supplied",
+      "hypothetical_only": false,
+      "given": [
+        "carrier",
+        "neural_rest0",
+        "neural_equation",
+        "neural_domain",
+        "nonzero_gamma",
+        "J0",
+        "dotN0"
+      ],
+      "closure": [
+        "Fop0",
+        "J0",
+        "R0",
+        "carrier",
+        "dotN0",
+        "neural_domain",
+        "neural_equation",
+        "neural_rest0",
+        "nonzero_gamma"
+      ],
+      "trace": [
+        {
+          "rule": "neural_inverse",
+          "added": [
+            "Fop0"
+          ]
+        },
+        {
+          "rule": "raw_composition",
+          "added": [
+            "R0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rebuild_loop_no_seed",
+      "hypothetical_only": true,
+      "given": [
+        "carrier",
+        "capacities",
+        "formation_law",
+        "ground_gate",
+        "neutral_assessment0",
+        "completion_contract",
+        "origin_rebuild_extension",
+        "peripheral_gate",
+        "finite_contract"
+      ],
+      "closure": [
+        "C0",
+        "H0",
+        "K0",
+        "Pi0",
+        "Y0",
+        "capacities",
+        "carrier",
+        "completion_contract",
+        "finite_contract",
+        "formation_law",
+        "ground_gate",
+        "neutral_assessment0",
+        "origin_rebuild_extension",
+        "peripheral_gate",
+        "rhoF0"
+      ],
+      "trace": [
+        {
+          "rule": "form_K",
+          "added": [
+            "K0"
+          ]
+        },
+        {
+          "rule": "fresh_minimum",
+          "added": [
+            "H0",
+            "Pi0",
+            "rhoF0"
+          ]
+        },
+        {
+          "rule": "neutral_elimination",
+          "added": [
+            "Y0"
+          ]
+        },
+        {
+          "rule": "resolvent",
+          "added": [
+            "C0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "earliest_scalar_sector",
+      "hypothetical_only": false,
+      "given": [
+        "scalar_sector_data",
+        "scalar_feedback_contract"
+      ],
+      "closure": [
+        "scalar_diagnostics",
+        "scalar_feedback_contract",
+        "scalar_sector_data"
+      ],
+      "trace": [
+        {
+          "rule": "scalar_definitions",
+          "added": [
+            "scalar_diagnostics"
+          ]
+        }
+      ]
+    }
+  ],
+  "complete_event_closed_from_supplied_input": true,
+  "unique_origin_closed_from_reviewed_formation_packet": false,
+  "full_historical_impossibility_or_independence_theorem": false,
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false,
+  "scope": "Dependency bookkeeping, source-record existence, guarded forward closure and cycle diagnostics; not a formal proof of attached mathematical theorems"
+}

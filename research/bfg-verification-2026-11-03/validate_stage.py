@@ -118,6 +118,14 @@ assert not raw['new_physical_rule_adopted'] and not raw['event_rule_modified']
 raw_sources=json.loads((root/'raw_recursion/SOURCES.json').read_text(encoding='utf-8'))
 assert len(raw_sources['newly_located_original_pdfs'])==3
 report['raw_recursion']='PASS; original primitive-factor composition and conditional neural reconstruction credited; unique origin factors unresolved'
+dependency=json.loads((root/'dependency_closure/results.json').read_text(encoding='utf-8'))
+assert dependency['status']=='PASS' and dependency['node_count']==38
+assert dependency['rule_count']==16 and dependency['scenario_count']==8
+assert dependency['complete_event_closed_from_supplied_input']
+assert not dependency['unique_origin_closed_from_reviewed_formation_packet']
+assert not dependency['full_historical_impossibility_or_independence_theorem']
+assert not dependency['new_physical_rule_adopted'] and not dependency['event_rule_modified']
+report['dependency_closure']='PASS; guarded source-linked dependency ledger consolidated; complete event closed, unique origin not established from reviewed smaller packet'
 (root/'STAGE_CHECK.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 manifest={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json' and '__pycache__' not in p.parts}
 (root/'SHA256SUMS.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')

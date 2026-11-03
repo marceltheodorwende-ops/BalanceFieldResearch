@@ -1,0 +1,704 @@
+{
+  "date": "2026-11-03",
+  "source_commit": "9fb6921206636164ae1321969851c931439f9a0c",
+  "scope": "Finite-origin and event dependency audit; scenarios are premise packets, not a universal formalization of every historical BFG statement.",
+  "nodes": [
+    {
+      "id": "carrier",
+      "kind": "given_data",
+      "label": "Finite carrier, inner product and adjoints"
+    },
+    {
+      "id": "capacities",
+      "kind": "given_data",
+      "label": "Initial distinction/coherence/neutral capacity triple"
+    },
+    {
+      "id": "formation_law",
+      "kind": "source_law",
+      "label": "Specified quartic formation functional"
+    },
+    {
+      "id": "ground_gate",
+      "kind": "checked_condition",
+      "label": "Simple negative lowest eigenvalue and gap"
+    },
+    {
+      "id": "K0",
+      "kind": "derived",
+      "label": "Initial formation operator"
+    },
+    {
+      "id": "rhoF0",
+      "kind": "derived",
+      "label": "Fresh-minimum formation density"
+    },
+    {
+      "id": "Pi0",
+      "kind": "derived",
+      "label": "Fresh formed-line projector"
+    },
+    {
+      "id": "H0",
+      "kind": "derived",
+      "label": "Positive local formed Hessian"
+    },
+    {
+      "id": "neutral_assessment0",
+      "kind": "given_data",
+      "label": "Specified initial joint assessment/channel and metrics"
+    },
+    {
+      "id": "completion_contract",
+      "kind": "conditional_source_contract",
+      "label": "Same quadratic completion and retained-response identification"
+    },
+    {
+      "id": "Y0",
+      "kind": "initial_quantity",
+      "label": "Initial neutral load"
+    },
+    {
+      "id": "C0",
+      "kind": "derived",
+      "label": "Initial retained/complementary response pair"
+    },
+    {
+      "id": "J0",
+      "kind": "primitive_operator",
+      "label": "Initial informational coupling operator"
+    },
+    {
+      "id": "Fop0",
+      "kind": "primitive_operator",
+      "label": "Initial feedback transformation"
+    },
+    {
+      "id": "R0",
+      "kind": "derived",
+      "label": "Initial raw recursion"
+    },
+    {
+      "id": "NR0",
+      "kind": "given_data",
+      "label": "Initial neutral recursion operator"
+    },
+    {
+      "id": "conjugate_contract",
+      "kind": "source_law",
+      "label": "Conjugate mediation convention, not inverse-neutral normalization"
+    },
+    {
+      "id": "peripheral_gate",
+      "kind": "checked_condition",
+      "label": "Finite power-bounded repaired peripheral/stable decomposition"
+    },
+    {
+      "id": "RC0",
+      "kind": "initial_quantity",
+      "label": "Initial conjugate recursion"
+    },
+    {
+      "id": "P0",
+      "kind": "initial_quantity",
+      "label": "Initial ordinary persistent projector"
+    },
+    {
+      "id": "rhoW0",
+      "kind": "initial_quantity",
+      "label": "Initial normalized identity witness"
+    },
+    {
+      "id": "finite_contract",
+      "kind": "declared_event_contract",
+      "label": "Fixed November event, role assignments and exact gates"
+    },
+    {
+      "id": "X0",
+      "kind": "derived",
+      "label": "Complete typed initial five-tuple"
+    },
+    {
+      "id": "X1",
+      "kind": "derived",
+      "label": "Unique successor class or terminal outcome"
+    },
+    {
+      "id": "Y1",
+      "kind": "derived",
+      "label": "Successor load when nonterminal"
+    },
+    {
+      "id": "nonterminal_X1",
+      "kind": "checked_condition",
+      "label": "Successor is not terminal"
+    },
+    {
+      "id": "least_origin_support",
+      "kind": "unestablished_boundary",
+      "label": "Origin uses least persistent support containing the formed line"
+    },
+    {
+      "id": "origin_witness_support",
+      "kind": "unestablished_boundary",
+      "label": "Origin witness normalized and supported on that protected line"
+    },
+    {
+      "id": "P0_equals_Pi0",
+      "kind": "derived",
+      "label": "Origin persistent support equals formed line"
+    },
+    {
+      "id": "neural_rest0",
+      "kind": "given_data",
+      "label": "All other instantaneous interface data and coefficients, excluding Fop0 and dotN0"
+    },
+    {
+      "id": "dotN0",
+      "kind": "given_data",
+      "label": "Initial neutral-operator derivative"
+    },
+    {
+      "id": "neural_equation",
+      "kind": "source_law",
+      "label": "May 14 neural interface evolution equation"
+    },
+    {
+      "id": "neural_domain",
+      "kind": "domain_condition",
+      "label": "Justified use in the stated neural regime"
+    },
+    {
+      "id": "nonzero_gamma",
+      "kind": "checked_condition",
+      "label": "Feedback coefficient gamma_N is nonzero"
+    },
+    {
+      "id": "origin_rebuild_extension",
+      "kind": "unestablished_boundary",
+      "label": "Successor rebuild is justified as an origin boundary relation"
+    },
+    {
+      "id": "scalar_sector_data",
+      "kind": "given_data",
+      "label": "Specified scalar order/information paths and ratio inputs"
+    },
+    {
+      "id": "scalar_feedback_contract",
+      "kind": "source_definition",
+      "label": "Original scalar ratio and product-derivative definitions"
+    },
+    {
+      "id": "scalar_diagnostics",
+      "kind": "derived",
+      "label": "Scalar order ratio and information-feedback diagnostic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "formation",
+      "record": "../formation_initialization/SOURCES.json",
+      "anchor": "September 22, Section 3, paragraphs 68-80",
+      "claim": "Finite quartic functional and simple-negative formation theorem"
+    },
+    {
+      "id": "neutral",
+      "record": "../foundation_audit/crosswalk_sources.json",
+      "anchor": "Tangent bridge and unified finite theorem; same channel/metric/retained-response premises",
+      "claim": "Existing conditional elimination and Gram identification"
+    },
+    {
+      "id": "interface",
+      "record": "../foundation_audit/interface_sources.json",
+      "anchor": "Positive quadratic joint-assessment classification",
+      "claim": "Fixed H does not specify channel and intrinsic neutral metric alone"
+    },
+    {
+      "id": "raw",
+      "record": "../raw_recursion/SOURCES.json",
+      "anchor": "May 14 original PDF, Axiom 2 pp.2-3; Definitions 2 and 13 pp.3,5; May 16 extension",
+      "claim": "Primitive factor composition, neural interface equation and distinct conjugate convention"
+    },
+    {
+      "id": "persistence",
+      "record": "../initial_persistence/SOURCES.json",
+      "anchor": "September 22 Section 5, read with repaired peripheral-space contract",
+      "claim": "Persistent projector from supplied admissible recursion"
+    },
+    {
+      "id": "origin",
+      "record": "../origin_bridge/SOURCES.json",
+      "anchor": "June origin paragraphs 101-108 and two-density Sections 5-8",
+      "claim": "Primitive identity/persistence, inherited-witness and seed separation"
+    },
+    {
+      "id": "profile",
+      "record": "../profile_identity/SOURCES.json",
+      "anchor": "Finite rank-one support/minimum-value equivalence",
+      "claim": "Witness identification requires its explicit support/representation premise"
+    },
+    {
+      "id": "event",
+      "record": "../initial_state_audit/SOURCES.json",
+      "anchor": "November Section 12 and September 26 five-object state",
+      "claim": "Complete finite input contract and deterministic event"
+    },
+    {
+      "id": "scalar",
+      "record": "../raw_recursion/SOURCES.json",
+      "anchor": "April 17 Section 7.2; February 4 Section 3.3; consolidated Sections 2-4",
+      "claim": "Scalar product derivative does not identify primitive operator factors"
+    }
+  ],
+  "rules": [
+    {
+      "id": "form_K",
+      "requires": [
+        "carrier",
+        "capacities"
+      ],
+      "produces": [
+        "K0"
+      ],
+      "source": "formation",
+      "status": "conditional_derivation"
+    },
+    {
+      "id": "fresh_minimum",
+      "requires": [
+        "carrier",
+        "K0",
+        "formation_law",
+        "ground_gate"
+      ],
+      "produces": [
+        "rhoF0",
+        "Pi0",
+        "H0"
+      ],
+      "source": "formation",
+      "status": "conditional_derivation"
+    },
+    {
+      "id": "neutral_elimination",
+      "requires": [
+        "carrier",
+        "neutral_assessment0",
+        "completion_contract"
+      ],
+      "produces": [
+        "Y0"
+      ],
+      "source": "neutral",
+      "status": "conditional_derivation"
+    },
+    {
+      "id": "resolvent",
+      "requires": [
+        "carrier",
+        "Y0"
+      ],
+      "produces": [
+        "C0"
+      ],
+      "source": "neutral",
+      "status": "conditional_derivation"
+    },
+    {
+      "id": "raw_composition",
+      "requires": [
+        "carrier",
+        "J0",
+        "Fop0"
+      ],
+      "produces": [
+        "R0"
+      ],
+      "source": "raw",
+      "status": "conditional_derivation"
+    },
+    {
+      "id": "conjugate_mediation",
+      "requires": [
+        "carrier",
+        "R0",
+        "NR0",
+        "conjugate_contract"
+      ],
+      "produces": [
+        "RC0"
+      ],
+      "source": "raw",
+      "status": "conditional_derivation"
+    },
+    {
+      "id": "peripheral_projection",
+      "requires": [
+        "carrier",
+        "RC0",
+        "peripheral_gate"
+      ],
+      "produces": [
+        "P0"
+      ],
+      "source": "persistence",
+      "status": "conditional_derivation"
+    },
+    {
+      "id": "origin_least_support",
+      "requires": [
+        "Pi0",
+        "least_origin_support"
+      ],
+      "produces": [
+        "P0",
+        "P0_equals_Pi0"
+      ],
+      "source": "persistence",
+      "status": "hypothetical_boundary_implication"
+    },
+    {
+      "id": "origin_witness",
+      "requires": [
+        "Pi0",
+        "P0_equals_Pi0",
+        "origin_witness_support"
+      ],
+      "produces": [
+        "rhoW0"
+      ],
+      "source": "profile",
+      "status": "hypothetical_boundary_implication"
+    },
+    {
+      "id": "complete_state",
+      "requires": [
+        "carrier",
+        "K0",
+        "rhoF0",
+        "rhoW0",
+        "Y0",
+        "P0"
+      ],
+      "produces": [
+        "X0"
+      ],
+      "source": "event",
+      "status": "conditional_derivation"
+    },
+    {
+      "id": "finite_successor",
+      "requires": [
+        "X0",
+        "finite_contract"
+      ],
+      "produces": [
+        "X1"
+      ],
+      "source": "event",
+      "status": "conditional_derivation"
+    },
+    {
+      "id": "extract_successor_load",
+      "requires": [
+        "X1",
+        "nonterminal_X1"
+      ],
+      "produces": [
+        "Y1"
+      ],
+      "source": "event",
+      "status": "conditional_derivation"
+    },
+    {
+      "id": "neural_forward",
+      "requires": [
+        "Fop0",
+        "neural_rest0",
+        "neural_equation",
+        "neural_domain"
+      ],
+      "produces": [
+        "dotN0"
+      ],
+      "source": "raw",
+      "status": "conditional_derivation"
+    },
+    {
+      "id": "neural_inverse",
+      "requires": [
+        "dotN0",
+        "neural_rest0",
+        "neural_equation",
+        "neural_domain",
+        "nonzero_gamma"
+      ],
+      "produces": [
+        "Fop0"
+      ],
+      "source": "raw",
+      "status": "conditional_derivation"
+    },
+    {
+      "id": "origin_rebuild",
+      "requires": [
+        "P0",
+        "Y0",
+        "origin_rebuild_extension"
+      ],
+      "produces": [
+        "RC0"
+      ],
+      "source": "persistence",
+      "status": "hypothetical_boundary_implication"
+    },
+    {
+      "id": "scalar_definitions",
+      "requires": [
+        "scalar_sector_data",
+        "scalar_feedback_contract"
+      ],
+      "produces": [
+        "scalar_diagnostics"
+      ],
+      "source": "scalar",
+      "status": "conditional_derivation"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "formation_only",
+      "given": [
+        "carrier",
+        "capacities",
+        "formation_law",
+        "ground_gate"
+      ],
+      "expect_present": [
+        "K0",
+        "rhoF0",
+        "Pi0",
+        "H0"
+      ],
+      "expect_absent": [
+        "Y0",
+        "P0",
+        "rhoW0",
+        "J0",
+        "Fop0",
+        "R0",
+        "X0",
+        "X1"
+      ]
+    },
+    {
+      "id": "complete_finite_input",
+      "given": [
+        "carrier",
+        "K0",
+        "rhoF0",
+        "rhoW0",
+        "Y0",
+        "P0",
+        "finite_contract"
+      ],
+      "expect_present": [
+        "X0",
+        "X1"
+      ],
+      "expect_absent": [
+        "J0",
+        "Fop0",
+        "R0",
+        "RC0"
+      ]
+    },
+    {
+      "id": "supplied_rich_data",
+      "given": [
+        "carrier",
+        "capacities",
+        "formation_law",
+        "ground_gate",
+        "neutral_assessment0",
+        "completion_contract",
+        "J0",
+        "Fop0",
+        "NR0",
+        "conjugate_contract",
+        "peripheral_gate",
+        "rhoW0",
+        "finite_contract"
+      ],
+      "expect_present": [
+        "R0",
+        "RC0",
+        "P0",
+        "Y0",
+        "X0",
+        "X1"
+      ],
+      "expect_absent": [
+        "least_origin_support",
+        "origin_witness_support"
+      ]
+    },
+    {
+      "id": "conditional_origin_boundary",
+      "given": [
+        "carrier",
+        "capacities",
+        "formation_law",
+        "ground_gate",
+        "neutral_assessment0",
+        "completion_contract",
+        "least_origin_support",
+        "origin_witness_support",
+        "finite_contract"
+      ],
+      "hypothetical_only": true,
+      "expect_present": [
+        "P0",
+        "rhoW0",
+        "X0",
+        "X1"
+      ],
+      "expect_absent": [
+        "J0",
+        "Fop0",
+        "R0"
+      ]
+    },
+    {
+      "id": "neural_rearrangement_no_seed",
+      "given": [
+        "carrier",
+        "neural_rest0",
+        "neural_equation",
+        "neural_domain",
+        "nonzero_gamma",
+        "J0"
+      ],
+      "expect_present": [],
+      "expect_absent": [
+        "Fop0",
+        "dotN0",
+        "R0"
+      ]
+    },
+    {
+      "id": "neural_derivative_supplied",
+      "given": [
+        "carrier",
+        "neural_rest0",
+        "neural_equation",
+        "neural_domain",
+        "nonzero_gamma",
+        "J0",
+        "dotN0"
+      ],
+      "expect_present": [
+        "Fop0",
+        "R0"
+      ],
+      "expect_absent": [
+        "X0"
+      ]
+    },
+    {
+      "id": "rebuild_loop_no_seed",
+      "given": [
+        "carrier",
+        "capacities",
+        "formation_law",
+        "ground_gate",
+        "neutral_assessment0",
+        "completion_contract",
+        "origin_rebuild_extension",
+        "peripheral_gate",
+        "finite_contract"
+      ],
+      "hypothetical_only": true,
+      "expect_present": [
+        "Y0"
+      ],
+      "expect_absent": [
+        "P0",
+        "RC0",
+        "rhoW0",
+        "X0"
+      ]
+    },
+    {
+      "id": "earliest_scalar_sector",
+      "given": [
+        "scalar_sector_data",
+        "scalar_feedback_contract"
+      ],
+      "expect_present": [
+        "scalar_diagnostics"
+      ],
+      "expect_absent": [
+        "K0",
+        "rhoF0",
+        "Y0",
+        "J0",
+        "Fop0",
+        "R0",
+        "P0",
+        "rhoW0",
+        "X0"
+      ]
+    }
+  ],
+  "expected_cyclic_components": [
+    [
+      "Fop0",
+      "dotN0"
+    ],
+    [
+      "P0",
+      "RC0"
+    ]
+  ],
+  "prohibited_shortcuts": [
+    {
+      "id": "successor_is_origin",
+      "from": "Y1",
+      "to": "Y0",
+      "reason": "Temporal alias; no fixed-point or initial boundary theorem supplied"
+    },
+    {
+      "id": "recursion_neutral_is_resolvent",
+      "from": "C0",
+      "to": "NR0",
+      "reason": "Missing historical role identification"
+    },
+    {
+      "id": "scalar_is_feedback_operator",
+      "from": "scalar_diagnostics",
+      "to": "Fop0",
+      "reason": "Scalar/operator type bridge missing"
+    },
+    {
+      "id": "formed_line_is_persistence",
+      "from": "Pi0",
+      "to": "P0",
+      "reason": "Requires explicit origin support premise"
+    },
+    {
+      "id": "formed_profile_is_identity",
+      "from": "Pi0",
+      "to": "rhoW0",
+      "reason": "Requires explicit witness representation premise"
+    },
+    {
+      "id": "Hessian_is_interface",
+      "from": "H0",
+      "to": "Y0",
+      "reason": "Source-neutral mixed block/metric not fixed by the source Hessian alone"
+    }
+  ],
+  "new_law_adopted": false,
+  "event_rule_modified": false
+}

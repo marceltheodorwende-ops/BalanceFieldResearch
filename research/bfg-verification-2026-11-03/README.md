@@ -40,6 +40,10 @@ The last command intentionally replays checks without regenerating manuscript fi
 
 ## Status and next steps
 
+### Consolidated origin-to-event dependency checkpoint
+
+[The dependency closure audit](dependency_closure/README.md) unifies the earlier findings into a source-linked premise ledger and guarded inference graph: 38 nodes, 16 rules, 9 source records and 8 premise packets. It separates the complete finite event's sufficiency from a unique original initializer, preserves the conditional Gram derivation, and tests two guarded circular attempts and six unlicensed shortcuts. The complete supplied state closes; the smaller reviewed formation packet does not yet supply the interface, origin persistence and witness representation. This is dependency bookkeeping and a bounded source conclusion, not a full historical impossibility theorem or formal proof-assistant certification.
+
 ### Original raw-recursion definition located
 
 [The raw-recursion source audit](raw_recursion/README.md) directly checks the May 14 original cognitive PDF, including visual verification of pages 3 and 5, plus the original core/consolidated sources. R is genuinely defined as the composition of primitive coupling and feedback maps; their origin values are not derived in that axiom. The existing neural interface equation conditionally reconstructs feedback when its other instantaneous data are supplied. Exact controls distinguish scalar feedback from an operator prescription, and original inverse-neutral normalization from later conjugate mediation. No new primitive, initializer or physical rule is adopted.

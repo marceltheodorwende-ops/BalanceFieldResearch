@@ -10,6 +10,10 @@
   "coupling_independence/README.md": "e3520e85606fe7dca83625692dd7964e134c1db189a5e5a851f2a0ea84fdaf88",
   "coupling_independence/results.json": "4fb59bf2622f730193cf7f2978e81b2b0c9d27233b616416e155d6549c652cf9",
   "coupling_independence/SOURCES.json": "142844ed55062985693ad31649f486a6a0ce16d2bc38a6d52eb598b7a7409367",
+  "dependency_closure/check_dependencies.py": "9ff1d2c732553672609dd4ca4f820227390554da256fa591fc2965d7223b93c5",
+  "dependency_closure/dependency_graph.json": "052623c3b7703a31e01c035b58c76a648089df4d3c4b811793803ebb91e54f02",
+  "dependency_closure/README.md": "9904cb3d24c6798ec8164fd296b85406f27c3a12544d6d7718b2b5df634565b9",
+  "dependency_closure/results.json": "0ba704fdcd3285b66eb1a6b090b32c9cc2223b827b9c101826a2614d98b25aa9",
   "EXPERIMENT_PROTOCOL.md": "af6e90b6c0fc9656713302561eca010d9d26c37690c1e11594f6c25a6f2cd7f3",
   "FORMALIZATION_PLAN.md": "86c38f363866b6deab9d2be6f9470b79e0770bbc4cf0139013ec795c7505ee4f",
   "formation_initialization/check_formation.py": "75f8eb46ce938c0c2c7b63663507067d3d252ae4c72d8a39f5880175d44066d6",
@@ -70,13 +74,13 @@
   "raw_recursion/SOURCES.json": "5b8c0fffe6e055d9db718df238e8377993a4433d79c7ca3be4e0392ef71304a0",
   "rc_pilot.py": "0618a4646911cab95eac1f84bb3d5075a2e54246956da8d70efe91d695d1a84d",
   "rc_pilot_results.json": "5785f02788ad0b08af6258e8f900d088789c8825f7bc90f0e105fd8868b4d86b",
-  "README.md": "f628841b048464b72546392fc36da8887af32b150ceb9d8b0071b99e18e37367",
+  "README.md": "0e737f0c74ac293a6af5698746d91257d1215314ecafc850ae18a992c1dd22a9",
   "reference_main.tex": "9dea6e5f4aee9be1ed7f58716a91730ea6c684b189ea24ed2ff6f394c760761b",
   "scalar_controls.py": "71012e88ffef95b9d1b8b2b0c6267f5bec52734d4883f35e5159b37ad410656b",
   "SCALAR_PROOF.md": "caeab1cc4fe7d107bffde9a0888df133c7fd67d6f8b796c3454bbe68b578e2d3",
   "scalar_results.json": "ec26ecedb2cda5ff262297815ee91a2b2d98ef65aee8bec96fdbd0a0de662727",
   "SOURCE.json": "78f1af47b0e67a56071f9ed14fe7cb8f51bbcf6ea68de512956298168e25064a",
-  "STAGE_CHECK.json": "23c87952051c0e5c8f789859056c44898987d6a6457ec07b02e981b62e059bf3",
+  "STAGE_CHECK.json": "c55bb5cdf016aa3d6e47a25404e84181f50d5485cbc1e12e1bb50f5ac2d3813e",
   "synthetic_fixed_time_trace.csv": "f0cf448b50d8490b0d51c23dbaf1f2e19a747c229474e02c129f7fcf60316bae",
-  "validate_stage.py": "c1ef25f78cec7e4ba21a59f02fde59b88e9bbc0e401dd2b4f1c940eb2e039b1e"
+  "validate_stage.py": "bc452f0c49cd1c3a7574a88eaaf20c458b694e282d07aaa5e7afe89ccf281ac4"
 }
