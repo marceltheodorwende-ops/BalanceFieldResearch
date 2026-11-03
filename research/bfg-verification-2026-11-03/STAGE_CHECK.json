@@ -22,5 +22,6 @@
   "profile_identity_bridge": "PASS; exact equivalent alignment criteria and sharp gap bound; historical enforcing premise unresolved",
   "origin_subset": "PASS; conditional root restriction consistent; transport/seed separation proved and checked; forcing origin premise unresolved",
   "initial_persistence": "PASS; containing and neutral-invariant minimal supports distinguished; same-input P dependence checked; origin criterion unresolved",
-  "origin_no_choice": "PASS; stronger-packet relative support nonuniqueness and source no-tie-break boundary; full historical origin theorem not established"
+  "origin_no_choice": "PASS; stronger-packet relative support nonuniqueness and source no-tie-break boundary; full historical origin theorem not established",
+  "joint_initialization": "PASS; exact joint positive-sector persistence criterion and conditional mode matching; neutral/raw-recursion origin premises unresolved"
 }

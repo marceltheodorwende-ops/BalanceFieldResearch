@@ -40,6 +40,10 @@ The last command intentionally replays checks without regenerating manuscript fi
 
 ## Status and next steps
 
+### Joint neutral-interface and recursive-origin constraints
+
+[The joint initialization analysis](joint_initialization/README.md) proves an exact positive-sector kernel criterion linking a specified neutral recursion operator and raw recursion to the protected formed line. It keeps N_R distinct from C_N(Y) unless an additional identification is explicitly assumed. Under that comparison identification a common formed mode obeys y=r-1, with a conditional surviving interval 1<r<2; even fixed raw R need not determine transverse Y. Exact noncommuting and quadratic-interface compatibility controls passed. No new identification, raw-recursion prescription or origin rule is adopted.
+
 ### No-choice origin checkpoint
 
 [The no-choice audit](origin_no_choice/README.md) checks the original recovery/no-tie-break clauses and distinguishes them from a smallest-rank axiom. Three parameter-free covariant support assignments preserve the same fresh formation on a scalar-neutral stratum while satisfying the enumerated scale, commutation and boundedness requirements. Exact arguments and unchanged-event controls yield distinct successor dimensions and spectra. No-choice forbids an unjustified preference; it does not supply a missing origin criterion or invalidate deterministic evolution from supplied initial data. The next distinct obligation is the initial neutral interface and its joint relation to origin recursion.

@@ -104,6 +104,12 @@ assert not no_choice['historical_all_axioms_independence_theorem']
 assert not no_choice['new_origin_rule_installed']
 assert not no_choice['new_physical_rule_adopted'] and not no_choice['event_rule_modified']
 report['origin_no_choice']='PASS; stronger-packet relative support nonuniqueness and source no-tie-break boundary; full historical origin theorem not established'
+joint=json.loads((root/'joint_initialization/results.json').read_text(encoding='utf-8'))
+assert joint['status']=='PASS' and joint['noncommuting_kernel_fixture']
+assert joint['fixed_raw_R_two_Ys_same_protected_line']
+assert not joint['unique_joint_initializer_derived']
+assert not joint['new_identification_or_origin_law_adopted'] and not joint['event_rule_modified']
+report['joint_initialization']='PASS; exact joint positive-sector persistence criterion and conditional mode matching; neutral/raw-recursion origin premises unresolved'
 (root/'STAGE_CHECK.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 manifest={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json' and '__pycache__' not in p.parts}
 (root/'SHA256SUMS.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')

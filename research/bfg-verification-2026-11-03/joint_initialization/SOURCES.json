@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-03",
+  "source_commit": "d0ea12a66f2a3b05ae560c9205e1636438a395bf",
+  "original_clauses": [
+    {
+      "name": "BFG_Canonical_Universal_Reclosure_Architecture_Preprint_2026-09-22_FINAL.txt",
+      "extraction_sha256": "2fa39375e105db141dc4c34bf307804b5ad618c90cc14d1d512420c09583069b",
+      "location": "Neutral elimination Section 4; recursion paragraphs 107-108 explicitly use N_R and raw R"
+    },
+    {
+      "name": "BFG_Canonical_Minimal_Finite_Closure_and_Universal_Reclosure_Preprint_2026-09-26.txt",
+      "extraction_sha256": "ce14f9392cf77455bf5507ea406d5694689477097ee4714efe10df8940dd5f22",
+      "location": "Paragraph 191: successor neutral transverse rebuild"
+    },
+    {
+      "name": "3.1_The_Recursive_Conjugate_Closure_Extension_of_the_BFG.txt",
+      "extraction_sha256": "e4b7a5e085a76ad14f438dd37b79c6fb88cf6b6232ee3cec53e4a418cda50033",
+      "location": "Section 2: conjugate grammar M=sqrt(N)"
+    }
+  ],
+  "prior_trace": [
+    "../foundation_audit/interface_sources.json",
+    "../foundation_audit/premise_source_inventory.json",
+    "../origin_bridge/SOURCES.json"
+  ],
+  "scope": "Targeted distinction of recursion mediator from neutral interface response, exact positive-sector joint kernel theorem, and explicitly additional resolvent-identification comparison. Not a full historical independence theorem.",
+  "N_R_equals_neutral_resolvent_adopted": false,
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false
+}
