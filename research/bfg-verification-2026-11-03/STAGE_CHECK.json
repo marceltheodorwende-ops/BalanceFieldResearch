@@ -10,5 +10,6 @@
   "formal_proof_assistant": "NOT EXECUTED",
   "hardware": "NOT EXECUTED",
   "published_pdf_modified": false,
-  "scope": "Artifact consistency and recorded controls; not external review or a proof of every manuscript claim"
+  "scope": "Artifact consistency and recorded controls; not external review or a proof of every manuscript claim",
+  "foundation_audit": "PASS; relative nonuniqueness, not a full historical independence theorem"
 }

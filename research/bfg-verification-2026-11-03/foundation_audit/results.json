@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "scope": "Relative nonuniqueness and source-local counterexamples; not a model of every historical BFG assertion",
+  "successor_witness": {
+    "input_load": "1/2",
+    "original": "8/45",
+    "alternative": "8/53",
+    "free_fit_parameters": 0,
+    "tested_scalar_inputs": 100,
+    "exact_orthogonal_covariance": true,
+    "excluded_if_exact_Gram_rule_is_assumed": true
+  },
+  "feedback_witness": {
+    "same_initial_phi": "3/2",
+    "initial_derivatives": [
+      "-1/2",
+      "-1"
+    ],
+    "full_historical_PDEs_enforced": false
+  },
+  "stability_witness": {
+    "strict_descent_formula": "(2*n**2 + 8*n + 7)/(2*(n + 1)**2*(n + 2)**2)",
+    "lower_bound": "-1/2",
+    "limit_phi": "2",
+    "limit_deviation_squared": "1",
+    "interpretation": "Refutes convergence to balance from the stated numerical inequalities alone; bounded-fluctuation wording needs a quantitative definition"
+  },
+  "process_measure": {
+    "increments": [
+      "1",
+      "-1"
+    ],
+    "total": "0",
+    "monotone_clock_from_definition_alone": false
+  },
+  "new_physical_rules_adopted": false,
+  "formal_proof_assistant": false
+}

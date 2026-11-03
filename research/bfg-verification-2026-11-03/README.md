@@ -40,6 +40,12 @@ The last command intentionally replays checks without regenerating manuscript fi
 
 ## Status and next steps
 
+### Follow-up: foundation-to-event derivation audit
+
+[Open the derivation audit](foundation_audit/README.md) and its [status ledger](foundation_audit/DERIVATION_STATUS.md). Six historical text extractions, including the April 2025 sources, were traced separately from the November event definitions. An exact, parameter-free successor witness shows nonuniqueness relative to an explicitly listed structural packet: the same input yields loads 8/45 and 8/53. The stronger exact Gram identification excludes the witness, so the result does not refute the defined event. Source-local checks also expose the limits of a monotone-descent balance argument and the telescoping process-time definition. All controls passed. No new physical law, paper or experimental claim was introduced. Earlier September G/S/R findings are credited.
+
+Reproduce this follow-up with `python foundation_audit/verify_foundations.py` (SymPy required). See its source manifest for extraction hashes and the explicit limit on any claim about all historical axioms.
+
 This stage found no contradiction in the focused central finite-model proof chain. It does not certify all 48 statements, establish historical uniqueness of the model, or validate a universal physical law. Next: execute the scalar proof-assistant pilot; certify ambiguous rank decisions; complete adversarial reviews of the other claims; identify a physically discriminating prediction before presenting hardware as a natural-law test.
 
 The original publication remains unchanged. This dated research stage is an internal AI-assisted analytic/computational review, not external peer review. No background scheduler was created. Repository-wide rights remain in force for new materials; the original publication retains its existing file-specific published terms.

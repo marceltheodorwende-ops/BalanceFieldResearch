@@ -1,0 +1,56 @@
+[
+  {
+    "source_extraction": "BFG_White_paper_1.0_7d3f23d9.txt",
+    "source_date": "17 April 2025",
+    "extraction_sha256": "14b89ccd52a12fb7eb0f50fd3077053e9724dcd999b9a95bf1df494b862c0b3a",
+    "extraction_bytes": 114334,
+    "provenance": "Previously supplied BFG manuscript, extracted into the source library for the November preprint; this hash is of extracted text, not the original PDF",
+    "interpretive_locations": "SOURCE_LEDGER.md"
+  },
+  {
+    "source_extraction": "BFG_Balancefeld-Gleichung_a6820a15.txt",
+    "source_date": "18 April 2025",
+    "extraction_sha256": "57cb226f23f3b54ee09b8b3b7038a6084fd17dc8cbe8cedced168c8282d8b23e",
+    "extraction_bytes": 242817,
+    "provenance": "Previously supplied BFG manuscript, extracted into the source library for the November preprint; this hash is of extracted text, not the original PDF",
+    "interpretive_locations": "SOURCE_LEDGER.md"
+  },
+  {
+    "source_extraction": "BFG_Englisch_b8ba1fb1.txt",
+    "source_date": "29 June 2025",
+    "extraction_sha256": "53046d9e1a1c704063060eb9281a9223c80cb09ac22a0d7d4a95d852dc54da87",
+    "extraction_bytes": 35083,
+    "provenance": "Previously supplied BFG manuscript, extracted into the source library for the November preprint; this hash is of extracted text, not the original PDF",
+    "interpretive_locations": "SOURCE_LEDGER.md"
+  },
+  {
+    "source_extraction": "3.1_The_Recursive_Conjugate_Closure_Extension_of_the_BFG.txt",
+    "source_date": "16 May 2026",
+    "extraction_sha256": "e4b7a5e085a76ad14f438dd37b79c6fb88cf6b6232ee3cec53e4a418cda50033",
+    "extraction_bytes": 9115,
+    "provenance": "Previously supplied BFG manuscript, extracted into the source library for the November preprint; this hash is of extracted text, not the original PDF",
+    "interpretive_locations": "SOURCE_LEDGER.md"
+  },
+  {
+    "source_extraction": "BFG_Compact_But_Rigorois_Recursive_Stability_Formulation.txt",
+    "source_date": "21 May 2026",
+    "extraction_sha256": "7f8811856db4efcd92a257bb81058d3c9cd59b4c9163416bea7d0c421486c3aa",
+    "extraction_bytes": 11228,
+    "provenance": "Previously supplied BFG manuscript, extracted into the source library for the November preprint; this hash is of extracted text, not the original PDF",
+    "interpretive_locations": "SOURCE_LEDGER.md"
+  },
+  {
+    "source_extraction": "BFG_LEVEL_0.txt",
+    "source_date": "1 June 2026",
+    "extraction_sha256": "115e6129c6675f337e9affafae175012f988ad6005e399aecd6ea364775028bf",
+    "extraction_bytes": 44797,
+    "provenance": "Previously supplied BFG manuscript, extracted into the source library for the November preprint; this hash is of extracted text, not the original PDF",
+    "interpretive_locations": "SOURCE_LEDGER.md"
+  },
+  {
+    "source": "November preprint computational supplement main.tex",
+    "doi": "10.5281/zenodo.23897937",
+    "sha256": "9dea6e5f4aee9be1ed7f58716a91730ea6c684b189ea24ed2ff6f394c760761b",
+    "source_date": "2 November 2026"
+  }
+]

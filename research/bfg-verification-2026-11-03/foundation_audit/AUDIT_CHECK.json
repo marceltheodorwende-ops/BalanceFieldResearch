@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "Relative derivation audit, not an independence theorem for every historical sentence",
+  "source_extractions": 6,
+  "reference_preprint": "10.5281/zenodo.23897937",
+  "exact_witness_controls": "PASS",
+  "new_physical_rules_adopted": false,
+  "new_paper_created": false,
+  "published_pdf_modified": false,
+  "proof_assistant": "NOT EXECUTED",
+  "prior_GSR_dossier_credited": true
+}
