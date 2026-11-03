@@ -35,6 +35,10 @@
   "foundation_audit/verify_foundations.py": "3d5435fceba276a53e55edb80161c3949605bace28d8166671d75efe6f9567f7",
   "foundation_audit/verify_interface.py": "0afe3e63a274b3174b6741b6dbd1e8ad63d2c53a51a929386b43791f6479e435",
   "foundation_audit/verify_premise_candidates.py": "37d3f184d4c5abbf0675e1541bf1472012f789a8e923a117313243b3f62a28fd",
+  "initial_persistence/check_persistence.py": "9284f8ba2f50559c7ef24fa7b40e5de9ef68c4041304d6601a24732613c4addc",
+  "initial_persistence/README.md": "fbb8cc68d5d3f3ea8a089c00d36280b7ae86b13d63a894c8e1a01b12c92f9b6f",
+  "initial_persistence/results.json": "6924e60af89eca53ebbb13c6571fd6969a9ba1e217ae32aefc582edc9c8967b3",
+  "initial_persistence/SOURCES.json": "d047e19bcbf7e43c766f7aeb306584ea7d247498cad7982b89bc5aa5e18064e5",
   "initial_state_audit/check_initial_state.py": "5f22f8d096e1e35ce5f27d67e296dd0eb8519f76c60da3b6f4c0e3e332d187c4",
   "initial_state_audit/README.md": "1395d5b39190713ae92834c25b7ce4f7400a5578f52a9fd9e7372b489c4d8d74",
   "initial_state_audit/results.json": "976095de085a6f58ba3abd78686c7183b12f718f6a6eca1ff7638bbf9342f1ec",
@@ -54,13 +58,13 @@
   "PROOF_AUDIT.md": "c4bd74403f68b2a30bab72587fd0de6e4f82d71086e1b751272a00165387db02",
   "rc_pilot.py": "0618a4646911cab95eac1f84bb3d5075a2e54246956da8d70efe91d695d1a84d",
   "rc_pilot_results.json": "5785f02788ad0b08af6258e8f900d088789c8825f7bc90f0e105fd8868b4d86b",
-  "README.md": "ebb37dea8242b000313d5723f9af08b503f43c0c09276fce3bf05792404771d6",
+  "README.md": "7bc449c45302905277b4622bf12c2916720d42364e302b191dd99644d1a237c2",
   "reference_main.tex": "9dea6e5f4aee9be1ed7f58716a91730ea6c684b189ea24ed2ff6f394c760761b",
   "scalar_controls.py": "71012e88ffef95b9d1b8b2b0c6267f5bec52734d4883f35e5159b37ad410656b",
   "SCALAR_PROOF.md": "caeab1cc4fe7d107bffde9a0888df133c7fd67d6f8b796c3454bbe68b578e2d3",
   "scalar_results.json": "ec26ecedb2cda5ff262297815ee91a2b2d98ef65aee8bec96fdbd0a0de662727",
   "SOURCE.json": "78f1af47b0e67a56071f9ed14fe7cb8f51bbcf6ea68de512956298168e25064a",
-  "STAGE_CHECK.json": "acf41d631c2babdb8626b59ed1bb94fb7d843d854d34be3870034199296af834",
+  "STAGE_CHECK.json": "f907dabb821b067ed26027dcbfeedeba2ebb13161490b543a0c0b4006ea79f63",
   "synthetic_fixed_time_trace.csv": "f0cf448b50d8490b0d51c23dbaf1f2e19a747c229474e02c129f7fcf60316bae",
-  "validate_stage.py": "79baa9780e480683f9bd1c655ae158c3b16d9c7672e0f40aa126b0a7a8324b4b"
+  "validate_stage.py": "b1d1aa1470fb0240ccca66a46efe607e5fd1d89b743dd4780c6e7ac55d1e5628"
 }

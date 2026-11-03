@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-03",
+  "source_commit": "34f5fc047385b081b6da22573a127cb02778bf59",
+  "repository_sources": [
+    {
+      "path": "research/bfg-verification-2026-11-03/baseline/extended_controls.py",
+      "git_blob_sha": "78decc58a9a0f4b7b6e1f10021ff39f34d8a632c",
+      "url": "https://github.com/marceltheodorwende-ops/BalanceFieldResearch/blob/34f5fc047385b081b6da22573a127cb02778bf59/research/bfg-verification-2026-11-03/baseline/extended_controls.py"
+    }
+  ],
+  "original_clauses": [
+    {
+      "name": "BFG_Canonical_Universal_Reclosure_Architecture_Preprint_2026-09-22_FINAL.txt",
+      "location": "Section 5, paragraphs 105-117; formation paragraphs 68-80",
+      "extraction_sha256": "2fa39375e105db141dc4c34bf307804b5ad618c90cc14d1d512420c09583069b"
+    },
+    {
+      "name": "BFG_Canonical_Minimal_Finite_Closure_and_Universal_Reclosure_Preprint_2026-09-26.txt",
+      "location": "State roles paragraphs 70-101; two-density seed clauses 165-183; finite recursion representative paragraph 306",
+      "extraction_sha256": "ce14f9392cf77455bf5507ea406d5694689477097ee4714efe10df8940dd5f22"
+    }
+  ],
+  "prior_trace": [
+    "../origin_bridge/SOURCES.json",
+    "../origin_subset/SOURCES.json"
+  ],
+  "scope": "Targeted persistence/state clauses plus finite analytic classification; older source lineage and repaired peripheral-space distinction retained from prior audits. No exhaustive historical absence theorem.",
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false
+}

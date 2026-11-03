@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "date": "2026-11-03",
+  "containing_projectors_classified": true,
+  "least_containing_projector": "Pi_0",
+  "least_neutral_invariant_support": "span(e,Y e,...,Y^(n-1)e)",
+  "example_minimal_ranks": [
+    1,
+    2
+  ],
+  "degenerate_neutral_example_cyclic_rank": 2,
+  "implementation_checks": [
+    {
+      "initial_support": "least_containing",
+      "initial_rank": 1,
+      "active_dimension": 2,
+      "seed_trace": 2.000000000000001,
+      "formation_trace": 4.000000000000002,
+      "kernel_trace": -4.0
+    },
+    {
+      "initial_support": "least_neutral_invariant",
+      "initial_rank": 2,
+      "active_dimension": 2,
+      "seed_trace": 0.0,
+      "formation_trace": 1.9999999999999996,
+      "kernel_trace": -3.0
+    }
+  ],
+  "profile_preservation_and_power_boundedness_force_P": false,
+  "origin_support_criterion_derived_from_original_premises": false,
+  "new_origin_support_rule_installed": false,
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false,
+  "baseline_sha256": "f445aea3784bb2dcd2af1a6878dfb8dd4b377543ea729a73de718d6a6f880f86",
+  "scope": "Finite analytic classification, exact fixtures and bounded binary64 checks; no full historical independence or physical validation"
+}

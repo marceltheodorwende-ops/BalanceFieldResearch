@@ -90,6 +90,13 @@ assert not origin_subset['fundamental_origin_identification_derived']
 assert not origin_subset['conditional_origin_rule_installed']
 assert not origin_subset['new_physical_rule_adopted'] and not origin_subset['event_rule_modified']
 report['origin_subset']='PASS; conditional root restriction consistent; transport/seed separation proved and checked; forcing origin premise unresolved'
+initial_persistence=json.loads((root/'initial_persistence/results.json').read_text(encoding='utf-8'))
+assert initial_persistence['status']=='PASS' and initial_persistence['containing_projectors_classified']
+assert initial_persistence['example_minimal_ranks']==[1,2]
+assert not initial_persistence['origin_support_criterion_derived_from_original_premises']
+assert not initial_persistence['new_origin_support_rule_installed']
+assert not initial_persistence['new_physical_rule_adopted'] and not initial_persistence['event_rule_modified']
+report['initial_persistence']='PASS; containing and neutral-invariant minimal supports distinguished; same-input P dependence checked; origin criterion unresolved'
 (root/'STAGE_CHECK.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 manifest={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json' and '__pycache__' not in p.parts}
 (root/'SHA256SUMS.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')

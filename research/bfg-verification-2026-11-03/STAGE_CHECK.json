@@ -20,5 +20,6 @@
   "formation_initialization": "PASS; fresh ground-state density derived; origin witness and persistence conditional; complete initializer unresolved",
   "origin_representation_audit": "PASS; primitive identity/persistence credited; conditional stationary-witness theorem; origin representation remains unresolved",
   "profile_identity_bridge": "PASS; exact equivalent alignment criteria and sharp gap bound; historical enforcing premise unresolved",
-  "origin_subset": "PASS; conditional root restriction consistent; transport/seed separation proved and checked; forcing origin premise unresolved"
+  "origin_subset": "PASS; conditional root restriction consistent; transport/seed separation proved and checked; forcing origin premise unresolved",
+  "initial_persistence": "PASS; containing and neutral-invariant minimal supports distinguished; same-input P dependence checked; origin criterion unresolved"
 }

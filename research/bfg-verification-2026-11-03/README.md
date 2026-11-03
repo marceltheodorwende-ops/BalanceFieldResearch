@@ -40,6 +40,10 @@ The last command intentionally replays checks without regenerating manuscript fi
 
 ## Status and next steps
 
+### Initial persistent-support classification
+
+[The initial-persistence audit](initial_persistence/README.md) classifies every orthogonal support containing the fresh formed line as P=Pi+Q on an orthogonal complement. The least such support is Pi; the least Y-invariant containing support is instead the cyclic span of the formed vector under Y and can be larger. Neither origin criterion is silently adopted. Exact invariants and unchanged-event controls with the same K, formation, witness and Y show different seed stock and successor kernel traces for the two support choices. Preservation and bounded recursion do not determine the full origin support under that stated packet.
+
 ### Fresh-origin subset and later two-density separation
 
 [The origin-subset analysis](origin_subset/README.md) proves that a root-only identification of witness and normalized fresh formation is consistent with the existing state category. Common nonzero transport preserves the equality without seeding; an orthogonal formation seed breaks it, with an exact separation formula. Two unchanged-event checks begin from the actual fresh quartic minimum: an isotropic coupling gives a one-dimensional unseeded output, while a noncommuting coupling gives a two-dimensional seeded output with distinct formation and witness. The subset is not forced by no ancestry alone, and no boundary rule is installed.
