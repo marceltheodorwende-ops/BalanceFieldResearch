@@ -2,6 +2,8 @@
 
 Research stage for **The Balance Field Gleichung: Finite Dynamics and Physical Correspondence in RC Models**, DOI [10.5281/zenodo.23897937](https://doi.org/10.5281/zenodo.23897937). [Published paper](../../papers/finite-dynamics-rc-models-2026-11-02/README.md).
 
+The latest [source symmetry analysis](source_symmetry/README.md) distinguishes a unique matrix initializer from a unique joint state class. K-only covariant matrix rules are spectrally restricted, while a unique quotient class can be noncommuting. The original three capacity operators retain joint information lost in K. Exact commutant and event checks establish these conditional results without selecting a new physical initialization law.
+
 ## Results of the first milestone
 
 - An indexed register of 48 numbered statements, with original statement text, available adjacent proofs, labels and PDF pages. Seven central dependencies received a focused analytic review; the remaining rows are explicitly pending detailed adversarial review. Definitions and limitations are indexed but are not treated as positive theorems.

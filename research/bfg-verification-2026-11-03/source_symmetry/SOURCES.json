@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-03",
+  "source_commit": "b2c9c0c16477a2df476a0a572edef44ec27c8d82",
+  "original_clauses": [
+    {
+      "source": "BFG_Canonical_Universal_Reclosure_Architecture_Preprint_2026-09-22_FINAL.txt",
+      "location": "Section 3.1, paragraphs 68-70: three separately supplied self-adjoint capacities on a real Hilbert space and K=c+aleph-D; section 3 subsequent formation construction",
+      "extraction_sha256": "2fa39375e105db141dc4c34bf307804b5ad618c90cc14d1d512420c09583069b"
+    },
+    {
+      "source": "BFG_Canonical_Minimal_Finite_Closure_and_Universal_Reclosure_Preprint_2026-09-26.txt",
+      "location": "Section 3: finite five-object state and common unitary convention; finite event and inherited/seed support construction",
+      "extraction_sha256": "ce14f9392cf77455bf5507ea406d5694689477097ee4714efe10df8940dd5f22"
+    }
+  ],
+  "prior_trace": [
+    "../joint_canonical_data/SOURCES.json",
+    "../initial_state_audit/SOURCES.json",
+    "../foundation_audit/DERIVATION_PROGRAM_CROSSWALK.md",
+    "../plugin_synthesis/SOURCES.json"
+  ],
+  "preserved_event": {
+    "path": "research/bfg-verification-2026-11-03/baseline/extended_controls.py",
+    "sha256": "f445aea3784bb2dcd2af1a6878dfb8dd4b377543ea729a73de718d6a6f880f86",
+    "git_blob_sha": "78decc58a9a0f4b7b6e1f10021ff39f34d8a632c"
+  },
+  "scope": "Written finite symmetry proofs with exact rational/algebraic fixtures and three preserved event comparisons. Complex unitary theorem and real orthogonal counterpart distinguished. No external scientific result or new physical law is needed for these finite algebra arguments.",
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false
+}

@@ -1,0 +1,185 @@
+{
+  "status": "PASS",
+  "commutant_dimensions": {
+    "K": 2,
+    "K_double": 2,
+    "capacities": 1,
+    "capacities_double": 4
+  },
+  "capacities": {
+    "c": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "aleph": [
+      [
+        "2",
+        "1"
+      ],
+      [
+        "1",
+        "2"
+      ]
+    ],
+    "distinction": [
+      [
+        "5",
+        "1"
+      ],
+      [
+        "1",
+        "2"
+      ]
+    ]
+  },
+  "phase_equivalence_checks": [
+    "1",
+    "-1",
+    "I",
+    "-I"
+  ],
+  "noncommuting_unique_class_fixture": true,
+  "commuting_sector_compression_identity": true,
+  "event_checks": [
+    {
+      "name": "spectral",
+      "Y": [
+        [
+          "1/4",
+          "0"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "exact_rank": 1,
+      "exact": {
+        "lc": "8/5",
+        "lb": "1/10",
+        "alpha": "1/17",
+        "gram": [
+          [
+            "32/425",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        "gram_trace": "32/425",
+        "gram_determinant": "0"
+      },
+      "implementation": {
+        "n": 2,
+        "p": 1,
+        "r": 1,
+        "p_next": 1,
+        "defect_next": 0,
+        "mass": 1.0,
+        "seed": 0.0,
+        "gram_max": 0.07529411764705884,
+        "formation": 2.0,
+        "k_norm": 1.9999999999999993
+      }
+    },
+    {
+      "name": "capacity_linear",
+      "Y": [
+        [
+          "1/2",
+          "1/4"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "exact_rank": 2,
+      "exact": {
+        "lc": "4/3",
+        "lb": "1/3",
+        "alpha": "1/5",
+        "gram": [
+          [
+            "8/45",
+            "2/45"
+          ],
+          [
+            "2/45",
+            "1/45"
+          ]
+        ],
+        "gram_trace": "1/5",
+        "gram_determinant": "4/2025"
+      },
+      "implementation": {
+        "n": 2,
+        "p": 1,
+        "r": 2,
+        "p_next": 2,
+        "defect_next": 0,
+        "mass": 1.0,
+        "seed": 2.0000000000000004,
+        "gram_max": 0.18958064164776156,
+        "formation": 4.000000000000002,
+        "k_norm": 2.000000000000001
+      }
+    },
+    {
+      "name": "capacity_square",
+      "Y": [
+        [
+          "5/16",
+          "1/4"
+        ],
+        [
+          "1/4",
+          "5/16"
+        ]
+      ],
+      "exact_rank": 2,
+      "exact": {
+        "lc": "32/21",
+        "lb": "25/168",
+        "alpha": "25/281",
+        "gram": [
+          [
+            "12800/123921",
+            "5120/123921"
+          ],
+          [
+            "5120/123921",
+            "4096/123921"
+          ]
+        ],
+        "gram_trace": "5632/41307",
+        "gram_determinant": "26214400/15356414241"
+      },
+      "implementation": {
+        "n": 2,
+        "p": 1,
+        "r": 2,
+        "p_next": 2,
+        "defect_next": 0,
+        "mass": 1.0,
+        "seed": 2.0000000000000004,
+        "gram_max": 0.12239810226825334,
+        "formation": 4.0,
+        "k_norm": 2.000000000000001
+      }
+    }
+  ],
+  "matrix_covariance_theorem_not_applied_to_quotient_rules": true,
+  "unique_source_initializer_derived": false,
+  "full_historical_independence_theorem": false,
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false
+}
