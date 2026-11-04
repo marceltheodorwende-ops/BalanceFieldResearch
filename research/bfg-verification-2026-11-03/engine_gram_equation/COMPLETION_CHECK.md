@@ -28,7 +28,7 @@ When all conditions are met, report explicitly to the user that the initial-Y ob
 | Original premises select the required pullback T^dagger W_N T | No complete source implication established in the inspected chain | Open |
 | Full initial-Y objective | Requires the preceding open implication or another sufficient source derivation | Not complete |
 
-The equations in the inspected master-Gram clauses specify the factorization and its positive weight role. Their inspected occurrences do not themselves supply the required initial numerical weight/pullback from the pointwise capacity triple. This is a bounded source finding, not a nonexistence theorem over every possible source formalization.
+The equations in the inspected master-Gram clauses specify the factorization and its positive weight role. Their inspected occurrences do not themselves supply the required initial numerical weight/pullback from the pointwise capacity triple. The [upstream citation-chain check](SOURCE_CHAIN_CHECK.md) follows that claim into the original structural and ontology documents. This is a bounded source finding, not a nonexistence theorem over every possible source formalization.
 
 ## Direct residual-freedom check
 

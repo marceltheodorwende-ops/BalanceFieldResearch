@@ -157,5 +157,57 @@
   },
   "scope": "Typed coordinate-independent target equation, induced endomorphism covariance and exact finite inverse-Gram solvability. A constructed weight is not attributed to original source law; no full software-correctness or all-page theorem verdict.",
   "new_physical_rule_adopted": false,
-  "event_rule_modified": false
+  "event_rule_modified": false,
+  "upstream_source_chain_review": {
+    "date": "2026-11-04",
+    "repository_head_checked": "b82e3272e76235bec45bce46db6358c4b7094181",
+    "inspected_original_document_count": 5,
+    "sources": [
+      {
+        "source": "BFG_Universal_Structural_Whitepaper_Strong_Form_V2.docx",
+        "original_sha256": "9784c915d4b060dae068258166fe46448694cd32055eed69b00ecda6703eb6c2",
+        "extraction_sha256": "ea2acf1d956c8b93c40d69b4f3055ccb797f0f2013a7dc026141ee00df15429c",
+        "locations": "P0158-P0164 (master factors); P0643-P0645 (construct D_cov c, W_N, L_C from one upstream model); P0091-P0092 premise-status discipline",
+        "repository_path": "papers/BFG_Universal_Structural_Whitepaper_Strong_Form_V2.docx",
+        "git_blob_sha": "1c03414f75a43990a7cef97dee776e5223e2b2bd"
+      },
+      {
+        "source": "BFG_Universal_Structural_Whitepaper_EN_Reviewed_Numbered_Coauthor_Corrected.docx",
+        "original_sha256": "89344ddff07830c214a43200788e75b16b9be2d08761aafffc8848395bc16f24",
+        "extraction_sha256": "d602349cda16f6510c580ebf2e648705216d563df44d6f13b3532423f0b2bdc5",
+        "locations": "P0108-P0116 supplied channel; P0133-P0141 master Gram; P0467-P0468 explicit remaining construction"
+      },
+      {
+        "source": "15_The_Balance_Field_Framework__BFG___Core_Ontology_and_Regime_Logic.pdf",
+        "original_sha256": "0978441f1d47ba54bdcb2e153281fae08dd1405f3b5c026e38da3a85bb4393fc",
+        "extraction_sha256": "8a6307ff3a8a020b90b9ad598482de71609f67252b422a35acffae5814279f25",
+        "locations": "All 6 pages read. Page1 disclaims unique microphysical mechanisms; page2 section3 defines ratio and roles; page3 section4 describes a pre-variational regime logic; page4 section6 leaves metric functional regime dependent. No numerical initial neutral metric/map is supplied."
+      },
+      {
+        "source": "BFG_Closure_Geometry_Sufficiency_Gram_Gap_Closure.docx",
+        "original_sha256": "833d9a735eb10eeb93da4123afa414194710a40eb77346fa64ab0423c0d91e0f",
+        "extraction_sha256": "4126c93fcedcd5566ce670d47f1172f9c322962dc05266ef7d0bfec981b30144",
+        "locations": "P0005,P0038-P0062,P0070-P0079,P0090-P0106,P0114: CGS is explicitly a new extension; it proves pullback uniqueness once the declared H and mediation L are supplied, not their origin selection. No adoption, no assertion that earliest axioms imply it."
+      },
+      {
+        "source": "Geometry__BFG_Admissible_Geometric_Closure_Whitepaper.docx",
+        "original_sha256": "d57ac0fbd8ced1014c2ce219903a37c3fd7476b3abee71abc49e5094386b79f1",
+        "extraction_sha256": "0b5b0921e457086e8e322062460ab042b5a207519dfc557c589fde1a9488c30e",
+        "locations": "Targeted P0054-P0107: domain-role separation, neutral corridor epsilon<d_R<L and symbolic persistence functions. This is not yet a specification of the initial W_N; later concrete operator construction remains to inspect."
+      }
+    ],
+    "engine_metric_candidate": {
+      "source": "BFG_Strongest_Version.pdf",
+      "section": "24.3",
+      "pdf_page": 24,
+      "equations": [
+        64,
+        65
+      ],
+      "status": "Existing recursive information metric formula; probability/parameter/carrier bridge to initial W_N remains to check."
+    },
+    "status": "Structural and AGC citation branch does not close initial input specification. CGS is a conditional supplied-geometry theorem; original-Y goal remains open.",
+    "proof_goal_complete": false,
+    "new_physical_rule_adopted": false
+  }
 }
