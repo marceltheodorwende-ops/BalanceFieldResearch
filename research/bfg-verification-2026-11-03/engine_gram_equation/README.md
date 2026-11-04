@@ -140,6 +140,8 @@ Six exact solvability cases cover square and rectangular maps, complex adjoints,
 
 ## 7. What is complete and what remains open
 
+The user-requested stopping criterion and direct current assessment are fixed in [COMPLETION_CHECK.md](COMPLETION_CHECK.md). The coordinate-equation subtask is complete. The original initial-Y derivation is not yet established; further work must target that implication rather than expand the objective.
+
 The coordinate-independent equation, its typed differential interpretation, its covariance and its exact finite solvability conditions are complete. The BFG-Engine material materially supports that formulation. The earlier foundational implication remains distinct: the sources must determine the actual field, connection, maps and positive weight, or otherwise imply (E_form), without selecting them to reproduce the desired candidate.
 
 Neither the configured runtime nor the fact that a positive solution W_0 exists proves that origin implication. The original proposal, published PDF and finite-event baseline remain unchanged. No missing metric or connection is adopted as a new law.

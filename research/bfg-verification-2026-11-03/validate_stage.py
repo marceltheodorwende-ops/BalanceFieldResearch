@@ -270,11 +270,18 @@ assert [x['positive_definite_weight_exists'] for x in engine_equation['inverse_G
 assert not engine_equation['metric_completion_is_source_derivation']
 assert not engine_equation['full_initial_Y_derived_from_original_assumptions']
 assert not engine_equation['reference_runtime_modified']
+assert engine_equation['completion_audit']['coordinate_equation_subtask_complete']
+assert not engine_equation['completion_audit']['original_Y_derivation_complete']
+assert engine_equation['completion_audit']['same_map_two_positive_weights']
+assert engine_equation['completion_audit']['candidate_trace']=='55/144'
+assert engine_equation['completion_audit']['comparison_trace']=='55/288'
 assert not engine_equation['new_physical_rule_adopted'] and not engine_equation['event_rule_modified']
 engine_sources=json.loads((root/'engine_gram_equation/SOURCES.json').read_text(encoding='utf-8'))
 assert engine_sources['plugin']['reference_count']==20
 assert engine_sources['runtime_static_trace']['ast_parse']=='PASS'
 report['engine_gram_equation']='PASS; BFG-Engine source inventory verified; typed gauge/coordinate independent equation and exact inverse-Gram feasibility proved and checked; constructed weight not adopted as source law'
+report['initial_Y_completion_criterion_recorded']=True
+report['initial_Y_goal_complete']=False
 (root/'STAGE_CHECK.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 manifest={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json' and '__pycache__' not in p.parts}
 (root/'SHA256SUMS.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')

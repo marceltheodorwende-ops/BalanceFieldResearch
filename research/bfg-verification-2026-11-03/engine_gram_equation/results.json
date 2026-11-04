@@ -223,6 +223,15 @@
     ]
   ],
   "unit_weight_response": "I; different from the candidate",
+  "completion_audit": {
+    "coordinate_equation_subtask_complete": true,
+    "original_Y_derivation_complete": false,
+    "same_map_two_positive_weights": true,
+    "both_responses_strictly_selected": true,
+    "candidate_trace": "55/144",
+    "comparison_trace": "55/288",
+    "scope": "Relative to the typed positive-Gram and covariance packet; not every historical source premise."
+  },
   "metric_completion_is_source_derivation": false,
   "full_initial_Y_derived_from_original_assumptions": false,
   "reference_runtime_modified": false,

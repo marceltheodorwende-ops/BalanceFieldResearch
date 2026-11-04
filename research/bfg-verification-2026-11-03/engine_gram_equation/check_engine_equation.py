@@ -81,6 +81,12 @@ assert zero(Hf.H*hV-hV*Hf) and zero(Qf.H*hV-hV*Qf)
 assert zero(Wf.H*hK-hK*Wf)
 assert not zero(Tf.H*Wf*Tf-Qf*Hf.inv()*Qf)
 
+# Completion audit: positive weights and covariance alone still allow distinct Y.
+half_weight=W/2; half_Y=s.simplify(Hh.inv()*T.H*half_weight*T*Hh.inv())
+assert pd(W) and pd(half_weight)
+assert zero(half_Y-Y/2) and not zero(half_Y-Y)
+assert pd(I-Y) and pd(I-half_Y)
+
 result=dict(status='PASS',date='2026-11-04',endomorphism_covariant_derivative_verified=True,
     gauge_pullback_identity_verified=True,
     nonorthonormal_frame_identity_verified=True,unchanged_adjoint_in_wrong_frame_rejected=True,
@@ -88,6 +94,10 @@ result=dict(status='PASS',date='2026-11-04',endomorphism_covariant_derivative_ve
         rank_at_connection_one_third=atother.rank(),connection_change_alone_is_not_a_gauge_change=True),
     inverse_Gram_cases=records,candidate_Y=serial(Y),
     unit_weight_response='I; different from the candidate',
+    completion_audit=dict(coordinate_equation_subtask_complete=True,original_Y_derivation_complete=False,
+        same_map_two_positive_weights=True,both_responses_strictly_selected=True,
+        candidate_trace=str(s.trace(Y)),comparison_trace=str(s.trace(half_Y)),
+        scope='Relative to the typed positive-Gram and covariance packet; not every historical source premise.'),
     metric_completion_is_source_derivation=False,
     full_initial_Y_derived_from_original_assumptions=False,
     reference_runtime_modified=False,new_physical_rule_adopted=False,event_rule_modified=False)

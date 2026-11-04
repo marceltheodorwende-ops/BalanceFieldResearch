@@ -147,6 +147,14 @@
     "../effective_response/SOURCES.json",
     "../joint_canonical_data/SOURCES.json"
   ],
+  "completion_check": {
+    "date": "2026-11-04",
+    "user_requested_explicit_endpoint": true,
+    "objective": "Source-derived unique initial Y without selecting a new constitutive coupling or metric; factor freedom that leaves Y unchanged is permitted.",
+    "coordinate_equation_subtask_complete": true,
+    "original_initial_Y_goal_complete": false,
+    "residual_control": "The same fixed T with positive W_0 and W_0/2 yields distinct strictly selected Y; relative to the typed positive-Gram/covariance packet only."
+  },
   "scope": "Typed coordinate-independent target equation, induced endomorphism covariance and exact finite inverse-Gram solvability. A constructed weight is not attributed to original source law; no full software-correctness or all-page theorem verdict.",
   "new_physical_rule_adopted": false,
   "event_rule_modified": false

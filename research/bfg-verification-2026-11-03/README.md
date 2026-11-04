@@ -20,6 +20,8 @@ The [capacity-Gram follow-up](capacity_gram/README.md) reduces the candidate res
 
 The requested [BFG-Engine equation synthesis](engine_gram_equation/README.md) verifies all 20 bundled source fingerprints, traces the candidate runtime without modifying it, and works out the invariant equality T^dagger W_N T=aleph_0 H^(-1) aleph_0. Gauge and nonorthonormal-coordinate covariance are checked. A finite theorem gives exact kernel conditions and an explicit positive-weight completion, with six algebraic controls. This completes the equation's formulation and solvability analysis; reverse construction of its weight is not a source derivation of initial Y.
 
+The [explicit completion check](engine_gram_equation/COMPLETION_CHECK.md) fixes the requested endpoint: a source-derived unique initial Y, allowing factor freedoms that leave Y unchanged. Coordinate formulation and conditional metric completion are already complete subtasks. The original-Y source implication remains open, with a direct positive-weight freedom control. Further work is restricted to that implication; unrelated theory or empirical goals are not added to the acceptance conditions.
+
 ## Results of the first milestone
 
 - An indexed register of 48 numbered statements, with original statement text, available adjacent proofs, labels and PDF pages. Seven central dependencies received a focused analytic review; the remaining rows are explicitly pending detailed adversarial review. Definitions and limitations are indexed but are not treated as positive theorems.
