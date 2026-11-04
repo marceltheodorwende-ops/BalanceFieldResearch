@@ -1,0 +1,158 @@
+{
+  "status": "PASS",
+  "date": "2026-11-04",
+  "source_status": "EXISTING PROPOSAL; NOT ADOPTED",
+  "explicit_candidate": {
+    "H": [
+      [
+        "2",
+        "0"
+      ],
+      [
+        "0",
+        "3"
+      ]
+    ],
+    "neutral_capacity": [
+      [
+        "1",
+        "1/4"
+      ],
+      [
+        "1/4",
+        "1"
+      ]
+    ],
+    "A": [
+      [
+        "1/2",
+        "sqrt(6)/24"
+      ],
+      [
+        "sqrt(6)/24",
+        "1/3"
+      ]
+    ],
+    "Y": [
+      [
+        "25/96",
+        "5*sqrt(6)/144"
+      ],
+      [
+        "5*sqrt(6)/144",
+        "35/288"
+      ]
+    ]
+  },
+  "independent_clause_controls": [
+    {
+      "name": "proposed",
+      "Y": [
+        [
+          "25/96",
+          "5*sqrt(6)/144"
+        ],
+        [
+          "5*sqrt(6)/144",
+          "35/288"
+        ]
+      ],
+      "trace_Y": "55/144",
+      "mixed_clause": true,
+      "metric_clause": true,
+      "E": [
+        [
+          "20672/12961",
+          "-1920/12961"
+        ],
+        [
+          "-1920/12961",
+          "34848/12961"
+        ]
+      ]
+    },
+    {
+      "name": "mixed_clause_changed",
+      "Y": [
+        [
+          "25/384",
+          "5*sqrt(6)/576"
+        ],
+        [
+          "5*sqrt(6)/576",
+          "35/1152"
+        ]
+      ],
+      "trace_Y": "55/576",
+      "mixed_clause": false,
+      "metric_clause": true,
+      "E": [
+        [
+          "303872/161761",
+          "-7680/161761"
+        ],
+        [
+          "-7680/161761",
+          "471168/161761"
+        ]
+      ]
+    },
+    {
+      "name": "metric_clause_changed",
+      "Y": [
+        [
+          "25/192",
+          "5*sqrt(6)/288"
+        ],
+        [
+          "5*sqrt(6)/288",
+          "35/576"
+        ]
+      ],
+      "trace_Y": "55/288",
+      "mixed_clause": true,
+      "metric_clause": false,
+      "E": [
+        [
+          "78208/44129",
+          "-3840/44129"
+        ],
+        [
+          "-3840/44129",
+          "124992/44129"
+        ]
+      ]
+    }
+  ],
+  "whole_carrier_selection_criterion_verified": true,
+  "rank_one_input": {
+    "mean_Y": "25/96",
+    "Lambda_C": "96/121",
+    "Lambda_B": "625/11616",
+    "alpha": "625/9841",
+    "exact_Gram_determinant": "3538944000000/20759646065290561",
+    "event": {
+      "n": 2,
+      "p": 1,
+      "r": 2,
+      "p_next": 2,
+      "defect_next": 0,
+      "mass": 1.0,
+      "seed": 1.0,
+      "gram_max": 0.08214335953995638,
+      "formation": 1.9999999999999996,
+      "k_norm": 1.0000000000000007
+    }
+  },
+  "existing_scalar_boundary": {
+    "Y": "1",
+    "exact_selection": "excluded",
+    "implementation_terminal": "selection"
+  },
+  "original_source_implication_of_mixed_and_metric_clauses_established": false,
+  "candidate_formula_computation_complete": true,
+  "proposal_adopted": false,
+  "historical_all_axioms_independence_theorem": false,
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false
+}

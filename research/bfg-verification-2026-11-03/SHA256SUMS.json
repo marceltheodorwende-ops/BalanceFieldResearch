@@ -67,6 +67,10 @@
   "initial_state_audit/README.md": "1395d5b39190713ae92834c25b7ce4f7400a5578f52a9fd9e7372b489c4d8d74",
   "initial_state_audit/results.json": "976095de085a6f58ba3abd78686c7183b12f718f6a6eca1ff7638bbf9342f1ec",
   "initial_state_audit/SOURCES.json": "dc4eec8f147a84693e422a09a39fce779507ecba19a247a040cab0b842bc9e28",
+  "initial_y_closure/check_initial_y.py": "d4145ca0ee89c92fd40595e7300000cd4f84e60afa42d770fece6f2c27ef1fd7",
+  "initial_y_closure/README.md": "12d717cb2abe33c8611fa707e53b81c82ee9bf8dd31f3d672faedd1a000007f7",
+  "initial_y_closure/results.json": "7fc2c3a49b418b7e8ce78af8d157c780aeb2e97c00f9ee88f03182cfe663c3a0",
+  "initial_y_closure/SOURCES.json": "366b9f4eb481773c5b0dddc9bac3ddca50b5324beb35bda0b9b3aeb09dbb9f6a",
   "joint_canonical_data/check_canonical.py": "4365294194004dcc0ab61ac84c6d8eb874a82e89172f6c5ce64118bdc47287dd",
   "joint_canonical_data/README.md": "c3b8ba23bf6de93cf6d14479e862373da34129b0aba6328f7b380fb151f5ea94",
   "joint_canonical_data/results.json": "6e0d3b45e7f1706a34be6b8213982a86a18cb925d9bc091e2abf2b5bcea4eb22",
@@ -112,7 +116,7 @@
   "raw_recursion/SOURCES.json": "5b8c0fffe6e055d9db718df238e8377993a4433d79c7ca3be4e0392ef71304a0",
   "rc_pilot.py": "0618a4646911cab95eac1f84bb3d5075a2e54246956da8d70efe91d695d1a84d",
   "rc_pilot_results.json": "5785f02788ad0b08af6258e8f900d088789c8825f7bc90f0e105fd8868b4d86b",
-  "README.md": "73d0703e69cb1dc4b97ac573feea97e248c73be76efa97d0c769b1c3f6c1b2a8",
+  "README.md": "b8ef43a23b34640fd3e68ebd8e7cfc8db0089a5bd28479b85bd3b35136417e24",
   "recursion_compatibility/check_compatibility.py": "2a75ecefe5e11848e558a2ebad4f9e2de94146f07f1f3e96d6aa416941b9159c",
   "recursion_compatibility/README.md": "2952cd03f3fd324fc52241a837268886a701d3ef46f621e15fbeb61706796e33",
   "recursion_compatibility/results.json": "f0bc252f350622fd01fd4a6fc5c69034890f0232daef56dcae9027506df21778",
@@ -130,7 +134,7 @@
   "source_symmetry/README.md": "01f041ae14dc3da26cebec7c819d581a68c4bbe705231d67129c9a4a9cc4fad1",
   "source_symmetry/results.json": "f280f35a6430ed018c8951e366b3cd981917ca1c886221e0378c8c7e4050d3bb",
   "source_symmetry/SOURCES.json": "d0cd6cf78bbc9b365ca316f353f2de88c7b606bb270fbf56bac8e6332d932da0",
-  "STAGE_CHECK.json": "10e582dd08d21c0f9766462e2f9ea52a3d9a1a8908556d2c2ac9c25f4ec45348",
+  "STAGE_CHECK.json": "3af0ca22d8aff0c283a222a4a81facd75da473771a9018fed1f1e5f8db4fc648",
   "synthetic_fixed_time_trace.csv": "f0cf448b50d8490b0d51c23dbaf1f2e19a747c229474e02c129f7fcf60316bae",
-  "validate_stage.py": "5f1e8da5f29474b45eef59786f22e007dc8e163fb93b6f88736e3c9244d16946"
+  "validate_stage.py": "295f1cb738397e0bc207d5cd9b385dd6444899b0b15e227dcdd412f57b802dc8"
 }

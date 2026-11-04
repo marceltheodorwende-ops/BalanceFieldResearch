@@ -238,6 +238,17 @@ assert not compatibility['raw_selfadjointness_assumed_universally']
 assert not compatibility['new_physical_rule_adopted'] and not compatibility['event_rule_modified']
 report['latest_followup_date']='2026-11-04'
 report['recursion_compatibility']='PASS; dual fixed-point compatibility and sharp conditional cost/load bound; nonselfadjoint bounded exception and positive finite event checked; origin identifications remain unadopted'
+initial_y=json.loads((root/'initial_y_closure/results.json').read_text(encoding='utf-8'))
+assert initial_y['status']=='PASS' and initial_y['candidate_formula_computation_complete']
+assert initial_y['source_status']=='EXISTING PROPOSAL; NOT ADOPTED'
+assert [(x['mixed_clause'],x['metric_clause']) for x in initial_y['independent_clause_controls']]==[(True,True),(False,True),(True,False)]
+assert initial_y['whole_carrier_selection_criterion_verified']
+assert initial_y['rank_one_input']['alpha']=='625/9841'
+assert initial_y['existing_scalar_boundary']['implementation_terminal']=='selection'
+assert not initial_y['original_source_implication_of_mixed_and_metric_clauses_established']
+assert not initial_y['proposal_adopted'] and not initial_y['new_physical_rule_adopted']
+assert not initial_y['event_rule_modified']
+report['initial_y_closure']='PASS; existing candidate computed exactly with strict domain and event checks; two source identifications remain proposed, not historically derived or adopted'
 (root/'STAGE_CHECK.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 manifest={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json' and '__pycache__' not in p.parts}
 (root/'SHA256SUMS.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')
