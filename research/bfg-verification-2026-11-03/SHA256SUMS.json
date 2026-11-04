@@ -112,7 +112,11 @@
   "raw_recursion/SOURCES.json": "5b8c0fffe6e055d9db718df238e8377993a4433d79c7ca3be4e0392ef71304a0",
   "rc_pilot.py": "0618a4646911cab95eac1f84bb3d5075a2e54246956da8d70efe91d695d1a84d",
   "rc_pilot_results.json": "5785f02788ad0b08af6258e8f900d088789c8825f7bc90f0e105fd8868b4d86b",
-  "README.md": "eacc150316987958300a1ca0195f9ebb220ee67bf4d9c160b0e48dcb7c436794",
+  "README.md": "73d0703e69cb1dc4b97ac573feea97e248c73be76efa97d0c769b1c3f6c1b2a8",
+  "recursion_compatibility/check_compatibility.py": "2a75ecefe5e11848e558a2ebad4f9e2de94146f07f1f3e96d6aa416941b9159c",
+  "recursion_compatibility/README.md": "2952cd03f3fd324fc52241a837268886a701d3ef46f621e15fbeb61706796e33",
+  "recursion_compatibility/results.json": "f0bc252f350622fd01fd4a6fc5c69034890f0232daef56dcae9027506df21778",
+  "recursion_compatibility/SOURCES.json": "e42ddf754417d1b382055c54bf301e24b005e3454f19e38a2b508370cd052ca0",
   "reference_main.tex": "9dea6e5f4aee9be1ed7f58716a91730ea6c684b189ea24ed2ff6f394c760761b",
   "role_information/check_roles.py": "19843ad1dc5e9e30f231d23e960c23b70c73c779f113fdb832bc261d3740f5bb",
   "role_information/README.md": "4999d324fab2c6bb452796b757b61920af99b63f0b5e35517680423a3cbefefb",
@@ -126,7 +130,7 @@
   "source_symmetry/README.md": "01f041ae14dc3da26cebec7c819d581a68c4bbe705231d67129c9a4a9cc4fad1",
   "source_symmetry/results.json": "f280f35a6430ed018c8951e366b3cd981917ca1c886221e0378c8c7e4050d3bb",
   "source_symmetry/SOURCES.json": "d0cd6cf78bbc9b365ca316f353f2de88c7b606bb270fbf56bac8e6332d932da0",
-  "STAGE_CHECK.json": "643ee70ec79a8eb6885b394ad1453211382931df712d56261a527a53c2ce4fab",
+  "STAGE_CHECK.json": "10e582dd08d21c0f9766462e2f9ea52a3d9a1a8908556d2c2ac9c25f4ec45348",
   "synthetic_fixed_time_trace.csv": "f0cf448b50d8490b0d51c23dbaf1f2e19a747c229474e02c129f7fcf60316bae",
-  "validate_stage.py": "2eeb49d56d20296a92d5ea7d3c13f2db529493117ffbf70b17e923c993a487ba"
+  "validate_stage.py": "5f1e8da5f29474b45eef59786f22e007dc8e163fb93b6f88736e3c9244d16946"
 }

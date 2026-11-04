@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-04",
+  "source_commit": "22118e5adf86f161ef55ba3023b0e9c5b31b1778",
+  "focused_sources": [
+    {
+      "extraction": "3.1_The_Recursive_Conjugate_Closure_Extension_of_the_BFG.txt",
+      "extraction_sha256": "7370a60aaf6b6580f7b4369ef77e53a1dd17e03b6879e34a1683a7a6b2420c65",
+      "location": "Original normalized versus conjugate recursion definitions; norm preservation and phase claims are distinguished from bounded propagation."
+    },
+    {
+      "extraction": "BFG_The_Neutral_Interface.txt",
+      "extraction_sha256": "d9a49c1c74e75df107c646438e5e25e4e927e8247de1602d54809a63b7ec6c28",
+      "location": "Sections9-12: same-N inverse and direct square-root recursions, norm-preservation prose and normalized-recursion residual in the Lyapunov cost."
+    },
+    {
+      "extraction": "BFG_A_White_Paper_on_Why_Recursive_Stability_Can_Exist_at_All.txt",
+      "extraction_sha256": "d03b3fb2e9ead50884fffeafc1d659e737a7938ef6b75f2d0330edc2e22d151c",
+      "location": "Sections4,8-15: primitive factor roles, positive N, recursion definitions, cost and bounded-iteration conjunction."
+    },
+    {
+      "extraction": "BFG_Canonical_Minimal_Finite_Closure_and_Universal_Reclosure_Preprint_2026-09-26.txt",
+      "extraction_sha256": "ce14f9392cf77455bf5507ea406d5694689477097ee4714efe10df8940dd5f22",
+      "location": "Paragraphs190-193: successor rich-state canonical lift; paragraph306: finite representative versus phase-rich continuum data."
+    }
+  ],
+  "prior_trace": [
+    "../joint_initialization/SOURCES.json",
+    "../raw_recursion/SOURCES.json",
+    "../functional_hessian/SOURCES.json",
+    "../admissible_quotient/SOURCES.json",
+    "../plugin_synthesis/SOURCES.json"
+  ],
+  "preserved_event": {
+    "path": "research/bfg-verification-2026-11-03/baseline/extended_controls.py",
+    "sha256": "f445aea3784bb2dcd2af1a6878dfb8dd4b377543ea729a73de718d6a6f880f86"
+  },
+  "scope": "Conditional exact compatibility of same-vector normalized/conjugate fixed points and a comparison identification N=C_N(Y). That identification and equality to the successor canonical lift are not adopted origin laws. Raw self-adjointness is not assumed universally.",
+  "coverage": "Focused clauses in the integrated prior BFG source inventory; exact finite algebra plus one preserved event comparison; not a universal impossibility or all-source independence theorem.",
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false
+}

@@ -12,6 +12,8 @@ The next [admissible quotient analysis](admissible_quotient/README.md) uses the 
 
 The [role information analysis](role_information/README.md) gives a complete finite moment diagnostic for a pure state relative to one Hermitian information operator. In the source's conditional two-mode branch, normalization and known mean information suffice for that class. Forty-eight exact reconstruction fixtures passed. Identity continuity does not itself select an initial value, and even complete primitive state moments do not determine a neutral response without a source bridge. Mixed densities require additional information.
 
+On **4 November 2026**, the [recursion compatibility audit](recursion_compatibility/README.md) derives an exact test for simultaneously identifying older normalized/conjugate fixed points with a retained neutral response. Under the explicit canonical comparison, the older cost obeys a sharp lower bound in the mean load; zero cost forces a zero-load direction. Exact phase and nonselfadjoint exceptions delimit the theorem, and one fresh preserved event passes with positive loads. None of the comparison identifications is adopted as an origin law.
+
 ## Results of the first milestone
 
 - An indexed register of 48 numbered statements, with original statement text, available adjacent proofs, labels and PDF pages. Seven central dependencies received a focused analytic review; the remaining rows are explicitly pending detailed adversarial review. Definitions and limitations are indexed but are not treated as positive theorems.

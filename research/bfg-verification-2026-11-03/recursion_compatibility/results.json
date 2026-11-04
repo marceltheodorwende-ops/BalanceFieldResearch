@@ -1,0 +1,141 @@
+{
+  "status": "PASS",
+  "date": "2026-11-04",
+  "phase_flip_control": {
+    "N": [
+      [
+        "2",
+        "0"
+      ],
+      [
+        "0",
+        "1/2"
+      ]
+    ],
+    "R": [
+      [
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "0"
+      ]
+    ],
+    "both_fixed": true,
+    "globally_unitary_conjugate": true,
+    "neutral_not_fixed": true
+  },
+  "nonselfadjoint_control": {
+    "N": [
+      [
+        "9/16",
+        "0"
+      ],
+      [
+        "0",
+        "16/25"
+      ]
+    ],
+    "Y": [
+      [
+        "7/9",
+        "0"
+      ],
+      [
+        "0",
+        "9/16"
+      ]
+    ],
+    "raw_R": [
+      [
+        "-256/31",
+        "875/93"
+      ],
+      [
+        "-1107/155",
+        "256/31"
+      ]
+    ],
+    "normalized_R": [
+      [
+        "-4096/279",
+        "4375/279"
+      ],
+      [
+        "-369/31",
+        "400/31"
+      ]
+    ],
+    "conjugate_R": [
+      [
+        "-144/31",
+        "175/31"
+      ],
+      [
+        "-3321/775",
+        "4096/775"
+      ]
+    ],
+    "raw_involution": true,
+    "conjugate_eigenvalues": [
+      "1",
+      "-9/25"
+    ],
+    "normalized_eigenvalues": [
+      "1",
+      "-25/9"
+    ],
+    "both_fixed": true,
+    "global_norm_preservation": false,
+    "lc": "576/481",
+    "lb": "37249/69264",
+    "exact_event_Gram_determinant": "246267984875618304/773283344182314764929",
+    "exact_event_rank": 2,
+    "event": {
+      "n": 2,
+      "p": 1,
+      "r": 2,
+      "p_next": 2,
+      "defect_next": 0,
+      "mass": 0.9999999999999996,
+      "seed": 2.0000000000000004,
+      "gram_max": 0.22365074297527054,
+      "formation": 4.000000000000002,
+      "k_norm": 2.0
+    }
+  },
+  "canonical_comparison": {
+    "R": [
+      [
+        "427/300",
+        "319/960"
+      ],
+      [
+        "319/960",
+        "1281/1024"
+      ]
+    ],
+    "normalized_R": [
+      [
+        "1708/675",
+        "319/576"
+      ],
+      [
+        "319/576",
+        "32025/16384"
+      ]
+    ],
+    "mean_load": "193/288",
+    "exact_residual_squared": "809583131604409/244611809280000",
+    "lower_residual_squared": "22027605889/6879707136",
+    "older_zero_cost": false
+  },
+  "sharp_commuting_bound_verified": true,
+  "zero_load_boundary_verified": true,
+  "source_neutral_identification_adopted": false,
+  "raw_selfadjointness_assumed_universally": false,
+  "full_historical_independence_theorem": false,
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false
+}

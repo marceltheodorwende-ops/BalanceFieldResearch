@@ -226,6 +226,18 @@ assert not roles['moments_determine_mixed_density_joint_class']
 assert not roles['full_historical_independence_theorem']
 assert not roles['new_physical_rule_adopted'] and not roles['event_rule_modified']
 report['role_information']='PASS; complete pure-state moment diagnostic and conditional two-mode closure; mixed-state and source-response limits retained; role preservation separated from origin selection'
+compatibility=json.loads((root/'recursion_compatibility/results.json').read_text(encoding='utf-8'))
+assert compatibility['status']=='PASS' and compatibility['date']=='2026-11-04'
+assert compatibility['phase_flip_control']['both_fixed'] and compatibility['phase_flip_control']['neutral_not_fixed']
+assert compatibility['nonselfadjoint_control']['exact_event_rank']==2
+assert compatibility['nonselfadjoint_control']['conjugate_eigenvalues']==['1','-9/25']
+assert compatibility['sharp_commuting_bound_verified'] and compatibility['zero_load_boundary_verified']
+assert not compatibility['canonical_comparison']['older_zero_cost']
+assert not compatibility['source_neutral_identification_adopted']
+assert not compatibility['raw_selfadjointness_assumed_universally']
+assert not compatibility['new_physical_rule_adopted'] and not compatibility['event_rule_modified']
+report['latest_followup_date']='2026-11-04'
+report['recursion_compatibility']='PASS; dual fixed-point compatibility and sharp conditional cost/load bound; nonselfadjoint bounded exception and positive finite event checked; origin identifications remain unadopted'
 (root/'STAGE_CHECK.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 manifest={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json' and '__pycache__' not in p.parts}
 (root/'SHA256SUMS.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')
