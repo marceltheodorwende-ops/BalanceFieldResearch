@@ -283,10 +283,13 @@ assert engine_sources['upstream_source_chain_review']['inspected_original_docume
 assert engine_sources['upstream_source_chain_review']['engine_metric_candidate']['equations']==[64,65]
 assert not engine_sources['upstream_source_chain_review']['proof_goal_complete']
 assert not engine_sources['upstream_source_chain_review']['new_physical_rule_adopted']
+assert engine_sources['upstream_source_chain_review']['engine_metric_candidate']['completed_source_check']
+assert engine_sources['upstream_source_chain_review']['requires_existing_source_input']
+assert not engine_sources['upstream_source_chain_review']['automatic_repetition_of_closed_checks_justified']
 report['engine_gram_equation']='PASS; BFG-Engine source inventory verified; typed gauge/coordinate independent equation and exact inverse-Gram feasibility proved and checked; constructed weight not adopted as source law'
 report['initial_Y_completion_criterion_recorded']=True
 report['initial_Y_goal_complete']=False
-report['upstream_source_chain']='CHECKED; five original structural/ontology/CGS/AGC sources traced; source input selection unresolved; BFG-Engine information metric candidate retained for a bounded role check'
+report['upstream_source_chain']='CHECKED; structural/ontology/CGS/AGC and BFG-Engine Fisher/thermodynamic metric routes traced; initial input specification missing in that chain; original-Y goal not complete'
 (root/'STAGE_CHECK.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 manifest={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json' and '__pycache__' not in p.parts}
 (root/'SHA256SUMS.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')

@@ -140,7 +140,7 @@ Six exact solvability cases cover square and rectangular maps, complex adjoints,
 
 ## 7. What is complete and what remains open
 
-The user-requested stopping criterion and direct current assessment are fixed in [COMPLETION_CHECK.md](COMPLETION_CHECK.md). The coordinate-equation subtask is complete. The original initial-Y derivation is not yet established; further work must target that implication rather than expand the objective. The [upstream citation-chain check](SOURCE_CHAIN_CHECK.md) records the actual structural sources, the scope of CGS, and the remaining BFG-Engine metric-source candidate.
+The user-requested stopping criterion and direct current assessment are fixed in [COMPLETION_CHECK.md](COMPLETION_CHECK.md). The coordinate-equation subtask is complete. The original initial-Y derivation is not yet established; further work must target that implication rather than expand the objective. The [upstream citation-chain check](SOURCE_CHAIN_CHECK.md) records the actual structural sources, the scope of CGS, and the checked BFG-Engine statistical-metric route. That route still requires an initial probability/field model and a justified response-carrier map; no such complete input prescription was established.
 
 The coordinate-independent equation, its typed differential interpretation, its covariance and its exact finite solvability conditions are complete. The BFG-Engine material materially supports that formulation. The earlier foundational implication remains distinct: the sources must determine the actual field, connection, maps and positive weight, or otherwise imply (E_form), without selecting them to reproduce the desired candidate.
 

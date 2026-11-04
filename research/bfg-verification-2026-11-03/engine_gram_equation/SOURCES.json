@@ -193,7 +193,7 @@
         "source": "Geometry__BFG_Admissible_Geometric_Closure_Whitepaper.docx",
         "original_sha256": "d57ac0fbd8ced1014c2ce219903a37c3fd7476b3abee71abc49e5094386b79f1",
         "extraction_sha256": "0b5b0921e457086e8e322062460ab042b5a207519dfc557c589fde1a9488c30e",
-        "locations": "Targeted P0054-P0107: domain-role separation, neutral corridor epsilon<d_R<L and symbolic persistence functions. This is not yet a specification of the initial W_N; later concrete operator construction remains to inspect."
+        "locations": "P0069-P0070,P0183-P0185,P0342,P0367-P0368,P0449-P0459: carrier proxies, operator family and thresholds must be declared; checked operational annex supplies no initial master weight/map prescription."
       }
     ],
     "engine_metric_candidate": {
@@ -204,10 +204,18 @@
         64,
         65
       ],
-      "status": "Existing recursive information metric formula; probability/parameter/carrier bridge to initial W_N remains to check."
+      "status": "CHECKED: p_theta and its parameter dependence are supplied; no source identification with initial response-space W_N established.",
+      "completed_source_check": true,
+      "additional_locations": [
+        "Strongest Version section24.2 equations61-63: information-state domain",
+        "Strongest Version section46 equations340-344: parameters, observation model and likelihood are supplied",
+        "BFG_BALANCE_FIELD_EQUATION_FW embedded thermodynamic note section7.1 eq38 (part309, printed12), section8.1 eq43 (part310, printed13): conditional phase-space density and mesoscopic evolution"
+      ]
     },
-    "status": "Structural and AGC citation branch does not close initial input specification. CGS is a conditional supplied-geometry theorem; original-Y goal remains open.",
+    "status": "INPUT_SPECIFICATION_MISSING in the checked structural, ontology, CGS, AGC and BFG-Engine statistical-metric source chain; no unique original-Y derivation established.",
     "proof_goal_complete": false,
-    "new_physical_rule_adopted": false
+    "new_physical_rule_adopted": false,
+    "requires_existing_source_input": true,
+    "automatic_repetition_of_closed_checks_justified": false
   }
 }

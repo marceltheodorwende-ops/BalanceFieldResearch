@@ -41,3 +41,7 @@ These controls satisfy the stated positive-Gram/covariance packet, not an assert
 Further work toward this objective must establish a concrete source implication fixing the relevant pullback, or a mathematically equivalent response quantity. Candidate source definitions of W_N, of the covariant closure map, or of a full joint assessment are relevant if they supply that implication. Additional transformations, arbitrary regularizers, further compatible examples or new phenomenological readouts do not by themselves satisfy it.
 
 This check does not claim the research is impossible or declare the original-Y task completed. It records the stopping criterion so a completed coordinate equation is not mistaken for a completed source derivation, and so success will be recognized without extending the goal.
+
+## Current source-input boundary
+
+The upstream structural/AGC citation route and the BFG-Engine recursive Fisher-metric route have now been checked; see [SOURCE_CHAIN_CHECK.md](SOURCE_CHAIN_CHECK.md). They leave an actual initial model, probability/field data or role map to be supplied or derived. No such complete initial pullback prescription was established in that chain. Further progress needs the existing source statement or model that fixes this input. This is an unresolved input specification, not a completed unique-Y theorem. Repetition of the same closed checks is not an additional proof step.

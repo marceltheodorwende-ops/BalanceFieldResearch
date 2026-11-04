@@ -44,5 +44,5 @@
   "engine_gram_equation": "PASS; BFG-Engine source inventory verified; typed gauge/coordinate independent equation and exact inverse-Gram feasibility proved and checked; constructed weight not adopted as source law",
   "initial_Y_completion_criterion_recorded": true,
   "initial_Y_goal_complete": false,
-  "upstream_source_chain": "CHECKED; five original structural/ontology/CGS/AGC sources traced; source input selection unresolved; BFG-Engine information metric candidate retained for a bounded role check"
+  "upstream_source_chain": "CHECKED; structural/ontology/CGS/AGC and BFG-Engine Fisher/thermodynamic metric routes traced; initial input specification missing in that chain; original-Y goal not complete"
 }
