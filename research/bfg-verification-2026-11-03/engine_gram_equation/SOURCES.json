@@ -1,0 +1,153 @@
+{
+  "date": "2026-11-04",
+  "source_commit": "41970c446aaec8b4ac329ca7a6aeb3765b07cdde",
+  "plugin": {
+    "name": "BFG-Engine",
+    "id": "gpt-db973449b2d2332ba4c21e08787e18eb",
+    "version": "0.24.1+bundle.f9b8b9f3584e112bca3dae5feb20e0d3",
+    "capability_used": "Bundled skill, 19 documents and one Python reference; no separate remote proof or simulation API exposed.",
+    "verified_inventory": [
+      {
+        "name": "1_Next_Trinitarian_Closure_BFG_Mathematical_Paper_EN_with_Expanded_Falsification.docx",
+        "sha256": "aeba9d806662cc5c9e07dd3527b466431e2634302f655c7e32645d99765fa8ae"
+      },
+      {
+        "name": "3.1_The_Recursive_Conjugate_Closure_Extension_of_the_BFG.pdf",
+        "sha256": "4fc0c22892b82bd2452718569730b2cf0014b87fcfce4c333079a20fae1899d1"
+      },
+      {
+        "name": "BFG_A_White_Paper_on_Why_Recursive_Stability_Can_Exist_at_All.pdf",
+        "sha256": "5bb574599b25a698747cea584e404738510d66129627784e3e733cbb30983a34"
+      },
+      {
+        "name": "BFG_BALANCE_FIELD_EQUATION_FW.pdf",
+        "sha256": "689c082aa7561fc695a46891d9c9a0261248c63b5e64139f5edb8ac279118fa7"
+      },
+      {
+        "name": "BFG_Compact_But_Rigorois_Recursive_Stability_Formulation.pdf",
+        "sha256": "209b5db0c18d6b60a8c7dd72f1b4291ea51fb5b2d87d2fea265666675ea30386"
+      },
+      {
+        "name": "BFG_LEVEL_0.pdf",
+        "sha256": "6004868c8b64e42fca6e478c88cdcb16c50c5fd90482f468c0336af9f0acdcbc"
+      },
+      {
+        "name": "BFG_Model_Of_Biological_Organism_Formation.pdf",
+        "sha256": "bff7ee6ff16b82bb4085552da7ced62e8963eb835ab5e0faa29076fdab23c066"
+      },
+      {
+        "name": "BFG_Standard_Modell.pdf",
+        "sha256": "8c743f967f721fa7c9b97fe62b828ac389ce7860c6630d76ea42d0e6350c4819"
+      },
+      {
+        "name": "BFG_Strongest_Version.pdf",
+        "sha256": "8ce66e2c64b2861f4e333bd5ce709670747d41e7bf3b30ab3870968a334f0df4"
+      },
+      {
+        "name": "BFG_TRI_FIB_The Recursive Closure Growth Principle.pdf",
+        "sha256": "e988eef6d96c1b6b588a743e10f4e97377950fa2c33985189f07b68eae75d638"
+      },
+      {
+        "name": "BFG_The Trinitarian Biological Closure Ladder.pdf",
+        "sha256": "71d2685cea6a8f09d5dbe79497c0c03bd8798d3eb7c5b6acbaa669e0754c0533"
+      },
+      {
+        "name": "BFG_The Trinitarian Stability Principle of the Atom.pdf",
+        "sha256": "b5d922ea02f451321e957cbf894d685e8cfe7f79fa5c06575e962dc679397093"
+      },
+      {
+        "name": "BFG_The_Neutral_Interface.pdf",
+        "sha256": "3ba049d1a99eeacb748ebed8ac5c86647671fd56c9d4fa7854326f5f413fb743"
+      },
+      {
+        "name": "BFG_Trinitarian_Recursive_Closure_Fusion_English_Illustrated.docx",
+        "sha256": "5c02513aa9d8d39036a4fa5090dc1bb32cecc339040b90112e7e41471cdb0c29"
+      },
+      {
+        "name": "BFG_X_Context_Recovery_Protocol_Master finish.docx",
+        "sha256": "c571e2fe9cc7804436b2b9e52b4f8a1541b7aad50b07b242c83441556232e329"
+      },
+      {
+        "name": "From_No_Supervenience_to_Conscious_Artificial_Systems.pdf",
+        "sha256": "f1ad37bbe38b9270578a16de9b86722f1d8f6b389473e67dabdb5b5a40848e70"
+      },
+      {
+        "name": "Full_BFG_Trinitarian_Recursive_Closure_Monograph_Pure_BFG_Strongest_EN_v3.docx",
+        "sha256": "29b4e352fa4204a93bf393ffe9639d8d9817a335b8c19fc453922524c434adb0"
+      },
+      {
+        "name": "The_Theo_Idealist_Balance__Field_Framework.pdf",
+        "sha256": "281e0638943782c692e849bb9a261e82239b0ea886d7e81eed2c09882fe16375"
+      },
+      {
+        "name": "Trinitarian_Recursive_Closure_Architecture_Whitepaper_EN_FINAL.docx",
+        "sha256": "3133dfbc73ac407c19d92571dac34d07da1dc6939c1b0b157b2034b20960113a"
+      },
+      {
+        "name": "bfg_runtime_strengthened_v4_candidate.py",
+        "sha256": "fbc60b4319b18c9175aee51e6617be91b268e324c6d5d00cc1557297735b0193"
+      }
+    ],
+    "reference_count": 20,
+    "prior_integrated_context": "../plugin_synthesis/SOURCES.json"
+  },
+  "runtime_static_trace": {
+    "name": "bfg_runtime_strengthened_v4_candidate.py",
+    "sha256": "fbc60b4319b18c9175aee51e6617be91b268e324c6d5d00cc1557297735b0193",
+    "lines": 1489,
+    "ast_parse": "PASS",
+    "inspected_methods": [
+      {
+        "class_name": "BFGState",
+        "method": "__post_init__",
+        "start_line": 487,
+        "end_line": 512
+      },
+      {
+        "class_name": "BFGRuntime",
+        "method": "level9_neutral_interface",
+        "start_line": 802,
+        "end_line": 815
+      },
+      {
+        "class_name": "BFGRuntime",
+        "method": "level10_conjugate_recursive_closure",
+        "start_line": 817,
+        "end_line": 834
+      }
+    ],
+    "target_identifier_Y_present": false,
+    "scope": "Static source trace of initialization, neutral update and conjugate closure. No general software-correctness verdict and no runtime simulation used to establish a mathematical theorem."
+  },
+  "focused_anchors": [
+    {
+      "source": "BFG_Standard_Modell.pdf",
+      "location": "Section3, Connection enforcement; PDF pages6-7: vector covariance and connection transformation law."
+    },
+    {
+      "source": "BFG_Strongest_Version.pdf",
+      "location": "Gauge Structure, equation14 and Recursive Gauge Covariance, equation47; connection convention absorbs i into the anti-Hermitian connection."
+    },
+    {
+      "source": "BFG_The_Neutral_Interface.pdf",
+      "location": "Section21, Local Interface Invariance, PDF pages14-15."
+    },
+    {
+      "source": "BFG_A_White_Paper_on_Why_Recursive_Stability_Can_Exist_at_All.pdf",
+      "location": "Section23, Gauge Structure as Interface Compensation, PDF page13."
+    },
+    {
+      "source": "BFG_Strong_Universal_Reclosure_Whitepaper_2026-09-08.txt",
+      "location": "Sections3.2-3.3, paragraphs133-160; external to the 20-file plugin bundle, already traced in capacity_gram."
+    }
+  ],
+  "prior_trace": [
+    "../capacity_gram/SOURCES.json",
+    "../initial_y_closure/SOURCES.json",
+    "../effective_response/SOURCES.json",
+    "../joint_canonical_data/SOURCES.json"
+  ],
+  "scope": "Typed coordinate-independent target equation, induced endomorphism covariance and exact finite inverse-Gram solvability. A constructed weight is not attributed to original source law; no full software-correctness or all-page theorem verdict.",
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false
+}

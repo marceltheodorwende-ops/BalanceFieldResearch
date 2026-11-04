@@ -40,5 +40,6 @@
   "latest_followup_date": "2026-11-04",
   "recursion_compatibility": "PASS; dual fixed-point compatibility and sharp conditional cost/load bound; nonselfadjoint bounded exception and positive finite event checked; origin identifications remain unadopted",
   "initial_y_closure": "PASS; existing candidate computed exactly with strict domain and event checks; two source identifications remain proposed, not historically derived or adopted",
-  "capacity_gram": "PASS; neutral-coordinate invariant target and rank checks; explicit source B_C relation retained; finite composition distinguished from field derivative; source implication unresolved"
+  "capacity_gram": "PASS; neutral-coordinate invariant target and rank checks; explicit source B_C relation retained; finite composition distinguished from field derivative; source implication unresolved",
+  "engine_gram_equation": "PASS; BFG-Engine source inventory verified; typed gauge/coordinate independent equation and exact inverse-Gram feasibility proved and checked; constructed weight not adopted as source law"
 }

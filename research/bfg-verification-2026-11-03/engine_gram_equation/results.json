@@ -1,0 +1,231 @@
+{
+  "status": "PASS",
+  "date": "2026-11-04",
+  "endomorphism_covariant_derivative_verified": true,
+  "gauge_pullback_identity_verified": true,
+  "nonorthonormal_frame_identity_verified": true,
+  "unchanged_adjoint_in_wrong_frame_rejected": true,
+  "connection_control": {
+    "same_capacity_field": true,
+    "rank_at_connection_zero": 2,
+    "rank_at_connection_one_third": 0,
+    "connection_change_alone_is_not_a_gauge_change": true
+  },
+  "inverse_Gram_cases": [
+    {
+      "name": "square_covariant_jet",
+      "shape": [
+        2,
+        2
+      ],
+      "operator_rank": 2,
+      "target_rank": 2,
+      "nonnegative_weight_exists": true,
+      "positive_definite_weight_exists": true,
+      "weight": [
+        [
+          "35/288",
+          "5*sqrt(6)/144"
+        ],
+        [
+          "5*sqrt(6)/144",
+          "25/96"
+        ]
+      ],
+      "extended_weight": [
+        [
+          "35/288",
+          "5*sqrt(6)/144"
+        ],
+        [
+          "5*sqrt(6)/144",
+          "25/96"
+        ]
+      ],
+      "pullback_verified": true
+    },
+    {
+      "name": "rectangular_full_rank",
+      "shape": [
+        3,
+        2
+      ],
+      "operator_rank": 2,
+      "target_rank": 2,
+      "nonnegative_weight_exists": true,
+      "positive_definite_weight_exists": true,
+      "weight": [
+        [
+          "155/864",
+          "-35/432",
+          "85/864"
+        ],
+        [
+          "-35/432",
+          "55/432",
+          "5/108"
+        ],
+        [
+          "85/864",
+          "5/108",
+          "125/864"
+        ]
+      ],
+      "extended_weight": [
+        [
+          "443/864",
+          "109/432",
+          "-203/864"
+        ],
+        [
+          "109/432",
+          "199/432",
+          "-31/108"
+        ],
+        [
+          "-203/864",
+          "-31/108",
+          "413/864"
+        ]
+      ],
+      "pullback_verified": true
+    },
+    {
+      "name": "complex_rectangular_full_rank",
+      "shape": [
+        3,
+        2
+      ],
+      "operator_rank": 2,
+      "target_rank": 2,
+      "nonnegative_weight_exists": true,
+      "positive_definite_weight_exists": true,
+      "weight": [
+        [
+          "85/864",
+          "5/72 + 5*I/216",
+          "65/864 + 5*I/72"
+        ],
+        [
+          "5/72 - 5*I/216",
+          "95/432",
+          "5/72 + 85*I/432"
+        ],
+        [
+          "65/864 - 5*I/72",
+          "5/72 - 85*I/432",
+          "235/864"
+        ]
+      ],
+      "extended_weight": [
+        [
+          "373/864",
+          "5/72 - 67*I/216",
+          "-223/864 + 5*I/72"
+        ],
+        [
+          "5/72 + 67*I/216",
+          "239/432",
+          "5/72 - 59*I/432"
+        ],
+        [
+          "-223/864 - 5*I/72",
+          "5/72 + 59*I/432",
+          "523/864"
+        ]
+      ],
+      "pullback_verified": true
+    },
+    {
+      "name": "rank_one_matching_kernel",
+      "shape": [
+        2,
+        2
+      ],
+      "operator_rank": 1,
+      "target_rank": 1,
+      "nonnegative_weight_exists": true,
+      "positive_definite_weight_exists": true,
+      "weight": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "extended_weight": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "pullback_verified": true
+    },
+    {
+      "name": "rank_one_wrong_kernel",
+      "shape": [
+        2,
+        2
+      ],
+      "operator_rank": 1,
+      "target_rank": 2,
+      "nonnegative_weight_exists": false,
+      "positive_definite_weight_exists": false
+    },
+    {
+      "name": "zero_target_nonzero_map",
+      "shape": [
+        2,
+        2
+      ],
+      "operator_rank": 1,
+      "target_rank": 0,
+      "nonnegative_weight_exists": true,
+      "positive_definite_weight_exists": false,
+      "weight": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "extended_weight": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "pullback_verified": true
+    }
+  ],
+  "candidate_Y": [
+    [
+      "25/96",
+      "5*sqrt(6)/144"
+    ],
+    [
+      "5*sqrt(6)/144",
+      "35/288"
+    ]
+  ],
+  "unit_weight_response": "I; different from the candidate",
+  "metric_completion_is_source_derivation": false,
+  "full_initial_Y_derived_from_original_assumptions": false,
+  "reference_runtime_modified": false,
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false
+}

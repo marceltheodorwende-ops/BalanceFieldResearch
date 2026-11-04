@@ -262,6 +262,19 @@ assert not capacity_gram['source_Dcov_typing_and_capacity_identification_resolve
 assert not capacity_gram['proposed_blocks_adopted'] and not capacity_gram['new_physical_rule_adopted']
 assert not capacity_gram['event_rule_modified']
 report['capacity_gram']='PASS; neutral-coordinate invariant target and rank checks; explicit source B_C relation retained; finite composition distinguished from field derivative; source implication unresolved'
+engine_equation=json.loads((root/'engine_gram_equation/results.json').read_text(encoding='utf-8'))
+assert engine_equation['status']=='PASS' and engine_equation['endomorphism_covariant_derivative_verified']
+assert engine_equation['gauge_pullback_identity_verified'] and engine_equation['nonorthonormal_frame_identity_verified']
+assert [x['nonnegative_weight_exists'] for x in engine_equation['inverse_Gram_cases']]==[True,True,True,True,False,True]
+assert [x['positive_definite_weight_exists'] for x in engine_equation['inverse_Gram_cases']]==[True,True,True,True,False,False]
+assert not engine_equation['metric_completion_is_source_derivation']
+assert not engine_equation['full_initial_Y_derived_from_original_assumptions']
+assert not engine_equation['reference_runtime_modified']
+assert not engine_equation['new_physical_rule_adopted'] and not engine_equation['event_rule_modified']
+engine_sources=json.loads((root/'engine_gram_equation/SOURCES.json').read_text(encoding='utf-8'))
+assert engine_sources['plugin']['reference_count']==20
+assert engine_sources['runtime_static_trace']['ast_parse']=='PASS'
+report['engine_gram_equation']='PASS; BFG-Engine source inventory verified; typed gauge/coordinate independent equation and exact inverse-Gram feasibility proved and checked; constructed weight not adopted as source law'
 (root/'STAGE_CHECK.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 manifest={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json' and '__pycache__' not in p.parts}
 (root/'SHA256SUMS.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')

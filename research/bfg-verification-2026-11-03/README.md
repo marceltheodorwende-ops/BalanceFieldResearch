@@ -18,6 +18,8 @@ The [direct initial-Y closure check](initial_y_closure/README.md), also dated **
 
 The [capacity-Gram follow-up](capacity_gram/README.md) reduces the candidate response to the invariant condition B M^(-1) B*=aleph_0 H^(-1) aleph_0. A screen of 75 deduplicated extractions and targeted source reading retains the existing B_C=D_cov c relation. A rank test rules out one literal finite-composition identification for the proposal's example; a positive-field control shows why differentiation is different and needs field-derivative data. The source implication of the target identity remains open; no proposed rule is adopted.
 
+The requested [BFG-Engine equation synthesis](engine_gram_equation/README.md) verifies all 20 bundled source fingerprints, traces the candidate runtime without modifying it, and works out the invariant equality T^dagger W_N T=aleph_0 H^(-1) aleph_0. Gauge and nonorthonormal-coordinate covariance are checked. A finite theorem gives exact kernel conditions and an explicit positive-weight completion, with six algebraic controls. This completes the equation's formulation and solvability analysis; reverse construction of its weight is not a source derivation of initial Y.
+
 ## Results of the first milestone
 
 - An indexed register of 48 numbered statements, with original statement text, available adjacent proofs, labels and PDF pages. Seven central dependencies received a focused analytic review; the remaining rows are explicitly pending detailed adversarial review. Definitions and limitations are indexed but are not treated as positive theorems.
