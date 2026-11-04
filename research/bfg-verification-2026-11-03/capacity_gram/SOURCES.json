@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-04",
+  "source_commit": "7137d880279676ccfaf64bce6b909aaacb103902",
+  "scope": "Neutral-coordinate invariant Gram criterion equivalent to the existing candidate response; literal finite-composition rank test and positive-field derivative control; no proposed block or role identification adopted.",
+  "search": {
+    "unique_extractions": 75,
+    "overlapping_candidate_contexts": 35,
+    "positive_source_files": [
+      {
+        "name": "BFG_Canonical_Universal_Reclosure_Architecture_Preprint_2026-09-22_FINAL.txt",
+        "sha256": "2fa39375e105db141dc4c34bf307804b5ad618c90cc14d1d512420c09583069b",
+        "characters": 47170,
+        "capacity_hits": 8,
+        "coupled_context_hits": 2
+      },
+      {
+        "name": "BFG_Endogenous_Dual_Order_Strong_Universal_Canonical_Closure_Whitepaper_2026-09-08.txt",
+        "sha256": "2a801245d6ab6de22456442c82b95d48baf5fb337ee9c634cba340d33923841e",
+        "characters": 96645,
+        "capacity_hits": 8,
+        "coupled_context_hits": 7
+      },
+      {
+        "name": "BFG_Strong_Universal_Reclosure_Whitepaper_2026-09-08.txt",
+        "sha256": "cb26cd8a546aa83ba212c1b4aed2ad0343fd6d8d6e0d3e8902ed41c709f945d6",
+        "characters": 84710,
+        "capacity_hits": 10,
+        "coupled_context_hits": 9
+      },
+      {
+        "name": "BFG_Unified_V3_Freedom_Closed_Canonical_Whitepaper_2026-09-09_RECOVERED.txt",
+        "sha256": "f4385d7bfddc68c58a2b59d8d72aaf25604076a1789772f1ee2f04d9d7e2baa7",
+        "characters": 59192,
+        "capacity_hits": 6,
+        "coupled_context_hits": 5
+      },
+      {
+        "name": "BFG_Unified_V4_Compact_Canonical_Universal_Reclosure_2026-09-12.txt",
+        "sha256": "0ae6fb253ef971d83dda8779e55d167c4c7b06ca014ee74483403320c7660118",
+        "characters": 115021,
+        "capacity_hits": 8,
+        "coupled_context_hits": 7
+      },
+      {
+        "name": "BFG_Universal_Reclosure_Unification_Whitepaper_2026-09-07_revised_final.txt",
+        "sha256": "ac0fbbc6ff2c67e8c17d966bd74854f67d798a1cb231045af7959b45f84b8043",
+        "characters": 78474,
+        "capacity_hits": 6,
+        "coupled_context_hits": 5
+      }
+    ],
+    "inventory_sha256": "b71aa57ea46f29ffe297c24c00f6682177789a722f455263e9a9a589c276dfe4",
+    "collections": "Existing BFG-Engine extraction collection, earlier original-source text collection, and targeted coupling-source collection. Duplicate byte-identical UTF-8 text extractions omitted.",
+    "capacity_pattern": "aleph|ℵ|neutral[- ]capacit|neutrale[nr]?\\s+Kapaz",
+    "factor_pattern": "mixed|cross[- ]Hess|Schur|Hess|B_C|W_N|L_C|Gram|channel",
+    "context_radius": "550 characters before and 850 after each capacity match",
+    "limits": "Automated text screen, not full theorem or semantic review; contexts overlap; extracted files can share source content; image-only or differently encoded mathematics can be missed."
+  },
+  "focused_reading": [
+    {
+      "name": "BFG_Strong_Universal_Reclosure_Whitepaper_2026-09-08.txt",
+      "location": "Sections 3.2-3.3, paragraphs133-160; B_C=D_cov c at155"
+    },
+    {
+      "name": "BFG_Unified_V3_Freedom_Closed_Canonical_Whitepaper_2026-09-09_RECOVERED.txt",
+      "location": "Sections 3.2-3.3, paragraphs91-108; B_C=D_cov c at103"
+    },
+    {
+      "name": "BFG_Unified_V4_Compact_Canonical_Universal_Reclosure_2026-09-12.txt",
+      "location": "Sections 3.2-3.3, paragraphs135-166; B_C=D_cov c at157"
+    }
+  ],
+  "prior_trace": [
+    "../initial_y_closure/SOURCES.json",
+    "../effective_response/SOURCES.json",
+    "../foundation_audit/premise_source_inventory.json",
+    "../plugin_synthesis/SOURCES.json"
+  ],
+  "target_identity_derived_from_original_sources": false,
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false
+}

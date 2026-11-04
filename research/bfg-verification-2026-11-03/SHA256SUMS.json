@@ -6,6 +6,10 @@
   "baseline/execution_log.txt": "d75c3f0f615a408bb427d3f536f78c17104e22fc18104e924752524b12c41cb2",
   "baseline/extended_controls.py": "f445aea3784bb2dcd2af1a6878dfb8dd4b377543ea729a73de718d6a6f880f86",
   "baseline/extended_verification.json": "dc782b055be199e883a4f6b86af84a719880ebbaf94d0ab6de36f9e14f230242",
+  "capacity_gram/check_capacity_gram.py": "f38c69dbdc76dccb039f8bfeb03f8bea5b1af87e03c3689442ce80f5ce041a88",
+  "capacity_gram/README.md": "85c3ff9ad460aac056fec2edec88f30962ad48efebc4a84ec2e1be65ae3d1c7a",
+  "capacity_gram/results.json": "744a23edf779659d24a7e4a2fcad6ab1f8a7c9905d1a3d190522c54891d7bce1",
+  "capacity_gram/SOURCES.json": "5995b37e05696a6abb1a4bf8aaf377d5990f49255daa3371dcbfcc12216acbf2",
   "claims.csv": "b802cd448b616f264775bf19755ca12d6aaf0c1ead83d53b135d13ad70a8148f",
   "claims.json": "21b6611e5f70739084b8cf4e5b0028b747240a9f7b38927c9aa3c272849ecc23",
   "configuration_hilbert_bridge/check_bridge.py": "e0cb1d4a919667ba8840bc01c56dfb496aad88b008f7380cc1f3518edc541c73",
@@ -116,7 +120,7 @@
   "raw_recursion/SOURCES.json": "5b8c0fffe6e055d9db718df238e8377993a4433d79c7ca3be4e0392ef71304a0",
   "rc_pilot.py": "0618a4646911cab95eac1f84bb3d5075a2e54246956da8d70efe91d695d1a84d",
   "rc_pilot_results.json": "5785f02788ad0b08af6258e8f900d088789c8825f7bc90f0e105fd8868b4d86b",
-  "README.md": "b8ef43a23b34640fd3e68ebd8e7cfc8db0089a5bd28479b85bd3b35136417e24",
+  "README.md": "c21dd531882202165958a015610469c36ca30755e3a2c8f953a579fee2bf34ee",
   "recursion_compatibility/check_compatibility.py": "2a75ecefe5e11848e558a2ebad4f9e2de94146f07f1f3e96d6aa416941b9159c",
   "recursion_compatibility/README.md": "2952cd03f3fd324fc52241a837268886a701d3ef46f621e15fbeb61706796e33",
   "recursion_compatibility/results.json": "f0bc252f350622fd01fd4a6fc5c69034890f0232daef56dcae9027506df21778",
@@ -134,7 +138,7 @@
   "source_symmetry/README.md": "01f041ae14dc3da26cebec7c819d581a68c4bbe705231d67129c9a4a9cc4fad1",
   "source_symmetry/results.json": "f280f35a6430ed018c8951e366b3cd981917ca1c886221e0378c8c7e4050d3bb",
   "source_symmetry/SOURCES.json": "d0cd6cf78bbc9b365ca316f353f2de88c7b606bb270fbf56bac8e6332d932da0",
-  "STAGE_CHECK.json": "3af0ca22d8aff0c283a222a4a81facd75da473771a9018fed1f1e5f8db4fc648",
+  "STAGE_CHECK.json": "bf22fa59777dab827ae734daa3b9189276a20a3ad3e2008bba83e698ee3b3443",
   "synthetic_fixed_time_trace.csv": "f0cf448b50d8490b0d51c23dbaf1f2e19a747c229474e02c129f7fcf60316bae",
-  "validate_stage.py": "295f1cb738397e0bc207d5cd9b385dd6444899b0b15e227dcdd412f57b802dc8"
+  "validate_stage.py": "0920c0852d6779e8e0de567b6e17a3a530d8078aba61d5001b794855d53e4805"
 }

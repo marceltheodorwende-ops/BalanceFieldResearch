@@ -1,0 +1,144 @@
+{
+  "status": "PASS",
+  "date": "2026-11-04",
+  "Gamma_target": [
+    [
+      "25/48",
+      "5/24"
+    ],
+    [
+      "5/24",
+      "35/96"
+    ]
+  ],
+  "Y": [
+    [
+      "25/96",
+      "5*sqrt(6)/144"
+    ],
+    [
+      "5*sqrt(6)/144",
+      "35/288"
+    ]
+  ],
+  "neutral_coordinate_controls": [
+    {
+      "name": "nonorthogonal",
+      "mixed_block": [
+        [
+          "-2",
+          "-5/4"
+        ],
+        [
+          "-1/2",
+          "-5/4"
+        ]
+      ],
+      "intrinsic_metric": [
+        [
+          "8",
+          "4"
+        ],
+        [
+          "4",
+          "5"
+        ]
+      ],
+      "invariant_Gamma": [
+        [
+          "25/48",
+          "5/24"
+        ],
+        [
+          "5/24",
+          "35/96"
+        ]
+      ],
+      "same_Y": true,
+      "literal_mixed_clause": false,
+      "literal_metric_clause": false
+    },
+    {
+      "name": "orthogonal",
+      "mixed_block": [
+        [
+          "1/4",
+          "-1"
+        ],
+        [
+          "1",
+          "-1/4"
+        ]
+      ],
+      "intrinsic_metric": [
+        [
+          "3",
+          "0"
+        ],
+        [
+          "0",
+          "2"
+        ]
+      ],
+      "invariant_Gamma": [
+        [
+          "25/48",
+          "5/24"
+        ],
+        [
+          "5/24",
+          "35/96"
+        ]
+      ],
+      "same_Y": true,
+      "literal_mixed_clause": false,
+      "literal_metric_clause": false
+    }
+  ],
+  "uncoupled_neutral_padding_same_response": true,
+  "source_unitary_covariance": true,
+  "rank_controls": [
+    {
+      "capacity_rank": 0,
+      "Gamma_rank": 0,
+      "Y_rank": 0
+    },
+    {
+      "capacity_rank": 1,
+      "Gamma_rank": 1,
+      "Y_rank": 1
+    },
+    {
+      "capacity_rank": 2,
+      "Gamma_rank": 2,
+      "Y_rank": 2
+    }
+  ],
+  "literal_composition_control": {
+    "coherence_rank": 1,
+    "master_rank": 1,
+    "target_rank": 2,
+    "same_finite_carrier_identification_possible": false
+  },
+  "derivative_control": {
+    "point_rank": 1,
+    "derivative_rank": 2,
+    "positive_field_determinant": "2*t**2",
+    "derivative_Gram": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "same_point_constant_field_derivative_rank": 0
+  },
+  "target_identity_derived_from_original_sources": false,
+  "source_Dcov_typing_and_capacity_identification_resolved": false,
+  "proposed_blocks_adopted": false,
+  "new_physical_rule_adopted": false,
+  "event_rule_modified": false
+}

@@ -249,6 +249,19 @@ assert not initial_y['original_source_implication_of_mixed_and_metric_clauses_es
 assert not initial_y['proposal_adopted'] and not initial_y['new_physical_rule_adopted']
 assert not initial_y['event_rule_modified']
 report['initial_y_closure']='PASS; existing candidate computed exactly with strict domain and event checks; two source identifications remain proposed, not historically derived or adopted'
+capacity_gram=json.loads((root/'capacity_gram/results.json').read_text(encoding='utf-8'))
+assert capacity_gram['status']=='PASS' and capacity_gram['source_unitary_covariance']
+assert all(x['same_Y'] for x in capacity_gram['neutral_coordinate_controls'])
+assert [(x['capacity_rank'],x['Gamma_rank'],x['Y_rank']) for x in capacity_gram['rank_controls']]==[(0,0,0),(1,1,1),(2,2,2)]
+assert capacity_gram['literal_composition_control']['coherence_rank']==1
+assert capacity_gram['literal_composition_control']['target_rank']==2
+assert capacity_gram['derivative_control']['same_point_constant_field_derivative_rank']==0
+assert capacity_gram['derivative_control']['derivative_rank']==2
+assert not capacity_gram['target_identity_derived_from_original_sources']
+assert not capacity_gram['source_Dcov_typing_and_capacity_identification_resolved']
+assert not capacity_gram['proposed_blocks_adopted'] and not capacity_gram['new_physical_rule_adopted']
+assert not capacity_gram['event_rule_modified']
+report['capacity_gram']='PASS; neutral-coordinate invariant target and rank checks; explicit source B_C relation retained; finite composition distinguished from field derivative; source implication unresolved'
 (root/'STAGE_CHECK.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 manifest={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json' and '__pycache__' not in p.parts}
 (root/'SHA256SUMS.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')

@@ -16,6 +16,8 @@ On **4 November 2026**, the [recursion compatibility audit](recursion_compatibil
 
 The [direct initial-Y closure check](initial_y_closure/README.md), also dated **4 November 2026**, evaluates the existing explicit formula Y=(H_*^(-1/2) aleph_0 H_*^(-1/2))^2, traces its two source-neutral identifications to their still-proposed L0-NC status, and proves the full-selection criterion -H_*<aleph_0<H_*. The existing two-dimensional fixture succeeds and the scalar Y=1 boundary terminates as expected. The candidate computation is complete conditionally; its derivation from the earlier assumptions remains unestablished. The proposal is not adopted.
 
+The [capacity-Gram follow-up](capacity_gram/README.md) reduces the candidate response to the invariant condition B M^(-1) B*=aleph_0 H^(-1) aleph_0. A screen of 75 deduplicated extractions and targeted source reading retains the existing B_C=D_cov c relation. A rank test rules out one literal finite-composition identification for the proposal's example; a positive-field control shows why differentiation is different and needs field-derivative data. The source implication of the target identity remains open; no proposed rule is adopted.
+
 ## Results of the first milestone
 
 - An indexed register of 48 numbered statements, with original statement text, available adjacent proofs, labels and PDF pages. Seven central dependencies received a focused analytic review; the remaining rows are explicitly pending detailed adversarial review. Definitions and limitations are indexed but are not treated as positive theorems.
