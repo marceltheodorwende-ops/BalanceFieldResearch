@@ -1,6 +1,6 @@
 # EP01 pre-freeze readiness ledger
 
-Status: **NOT READY TO FREEZE** (31 October 2026). This is a public
+Status: **NOT READY TO FREEZE** (5 November 2026). This is a public
 bookkeeping ledger, not a confirmatory protocol, model result, clinical claim,
 or BFG derivation. A row marked `SUPPORTED` only means that the named
 preparatory evidence exists; it never substitutes for the still-required
@@ -21,7 +21,7 @@ or test opening.
 |---|---|---|---|
 | Scope, prior exposure, and split | `DATA_AND_SCORING_AUDIT.md`; `contract.py`; `check_contract.py` reject CHB person leakage and all EEG/test access | SUPPORTED | Preserve the explicit development allowlist and log any newly discovered prior access; otherwise reclassify affected material as development. |
 | Primary-source data/version/license/annotation audit | CHB-MIT pinned-source records, provenance and annotation audits; public Siena landing-page receipt only | PARTIAL | Re-check the exact source version, license and annotation semantics at permitted acquisition time without opening sealed Siena subject data. |
-| Development full-header feasibility | `FULL_HEADER_INVENTORY_CONTRACT.md` and preflight define 565 bounded header requests; synthetic controls pass | BLOCKED | Execute the finite, externally supervised, development-only header inventory once; retain every success/failure receipt and do not fill missing records. |
+| Development full-header feasibility | One bounded 565-record development-only run reached the request phase; all requests stopped at the no-redirect control, with zero joined headers and zero waveform bytes; aggregate receipt in `HEADER_INVENTORY_EXECUTION_2026-11-05.md` | BLOCKED | Before any new run, independently review and publish a distinct source endpoint/redirect/identity configuration. Keep all 565 records in the accounting; do not use a subset or repeat the identical failed configuration. |
 | Measurement/preprocessing/QC | `CHANNEL_POLICY.md`, `STREAMING_CONTRACT.md`, `AVAILABILITY_CONTRACT.md`, `RECORD_SCORING_CONTRACT.md` establish boundaries only | OPEN | Freeze units, reference/montage mapping, channel eligibility, sampling conversion, causal filters, artifact/bad-channel thresholds, gaps/resets and failed-record handling. No item may be called BFG-derived without its separate derivation gate. |
 | Scoring | pinned source audit plus `TIMELY_ENDPOINT.md` and record-scoring controls | PARTIAL | Pin exact SzCORE-compatible scorer/version/configuration and complementary timely endpoint: matching, merge/split, tolerance, refractory/held-alarm treatment, deadline and recording-time denominator. These are scoring definitions, not natural laws. |
 | Comparator registry and tuning | `COMPARATOR_TUNING_CONTRACT.md` fixes four required slots and equal-information constraints | OPEN | Publish an implementation/version/license/input/search-space/seed/trial-budget/failure-policy registry for all four slots. Select no method or budget from test outcomes. |

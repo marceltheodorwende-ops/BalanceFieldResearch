@@ -12,6 +12,22 @@ Summary distinguishes attempted, eligible, metadata-ineligible and failed files.
 
 Controls:6 groups run565 synthetic header fixtures through the real full manifest, with1 deliberately failed and1 metadata-ineligible record;563 eligible. All565 requests unique/exact,565 atomic receipts present, partial seconds not labelled total, unknown heldout path rejects BEFORE requests and preexisting output directory refuses overwrite. Initial fixture used an incorrect header-byte key and failed as565 explicit records; corrected fixture schema then passed. Production scientific rules unchanged. Compilation PASS. Separate real-source OFFLINE preflight validates565 source records and manifest equality using existing local material; zero new network requests or measurements.
 
-Lifecycle blocker: Codex Process Jobs start skill requires qualifying uncertain/long workloads to run through its durable controller. The provided cloud skill is available, but no callable process-job tool or job.mjs controller was found in the available executor/plugin locations. No job launched, no background PID/notification/continuous execution claimed. Full acquisition remains PREPARED_NOT_STARTED in full_header_inventory_preflight.json. This is a runtime capability gap; no user scientific approval is pending. Do not bypass lifecycle policy with a hidden nohup/daemon or new scheduler. Existing hourly continuation remains the task owner.
+Execution update (5 November2026): the user authorized one foreground,
+externally bounded run. Its first invocation stopped before any header request
+because the runner required development summaries not retained locally. After
+each missing, allowed development summary was fetched singly and hash-verified,
+the rerun attempted all565 exact paths once. All stopped at the existing
+no-redirect control; zero headers joined and zero waveform bytes were read.
+`HEADER_INVENTORY_EXECUTION_2026-11-05.md` contains aggregate-only evidence.
+Do not bypass this result through a hidden daemon, a scheduler, redirect
+following, a subset, or a retry of the identical source-access configuration.
+Any different configuration requires a separately reviewed endpoint/redirect
+and identity contract before a new finite run.
 
-Next necessary dependency is supported finite execution and actual receipt/aggregate verification. Then resolve any header/source/channel/duration failures without exclusions or denominator loss. Scientific preprocessing/QC, BFG measurement/preparation/closure, strong rivals, inference/precision/clinical margin and full confirmation freeze remain OPEN. No new BFG/biological law, fit term or empirical success. P81 OPEN/deferred; historical negative covariance preserved.
+Next necessary dependency is an independently reviewed, published source
+endpoint/redirect/identity configuration before any different finite execution.
+Then resolve any header/source/channel/duration failures without exclusions or
+denominator loss. Scientific preprocessing/QC, BFG measurement/preparation/
+closure, strong rivals, inference/precision/clinical margin and full
+confirmation freeze remain OPEN. No new BFG/biological law, fit term or
+empirical success. P81 OPEN/deferred; historical negative covariance preserved.

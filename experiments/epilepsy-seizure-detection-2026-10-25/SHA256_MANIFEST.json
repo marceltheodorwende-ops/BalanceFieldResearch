@@ -71,18 +71,23 @@
   },
   {
     "path": "FULL_HEADER_INVENTORY_CONTRACT.md",
-    "bytes": 4712,
-    "sha256": "9e177892ea1b3cd30e70a518c8667db12a15943fdb40c7c88c163936f3f06cab"
+    "bytes": 4926,
+    "sha256": "772b1b5e68b915fed20f99ea60e6b6efa8b7c3583ca558fc577b56b6928de68c"
   },
   {
     "path": "FREEZE_READINESS_LEDGER.md",
-    "bytes": 5279,
-    "sha256": "401af2a8a8740dd66ee087e985f98d4295efe3360ad973f5152ecfbc333111ad"
+    "bytes": 5469,
+    "sha256": "7b6c98643821dd17d8ac4ee037b444ec6b97c8b4f4a460102beae79fb8af8bce"
   },
   {
     "path": "HEADER_COVERAGE.md",
     "bytes": 3226,
     "sha256": "c88014bb64d78686e11294b486d668260cc628602e07640a488c9225e5a834f3"
+  },
+  {
+    "path": "HEADER_INVENTORY_EXECUTION_2026-11-05.md",
+    "bytes": 2747,
+    "sha256": "22b2bf1b09af4e08308b077f2e562d8ab5d0c37a25573be9b68727dcf906a3ee"
   },
   {
     "path": "MANIFEST_AND_MONTAGE_CONTRACT.md",
@@ -101,8 +106,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 3792,
-    "sha256": "909c19a8a933aeaf507a1ea5572d536ce6fb212c98b04b45296ae3f8bf315a44"
+    "bytes": 4085,
+    "sha256": "66dd6fa91bcd07007d1482f12b7e513d3a31954bcced5dad330b62235ec0fc39"
   },
   {
     "path": "RECORDING_TIME_CONTRACT.md",
@@ -421,8 +426,8 @@
   },
   {
     "path": "full_header_inventory_preflight.json",
-    "bytes": 253,
-    "sha256": "0c1226bc9c39d6986af0680c2affd040309faeb4134be8bb0f36817a75d73704"
+    "bytes": 470,
+    "sha256": "283939afc801b86ce278b99d4d3473a4ae8590b73ddaf8daab682721c3d69755"
   },
   {
     "path": "header_coverage_audit.json",
